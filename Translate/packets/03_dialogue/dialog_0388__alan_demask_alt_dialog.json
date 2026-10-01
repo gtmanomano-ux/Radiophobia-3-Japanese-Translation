@@ -1,0 +1,1645 @@
+{
+    "packet_id":  "dialog_0388__alan_demask_alt_dialog",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "alan_demask_alt_dialog",
+    "graph_source":  "gamedata/config/gameplay/dialogs_military.xml",
+    "graph_sha256":  "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+    "character_bindings":  [
+                               {
+                                   "profile_id":  "alan",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_military.xml"
+                               }
+                           ],
+    "dialog_conditions":  [
+                              {
+                                  "type":  "has_info",
+                                  "value":  "bun_antenna_off"
+                              },
+                              {
+                                  "type":  "dont_has_info",
+                                  "value":  "alan_hello"
+                              },
+                              {
+                                  "type":  "dont_has_info",
+                                  "value":  "alan_finish"
+                              }
+                          ],
+    "root_speaker_hint":  "player",
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  32,
+    "entries":  [
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_1#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1870,
+                        "string_id":  "alan_demask_alt_dialog_phrase_1",
+                        "occurrence":  1,
+                        "EN":  "Hello, are you Alan?",
+                        "JA_current":  "Hello, are you Alan?",
+                        "JA_new":  "あんたがアランか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "0",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_2#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1873,
+                        "string_id":  "alan_demask_alt_dialog_phrase_2",
+                        "occurrence":  1,
+                        "EN":  "In person. I know who you are, you\u0027re the Marked One, and you came here in search of a group of unknowns under the command of Waterman. And since you\u0027ve already disabled the Brain Scorcher, it looks like it\u0027s time to lay our cards on the table.",
+                        "JA_current":  "In person. I know who you are, you\u0027re the Marked One, and you came here in search of a group of unknowns under the command of Waterman. And since you\u0027ve already disabled the Brain Scorcher, it looks like it\u0027s time to lay our cards on the table.",
+                        "JA_new":  "あんたが誰かは分かってる。マークドワンだろう。ウォーターマンという男に率いられた正体不明の一団を捜しに来たんだな。ブレイン・スコーチャーも止めたことだし、そろそろ腹を割って話す時だ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "1",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_3#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1876,
+                        "string_id":  "alan_demask_alt_dialog_phrase_3",
+                        "occurrence":  1,
+                        "EN":  "What are you talking about?",
+                        "JA_current":  "What are you talking about?",
+                        "JA_new":  "何の話だ？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "2",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_4#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1879,
+                        "string_id":  "alan_demask_alt_dialog_phrase_4",
+                        "occurrence":  1,
+                        "EN":  "Well, how about the fact that I consider my mission almost completed, and that you are currently the only thing standing in the way of my objective.",
+                        "JA_current":  "Well, how about the fact that I consider my mission almost completed, and that you are currently the only thing standing in the way of my objective.",
+                        "JA_new":  "俺の任務はほぼ完了した。今、目的の邪魔をしているのはあんただけだ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "3",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_5#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1882,
+                        "string_id":  "alan_demask_alt_dialog_phrase_5",
+                        "occurrence":  1,
+                        "EN":  "What mission? Listen, I don\u0027t know what you\u0027re talking about. Do you know where to find Waterman or not?",
+                        "JA_current":  "What mission? Listen, I don\u0027t know what you\u0027re talking about. Do you know where to find Waterman or not?",
+                        "JA_new":  "任務だと？ 何の話か分からない。ウォーターマンの居場所を知ってるのか、知らないのか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "4",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_6#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1885,
+                        "string_id":  "alan_demask_alt_dialog_phrase_6",
+                        "occurrence":  1,
+                        "EN":  "Don\u0027t worry about Waterman or anything else for that matter, because you won\u0027t be alive for much longer. That\u0027s why I\u0027m going to tell you the whole story from the beginning. It\u0027s not like you\u0027re going to talk anyway, there\u0027s no way out of here.",
+                        "JA_current":  "Don\u0027t worry about Waterman or anything else for that matter, because you won\u0027t be alive for much longer. That\u0027s why I\u0027m going to tell you the whole story from the beginning. It\u0027s not like you\u0027re going to talk anyway, there\u0027s no way out of here.",
+                        "JA_new":  "ウォーターマンのことも、それ以外も気にするな。お前はもうすぐ死ぬ。だから最初から全部話してやる。どうせ誰にも話せないだろうし、ここから逃げる手もない。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "5",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_7#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1888,
+                        "string_id":  "alan_demask_alt_dialog_phrase_7",
+                        "occurrence":  1,
+                        "EN":  "What are you saying... Did the radiation affect you?",
+                        "JA_current":  "What are you saying... Did the radiation affect you?",
+                        "JA_new":  "何を言ってる……放射線にやられたのか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "6",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_8#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1891,
+                        "string_id":  "alan_demask_alt_dialog_phrase_8",
+                        "occurrence":  1,
+                        "EN":  "Not at all. It\u0027s just that I have nothing to fear now. The Scorcher is off, the most serious obstacle on the way to Pripyat, Chernobyl and the Wish Granter is disabled, the path ahead is open. In any case, I\u0027ll be the first to reach the Wish Granter, because you won\u0027t be alive to compete with me.",
+                        "JA_current":  "Not at all. It\u0027s just that I have nothing to fear now. The Scorcher is off, the most serious obstacle on the way to Pripyat, Chernobyl and the Wish Granter is disabled, the path ahead is open. In any case, I\u0027ll be the first to reach the Wish Granter, because you won\u0027t be alive to compete with me.",
+                        "JA_new":  "いや、何も怖くないだけだ。ブレイン・スコーチャーは停止した。プリピャチ、チョルノービリ、そして願望機へ続く最大の障害は消えた。道は開けたんだ。願望機に一番乗りするのは俺だ。競争相手のお前は、もう生きてないからな。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "7",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_9#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1894,
+                        "string_id":  "alan_demask_alt_dialog_phrase_9",
+                        "occurrence":  1,
+                        "EN":  "Are you insane? I don\u0027t want anything to do with the Wish Granter, my only focus is Strelok and the Waterman!",
+                        "JA_current":  "Are you insane? I don\u0027t want anything to do with the Wish Granter, my only focus is Strelok and the Waterman!",
+                        "JA_new":  "正気か？ 願望機なんかどうでもいい。俺はストレロクとウォーターマンを追ってるんだ！",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "8",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_10#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1897,
+                        "string_id":  "alan_demask_alt_dialog_phrase_10",
+                        "occurrence":  1,
+                        "EN":  "Well, as it happens, the Wish Granter is precisely why I\u0027m here. Going through the Scorcher is just a technicality thanks to this helmet, I could throw money at the problem and it would go away. However, single-handedly punching through Monolith defenses is a totally different ballgame, it\u0027d be suicide. You must understand, my real mission is above your trivial pursuit for the Strelok, it is above mere human greed for wishes. I represent the interests of the American people, the needs of a whole nation! ",
+                        "JA_current":  "Well, as it happens, the Wish Granter is precisely why I\u0027m here. Going through the Scorcher is just a technicality thanks to this helmet, I could throw money at the problem and it would go away. However, single-handedly punching through Monolith defenses is a totally different ballgame, it\u0027d be suicide. You must understand, my real mission is above your trivial pursuit for the Strelok, it is above mere human greed for wishes. I represent the interests of the American people, the needs of a whole nation! ",
+                        "JA_new":  "実は、俺がここに来たのは願望機のためだ。ウォーターマンとストレロクの話は、あんたを同行させるための作り話にすぎない。ヘルメットがあればスコーチャーを通るのは技術的な問題にすぎない。金を積めば解決できる。だが、モノリスの防衛線を一人で突破するのは別問題だ。自殺行為だからな。俺の本当の任務は、あんたのくだらないストレロク探しより大きい。人間のちっぽけな欲望のために願いを求めるのとも違う。俺はアメリカ国民の利益を代表している。国全体の必要のために動いてるんだ！",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "9",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_11#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1900,
+                        "string_id":  "alan_demask_alt_dialog_phrase_11",
+                        "occurrence":  1,
+                        "EN":  "The American people!?",
+                        "JA_current":  "The American people!?",
+                        "JA_new":  "アメリカ国民だって！？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "10",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_12#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1903,
+                        "string_id":  "alan_demask_alt_dialog_phrase_12",
+                        "occurrence":  1,
+                        "EN":  "That\u0027s right. In case you\u0027re struggling to connect the dots, I\u0027ll tell you the whole affair from the beginning. You helped me out and it\u0027s the least I can do for you before you die. To begin with, I\u0027m not really a stalker, not in the traditional sense. My name is Alan Waters, and I\u0027m an operative with the Special Activities Division of the United States Central Intelligence Agency. I chose the convenient call-sign \"Waterman\" because of my last name. Is it all becoming clearer to you now?",
+                        "JA_current":  "That\u0027s right. In case you\u0027re struggling to connect the dots, I\u0027ll tell you the whole affair from the beginning. You helped me out and it\u0027s the least I can do for you before you die. To begin with, I\u0027m not really a stalker, not in the traditional sense. My name is Alan Waters, and I\u0027m an operative with the Special Activities Division of the United States Central Intelligence Agency. I chose the convenient call-sign \"Waterman\" because of my last name. Is it all becoming clearer to you now?",
+                        "JA_new":  "そうだ。話がつながらないなら、最初から説明してやる。死ぬ前にしてやれることといえば、それくらいだ。まず、俺は普通のストーカーじゃない。アラン・ウォーターズ。アメリカ中央情報局、CIAの特別活動部門に所属する工作員だ。名字にちなんで、ウォーターマンというコードネームを使っている。これで話が見えてきたか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "11",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_13#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1906,
+                        "string_id":  "alan_demask_alt_dialog_phrase_13",
+                        "occurrence":  1,
+                        "EN":  "A CIA commando spy in the Zone, I can\u0027t believe it. Unless you\u0027re lying...",
+                        "JA_current":  "A CIA commando spy in the Zone, I can\u0027t believe it. Unless you\u0027re lying...",
+                        "JA_new":  "ゾーンにCIAの特殊工作員が潜り込んでたなんて、信じられない。嘘じゃなければな……。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "12",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_14#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1909,
+                        "string_id":  "alan_demask_alt_dialog_phrase_14",
+                        "occurrence":  1,
+                        "EN":  "Wouldn\u0027t make much sense for me to lie to you now, you\u0027ll be dead soon anyway. Why would I waste my time fabricating a story to a corpse? \\n \\nSo, let me continue. Ever since the second disaster and the emergence of the Zone, the US government has been very interested in the phenomena emerging from the ruins of the Chernobyl power plant. Our satellites are constantly detecting these powerful bursts of unidentified energy, the so-called \"emissions\", traced to the vicinity of the sarcophagus built over unit 4. Whatever their origin may be, the US military industrial complex would be interested in reverse-engineering and weaponizing these emissions. Think about it: if you create a device generating similar emissions, more powerful and able to act across a vast area of land, then nuclear ordnance would become obsolete. It would be possible to neutralize all enemy combatants across a selected area without any physical damage to infrastructure.. Whoever obtains this technology first will rule the planet. Needless to say, our government had to get to it first, before anyone else does. Many have tried, so far all have failed. We will be the first to succeed.",
+                        "JA_current":  "Wouldn\u0027t make much sense for me to lie to you now, you\u0027ll be dead soon anyway. Why would I waste my time fabricating a story to a corpse? \\n \\nSo, let me continue. Ever since the second disaster and the emergence of the Zone, the US government has been very interested in the phenomena emerging from the ruins of the Chernobyl power plant. Our satellites are constantly detecting these powerful bursts of unidentified energy, the so-called \"emissions\", traced to the vicinity of the sarcophagus built over unit 4. Whatever their origin may be, the US military industrial complex would be interested in reverse-engineering and weaponizing these emissions. Think about it: if you create a device generating similar emissions, more powerful and able to act across a vast area of land, then nuclear ordnance would become obsolete. It would be possible to neutralize all enemy combatants across a selected area without any physical damage to infrastructure.. Whoever obtains this technology first will rule the planet. Needless to say, our government had to get to it first, before anyone else does. Many have tried, so far all have failed. We will be the first to succeed.",
+                        "JA_new":  "今さらあんたに嘘をつく意味はない。どうせすぐ死ぬんだ。死体相手に作り話をする暇がどこにある？\\n \\nそれじゃ、続けよう。第二の大災害が起きてゾーンが現れて以来、アメリカ政府はチョルノービリ原子力発電所の廃墟で起きている現象に強い関心を寄せてきた。衛星は、正体不明の強力なエネルギー放出――いわゆる「エミッション」――を常に検知している。発生源は、4号炉を覆う石棺の近くだ。正体が何であれ、アメリカの軍産複合体にとっては、エミッションの仕組みを解明し、兵器に転用する価値がある。考えてみろ。同じエミッションを発生させる装置を作り、さらに強力にして広範囲へ作用させれば、核兵器は時代遅れになる。インフラに物理的な損傷を与えず、選んだ地域の敵兵を全員無力化できるんだ。この技術を先に手に入れた者が、地球を支配する。だから政府は、誰よりも先に手に入れなければならなかった。大勢が試みたが、全員失敗した。今度こそ、俺たちが成功する。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "13",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_15#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1912,
+                        "string_id":  "alan_demask_alt_dialog_phrase_15",
+                        "occurrence":  1,
+                        "EN":  "So you just want to make a new doomsday device... But how does all that relate to the Wish Granter?",
+                        "JA_current":  "So you just want to make a new doomsday device... But how does all that relate to the Wish Granter?",
+                        "JA_new":  "つまり、新しい最終兵器を作りたいだけか……。それが願望機とどう関係する？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "14",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_16#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1915,
+                        "string_id":  "alan_demask_alt_dialog_phrase_16",
+                        "occurrence":  1,
+                        "EN":  "We believe that the source of these emissions originates from within the Sarcophagus, from the so called \"Wish-Granting Machine\". Up until now, all attempts at breaching the center were hampered by the so called \"Brain Scorcher\" - the origin of which we isolated to this old radar array. The Scorcher formed a protective canopy over the old power-plant and the nearby areas, like an invisible globe separating the Center of the Zone from the outskirts. The electromagnetic energy would fry circuitry, screw with navigation and destroy a human brain in no time. Many have tried to breach it, various military forces including those of Ukraine, Russia, NATO and ourselves, even your own fellow stalkers, they\u0027ve all tried and perished in doomed expeditions and reckless suicide missions. Bombing the radar site proved fruitless also, believe me, we have tried. Every explosive payload sent to demolish the Scorcher emitter failed to detonate, our scientists nearly blew a gasket trying to figure out why. The only option that remained was to somehow find a protective countermeasure against this radiation. We were at an impasse that only the scientists could work around. Then your pal Strelok apparently beat the eggheads to it. Over a month ago we received some intel that raised quite a few eyebrows at Langley. A solid piece of information suggesting that a lone stalker managed to breach the Scorcher\u0027s area of influence. An operation was planned immediately. The primary objective was to capture and extract the Strelok, then interrogate him. He\u0027d be our key into the center. Once we had boots on the ground in the AO, things did not go so smoothly. Besides the botched insertion, tracking Strelok proved difficult.",
+                        "JA_current":  "We believe that the source of these emissions originates from within the Sarcophagus, from the so called \"Wish-Granting Machine\". Up until now, all attempts at breaching the center were hampered by the so called \"Brain Scorcher\" - the origin of which we isolated to this old radar array. The Scorcher formed a protective canopy over the old power-plant and the nearby areas, like an invisible globe separating the Center of the Zone from the outskirts. The electromagnetic energy would fry circuitry, screw with navigation and destroy a human brain in no time. Many have tried to breach it, various military forces including those of Ukraine, Russia, NATO and ourselves, even your own fellow stalkers, they\u0027ve all tried and perished in doomed expeditions and reckless suicide missions. Bombing the radar site proved fruitless also, believe me, we have tried. Every explosive payload sent to demolish the Scorcher emitter failed to detonate, our scientists nearly blew a gasket trying to figure out why. The only option that remained was to somehow find a protective countermeasure against this radiation. We were at an impasse that only the scientists could work around. Then your pal Strelok apparently beat the eggheads to it. Over a month ago we received some intel that raised quite a few eyebrows at Langley. A solid piece of information suggesting that a lone stalker managed to breach the Scorcher\u0027s area of influence. An operation was planned immediately. The primary objective was to capture and extract the Strelok, then interrogate him. He\u0027d be our key into the center. Once we had boots on the ground in the AO, things did not go so smoothly. Besides the botched insertion, tracking Strelok proved difficult.",
+                        "JA_new":  "エミッションの発生源は石棺の中、いわゆる「願望機」だと俺たちは考えている。これまでゾーン中心部への侵入を阻んできたのが「ブレイン・スコーチャー」だ。発生源は、この古いレーダー施設だと突き止めた。スコーチャーは発電所跡と周辺地域を覆う防護膜のように働き、ゾーン中心部を外縁から見えない球体で隔てていた。電磁エネルギーは回路を焼き、航法を狂わせ、人間の脳をあっという間に破壊する。ウクライナ、ロシア、NATO、俺たちを含む各国の軍隊も、お前の仲間のストーカーたちも突破を試みた。だが、無謀な遠征や自殺同然の作戦で命を落とした。レーダー施設への爆撃も無駄だった。信じられないかもしれないが、俺たちも試した。スコーチャーの発信装置を破壊するために送り込んだ爆薬は、どれも起爆しなかった。理由を突き止めようと、科学者たちは頭を抱えた。残された手は、放射線を防ぐ手段を見つけることだけだった。科学者たちが解決策を出すまで、俺たちは行き詰まっていた。そこへ、ストレロクが専門家より先に答えを見つけたらしい。ひと月ほど前、ラングレーに届いた情報に、誰もが驚いた。単独のストーカーがスコーチャーの影響範囲を突破したという、確かな情報だった。すぐに作戦が立てられた。最優先目標はストレロクを捕らえて連れ出し、尋問すること。中心部への道を開く鍵になるはずだった。現地に部隊を送り込んだ後、計画は思うように進まなかった。侵入作戦が失敗したうえ、ストレロクの追跡も難航した。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "15",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_17#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1918,
+                        "string_id":  "alan_demask_alt_dialog_phrase_17",
+                        "occurrence":  1,
+                        "EN":  "Yeah I heard all about that, what happened?",
+                        "JA_current":  "Yeah I heard all about that, what happened?",
+                        "JA_new":  "その話は聞いた。何があった？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "16",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_18#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1921,
+                        "string_id":  "alan_demask_alt_dialog_phrase_18",
+                        "occurrence":  1,
+                        "EN":  "Our infiltration to the Zone was planned in the form of the usual entry of newcomers past the military cordon. However, this was our first setback: the area selected for breakthrough was chosen incorrectly and we walked straight into the military checkpoint. We had to break through directly, a fierce firefight ensued. In the skirmish we lost one of our squad members - Dan Zidoff. He had conducted some reconnaissance work in the Zone prior to this op and was designated as point-man, on account of his knowledge of locals and environment. With Dan gone, our mission would prove more difficult than we anticipated. Me and two other operators attempted to track the Strelok alone but predictably we were unsuccessful. Thankfully, Strelok is no longer needed, the ultimate objective of breaching the Scorcher has been accomplished without him. What remains is to secure the sarcophagus by any means necessary, prevent the locals from getting in. I\u0027m expecting the news to spread soon, there will be an entire horde of stalkers pushing for the plant any time now. They\u0027ll tear each other up trying to get their wish. They\u0027re like children, they don\u0027t understand what they\u0027re dealing with here. I expect the mutants, anomalies and those fanatics will buy me some time. ",
+                        "JA_current":  "Our infiltration to the Zone was planned in the form of the usual entry of newcomers past the military cordon. However, this was our first setback: the area selected for breakthrough was chosen incorrectly and we walked straight into the military checkpoint. We had to break through directly, a fierce firefight ensued. In the skirmish we lost one of our squad members - Dan Zidoff. He had conducted some reconnaissance work in the Zone prior to this op and was designated as point-man, on account of his knowledge of locals and environment. With Dan gone, our mission would prove more difficult than we anticipated. Me and two other operators attempted to track the Strelok alone but predictably we were unsuccessful. Thankfully, Strelok is no longer needed, the ultimate objective of breaching the Scorcher has been accomplished without him. What remains is to secure the sarcophagus by any means necessary, prevent the locals from getting in. I\u0027m expecting the news to spread soon, there will be an entire horde of stalkers pushing for the plant any time now. They\u0027ll tear each other up trying to get their wish. They\u0027re like children, they don\u0027t understand what they\u0027re dealing with here. I expect the mutants, anomalies and those fanatics will buy me some time. ",
+                        "JA_new":  "ゾーンへの潜入は、軍の検問線を越えて新入りとして入る、いつもの方法で計画されていた。だが、最初の誤算だ。突破地点の選定を誤り、部隊は軍の検問所へまっすぐ出てしまった。力ずくで突破するしかなく、激しい銃撃戦になった。その戦闘で隊員の一人、ダン・ジドフを失った。作戦前にゾーンの偵察をしていた彼は、地元の人間や土地に詳しいという理由で先導役を任されていた。ダンを失ったせいで、作戦は予想以上に難しくなった。俺と別の工作員二人でストレロクを追ったが、案の定うまくいかなかった。だが幸い、もうストレロクは必要ない。スコーチャーの突破という最終目標は、あいつ抜きで達成した。残る仕事は、どんな手を使ってでも石棺を確保し、地元の連中を近づけないことだ。すぐに噂が広まるだろう。ストーカーが大群で発電所へ押し寄せるのも時間の問題だ。願いを叶えようと、連中は殺し合う。子どもみたいなもんさ。ここで何を相手にしているか分かってない。ミュータントやアノマリー、あの狂信者どもが、しばらくは足止めしてくれるだろう。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "17",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_19#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1924,
+                        "string_id":  "alan_demask_alt_dialog_phrase_19",
+                        "occurrence":  1,
+                        "EN":  "Well, I found Dan\u0027s body. He had a flash drive with information about your stash, this is what set me on your trail.",
+                        "JA_current":  "Well, I found Dan\u0027s body. He had a flash drive with information about your stash, this is what set me on your trail.",
+                        "JA_new":  "ダンの遺体なら見つけた。情報入りのフラッシュドライブを持ってた。あんたの隠し場所の情報が入っていて、それであんたを追うことになった。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "18",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_20#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1927,
+                        "string_id":  "alan_demask_alt_dialog_phrase_20",
+                        "occurrence":  1,
+                        "EN":  "This stash was prepared by one of our assets, a stalker nicknamed Knopik. He was hired for money and knew nothing about the true purpose of the mission. He thought we were rich foreign tourists who had decided to secretly enter the Zone in order to hunt local creatures. Knopik prepared our gear and scouted the way. We had verified information that Strelok had a cache in the dungeons of the Agroprom. That\u0027s where we headed after the Cordon.",
+                        "JA_current":  "This stash was prepared by one of our assets, a stalker nicknamed Knopik. He was hired for money and knew nothing about the true purpose of the mission. He thought we were rich foreign tourists who had decided to secretly enter the Zone in order to hunt local creatures. Knopik prepared our gear and scouted the way. We had verified information that Strelok had a cache in the dungeons of the Agroprom. That\u0027s where we headed after the Cordon.",
+                        "JA_new":  "あの隠し場所を準備したのは、クノピクという通り名のストーカーだ。金で雇ったが、作戦の本当の目的は知らなかった。地元の生き物を狩るため、こっそりゾーンに入った金持ちの外国人観光客だと思っていたんだ。クノピクは装備を用意し、道も調べた。ストレロクがアフロプロム地下に隠し場所を作ったという確かな情報があった。コルドンを越えたあと、そこへ向かった。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "19",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_21#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1930,
+                        "string_id":  "alan_demask_alt_dialog_phrase_21",
+                        "occurrence":  1,
+                        "EN":  "I take it you were unlucky there, eh?",
+                        "JA_current":  "I take it you were unlucky there, eh?",
+                        "JA_new":  "そこで運悪く見つからなかった、ってわけか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "20",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_22#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1933,
+                        "string_id":  "alan_demask_alt_dialog_phrase_22",
+                        "occurrence":  1,
+                        "EN":  "That\u0027s right, we could not find the hideout. There was an intense skirmish between the Ukrainian armed forces and some locals, too much activity for a secure entry. So, me and my partner Maxem decided to retreat and head to the Bar, and from there to the Army Warehouses. While at the bar, we received a heads up about a mysterious stalker poking around the Zone asking questions about Strelok and the group of unknown men tracking him.",
+                        "JA_current":  "That\u0027s right, we could not find the hideout. There was an intense skirmish between the Ukrainian armed forces and some locals, too much activity for a secure entry. So, me and my partner Maxem decided to retreat and head to the Bar, and from there to the Army Warehouses. While at the bar, we received a heads up about a mysterious stalker poking around the Zone asking questions about Strelok and the group of unknown men tracking him.",
+                        "JA_new":  "その通りだ。隠れ家は見つからなかった。それに、ウクライナ軍と地元の連中が激しく撃ち合っていて、安全に潜り込める状況じゃなかった。そこで相棒のマクセムと俺は引き返し、ロストクを経由して軍事倉庫へ向かった。ロストクにいた時、ストレロクと、彼を追う見知らぬ男たちについて聞き回る謎のストーカーがいると情報が入った。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "21",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_23#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1936,
+                        "string_id":  "alan_demask_alt_dialog_phrase_23",
+                        "occurrence":  1,
+                        "EN":  "Who told you that?",
+                        "JA_current":  "Who told you that?",
+                        "JA_new":  "誰から聞いた？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "22",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_24#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1939,
+                        "string_id":  "alan_demask_alt_dialog_phrase_24",
+                        "occurrence":  1,
+                        "EN":  "An informant. He said that some stalker called Marked One, with a strange tattoo on his arm, approached him and asked about strangers who matched our description, and asked about Strelok too. I suspected you were one of Strelok\u0027s men and wanted to capture and interrogate you for his whereabouts. Instead of going to intercept, I decided to dig in and simply wait; why chase after you, if it was pretty evident you\u0027d track us eventually? Maxem and I set up a temporary camp near the barrier, we knew it was a matter of time before you\u0027d get there. We even had arranged to have you watched to see how you\u0027re progressing. When it became clear that you\u0027re working with the traders to breach the Brain Scorcher, we decided to let you work and see where it takes us. But there was one more small problem.",
+                        "JA_current":  "An informant. He said that some stalker called Marked One, with a strange tattoo on his arm, approached him and asked about strangers who matched our description, and asked about Strelok too. I suspected you were one of Strelok\u0027s men and wanted to capture and interrogate you for his whereabouts. Instead of going to intercept, I decided to dig in and simply wait; why chase after you, if it was pretty evident you\u0027d track us eventually? Maxem and I set up a temporary camp near the barrier, we knew it was a matter of time before you\u0027d get there. We even had arranged to have you watched to see how you\u0027re progressing. When it became clear that you\u0027re working with the traders to breach the Brain Scorcher, we decided to let you work and see where it takes us. But there was one more small problem.",
+                        "JA_new":  "情報屋だ。腕に妙なタトゥーのあるマークドワンというストーカーが、俺たちに似た見知らぬ連中について尋ね、ストレロクのことも聞いてきたそうだ。あんたはストレロクの仲間だと思った。居場所を聞き出すために捕まえて尋問するつもりだった。だが、迎えに行く代わりに、俺は待ち伏せして様子を見ることにした。いずれあんたが俺たちを追ってくるのは明らかだったからな。マクセムとバリア近くに仮のキャンプを張った。あんたが来るのも時間の問題だと分かっていた。進み具合を見張る手配までしていたんだ。あんたが商人たちと組んでブレイン・スコーチャーを止めようとしていると分かってからは、成り行きを見ようと、好きにやらせておくことにした。だが、もうひとつ小さな問題があった。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "23",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_25#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1942,
+                        "string_id":  "alan_demask_alt_dialog_phrase_25",
+                        "occurrence":  1,
+                        "EN":  "Your asset, Knopik?",
+                        "JA_current":  "Your asset, Knopik?",
+                        "JA_new":  "あんたの手先、クノピクか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "24",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_26#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1945,
+                        "string_id":  "alan_demask_alt_dialog_phrase_26",
+                        "occurrence":  1,
+                        "EN":  "That\u0027s right. He got curious and saw information he shouldn\u0027t have seen. He became suspicious, realized that we would\u0027ve killed him for what he\u0027d found out. So, he decided to go rogue and we did not want to risk him giving you a warning. I arranged to get some hit-men on him as soon as possible; no shortage of bloodthirsty mercenaries without scruples around the Zone, especially if you have the money to pay them. However, just in case Knopik somehow evaded his pursuers and got to you first, I decided on a backup plan. I ordered Maxem to follow the hit-men, and if they failed to do so, to kill Knopik himself. Which he did. However, oddly enough, he never returned from his mission. I suspect you had something to do with that, didn\u0027t you?",
+                        "JA_current":  "That\u0027s right. He got curious and saw information he shouldn\u0027t have seen. He became suspicious, realized that we would\u0027ve killed him for what he\u0027d found out. So, he decided to go rogue and we did not want to risk him giving you a warning. I arranged to get some hit-men on him as soon as possible; no shortage of bloodthirsty mercenaries without scruples around the Zone, especially if you have the money to pay them. However, just in case Knopik somehow evaded his pursuers and got to you first, I decided on a backup plan. I ordered Maxem to follow the hit-men, and if they failed to do so, to kill Knopik himself. Which he did. However, oddly enough, he never returned from his mission. I suspect you had something to do with that, didn\u0027t you?",
+                        "JA_new":  "そうだ。好奇心を出して、見るべきでない情報を見てしまった。自分が知ったことのせいで俺たちに殺されると察したんだろう。逃げ出し、あんたに警告する恐れがあった。だから、すぐに殺し屋を差し向けた。ゾーンには血も涙もないマーセナリーズがいくらでもいる。金さえ払えばな。だが、万一クノピクが追っ手をまいて、先にあんたのところへたどり着いた時に備えて、別の手も用意した。マクセムに殺し屋たちを追わせ、失敗したら自分でクノピクを始末しろと命じた。実際、あいつはそうした。ところが、妙なことに任務から戻らなかった。あんたが何かしたんじゃないのか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "25",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_27#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1948,
+                        "string_id":  "alan_demask_alt_dialog_phrase_27",
+                        "occurrence":  1,
+                        "EN":  "Actually, yeah I did. Frankly speaking, you made me feel a lot better about wasting him.",
+                        "JA_current":  "Actually, yeah I did. Frankly speaking, you made me feel a lot better about wasting him.",
+                        "JA_new":  "ああ、そうだ。正直に言えば、あいつを始末したことで気が楽になったよ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "26",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_28#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1951,
+                        "string_id":  "alan_demask_alt_dialog_phrase_28",
+                        "occurrence":  1,
+                        "EN":  "Is that so? Anyway, it doesn\u0027t matter anymore. All right, now you know the truth. Do you have any last questions?",
+                        "JA_current":  "Is that so? Anyway, it doesn\u0027t matter anymore. All right, now you know the truth. Do you have any last questions?",
+                        "JA_new":  "そうか。まあ、もうどうでもいい。これで真相は分かったな。最後に聞きたいことはあるか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "27",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_29#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1954,
+                        "string_id":  "alan_demask_alt_dialog_phrase_29",
+                        "occurrence":  1,
+                        "EN":  "Yes, one. Why did you tell me all this?",
+                        "JA_current":  "Yes, one. Why did you tell me all this?",
+                        "JA_new":  "ひとつだけ。なぜ全部話した？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "28",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_30#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1957,
+                        "string_id":  "alan_demask_alt_dialog_phrase_30",
+                        "occurrence":  1,
+                        "EN":  "As a final appreciation for your efforts. After all, you were instrumental in helping us accomplish our objective. You helped me shut down the scorcher and allowed me to breach into the center of the Zone, it\u0027s the most I could do for you before I waste you. In a way, you were a huge asset to the US government, a real hero, even though the American people will never know your name. For this, I decided to satisfy your curiosity before your death. Yes, you were used as a pawn, get over it and wipe that scowl off your face. For what it\u0027s worth, I\u0027m sorry, you were dealt a shit hand. As for Strelok, I lied about Pripyat, I don\u0027t know where he is and quite frankly, I don\u0027t care what lice infested hole that Zone rat is hiding in. Can\u0027t believe I lost such good men crawling through mud, anomalies and freaks searching for that bum. It\u0027s good you came along when you did, you did all the hard work. So I hope you understand, this is nothing personal. I\u0027m just eliminating a potential risk and an unfortunate witness. Ofcourse, you killing my buddy Maxem will make this much easier for me. ",
+                        "JA_current":  "As a final appreciation for your efforts. After all, you were instrumental in helping us accomplish our objective. You helped me shut down the scorcher and allowed me to breach into the center of the Zone, it\u0027s the most I could do for you before I waste you. In a way, you were a huge asset to the US government, a real hero, even though the American people will never know your name. For this, I decided to satisfy your curiosity before your death. Yes, you were used as a pawn, get over it and wipe that scowl off your face. For what it\u0027s worth, I\u0027m sorry, you were dealt a shit hand. As for Strelok, I lied about Pripyat, I don\u0027t know where he is and quite frankly, I don\u0027t care what lice infested hole that Zone rat is hiding in. Can\u0027t believe I lost such good men crawling through mud, anomalies and freaks searching for that bum. It\u0027s good you came along when you did, you did all the hard work. So I hope you understand, this is nothing personal. I\u0027m just eliminating a potential risk and an unfortunate witness. Ofcourse, you killing my buddy Maxem will make this much easier for me. ",
+                        "JA_new":  "あんたの働きに対する、最後の礼だ。俺たちの目的達成に大きく貢献してくれた。ブレイン・スコーチャーを止めて、ゾーン中心部へ入れるようにしてくれた。殺す前に返せるものとしては、それが精一杯だ。あんたはアメリカ政府にとって大きな力になった。本当の英雄だよ。アメリカ国民がその名を知ることはないがな。だから死ぬ前に、知りたがっていたことを教えてやることにした。そうだ、あんたは駒として利用された。いつまでもふてくされてないで、顔をしかめるのはやめろ。少しは気の毒に思うよ。最悪の札を引かされたな。ストレロクについては、プリピャチの件は嘘だ。居場所なんて知らないし、あのシラミだらけのゾーン鼠がどこに隠れていようと知ったことか。あのろくでなしを追って、泥とアノマリーと化け物だらけの中を這い回り、いい部下を何人も失ったなんて信じられない。あんたが来てくれて助かったよ。面倒な仕事は全部やってくれた。だから、個人的な恨みじゃないと分かってくれ。危険になりうる奴と、運の悪い目撃者を始末するだけだ。もちろん、相棒のマクセムを殺してくれたおかげで、ずっと楽になった。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "29",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_31#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1960,
+                        "string_id":  "alan_demask_alt_dialog_phrase_31",
+                        "occurrence":  1,
+                        "EN":  "Let\u0027s get this over with...",
+                        "JA_current":  "Let\u0027s get this over with...",
+                        "JA_new":  "さっさと終わらせよう……。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "30",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_demask_alt_dialog_phrase_32#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1963,
+                        "string_id":  "alan_demask_alt_dialog_phrase_32",
+                        "occurrence":  1,
+                        "EN":  "See you on the other side!",
+                        "JA_current":  "See you on the other side!",
+                        "JA_new":  "あの世で会おう！",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_demask_alt_dialog",
+                                               "phrase_id":  "31",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  "alan_demask_alt_dialog_phrase_1",
+                            "next":  [
+                                         "1"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Hello, are you Alan?",
+                            "JA_current":  "Hello, are you Alan?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_1#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "1",
+                            "text_id":  "alan_demask_alt_dialog_phrase_2",
+                            "next":  [
+                                         "2"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "In person. I know who you are, you\u0027re the Marked One, and you came here in search of a group of unknowns under the command of Waterman. And since you\u0027ve already disabled the Brain Scorcher, it looks like it\u0027s time to lay our cards on the table.",
+                            "JA_current":  "In person. I know who you are, you\u0027re the Marked One, and you came here in search of a group of unknowns under the command of Waterman. And since you\u0027ve already disabled the Brain Scorcher, it looks like it\u0027s time to lay our cards on the table.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_2#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "2",
+                            "text_id":  "alan_demask_alt_dialog_phrase_3",
+                            "next":  [
+                                         "3"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "What are you talking about?",
+                            "JA_current":  "What are you talking about?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_3#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "3",
+                            "text_id":  "alan_demask_alt_dialog_phrase_4",
+                            "next":  [
+                                         "4"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "2"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Well, how about the fact that I consider my mission almost completed, and that you are currently the only thing standing in the way of my objective.",
+                            "JA_current":  "Well, how about the fact that I consider my mission almost completed, and that you are currently the only thing standing in the way of my objective.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_4#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "4",
+                            "text_id":  "alan_demask_alt_dialog_phrase_5",
+                            "next":  [
+                                         "5"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "3"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "What mission? Listen, I don\u0027t know what you\u0027re talking about. Do you know where to find Waterman or not?",
+                            "JA_current":  "What mission? Listen, I don\u0027t know what you\u0027re talking about. Do you know where to find Waterman or not?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_5#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "5",
+                            "text_id":  "alan_demask_alt_dialog_phrase_6",
+                            "next":  [
+                                         "6"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "4"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Don\u0027t worry about Waterman or anything else for that matter, because you won\u0027t be alive for much longer. That\u0027s why I\u0027m going to tell you the whole story from the beginning. It\u0027s not like you\u0027re going to talk anyway, there\u0027s no way out of here.",
+                            "JA_current":  "Don\u0027t worry about Waterman or anything else for that matter, because you won\u0027t be alive for much longer. That\u0027s why I\u0027m going to tell you the whole story from the beginning. It\u0027s not like you\u0027re going to talk anyway, there\u0027s no way out of here.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_6#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "6",
+                            "text_id":  "alan_demask_alt_dialog_phrase_7",
+                            "next":  [
+                                         "7"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "5"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "What are you saying... Did the radiation affect you?",
+                            "JA_current":  "What are you saying... Did the radiation affect you?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_7#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "7",
+                            "text_id":  "alan_demask_alt_dialog_phrase_8",
+                            "next":  [
+                                         "8"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "6"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Not at all. It\u0027s just that I have nothing to fear now. The Scorcher is off, the most serious obstacle on the way to Pripyat, Chernobyl and the Wish Granter is disabled, the path ahead is open. In any case, I\u0027ll be the first to reach the Wish Granter, because you won\u0027t be alive to compete with me.",
+                            "JA_current":  "Not at all. It\u0027s just that I have nothing to fear now. The Scorcher is off, the most serious obstacle on the way to Pripyat, Chernobyl and the Wish Granter is disabled, the path ahead is open. In any case, I\u0027ll be the first to reach the Wish Granter, because you won\u0027t be alive to compete with me.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_8#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "8",
+                            "text_id":  "alan_demask_alt_dialog_phrase_9",
+                            "next":  [
+                                         "9"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "7"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Are you insane? I don\u0027t want anything to do with the Wish Granter, my only focus is Strelok and the Waterman!",
+                            "JA_current":  "Are you insane? I don\u0027t want anything to do with the Wish Granter, my only focus is Strelok and the Waterman!",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_9#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "9",
+                            "text_id":  "alan_demask_alt_dialog_phrase_10",
+                            "next":  [
+                                         "10"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "8"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Well, as it happens, the Wish Granter is precisely why I\u0027m here. Going through the Scorcher is just a technicality thanks to this helmet, I could throw money at the problem and it would go away. However, single-handedly punching through Monolith defenses is a totally different ballgame, it\u0027d be suicide. You must understand, my real mission is above your trivial pursuit for the Strelok, it is above mere human greed for wishes. I represent the interests of the American people, the needs of a whole nation! ",
+                            "JA_current":  "Well, as it happens, the Wish Granter is precisely why I\u0027m here. Going through the Scorcher is just a technicality thanks to this helmet, I could throw money at the problem and it would go away. However, single-handedly punching through Monolith defenses is a totally different ballgame, it\u0027d be suicide. You must understand, my real mission is above your trivial pursuit for the Strelok, it is above mere human greed for wishes. I represent the interests of the American people, the needs of a whole nation! ",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_10#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "10",
+                            "text_id":  "alan_demask_alt_dialog_phrase_11",
+                            "next":  [
+                                         "11"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "9"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "The American people!?",
+                            "JA_current":  "The American people!?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_11#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "11",
+                            "text_id":  "alan_demask_alt_dialog_phrase_12",
+                            "next":  [
+                                         "12"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "10"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "That\u0027s right. In case you\u0027re struggling to connect the dots, I\u0027ll tell you the whole affair from the beginning. You helped me out and it\u0027s the least I can do for you before you die. To begin with, I\u0027m not really a stalker, not in the traditional sense. My name is Alan Waters, and I\u0027m an operative with the Special Activities Division of the United States Central Intelligence Agency. I chose the convenient call-sign \"Waterman\" because of my last name. Is it all becoming clearer to you now?",
+                            "JA_current":  "That\u0027s right. In case you\u0027re struggling to connect the dots, I\u0027ll tell you the whole affair from the beginning. You helped me out and it\u0027s the least I can do for you before you die. To begin with, I\u0027m not really a stalker, not in the traditional sense. My name is Alan Waters, and I\u0027m an operative with the Special Activities Division of the United States Central Intelligence Agency. I chose the convenient call-sign \"Waterman\" because of my last name. Is it all becoming clearer to you now?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_12#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "12",
+                            "text_id":  "alan_demask_alt_dialog_phrase_13",
+                            "next":  [
+                                         "13"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "11"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "A CIA commando spy in the Zone, I can\u0027t believe it. Unless you\u0027re lying...",
+                            "JA_current":  "A CIA commando spy in the Zone, I can\u0027t believe it. Unless you\u0027re lying...",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_13#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "13",
+                            "text_id":  "alan_demask_alt_dialog_phrase_14",
+                            "next":  [
+                                         "14"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "12"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Wouldn\u0027t make much sense for me to lie to you now, you\u0027ll be dead soon anyway. Why would I waste my time fabricating a story to a corpse? \\n \\nSo, let me continue. Ever since the second disaster and the emergence of the Zone, the US government has been very interested in the phenomena emerging from the ruins of the Chernobyl power plant. Our satellites are constantly detecting these powerful bursts of unidentified energy, the so-called \"emissions\", traced to the vicinity of the sarcophagus built over unit 4. Whatever their origin may be, the US military industrial complex would be interested in reverse-engineering and weaponizing these emissions. Think about it: if you create a device generating similar emissions, more powerful and able to act across a vast area of land, then nuclear ordnance would become obsolete. It would be possible to neutralize all enemy combatants across a selected area without any physical damage to infrastructure.. Whoever obtains this technology first will rule the planet. Needless to say, our government had to get to it first, before anyone else does. Many have tried, so far all have failed. We will be the first to succeed.",
+                            "JA_current":  "Wouldn\u0027t make much sense for me to lie to you now, you\u0027ll be dead soon anyway. Why would I waste my time fabricating a story to a corpse? \\n \\nSo, let me continue. Ever since the second disaster and the emergence of the Zone, the US government has been very interested in the phenomena emerging from the ruins of the Chernobyl power plant. Our satellites are constantly detecting these powerful bursts of unidentified energy, the so-called \"emissions\", traced to the vicinity of the sarcophagus built over unit 4. Whatever their origin may be, the US military industrial complex would be interested in reverse-engineering and weaponizing these emissions. Think about it: if you create a device generating similar emissions, more powerful and able to act across a vast area of land, then nuclear ordnance would become obsolete. It would be possible to neutralize all enemy combatants across a selected area without any physical damage to infrastructure.. Whoever obtains this technology first will rule the planet. Needless to say, our government had to get to it first, before anyone else does. Many have tried, so far all have failed. We will be the first to succeed.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_14#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "14",
+                            "text_id":  "alan_demask_alt_dialog_phrase_15",
+                            "next":  [
+                                         "15"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "13"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "So you just want to make a new doomsday device... But how does all that relate to the Wish Granter?",
+                            "JA_current":  "So you just want to make a new doomsday device... But how does all that relate to the Wish Granter?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_15#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "15",
+                            "text_id":  "alan_demask_alt_dialog_phrase_16",
+                            "next":  [
+                                         "16"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "14"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "We believe that the source of these emissions originates from within the Sarcophagus, from the so called \"Wish-Granting Machine\". Up until now, all attempts at breaching the center were hampered by the so called \"Brain Scorcher\" - the origin of which we isolated to this old radar array. The Scorcher formed a protective canopy over the old power-plant and the nearby areas, like an invisible globe separating the Center of the Zone from the outskirts. The electromagnetic energy would fry circuitry, screw with navigation and destroy a human brain in no time. Many have tried to breach it, various military forces including those of Ukraine, Russia, NATO and ourselves, even your own fellow stalkers, they\u0027ve all tried and perished in doomed expeditions and reckless suicide missions. Bombing the radar site proved fruitless also, believe me, we have tried. Every explosive payload sent to demolish the Scorcher emitter failed to detonate, our scientists nearly blew a gasket trying to figure out why. The only option that remained was to somehow find a protective countermeasure against this radiation. We were at an impasse that only the scientists could work around. Then your pal Strelok apparently beat the eggheads to it. Over a month ago we received some intel that raised quite a few eyebrows at Langley. A solid piece of information suggesting that a lone stalker managed to breach the Scorcher\u0027s area of influence. An operation was planned immediately. The primary objective was to capture and extract the Strelok, then interrogate him. He\u0027d be our key into the center. Once we had boots on the ground in the AO, things did not go so smoothly. Besides the botched insertion, tracking Strelok proved difficult.",
+                            "JA_current":  "We believe that the source of these emissions originates from within the Sarcophagus, from the so called \"Wish-Granting Machine\". Up until now, all attempts at breaching the center were hampered by the so called \"Brain Scorcher\" - the origin of which we isolated to this old radar array. The Scorcher formed a protective canopy over the old power-plant and the nearby areas, like an invisible globe separating the Center of the Zone from the outskirts. The electromagnetic energy would fry circuitry, screw with navigation and destroy a human brain in no time. Many have tried to breach it, various military forces including those of Ukraine, Russia, NATO and ourselves, even your own fellow stalkers, they\u0027ve all tried and perished in doomed expeditions and reckless suicide missions. Bombing the radar site proved fruitless also, believe me, we have tried. Every explosive payload sent to demolish the Scorcher emitter failed to detonate, our scientists nearly blew a gasket trying to figure out why. The only option that remained was to somehow find a protective countermeasure against this radiation. We were at an impasse that only the scientists could work around. Then your pal Strelok apparently beat the eggheads to it. Over a month ago we received some intel that raised quite a few eyebrows at Langley. A solid piece of information suggesting that a lone stalker managed to breach the Scorcher\u0027s area of influence. An operation was planned immediately. The primary objective was to capture and extract the Strelok, then interrogate him. He\u0027d be our key into the center. Once we had boots on the ground in the AO, things did not go so smoothly. Besides the botched insertion, tracking Strelok proved difficult.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_16#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "16",
+                            "text_id":  "alan_demask_alt_dialog_phrase_17",
+                            "next":  [
+                                         "17"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "15"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Yeah I heard all about that, what happened?",
+                            "JA_current":  "Yeah I heard all about that, what happened?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_17#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "17",
+                            "text_id":  "alan_demask_alt_dialog_phrase_18",
+                            "next":  [
+                                         "18"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "16"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Our infiltration to the Zone was planned in the form of the usual entry of newcomers past the military cordon. However, this was our first setback: the area selected for breakthrough was chosen incorrectly and we walked straight into the military checkpoint. We had to break through directly, a fierce firefight ensued. In the skirmish we lost one of our squad members - Dan Zidoff. He had conducted some reconnaissance work in the Zone prior to this op and was designated as point-man, on account of his knowledge of locals and environment. With Dan gone, our mission would prove more difficult than we anticipated. Me and two other operators attempted to track the Strelok alone but predictably we were unsuccessful. Thankfully, Strelok is no longer needed, the ultimate objective of breaching the Scorcher has been accomplished without him. What remains is to secure the sarcophagus by any means necessary, prevent the locals from getting in. I\u0027m expecting the news to spread soon, there will be an entire horde of stalkers pushing for the plant any time now. They\u0027ll tear each other up trying to get their wish. They\u0027re like children, they don\u0027t understand what they\u0027re dealing with here. I expect the mutants, anomalies and those fanatics will buy me some time. ",
+                            "JA_current":  "Our infiltration to the Zone was planned in the form of the usual entry of newcomers past the military cordon. However, this was our first setback: the area selected for breakthrough was chosen incorrectly and we walked straight into the military checkpoint. We had to break through directly, a fierce firefight ensued. In the skirmish we lost one of our squad members - Dan Zidoff. He had conducted some reconnaissance work in the Zone prior to this op and was designated as point-man, on account of his knowledge of locals and environment. With Dan gone, our mission would prove more difficult than we anticipated. Me and two other operators attempted to track the Strelok alone but predictably we were unsuccessful. Thankfully, Strelok is no longer needed, the ultimate objective of breaching the Scorcher has been accomplished without him. What remains is to secure the sarcophagus by any means necessary, prevent the locals from getting in. I\u0027m expecting the news to spread soon, there will be an entire horde of stalkers pushing for the plant any time now. They\u0027ll tear each other up trying to get their wish. They\u0027re like children, they don\u0027t understand what they\u0027re dealing with here. I expect the mutants, anomalies and those fanatics will buy me some time. ",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_18#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "18",
+                            "text_id":  "alan_demask_alt_dialog_phrase_19",
+                            "next":  [
+                                         "19"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "17"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Well, I found Dan\u0027s body. He had a flash drive with information about your stash, this is what set me on your trail.",
+                            "JA_current":  "Well, I found Dan\u0027s body. He had a flash drive with information about your stash, this is what set me on your trail.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_19#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "19",
+                            "text_id":  "alan_demask_alt_dialog_phrase_20",
+                            "next":  [
+                                         "20"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "18"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "This stash was prepared by one of our assets, a stalker nicknamed Knopik. He was hired for money and knew nothing about the true purpose of the mission. He thought we were rich foreign tourists who had decided to secretly enter the Zone in order to hunt local creatures. Knopik prepared our gear and scouted the way. We had verified information that Strelok had a cache in the dungeons of the Agroprom. That\u0027s where we headed after the Cordon.",
+                            "JA_current":  "This stash was prepared by one of our assets, a stalker nicknamed Knopik. He was hired for money and knew nothing about the true purpose of the mission. He thought we were rich foreign tourists who had decided to secretly enter the Zone in order to hunt local creatures. Knopik prepared our gear and scouted the way. We had verified information that Strelok had a cache in the dungeons of the Agroprom. That\u0027s where we headed after the Cordon.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_20#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "20",
+                            "text_id":  "alan_demask_alt_dialog_phrase_21",
+                            "next":  [
+                                         "21"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "19"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I take it you were unlucky there, eh?",
+                            "JA_current":  "I take it you were unlucky there, eh?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_21#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "21",
+                            "text_id":  "alan_demask_alt_dialog_phrase_22",
+                            "next":  [
+                                         "22"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "20"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "That\u0027s right, we could not find the hideout. There was an intense skirmish between the Ukrainian armed forces and some locals, too much activity for a secure entry. So, me and my partner Maxem decided to retreat and head to the Bar, and from there to the Army Warehouses. While at the bar, we received a heads up about a mysterious stalker poking around the Zone asking questions about Strelok and the group of unknown men tracking him.",
+                            "JA_current":  "That\u0027s right, we could not find the hideout. There was an intense skirmish between the Ukrainian armed forces and some locals, too much activity for a secure entry. So, me and my partner Maxem decided to retreat and head to the Bar, and from there to the Army Warehouses. While at the bar, we received a heads up about a mysterious stalker poking around the Zone asking questions about Strelok and the group of unknown men tracking him.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_22#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "22",
+                            "text_id":  "alan_demask_alt_dialog_phrase_23",
+                            "next":  [
+                                         "23"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "21"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Who told you that?",
+                            "JA_current":  "Who told you that?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_23#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "23",
+                            "text_id":  "alan_demask_alt_dialog_phrase_24",
+                            "next":  [
+                                         "24"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "22"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "An informant. He said that some stalker called Marked One, with a strange tattoo on his arm, approached him and asked about strangers who matched our description, and asked about Strelok too. I suspected you were one of Strelok\u0027s men and wanted to capture and interrogate you for his whereabouts. Instead of going to intercept, I decided to dig in and simply wait; why chase after you, if it was pretty evident you\u0027d track us eventually? Maxem and I set up a temporary camp near the barrier, we knew it was a matter of time before you\u0027d get there. We even had arranged to have you watched to see how you\u0027re progressing. When it became clear that you\u0027re working with the traders to breach the Brain Scorcher, we decided to let you work and see where it takes us. But there was one more small problem.",
+                            "JA_current":  "An informant. He said that some stalker called Marked One, with a strange tattoo on his arm, approached him and asked about strangers who matched our description, and asked about Strelok too. I suspected you were one of Strelok\u0027s men and wanted to capture and interrogate you for his whereabouts. Instead of going to intercept, I decided to dig in and simply wait; why chase after you, if it was pretty evident you\u0027d track us eventually? Maxem and I set up a temporary camp near the barrier, we knew it was a matter of time before you\u0027d get there. We even had arranged to have you watched to see how you\u0027re progressing. When it became clear that you\u0027re working with the traders to breach the Brain Scorcher, we decided to let you work and see where it takes us. But there was one more small problem.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_24#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "24",
+                            "text_id":  "alan_demask_alt_dialog_phrase_25",
+                            "next":  [
+                                         "25"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "23"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Your asset, Knopik?",
+                            "JA_current":  "Your asset, Knopik?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_25#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "25",
+                            "text_id":  "alan_demask_alt_dialog_phrase_26",
+                            "next":  [
+                                         "26"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "24"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "That\u0027s right. He got curious and saw information he shouldn\u0027t have seen. He became suspicious, realized that we would\u0027ve killed him for what he\u0027d found out. So, he decided to go rogue and we did not want to risk him giving you a warning. I arranged to get some hit-men on him as soon as possible; no shortage of bloodthirsty mercenaries without scruples around the Zone, especially if you have the money to pay them. However, just in case Knopik somehow evaded his pursuers and got to you first, I decided on a backup plan. I ordered Maxem to follow the hit-men, and if they failed to do so, to kill Knopik himself. Which he did. However, oddly enough, he never returned from his mission. I suspect you had something to do with that, didn\u0027t you?",
+                            "JA_current":  "That\u0027s right. He got curious and saw information he shouldn\u0027t have seen. He became suspicious, realized that we would\u0027ve killed him for what he\u0027d found out. So, he decided to go rogue and we did not want to risk him giving you a warning. I arranged to get some hit-men on him as soon as possible; no shortage of bloodthirsty mercenaries without scruples around the Zone, especially if you have the money to pay them. However, just in case Knopik somehow evaded his pursuers and got to you first, I decided on a backup plan. I ordered Maxem to follow the hit-men, and if they failed to do so, to kill Knopik himself. Which he did. However, oddly enough, he never returned from his mission. I suspect you had something to do with that, didn\u0027t you?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_26#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "26",
+                            "text_id":  "alan_demask_alt_dialog_phrase_27",
+                            "next":  [
+                                         "27"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "25"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Actually, yeah I did. Frankly speaking, you made me feel a lot better about wasting him.",
+                            "JA_current":  "Actually, yeah I did. Frankly speaking, you made me feel a lot better about wasting him.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_27#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "27",
+                            "text_id":  "alan_demask_alt_dialog_phrase_28",
+                            "next":  [
+                                         "28"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "26"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Is that so? Anyway, it doesn\u0027t matter anymore. All right, now you know the truth. Do you have any last questions?",
+                            "JA_current":  "Is that so? Anyway, it doesn\u0027t matter anymore. All right, now you know the truth. Do you have any last questions?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_28#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "28",
+                            "text_id":  "alan_demask_alt_dialog_phrase_29",
+                            "next":  [
+                                         "29"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "27"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Yes, one. Why did you tell me all this?",
+                            "JA_current":  "Yes, one. Why did you tell me all this?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_29#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "29",
+                            "text_id":  "alan_demask_alt_dialog_phrase_30",
+                            "next":  [
+                                         "30"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "28"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "As a final appreciation for your efforts. After all, you were instrumental in helping us accomplish our objective. You helped me shut down the scorcher and allowed me to breach into the center of the Zone, it\u0027s the most I could do for you before I waste you. In a way, you were a huge asset to the US government, a real hero, even though the American people will never know your name. For this, I decided to satisfy your curiosity before your death. Yes, you were used as a pawn, get over it and wipe that scowl off your face. For what it\u0027s worth, I\u0027m sorry, you were dealt a shit hand. As for Strelok, I lied about Pripyat, I don\u0027t know where he is and quite frankly, I don\u0027t care what lice infested hole that Zone rat is hiding in. Can\u0027t believe I lost such good men crawling through mud, anomalies and freaks searching for that bum. It\u0027s good you came along when you did, you did all the hard work. So I hope you understand, this is nothing personal. I\u0027m just eliminating a potential risk and an unfortunate witness. Ofcourse, you killing my buddy Maxem will make this much easier for me. ",
+                            "JA_current":  "As a final appreciation for your efforts. After all, you were instrumental in helping us accomplish our objective. You helped me shut down the scorcher and allowed me to breach into the center of the Zone, it\u0027s the most I could do for you before I waste you. In a way, you were a huge asset to the US government, a real hero, even though the American people will never know your name. For this, I decided to satisfy your curiosity before your death. Yes, you were used as a pawn, get over it and wipe that scowl off your face. For what it\u0027s worth, I\u0027m sorry, you were dealt a shit hand. As for Strelok, I lied about Pripyat, I don\u0027t know where he is and quite frankly, I don\u0027t care what lice infested hole that Zone rat is hiding in. Can\u0027t believe I lost such good men crawling through mud, anomalies and freaks searching for that bum. It\u0027s good you came along when you did, you did all the hard work. So I hope you understand, this is nothing personal. I\u0027m just eliminating a potential risk and an unfortunate witness. Ofcourse, you killing my buddy Maxem will make this much easier for me. ",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_30#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "30",
+                            "text_id":  "alan_demask_alt_dialog_phrase_31",
+                            "next":  [
+                                         "31"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "29"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Let\u0027s get this over with...",
+                            "JA_current":  "Let\u0027s get this over with...",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_31#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "31",
+                            "text_id":  "alan_demask_alt_dialog_phrase_32",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "yantar_dialog.set_npc_community_1"
+                                            },
+                                            {
+                                                "type":  "action",
+                                                "value":  "yantar_dialog.basta_set_enemy"
+                                            },
+                                            {
+                                                "type":  "action",
+                                                "value":  "soundtrack.die_baby"
+                                            },
+                                            {
+                                                "type":  "action",
+                                                "value":  "dialogs.break_dialog"
+                                            },
+                                            {
+                                                "type":  "give_info",
+                                                "value":  "alan_hello"
+                                            },
+                                            {
+                                                "type":  "give_info",
+                                                "value":  "alan_dead"
+                                            },
+                                            {
+                                                "type":  "give_info",
+                                                "value":  "alan_finish"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "30"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "See you on the other side!",
+                            "JA_current":  "See you on the other side!",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_demask_alt_dialog_phrase_32#1"
+                                                        ]
+                        }
+                    ]
+}

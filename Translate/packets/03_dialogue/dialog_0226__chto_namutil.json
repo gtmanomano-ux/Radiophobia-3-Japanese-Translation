@@ -1,0 +1,295 @@
+{
+  "packet_id": "dialog_0226__chto_namutil",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "chto_namutil",
+  "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml",
+  "graph_sha256": "af90465ec3a6b7a324a6c5d72d8c5ed214013f3f66f7c85ea935c11f680b26c1",
+  "character_bindings": [
+    {
+      "profile_id": "val_escort_halfdead",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "actor_set_zombied"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "kill_pula_start"
+    },
+    {
+      "type": "precondition",
+      "value": "ogsm_quests.pula_alive"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 6,
+  "entries": [
+    {
+      "key": "stable_dialogs_darkvalley:chto_namutil_0#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 67,
+      "string_id": "chto_namutil_0",
+      "occurrence": 1,
+      "EN": "What's that mess you got into with Duty?",
+      "JA_current": "What's that mess you got into with Duty?",
+      "JA_new": "デューティーと何を揉めたんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "chto_namutil",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:chto_namutil_1#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 70,
+      "string_id": "chto_namutil_1",
+      "occurrence": 1,
+      "EN": "Help me, lad. Waste that faggot calling himself Bullet! He's getting on my nerves! The \"family\" will be grateful to you, for sure, we don't forget a good favor! Whack that schmuck and I'll hand over a location of a Duty stash. One that apparently belongs to the legendary Skull - a top honcho over there, I tell you. I'll stay here and wait for you.",
+      "JA_current": "Help me, lad. Waste that faggot calling himself Bullet! He's getting on my nerves! The \"family\" will be grateful to you, for sure, we don't forget a good favor! Whack that schmuck and I'll hand over a location of a Duty stash. One that apparently belongs to the legendary Skull - a top honcho over there, I tell you. I'll stay here and wait for you.",
+      "JA_new": "なあ、助けてくれよ。ブレットを名乗るクソ野郎を始末してくれ！もう我慢ならねえんだ！「身内」の連中も喜ぶぞ。受けた恩は忘れないからな！あいつを片づけたら、デューティーの隠し場所を教えてやる。あの有名なスカルの物らしい。あっちの大物だよ。俺はここで待ってる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "chto_namutil",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:chto_namutil_2#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 73,
+      "string_id": "chto_namutil_2",
+      "occurrence": 1,
+      "EN": "Sure thing, I'll help with... eh... \"the matter\". But - no bullshit, bud, make sure you don't disappear!",
+      "JA_current": "Sure thing, I'll help with... eh... \"the matter\". But - no bullshit, bud, make sure you don't disappear!",
+      "JA_new": "ああ、手伝うよ……その「件」な。だが、逃げるんじゃねえぞ。ちゃんとそこにいろ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "chto_namutil",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:chto_namutil_3#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 76,
+      "string_id": "chto_namutil_3",
+      "occurrence": 1,
+      "EN": "No way, man! Screw you...",
+      "JA_current": "No way, man! Screw you...",
+      "JA_new": "冗談じゃない。ふざけんな……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "chto_namutil",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:chto_namutil_4#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 79,
+      "string_id": "chto_namutil_4",
+      "occurrence": 1,
+      "EN": "Ok, dude, but when our guys get you, they gonna make ya eat your own liver!",
+      "JA_current": "Ok, dude, but when our guys get you, they gonna make ya eat your own liver!",
+      "JA_new": "いいだろう。だがウチの連中に見つかったら、自分の肝臓を食わされるぞ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "chto_namutil",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:chto_namutil_5#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 82,
+      "string_id": "chto_namutil_5",
+      "occurrence": 1,
+      "EN": "See those blind dogs making the rounds over there, huh? If you keep chewing me out, I'll make them chew YOU out, scum. Farewell...",
+      "JA_current": "See those blind dogs making the rounds over there, huh? If you keep chewing me out, I'll make them chew YOU out, scum. Farewell...",
+      "JA_new": "あそこをうろついてるブラインドドッグが見えるか？まだ口答えするなら、今度はあいつらにお前を食わせてやるよ、クズ。じゃあな……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "chto_namutil",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "chto_namutil_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What's that mess you got into with Duty?",
+      "JA_current": "What's that mess you got into with Duty?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:chto_namutil_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "chto_namutil_1",
+      "next": [
+        "2",
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Help me, lad. Waste that faggot calling himself Bullet! He's getting on my nerves! The \"family\" will be grateful to you, for sure, we don't forget a good favor! Whack that schmuck and I'll hand over a location of a Duty stash. One that apparently belongs to the legendary Skull - a top honcho over there, I tell you. I'll stay here and wait for you.",
+      "JA_current": "Help me, lad. Waste that faggot calling himself Bullet! He's getting on my nerves! The \"family\" will be grateful to you, for sure, we don't forget a good favor! Whack that schmuck and I'll hand over a location of a Duty stash. One that apparently belongs to the legendary Skull - a top honcho over there, I tell you. I'll stay here and wait for you.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:chto_namutil_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "chto_namutil_2",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "kill_pula_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sure thing, I'll help with... eh... \"the matter\". But - no bullshit, bud, make sure you don't disappear!",
+      "JA_current": "Sure thing, I'll help with... eh... \"the matter\". But - no bullshit, bud, make sure you don't disappear!",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:chto_namutil_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "chto_namutil_3",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No way, man! Screw you...",
+      "JA_current": "No way, man! Screw you...",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:chto_namutil_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "chto_namutil_4",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Ok, dude, but when our guys get you, they gonna make ya eat your own liver!",
+      "JA_current": "Ok, dude, but when our guys get you, they gonna make ya eat your own liver!",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:chto_namutil_4#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "chto_namutil_5",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "See those blind dogs making the rounds over there, huh? If you keep chewing me out, I'll make them chew YOU out, scum. Farewell...",
+      "JA_current": "See those blind dogs making the rounds over there, huh? If you keep chewing me out, I'll make them chew YOU out, scum. Farewell...",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:chto_namutil_5#1"
+      ]
+    }
+  ]
+}

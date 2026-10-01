@@ -1,0 +1,362 @@
+{
+  "packet_id": "dialog_0174__sinyak_hello_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "sinyak_hello_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "stalker_sinyak",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 8,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:sinyak_hello_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2422,
+      "string_id": "sinyak_hello_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Hey, what are you doing loitering around here?",
+      "JA_current": "おい、こんなところで何をうろついてるんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_hello_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sinyak_hello_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2425,
+      "string_id": "sinyak_hello_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Oh, don't make any noise, my head is already pounding... They kicked me out of the bar, assholes!",
+      "JA_current": "うう……大声を出すなよ、頭が割れそうなんだ……あの野郎ども、俺をバーから放り出しやがった！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_hello_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sinyak_hello_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2428,
+      "string_id": "sinyak_hello_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "For what?",
+      "JA_current": "何をやらかしたんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_hello_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sinyak_hello_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2431,
+      "string_id": "sinyak_hello_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "I broke the horns off of one of the freaks there.",
+      "JA_current": "あそこにいた気に食わねえ野郎の鼻っ柱をへし折ってやったのさ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_hello_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sinyak_hello_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2434,
+      "string_id": "sinyak_hello_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "I see. So what's the plan for you today?",
+      "JA_current": "なるほどな。で、今日はこのあとどうする気だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_hello_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sinyak_hello_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2437,
+      "string_id": "sinyak_hello_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Indeed: what to do? What the hell am I supposed to do? I think I'll go get a drink.",
+      "JA_current": "全くだ、どうすりゃいい？ 一体俺はどうすりゃいいんだ……？ くそっ、酒でも飲みに行くか。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_hello_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sinyak_hello_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2440,
+      "string_id": "sinyak_hello_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Well, goodbye.",
+      "JA_current": "じゃあな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_hello_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sinyak_hello_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2443,
+      "string_id": "sinyak_hello_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "Goodbye! ... Oh, that vodka sucked.",
+      "JA_current": "あばよ！ ……おえっ、さっきのウォッカ、ひでえ味だったな……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_hello_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "sinyak_hello_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, what are you doing loitering around here?",
+      "JA_current": "Hey, what are you doing loitering around here?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_hello_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "sinyak_hello_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.oy_ne_shumi"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh, don't make any noise, my head is already pounding... They kicked me out of the bar, assholes!",
+      "JA_current": "Oh, don't make any noise, my head is already pounding... They kicked me out of the bar, assholes!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_hello_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "sinyak_hello_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "For what?",
+      "JA_current": "For what?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_hello_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "sinyak_hello_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I broke the horns off of one of the freaks there.",
+      "JA_current": "I broke the horns off of one of the freaks there.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_hello_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "sinyak_hello_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I see. So what's the plan for you today?",
+      "JA_current": "I see. So what's the plan for you today?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_hello_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "sinyak_hello_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.chto_delatt"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Indeed: what to do? What the hell am I supposed to do? I think I'll go get a drink.",
+      "JA_current": "Indeed: what to do? What the hell am I supposed to do? I think I'll go get a drink.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_hello_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "sinyak_hello_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, goodbye.",
+      "JA_current": "Well, goodbye.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_hello_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "sinyak_hello_dialog_phrase_8",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.hrenovaya_vodka"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Goodbye! ... Oh, that vodka sucked.",
+      "JA_current": "Goodbye! ... Oh, that vodka sucked.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_hello_dialog_phrase_8#1"
+      ]
+    }
+  ]
+}

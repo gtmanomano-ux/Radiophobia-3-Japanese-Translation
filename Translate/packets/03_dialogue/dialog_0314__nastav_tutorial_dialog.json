@@ -1,0 +1,603 @@
+{
+  "packet_id": "dialog_0314__nastav_tutorial_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "nastav_tutorial_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "nastavnik",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "task_exped_start"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "nastav_tutor_have"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 13,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:nastav_tutorial_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2301,
+      "string_id": "nastav_tutorial_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "I see you're an experienced stalker. Can you tell me about the way things work here? I have some memory problems and can't recall anything useful.",
+      "JA_current": "I see you're an experienced stalker. Can you tell me about the way things work here? I have some memory problems and can't recall anything useful.",
+      "JA_new": "あんたは経験豊富なストーカーみたいだな。ここでの暮らしについて教えてくれないか？ 記憶に問題があって、役に立つことを何も思い出せないんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_tutorial_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_tutorial_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2304,
+      "string_id": "nastav_tutorial_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Okay. Let's start with the basics: you're in an Exclusion Zone, isolated from the outside world, so the laws and orders of human society... it's not that they don't apply here, they just have a different meaning, so to speak. Basically, since this is such a hostile environment, your humanity and that of others is really important here. Humanity is something we can understand, it is a familiarity which brings comfort in such an alien environment as this one. It is only through mutual help and assistance for our brothers that we manage to survive here. There are no laws here, no courts, no peacekeepers, but stalkers live to a code nonetheless. If you go out of your way to aid your fellow stalkers, you'll get rewarded in kind. On the other hand, if you drift away from people, you'll find that the Zone will consume you. You will become no different from the local mutants, just a part of the wildlife, I've seen many such cases.",
+      "JA_current": "Okay. Let's start with the basics: you're in an Exclusion Zone, isolated from the outside world, so the laws and orders of human society... it's not that they don't apply here, they just have a different meaning, so to speak. Basically, since this is such a hostile environment, your humanity and that of others is really important here. Humanity is something we can understand, it is a familiarity which brings comfort in such an alien environment as this one. It is only through mutual help and assistance for our brothers that we manage to survive here. There are no laws here, no courts, no peacekeepers, but stalkers live to a code nonetheless. If you go out of your way to aid your fellow stalkers, you'll get rewarded in kind. On the other hand, if you drift away from people, you'll find that the Zone will consume you. You will become no different from the local mutants, just a part of the wildlife, I've seen many such cases.",
+      "JA_new": "いいだろう。まずは基本からだ。ここは外の世界から隔離された立入禁止区域だ。人間社会の法律や秩序が……まったく通用しないわけじゃないが、意味合いが違う。ここは過酷な環境だから、自分や他人への思いやりがとても大切なんだ。人間らしさがあれば、こんな異質な場所でも安心できる。仲間同士で助け合わなければ、ここでは生き残れない。法律も裁判所も治安を守る者もいない。それでもストーカーたちは、自分たちなりの掟に従って生きてる。仲間を助ければ、相応の形で返ってくる。逆に人とのつながりを断てば、ゾーンに呑み込まれる。地元のミュータントと変わらない、野生動物の一部になっちまう。そんな奴を何人も見てきた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_tutorial_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_tutorial_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2307,
+      "string_id": "nastav_tutorial_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "I think I get it.",
+      "JA_current": "I think I get it.",
+      "JA_new": "分かった気がする。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_tutorial_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_tutorial_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2310,
+      "string_id": "nastav_tutorial_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "I hope so, but let's not dwell on that any more. Let me tell you about the local economy. As you can see, there are two currencies here: rubles and artifacts. Artifacts, as a means of purchase and exchange for goods, have a significant advantage over money. Why so? Look at it like this: money, as you know, tends to depreciate; but the artifacts, them and their unique properties are practically eternal. Each of them is a kind of accumulator of anomalous energy, which feeds its properties and has a reserve designed for hundreds of years. This was discovered by scientists back when the very first samples of artifacts started to reach the outside world, so everyone knows it very well. Now traders are much more willing to accept artifacts as payment than rubles, they are guaranteed to be useful for far longer than any common man-made currency. There are even traders who deal exclusively in this form of strange currency, the creations of the Zone in exchange for goods and services.",
+      "JA_current": "I hope so, but let's not dwell on that any more. Let me tell you about the local economy. As you can see, there are two currencies here: rubles and artifacts. Artifacts, as a means of purchase and exchange for goods, have a significant advantage over money. Why so? Look at it like this: money, as you know, tends to depreciate; but the artifacts, them and their unique properties are practically eternal. Each of them is a kind of accumulator of anomalous energy, which feeds its properties and has a reserve designed for hundreds of years. This was discovered by scientists back when the very first samples of artifacts started to reach the outside world, so everyone knows it very well. Now traders are much more willing to accept artifacts as payment than rubles, they are guaranteed to be useful for far longer than any common man-made currency. There are even traders who deal exclusively in this form of strange currency, the creations of the Zone in exchange for goods and services.",
+      "JA_new": "そうだといいが、もうその話はやめよう。今度はこの辺りの経済について話す。見ての通り、ここじゃ二種類の通貨が使われてる。ルーブルとアーティファクトだ。買い物や物々交換に使うなら、アーティファクトは金よりずっと有利だ。どうしてか？ 金は、知っての通り価値が下がることがある。だが、アーティファクトとその特殊な力は、ほとんど永遠に失われない。それぞれにアノマリーエネルギーが蓄えられていて、その力が性質を生む。蓄えは何百年分にもなるんだ。最初のアーティファクトが外の世界に運ばれた頃、科学者たちがそれを発見した。今では誰もがよく知ってる。商人たちはルーブルよりアーティファクトでの支払いを喜んで受け入れる。普通の人工通貨より、ずっと長く役に立つと分かってるからな。中には、この奇妙な通貨だけで取引する商人もいる。ゾーンの産物を、品物やサービスと交換するんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_tutorial_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_tutorial_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2313,
+      "string_id": "nastav_tutorial_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "I see. What else?",
+      "JA_current": "I see. What else?",
+      "JA_new": "そうか。他には？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_tutorial_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_tutorial_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2316,
+      "string_id": "nastav_tutorial_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "I want to warn you from the start: if you are lucky enough to find an artifact, don't be in a hurry to sell it off. Try to learn its properties first, run it under a dosimeter to make sure it doesn't fry you, then try to find out any other effects it may have on you. All artifacts are divided into five categories, depending on the strength of the properties that they possess. Artifacts of the first category have weakly pronounced positive properties and strongly pronounced negative ones. The artifacts of the third category are exactly the opposite, while those of the second category have practically balanced properties in terms of potential. As for the fourth category, these are extremely rare in Zone, so little is known about their properties. But it is known that they have no negative properties, which makes them particularly valuable. There is another category - Legendary Artifacts. I don't know their names, but I know there are three of them, and their properties are supposedly miraculous.",
+      "JA_current": "I want to warn you from the start: if you are lucky enough to find an artifact, don't be in a hurry to sell it off. Try to learn its properties first, run it under a dosimeter to make sure it doesn't fry you, then try to find out any other effects it may have on you. All artifacts are divided into five categories, depending on the strength of the properties that they possess. Artifacts of the first category have weakly pronounced positive properties and strongly pronounced negative ones. The artifacts of the third category are exactly the opposite, while those of the second category have practically balanced properties in terms of potential. As for the fourth category, these are extremely rare in Zone, so little is known about their properties. But it is known that they have no negative properties, which makes them particularly valuable. There is another category - Legendary Artifacts. I don't know their names, but I know there are three of them, and their properties are supposedly miraculous.",
+      "JA_new": "最初に言っておく。幸運にもアーティファクトを見つけても、すぐ売り払うな。まずは性質を調べろ。線量計にかけて、放射線でやられないか確かめる。それから、ほかにどんな効果があるか調べるんだ。アーティファクトは、その力の強さによって五つの分類に分けられる。第一分類は、良い効果が弱く、悪い影響が強い。第三分類はその逆で、第二分類は潜在的な力のバランスが取れている。第四分類はゾーンでも極めて珍しく、性質についてほとんど分かっていない。ただ、悪い影響がないことは知られている。だから特に価値があるんだ。もう一つ、伝説級のアーティファクトという分類もある。名前は分からないが、三つあるらしい。奇跡みたいな力を持つと言われてる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_tutorial_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_tutorial_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2319,
+      "string_id": "nastav_tutorial_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Interesting.",
+      "JA_current": "Interesting.",
+      "JA_new": "面白いな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_tutorial_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_tutorial_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2322,
+      "string_id": "nastav_tutorial_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "Let's go on. As you know, weapons are an essential part of life here. To protect yourself from mutants or enemies, you need to have a powerful, accurate and reliable gun, I think that's pretty obvious. However, as most stalkers are poor, desperate people, very few can afford a decent quality firearm. Those brand new rifles people bring with them into the Zone do not last long under local conditions. The Zone has an effect on metal, everything deteriorates unnaturally quickly. The weapons you'll find out here have a tendency to jam on you when you really need them to perform. All of us around here have to take care of our weapons, we clean and oil them as best as we can, but nothing can fix a warped barrel or a worn out spring. Only replacement parts can do that and these can often be more expensive than the gun itself. For this reason, clean and brand new guns are a real rarity in the Zone and are worth a fortune. Having a brand new shooter like that is a real sign of status, only veterans tend to carry those around. So, do take care of your gun - just like you need food and water to eat, your gun needs cleaning and oil to keep functioning.",
+      "JA_current": "Let's go on. As you know, weapons are an essential part of life here. To protect yourself from mutants or enemies, you need to have a powerful, accurate and reliable gun, I think that's pretty obvious. However, as most stalkers are poor, desperate people, very few can afford a decent quality firearm. Those brand new rifles people bring with them into the Zone do not last long under local conditions. The Zone has an effect on metal, everything deteriorates unnaturally quickly. The weapons you'll find out here have a tendency to jam on you when you really need them to perform. All of us around here have to take care of our weapons, we clean and oil them as best as we can, but nothing can fix a warped barrel or a worn out spring. Only replacement parts can do that and these can often be more expensive than the gun itself. For this reason, clean and brand new guns are a real rarity in the Zone and are worth a fortune. Having a brand new shooter like that is a real sign of status, only veterans tend to carry those around. So, do take care of your gun - just like you need food and water to eat, your gun needs cleaning and oil to keep functioning.",
+      "JA_new": "続けよう。ここじゃ武器が暮らしに欠かせない。ミュータントや敵から身を守るには、威力があって、正確で、信頼できる銃を持つ必要がある。当たり前の話だな。だが、ストーカーの大半は貧しく、追い詰められた連中だ。まともな銃を買える者はほとんどいない。新品のライフルを持ち込んでも、ゾーンの環境じゃ長持ちしない。ゾーンは金属にも影響する。何もかも異常な速さで劣化するんだ。ここで手に入る銃は、本当に必要な時に限って弾詰まりを起こす。俺たちはできるだけ手入れをしてる。掃除して油を差すが、歪んだ銃身やすり減ったバネは直せない。交換部品が必要になるが、銃本体より高くつくこともある。だから、きれいな新品の銃はゾーンじゃ本当に珍しく、値も張る。あれを持ってるのは一種のステータスだ。持てるのは大抵ベテランだけだな。食事や水が必要なのと同じで、銃を使い続けるには掃除と注油が欠かせない。大切に扱え。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_tutorial_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_tutorial_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2325,
+      "string_id": "nastav_tutorial_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "Thank you, I'll keep that in mind.",
+      "JA_current": "Thank you, I'll keep that in mind.",
+      "JA_new": "ありがとう。覚えておくよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_tutorial_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_tutorial_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2328,
+      "string_id": "nastav_tutorial_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "I assume you've had prior military experience? Obviously, the better and more accurate you are at shooting, the more likely you are to come out the winner in a fight with the enemy. Depending on the enemy, the situation and the weapon you are using, your approach may be different but same principles apply. The more comfortable you are and the tighter you hold the barrel, the more accurate your bullets will be on target. Also, don't rely on full auto fire, in my opinion single fire mode is \"king\" in the Zone, essential to conserve ammo and stay on target. This is especially true for long distance firing. Have you ever seen a sniper making a sequence of accurate full auto shots one after the other while standing upright? Certainly not, because a real sniper before an accurate shot always takes a lying position or sits down low, putting his hand with the gun on the bent knee - so that the barrel doesn't move from side to side under the weight of the rifle. Try to take a knee when situation allows for it.",
+      "JA_current": "I assume you've had prior military experience? Obviously, the better and more accurate you are at shooting, the more likely you are to come out the winner in a fight with the enemy. Depending on the enemy, the situation and the weapon you are using, your approach may be different but same principles apply. The more comfortable you are and the tighter you hold the barrel, the more accurate your bullets will be on target. Also, don't rely on full auto fire, in my opinion single fire mode is \"king\" in the Zone, essential to conserve ammo and stay on target. This is especially true for long distance firing. Have you ever seen a sniper making a sequence of accurate full auto shots one after the other while standing upright? Certainly not, because a real sniper before an accurate shot always takes a lying position or sits down low, putting his hand with the gun on the bent knee - so that the barrel doesn't move from side to side under the weight of the rifle. Try to take a knee when situation allows for it.",
+      "JA_new": "軍隊にいたことがあるのか？ 銃の扱いが上手く、狙いが正確なほど、戦いに勝つ可能性は高くなる。相手や状況、使う武器によって戦い方は変わるが、基本は同じだ。無理のない姿勢で、銃身をしっかり支えれば、弾は狙ったところに飛ぶ。フルオートに頼るな。俺に言わせれば、ゾーンじゃ単発射撃が一番だ。弾を節約できるし、狙いも定まる。遠距離ならなおさらだ。立ったまま、狙撃手がフルオートで連続して命中させるのを見たことがあるか？ ないだろ。本物の狙撃手は、正確に撃つ前に伏せるか、低く腰を下ろす。曲げた膝に銃を持つ腕を乗せ、ライフルの重みで銃身が左右にぶれないようにするんだ。状況が許すなら、膝をついて撃て。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_tutorial_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_tutorial_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2331,
+      "string_id": "nastav_tutorial_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "Thank you for the helpful information.",
+      "JA_current": "Thank you for the helpful information.",
+      "JA_new": "役に立つ話をありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_tutorial_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_tutorial_dialog_phrase_12#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2334,
+      "string_id": "nastav_tutorial_dialog_phrase_12",
+      "occurrence": 1,
+      "EN": "Okay, now about the radiation. As you know, the Zone initially began as a radiological disaster area due to the Chernobyl incident in '86, and the second disaster just made it significantly worse. Anomalous energy has a tendency to do funny things to atoms, causing even ordinary elements to shift and warp, turning them into radioactive isotopes. I'm sure the eggheads at Yantar would be able to explain all the details. What it means for us is that there are a lot of places out here where the background radiation is practically off the scale for even the most advanced military dosimeters. Even if you have no dosimeter, there are signs to look out for which indicate you've stepped into a deadly radiation field. If you begin to smell ozone like in a thunderstorm, if you taste metal in your mouth, feel pins and needles in your exposed skin or start seeing glowing pinpricks in your vision, run as fast as you can in the opposite direction. Radiation fields created by anomalous energy can kill you in seconds. So, avoid if you can, and prepare properly if you can't. Wear a gas mask as a bare minimum, take radioprotectant meds before going in, bring some vodka so you can piss out the contaminants in your system afterwards.",
+      "JA_current": "Okay, now about the radiation. As you know, the Zone initially began as a radiological disaster area due to the Chernobyl incident in '86, and the second disaster just made it significantly worse. Anomalous energy has a tendency to do funny things to atoms, causing even ordinary elements to shift and warp, turning them into radioactive isotopes. I'm sure the eggheads at Yantar would be able to explain all the details. What it means for us is that there are a lot of places out here where the background radiation is practically off the scale for even the most advanced military dosimeters. Even if you have no dosimeter, there are signs to look out for which indicate you've stepped into a deadly radiation field. If you begin to smell ozone like in a thunderstorm, if you taste metal in your mouth, feel pins and needles in your exposed skin or start seeing glowing pinpricks in your vision, run as fast as you can in the opposite direction. Radiation fields created by anomalous energy can kill you in seconds. So, avoid if you can, and prepare properly if you can't. Wear a gas mask as a bare minimum, take radioprotectant meds before going in, bring some vodka so you can piss out the contaminants in your system afterwards.",
+      "JA_new": "よし、次は放射線だ。知っての通り、ゾーンは1986年のチェルノブイリ事故で放射能汚染された地域として始まり、二度目の事故でさらに深刻になった。アノマリーエネルギーは原子に妙な作用を及ぼす。普通の元素まで変質させ、放射性同位体に変えてしまうんだ。詳しいことはヤンターの研究者たちなら説明できるだろう。俺たちにとって困るのは、最新の軍用線量計でも振り切れるほど、放射線が強い場所があちこちにあることだ。線量計がなくても、致死量の放射線がある場所に入ったと気づく兆候はある。雷雨の時のようなオゾン臭がする、口の中に金属の味がする、肌を針で刺されるように感じる、視界に光る点が見える――そんな時は、全速力で反対方向へ逃げろ。アノマリーエネルギーが生む放射線は、数秒で命を奪う。できるなら避けろ。避けられないなら、きちんと備えろ。最低でもガスマスクを着けて、入る前に放射線防護薬を飲め。戻った後、体内の汚染物質を排出できるようウォッカも持っていけ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_tutorial_dialog",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_tutorial_dialog_phrase_13#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2337,
+      "string_id": "nastav_tutorial_dialog_phrase_13",
+      "occurrence": 1,
+      "EN": "I'll try to remember.",
+      "JA_current": "I'll try to remember.",
+      "JA_new": "覚えておくよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_tutorial_dialog",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "nastav_tutorial_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I see you're an experienced stalker. Can you tell me about the way things work here? I have some memory problems and can't recall anything useful.",
+      "JA_current": "I see you're an experienced stalker. Can you tell me about the way things work here? I have some memory problems and can't recall anything useful.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_tutorial_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "nastav_tutorial_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Okay. Let's start with the basics: you're in an Exclusion Zone, isolated from the outside world, so the laws and orders of human society... it's not that they don't apply here, they just have a different meaning, so to speak. Basically, since this is such a hostile environment, your humanity and that of others is really important here. Humanity is something we can understand, it is a familiarity which brings comfort in such an alien environment as this one. It is only through mutual help and assistance for our brothers that we manage to survive here. There are no laws here, no courts, no peacekeepers, but stalkers live to a code nonetheless. If you go out of your way to aid your fellow stalkers, you'll get rewarded in kind. On the other hand, if you drift away from people, you'll find that the Zone will consume you. You will become no different from the local mutants, just a part of the wildlife, I've seen many such cases.",
+      "JA_current": "Okay. Let's start with the basics: you're in an Exclusion Zone, isolated from the outside world, so the laws and orders of human society... it's not that they don't apply here, they just have a different meaning, so to speak. Basically, since this is such a hostile environment, your humanity and that of others is really important here. Humanity is something we can understand, it is a familiarity which brings comfort in such an alien environment as this one. It is only through mutual help and assistance for our brothers that we manage to survive here. There are no laws here, no courts, no peacekeepers, but stalkers live to a code nonetheless. If you go out of your way to aid your fellow stalkers, you'll get rewarded in kind. On the other hand, if you drift away from people, you'll find that the Zone will consume you. You will become no different from the local mutants, just a part of the wildlife, I've seen many such cases.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_tutorial_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "nastav_tutorial_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I think I get it.",
+      "JA_current": "I think I get it.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_tutorial_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "nastav_tutorial_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "tutor_ekonomy"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I hope so, but let's not dwell on that any more. Let me tell you about the local economy. As you can see, there are two currencies here: rubles and artifacts. Artifacts, as a means of purchase and exchange for goods, have a significant advantage over money. Why so? Look at it like this: money, as you know, tends to depreciate; but the artifacts, them and their unique properties are practically eternal. Each of them is a kind of accumulator of anomalous energy, which feeds its properties and has a reserve designed for hundreds of years. This was discovered by scientists back when the very first samples of artifacts started to reach the outside world, so everyone knows it very well. Now traders are much more willing to accept artifacts as payment than rubles, they are guaranteed to be useful for far longer than any common man-made currency. There are even traders who deal exclusively in this form of strange currency, the creations of the Zone in exchange for goods and services.",
+      "JA_current": "I hope so, but let's not dwell on that any more. Let me tell you about the local economy. As you can see, there are two currencies here: rubles and artifacts. Artifacts, as a means of purchase and exchange for goods, have a significant advantage over money. Why so? Look at it like this: money, as you know, tends to depreciate; but the artifacts, them and their unique properties are practically eternal. Each of them is a kind of accumulator of anomalous energy, which feeds its properties and has a reserve designed for hundreds of years. This was discovered by scientists back when the very first samples of artifacts started to reach the outside world, so everyone knows it very well. Now traders are much more willing to accept artifacts as payment than rubles, they are guaranteed to be useful for far longer than any common man-made currency. There are even traders who deal exclusively in this form of strange currency, the creations of the Zone in exchange for goods and services.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_tutorial_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "nastav_tutorial_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I see. What else?",
+      "JA_current": "I see. What else?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_tutorial_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "nastav_tutorial_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "tutor_af_ranks"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I want to warn you from the start: if you are lucky enough to find an artifact, don't be in a hurry to sell it off. Try to learn its properties first, run it under a dosimeter to make sure it doesn't fry you, then try to find out any other effects it may have on you. All artifacts are divided into five categories, depending on the strength of the properties that they possess. Artifacts of the first category have weakly pronounced positive properties and strongly pronounced negative ones. The artifacts of the third category are exactly the opposite, while those of the second category have practically balanced properties in terms of potential. As for the fourth category, these are extremely rare in Zone, so little is known about their properties. But it is known that they have no negative properties, which makes them particularly valuable. There is another category - Legendary Artifacts. I don't know their names, but I know there are three of them, and their properties are supposedly miraculous.",
+      "JA_current": "I want to warn you from the start: if you are lucky enough to find an artifact, don't be in a hurry to sell it off. Try to learn its properties first, run it under a dosimeter to make sure it doesn't fry you, then try to find out any other effects it may have on you. All artifacts are divided into five categories, depending on the strength of the properties that they possess. Artifacts of the first category have weakly pronounced positive properties and strongly pronounced negative ones. The artifacts of the third category are exactly the opposite, while those of the second category have practically balanced properties in terms of potential. As for the fourth category, these are extremely rare in Zone, so little is known about their properties. But it is known that they have no negative properties, which makes them particularly valuable. There is another category - Legendary Artifacts. I don't know their names, but I know there are three of them, and their properties are supposedly miraculous.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_tutorial_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "nastav_tutorial_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Interesting.",
+      "JA_current": "Interesting.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_tutorial_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "nastav_tutorial_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "tutor_weapons"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Let's go on. As you know, weapons are an essential part of life here. To protect yourself from mutants or enemies, you need to have a powerful, accurate and reliable gun, I think that's pretty obvious. However, as most stalkers are poor, desperate people, very few can afford a decent quality firearm. Those brand new rifles people bring with them into the Zone do not last long under local conditions. The Zone has an effect on metal, everything deteriorates unnaturally quickly. The weapons you'll find out here have a tendency to jam on you when you really need them to perform. All of us around here have to take care of our weapons, we clean and oil them as best as we can, but nothing can fix a warped barrel or a worn out spring. Only replacement parts can do that and these can often be more expensive than the gun itself. For this reason, clean and brand new guns are a real rarity in the Zone and are worth a fortune. Having a brand new shooter like that is a real sign of status, only veterans tend to carry those around. So, do take care of your gun - just like you need food and water to eat, your gun needs cleaning and oil to keep functioning.",
+      "JA_current": "Let's go on. As you know, weapons are an essential part of life here. To protect yourself from mutants or enemies, you need to have a powerful, accurate and reliable gun, I think that's pretty obvious. However, as most stalkers are poor, desperate people, very few can afford a decent quality firearm. Those brand new rifles people bring with them into the Zone do not last long under local conditions. The Zone has an effect on metal, everything deteriorates unnaturally quickly. The weapons you'll find out here have a tendency to jam on you when you really need them to perform. All of us around here have to take care of our weapons, we clean and oil them as best as we can, but nothing can fix a warped barrel or a worn out spring. Only replacement parts can do that and these can often be more expensive than the gun itself. For this reason, clean and brand new guns are a real rarity in the Zone and are worth a fortune. Having a brand new shooter like that is a real sign of status, only veterans tend to carry those around. So, do take care of your gun - just like you need food and water to eat, your gun needs cleaning and oil to keep functioning.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_tutorial_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "nastav_tutorial_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you, I'll keep that in mind.",
+      "JA_current": "Thank you, I'll keep that in mind.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_tutorial_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "nastav_tutorial_dialog_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "tutor_radseek"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I assume you've had prior military experience? Obviously, the better and more accurate you are at shooting, the more likely you are to come out the winner in a fight with the enemy. Depending on the enemy, the situation and the weapon you are using, your approach may be different but same principles apply. The more comfortable you are and the tighter you hold the barrel, the more accurate your bullets will be on target. Also, don't rely on full auto fire, in my opinion single fire mode is \"king\" in the Zone, essential to conserve ammo and stay on target. This is especially true for long distance firing. Have you ever seen a sniper making a sequence of accurate full auto shots one after the other while standing upright? Certainly not, because a real sniper before an accurate shot always takes a lying position or sits down low, putting his hand with the gun on the bent knee - so that the barrel doesn't move from side to side under the weight of the rifle. Try to take a knee when situation allows for it.",
+      "JA_current": "I assume you've had prior military experience? Obviously, the better and more accurate you are at shooting, the more likely you are to come out the winner in a fight with the enemy. Depending on the enemy, the situation and the weapon you are using, your approach may be different but same principles apply. The more comfortable you are and the tighter you hold the barrel, the more accurate your bullets will be on target. Also, don't rely on full auto fire, in my opinion single fire mode is \"king\" in the Zone, essential to conserve ammo and stay on target. This is especially true for long distance firing. Have you ever seen a sniper making a sequence of accurate full auto shots one after the other while standing upright? Certainly not, because a real sniper before an accurate shot always takes a lying position or sits down low, putting his hand with the gun on the bent knee - so that the barrel doesn't move from side to side under the weight of the rifle. Try to take a knee when situation allows for it.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_tutorial_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "nastav_tutorial_dialog_phrase_11",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you for the helpful information.",
+      "JA_current": "Thank you for the helpful information.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_tutorial_dialog_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "nastav_tutorial_dialog_phrase_12",
+      "next": [
+        "12"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "tutor_shooting"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Okay, now about the radiation. As you know, the Zone initially began as a radiological disaster area due to the Chernobyl incident in '86, and the second disaster just made it significantly worse. Anomalous energy has a tendency to do funny things to atoms, causing even ordinary elements to shift and warp, turning them into radioactive isotopes. I'm sure the eggheads at Yantar would be able to explain all the details. What it means for us is that there are a lot of places out here where the background radiation is practically off the scale for even the most advanced military dosimeters. Even if you have no dosimeter, there are signs to look out for which indicate you've stepped into a deadly radiation field. If you begin to smell ozone like in a thunderstorm, if you taste metal in your mouth, feel pins and needles in your exposed skin or start seeing glowing pinpricks in your vision, run as fast as you can in the opposite direction. Radiation fields created by anomalous energy can kill you in seconds. So, avoid if you can, and prepare properly if you can't. Wear a gas mask as a bare minimum, take radioprotectant meds before going in, bring some vodka so you can piss out the contaminants in your system afterwards.",
+      "JA_current": "Okay, now about the radiation. As you know, the Zone initially began as a radiological disaster area due to the Chernobyl incident in '86, and the second disaster just made it significantly worse. Anomalous energy has a tendency to do funny things to atoms, causing even ordinary elements to shift and warp, turning them into radioactive isotopes. I'm sure the eggheads at Yantar would be able to explain all the details. What it means for us is that there are a lot of places out here where the background radiation is practically off the scale for even the most advanced military dosimeters. Even if you have no dosimeter, there are signs to look out for which indicate you've stepped into a deadly radiation field. If you begin to smell ozone like in a thunderstorm, if you taste metal in your mouth, feel pins and needles in your exposed skin or start seeing glowing pinpricks in your vision, run as fast as you can in the opposite direction. Radiation fields created by anomalous energy can kill you in seconds. So, avoid if you can, and prepare properly if you can't. Wear a gas mask as a bare minimum, take radioprotectant meds before going in, bring some vodka so you can piss out the contaminants in your system afterwards.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_tutorial_dialog_phrase_12#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "nastav_tutorial_dialog_phrase_13",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.nujen_sovet"
+        },
+        {
+          "type": "give_info",
+          "value": "nastav_tutor_have"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'll try to remember.",
+      "JA_current": "I'll try to remember.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_tutorial_dialog_phrase_13#1"
+      ]
+    }
+  ]
+}

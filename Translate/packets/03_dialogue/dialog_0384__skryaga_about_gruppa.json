@@ -1,0 +1,792 @@
+{
+    "packet_id":  "dialog_0384__skryaga_about_gruppa",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "skryaga_about_gruppa",
+    "graph_source":  "gamedata/config/gameplay/dialogs_military.xml",
+    "graph_sha256":  "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+    "character_bindings":  [
+                               {
+                                   "profile_id":  "mil_Svoboda_trader",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_military.xml"
+                               }
+                           ],
+    "dialog_conditions":  [
+                              {
+                                  "type":  "dont_has_info",
+                                  "value":  "skryaga_o_gruppe"
+                              },
+                              {
+                                  "type":  "has_info",
+                                  "value":  "sniper_infa"
+                              }
+                          ],
+    "root_speaker_hint":  "player",
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  15,
+    "entries":  [
+                    {
+                        "key":  "stable_dialogs_military:skryaga_about_gruppa_phrase_1#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1659,
+                        "string_id":  "skryaga_about_gruppa_phrase_1",
+                        "occurrence":  1,
+                        "EN":  "I have a question. Have any strangers appeared in your ranks lately?",
+                        "JA_current":  "I have a question. Have any strangers appeared in your ranks lately?",
+                        "JA_new":  "ひとつ聞きたい。最近、仲間に見慣れない奴が来なかったか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "skryaga_about_gruppa",
+                                               "phrase_id":  "0",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:skryaga_about_gruppa_phrase_2#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1662,
+                        "string_id":  "skryaga_about_gruppa_phrase_2",
+                        "occurrence":  1,
+                        "EN":  "No one has come to see us in the last week. Although, there was one incident, not quite appropriate, but still.",
+                        "JA_current":  "No one has come to see us in the last week. Although, there was one incident, not quite appropriate, but still.",
+                        "JA_new":  "この一週間は誰も来てないな。まあ、ちょっと妙なことが一度あったが……。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "skryaga_about_gruppa",
+                                               "phrase_id":  "1",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:skryaga_about_gruppa_phrase_3#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1665,
+                        "string_id":  "skryaga_about_gruppa_phrase_3",
+                        "occurrence":  1,
+                        "EN":  "What happened?",
+                        "JA_current":  "What happened?",
+                        "JA_new":  "何があった？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "skryaga_about_gruppa",
+                                               "phrase_id":  "2",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:skryaga_about_gruppa_phrase_4#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1668,
+                        "string_id":  "skryaga_about_gruppa_phrase_4",
+                        "occurrence":  1,
+                        "EN":  "Well, a guy came to me, a stalker. He bought a lot of provisions, ammunition, equipment. He even bought a tent. It looked like he was going on a long hike. He could barely carry all this equipment on his back. So I thought to myself: I wonder why he needed so much? I figured out that he was probably getting supplies for a whole group of people. There was enough food there to last over a week.",
+                        "JA_current":  "Well, a guy came to me, a stalker. He bought a lot of provisions, ammunition, equipment. He even bought a tent. It looked like he was going on a long hike. He could barely carry all this equipment on his back. So I thought to myself: I wonder why he needed so much? I figured out that he was probably getting supplies for a whole group of people. There was enough food there to last over a week.",
+                        "JA_new":  "ストーカーが一人来てな。食料や弾薬、装備を大量に買っていった。テントまで買ってたよ。長旅に出るつもりに見えたな。荷物を背負うのもやっとって感じだった。何にそんなに要るんだろうと思ったよ。仲間の分まで用意してたんだろうな。食料だけでも一週間は持ちそうな量だった。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "skryaga_about_gruppa",
+                                               "phrase_id":  "3",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:skryaga_about_gruppa_phrase_5#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1671,
+                        "string_id":  "skryaga_about_gruppa_phrase_5",
+                        "occurrence":  1,
+                        "EN":  "Do you remember that stalker\u0027s name?",
+                        "JA_current":  "Do you remember that stalker\u0027s name?",
+                        "JA_new":  "そのストーカーの名前は覚えてるか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "skryaga_about_gruppa",
+                                               "phrase_id":  "4",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:skryaga_about_gruppa_phrase_6#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1674,
+                        "string_id":  "skryaga_about_gruppa_phrase_6",
+                        "occurrence":  1,
+                        "EN":  "I think it was something like Knopych or Knopik... What do you need him for?",
+                        "JA_current":  "I think it was something like Knopych or Knopik... What do you need him for?",
+                        "JA_new":  "たしかクノピチか、クノピクとか……そんな名前だった。何の用だ？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "skryaga_about_gruppa",
+                                               "phrase_id":  "5",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:skryaga_about_gruppa_phrase_7#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1677,
+                        "string_id":  "skryaga_about_gruppa_phrase_7",
+                        "occurrence":  1,
+                        "EN":  "Looking for some people. They must be around here somewhere, near this base. Do you know anything about them?",
+                        "JA_current":  "Looking for some people. They must be around here somewhere, near this base. Do you know anything about them?",
+                        "JA_new":  "何人かを捜してる。基地の近くにいるはずなんだ。そいつらについて何か知らないか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "skryaga_about_gruppa",
+                                               "phrase_id":  "6",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:skryaga_about_gruppa_phrase_8#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1680,
+                        "string_id":  "skryaga_about_gruppa_phrase_8",
+                        "occurrence":  1,
+                        "EN":  "I don\u0027t know anything, but I think Button might be in on it. Apparently, he\u0027s involved somehow.",
+                        "JA_current":  "I don\u0027t know anything, but I think Button might be in on it. Apparently, he\u0027s involved somehow.",
+                        "JA_new":  "何も知らないが、ボタンって奴が関わってるかもしれない。どうやら何か知ってるらしい。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "skryaga_about_gruppa",
+                                               "phrase_id":  "7",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:skryaga_about_gruppa_phrase_9#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1683,
+                        "string_id":  "skryaga_about_gruppa_phrase_9",
+                        "occurrence":  1,
+                        "EN":  "Fair enough. Can you tell me which way this man dragged his stuff?",
+                        "JA_current":  "Fair enough. Can you tell me which way this man dragged his stuff?",
+                        "JA_new":  "そうか。そいつがどっちへ荷物を運んだか分かるか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "skryaga_about_gruppa",
+                                               "phrase_id":  "8",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:skryaga_about_gruppa_phrase_10#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1686,
+                        "string_id":  "skryaga_about_gruppa_phrase_10",
+                        "occurrence":  1,
+                        "EN":  "I\u0027ll give you a hint. I had one of our scouts watch him with binoculars for a while, just to see where he was going. I can give you his approximate location, but the information won\u0027t be free, you have to do a job for me first.",
+                        "JA_current":  "I\u0027ll give you a hint. I had one of our scouts watch him with binoculars for a while, just to see where he was going. I can give you his approximate location, but the information won\u0027t be free, you have to do a job for me first.",
+                        "JA_new":  "手掛かりならある。行き先を確かめるため、斥候にしばらく双眼鏡で追わせた。おおよその場所なら教えられるが、ただじゃ無理だ。先にひと仕事してもらう。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "skryaga_about_gruppa",
+                                               "phrase_id":  "9",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:skryaga_about_gruppa_phrase_11#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1689,
+                        "string_id":  "skryaga_about_gruppa_phrase_11",
+                        "occurrence":  1,
+                        "EN":  "What needs to be done?",
+                        "JA_current":  "What needs to be done?",
+                        "JA_new":  "何をすればいい？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "skryaga_about_gruppa",
+                                               "phrase_id":  "10",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:skryaga_about_gruppa_phrase_12#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1692,
+                        "string_id":  "skryaga_about_gruppa_phrase_12",
+                        "occurrence":  1,
+                        "EN":  "We had a lot of trouble the other day. The leader of our Pathfinders, Miklukha, went missing. He was a cool stalker, almost a legendary figure. He left alone to explore the area behind the barrier and never returned. No one has seen him for a week. Our leader Lukash respected him very much, Miklukha once saved his life. So he says whoever finds Miklukha\u0027s body will get a reward. He wants to give the tracker\u0027s body to the ground, to bury it, so to speak, like a human being. If you find out where Miklukha has laid his bones, you\u0027ll get the information you need from me. Deal?",
+                        "JA_current":  "We had a lot of trouble the other day. The leader of our Pathfinders, Miklukha, went missing. He was a cool stalker, almost a legendary figure. He left alone to explore the area behind the barrier and never returned. No one has seen him for a week. Our leader Lukash respected him very much, Miklukha once saved his life. So he says whoever finds Miklukha\u0027s body will get a reward. He wants to give the tracker\u0027s body to the ground, to bury it, so to speak, like a human being. If you find out where Miklukha has laid his bones, you\u0027ll get the information you need from me. Deal?",
+                        "JA_new":  "この前、面倒なことがあってな。先遣隊のリーダー、ミクルーハが行方不明になったんだ。腕の立つストーカーで、伝説みたいな男だった。バリアの向こうを調べに一人で出て、そのまま戻らなかった。もう一週間、誰も見てない。リーダーのルカシュも、あいつをひどく買ってた。昔、命を救われたことがあるらしい。だから、ミクルーハの遺体を見つけた奴には報酬を出すそうだ。追跡者の遺体を土に返して、人間らしく葬ってやりたいんだと。ミクルーハがどこで息絶えたか突き止めたら、必要な情報を教える。どうだ？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "skryaga_about_gruppa",
+                                               "phrase_id":  "11",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:skryaga_about_gruppa_phrase_13#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1695,
+                        "string_id":  "skryaga_about_gruppa_phrase_13",
+                        "occurrence":  1,
+                        "EN":  "Did you say behind the Barrier? But that\u0027s where the Brain Scorcher is.",
+                        "JA_current":  "Did you say behind the Barrier? But that\u0027s where the Brain Scorcher is.",
+                        "JA_new":  "バリアの向こうだって？ そこにはブレイン・スコーチャーがあるぞ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "skryaga_about_gruppa",
+                                               "phrase_id":  "12",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:skryaga_about_gruppa_phrase_14#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1698,
+                        "string_id":  "skryaga_about_gruppa_phrase_14",
+                        "occurrence":  1,
+                        "EN":  "Behind the barrier, there is also an area that is not affected. Our guys wanted to raid there, but it didn\u0027t work out - there are a lot of those Monolith freaks there. So be careful.",
+                        "JA_current":  "Behind the barrier, there is also an area that is not affected. Our guys wanted to raid there, but it didn\u0027t work out - there are a lot of those Monolith freaks there. So be careful.",
+                        "JA_new":  "バリアの向こうにも、スコーチャーの影響を受けない場所がある。俺たちも襲撃しようとしたが、うまくいかなかった。モノリスの連中が大勢いるんだ。気をつけろ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "skryaga_about_gruppa",
+                                               "phrase_id":  "13",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:skryaga_about_gruppa_phrase_15#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1701,
+                        "string_id":  "skryaga_about_gruppa_phrase_15",
+                        "occurrence":  1,
+                        "EN":  "Okay.",
+                        "JA_current":  "Okay.",
+                        "JA_new":  "分かった。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "skryaga_about_gruppa",
+                                               "phrase_id":  "14",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  "skryaga_about_gruppa_phrase_1",
+                            "next":  [
+                                         "1"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I have a question. Have any strangers appeared in your ranks lately?",
+                            "JA_current":  "I have a question. Have any strangers appeared in your ranks lately?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:skryaga_about_gruppa_phrase_1#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "1",
+                            "text_id":  "skryaga_about_gruppa_phrase_2",
+                            "next":  [
+                                         "2"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "No one has come to see us in the last week. Although, there was one incident, not quite appropriate, but still.",
+                            "JA_current":  "No one has come to see us in the last week. Although, there was one incident, not quite appropriate, but still.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:skryaga_about_gruppa_phrase_2#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "2",
+                            "text_id":  "skryaga_about_gruppa_phrase_3",
+                            "next":  [
+                                         "3"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "What happened?",
+                            "JA_current":  "What happened?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:skryaga_about_gruppa_phrase_3#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "3",
+                            "text_id":  "skryaga_about_gruppa_phrase_4",
+                            "next":  [
+                                         "4"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "2"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Well, a guy came to me, a stalker. He bought a lot of provisions, ammunition, equipment. He even bought a tent. It looked like he was going on a long hike. He could barely carry all this equipment on his back. So I thought to myself: I wonder why he needed so much? I figured out that he was probably getting supplies for a whole group of people. There was enough food there to last over a week.",
+                            "JA_current":  "Well, a guy came to me, a stalker. He bought a lot of provisions, ammunition, equipment. He even bought a tent. It looked like he was going on a long hike. He could barely carry all this equipment on his back. So I thought to myself: I wonder why he needed so much? I figured out that he was probably getting supplies for a whole group of people. There was enough food there to last over a week.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:skryaga_about_gruppa_phrase_4#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "4",
+                            "text_id":  "skryaga_about_gruppa_phrase_5",
+                            "next":  [
+                                         "5"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "3"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Do you remember that stalker\u0027s name?",
+                            "JA_current":  "Do you remember that stalker\u0027s name?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:skryaga_about_gruppa_phrase_5#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "5",
+                            "text_id":  "skryaga_about_gruppa_phrase_6",
+                            "next":  [
+                                         "6"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "4"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I think it was something like Knopych or Knopik... What do you need him for?",
+                            "JA_current":  "I think it was something like Knopych or Knopik... What do you need him for?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:skryaga_about_gruppa_phrase_6#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "6",
+                            "text_id":  "skryaga_about_gruppa_phrase_7",
+                            "next":  [
+                                         "7"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "5"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Looking for some people. They must be around here somewhere, near this base. Do you know anything about them?",
+                            "JA_current":  "Looking for some people. They must be around here somewhere, near this base. Do you know anything about them?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:skryaga_about_gruppa_phrase_7#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "7",
+                            "text_id":  "skryaga_about_gruppa_phrase_8",
+                            "next":  [
+                                         "8"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "6"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I don\u0027t know anything, but I think Button might be in on it. Apparently, he\u0027s involved somehow.",
+                            "JA_current":  "I don\u0027t know anything, but I think Button might be in on it. Apparently, he\u0027s involved somehow.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:skryaga_about_gruppa_phrase_8#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "8",
+                            "text_id":  "skryaga_about_gruppa_phrase_9",
+                            "next":  [
+                                         "9"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "7"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Fair enough. Can you tell me which way this man dragged his stuff?",
+                            "JA_current":  "Fair enough. Can you tell me which way this man dragged his stuff?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:skryaga_about_gruppa_phrase_9#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "9",
+                            "text_id":  "skryaga_about_gruppa_phrase_10",
+                            "next":  [
+                                         "10"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "8"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I\u0027ll give you a hint. I had one of our scouts watch him with binoculars for a while, just to see where he was going. I can give you his approximate location, but the information won\u0027t be free, you have to do a job for me first.",
+                            "JA_current":  "I\u0027ll give you a hint. I had one of our scouts watch him with binoculars for a while, just to see where he was going. I can give you his approximate location, but the information won\u0027t be free, you have to do a job for me first.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:skryaga_about_gruppa_phrase_10#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "10",
+                            "text_id":  "skryaga_about_gruppa_phrase_11",
+                            "next":  [
+                                         "11"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "9"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "What needs to be done?",
+                            "JA_current":  "What needs to be done?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:skryaga_about_gruppa_phrase_11#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "11",
+                            "text_id":  "skryaga_about_gruppa_phrase_12",
+                            "next":  [
+                                         "12"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "10"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "We had a lot of trouble the other day. The leader of our Pathfinders, Miklukha, went missing. He was a cool stalker, almost a legendary figure. He left alone to explore the area behind the barrier and never returned. No one has seen him for a week. Our leader Lukash respected him very much, Miklukha once saved his life. So he says whoever finds Miklukha\u0027s body will get a reward. He wants to give the tracker\u0027s body to the ground, to bury it, so to speak, like a human being. If you find out where Miklukha has laid his bones, you\u0027ll get the information you need from me. Deal?",
+                            "JA_current":  "We had a lot of trouble the other day. The leader of our Pathfinders, Miklukha, went missing. He was a cool stalker, almost a legendary figure. He left alone to explore the area behind the barrier and never returned. No one has seen him for a week. Our leader Lukash respected him very much, Miklukha once saved his life. So he says whoever finds Miklukha\u0027s body will get a reward. He wants to give the tracker\u0027s body to the ground, to bury it, so to speak, like a human being. If you find out where Miklukha has laid his bones, you\u0027ll get the information you need from me. Deal?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:skryaga_about_gruppa_phrase_12#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "12",
+                            "text_id":  "skryaga_about_gruppa_phrase_13",
+                            "next":  [
+                                         "13"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "11"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Did you say behind the Barrier? But that\u0027s where the Brain Scorcher is.",
+                            "JA_current":  "Did you say behind the Barrier? But that\u0027s where the Brain Scorcher is.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:skryaga_about_gruppa_phrase_13#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "13",
+                            "text_id":  "skryaga_about_gruppa_phrase_14",
+                            "next":  [
+                                         "14"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "12"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Behind the barrier, there is also an area that is not affected. Our guys wanted to raid there, but it didn\u0027t work out - there are a lot of those Monolith freaks there. So be careful.",
+                            "JA_current":  "Behind the barrier, there is also an area that is not affected. Our guys wanted to raid there, but it didn\u0027t work out - there are a lot of those Monolith freaks there. So be careful.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:skryaga_about_gruppa_phrase_14#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "14",
+                            "text_id":  "skryaga_about_gruppa_phrase_15",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "give_info",
+                                                "value":  "skryaga_o_gruppe"
+                                            },
+                                            {
+                                                "type":  "action",
+                                                "value":  "ogse_spawns.spawn_puzir"
+                                            },
+                                            {
+                                                "type":  "action",
+                                                "value":  "ogse_spawns.spawn_mikluha_pda"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "13"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Okay.",
+                            "JA_current":  "Okay.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:skryaga_about_gruppa_phrase_15#1"
+                                                        ]
+                        }
+                    ]
+}

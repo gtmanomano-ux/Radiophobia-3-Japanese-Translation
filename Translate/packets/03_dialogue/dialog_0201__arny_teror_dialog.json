@@ -1,0 +1,412 @@
+{
+  "packet_id": "dialog_0201__arny_teror_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "arny_teror_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "ivancov_infa"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "arny_teror"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "terakt_da"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "terakt_net"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 9,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:arny_teror_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2998,
+      "string_id": "arny_teror_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Arnie, I'm here on business. What can you tell me about that spooky note?",
+      "JA_current": "Arnie, I'm here on business. What can you tell me about that spooky note?",
+      "JA_new": "アーニー、仕事で来た。あの不気味な手紙について、何か知らないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arny_teror_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arny_teror_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3001,
+      "string_id": "arny_teror_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "The one from three days ago? Yeah, it wasn't just me that got it, Barkeep and Voronin also got one each.",
+      "JA_current": "The one from three days ago? Yeah, it wasn't just me that got it, Barkeep and Voronin also got one each.",
+      "JA_new": "3日前のやつか？ああ、俺だけじゃない。バーキープとヴォロニンにも一通ずつ届いてた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arny_teror_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arny_teror_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3004,
+      "string_id": "arny_teror_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Who do you think it could be?",
+      "JA_current": "Who do you think it could be?",
+      "JA_new": "犯人は誰だと思う？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arny_teror_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arny_teror_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3007,
+      "string_id": "arny_teror_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "If I'd known, I wouldn't have sat around with idle hands. Sure, I've made some enemies, but this lunatic wants to blow up the whole Bar to hell! Personally, I think this is the work of the monolith group, those psychos from up North who defend the center!",
+      "JA_current": "If I'd known, I wouldn't have sat around with idle hands. Sure, I've made some enemies, but this lunatic wants to blow up the whole Bar to hell! Personally, I think this is the work of the monolith group, those psychos from up North who defend the center!",
+      "JA_new": "知ってたら、ぼんやり座ってなんかいないさ。恨みを買った覚えはあるけど、こいつはロストクごと吹き飛ばす気だ！俺はモノリスの仕業だと思う。北で中心部を守ってる、あのイカれた連中さ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arny_teror_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arny_teror_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3010,
+      "string_id": "arny_teror_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Why do you think the terrorist sent notes to you, the bartender, and the general?",
+      "JA_current": "Why do you think the terrorist sent notes to you, the bartender, and the general?",
+      "JA_new": "テロリストがあんたとバーキープ、それに将軍へ手紙を送ったのはなぜだと思う？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arny_teror_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arny_teror_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3013,
+      "string_id": "arny_teror_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Well, because we are the most influential people here, we hold the most authority! Why?",
+      "JA_current": "Well, because we are the most influential people here, we hold the most authority! Why?",
+      "JA_new": "ここで一番顔が利くし、権限もあるからさ！それがどうした？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arny_teror_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arny_teror_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3016,
+      "string_id": "arny_teror_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Did you have any common business affairs with the other two?",
+      "JA_current": "Did you have any common business affairs with the other two?",
+      "JA_new": "ほかの二人と、何か共同で商売でもしてたのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arny_teror_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arny_teror_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3019,
+      "string_id": "arny_teror_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "I don't understand, are you looking for this terrorist or are you trying to stick your nose into my business?",
+      "JA_current": "I don't understand, are you looking for this terrorist or are you trying to stick your nose into my business?",
+      "JA_new": "何が聞きたいんだ？テロリストを探してるのか、それとも俺の商売に首を突っ込みたいだけか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arny_teror_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arny_teror_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3022,
+      "string_id": "arny_teror_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "I'm gathering information so that the worst can be prevented.",
+      "JA_current": "I'm gathering information so that the worst can be prevented.",
+      "JA_new": "最悪の事態を防ぐために情報を集めてる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arny_teror_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "arny_teror_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Arnie, I'm here on business. What can you tell me about that spooky note?",
+      "JA_current": "Arnie, I'm here on business. What can you tell me about that spooky note?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arny_teror_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "arny_teror_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "The one from three days ago? Yeah, it wasn't just me that got it, Barkeep and Voronin also got one each.",
+      "JA_current": "The one from three days ago? Yeah, it wasn't just me that got it, Barkeep and Voronin also got one each.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arny_teror_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "arny_teror_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Who do you think it could be?",
+      "JA_current": "Who do you think it could be?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arny_teror_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "arny_teror_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "If I'd known, I wouldn't have sat around with idle hands. Sure, I've made some enemies, but this lunatic wants to blow up the whole Bar to hell! Personally, I think this is the work of the monolith group, those psychos from up North who defend the center!",
+      "JA_current": "If I'd known, I wouldn't have sat around with idle hands. Sure, I've made some enemies, but this lunatic wants to blow up the whole Bar to hell! Personally, I think this is the work of the monolith group, those psychos from up North who defend the center!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arny_teror_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "arny_teror_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Why do you think the terrorist sent notes to you, the bartender, and the general?",
+      "JA_current": "Why do you think the terrorist sent notes to you, the bartender, and the general?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arny_teror_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "arny_teror_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Well, because we are the most influential people here, we hold the most authority! Why?",
+      "JA_current": "Well, because we are the most influential people here, we hold the most authority! Why?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arny_teror_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "arny_teror_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Did you have any common business affairs with the other two?",
+      "JA_current": "Did you have any common business affairs with the other two?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arny_teror_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "arny_teror_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I don't understand, are you looking for this terrorist or are you trying to stick your nose into my business?",
+      "JA_current": "I don't understand, are you looking for this terrorist or are you trying to stick your nose into my business?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arny_teror_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "arny_teror_dialog_phrase_9",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "arny_teror"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'm gathering information so that the worst can be prevented.",
+      "JA_current": "I'm gathering information so that the worst can be prevented.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arny_teror_dialog_phrase_9#1"
+      ]
+    }
+  ]
+}

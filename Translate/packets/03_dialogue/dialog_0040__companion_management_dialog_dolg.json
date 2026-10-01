@@ -1,0 +1,1029 @@
+{
+  "packet_id": "dialog_0040__companion_management_dialog_dolg",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "companion_management_dialog_dolg",
+  "graph_source": "gamedata/config/gameplay/dialogs.xml",
+  "graph_sha256": "87109fb1ac4d045582ddab436da3571319106a69b21b6c21a4451cbb5f3afbbf",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "dialogs.is_companion"
+    },
+    {
+      "type": "precondition",
+      "value": "dialogs.is_dolg_companion"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 22,
+  "entries": [
+    {
+      "key": "stable_dialogs:companion_management_dialog_dolg_0#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 187,
+      "string_id": "companion_management_dialog_dolg_0",
+      "occurrence": 1,
+      "EN": "Soldier, listen to my command.",
+      "JA_current": "Soldier, listen to my command.",
+      "JA_new": "兵士、俺の指示を聞け。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_dolg",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_dolg_1#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 190,
+      "string_id": "companion_management_dialog_dolg_1",
+      "occurrence": 1,
+      "EN": "Affirmative!",
+      "JA_current": "Affirmative!",
+      "JA_new": "了解！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_dolg",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_dolg_2#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 193,
+      "string_id": "companion_management_dialog_dolg_2",
+      "occurrence": 1,
+      "EN": "Follow me.",
+      "JA_current": "Follow me.",
+      "JA_new": "ついてこい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_dolg",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_dolg_7#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 208,
+      "string_id": "companion_management_dialog_dolg_7",
+      "occurrence": 1,
+      "EN": "Wait here.",
+      "JA_current": "Wait here.",
+      "JA_new": "ここで待て。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_dolg",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_dolg_12#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 223,
+      "string_id": "companion_management_dialog_dolg_12",
+      "occurrence": 1,
+      "EN": "Follow me crouching.",
+      "JA_current": "Follow me crouching.",
+      "JA_new": "しゃがんでついてこい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_dolg",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_dolg_17#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 238,
+      "string_id": "companion_management_dialog_dolg_17",
+      "occurrence": 1,
+      "EN": "Hide here.",
+      "JA_current": "Hide here.",
+      "JA_new": "ここに隠れてろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_dolg",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_dolg_3#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 196,
+      "string_id": "companion_management_dialog_dolg_3",
+      "occurrence": 1,
+      "EN": "How should I react to threats?",
+      "JA_current": "How should I react to threats?",
+      "JA_new": "脅威にはどう対処すればいい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_dolg",
+          "phrase_id": "111",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_dolg_8#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 211,
+      "string_id": "companion_management_dialog_dolg_8",
+      "occurrence": 1,
+      "EN": "How should I react to threats?",
+      "JA_current": "How should I react to threats?",
+      "JA_new": "脅威にはどう対処すればいい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_dolg",
+          "phrase_id": "121",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_dolg_13#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 226,
+      "string_id": "companion_management_dialog_dolg_13",
+      "occurrence": 1,
+      "EN": "How should I react to threats?",
+      "JA_current": "How should I react to threats?",
+      "JA_new": "脅威にはどう対処すればいい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_dolg",
+          "phrase_id": "131",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_dolg_18#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 241,
+      "string_id": "companion_management_dialog_dolg_18",
+      "occurrence": 1,
+      "EN": "How should I react to threats?",
+      "JA_current": "How should I react to threats?",
+      "JA_new": "脅威にはどう対処すればいい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_dolg",
+          "phrase_id": "141",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_dolg_4#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 199,
+      "string_id": "companion_management_dialog_dolg_4",
+      "occurrence": 1,
+      "EN": "Keep elevated readiness.",
+      "JA_current": "Keep elevated readiness.",
+      "JA_new": "警戒態勢を維持しろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_dolg",
+          "phrase_id": "1111",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_dolg_5#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 202,
+      "string_id": "companion_management_dialog_dolg_5",
+      "occurrence": 1,
+      "EN": "Follow me, proceed with mid distance fire.",
+      "JA_current": "Follow me, proceed with mid distance fire.",
+      "JA_new": "ついてこい。中距離から敵を撃て。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_dolg",
+          "phrase_id": "1112",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_dolg_6#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 205,
+      "string_id": "companion_management_dialog_dolg_6",
+      "occurrence": 1,
+      "EN": "Follow me and don't attack first.",
+      "JA_current": "Follow me and don't attack first.",
+      "JA_new": "ついてこい。こちらから先に攻撃するな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_dolg",
+          "phrase_id": "1113",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_dolg_9#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 214,
+      "string_id": "companion_management_dialog_dolg_9",
+      "occurrence": 1,
+      "EN": "Keep elevated readiness.",
+      "JA_current": "Keep elevated readiness.",
+      "JA_new": "警戒態勢を維持しろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_dolg",
+          "phrase_id": "1211",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_dolg_10#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 217,
+      "string_id": "companion_management_dialog_dolg_10",
+      "occurrence": 1,
+      "EN": "Wait here, proceed with mid distance fire.",
+      "JA_current": "Wait here, proceed with mid distance fire.",
+      "JA_new": "ここで待て。中距離から敵を撃て。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_dolg",
+          "phrase_id": "1212",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_dolg_11#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 220,
+      "string_id": "companion_management_dialog_dolg_11",
+      "occurrence": 1,
+      "EN": "Wait here and don't attack first.",
+      "JA_current": "Wait here and don't attack first.",
+      "JA_new": "ここで待て。こちらから先に攻撃するな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_dolg",
+          "phrase_id": "1213",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_dolg_14#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 229,
+      "string_id": "companion_management_dialog_dolg_14",
+      "occurrence": 1,
+      "EN": "Keep elevated readiness.",
+      "JA_current": "Keep elevated readiness.",
+      "JA_new": "警戒態勢を維持しろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_dolg",
+          "phrase_id": "1311",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_dolg_15#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 232,
+      "string_id": "companion_management_dialog_dolg_15",
+      "occurrence": 1,
+      "EN": "Follow me crouching, proceed with mid distance fire.",
+      "JA_current": "Follow me crouching, proceed with mid distance fire.",
+      "JA_new": "しゃがんでついてこい。中距離から敵を撃て。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_dolg",
+          "phrase_id": "1312",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_dolg_16#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 235,
+      "string_id": "companion_management_dialog_dolg_16",
+      "occurrence": 1,
+      "EN": "Follow me crouching and don't attack first.",
+      "JA_current": "Follow me crouching and don't attack first.",
+      "JA_new": "しゃがんでついてこい。こちらから先に攻撃するな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_dolg",
+          "phrase_id": "1313",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_dolg_19#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 244,
+      "string_id": "companion_management_dialog_dolg_19",
+      "occurrence": 1,
+      "EN": "Keep elevated readiness.",
+      "JA_current": "Keep elevated readiness.",
+      "JA_new": "警戒態勢を維持しろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_dolg",
+          "phrase_id": "1411",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_dolg_20#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 247,
+      "string_id": "companion_management_dialog_dolg_20",
+      "occurrence": 1,
+      "EN": "Hide here, proceed with mid distance fire.",
+      "JA_current": "Hide here, proceed with mid distance fire.",
+      "JA_new": "ここに隠れて、中距離から敵を撃て。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_dolg",
+          "phrase_id": "1412",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_dolg_21#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 250,
+      "string_id": "companion_management_dialog_dolg_21",
+      "occurrence": 1,
+      "EN": "Hide here and don't attack first.",
+      "JA_current": "Hide here and don't attack first.",
+      "JA_new": "ここに隠れて、こちらから先に攻撃するな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_dolg",
+          "phrase_id": "1413",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "companion_management_dialog_dolg_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Soldier, listen to my command.",
+      "JA_current": "Soldier, listen to my command.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_dolg_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "companion_management_dialog_dolg_1",
+      "next": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Affirmative!",
+      "JA_current": "Affirmative!",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_dolg_1#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "companion_management_dialog_dolg_2",
+      "next": [
+        "111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Follow me.",
+      "JA_current": "Follow me.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_dolg_2#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "companion_management_dialog_dolg_7",
+      "next": [
+        "121"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Wait here.",
+      "JA_current": "Wait here.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_dolg_7#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "companion_management_dialog_dolg_12",
+      "next": [
+        "131"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Follow me crouching.",
+      "JA_current": "Follow me crouching.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_dolg_12#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "companion_management_dialog_dolg_17",
+      "next": [
+        "141"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Hide here.",
+      "JA_current": "Hide here.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_dolg_17#1"
+      ]
+    },
+    {
+      "phrase_id": "111",
+      "text_id": "companion_management_dialog_dolg_3",
+      "next": [
+        "1111",
+        "1112",
+        "1113"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "How should I react to threats?",
+      "JA_current": "How should I react to threats?",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_dolg_3#1"
+      ]
+    },
+    {
+      "phrase_id": "121",
+      "text_id": "companion_management_dialog_dolg_8",
+      "next": [
+        "1211",
+        "1212",
+        "1213"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "How should I react to threats?",
+      "JA_current": "How should I react to threats?",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_dolg_8#1"
+      ]
+    },
+    {
+      "phrase_id": "131",
+      "text_id": "companion_management_dialog_dolg_13",
+      "next": [
+        "1311",
+        "1312",
+        "1313"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "How should I react to threats?",
+      "JA_current": "How should I react to threats?",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_dolg_13#1"
+      ]
+    },
+    {
+      "phrase_id": "141",
+      "text_id": "companion_management_dialog_dolg_18",
+      "next": [
+        "1411",
+        "1412",
+        "1413"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "How should I react to threats?",
+      "JA_current": "How should I react to threats?",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_dolg_18#1"
+      ]
+    },
+    {
+      "phrase_id": "1111",
+      "text_id": "companion_management_dialog_dolg_4",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_walk_simple"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Keep elevated readiness.",
+      "JA_current": "Keep elevated readiness.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_dolg_4#1"
+      ]
+    },
+    {
+      "phrase_id": "1112",
+      "text_id": "companion_management_dialog_dolg_5",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_walk_low_aggr"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Follow me, proceed with mid distance fire.",
+      "JA_current": "Follow me, proceed with mid distance fire.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_dolg_5#1"
+      ]
+    },
+    {
+      "phrase_id": "1113",
+      "text_id": "companion_management_dialog_dolg_6",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_walk_ignore"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Follow me and don't attack first.",
+      "JA_current": "Follow me and don't attack first.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_dolg_6#1"
+      ]
+    },
+    {
+      "phrase_id": "1211",
+      "text_id": "companion_management_dialog_dolg_9",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_wait_simple"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "121"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Keep elevated readiness.",
+      "JA_current": "Keep elevated readiness.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_dolg_9#1"
+      ]
+    },
+    {
+      "phrase_id": "1212",
+      "text_id": "companion_management_dialog_dolg_10",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_wait_low_aggr"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "121"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Wait here, proceed with mid distance fire.",
+      "JA_current": "Wait here, proceed with mid distance fire.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_dolg_10#1"
+      ]
+    },
+    {
+      "phrase_id": "1213",
+      "text_id": "companion_management_dialog_dolg_11",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_wait_ignore"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "121"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Wait here and don't attack first.",
+      "JA_current": "Wait here and don't attack first.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_dolg_11#1"
+      ]
+    },
+    {
+      "phrase_id": "1311",
+      "text_id": "companion_management_dialog_dolg_14",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_crouch_simple"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "131"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Keep elevated readiness.",
+      "JA_current": "Keep elevated readiness.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_dolg_14#1"
+      ]
+    },
+    {
+      "phrase_id": "1312",
+      "text_id": "companion_management_dialog_dolg_15",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_crouch_low_aggr"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "131"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Follow me crouching, proceed with mid distance fire.",
+      "JA_current": "Follow me crouching, proceed with mid distance fire.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_dolg_15#1"
+      ]
+    },
+    {
+      "phrase_id": "1313",
+      "text_id": "companion_management_dialog_dolg_16",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_crouch_ignore"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "131"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Follow me crouching and don't attack first.",
+      "JA_current": "Follow me crouching and don't attack first.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_dolg_16#1"
+      ]
+    },
+    {
+      "phrase_id": "1411",
+      "text_id": "companion_management_dialog_dolg_19",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_hide_simple"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "141"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Keep elevated readiness.",
+      "JA_current": "Keep elevated readiness.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_dolg_19#1"
+      ]
+    },
+    {
+      "phrase_id": "1412",
+      "text_id": "companion_management_dialog_dolg_20",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_hide_low_aggr"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "141"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Hide here, proceed with mid distance fire.",
+      "JA_current": "Hide here, proceed with mid distance fire.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_dolg_20#1"
+      ]
+    },
+    {
+      "phrase_id": "1413",
+      "text_id": "companion_management_dialog_dolg_21",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_hide_ignore"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "141"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Hide here and don't attack first.",
+      "JA_current": "Hide here and don't attack first.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_dolg_21#1"
+      ]
+    }
+  ]
+}

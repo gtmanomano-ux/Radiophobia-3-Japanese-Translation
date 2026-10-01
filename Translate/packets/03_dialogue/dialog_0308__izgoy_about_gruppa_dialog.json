@@ -1,0 +1,168 @@
+{
+  "packet_id": "dialog_0308__izgoy_about_gruppa_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "izgoy_about_gruppa_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "esc_stalker_izgoy",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "izgoy_about_gruppa_dialog"
+    },
+    {
+      "type": "has_info",
+      "value": "volk_pogovorit_sidor"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 3,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:izgoy_about_gruppa_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2159,
+      "string_id": "izgoy_about_gruppa_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "I've made arrangements with Wolf, he'll take you in.",
+      "JA_current": "I've made arrangements with Wolf, he'll take you in.",
+      "JA_new": "ウルフと話をつけた。あんたを受け入れてくれるそうだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_about_gruppa_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_about_gruppa_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2162,
+      "string_id": "izgoy_about_gruppa_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Thank you so very much, stalker!! You are living proof that there are good, honest people in the Zone. It's a pity that I can't thank you in material terms, I simply have nothing... Wait, let me tell you something, I think it will be useful to you. There was an incident not too long ago. One night we heard some shooting and explosions near the military checkpoint, and the next day we got information that it was people who wanted to get to the Zone from the outside world, and the soldiers shot them. It seems that these people managed to break through. I carefully looked through binoculars at the place where they breached the perimeter fence, and noticed someone's corpse, lying behind the fallen tree to the east of the roadblock. My point is: you can try to search him for equipment, you won't find much else here in Cordon otherwise. And the deceased may have something of value, he no longer needs it anyway... Just be careful: after this incident, the military set up more heavy machine-gun emplacements. The body is in a blind-spot where they can't see it, but you should still be careful, the whole area is mined as well. ",
+      "JA_current": "Thank you so very much, stalker!! You are living proof that there are good, honest people in the Zone. It's a pity that I can't thank you in material terms, I simply have nothing... Wait, let me tell you something, I think it will be useful to you. There was an incident not too long ago. One night we heard some shooting and explosions near the military checkpoint, and the next day we got information that it was people who wanted to get to the Zone from the outside world, and the soldiers shot them. It seems that these people managed to break through. I carefully looked through binoculars at the place where they breached the perimeter fence, and noticed someone's corpse, lying behind the fallen tree to the east of the roadblock. My point is: you can try to search him for equipment, you won't find much else here in Cordon otherwise. And the deceased may have something of value, he no longer needs it anyway... Just be careful: after this incident, the military set up more heavy machine-gun emplacements. The body is in a blind-spot where they can't see it, but you should still be careful, the whole area is mined as well. ",
+      "JA_new": "本当にありがとう、ストーカー！ ゾーンにも誠実で善良な人がいるって、あんたが証明してくれた。物で礼をしたいが、何も持ってないんだ……待てよ、役に立ちそうな話がある。少し前に事件があった。ある夜、軍の検問所の近くで銃声と爆発音が聞こえた。翌日、外の世界からゾーンに入ろうとした連中を兵士が撃ったと聞いた。そいつらは突破に成功したらしい。境界フェンスを破った場所を双眼鏡でよく見たら、道路封鎖の東側、倒木の裏に誰かの死体があった。つまり、装備を探してみるといい。コルドンじゃ他に大したものは見つからないし、死んだ奴にはもう必要ない。……だが気をつけろ。この事件の後、軍は重機関銃の銃座を増やした。死体は射界から外れてる場所にあるが、周辺一帯に地雷も埋まってる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_about_gruppa_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_about_gruppa_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2165,
+      "string_id": "izgoy_about_gruppa_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "I think it's worth checking out, thank you.",
+      "JA_current": "I think it's worth checking out, thank you.",
+      "JA_new": "見に行く価値はありそうだ。ありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_about_gruppa_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "izgoy_about_gruppa_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I've made arrangements with Wolf, he'll take you in.",
+      "JA_current": "I've made arrangements with Wolf, he'll take you in.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_about_gruppa_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "izgoy_about_gruppa_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you so very much, stalker!! You are living proof that there are good, honest people in the Zone. It's a pity that I can't thank you in material terms, I simply have nothing... Wait, let me tell you something, I think it will be useful to you. There was an incident not too long ago. One night we heard some shooting and explosions near the military checkpoint, and the next day we got information that it was people who wanted to get to the Zone from the outside world, and the soldiers shot them. It seems that these people managed to break through. I carefully looked through binoculars at the place where they breached the perimeter fence, and noticed someone's corpse, lying behind the fallen tree to the east of the roadblock. My point is: you can try to search him for equipment, you won't find much else here in Cordon otherwise. And the deceased may have something of value, he no longer needs it anyway... Just be careful: after this incident, the military set up more heavy machine-gun emplacements. The body is in a blind-spot where they can't see it, but you should still be careful, the whole area is mined as well. ",
+      "JA_current": "Thank you so very much, stalker!! You are living proof that there are good, honest people in the Zone. It's a pity that I can't thank you in material terms, I simply have nothing... Wait, let me tell you something, I think it will be useful to you. There was an incident not too long ago. One night we heard some shooting and explosions near the military checkpoint, and the next day we got information that it was people who wanted to get to the Zone from the outside world, and the soldiers shot them. It seems that these people managed to break through. I carefully looked through binoculars at the place where they breached the perimeter fence, and noticed someone's corpse, lying behind the fallen tree to the east of the roadblock. My point is: you can try to search him for equipment, you won't find much else here in Cordon otherwise. And the deceased may have something of value, he no longer needs it anyway... Just be careful: after this incident, the military set up more heavy machine-gun emplacements. The body is in a blind-spot where they can't see it, but you should still be careful, the whole area is mined as well. ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_about_gruppa_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "izgoy_about_gruppa_dialog_phrase_3",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "izgoy_about_gruppa_dialog"
+        },
+        {
+          "type": "give_info",
+          "value": "gruppa_quest_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I think it's worth checking out, thank you.",
+      "JA_current": "I think it's worth checking out, thank you.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_about_gruppa_dialog_phrase_3#1"
+      ]
+    }
+  ]
+}

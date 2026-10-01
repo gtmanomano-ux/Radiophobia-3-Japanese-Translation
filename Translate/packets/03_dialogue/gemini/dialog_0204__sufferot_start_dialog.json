@@ -1,0 +1,492 @@
+{
+  "packet_id": "dialog_0204__sufferot_start_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "sufferot_start_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "sufferot",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "sufferot_suicide"
+    }
+  ],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 11,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:sufferot_start_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3055,
+      "string_id": "sufferot_start_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Aah! W-Who are you?!",
+      "JA_current": "うわあっ！ だ、誰だあんたは！？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sufferot_start_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sufferot_start_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3058,
+      "string_id": "sufferot_start_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "There you are! Bin Laden, I presume?",
+      "JA_current": "とうとう見つけたぞ！ クソ爆弾魔のお出ましか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sufferot_start_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sufferot_start_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3061,
+      "string_id": "sufferot_start_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Don't shoot, don't shoot!",
+      "JA_current": "撃たないでくれ、撃たないで！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sufferot_start_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sufferot_start_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3064,
+      "string_id": "sufferot_start_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "I won't shoot if you deactivate the bombs and give me the detonators.",
+      "JA_current": "爆弾を解除して起爆装置を渡せ。そうすれば撃ち殺しはしない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sufferot_start_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sufferot_start_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3067,
+      "string_id": "sufferot_start_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "I can't... There were no detonators, I set it all up to work on a timer in case something happened to me. I set it to go off in about six days, so now it's a lot less...",
+      "JA_current": "無理なんだ……起爆装置なんて最初からない！ 自分に何かあった時のためにタイマー式にしてあるんだ。現実時間で6日後に爆発するようセットした……もう残された時間はほとんどないんだ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sufferot_start_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sufferot_start_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3070,
+      "string_id": "sufferot_start_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Can the charges themselves be disarmed?",
+      "JA_current": "爆弾そのものは解除できるのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sufferot_start_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sufferot_start_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3073,
+      "string_id": "sufferot_start_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "They can... I- I can give you the locations and all you need to do is pull out the cables.",
+      "JA_current": "できる……場所を教えるから、ケーブルを引き抜いてくれれば解除できる！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sufferot_start_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sufferot_start_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3076,
+      "string_id": "sufferot_start_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "How many charges are there and where did you hide them? I need specifics...",
+      "JA_current": "爆弾はいくつ仕掛けた？ 具体的な場所はどこだ？ 早く言え……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sufferot_start_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sufferot_start_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3079,
+      "string_id": "sufferot_start_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "There are a total of four bombs. One is located at the Duty base, one in the Bar, one near the Arena, and one more in one of the hangars where the stalkers live.",
+      "JA_current": "全部で4つだ。1つはデューティー基地、1つはバー、1つはアリーナの近く、もう1つはストーカーたちが寝泊まりしている格納庫だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sufferot_start_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sufferot_start_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3082,
+      "string_id": "sufferot_start_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "I'll be right back. Meanwhile, you wait here and start thinking about what you'll tell General Voronin when he brings you in for what you've done.",
+      "JA_current": "すぐに解除してくる。お前はここで待っていろ。ヴォロニン将軍の前に引っ立てられた時、どんな言い訳をするか考えておくんだな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sufferot_start_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sufferot_start_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3085,
+      "string_id": "sufferot_start_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "...",
+      "JA_current": "……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sufferot_start_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "sufferot_start_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.aaa_kto_eto"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Aah! W-Who are you?!",
+      "JA_current": "Aah! W-Who are you?!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sufferot_start_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "sufferot_start_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "There you are! Bin Laden, I presume?",
+      "JA_current": "There you are! Bin Laden, I presume?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sufferot_start_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "sufferot_start_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.ne_strelaite"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Don't shoot, don't shoot!",
+      "JA_current": "Don't shoot, don't shoot!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sufferot_start_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "sufferot_start_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I won't shoot if you deactivate the bombs and give me the detonators.",
+      "JA_current": "I won't shoot if you deactivate the bombs and give me the detonators.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sufferot_start_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "sufferot_start_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I can't... There were no detonators, I set it all up to work on a timer in case something happened to me. I set it to go off in about six days, so now it's a lot less...",
+      "JA_current": "I can't... There were no detonators, I set it all up to work on a timer in case something happened to me. I set it to go off in about six days, so now it's a lot less...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sufferot_start_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "sufferot_start_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Can the charges themselves be disarmed?",
+      "JA_current": "Can the charges themselves be disarmed?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sufferot_start_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "sufferot_start_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "They can... I- I can give you the locations and all you need to do is pull out the cables.",
+      "JA_current": "They can... I- I can give you the locations and all you need to do is pull out the cables.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sufferot_start_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "sufferot_start_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "How many charges are there and where did you hide them? I need specifics...",
+      "JA_current": "How many charges are there and where did you hide them? I need specifics...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sufferot_start_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "sufferot_start_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "There are a total of four bombs. One is located at the Duty base, one in the Bar, one near the Arena, and one more in one of the hangars where the stalkers live.",
+      "JA_current": "There are a total of four bombs. One is located at the Duty base, one in the Bar, one near the Arena, and one more in one of the hangars where the stalkers live.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sufferot_start_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "sufferot_start_dialog_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.spawn_zaryadi"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'll be right back. Meanwhile, you wait here and start thinking about what you'll tell General Voronin when he brings you in for what you've done.",
+      "JA_current": "I'll be right back. Meanwhile, you wait here and start thinking about what you'll tell General Voronin when he brings you in for what you've done.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sufferot_start_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "sufferot_start_dialog_phrase_11",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "sufferot_suicide"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "...",
+      "JA_current": "...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sufferot_start_dialog_phrase_11#1"
+      ]
+    }
+  ]
+}

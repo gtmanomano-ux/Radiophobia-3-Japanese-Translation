@@ -1,0 +1,290 @@
+{
+  "packet_id": "dialog_0213__shaman_shron3_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "shaman_shron3_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "shaman",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "shaman_navodka_2"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "shaman_navodka_3"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 6,
+  "entries": [
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_57#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 174,
+      "string_id": "dialogs_bar_57",
+      "occurrence": 1,
+      "EN": "You wanna share another cache with me?",
+      "JA_current": "もう1箇所、隠し場所を教えてくれないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "shaman_shron3_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_58#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 177,
+      "string_id": "dialogs_bar_58",
+      "occurrence": 1,
+      "EN": "That I do, providing you can bring me two Crystals.",
+      "JA_current": "いいとも。«クリスタル»を2つ持ってこれたらな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "shaman_shron3_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_59#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 180,
+      "string_id": "dialogs_bar_59",
+      "occurrence": 1,
+      "EN": "Here are those two Crystals.",
+      "JA_current": "言われた通り、«クリスタル»を2つ持ってきた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "shaman_shron3_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_60#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 183,
+      "string_id": "dialogs_bar_60",
+      "occurrence": 1,
+      "EN": "Better get to searching.",
+      "JA_current": "探しに行ってくるとしよう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "shaman_shron3_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_61#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 186,
+      "string_id": "dialogs_bar_61",
+      "occurrence": 1,
+      "EN": "So, what can I give you that's interesting... Yeah, I remember. Here's the deal: at Yantar, there are these old \"shell garages\" on the approach to the factory. Search between them, you'll find something.",
+      "JA_current": "さて、どんな面白いネタをくれてやろうか……そうだ、思い出したぞ。いいか、ヤンターの工場へ通じる道沿いに、古いかまぼこ型の簡易車庫が並んでいる。その隙間を探ってみな、お宝に巡り合えるはずだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "shaman_shron3_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_62#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 189,
+      "string_id": "dialogs_bar_62",
+      "occurrence": 1,
+      "EN": "I hope this \"something\" justifies my search.",
+      "JA_current": "苦労して探すだけの価値があるといいがな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "shaman_shron3_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "dialogs_bar_57",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You wanna share another cache with me?",
+      "JA_current": "You wanna share another cache with me?",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_57#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "dialogs_bar_58",
+      "next": [
+        "2",
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "That I do, providing you can bring me two Crystals.",
+      "JA_current": "That I do, providing you can bring me two Crystals.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_58#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "dialogs_bar_59",
+      "next": [
+        "4"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.proverka_kristals"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.otday_kristals"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here are those two Crystals.",
+      "JA_current": "Here are those two Crystals.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_59#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "dialogs_bar_60",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Better get to searching.",
+      "JA_current": "Better get to searching.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_60#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "dialogs_bar_61",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "shaman_navodka_3"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So, what can I give you that's interesting... Yeah, I remember. Here's the deal: at Yantar, there are these old \"shell garages\" on the approach to the factory. Search between them, you'll find something.",
+      "JA_current": "So, what can I give you that's interesting... Yeah, I remember. Here's the deal: at Yantar, there are these old \"shell garages\" on the approach to the factory. Search between them, you'll find something.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_61#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "dialogs_bar_62",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I hope this \"something\" justifies my search.",
+      "JA_current": "I hope this \"something\" justifies my search.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_62#1"
+      ]
+    }
+  ]
+}

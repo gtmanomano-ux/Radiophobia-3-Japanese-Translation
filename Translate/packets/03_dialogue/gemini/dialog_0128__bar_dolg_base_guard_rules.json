@@ -1,0 +1,250 @@
+{
+  "packet_id": "dialog_0128__bar_dolg_base_guard_rules",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_dolg_base_guard_rules",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_dolg_guard_commander",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "bar_dolg_base_rules_start"
+    },
+    {
+      "type": "has_info",
+      "value": "bar_deactivate_radar_start"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "bar_dolg_base_rules_finish"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 5,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_dolg_base_guard_rules_0#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1241,
+      "string_id": "bar_dolg_base_guard_rules_0",
+      "occurrence": 1,
+      "EN": "Barkeep told me that your leadership has some sort of assignment for me.",
+      "JA_current": "バーキープから聞いたんだが、あんたらの幹部が俺にやらせたい仕事があるそうだな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_base_guard_rules",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_base_guard_rules_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1244,
+      "string_id": "bar_dolg_base_guard_rules_1",
+      "occurrence": 1,
+      "EN": "Yes, he let us know about you, but before we let you in I want to brief you on our rules. So listen, our rules are simple. First rule - it's forbidden to shoot on our territory. If you break the rule twice, our patrol will open fire on you. Even if you make a run for it, you won't appear on our territory again - our guards will make sure of that. If you act calmly, you won't have any problems.",
+      "JA_current": "ああ、あいつから話は通っている。だが中へ通す前に、我々の規則を叩き込んでおく。よく聞け、規則は単純だ。第一に――我々の敷地内での発砲は一切禁止だ。二度規則を破れば、我が巡回兵がお前を射殺する。逃げおおせたつもりでも、二度とこの敷地へ足を踏み入れることはできんぞ――警備隊がきっちり始末をつけるからな。大人しくしていれば何の問題も起きん。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_base_guard_rules",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_base_guard_rules_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1247,
+      "string_id": "bar_dolg_base_guard_rules_2",
+      "occurrence": 1,
+      "EN": "Got it. Anything else?",
+      "JA_current": "分かった。他には？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_base_guard_rules",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_base_guard_rules_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1250,
+      "string_id": "bar_dolg_base_guard_rules_3",
+      "occurrence": 1,
+      "EN": "Yes, that's enough. You can pass.",
+      "JA_current": "ああ、それだけだ。通ってよし。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_base_guard_rules",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_base_guard_rules_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1256,
+      "string_id": "bar_dolg_base_guard_rules_5",
+      "occurrence": 1,
+      "EN": "That's about it. If you want to try to join Duty, feel free. We need good men but I'm warning you: before being accepted, you'll have to do a few dangerous jobs. We don't need pussies so everyone is tested.",
+      "JA_current": "それくらいのものだ。デューティーに入隊したいなら、遠慮なく試してみるといい。腕利きは歓迎するが、警告しておくぞ。正式に受け入れられる前に、いくつか命懸けの任務をこなしてもらう。腰抜けに用はないんでな、全員テストを受けさせる方針だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_base_guard_rules",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bar_dolg_base_guard_rules_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Barkeep told me that your leadership has some sort of assignment for me.",
+      "JA_current": "アンタが俺向けの任務を何か持ってるって、Barkeep が言ってたんだが。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_base_guard_rules_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "bar_dolg_base_guard_rules_1",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, he let us know about you, but before we let you in I want to brief you on our rules. So listen, our rules are simple. First rule - it's forbidden to shoot on our territory. If you break the rule twice, our patrol will open fire on you. Even if you make a run for it, you won't appear on our territory again - our guards will make sure of that. If you act calmly, you won't have any problems.",
+      "JA_current": "ああ、ヤツがお前のことを教えてくれた。加わってもらう前に、お前に俺たちのルールを説明したい。まあ聞けよ、俺たちのルールはシンプルだ。第1に ― 俺たちのテリトリーで発砲は禁止だ。2度ルールを破れば、警備がぶっ放すことになる。逃げたとしても、2度とこのテリトリーに顔は出せない ― 俺たちの見張りがきっとそうする。大人しくしてれば、問題ないがな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_base_guard_rules_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "bar_dolg_base_guard_rules_2",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "bar_dolg_base_rules_finish"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_dolg_community_leader"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Got it. Anything else?",
+      "JA_current": "わかった。他には？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_base_guard_rules_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "bar_dolg_base_guard_rules_3",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "bar_dolg_base_pass"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, that's enough. You can pass.",
+      "JA_current": "ああ、それで充分だ。通っていいぞ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_base_guard_rules_3#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "bar_dolg_base_guard_rules_5",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "That's about it. If you want to try to join Duty, feel free. We need good men but I'm warning you: before being accepted, you'll have to do a few dangerous jobs. We don't need pussies so everyone is tested.",
+      "JA_current": "そんなところだ。Duty に加わりたいなら、気兼ねするな。いいヤツを求めてるが、お前は警戒している： 受け入れる前に、2、3危険な仕事をしてもらう。めめしい男は要らねえ、どんなヤツでもテストするんだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_base_guard_rules_5#1"
+      ]
+    }
+  ]
+}

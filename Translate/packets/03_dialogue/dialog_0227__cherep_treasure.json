@@ -1,0 +1,168 @@
+{
+  "packet_id": "dialog_0227__cherep_treasure",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "cherep_treasure",
+  "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml",
+  "graph_sha256": "af90465ec3a6b7a324a6c5d72d8c5ed214013f3f66f7c85ea935c11f680b26c1",
+  "character_bindings": [
+    {
+      "profile_id": "val_escort_halfdead",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "kill_pula_complete"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "cherep_treasure_start"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 3,
+  "entries": [
+    {
+      "key": "stable_dialogs_darkvalley:cherep_treasure_0#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 86,
+      "string_id": "cherep_treasure_0",
+      "occurrence": 1,
+      "EN": "I've buried your problem. So, what about Skull's stash, you got the location? Or were you just bullshitting?",
+      "JA_current": "I've buried your problem. So, what about Skull's stash, you got the location? Or were you just bullshitting?",
+      "JA_new": "厄介事は片づけてきた。ところで、スカルの隠し場所はどこだ？まさか、でたらめを言ってたんじゃないだろうな？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cherep_treasure",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:cherep_treasure_1#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 89,
+      "string_id": "cherep_treasure_1",
+      "occurrence": 1,
+      "EN": "It ain't bullshit, I swear. There's a hiding hole, which that smart-ass Skull uses to keep some trophies. It's in one of the garages behind the fence near the road from the Bar to Army Warehouses. Rumor is that he recently stashed away a sweet rifle recently, maybe it's in there. There's a stash in the for sure, man, I'm not cheating you! Maybe there's some cool stuff, you never know, but it's all yours now...",
+      "JA_current": "It ain't bullshit, I swear. There's a hiding hole, which that smart-ass Skull uses to keep some trophies. It's in one of the garages behind the fence near the road from the Bar to Army Warehouses. Rumor is that he recently stashed away a sweet rifle recently, maybe it's in there. There's a stash in the for sure, man, I'm not cheating you! Maybe there's some cool stuff, you never know, but it's all yours now...",
+      "JA_new": "嘘じゃない、本当だ。スカルっていう抜け目のない奴が、戦利品をしまってる隠し場所がある。ロストクから軍事倉庫へ向かう道のそば、柵の向こうに並んだガレージの一つだ。最近、いいライフルを隠したって噂もある。たぶん中にあるんじゃないか。ちゃんと隠し場所はある。騙すつもりはないよ！いい物が見つかるかもしれないが、今はもうあんたのものだ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cherep_treasure",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:cherep_treasure_2#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 92,
+      "string_id": "cherep_treasure_2",
+      "occurrence": 1,
+      "EN": "Well, ok then... Keep praying for the rumor to have been true.",
+      "JA_current": "Well, ok then... Keep praying for the rumor to have been true.",
+      "JA_new": "そうか。じゃあ噂が本当だといいな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cherep_treasure",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "cherep_treasure_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I've buried your problem. So, what about Skull's stash, you got the location? Or were you just bullshitting?",
+      "JA_current": "I've buried your problem. So, what about Skull's stash, you got the location? Or were you just bullshitting?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:cherep_treasure_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "cherep_treasure_1",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It ain't bullshit, I swear. There's a hiding hole, which that smart-ass Skull uses to keep some trophies. It's in one of the garages behind the fence near the road from the Bar to Army Warehouses. Rumor is that he recently stashed away a sweet rifle recently, maybe it's in there. There's a stash in the for sure, man, I'm not cheating you! Maybe there's some cool stuff, you never know, but it's all yours now...",
+      "JA_current": "It ain't bullshit, I swear. There's a hiding hole, which that smart-ass Skull uses to keep some trophies. It's in one of the garages behind the fence near the road from the Bar to Army Warehouses. Rumor is that he recently stashed away a sweet rifle recently, maybe it's in there. There's a stash in the for sure, man, I'm not cheating you! Maybe there's some cool stuff, you never know, but it's all yours now...",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:cherep_treasure_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "cherep_treasure_2",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_spawn.spawn_cherep_svd_and_give_quest"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, ok then... Keep praying for the rumor to have been true.",
+      "JA_current": "Well, ok then... Keep praying for the rumor to have been true.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:cherep_treasure_2#1"
+      ]
+    }
+  ]
+}

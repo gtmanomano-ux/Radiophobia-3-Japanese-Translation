@@ -1,0 +1,449 @@
+{
+  "packet_id": "dialog_0254__quest_cit_reward",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "quest_cit_reward",
+  "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml",
+  "graph_sha256": "dd2e868a0418eeb66a0c1b47f7b24e267acb6d08ed5de71a1335884a50a88cb9",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "deadcity_dialog.have_deadcity_map"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 10,
+  "entries": [
+    {
+      "key": "stable_dialogs_deadcity:quest_cit_reward_0#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 102,
+      "string_id": "quest_cit_reward_0",
+      "occurrence": 1,
+      "EN": "By the way, I have information about the Mercs. Interested?",
+      "JA_current": "ところで、Merc についての情報があるんだが、興味あるかい？",
+      "JA_new": "そうだ、マーセナリーズについて情報がある。興味はあるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "quest_cit_reward",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:quest_cit_reward_1#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 105,
+      "string_id": "quest_cit_reward_1",
+      "occurrence": 1,
+      "EN": "Depends on the information.",
+      "JA_current": "その情報次第だな。",
+      "JA_new": "どんな情報かによるな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "quest_cit_reward",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:quest_cit_reward_11#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 108,
+      "string_id": "quest_cit_reward_11",
+      "occurrence": 1,
+      "EN": "I have a map which details the location of their base, guard posts, the way to get in without being noticed and a lot more.",
+      "JA_current": "私は彼らの基地の詳細な地図、見張り場所、気付かれずに入る方法などを知っている。",
+      "JA_new": "奴らの拠点や見張り所、見つからずに入り込むルートまで書いた地図を持ってる。ほかにもいろいろな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "quest_cit_reward",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:quest_cit_reward_13#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 126,
+      "string_id": "quest_cit_reward_13",
+      "occurrence": 1,
+      "EN": "Nothing worthwhile. Just the usual gossip. Sorry.",
+      "JA_current": "価値があるものは何もない。ただいつもの人たちがうわさ話をする。すまないな。",
+      "JA_new": "大した情報じゃない。いつもの噂話だ。悪かったな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "quest_cit_reward",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:quest_cit_reward_111#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 111,
+      "string_id": "quest_cit_reward_111",
+      "occurrence": 1,
+      "EN": "Sounds valuable. I'll give you 3000 for it.",
+      "JA_current": "価値がありそうだな。よし、3000出そう。",
+      "JA_new": "使えそうだな。3,000ルーブルで買おう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "quest_cit_reward",
+          "phrase_id": "111",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:quest_cit_reward_131#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 129,
+      "string_id": "quest_cit_reward_131",
+      "occurrence": 1,
+      "EN": "If you find out something more specific come back. I'll pay you.",
+      "JA_current": "何か変わった物を発見して、持ち帰ったら、それに対価を支払おう。",
+      "JA_new": "もっと具体的な情報が手に入ったら来てくれ。金は払う。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "quest_cit_reward",
+          "phrase_id": "131",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:quest_cit_reward_1111#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 114,
+      "string_id": "quest_cit_reward_1111",
+      "occurrence": 1,
+      "EN": "Deal. Here.",
+      "JA_current": "取引成立。ほらよ。",
+      "JA_new": "取引成立だ。ほら。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "quest_cit_reward",
+          "phrase_id": "1111",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:quest_cit_reward_1112#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 120,
+      "string_id": "quest_cit_reward_1112",
+      "occurrence": 1,
+      "EN": "Not, that's not enough.",
+      "JA_current": "ダメだ、それじゃあ不十分だ。",
+      "JA_new": "いや、それじゃ足りない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "quest_cit_reward",
+          "phrase_id": "1112",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:quest_cit_reward_11111#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 117,
+      "string_id": "quest_cit_reward_11111",
+      "occurrence": 1,
+      "EN": "Great! Here's your reward. Soon stalkers will argue about whether the Mercs even existed at all!",
+      "JA_current": "素晴らしい！ あなたの報酬だ。まもなくストーカーが Mercs が存在したか否かに関して議論するだろう！",
+      "JA_new": "よし！　約束の報酬だ。これでストーカーたちも、マーセナリーズが本当にいたのかどうか議論するだろうな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "quest_cit_reward",
+          "phrase_id": "11111",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:quest_cit_reward_11121#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 123,
+      "string_id": "quest_cit_reward_11121",
+      "occurrence": 1,
+      "EN": "As you wish, I'm not giving you any more.",
+      "JA_current": "あなたが望むようには、私はもうあなたを歓迎できない。",
+      "JA_new": "好きにしろ。これ以上は払わない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "quest_cit_reward",
+          "phrase_id": "11121",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "quest_cit_reward_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "By the way, I have information about the Mercs. Interested?",
+      "JA_current": "ところで、Merc についての情報があるんだが、興味あるかい？",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:quest_cit_reward_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "quest_cit_reward_1",
+      "next": [
+        "11",
+        "13"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Depends on the information.",
+      "JA_current": "その情報次第だな。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:quest_cit_reward_1#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "quest_cit_reward_11",
+      "next": [
+        "111"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "deadcity_dialog.have_deadcity_map"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I have a map which details the location of their base, guard posts, the way to get in without being noticed and a lot more.",
+      "JA_current": "私は彼らの基地の詳細な地図、見張り場所、気付かれずに入る方法などを知っている。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:quest_cit_reward_11#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "quest_cit_reward_13",
+      "next": [
+        "131"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Nothing worthwhile. Just the usual gossip. Sorry.",
+      "JA_current": "価値があるものは何もない。ただいつもの人たちがうわさ話をする。すまないな。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:quest_cit_reward_13#1"
+      ]
+    },
+    {
+      "phrase_id": "111",
+      "text_id": "quest_cit_reward_111",
+      "next": [
+        "1111",
+        "1112"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Sounds valuable. I'll give you 3000 for it.",
+      "JA_current": "価値がありそうだな。よし、3000出そう。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:quest_cit_reward_111#1"
+      ]
+    },
+    {
+      "phrase_id": "131",
+      "text_id": "quest_cit_reward_131",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "If you find out something more specific come back. I'll pay you.",
+      "JA_current": "何か変わった物を発見して、持ち帰ったら、それに対価を支払おう。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:quest_cit_reward_131#1"
+      ]
+    },
+    {
+      "phrase_id": "1111",
+      "text_id": "quest_cit_reward_1111",
+      "next": [
+        "11111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "deadcity_dialog.give_killers_maps"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Deal. Here.",
+      "JA_current": "取引成立。ほらよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:quest_cit_reward_1111#1"
+      ]
+    },
+    {
+      "phrase_id": "1112",
+      "text_id": "quest_cit_reward_1112",
+      "next": [
+        "11121"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Not, that's not enough.",
+      "JA_current": "ダメだ、それじゃあ不十分だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:quest_cit_reward_1112#1"
+      ]
+    },
+    {
+      "phrase_id": "11111",
+      "text_id": "quest_cit_reward_11111",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "deadcity_dialog.give_killer_maps_reward"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Great! Here's your reward. Soon stalkers will argue about whether the Mercs even existed at all!",
+      "JA_current": "素晴らしい！ あなたの報酬だ。まもなくストーカーが Mercs が存在したか否かに関して議論するだろう！",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:quest_cit_reward_11111#1"
+      ]
+    },
+    {
+      "phrase_id": "11121",
+      "text_id": "quest_cit_reward_11121",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1112"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "As you wish, I'm not giving you any more.",
+      "JA_current": "あなたが望むようには、私はもうあなたを歓迎できない。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:quest_cit_reward_11121#1"
+      ]
+    }
+  ]
+}

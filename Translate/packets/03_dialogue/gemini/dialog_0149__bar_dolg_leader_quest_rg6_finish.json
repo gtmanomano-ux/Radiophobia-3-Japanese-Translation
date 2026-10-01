@@ -1,0 +1,727 @@
+{
+  "packet_id": "dialog_0149__bar_dolg_leader_quest_rg6_finish",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_dolg_leader_quest_rg6_finish",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_dolg_leader",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "bar_dialogs.have_rg6"
+    },
+    {
+      "type": "has_info",
+      "value": "bar_svoboda_rg6_start"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "bar_svoboda_rg6_done"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 14,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_quest_rg6_finish_0#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1370,
+      "string_id": "bar_dolg_leader_quest_rg6_finish_0",
+      "occurrence": 1,
+      "EN": "I completed the mission. I brought the grenade launcher.",
+      "JA_current": "任務完了だ。頼まれていたグレネードランチャーを持ってきた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_quest_rg6_finish",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_quest_rg6_finish_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1373,
+      "string_id": "bar_dolg_leader_quest_rg6_finish_1",
+      "occurrence": 1,
+      "EN": "Good work, stalker. This is exactly what we need. Well, Marked One, you carried out my request, and in return you can take this gear. I think you'll like it.",
+      "JA_current": "見事だ、ストーカー。まさに求めていたものだ。マークド・ワン、私の頼みをきっちり果たしてくれた礼に、この装備を受け取ってくれ。気に入るはずだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_quest_rg6_finish",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_prisyaga_0#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1328,
+      "string_id": "bar_dolg_leader_prisyaga_0",
+      "occurrence": 1,
+      "EN": "I am ready to swear the oath.",
+      "JA_current": "誓いを立てる準備はできている。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_quest_rg6_finish",
+          "phrase_id": "31111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "bar_dolg_leader_start",
+          "phrase_id": "31111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_prisyaga_01#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1334,
+      "string_id": "bar_dolg_leader_prisyaga_01",
+      "occurrence": 1,
+      "EN": "No, I'm not ready to enter the Duty.",
+      "JA_current": "いや、デューティーに入る気はまだない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_quest_rg6_finish",
+          "phrase_id": "31112",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "bar_dolg_leader_start",
+          "phrase_id": "31112",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_prisyaga_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1343,
+      "string_id": "bar_dolg_leader_prisyaga_1",
+      "occurrence": 1,
+      "EN": "Good man! Repeat after me: \"I, a stalker known as Marked One, swear to defend the goals and ideals of Duty.\"",
+      "JA_current": "よく言った！ 私の後に続け――「ストーカー、マークド・ワンは、ここにデューティーの目的と理想を擁護することを誓う」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_quest_rg6_finish",
+          "phrase_id": "31113",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "bar_dolg_leader_start",
+          "phrase_id": "31113",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "dolg_attach_community",
+          "phrase_id": "31113",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_prisyaga_00#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1331,
+      "string_id": "bar_dolg_leader_prisyaga_00",
+      "occurrence": 1,
+      "EN": "So, Marked One. We'll never forget what you have done for us. And I'll be ready and willing to accept you as our member whenever you make up your mind about it.",
+      "JA_current": "そうか、マークド・ワン。お前が我々にしてくれた尽力は決して忘れん。気が変わったらいつでも歓迎する、門戸は開けて待っているぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_quest_rg6_finish",
+          "phrase_id": "311112",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "bar_dolg_leader_start",
+          "phrase_id": "311112",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_prisyaga_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1346,
+      "string_id": "bar_dolg_leader_prisyaga_2",
+      "occurrence": 1,
+      "EN": "I, a stalker known as Marked One, swear to defend the goals and ideals of Duty.",
+      "JA_current": "「ストーカー、マークド・ワンは、ここにデューティーの目的と理想を擁護することを誓う」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_quest_rg6_finish",
+          "phrase_id": "31114",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "bar_dolg_leader_start",
+          "phrase_id": "31114",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "dolg_attach_community",
+          "phrase_id": "31114",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_prisyaga_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1349,
+      "string_id": "bar_dolg_leader_prisyaga_3",
+      "occurrence": 1,
+      "EN": "To protect the Earth from the dangers of the Zone, to seek out and destroy anything it spawns within and beyond its borders.",
+      "JA_current": "「ゾーンの脅威から地球を守り、境界の内外を問わず、ゾーンが生み出すあらゆる災厄を索敵し、殲滅することを誓う」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_quest_rg6_finish",
+          "phrase_id": "31115",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "bar_dolg_leader_start",
+          "phrase_id": "31115",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "dolg_attach_community",
+          "phrase_id": "31115",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_prisyaga_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1352,
+      "string_id": "bar_dolg_leader_prisyaga_4",
+      "occurrence": 1,
+      "EN": "To protect the Earth from the dangers of the Zone, to seek out and destroy anything it spawns within and beyond its borders.",
+      "JA_current": "「ゾーンの脅威から地球を守り、境界の内外を問わず、ゾーンが生み出すあらゆる災厄を索敵し、殲滅することを誓う」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_quest_rg6_finish",
+          "phrase_id": "31116",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "bar_dolg_leader_start",
+          "phrase_id": "31116",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "dolg_attach_community",
+          "phrase_id": "31116",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_prisyaga_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1355,
+      "string_id": "bar_dolg_leader_prisyaga_5",
+      "occurrence": 1,
+      "EN": "To fight any nonconformists, be they individual stalkers or groups.",
+      "JA_current": "「単独のストーカーであろうと集団であろうと、あらゆる反体制分子と戦い抜くことを誓う」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_quest_rg6_finish",
+          "phrase_id": "31117",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "bar_dolg_leader_start",
+          "phrase_id": "31117",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "dolg_attach_community",
+          "phrase_id": "31117",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_prisyaga_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1358,
+      "string_id": "bar_dolg_leader_prisyaga_6",
+      "occurrence": 1,
+      "EN": "To fight any nonconformists, be they individual stalkers or groups.",
+      "JA_current": "「単独のストーカーであろうと集団であろうと、あらゆる反体制分子と戦い抜くことを誓う」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_quest_rg6_finish",
+          "phrase_id": "31118",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "bar_dolg_leader_start",
+          "phrase_id": "31118",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "dolg_attach_community",
+          "phrase_id": "31118",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_prisyaga_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1361,
+      "string_id": "bar_dolg_leader_prisyaga_7",
+      "occurrence": 1,
+      "EN": "And to give my life in the name of justice and order on Earth!",
+      "JA_current": "「そして、地上の正義と秩序のために、我が命を捧げることを誓う！」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_quest_rg6_finish",
+          "phrase_id": "31119",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "bar_dolg_leader_start",
+          "phrase_id": "31119",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "dolg_attach_community",
+          "phrase_id": "31119",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_prisyaga_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1364,
+      "string_id": "bar_dolg_leader_prisyaga_8",
+      "occurrence": 1,
+      "EN": "And to give my life in the name of justice and order on Earth!",
+      "JA_current": "「そして、地上の正義と秩序のために、我が命を捧げることを誓う！」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_quest_rg6_finish",
+          "phrase_id": "311110",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "bar_dolg_leader_start",
+          "phrase_id": "311110",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "dolg_attach_community",
+          "phrase_id": "311110",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_prisyaga_9#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1367,
+      "string_id": "bar_dolg_leader_prisyaga_9",
+      "occurrence": 1,
+      "EN": "Congratulations! You are now a full member of Duty.",
+      "JA_current": "おめでとう！ これでお前もデューティーの正式な隊員だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_quest_rg6_finish",
+          "phrase_id": "311111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "bar_dolg_leader_start",
+          "phrase_id": "311111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "dolg_attach_community",
+          "phrase_id": "311111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bar_dolg_leader_quest_rg6_finish_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.give_rg6"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_svoboda_rg6_done"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I completed the mission. I brought the grenade launcher.",
+      "JA_current": "任務完了だ。Bulldog 6 を持ってきたぞ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_quest_rg6_finish_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "bar_dolg_leader_quest_rg6_finish_1",
+      "next": [
+        "31111",
+        "31112"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.enter_to_dolg"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Good work, stalker. This is exactly what we need. Well, Marked One, you carried out my request, and in return you can take this gear. I think you'll like it.",
+      "JA_current": "よくやったぞ。これは我々が切望していたものなのだ。さて、Marked One、お前は我々の要求に応えてくれたので、見返りにこのスーツを受け取れ。気にいると思うぞ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_quest_rg6_finish_1#1"
+      ]
+    },
+    {
+      "phrase_id": "31111",
+      "text_id": "bar_dolg_leader_prisyaga_0",
+      "next": [
+        "31113"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I am ready to swear the oath.",
+      "JA_current": "誓いを宣誓する準備はできてるぜ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_0#1"
+      ]
+    },
+    {
+      "phrase_id": "31112",
+      "text_id": "bar_dolg_leader_prisyaga_01",
+      "next": [
+        "311112"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, I'm not ready to enter the Duty.",
+      "JA_current": "No, I'm not ready to enter the Duty.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_01#1"
+      ]
+    },
+    {
+      "phrase_id": "31113",
+      "text_id": "bar_dolg_leader_prisyaga_1",
+      "next": [
+        "31114"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Good man! Repeat after me: \"I, a stalker known as Marked One, swear to defend the goals and ideals of Duty.\"",
+      "JA_current": "よろしい！ 復唱しろ： 「私、Marked One と名乗るストーカーは、Duty の目標と理念を守ると誓う」。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_1#1"
+      ]
+    },
+    {
+      "phrase_id": "311112",
+      "text_id": "bar_dolg_leader_prisyaga_00",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31112"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So, Marked One. We'll never forget what you have done for us. And I'll be ready and willing to accept you as our member whenever you make up your mind about it.",
+      "JA_current": "So, Marked One. We'll never forget what you have done for us. And I'll be ready and willing to accept you as our member whenever you make up your mind about it.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_00#1"
+      ]
+    },
+    {
+      "phrase_id": "31114",
+      "text_id": "bar_dolg_leader_prisyaga_2",
+      "next": [
+        "31115"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31113"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I, a stalker known as Marked One, swear to defend the goals and ideals of Duty.",
+      "JA_current": "私、Marked One と名乗るストーカーは、Duty の目標と理念を守ると誓います。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_2#1"
+      ]
+    },
+    {
+      "phrase_id": "31115",
+      "text_id": "bar_dolg_leader_prisyaga_3",
+      "next": [
+        "31116"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31114"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "To protect the Earth from the dangers of the Zone, to seek out and destroy anything it spawns within and beyond its borders.",
+      "JA_current": "ゾーンの危険からこの大地を守り、境界の内外に大量に生み出される何ものをも捜し出し、破壊することを誓う。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_3#1"
+      ]
+    },
+    {
+      "phrase_id": "31116",
+      "text_id": "bar_dolg_leader_prisyaga_4",
+      "next": [
+        "31117"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31115"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "To protect the Earth from the dangers of the Zone, to seek out and destroy anything it spawns within and beyond its borders.",
+      "JA_current": "ゾーンの危険からこの大地を守り、境界の内外に大量に生み出される何ものをも捜し出し、破壊することを誓います。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_4#1"
+      ]
+    },
+    {
+      "phrase_id": "31117",
+      "text_id": "bar_dolg_leader_prisyaga_5",
+      "next": [
+        "31118"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31116"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "To fight any nonconformists, be they individual stalkers or groups.",
+      "JA_current": "体制に従わない者すべて、個々のストーカー、あるいは集団、いずれとも戦うことを誓う。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_5#1"
+      ]
+    },
+    {
+      "phrase_id": "31118",
+      "text_id": "bar_dolg_leader_prisyaga_6",
+      "next": [
+        "31119"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31117"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "To fight any nonconformists, be they individual stalkers or groups.",
+      "JA_current": "体制に従わない者すべて、個々のストーカー、あるいは集団、いずれとも戦うことを誓います。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_6#1"
+      ]
+    },
+    {
+      "phrase_id": "31119",
+      "text_id": "bar_dolg_leader_prisyaga_7",
+      "next": [
+        "311110"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31118"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "And to give my life in the name of justice and order on Earth!",
+      "JA_current": "そして、この大地に、正義と秩序の名において、我が命を捧げることを誓う！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_7#1"
+      ]
+    },
+    {
+      "phrase_id": "311110",
+      "text_id": "bar_dolg_leader_prisyaga_8",
+      "next": [
+        "311111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.actor_set_dolg"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_dolg_community_leader_done"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "31119"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "And to give my life in the name of justice and order on Earth!",
+      "JA_current": "そして、この大地に、正義と秩序の名において、我が命を捧げることを誓います！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_8#1"
+      ]
+    },
+    {
+      "phrase_id": "311111",
+      "text_id": "bar_dolg_leader_prisyaga_9",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "311110"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Congratulations! You are now a full member of Duty.",
+      "JA_current": "よくやったぞ！ これでお前もりっぱな Duty の一員だな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_9#1"
+      ]
+    }
+  ]
+}

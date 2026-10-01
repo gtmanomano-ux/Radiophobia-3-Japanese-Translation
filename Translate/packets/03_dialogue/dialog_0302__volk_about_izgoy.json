@@ -1,0 +1,328 @@
+{
+  "packet_id": "dialog_0302__volk_about_izgoy",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "volk_about_izgoy",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "esc_wolf",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "izgoy_start_dialog"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "volk_about_izgoy"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 7,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:volk_about_izgoy_phrase_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2027,
+      "string_id": "volk_about_izgoy_phrase_1",
+      "occurrence": 1,
+      "EN": "%c[255,255,128,128]Who's that poor guy sitting in the house behind the fence?%c[default]",
+      "JA_current": "%c[255,255,128,128]Who's that poor guy sitting in the house behind the fence?%c[default]",
+      "JA_new": "%c[255,255,128,128]柵の向こうの家に座ってる、あのかわいそうな男は誰だ？%c[default]",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "volk_about_izgoy",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:volk_about_izgoy_phrase_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2030,
+      "string_id": "volk_about_izgoy_phrase_2",
+      "occurrence": 1,
+      "EN": "Oh, that one... You'd better not talk to him, or our people might lose respect for you.",
+      "JA_current": "Oh, that one... You'd better not talk to him, or our people might lose respect for you.",
+      "JA_new": "ああ、あいつか……関わらないほうがいい。俺たちの仲間からの信用を失うぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "volk_about_izgoy",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:volk_about_izgoy_phrase_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2033,
+      "string_id": "volk_about_izgoy_phrase_3",
+      "occurrence": 1,
+      "EN": "Why? What's wrong with him?",
+      "JA_current": "Why? What's wrong with him?",
+      "JA_new": "どうしてだ？ あいつに何があった？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "volk_about_izgoy",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:volk_about_izgoy_phrase_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2036,
+      "string_id": "volk_about_izgoy_phrase_4",
+      "occurrence": 1,
+      "EN": "The bastard wanted to steal from Sidorovich. He conspired with another crook, and they came up with a plan. They threw a smoke bomb into the vent of Sidorovich's bunker. He thought there was a fire and jumped out like he was scalded, and in the meantime, wearing gas masks, they stole a lot of valuable things from his closet.",
+      "JA_current": "The bastard wanted to steal from Sidorovich. He conspired with another crook, and they came up with a plan. They threw a smoke bomb into the vent of Sidorovich's bunker. He thought there was a fire and jumped out like he was scalded, and in the meantime, wearing gas masks, they stole a lot of valuable things from his closet.",
+      "JA_new": "あのろくでなしはシドロヴィッチから盗もうとした。もう一人の悪党と組んで計画を立てたんだ。シドロヴィッチの地下壕の通気口に発煙弾を投げ込んだ。火事だと思ったシドロヴィッチは、火傷でもしたみたいに飛び出してきた。その隙に、ガスマスクを着けた二人が戸棚から高価な品を大量に盗んだってわけだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "volk_about_izgoy",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:volk_about_izgoy_phrase_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2039,
+      "string_id": "volk_about_izgoy_phrase_5",
+      "occurrence": 1,
+      "EN": "Wow!",
+      "JA_current": "Wow!",
+      "JA_new": "すごいな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "volk_about_izgoy",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:volk_about_izgoy_phrase_6#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2042,
+      "string_id": "volk_about_izgoy_phrase_6",
+      "occurrence": 1,
+      "EN": "Yeah, that's how they did their dirty work... When everything became clear, I caught up with the guys who did this. Or rather one guy, the one behind the fence. The other had disappeared somewhere, along with all their loot and belongings. He was lost in the Zone, no different - good riddance to him. His accomplice's conscience kind of kicked in at the last moment and he decided to turn himself in without a fight. We did not punish him, I pitied the fool, especially since he was being manipulated by his friend from the very beginning, I noticed it long ago. But the instigator of the theft disappeared along with Sid's loot. His stock is still recovering from that blow! We questioned this jerk about his friend's whereabouts to try and get the loot back but he wasn't much help, just babbling about his friend vanishing from sight, complete disappearing act. He didn't look like he was lying but who the hell knows, in the end we banished him from our camp so he lingers around the edges trying to find safe shelter. Without any gear or weapon he'll get eaten up by the first pack of dogs he runs into out here so he literally has no choice but to stay in the safe area and dig around for scraps of food. Some of the more soft-hearted rookies sometimes leave him a can of food or drink by the fence, so he gets by. By the way, it was because of these wiseguys that Sid had to hire that merc guard of his.",
+      "JA_current": "Yeah, that's how they did their dirty work... When everything became clear, I caught up with the guys who did this. Or rather one guy, the one behind the fence. The other had disappeared somewhere, along with all their loot and belongings. He was lost in the Zone, no different - good riddance to him. His accomplice's conscience kind of kicked in at the last moment and he decided to turn himself in without a fight. We did not punish him, I pitied the fool, especially since he was being manipulated by his friend from the very beginning, I noticed it long ago. But the instigator of the theft disappeared along with Sid's loot. His stock is still recovering from that blow! We questioned this jerk about his friend's whereabouts to try and get the loot back but he wasn't much help, just babbling about his friend vanishing from sight, complete disappearing act. He didn't look like he was lying but who the hell knows, in the end we banished him from our camp so he lingers around the edges trying to find safe shelter. Without any gear or weapon he'll get eaten up by the first pack of dogs he runs into out here so he literally has no choice but to stay in the safe area and dig around for scraps of food. Some of the more soft-hearted rookies sometimes leave him a can of food or drink by the fence, so he gets by. By the way, it was because of these wiseguys that Sid had to hire that merc guard of his.",
+      "JA_new": "ああ、それが連中の手口だ……真相が分かってから、実行犯を追った。いや、捕まえたのは一人だけだ。柵の向こうにいる奴だ。もう一人は、盗品も荷物も全部持ってどこかへ消えちまった。ゾーンで迷ったんだろう。どうでもいい、いなくなってせいせいした。相棒の良心が最後の最後で目覚めたらしく、抵抗せずに自首してきたんだ。罰は与えなかった。愚かな奴だが気の毒でな。最初から友人に利用されてるって、俺は前から気づいてた。だが盗みを企てたほうは、シドの品を持ったまま行方不明だ。あの一件で、シドの在庫は今も立て直しの最中だ！ 俺たちでそいつの行方を聞き出して品を取り戻そうとしたが、大した話は聞けなかった。友人が目の前から消えた、完全に消え失せたって繰り返すだけだ。嘘をついてるようには見えなかったが、誰にも分からん。最後にはキャンプから追放した。今は安全に眠れる場所を探して周辺をうろついてる。装備も武器もないから、犬の群れに出くわしたら食い殺される。安全地帯に残って、食べ物の残りを探すしかない。心の優しい新米が、柵越しに缶詰や飲み物を置いてやることもある。そうやって何とか食いつないでる。ちなみに、あの食わせ者たちのせいで、シドはマーセナリーズの護衛を雇う羽目になった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "volk_about_izgoy",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:volk_about_izgoy_phrase_7#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2045,
+      "string_id": "volk_about_izgoy_phrase_7",
+      "occurrence": 1,
+      "EN": "I can see why he's so moody now. I'd better ask him for some details, though.",
+      "JA_current": "I can see why he's so moody now. I'd better ask him for some details, though.",
+      "JA_new": "あいつが機嫌悪そうなのも分かるよ。でも、詳しい話を本人から聞いてみる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "volk_about_izgoy",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "volk_about_izgoy_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "%c[255,255,128,128]Who's that poor guy sitting in the house behind the fence?%c[default]",
+      "JA_current": "%c[255,255,128,128]Who's that poor guy sitting in the house behind the fence?%c[default]",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:volk_about_izgoy_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "volk_about_izgoy_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh, that one... You'd better not talk to him, or our people might lose respect for you.",
+      "JA_current": "Oh, that one... You'd better not talk to him, or our people might lose respect for you.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:volk_about_izgoy_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "volk_about_izgoy_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Why? What's wrong with him?",
+      "JA_current": "Why? What's wrong with him?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:volk_about_izgoy_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "volk_about_izgoy_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The bastard wanted to steal from Sidorovich. He conspired with another crook, and they came up with a plan. They threw a smoke bomb into the vent of Sidorovich's bunker. He thought there was a fire and jumped out like he was scalded, and in the meantime, wearing gas masks, they stole a lot of valuable things from his closet.",
+      "JA_current": "The bastard wanted to steal from Sidorovich. He conspired with another crook, and they came up with a plan. They threw a smoke bomb into the vent of Sidorovich's bunker. He thought there was a fire and jumped out like he was scalded, and in the meantime, wearing gas masks, they stole a lot of valuable things from his closet.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:volk_about_izgoy_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "volk_about_izgoy_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Wow!",
+      "JA_current": "Wow!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:volk_about_izgoy_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "volk_about_izgoy_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, that's how they did their dirty work... When everything became clear, I caught up with the guys who did this. Or rather one guy, the one behind the fence. The other had disappeared somewhere, along with all their loot and belongings. He was lost in the Zone, no different - good riddance to him. His accomplice's conscience kind of kicked in at the last moment and he decided to turn himself in without a fight. We did not punish him, I pitied the fool, especially since he was being manipulated by his friend from the very beginning, I noticed it long ago. But the instigator of the theft disappeared along with Sid's loot. His stock is still recovering from that blow! We questioned this jerk about his friend's whereabouts to try and get the loot back but he wasn't much help, just babbling about his friend vanishing from sight, complete disappearing act. He didn't look like he was lying but who the hell knows, in the end we banished him from our camp so he lingers around the edges trying to find safe shelter. Without any gear or weapon he'll get eaten up by the first pack of dogs he runs into out here so he literally has no choice but to stay in the safe area and dig around for scraps of food. Some of the more soft-hearted rookies sometimes leave him a can of food or drink by the fence, so he gets by. By the way, it was because of these wiseguys that Sid had to hire that merc guard of his.",
+      "JA_current": "Yeah, that's how they did their dirty work... When everything became clear, I caught up with the guys who did this. Or rather one guy, the one behind the fence. The other had disappeared somewhere, along with all their loot and belongings. He was lost in the Zone, no different - good riddance to him. His accomplice's conscience kind of kicked in at the last moment and he decided to turn himself in without a fight. We did not punish him, I pitied the fool, especially since he was being manipulated by his friend from the very beginning, I noticed it long ago. But the instigator of the theft disappeared along with Sid's loot. His stock is still recovering from that blow! We questioned this jerk about his friend's whereabouts to try and get the loot back but he wasn't much help, just babbling about his friend vanishing from sight, complete disappearing act. He didn't look like he was lying but who the hell knows, in the end we banished him from our camp so he lingers around the edges trying to find safe shelter. Without any gear or weapon he'll get eaten up by the first pack of dogs he runs into out here so he literally has no choice but to stay in the safe area and dig around for scraps of food. Some of the more soft-hearted rookies sometimes leave him a can of food or drink by the fence, so he gets by. By the way, it was because of these wiseguys that Sid had to hire that merc guard of his.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:volk_about_izgoy_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "volk_about_izgoy_phrase_7",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "volk_about_izgoy"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I can see why he's so moody now. I'd better ask him for some details, though.",
+      "JA_current": "I can see why he's so moody now. I'd better ask him for some details, though.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:volk_about_izgoy_phrase_7#1"
+      ]
+    }
+  ]
+}

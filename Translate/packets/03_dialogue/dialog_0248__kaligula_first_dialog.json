@@ -1,0 +1,180 @@
+{
+  "packet_id": "dialog_0248__kaligula_first_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "kaligula_first_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml",
+  "graph_sha256": "af90465ec3a6b7a324a6c5d72d8c5ed214013f3f66f7c85ea935c11f680b26c1",
+  "character_bindings": [
+    {
+      "profile_id": "kaligula",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "grigor_dead"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "ochkarik_dead"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "prohor_dead"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "yava_dead"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "bandits_goto_point"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 3,
+  "entries": [
+    {
+      "key": "stable_dialogs_darkvalley:kaligula_first_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 630,
+      "string_id": "kaligula_first_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "I'm from the boss about that thing. I'm supposed to help you out.",
+      "JA_current": "I'm from the boss about that thing. I'm supposed to help you out.",
+      "JA_new": "ボスに言われて、あんたを手伝いに来た。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kaligula_first_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:kaligula_first_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 633,
+      "string_id": "kaligula_first_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "You're all we get?? Better than nothing I guess, let's see what you can do. You heard the story? I put this one sucker on the meter, trying to squeeze him a little bit, and he goes off running to his friends for backup. Now we think he's planning to step up... Fuck him! We've gotta be cautious about this. We planned the meet at the gas station just across the street from our place. That motherfucker said he's apparently agreed to settle his debt, but we heard different. If there's any problem, you open up and take care of it, alright? Don't piss about or I'll find you in hell.",
+      "JA_current": "You're all we get?? Better than nothing I guess, let's see what you can do. You heard the story? I put this one sucker on the meter, trying to squeeze him a little bit, and he goes off running to his friends for backup. Now we think he's planning to step up... Fuck him! We've gotta be cautious about this. We planned the meet at the gas station just across the street from our place. That motherfucker said he's apparently agreed to settle his debt, but we heard different. If there's any problem, you open up and take care of it, alright? Don't piss about or I'll find you in hell.",
+      "JA_new": "よこされたのはお前だけか？　まあ、いないよりましか。役に立つか見せてもらおう。事情は聞いたか？　ある奴に借金を返すよう迫ってたら、仲間を呼びに逃げやがった。次は一戦やる気らしい。ふざけやがって！　こっちも用心しないとな。待ち合わせは、俺たちの拠点の向かいにあるガソリンスタンドだ。借金は返すと言ってるらしいが、話が違うと聞いてる。何かあったら、お前が撃って片づけろ。ぼさっとするなよ。しくじったら地獄まで追いかけるぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kaligula_first_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:kaligula_first_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 636,
+      "string_id": "kaligula_first_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Let's move.",
+      "JA_current": "Let's move.",
+      "JA_new": "行こう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kaligula_first_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "kaligula_first_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm from the boss about that thing. I'm supposed to help you out.",
+      "JA_current": "I'm from the boss about that thing. I'm supposed to help you out.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:kaligula_first_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "kaligula_first_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You're all we get?? Better than nothing I guess, let's see what you can do. You heard the story? I put this one sucker on the meter, trying to squeeze him a little bit, and he goes off running to his friends for backup. Now we think he's planning to step up... Fuck him! We've gotta be cautious about this. We planned the meet at the gas station just across the street from our place. That motherfucker said he's apparently agreed to settle his debt, but we heard different. If there's any problem, you open up and take care of it, alright? Don't piss about or I'll find you in hell.",
+      "JA_current": "You're all we get?? Better than nothing I guess, let's see what you can do. You heard the story? I put this one sucker on the meter, trying to squeeze him a little bit, and he goes off running to his friends for backup. Now we think he's planning to step up... Fuck him! We've gotta be cautious about this. We planned the meet at the gas station just across the street from our place. That motherfucker said he's apparently agreed to settle his debt, but we heard different. If there's any problem, you open up and take care of it, alright? Don't piss about or I'll find you in hell.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:kaligula_first_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "kaligula_first_dialog_phrase_3",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "give_info",
+          "value": "bandits_goto_point"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Let's move.",
+      "JA_current": "Let's move.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:kaligula_first_dialog_phrase_3#1"
+      ]
+    }
+  ]
+}

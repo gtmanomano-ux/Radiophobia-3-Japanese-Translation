@@ -1,0 +1,787 @@
+{
+  "packet_id": "dialog_0313__nastav_start_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "nastav_start_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "nastavnik",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "task_exped_start"
+    },
+    {
+      "type": "has_info",
+      "value": "nastavnik_pogovorit"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 18,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:nastav_start_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2223,
+      "string_id": "nastav_start_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Hello.",
+      "JA_current": "Hello.",
+      "JA_new": "こんにちは。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_start_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_start_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2226,
+      "string_id": "nastav_start_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "What's up, stalker?",
+      "JA_current": "What's up, stalker?",
+      "JA_new": "どうした、ストーカー？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_start_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_start_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2229,
+      "string_id": "nastav_start_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Who are you?",
+      "JA_current": "Who are you?",
+      "JA_new": "あんたは誰だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_start_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_start_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2232,
+      "string_id": "nastav_start_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Nobody really, just another stalker like you. I'm one of the Seekers, you heard of us? What about you, care to tell me a little about yourself?",
+      "JA_current": "Nobody really, just another stalker like you. I'm one of the Seekers, you heard of us? What about you, care to tell me a little about yourself?",
+      "JA_new": "大した者じゃない。あんたと同じ、ただのストーカーさ。俺はシーカーズの一員だ。聞いたことあるか？ あんたのことも少し聞かせてくれないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_start_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_start_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2235,
+      "string_id": "nastav_start_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "No, I don't really remember much of the Zone or how I came to be here. The locals say that I have the look and habits of a veteran. Maybe in a past life I was, I can't tell yet.",
+      "JA_current": "No, I don't really remember much of the Zone or how I came to be here. The locals say that I have the look and habits of a veteran. Maybe in a past life I was, I can't tell yet.",
+      "JA_new": "いや、ゾーンのことも、どうしてここに来たのかも、あまり覚えてない。地元の連中は、ベテランみたいな顔つきや振る舞いだと言う。前世ではそうだったのかもしれないが、まだ何とも言えない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_start_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_start_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2238,
+      "string_id": "nastav_start_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Just because you don't remember anything doesn't mean you don't know anything, right?",
+      "JA_current": "Just because you don't remember anything doesn't mean you don't know anything, right?",
+      "JA_new": "何も覚えてないからって、何も知らないとは限らないだろ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_start_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_start_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2241,
+      "string_id": "nastav_start_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "I'd like to think so. However, I'm sure the truth will reveal itself in the future.",
+      "JA_current": "I'd like to think so. However, I'm sure the truth will reveal itself in the future.",
+      "JA_new": "そう思いたいな。いずれ真実が分かるはずだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_start_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_start_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2244,
+      "string_id": "nastav_start_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "I agree. They call me Mentor, and I'm from the Seeker faction.",
+      "JA_current": "I agree. They call me Mentor, and I'm from the Seeker faction.",
+      "JA_new": "そうだな。俺はメンターと呼ばれてる。シーカーズの一員だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_start_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_start_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2247,
+      "string_id": "nastav_start_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "I'm Marked One, nice to meet you. Wolf told me that you need help.",
+      "JA_current": "I'm Marked One, nice to meet you. Wolf told me that you need help.",
+      "JA_new": "俺は印付きだ。よろしく。ウルフから、あんたが助けを必要としてると聞いた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_start_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_start_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2250,
+      "string_id": "nastav_start_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "Tell you what, Marked One. Let me tell you about our faction first, so you can keep up with the situation and know who the main players are. We, the Seekers, are searching for a way to the Center of the Zone. Not through the Brain Scorcher, we intend to find some other way around it. Our group was, until recently, quite large by local standards. We searched for old maps, plans, documents, scouted the territory. Having accumulated enough information about places through which it was theoretically possible to pass to Pripyat, bypassing the deadly radiation, we decided to organize an expedition. It included seventeen of the most experienced stalkers, courageous and more than once tested by the Zone, all of them like-minded people. I also wanted to be among them, maybe not meeting the requirements that were set before us, but having a great desire to see with my own eyes what is out there, beyond the Radar. However, our commander decided to leave me here. After careful consideration, the expedition decided to set out. That was about a month ago.",
+      "JA_current": "Tell you what, Marked One. Let me tell you about our faction first, so you can keep up with the situation and know who the main players are. We, the Seekers, are searching for a way to the Center of the Zone. Not through the Brain Scorcher, we intend to find some other way around it. Our group was, until recently, quite large by local standards. We searched for old maps, plans, documents, scouted the territory. Having accumulated enough information about places through which it was theoretically possible to pass to Pripyat, bypassing the deadly radiation, we decided to organize an expedition. It included seventeen of the most experienced stalkers, courageous and more than once tested by the Zone, all of them like-minded people. I also wanted to be among them, maybe not meeting the requirements that were set before us, but having a great desire to see with my own eyes what is out there, beyond the Radar. However, our commander decided to leave me here. After careful consideration, the expedition decided to set out. That was about a month ago.",
+      "JA_new": "そういうことなら、印付き。まずは俺たちの仲間について話そう。状況を把握して、誰がどう動いてるのか知っておいてほしい。俺たちシーカーズは、ゾーンの中心へ向かう道を探してる。ブレイン・スコーチャーを通るんじゃなく、別の道を見つけるつもりだ。少し前まで、俺たちの集団はこの辺りじゃかなり大きかった。古い地図や計画書、文書を探し、周辺を調査してきた。死の放射線を避けてプリピャチまで行けそうな道について、十分な情報が集まった。それで遠征隊を組むことにしたんだ。経験豊富で、度胸があり、ゾーンに何度も試されてきた仲間たち――同じ志を持つ17人が選ばれた。俺も参加したかった。条件を満たしていたかはともかく、自分の目でレーダーの向こうを見たい気持ちは強かったからな。だが、隊長は俺をここに残した。慎重に検討したうえで、遠征隊は出発した。今から一か月ほど前のことだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_start_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_start_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2253,
+      "string_id": "nastav_start_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "Pretty risky business. Did they manage to get there?",
+      "JA_current": "Pretty risky business. Did they manage to get there?",
+      "JA_new": "かなり危険な賭けだな。目的地には着けたのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_start_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_start_dialog_phrase_12#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2256,
+      "string_id": "nastav_start_dialog_phrase_12",
+      "occurrence": 1,
+      "EN": "No. Something inexplicable happened: two days after the seekers stopped at the Army Warehouses, communication with them was cut off and could not be resumed. Then, after some time, some of our guys were seen in different places around the Zone: in Agroprom, Garbage, and in the Dark Valley... some sightings even here in Cordon. What happened to our guys and what they got into - only the Black Stalker knows, because no one else has seen them. We contacted the Freedom trackers, but they said they hadn't seen any of them, dead or alive. It was a massive blow to our group: it effectively ceased to exist. However, our commander and I do not believe that all of the members of our expedition were killed. That is why I decided to find at least some trace of our guys and find out what happened to them.",
+      "JA_current": "No. Something inexplicable happened: two days after the seekers stopped at the Army Warehouses, communication with them was cut off and could not be resumed. Then, after some time, some of our guys were seen in different places around the Zone: in Agroprom, Garbage, and in the Dark Valley... some sightings even here in Cordon. What happened to our guys and what they got into - only the Black Stalker knows, because no one else has seen them. We contacted the Freedom trackers, but they said they hadn't seen any of them, dead or alive. It was a massive blow to our group: it effectively ceased to exist. However, our commander and I do not believe that all of the members of our expedition were killed. That is why I decided to find at least some trace of our guys and find out what happened to them.",
+      "JA_new": "いや。何が起きたのか分からない。シーカーズが軍事倉庫で足を止めてから二日後、連絡が途絶えた。何度試しても復旧しなかった。その後しばらくして、仲間の何人かがゾーンのあちこちで目撃された。アフロプロム、ガーベジ、ダークバレー……ここコルドンで見たという話まである。何が起きたのか、どこへ行ったのか――知っているのはブラックストーカーだけだ。ほかに姿を見た者はいない。フリーダムの斥候にも連絡したが、生きてる奴も死んでる奴も見ていないと言われた。俺たちの集団には大打撃だった。事実上、消滅したも同然さ。それでも、隊長も俺も、遠征隊が全滅したとは思ってない。仲間の足取りを少しでも見つけて、何があったのか突き止めることにした。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_start_dialog",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_start_dialog_phrase_13#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2259,
+      "string_id": "nastav_start_dialog_phrase_13",
+      "occurrence": 1,
+      "EN": "Do you think anyone could have survived?",
+      "JA_current": "Do you think anyone could have survived?",
+      "JA_new": "生き残ってる者がいると思うか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_start_dialog",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_start_dialog_phrase_14#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2262,
+      "string_id": "nastav_start_dialog_phrase_14",
+      "occurrence": 1,
+      "EN": "Yes. And I have to find them. Look, Wolf told me that you really helped out around here, so I know you're an honest guy. He also told me that you have a purpose, someone you're looking for in the Zone. I have a big favor to ask of you: if you come across any information about our guys during your wanderings in the Zone, be kind enough to report it to our group. I will give you information about our people. Do you mind helping us?",
+      "JA_current": "Yes. And I have to find them. Look, Wolf told me that you really helped out around here, so I know you're an honest guy. He also told me that you have a purpose, someone you're looking for in the Zone. I have a big favor to ask of you: if you come across any information about our guys during your wanderings in the Zone, be kind enough to report it to our group. I will give you information about our people. Do you mind helping us?",
+      "JA_new": "ああ。見つけ出さなきゃならない。ウルフから、お前がこの辺りでずいぶん力になってくれたと聞いた。誠実な奴だそうだな。それに、ゾーンで誰かを探してるんだろ？ お前に頼みがある。ゾーンを歩き回る間に仲間の情報を見つけたら、俺たちに知らせてくれないか。仲間の情報を渡す。手伝ってくれるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_start_dialog",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_start_dialog_phrase_15#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2265,
+      "string_id": "nastav_start_dialog_phrase_15",
+      "occurrence": 1,
+      "EN": "If I find any of them, I'll let you know.",
+      "JA_current": "If I find any of them, I'll let you know.",
+      "JA_new": "見つけたら知らせる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_start_dialog",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_start_dialog_phrase_18#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2274,
+      "string_id": "nastav_start_dialog_phrase_18",
+      "occurrence": 1,
+      "EN": "No, I don't have time.",
+      "JA_current": "No, I don't have time.",
+      "JA_new": "いや、今は時間がない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_start_dialog",
+          "phrase_id": "17",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_start_dialog_phrase_16#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2268,
+      "string_id": "nastav_start_dialog_phrase_16",
+      "occurrence": 1,
+      "EN": "Great, then let me give you some information about our guys. Here are their nicknames and a brief description. Keep in mind, if you find any really worthwhile information, our leader Yuri will thank you. Our base is in the Bar territory. Good luck, Marked One!",
+      "JA_current": "Great, then let me give you some information about our guys. Here are their nicknames and a brief description. Keep in mind, if you find any really worthwhile information, our leader Yuri will thank you. Our base is in the Bar territory. Good luck, Marked One!",
+      "JA_new": "助かる。じゃあ、仲間の情報を渡そう。こいつらの通り名と簡単な説明だ。役に立つ情報を見つけたら、リーダーのユーリが礼をする。俺たちの拠点は100レントゲン地区にある。幸運を祈る、印付き！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_start_dialog",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_start_dialog_phrase_17#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2271,
+      "string_id": "nastav_start_dialog_phrase_17",
+      "occurrence": 1,
+      "EN": "Thank you.",
+      "JA_current": "Thank you.",
+      "JA_new": "ありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_start_dialog",
+          "phrase_id": "16",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "nastav_start_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hello.",
+      "JA_current": "Hello.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_start_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "nastav_start_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What's up, stalker?",
+      "JA_current": "What's up, stalker?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_start_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "nastav_start_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Who are you?",
+      "JA_current": "Who are you?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_start_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "nastav_start_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Nobody really, just another stalker like you. I'm one of the Seekers, you heard of us? What about you, care to tell me a little about yourself?",
+      "JA_current": "Nobody really, just another stalker like you. I'm one of the Seekers, you heard of us? What about you, care to tell me a little about yourself?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_start_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "nastav_start_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, I don't really remember much of the Zone or how I came to be here. The locals say that I have the look and habits of a veteran. Maybe in a past life I was, I can't tell yet.",
+      "JA_current": "No, I don't really remember much of the Zone or how I came to be here. The locals say that I have the look and habits of a veteran. Maybe in a past life I was, I can't tell yet.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_start_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "nastav_start_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Just because you don't remember anything doesn't mean you don't know anything, right?",
+      "JA_current": "Just because you don't remember anything doesn't mean you don't know anything, right?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_start_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "nastav_start_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'd like to think so. However, I'm sure the truth will reveal itself in the future.",
+      "JA_current": "I'd like to think so. However, I'm sure the truth will reveal itself in the future.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_start_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "nastav_start_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I agree. They call me Mentor, and I'm from the Seeker faction.",
+      "JA_current": "I agree. They call me Mentor, and I'm from the Seeker faction.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_start_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "nastav_start_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm Marked One, nice to meet you. Wolf told me that you need help.",
+      "JA_current": "I'm Marked One, nice to meet you. Wolf told me that you need help.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_start_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "nastav_start_dialog_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "nastavnik_razgovor"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Tell you what, Marked One. Let me tell you about our faction first, so you can keep up with the situation and know who the main players are. We, the Seekers, are searching for a way to the Center of the Zone. Not through the Brain Scorcher, we intend to find some other way around it. Our group was, until recently, quite large by local standards. We searched for old maps, plans, documents, scouted the territory. Having accumulated enough information about places through which it was theoretically possible to pass to Pripyat, bypassing the deadly radiation, we decided to organize an expedition. It included seventeen of the most experienced stalkers, courageous and more than once tested by the Zone, all of them like-minded people. I also wanted to be among them, maybe not meeting the requirements that were set before us, but having a great desire to see with my own eyes what is out there, beyond the Radar. However, our commander decided to leave me here. After careful consideration, the expedition decided to set out. That was about a month ago.",
+      "JA_current": "Tell you what, Marked One. Let me tell you about our faction first, so you can keep up with the situation and know who the main players are. We, the Seekers, are searching for a way to the Center of the Zone. Not through the Brain Scorcher, we intend to find some other way around it. Our group was, until recently, quite large by local standards. We searched for old maps, plans, documents, scouted the territory. Having accumulated enough information about places through which it was theoretically possible to pass to Pripyat, bypassing the deadly radiation, we decided to organize an expedition. It included seventeen of the most experienced stalkers, courageous and more than once tested by the Zone, all of them like-minded people. I also wanted to be among them, maybe not meeting the requirements that were set before us, but having a great desire to see with my own eyes what is out there, beyond the Radar. However, our commander decided to leave me here. After careful consideration, the expedition decided to set out. That was about a month ago.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_start_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "nastav_start_dialog_phrase_11",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Pretty risky business. Did they manage to get there?",
+      "JA_current": "Pretty risky business. Did they manage to get there?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_start_dialog_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "nastav_start_dialog_phrase_12",
+      "next": [
+        "12"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No. Something inexplicable happened: two days after the seekers stopped at the Army Warehouses, communication with them was cut off and could not be resumed. Then, after some time, some of our guys were seen in different places around the Zone: in Agroprom, Garbage, and in the Dark Valley... some sightings even here in Cordon. What happened to our guys and what they got into - only the Black Stalker knows, because no one else has seen them. We contacted the Freedom trackers, but they said they hadn't seen any of them, dead or alive. It was a massive blow to our group: it effectively ceased to exist. However, our commander and I do not believe that all of the members of our expedition were killed. That is why I decided to find at least some trace of our guys and find out what happened to them.",
+      "JA_current": "No. Something inexplicable happened: two days after the seekers stopped at the Army Warehouses, communication with them was cut off and could not be resumed. Then, after some time, some of our guys were seen in different places around the Zone: in Agroprom, Garbage, and in the Dark Valley... some sightings even here in Cordon. What happened to our guys and what they got into - only the Black Stalker knows, because no one else has seen them. We contacted the Freedom trackers, but they said they hadn't seen any of them, dead or alive. It was a massive blow to our group: it effectively ceased to exist. However, our commander and I do not believe that all of the members of our expedition were killed. That is why I decided to find at least some trace of our guys and find out what happened to them.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_start_dialog_phrase_12#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "nastav_start_dialog_phrase_13",
+      "next": [
+        "13"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Do you think anyone could have survived?",
+      "JA_current": "Do you think anyone could have survived?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_start_dialog_phrase_13#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "nastav_start_dialog_phrase_14",
+      "next": [
+        "14",
+        "17"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes. And I have to find them. Look, Wolf told me that you really helped out around here, so I know you're an honest guy. He also told me that you have a purpose, someone you're looking for in the Zone. I have a big favor to ask of you: if you come across any information about our guys during your wanderings in the Zone, be kind enough to report it to our group. I will give you information about our people. Do you mind helping us?",
+      "JA_current": "Yes. And I have to find them. Look, Wolf told me that you really helped out around here, so I know you're an honest guy. He also told me that you have a purpose, someone you're looking for in the Zone. I have a big favor to ask of you: if you come across any information about our guys during your wanderings in the Zone, be kind enough to report it to our group. I will give you information about our people. Do you mind helping us?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_start_dialog_phrase_14#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "nastav_start_dialog_phrase_15",
+      "next": [
+        "15"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "task_exped_start"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.udachi_tebe"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "If I find any of them, I'll let you know.",
+      "JA_current": "If I find any of them, I'll let you know.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_start_dialog_phrase_15#1"
+      ]
+    },
+    {
+      "phrase_id": "17",
+      "text_id": "nastav_start_dialog_phrase_18",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, I don't have time.",
+      "JA_current": "No, I don't have time.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_start_dialog_phrase_18#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "nastav_start_dialog_phrase_16",
+      "next": [
+        "16"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Great, then let me give you some information about our guys. Here are their nicknames and a brief description. Keep in mind, if you find any really worthwhile information, our leader Yuri will thank you. Our base is in the Bar territory. Good luck, Marked One!",
+      "JA_current": "Great, then let me give you some information about our guys. Here are their nicknames and a brief description. Keep in mind, if you find any really worthwhile information, our leader Yuri will thank you. Our base is in the Bar territory. Good luck, Marked One!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_start_dialog_phrase_16#1"
+      ]
+    },
+    {
+      "phrase_id": "16",
+      "text_id": "nastav_start_dialog_phrase_17",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "15"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you.",
+      "JA_current": "Thank you.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_start_dialog_phrase_17#1"
+      ]
+    }
+  ]
+}

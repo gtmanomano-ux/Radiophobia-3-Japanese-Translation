@@ -1,0 +1,592 @@
+{
+  "packet_id": "dialog_0319__leha_slon_first_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "leha_slon_first_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "leha_slon",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "leha_slon_info"
+    }
+  ],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 13,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:leha_slon_first_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2445,
+      "string_id": "leha_slon_first_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Oh, for crying out loud...",
+      "JA_current": "Oh, for crying out loud...",
+      "JA_new": "ああ、もう……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_first_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_first_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2448,
+      "string_id": "leha_slon_first_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Here you are. Where's the Jumper? Don't try to deny it, I know you stole it from the scientists!",
+      "JA_current": "Here you are. Where's the Jumper? Don't try to deny it, I know you stole it from the scientists!",
+      "JA_new": "来たぞ。ジャンパーは？ とぼけるな。科学者から盗んだのは分かってる！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_first_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_first_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2451,
+      "string_id": "leha_slon_first_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "I'm not going to lie, I'll tell it like it was. Yes, I took an artifact from one of them. But don't think that I did it for profit. Listen carefully: I'm in a lot of trouble right now. Me and one other person. That person is my brother and his life is in danger right now. And this artifact is the only way to save him.",
+      "JA_current": "I'm not going to lie, I'll tell it like it was. Yes, I took an artifact from one of them. But don't think that I did it for profit. Listen carefully: I'm in a lot of trouble right now. Me and one other person. That person is my brother and his life is in danger right now. And this artifact is the only way to save him.",
+      "JA_new": "嘘はつかない。あったことを話す。確かに、科学者からアーティファクトを一つ盗んだ。だが金目当てじゃない。聞いてくれ。俺は今、大変なことになってる。俺と、もう一人……弟の命が危ない。あのアーティファクトだけが、弟を救う手段なんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_first_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_first_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2454,
+      "string_id": "leha_slon_first_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "What did your brother do? Did he get into debt?",
+      "JA_current": "What did your brother do? Did he get into debt?",
+      "JA_new": "弟が何をした？ 借金でもしたのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_first_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_first_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2457,
+      "string_id": "leha_slon_first_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Jeez, it's a long story... I came to the Zone about two years ago. When I first planned to come here, my younger brother found out about it, asked me to take him along. I turned him down because he was too young. I thought that was that, but recently I received a message. He wrote me that he had joined a group of illegals who were planning to sneak into the Zone. I realized that he was determined, he'd come in no matter what it took... There was nothing I could do to stop him, so at the very least I decided to ensure his safety and teach him the basics of life here. To do this, I was supposed to meet him after his infiltration, but this did not happen. I waited for the group at the agreed location for about two days, but no one showed up. Only on the third day did their contact come to me and tell me that the group in its entirety had been swept up by the military.",
+      "JA_current": "Jeez, it's a long story... I came to the Zone about two years ago. When I first planned to come here, my younger brother found out about it, asked me to take him along. I turned him down because he was too young. I thought that was that, but recently I received a message. He wrote me that he had joined a group of illegals who were planning to sneak into the Zone. I realized that he was determined, he'd come in no matter what it took... There was nothing I could do to stop him, so at the very least I decided to ensure his safety and teach him the basics of life here. To do this, I was supposed to meet him after his infiltration, but this did not happen. I waited for the group at the agreed location for about two days, but no one showed up. Only on the third day did their contact come to me and tell me that the group in its entirety had been swept up by the military.",
+      "JA_new": "ああ、長い話になる……俺がゾーンに来たのは二年ほど前だ。来ようと決めた時、弟が聞きつけて一緒に連れて行ってくれと言い出した。まだ若すぎると思って断った。それで終わりだと思ってたが、最近連絡が来た。弟は、不法侵入者の一団に加わったらしい。そいつらはゾーンへの潜入を計画していた。あいつは決心したらしく、何があっても入るつもりだった……止める方法がなかったから、せめて安全を確保して、ここの暮らしの基本を教えようと思った。侵入後に会う約束をしていたが、現れなかった。一団が現れるはずの場所で二日待ったが、誰も来なかった。三日目になって、連絡役がやってきて、全員ミリタリーに捕まったと教えてくれた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_first_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_first_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2460,
+      "string_id": "leha_slon_first_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "What happened?",
+      "JA_current": "What happened?",
+      "JA_new": "それでどうなった？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_first_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_first_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2463,
+      "string_id": "leha_slon_first_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "His companions foolishly opened fire, the soldiers started shooting back... In short, bad luck. Fortunately, I was relieved to hear that apparently my brother was unharmed and was still alive! He's being held at a military checkpoint here in the Zone, awaiting extraction and sentencing for a lot of heavy charges, we're talking life in prison. Anyway, I realized that I had to act. It was expensive, but I managed to make contact with the commander of the checkpoint where my brother was being held. He turned out to be a business minded man and agreed to arrange his escape for a reward. For his personal collection, he demanded a rare artifact called the Jumper, and as far as I knew only the scientists in Yantar would have something like that. I went to the chief scientist, offered him all the money I had saved up over two years, a respectable sum, but he refused to sell me the artifact. So, I decided to steal it. You already know the rest.",
+      "JA_current": "His companions foolishly opened fire, the soldiers started shooting back... In short, bad luck. Fortunately, I was relieved to hear that apparently my brother was unharmed and was still alive! He's being held at a military checkpoint here in the Zone, awaiting extraction and sentencing for a lot of heavy charges, we're talking life in prison. Anyway, I realized that I had to act. It was expensive, but I managed to make contact with the commander of the checkpoint where my brother was being held. He turned out to be a business minded man and agreed to arrange his escape for a reward. For his personal collection, he demanded a rare artifact called the Jumper, and as far as I knew only the scientists in Yantar would have something like that. I went to the chief scientist, offered him all the money I had saved up over two years, a respectable sum, but he refused to sell me the artifact. So, I decided to steal it. You already know the rest.",
+      "JA_new": "弟の仲間が馬鹿なことに銃を撃ち始めて、兵士たちも撃ち返した……運が悪かったんだ。幸い、弟は無事で生きてると聞いて安心した！ このゾーンの軍の検問所に拘束されていて、身柄の引き渡しと重罪の裁判を待ってる。終身刑になるかもしれない。とにかく、何とかしなきゃならないと思った。金はかかったが、弟が拘束されている検問所の司令官と連絡が取れた。金に弱い男で、報酬を払えば脱走させてやると言った。自分のコレクションに、ジャンパーという珍しいアーティファクトを要求してきた。知る限り、ヤンターの科学者しか持ってない。主任研究員に、二年間で貯めた金を全部差し出した。かなりの額だったが、売ってくれなかった。だから、盗むしかなかったんだ。あとは知ってるだろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_first_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_first_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2466,
+      "string_id": "leha_slon_first_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "So that's how it is. Well, you did have a good reason. But what do we do now? I promised the scientists to get the Jumper back to them.",
+      "JA_current": "So that's how it is. Well, you did have a good reason. But what do we do now? I promised the scientists to get the Jumper back to them.",
+      "JA_new": "そういうことか。あんたには理由があったんだな。でも、これからどうする？ 科学者にはジャンパーを返すと約束した。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_first_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_first_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2469,
+      "string_id": "leha_slon_first_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "I understand you. Listen: this roadblock commander is a stubborn but self-serving man. Maybe you can change his mind. I already talked to him, but he won't budge. Can you go to him and try talk some sense into him? Maybe he'll take the money instead of the artifact, all that I've got.",
+      "JA_current": "I understand you. Listen: this roadblock commander is a stubborn but self-serving man. Maybe you can change his mind. I already talked to him, but he won't budge. Can you go to him and try talk some sense into him? Maybe he'll take the money instead of the artifact, all that I've got.",
+      "JA_new": "分かるよ。聞いてくれ。あの検問所の司令官は頑固だが、金には弱い。気が変わるかもしれない。俺も話したが、首を縦に振らなかった。あんたから司令官を説得してみてくれないか？ アーティファクトじゃなく、俺が出せるだけの金を受け取るようにな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_first_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_first_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2472,
+      "string_id": "leha_slon_first_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "How am I going to get to the roadblock, the military will kill me.",
+      "JA_current": "How am I going to get to the roadblock, the military will kill me.",
+      "JA_new": "どうやって検問所まで行くんだ？ ミリタリーに殺されるぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_first_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_first_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2475,
+      "string_id": "leha_slon_first_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "I'll send out a message that you're coming on my behalf, they will let you in.",
+      "JA_current": "I'll send out a message that you're coming on my behalf, they will let you in.",
+      "JA_new": "俺の代わりに来たと連絡しておく。通してもらえるはずだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_first_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_first_dialog_phrase_12#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2478,
+      "string_id": "leha_slon_first_dialog_phrase_12",
+      "occurrence": 1,
+      "EN": "And the land mines?",
+      "JA_current": "And the land mines?",
+      "JA_new": "地雷はどうする？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_first_dialog",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_first_dialog_phrase_13#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2481,
+      "string_id": "leha_slon_first_dialog_phrase_13",
+      "occurrence": 1,
+      "EN": "You don't have to worry about them so long as you stay on the road, the mines are only planted off the beaten path. Good luck, Marked One!",
+      "JA_current": "You don't have to worry about them so long as you stay on the road, the mines are only planted off the beaten path. Good luck, Marked One!",
+      "JA_new": "道から外れなければ心配ない。地雷は道の脇にしか埋めてない。幸運を祈る、印付き！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_first_dialog",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "leha_slon_first_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.eli_pali"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh, for crying out loud...",
+      "JA_current": "Oh, for crying out loud...",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_first_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "leha_slon_first_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here you are. Where's the Jumper? Don't try to deny it, I know you stole it from the scientists!",
+      "JA_current": "Here you are. Where's the Jumper? Don't try to deny it, I know you stole it from the scientists!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_first_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "leha_slon_first_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm not going to lie, I'll tell it like it was. Yes, I took an artifact from one of them. But don't think that I did it for profit. Listen carefully: I'm in a lot of trouble right now. Me and one other person. That person is my brother and his life is in danger right now. And this artifact is the only way to save him.",
+      "JA_current": "I'm not going to lie, I'll tell it like it was. Yes, I took an artifact from one of them. But don't think that I did it for profit. Listen carefully: I'm in a lot of trouble right now. Me and one other person. That person is my brother and his life is in danger right now. And this artifact is the only way to save him.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_first_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "leha_slon_first_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What did your brother do? Did he get into debt?",
+      "JA_current": "What did your brother do? Did he get into debt?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_first_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "leha_slon_first_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Jeez, it's a long story... I came to the Zone about two years ago. When I first planned to come here, my younger brother found out about it, asked me to take him along. I turned him down because he was too young. I thought that was that, but recently I received a message. He wrote me that he had joined a group of illegals who were planning to sneak into the Zone. I realized that he was determined, he'd come in no matter what it took... There was nothing I could do to stop him, so at the very least I decided to ensure his safety and teach him the basics of life here. To do this, I was supposed to meet him after his infiltration, but this did not happen. I waited for the group at the agreed location for about two days, but no one showed up. Only on the third day did their contact come to me and tell me that the group in its entirety had been swept up by the military.",
+      "JA_current": "Jeez, it's a long story... I came to the Zone about two years ago. When I first planned to come here, my younger brother found out about it, asked me to take him along. I turned him down because he was too young. I thought that was that, but recently I received a message. He wrote me that he had joined a group of illegals who were planning to sneak into the Zone. I realized that he was determined, he'd come in no matter what it took... There was nothing I could do to stop him, so at the very least I decided to ensure his safety and teach him the basics of life here. To do this, I was supposed to meet him after his infiltration, but this did not happen. I waited for the group at the agreed location for about two days, but no one showed up. Only on the third day did their contact come to me and tell me that the group in its entirety had been swept up by the military.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_first_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "leha_slon_first_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What happened?",
+      "JA_current": "What happened?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_first_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "leha_slon_first_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "His companions foolishly opened fire, the soldiers started shooting back... In short, bad luck. Fortunately, I was relieved to hear that apparently my brother was unharmed and was still alive! He's being held at a military checkpoint here in the Zone, awaiting extraction and sentencing for a lot of heavy charges, we're talking life in prison. Anyway, I realized that I had to act. It was expensive, but I managed to make contact with the commander of the checkpoint where my brother was being held. He turned out to be a business minded man and agreed to arrange his escape for a reward. For his personal collection, he demanded a rare artifact called the Jumper, and as far as I knew only the scientists in Yantar would have something like that. I went to the chief scientist, offered him all the money I had saved up over two years, a respectable sum, but he refused to sell me the artifact. So, I decided to steal it. You already know the rest.",
+      "JA_current": "His companions foolishly opened fire, the soldiers started shooting back... In short, bad luck. Fortunately, I was relieved to hear that apparently my brother was unharmed and was still alive! He's being held at a military checkpoint here in the Zone, awaiting extraction and sentencing for a lot of heavy charges, we're talking life in prison. Anyway, I realized that I had to act. It was expensive, but I managed to make contact with the commander of the checkpoint where my brother was being held. He turned out to be a business minded man and agreed to arrange his escape for a reward. For his personal collection, he demanded a rare artifact called the Jumper, and as far as I knew only the scientists in Yantar would have something like that. I went to the chief scientist, offered him all the money I had saved up over two years, a respectable sum, but he refused to sell me the artifact. So, I decided to steal it. You already know the rest.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_first_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "leha_slon_first_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So that's how it is. Well, you did have a good reason. But what do we do now? I promised the scientists to get the Jumper back to them.",
+      "JA_current": "So that's how it is. Well, you did have a good reason. But what do we do now? I promised the scientists to get the Jumper back to them.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_first_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "leha_slon_first_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I understand you. Listen: this roadblock commander is a stubborn but self-serving man. Maybe you can change his mind. I already talked to him, but he won't budge. Can you go to him and try talk some sense into him? Maybe he'll take the money instead of the artifact, all that I've got.",
+      "JA_current": "I understand you. Listen: this roadblock commander is a stubborn but self-serving man. Maybe you can change his mind. I already talked to him, but he won't budge. Can you go to him and try talk some sense into him? Maybe he'll take the money instead of the artifact, all that I've got.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_first_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "leha_slon_first_dialog_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "How am I going to get to the roadblock, the military will kill me.",
+      "JA_current": "How am I going to get to the roadblock, the military will kill me.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_first_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "leha_slon_first_dialog_phrase_11",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'll send out a message that you're coming on my behalf, they will let you in.",
+      "JA_current": "I'll send out a message that you're coming on my behalf, they will let you in.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_first_dialog_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "leha_slon_first_dialog_phrase_12",
+      "next": [
+        "12"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "leha_slon_info"
+        },
+        {
+          "type": "give_info",
+          "value": "turrets_shoot_off"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.mayak_in"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.set_army_friend"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "And the land mines?",
+      "JA_current": "And the land mines?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_first_dialog_phrase_12#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "leha_slon_first_dialog_phrase_13",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.eli_pali"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You don't have to worry about them so long as you stay on the road, the mines are only planted off the beaten path. Good luck, Marked One!",
+      "JA_current": "You don't have to worry about them so long as you stay on the road, the mines are only planted off the beaten path. Good luck, Marked One!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_first_dialog_phrase_13#1"
+      ]
+    }
+  ]
+}

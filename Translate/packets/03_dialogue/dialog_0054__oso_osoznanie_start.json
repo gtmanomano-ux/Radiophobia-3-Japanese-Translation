@@ -1,0 +1,187 @@
+{
+  "packet_id": "dialog_0054__oso_osoznanie_start",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "oso_osoznanie_start",
+  "graph_source": "gamedata/config/gameplay/dialogs_aes.xml",
+  "graph_sha256": "d2b4ce0efab5c369fd85b1604383e81764a6a0d021707198c360f1d888b39999",
+  "character_bindings": [
+    {
+      "profile_id": "stalker_osoznanie",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_general.xml"
+    }
+  ],
+  "dialog_conditions": [],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 2,
+  "entries": [
+    {
+      "key": "stable_dialogs_aes:oso_osoznanie_start_11#1",
+      "source_table": "stable_dialogs_aes",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_aes.xml",
+      "source_xml_line": 18,
+      "string_id": "oso_osoznanie_start_11",
+      "occurrence": 1,
+      "EN": "Hello, Strelok. I see you have many questions for me. Well, ask them and then we can decide what to do with you.",
+      "JA_current": "ごきげんよう Strelok。私にいくつか聞きたいことがあるだろう。よろしい、それらに答えよう。そしてその時、共に何をしたらよいか、決断することが出来るだろう。",
+      "JA_new": "こんにちは、ストレロク。私に聞きたいことが山ほどあるようだな。何でも尋ねるといい。答えたあと、君をどうするか決めよう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "oso_osoznanie_start",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_aes.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_aes:oso_osoznanie_start_21#1",
+      "source_table": "stable_dialogs_aes",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_aes.xml",
+      "source_xml_line": 21,
+      "string_id": "oso_osoznanie_start_21",
+      "occurrence": 1,
+      "EN": "The choice is yours, Strelok.",
+      "JA_current": "Strelok、選択はお前次第だ。",
+      "JA_new": "選ぶのは君だ、ストレロク。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "oso_osoznanie_start",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_aes.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": null,
+      "next": [
+        "1",
+        "2"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "xr_effects.enable_ui"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1",
+      "text_id": null,
+      "next": [
+        "11"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "oso_question"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "2",
+      "text_id": null,
+      "next": [
+        "21"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "oso_question"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "oso_osoznanie_start_11",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs_aes.cc_oso_osoznanie_start_11"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hello, Strelok. I see you have many questions for me. Well, ask them and then we can decide what to do with you.",
+      "JA_current": "ごきげんよう Strelok。私にいくつか聞きたいことがあるだろう。よろしい、それらに答えよう。そしてその時、共に何をしたらよいか、決断することが出来るだろう。",
+      "string_entry_candidates": [
+        "stable_dialogs_aes:oso_osoznanie_start_11#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "oso_osoznanie_start_21",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs_aes.cc_oso_osoznanie_start_21"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The choice is yours, Strelok.",
+      "JA_current": "Strelok、選択はお前次第だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_aes:oso_osoznanie_start_21#1"
+      ]
+    }
+  ]
+}

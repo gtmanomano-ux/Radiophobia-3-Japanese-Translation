@@ -1,0 +1,701 @@
+{
+  "packet_id": "dialog_0171__otshel_obmen_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "otshel_obmen_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "stalker_otshelnik",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 14,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:otshel_obmen_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2140,
+      "string_id": "otshel_obmen_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Well, it so happens I am interested in some specifics.. How about it?",
+      "JA_current": "Well, it so happens I am interested in some specifics.. How about it?",
+      "JA_new": "実は、欲しい物がいくつかあるんだ……どうだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_obmen_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:otshel_obmen_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2143,
+      "string_id": "otshel_obmen_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Oh yeah? What exactly do you want?",
+      "JA_current": "Oh yeah? What exactly do you want?",
+      "JA_new": "そうか？ 具体的には何が欲しい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_obmen_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:otshel_obmen_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2146,
+      "string_id": "otshel_obmen_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Equipment. Useful for long hikes in the Zone. ",
+      "JA_current": "Equipment. Useful for long hikes in the Zone. ",
+      "JA_new": "装備だ。ゾーンを長く歩き回るのに役立つ物が欲しい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_obmen_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:otshel_obmen_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2149,
+      "string_id": "otshel_obmen_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "I suppose we could work something out. But to begin with, I don't charge money for my goods. Don't ask me why, it's because I have to. Of course, I'm not running a charity either, because I got these things with great difficulty and risk. So, I deal exclusively in exchange for artifacts, don't bother guessing what I do with those. I cut a profit, and that's it. You can bring me as many as you like! If I like an artifact that you're carrying, I'll give you a useful piece of kit in exchange, all sorts of useful trinkets. Ask, and maybe I'll have something like that.",
+      "JA_current": "I suppose we could work something out. But to begin with, I don't charge money for my goods. Don't ask me why, it's because I have to. Of course, I'm not running a charity either, because I got these things with great difficulty and risk. So, I deal exclusively in exchange for artifacts, don't bother guessing what I do with those. I cut a profit, and that's it. You can bring me as many as you like! If I like an artifact that you're carrying, I'll give you a useful piece of kit in exchange, all sorts of useful trinkets. Ask, and maybe I'll have something like that.",
+      "JA_new": "何とか取引できると思う。ただ、最初に言っておく。品物に金は取らない。理由は聞くな。そうするしかないんだ。だからといって慈善事業じゃないぞ。こっちも苦労と危険を冒して手に入れてる。アーティファクトとの交換だけだ。何に使うかは詮索するな。利益はもらう。それだけだ。いくつ持ってきてもいい。お前の持ってる物で気に入ったアーティファクトがあれば、使える装備や小物と交換してやる。聞いてみろ。何かあるかもしれない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_obmen_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:otshel_obmen_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2152,
+      "string_id": "otshel_obmen_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "All right, let's get a weapon repair kit.",
+      "JA_current": "All right, let's get a weapon repair kit.",
+      "JA_new": "よし、武器の修理キットをくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_obmen_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:otshel_obmen_dialog_phrase_5_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2155,
+      "string_id": "otshel_obmen_dialog_phrase_5_1",
+      "occurrence": 1,
+      "EN": "All right, how about a suit repair kit.",
+      "JA_current": "All right, how about a suit repair kit.",
+      "JA_new": "じゃあ、防具の修理キットはあるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_obmen_dialog",
+          "phrase_id": "41",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:otshel_obmen_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2158,
+      "string_id": "otshel_obmen_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Give me the backpack, it will come in handy.",
+      "JA_current": "Give me the backpack, it will come in handy.",
+      "JA_new": "バックパックをくれ。役に立ちそうだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_obmen_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:otshel_obmen_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2167,
+      "string_id": "otshel_obmen_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "Give me a flashlight.",
+      "JA_current": "Give me a flashlight.",
+      "JA_new": "懐中電灯をくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_obmen_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:otshel_obmen_dialog_phrase_7_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2164,
+      "string_id": "otshel_obmen_dialog_phrase_7_1",
+      "occurrence": 1,
+      "EN": "I need explosives.",
+      "JA_current": "I need explosives.",
+      "JA_new": "爆発物が要る。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_obmen_dialog",
+          "phrase_id": "7_1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:otshel_obmen_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2170,
+      "string_id": "otshel_obmen_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "I'm currently light on artifacts, I'll drop by again with something more interesting.",
+      "JA_current": "I'm currently light on artifacts, I'll drop by again with something more interesting.",
+      "JA_new": "今はアーティファクトが足りない。また何か見つけたら来るよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_obmen_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:otshel_obmen_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2173,
+      "string_id": "otshel_obmen_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "Take it.",
+      "JA_current": "Take it.",
+      "JA_new": "持っていけ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_obmen_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "otshel_obmen_dialog",
+          "phrase_id": "91",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:otshel_obmen_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2176,
+      "string_id": "otshel_obmen_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "Good choice.",
+      "JA_current": "Good choice.",
+      "JA_new": "いい選択だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_obmen_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:otshel_obmen_dialog_phrase_13#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2182,
+      "string_id": "otshel_obmen_dialog_phrase_13",
+      "occurrence": 1,
+      "EN": "You're quite the pro stalker.",
+      "JA_current": "You're quite the pro stalker.",
+      "JA_new": "なかなかのベテランだな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_obmen_dialog",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:otshel_obmen_dialog_phrase_12_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2185,
+      "string_id": "otshel_obmen_dialog_phrase_12_1",
+      "occurrence": 1,
+      "EN": "Now we're talking!",
+      "JA_current": "Now we're talking!",
+      "JA_new": "そうこなくっちゃ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_obmen_dialog",
+          "phrase_id": "12_1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "otshel_obmen_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.pokazivay_tovar"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, it so happens I am interested in some specifics.. How about it?",
+      "JA_current": "Well, it so happens I am interested in some specifics.. How about it?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_obmen_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "otshel_obmen_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh yeah? What exactly do you want?",
+      "JA_current": "Oh yeah? What exactly do you want?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_obmen_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "otshel_obmen_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Equipment. Useful for long hikes in the Zone. ",
+      "JA_current": "Equipment. Useful for long hikes in the Zone. ",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_obmen_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "otshel_obmen_dialog_phrase_4",
+      "next": [
+        "4",
+        "41",
+        "5",
+        "7",
+        "7_1",
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I suppose we could work something out. But to begin with, I don't charge money for my goods. Don't ask me why, it's because I have to. Of course, I'm not running a charity either, because I got these things with great difficulty and risk. So, I deal exclusively in exchange for artifacts, don't bother guessing what I do with those. I cut a profit, and that's it. You can bring me as many as you like! If I like an artifact that you're carrying, I'll give you a useful piece of kit in exchange, all sorts of useful trinkets. Ask, and maybe I'll have something like that.",
+      "JA_current": "I suppose we could work something out. But to begin with, I don't charge money for my goods. Don't ask me why, it's because I have to. Of course, I'm not running a charity either, because I got these things with great difficulty and risk. So, I deal exclusively in exchange for artifacts, don't bother guessing what I do with those. I cut a profit, and that's it. You can bring me as many as you like! If I like an artifact that you're carrying, I'll give you a useful piece of kit in exchange, all sorts of useful trinkets. Ask, and maybe I'll have something like that.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_obmen_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "otshel_obmen_dialog_phrase_5",
+      "next": [
+        "9"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_kusok"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.kusok_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All right, let's get a weapon repair kit.",
+      "JA_current": "All right, let's get a weapon repair kit.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_obmen_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "41",
+      "text_id": "otshel_obmen_dialog_phrase_5_1",
+      "next": [
+        "91"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_kusok"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.kusok_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All right, how about a suit repair kit.",
+      "JA_current": "All right, how about a suit repair kit.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_obmen_dialog_phrase_5_1#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "otshel_obmen_dialog_phrase_6",
+      "next": [
+        "10"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_flash"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.flash_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Give me the backpack, it will come in handy.",
+      "JA_current": "Give me the backpack, it will come in handy.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_obmen_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "otshel_obmen_dialog_phrase_8",
+      "next": [
+        "12"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_kaktus"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.kaktus_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Give me a flashlight.",
+      "JA_current": "Give me a flashlight.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_obmen_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "7_1",
+      "text_id": "otshel_obmen_dialog_phrase_7_1",
+      "next": [
+        "12_1"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_sluda"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.sluda_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I need explosives.",
+      "JA_current": "I need explosives.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_obmen_dialog_phrase_7_1#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "otshel_obmen_dialog_phrase_9",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm currently light on artifacts, I'll drop by again with something more interesting.",
+      "JA_current": "I'm currently light on artifacts, I'll drop by again with something more interesting.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_obmen_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "otshel_obmen_dialog_phrase_10",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.poluchi_remkit"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Take it.",
+      "JA_current": "Take it.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_obmen_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "91",
+      "text_id": "otshel_obmen_dialog_phrase_10",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.poluchi_remkit_suit"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "41"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Take it.",
+      "JA_current": "Take it.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_obmen_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "otshel_obmen_dialog_phrase_11",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.poluchi_ruck"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Good choice.",
+      "JA_current": "Good choice.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_obmen_dialog_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "otshel_obmen_dialog_phrase_13",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.poluchi_fonar"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You're quite the pro stalker.",
+      "JA_current": "You're quite the pro stalker.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_obmen_dialog_phrase_13#1"
+      ]
+    },
+    {
+      "phrase_id": "12_1",
+      "text_id": "otshel_obmen_dialog_phrase_12_1",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.poluchi_bombu"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "7_1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Now we're talking!",
+      "JA_current": "Now we're talking!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_obmen_dialog_phrase_12_1#1"
+      ]
+    }
+  ]
+}

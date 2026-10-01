@@ -1,0 +1,177 @@
+{
+  "packet_id": "dialog_0474__petrov_reward_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "petrov_reward_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml",
+  "graph_sha256": "131d3c64c00a1023af4aaa914f345f3cfff2e581dea421160993fad100675545",
+  "character_bindings": [
+    {
+      "profile_id": "prof_petrov",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "stas_chujoi_free"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "petrov_prigun_done"
+    },
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.have_prigun"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 3,
+  "entries": [
+    {
+      "key": "stable_dialogs_yantar:petrov_reward_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 920,
+      "string_id": "petrov_reward_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "I returned the artifact that was stolen from you, here it is:",
+      "JA_current": "I returned the artifact that was stolen from you, here it is:",
+      "JA_new": "奪われたアーティファクトを取り戻した。ほら。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "petrov_reward_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:petrov_reward_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 923,
+      "string_id": "petrov_reward_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Well done, Marked One! Now I can continue my research, and besides, my reputation in scientific circles will be restored. What can I reward you with? I think I've got it. Take this device: in the conditions of the Zone it will help you to detect danger, because any advanced warning serves as excellent protection! It is called a bio-scanner. The principle is simple: you hang it on your belt near the tissue samples of the creature you want to track and on the PDA you will be able to see the location of the target, whether it's human or mutant. The device works within a radius of 30 meters.",
+      "JA_current": "Well done, Marked One! Now I can continue my research, and besides, my reputation in scientific circles will be restored. What can I reward you with? I think I've got it. Take this device: in the conditions of the Zone it will help you to detect danger, because any advanced warning serves as excellent protection! It is called a bio-scanner. The principle is simple: you hang it on your belt near the tissue samples of the creature you want to track and on the PDA you will be able to see the location of the target, whether it's human or mutant. The device works within a radius of 30 meters.",
+      "JA_new": "よくやった、マークド・ワン！ これで研究を続けられるし、学界での名誉も回復できる。お礼は何がいいかな……そうだ。これを持っていくといい。ゾーンでは危険を事前に察知できるから、身を守るのに役立つ。バイオスキャナーだ。使い方は簡単。追跡したい生き物の組織サンプルと一緒に、これをベルトに付けておけばいい。PDAに対象の位置が表示される。人間でもミュータントでも追跡できるぞ。探知距離は30メートルだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "petrov_reward_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:petrov_reward_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 926,
+      "string_id": "petrov_reward_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Useful gizmo, thanks!",
+      "JA_current": "Useful gizmo, thanks!",
+      "JA_new": "役に立つ道具だな。ありがとう！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "petrov_reward_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "petrov_reward_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.prigun_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I returned the artifact that was stolen from you, here it is:",
+      "JA_current": "I returned the artifact that was stolen from you, here it is:",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:petrov_reward_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "petrov_reward_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well done, Marked One! Now I can continue my research, and besides, my reputation in scientific circles will be restored. What can I reward you with? I think I've got it. Take this device: in the conditions of the Zone it will help you to detect danger, because any advanced warning serves as excellent protection! It is called a bio-scanner. The principle is simple: you hang it on your belt near the tissue samples of the creature you want to track and on the PDA you will be able to see the location of the target, whether it's human or mutant. The device works within a radius of 30 meters.",
+      "JA_current": "Well done, Marked One! Now I can continue my research, and besides, my reputation in scientific circles will be restored. What can I reward you with? I think I've got it. Take this device: in the conditions of the Zone it will help you to detect danger, because any advanced warning serves as excellent protection! It is called a bio-scanner. The principle is simple: you hang it on your belt near the tissue samples of the creature you want to track and on the PDA you will be able to see the location of the target, whether it's human or mutant. The device works within a radius of 30 meters.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:petrov_reward_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "petrov_reward_dialog_phrase_3",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.petrov_reward"
+        },
+        {
+          "type": "give_info",
+          "value": "petrov_prigun_done"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Useful gizmo, thanks!",
+      "JA_current": "Useful gizmo, thanks!",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:petrov_reward_dialog_phrase_3#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1043 @@
+{
+  "packet_id": "dialog_0085__barman_music",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "barman_music",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_barman",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "community_relation.has_500"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 19,
+  "entries": [
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_18#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 57,
+      "string_id": "dialogs_bar_18",
+      "occurrence": 1,
+      "EN": "Listen, Barkeep, I want to order a song or two.",
+      "JA_current": "なあバーキープ、1、2曲リクエストしたいんだが。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_music",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_17#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 54,
+      "string_id": "dialogs_bar_17",
+      "occurrence": 1,
+      "EN": "Pay 500 rubles and order:",
+      "JA_current": "500ルーブル払えばリクエストできるぞ。どれにする？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_music",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_0#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 3,
+      "string_id": "dialogs_bar_0",
+      "occurrence": 1,
+      "EN": "Let 'a be something 'bout real lads.",
+      "JA_current": "漢気あふれる野郎どもの歌にしてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_music",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_2#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 9,
+      "string_id": "dialogs_bar_2",
+      "occurrence": 1,
+      "EN": "Let's listen to the \"Metallica\".",
+      "JA_current": "メタリカを聴かせてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_music",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_3#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 12,
+      "string_id": "dialogs_bar_3",
+      "occurrence": 1,
+      "EN": "I want something harder... \"Deep Purple\" for example.",
+      "JA_current": "もっと激しいのがいいな……ディープ・パープルとか。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_music",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_4#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 15,
+      "string_id": "dialogs_bar_4",
+      "occurrence": 1,
+      "EN": "Play something to suit the drink.",
+      "JA_current": "酒の進む曲を頼む。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_music",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_5#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 18,
+      "string_id": "dialogs_bar_5",
+      "occurrence": 1,
+      "EN": "Something about stalkers and the Zone...",
+      "JA_current": "ストーカーやゾーンについての曲を頼む。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_music",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_6#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 21,
+      "string_id": "dialogs_bar_6",
+      "occurrence": 1,
+      "EN": "Do play the \"DDT\".",
+      "JA_current": "DDTを流してくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_music",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_7#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 24,
+      "string_id": "dialogs_bar_7",
+      "occurrence": 1,
+      "EN": "Got anything else?",
+      "JA_current": "他にはどんなのがある？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_music",
+          "phrase_id": "9_1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_8#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 27,
+      "string_id": "dialogs_bar_8",
+      "occurrence": 1,
+      "EN": "Yeah, take a look:",
+      "JA_current": "ああ、これを見てみな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_music",
+          "phrase_id": "9_2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_1#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 6,
+      "string_id": "dialogs_bar_1",
+      "occurrence": 1,
+      "EN": "Bro, have you got some music of Marley?",
+      "JA_current": "なあ、ボブ・マーリーの曲はあるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_music",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_9#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 30,
+      "string_id": "dialogs_bar_9",
+      "occurrence": 1,
+      "EN": "Just put something calm.",
+      "JA_current": "落ち着いた曲を流してくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_music",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_10#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 33,
+      "string_id": "dialogs_bar_10",
+      "occurrence": 1,
+      "EN": "Play \"AC/DC\", man.",
+      "JA_current": "AC/DCを頼むぜ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_music",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_11#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 36,
+      "string_id": "dialogs_bar_11",
+      "occurrence": 1,
+      "EN": "Classical music, please.",
+      "JA_current": "クラシック音楽をお願いします。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_music",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_12#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 39,
+      "string_id": "dialogs_bar_12",
+      "occurrence": 1,
+      "EN": "I found a CD here called \"Anomalous Album\".",
+      "JA_current": "「アノマラス・アルバム」ってCDを見つけたんだが。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_music",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_13#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 42,
+      "string_id": "dialogs_bar_13",
+      "occurrence": 1,
+      "EN": "\"Nazareth\" would be good.",
+      "JA_current": "ナザレスがいいな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_music",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_14#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 45,
+      "string_id": "dialogs_bar_14",
+      "occurrence": 1,
+      "EN": "\"Zz top\".",
+      "JA_current": "ZZトップにしてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_music",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_15#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 48,
+      "string_id": "dialogs_bar_15",
+      "occurrence": 1,
+      "EN": "\"Apocalyptica\".",
+      "JA_current": "アポカリプティカを頼む。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_music",
+          "phrase_id": "16",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_16#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 51,
+      "string_id": "dialogs_bar_16",
+      "occurrence": 1,
+      "EN": "Just whatever you wish, Barkeep.",
+      "JA_current": "バーキープ、あんたの好きな曲でいいよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_music",
+          "phrase_id": "17",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "dialogs_bar_18",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Listen, Barkeep, I want to order a song or two.",
+      "JA_current": "Listen, Barkeep, I want to order a song or two.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_18#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "dialogs_bar_17",
+      "next": [
+        "3",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "9_1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Pay 500 rubles and order:",
+      "JA_current": "Pay 500 rubles and order:",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_17#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "dialogs_bar_0",
+      "next": [],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bratki"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "bratki"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.relocate_500"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Let 'a be something 'bout real lads.",
+      "JA_current": "Let 'a be something 'bout real lads.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_0#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "dialogs_bar_2",
+      "next": [],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "metallica"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "metallica"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.relocate_500"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Let's listen to the \"Metallica\".",
+      "JA_current": "Let's listen to the \"Metallica\".",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_2#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "dialogs_bar_3",
+      "next": [],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "deep_purple"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "deep_purple"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.relocate_500"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I want something harder... \"Deep Purple\" for example.",
+      "JA_current": "I want something harder... \"Deep Purple\" for example.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_3#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "dialogs_bar_4",
+      "next": [],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "pod_vodochku"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "pod_vodochku"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.relocate_500"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Play something to suit the drink.",
+      "JA_current": "Play something to suit the drink.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_4#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "dialogs_bar_5",
+      "next": [],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "stalkers"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "stalkers"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.relocate_500"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Something about stalkers and the Zone...",
+      "JA_current": "Something about stalkers and the Zone...",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_5#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "dialogs_bar_6",
+      "next": [],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "ddt"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "ddt"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.relocate_500"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Do play the \"DDT\".",
+      "JA_current": "Do play the \"DDT\".",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_6#1"
+      ]
+    },
+    {
+      "phrase_id": "9_1",
+      "text_id": "dialogs_bar_7",
+      "next": [
+        "9_2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Got anything else?",
+      "JA_current": "Got anything else?",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_7#1"
+      ]
+    },
+    {
+      "phrase_id": "9_2",
+      "text_id": "dialogs_bar_8",
+      "next": [
+        "4",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9_1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, take a look:",
+      "JA_current": "Yeah, take a look:",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_8#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "dialogs_bar_1",
+      "next": [],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bob_marley"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "bob_marley"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.relocate_500"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9_2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Bro, have you got some music of Marley?",
+      "JA_current": "Bro, have you got some music of Marley?",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_1#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "dialogs_bar_9",
+      "next": [],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "quiet"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "quiet"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.relocate_500"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9_2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Just put something calm.",
+      "JA_current": "Just put something calm.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_9#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "dialogs_bar_10",
+      "next": [],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "acdc"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "acdc"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.relocate_500"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9_2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Play \"AC/DC\", man.",
+      "JA_current": "Play \"AC/DC\", man.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_10#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "dialogs_bar_11",
+      "next": [],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "classic"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "classic"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.relocate_500"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9_2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Classical music, please.",
+      "JA_current": "Classical music, please.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_11#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "dialogs_bar_12",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.has_alan_disc"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "pain"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "pain"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.relocate_500"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9_2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I found a CD here called \"Anomalous Album\".",
+      "JA_current": "I found a CD here called \"Anomalous Album\".",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_12#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "dialogs_bar_13",
+      "next": [],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "nazareth"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "nazareth"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.relocate_500"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9_2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Nazareth\" would be good.",
+      "JA_current": "\"Nazareth\" would be good.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_13#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "dialogs_bar_14",
+      "next": [],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "zz_top"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "zz_top"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.relocate_500"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9_2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Zz top\".",
+      "JA_current": "\"Zz top\".",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_14#1"
+      ]
+    },
+    {
+      "phrase_id": "16",
+      "text_id": "dialogs_bar_15",
+      "next": [],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "apocalyptica"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "apocalyptica"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.relocate_500"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9_2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Apocalyptica\".",
+      "JA_current": "\"Apocalyptica\".",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_15#1"
+      ]
+    },
+    {
+      "phrase_id": "17",
+      "text_id": "dialogs_bar_16",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [
+        {
+          "type": "disable",
+          "value": "classic"
+        },
+        {
+          "type": "disable",
+          "value": "bob_marley"
+        },
+        {
+          "type": "disable",
+          "value": "metallica"
+        },
+        {
+          "type": "disable",
+          "value": "bratki"
+        },
+        {
+          "type": "disable",
+          "value": "stalkers"
+        },
+        {
+          "type": "disable",
+          "value": "pod_vodochku"
+        },
+        {
+          "type": "disable",
+          "value": "deep_purple"
+        },
+        {
+          "type": "disable",
+          "value": "ddt"
+        },
+        {
+          "type": "disable",
+          "value": "yuri"
+        },
+        {
+          "type": "disable",
+          "value": "mixer"
+        },
+        {
+          "type": "disable",
+          "value": "acdc"
+        },
+        {
+          "type": "disable",
+          "value": "quiet"
+        },
+        {
+          "type": "disable",
+          "value": "pain"
+        },
+        {
+          "type": "disable",
+          "value": "nazareth"
+        },
+        {
+          "type": "disable",
+          "value": "zz_top"
+        },
+        {
+          "type": "disable",
+          "value": "apocalyptica"
+        }
+      ],
+      "incoming": [
+        "9_2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Just whatever you wish, Barkeep.",
+      "JA_current": "Just whatever you wish, Barkeep.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_16#1"
+      ]
+    }
+  ]
+}

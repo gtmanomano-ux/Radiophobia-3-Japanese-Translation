@@ -1,0 +1,84 @@
+{
+    "packet_id":  "dialog_0377__mil_cook_dialog",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "mil_cook_dialog",
+    "graph_source":  "gamedata/config/gameplay/dialogs_military.xml",
+    "graph_sha256":  "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+    "character_bindings":  [
+
+                           ],
+    "dialog_conditions":  [
+
+                          ],
+    "root_speaker_hint":  null,
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  1,
+    "entries":  [
+                    {
+                        "key":  "stable_dialogs_military:mil_cook_dialog_0#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  260,
+                        "string_id":  "mil_cook_dialog_0",
+                        "occurrence":  1,
+                        "EN":  "Come, sit down! We\u0027ll have a good time...",
+                        "JA_current":  "座りなよ！ 楽しもうじゃないか…。",
+                        "JA_new":  "ほら、座れよ！ 楽しもうぜ……",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "mil_cook_dialog",
+                                               "phrase_id":  "0",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  "mil_cook_dialog_0",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  null,
+                            "speaker_hint_basis":  "unresolved",
+                            "EN":  "Come, sit down! We\u0027ll have a good time...",
+                            "JA_current":  "座りなよ！ 楽しもうじゃないか…。",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:mil_cook_dialog_0#1"
+                                                        ]
+                        }
+                    ]
+}

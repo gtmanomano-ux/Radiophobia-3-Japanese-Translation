@@ -1,0 +1,483 @@
+{
+  "packet_id": "dialog_0274__escape_trader_talk_level",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "escape_trader_talk_level",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "escape_dialog.trader_alredy_give_job"
+    },
+    {
+      "type": "has_info",
+      "value": "tutorial_end"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 11,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_level_0#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1482,
+      "string_id": "escape_trader_talk_level_0",
+      "occurrence": 1,
+      "EN": "Tell me about this place.",
+      "JA_current": "この辺りのことを教えてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_level",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_level_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1485,
+      "string_id": "escape_trader_talk_level_1",
+      "occurrence": 1,
+      "EN": "Huh! This is the entrance to the Zone, a sort of an antechamber. We've got an army cordon here. It's relatively quiet, with the exception of a couple of army guys who like to have some fun, go on shakedown runs. Experienced stalkers don't come by very often, so it's mostly rookies. Some settle here for good, yeah... A little ways from here there's a farm made into a rookie camp. Watch yourself though, they aren't afraid to pull the trigger when push comes to shove.\\n What else? You won't make huge profit here, that's for sure. There's a deserted factory across the road. To the North, behind the railroad embankment there are the ruins of a farm. An army outpost lies to the South of here. And beware: the military left some mines in the ground. Also, there used to be a bridge in the center, but it went down somehow. That's about it, really.",
+      "JA_current": "へえ！ ここはゾーンの入口、いわば前室だ。軍のコルドンがあってな。小遣い稼ぎにカツアゲして回る兵隊が二、三人いるのを除けば、比較的静かなもんさ。熟練のストーカーはめったに来ないから、ほとんどがルーキーだ。ここに居着いちまう奴もいるな……少し先に行くと、農場を改造したルーキーキャンプがある。だが気をつけろよ、いざとなれば引き金を引くのをためらわない連中だ。\\nほかに何があるかって？ ここじゃ大儲けはできない、それは確かだ。道の向かいには廃工場がある。北へ行って線路の盛り土を越えた先には、農場の廃墟だ。南には軍の前哨基地がある。それと気をつけろ、軍の連中が地雷を埋めたままだ。あとは中央に橋があったんだが、いつの間にか崩れちまった。まあ、そんなところだな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_level",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_level_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1491,
+      "string_id": "escape_trader_talk_level_2",
+      "occurrence": 1,
+      "EN": "Tell me more about the army outpost.",
+      "JA_current": "軍の前哨基地について、もう少し詳しく教えてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_level",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_level_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1497,
+      "string_id": "escape_trader_talk_level_3",
+      "occurrence": 1,
+      "EN": "I want to know more about the fallen bridge.",
+      "JA_current": "崩れた橋について知りたい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_level",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_level_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1503,
+      "string_id": "escape_trader_talk_level_4",
+      "occurrence": 1,
+      "EN": "Got some more info about the factory?",
+      "JA_current": "工場について、何か情報は入ってるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_level",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_level_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1509,
+      "string_id": "escape_trader_talk_level_5",
+      "occurrence": 1,
+      "EN": "Tell me about the farm.",
+      "JA_current": "農場について教えてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_level",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_level_10#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1488,
+      "string_id": "escape_trader_talk_level_10",
+      "occurrence": 1,
+      "EN": "OK, thanks.",
+      "JA_current": "分かった、恩に着るよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_level",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_level_21#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1494,
+      "string_id": "escape_trader_talk_level_21",
+      "occurrence": 1,
+      "EN": "The few soldiers there have been ordered to shoot on sight, so you'd better walk around it and try not to show your ass. If you piss them off, they may call for the Spetsnaz from the further cordon. Those guys can brew up such shit that I won't have any customers for a month... I know the commander a little: he likes to take a swig as much as the next man. I'm surviving on here thanks to him.",
+      "JA_current": "あそこにいる兵隊どもは見つけ次第撃てと命令されてる。だから遠回りして、姿を見せないようにするんだな。連中を怒らせたら、さらに奥のコルドンからスペツナズを呼び出しかねない。あいつらが暴れ回ったら、ひと月は客が寄りつかなくなるような大騒ぎになる……指揮官とは少し付き合いがあってね。あいつも人並みに酒が好きでな。おかげで俺もこうして生き残れてるってわけだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_level",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_level_31#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1500,
+      "string_id": "escape_trader_talk_level_31",
+      "occurrence": 1,
+      "EN": "That's just a couple of minutes North of here - you'll see it right away. There used to be a bridge over the road, but then it collapsed during one of the blowouts. The army guys built a checkpoint there and don't let anyone through... but if you grease the right palm, you'll pass with no problems. In general, you don't want to show your face there too much, unless you're badly wounded or got a heavy load on you.",
+      "JA_current": "ここから北へ歩いて二分ほどだ、すぐに見える。以前は道路をまたぐ橋が架かってたんだが、ブロウアウトのときに崩れちまった。軍の連中がそこに検問所を構えて誰も通さないようにしてるが……袖の下を握らせてやれば、何の問題もなく通してくれるさ。まあ基本的には、ひどい怪我でもしてるか重い荷物を背負ってるでもなきゃ、あまり顔を出さないほうがいいがな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_level",
+          "phrase_id": "31",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_level_41#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1506,
+      "string_id": "escape_trader_talk_level_41",
+      "occurrence": 1,
+      "EN": "Cross the road and you'll see a brick building - that's it. Everything worth stealing has already been stolen, just this one box is left. This is the bandits' favorite place. I don't know if they are there now, but watch out just in case. You got nothing valuable on you to take, but do you really wanna go through all that?",
+      "JA_current": "道を渡るとレンガ造りの建物が見える、それだ。盗む価値のある物はとっくに持ち去られて、木箱が一つ残ってるだけだがな。あそこはバンディットのお気に入りの場所だ。今もそこにいるかは知らんが、念のため気をつけろ。お前さんから奪うような金目の物はないだろうが、わざわざ痛い目に遭うこともないだろ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_level",
+          "phrase_id": "41",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_level_51#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1512,
+      "string_id": "escape_trader_talk_level_51",
+      "occurrence": 1,
+      "EN": "You're getting boring, you know that? It's just a farm like any other. The place used to thrive before democracy broke out.",
+      "JA_current": "退屈な質問だな、おい。どこにでもある、ただの農場さ。民主主義が押し寄せてくる前は、あそこも栄えてたんだがな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_level",
+          "phrase_id": "51",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "escape_trader_talk_level_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Tell me about this place.",
+      "JA_current": "この場所について教えてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_level_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "escape_trader_talk_level_1",
+      "next": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Huh! This is the entrance to the Zone, a sort of an antechamber. We've got an army cordon here. It's relatively quiet, with the exception of a couple of army guys who like to have some fun, go on shakedown runs. Experienced stalkers don't come by very often, so it's mostly rookies. Some settle here for good, yeah... A little ways from here there's a farm made into a rookie camp. Watch yourself though, they aren't afraid to pull the trigger when push comes to shove.\\n What else? You won't make huge profit here, that's for sure. There's a deserted factory across the road. To the North, behind the railroad embankment there are the ruins of a farm. An army outpost lies to the South of here. And beware: the military left some mines in the ground. Also, there used to be a bridge in the center, but it went down somehow. That's about it, really.",
+      "JA_current": "Huh! This is the entrance to the Zone, a sort of an antechamber. We've got an army cordon here. It's relatively quiet, with the exception of a couple of army guys who like to have some fun, go on shakedown runs. Experienced stalkers don't come by very often, so it's mostly rookies. Some settle here for good, yeah... A little ways from here there's a farm made into a rookie camp. Watch yourself though, they aren't afraid to pull the trigger when push comes to shove.\\n What else? You won't make huge profit here, that's for sure. There's a deserted factory across the road. To the North, behind the railroad embankment there are the ruins of a farm. An army outpost lies to the South of here. And beware: the military left some mines in the ground. Also, there used to be a bridge in the center, but it went down somehow. That's about it, really.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_level_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "escape_trader_talk_level_2",
+      "next": [
+        "21"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Tell me more about the army outpost.",
+      "JA_current": "軍の前哨について もっと話してくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_level_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "escape_trader_talk_level_3",
+      "next": [
+        "31"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "esc_bridge_soldiers"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I want to know more about the fallen bridge.",
+      "JA_current": "落ちた橋について、もっと知りたい。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_level_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "escape_trader_talk_level_4",
+      "next": [
+        "41"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Got some more info about the factory?",
+      "JA_current": "工場について、さらに情報を得たか？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_level_4#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "escape_trader_talk_level_5",
+      "next": [
+        "51"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Tell me about the farm.",
+      "JA_current": "農場について話してくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_level_5#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "escape_trader_talk_level_10",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21",
+        "31",
+        "41",
+        "51",
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "OK, thanks.",
+      "JA_current": "オーケー、ありがとう。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_level_10#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "escape_trader_talk_level_21",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "The few soldiers there have been ordered to shoot on sight, so you'd better walk around it and try not to show your ass. If you piss them off, they may call for the Spetsnaz from the further cordon. Those guys can brew up such shit that I won't have any customers for a month... I know the commander a little: he likes to take a swig as much as the next man. I'm surviving on here thanks to him.",
+      "JA_current": "そこの何人かの兵士どもは視界に入った者を撃つように命令されている。だからそいつらには近寄らないようにして、お前の尻を晒すような真似はやめとけ。もしあいつらを怒らせれば、スペツナズを呼んでくるかもしれん。そいつらはそういう糞どもをぶっ飛ばすのさ。そんなお客はここ1ヶ月見てないが… 俺は司令官について少しだけ知っている。奴は隣の人間をぶん殴るのが好きなくらい粗暴な奴だ。俺はあいつのおかげでここで生き残っているようなもんだがな。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_level_21#1"
+      ]
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "escape_trader_talk_level_31",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "That's just a couple of minutes North of here - you'll see it right away. There used to be a bridge over the road, but then it collapsed during one of the blowouts. The army guys built a checkpoint there and don't let anyone through... but if you grease the right palm, you'll pass with no problems. In general, you don't want to show your face there too much, unless you're badly wounded or got a heavy load on you.",
+      "JA_current": "あれはここから北へちょっと行った所にある、すぐに見えてくるだろう。そこはかつては道を渡す橋だったんだが、何度かあった騒ぎの間にぶっ壊れちまった。軍の野郎どもが検問所を作って誰も通そうとしねえ。でも、もしお前がこっそり賄賂でも渡せば、問題なく通れるだろうな。基本的にはひでえ怪我をしてるか、重い荷物でも背負っていないかぎりは、あんまりあそこには顔を出さないようにしておけ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_level_31#1"
+      ]
+    },
+    {
+      "phrase_id": "41",
+      "text_id": "escape_trader_talk_level_41",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Cross the road and you'll see a brick building - that's it. Everything worth stealing has already been stolen, just this one box is left. This is the bandits' favorite place. I don't know if they are there now, but watch out just in case. You got nothing valuable on you to take, but do you really wanna go through all that?",
+      "JA_current": "道を渡ればレンガ造りの建物が見えてくる。それが工場だ。金目の物はもう皆盗まれて、残ったのはこの箱だけだ。これが悪党どもの好きなやりかただ。アイツらがまだそこにいるのかはわからんが、もしもの時も考えて気をつけろよ。価値のある物なんて何もないだろうが、それでも本当に行きたいってのか？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_level_41#1"
+      ]
+    },
+    {
+      "phrase_id": "51",
+      "text_id": "escape_trader_talk_level_51",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "You're getting boring, you know that? It's just a farm like any other. The place used to thrive before democracy broke out.",
+      "JA_current": "退屈してきただろう、わかるか？ アレはどこにでもあるようなただの農場さ。あそこは民主主義が崩壊する前までは賑わっていた。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_level_51#1"
+      ]
+    }
+  ]
+}

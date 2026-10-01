@@ -1,0 +1,448 @@
+{
+  "packet_id": "dialog_0179__yuriy_iskateli_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "yuriy_iskateli_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "yuriy",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "yuri_goto_sahar"
+    },
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.iskatel_1_nayden"
+    },
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.iskatel_2_nayden"
+    },
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.iskatel_3_nayden"
+    },
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.iskatel_4_nayden"
+    },
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.iskatel_5_nayden"
+    },
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.iskatel_6_nayden"
+    },
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.iskatel_7_nayden"
+    },
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.iskatel_8_nayden"
+    },
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.iskatel_9_nayden"
+    },
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.iskatel_10_nayden"
+    },
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.iskatel_11_nayden"
+    },
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.iskatel_12_nayden"
+    },
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.iskatel_13_nayden"
+    },
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.iskatel_14_nayden"
+    },
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.iskatel_15_nayden"
+    },
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.iskatel_16_nayden"
+    },
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.iskatel_17_nayden"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 8,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:yuriy_iskateli_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2235,
+      "string_id": "yuriy_iskateli_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Yuri, I think I found your guys.",
+      "JA_current": "Yuri, I think I found your guys.",
+      "JA_new": "ユーリ、仲間を見つけたと思う。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_iskateli_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_iskateli_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2238,
+      "string_id": "yuriy_iskateli_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Really?! So where are they?",
+      "JA_current": "Really?! So where are they?",
+      "JA_new": "本当か！？ どこにいた？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_iskateli_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_iskateli_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2241,
+      "string_id": "yuriy_iskateli_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Unfortunately, they are all dead... Their bodies are scattered all over the Zone. I don't know who's responsible. When I searched the bodies, I found notes and diaries suggesting that someone called Captain ordered them to scatter in teams of two. Why he did this is unknown, no explanations given whatsoever.",
+      "JA_current": "Unfortunately, they are all dead... Their bodies are scattered all over the Zone. I don't know who's responsible. When I searched the bodies, I found notes and diaries suggesting that someone called Captain ordered them to scatter in teams of two. Why he did this is unknown, no explanations given whatsoever.",
+      "JA_new": "残念だが、全員死んでた……遺体はゾーンのあちこちに散らばってる。誰がやったのかは分からない。遺体を調べたら、メモや日記が見つかった。キャプテンという人物が、二人一組に分かれて行動するよう命じたらしい。理由は分からない。説明も一切なかった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_iskateli_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_iskateli_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2244,
+      "string_id": "yuriy_iskateli_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Eh, I guess that's fate... Deep down I knew how it would end, but I didn't believe it till now. Shit! All these decent men just gone! I don't know what to say. So what's with the Captain and his strange order?? I don't understand...",
+      "JA_current": "Eh, I guess that's fate... Deep down I knew how it would end, but I didn't believe it till now. Shit! All these decent men just gone! I don't know what to say. So what's with the Captain and his strange order?? I don't understand...",
+      "JA_new": "ああ……それが運命だったのか。心のどこかでは分かってたが、信じたくなかった。くそっ！ いい奴らが皆、いなくなっちまった……何と言えばいいか……。それで、キャプテンの妙な命令は何だったんだ？ 俺には分からない……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_iskateli_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_iskateli_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2247,
+      "string_id": "yuriy_iskateli_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Anything else I could do for your crew?",
+      "JA_current": "Anything else I could do for your crew?",
+      "JA_new": "ほかに仲間のためにできることはあるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_iskateli_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_iskateli_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2250,
+      "string_id": "yuriy_iskateli_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Look... You did a great job, and we'll pay you back, I promise. However, yes, there is a way for you to help us out a little more. Here's the thing, my guys out there, may they rest in peace, had a lone operator that acted as a runner and liaison. He was the man who would physically carry information from one group to another in case radio communications failed, he would do our recon, information gathering, you know the type. While not really a member of the expeditionary force itself, he would have remained in contact with it at all times in the lead up to whatever happened. We do not know if he's alive or dead, and he hasn't been seen since the expedition failed. Here's the interesting part, there's a story making the rounds about some guy hanging about the scientist camp at Yantar, dressed in an outfit that really resembles that of our man. It doesn't sound like much but it's the only thing I have.. Please, go there and find out if it's our contact or just a false lead. His name is Trofim. He's a short lad with short cropped hair, always wore a brown jacket with gray pants.",
+      "JA_current": "Look... You did a great job, and we'll pay you back, I promise. However, yes, there is a way for you to help us out a little more. Here's the thing, my guys out there, may they rest in peace, had a lone operator that acted as a runner and liaison. He was the man who would physically carry information from one group to another in case radio communications failed, he would do our recon, information gathering, you know the type. While not really a member of the expeditionary force itself, he would have remained in contact with it at all times in the lead up to whatever happened. We do not know if he's alive or dead, and he hasn't been seen since the expedition failed. Here's the interesting part, there's a story making the rounds about some guy hanging about the scientist camp at Yantar, dressed in an outfit that really resembles that of our man. It doesn't sound like much but it's the only thing I have.. Please, go there and find out if it's our contact or just a false lead. His name is Trofim. He's a short lad with short cropped hair, always wore a brown jacket with gray pants.",
+      "JA_new": "聞いてくれ……よくやってくれた。必ず報いるよ。だが、もう少し手を貸してもらう方法がある。亡くなった仲間には、単独行動の連絡役がいたんだ。無線が使えなくなった時、情報を自分で別の班に届ける役目でな。偵察や情報収集もしていた。遠征隊の正式な隊員ではなかったが、何かが起きる直前まで、常に連絡を取り合っていたはずだ。生きているか死んでいるかも分からない。遠征が失敗して以来、姿を見た者はいない。興味深い噂が一つあってな。ヤンターの科学者キャンプで、そいつに似た服を着た男が目撃されたらしい。大した手がかりじゃないが、俺が知ってるのはそれだけだ。頼む。そいつが連絡役なのか、ただの人違いなのか確かめてきてくれ。名前はトロフィム。背が低く、髪は短く刈り込んでいて、茶色のジャケットに灰色のズボンを着ていた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_iskateli_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_iskateli_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2253,
+      "string_id": "yuriy_iskateli_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "All right, I'll go take a look.",
+      "JA_current": "All right, I'll go take a look.",
+      "JA_new": "分かった。見に行ってくる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_iskateli_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_iskateli_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2256,
+      "string_id": "yuriy_iskateli_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "Good luck on your journey. Take this, too - it will come in handy:",
+      "JA_current": "Good luck on your journey. Take this, too - it will come in handy:",
+      "JA_new": "道中の無事を祈る。これも持っていけ。役に立つはずだ：",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_iskateli_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "yuriy_iskateli_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yuri, I think I found your guys.",
+      "JA_current": "Yuri, I think I found your guys.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_iskateli_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "yuriy_iskateli_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Really?! So where are they?",
+      "JA_current": "Really?! So where are they?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_iskateli_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "yuriy_iskateli_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "razgovor_s_yuriem"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Unfortunately, they are all dead... Their bodies are scattered all over the Zone. I don't know who's responsible. When I searched the bodies, I found notes and diaries suggesting that someone called Captain ordered them to scatter in teams of two. Why he did this is unknown, no explanations given whatsoever.",
+      "JA_current": "Unfortunately, they are all dead... Their bodies are scattered all over the Zone. I don't know who's responsible. When I searched the bodies, I found notes and diaries suggesting that someone called Captain ordered them to scatter in teams of two. Why he did this is unknown, no explanations given whatsoever.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_iskateli_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "yuriy_iskateli_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.sudba_takaya"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Eh, I guess that's fate... Deep down I knew how it would end, but I didn't believe it till now. Shit! All these decent men just gone! I don't know what to say. So what's with the Captain and his strange order?? I don't understand...",
+      "JA_current": "Eh, I guess that's fate... Deep down I knew how it would end, but I didn't believe it till now. Shit! All these decent men just gone! I don't know what to say. So what's with the Captain and his strange order?? I don't understand...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_iskateli_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "yuriy_iskateli_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Anything else I could do for your crew?",
+      "JA_current": "Anything else I could do for your crew?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_iskateli_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "yuriy_iskateli_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Look... You did a great job, and we'll pay you back, I promise. However, yes, there is a way for you to help us out a little more. Here's the thing, my guys out there, may they rest in peace, had a lone operator that acted as a runner and liaison. He was the man who would physically carry information from one group to another in case radio communications failed, he would do our recon, information gathering, you know the type. While not really a member of the expeditionary force itself, he would have remained in contact with it at all times in the lead up to whatever happened. We do not know if he's alive or dead, and he hasn't been seen since the expedition failed. Here's the interesting part, there's a story making the rounds about some guy hanging about the scientist camp at Yantar, dressed in an outfit that really resembles that of our man. It doesn't sound like much but it's the only thing I have.. Please, go there and find out if it's our contact or just a false lead. His name is Trofim. He's a short lad with short cropped hair, always wore a brown jacket with gray pants.",
+      "JA_current": "Look... You did a great job, and we'll pay you back, I promise. However, yes, there is a way for you to help us out a little more. Here's the thing, my guys out there, may they rest in peace, had a lone operator that acted as a runner and liaison. He was the man who would physically carry information from one group to another in case radio communications failed, he would do our recon, information gathering, you know the type. While not really a member of the expeditionary force itself, he would have remained in contact with it at all times in the lead up to whatever happened. We do not know if he's alive or dead, and he hasn't been seen since the expedition failed. Here's the interesting part, there's a story making the rounds about some guy hanging about the scientist camp at Yantar, dressed in an outfit that really resembles that of our man. It doesn't sound like much but it's the only thing I have.. Please, go there and find out if it's our contact or just a false lead. His name is Trofim. He's a short lad with short cropped hair, always wore a brown jacket with gray pants.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_iskateli_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "yuriy_iskateli_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "yuri_goto_sahar"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All right, I'll go take a look.",
+      "JA_current": "All right, I'll go take a look.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_iskateli_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "yuriy_iskateli_dialog_phrase_8",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.yuriy_nagrada_1"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Good luck on your journey. Take this, too - it will come in handy:",
+      "JA_current": "Good luck on your journey. Take this, too - it will come in handy:",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_iskateli_dialog_phrase_8#1"
+      ]
+    }
+  ]
+}

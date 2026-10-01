@@ -1,0 +1,573 @@
+{
+  "packet_id": "dialog_0048__companion_hire_dialog_zombied",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "companion_hire_dialog_zombied",
+  "graph_source": "gamedata/config/gameplay/dialogs.xml",
+  "graph_sha256": "87109fb1ac4d045582ddab436da3571319106a69b21b6c21a4451cbb5f3afbbf",
+  "character_bindings": [
+    {
+      "profile_id": "x16_zombsold",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_default1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_default2",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_default3",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_default4",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_default5",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_default6",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_default7",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_veteran_default1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_veteran_default2",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_veteran_default3",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_veteran_default4",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_veteran_default5",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_master_1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_dolg",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_fresh_Zombied_stalker_1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_fresh_Zombied_stalker_2",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_fresh_Zombied_stalker_3",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "dialogs.not_is_companion"
+    },
+    {
+      "type": "precondition",
+      "value": "dialogs.is_zombie_companion"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 10,
+  "entries": [
+    {
+      "key": "stable_dialogs:companion_hire_dialog_zombied_0#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 469,
+      "string_id": "companion_hire_dialog_zombied_0",
+      "occurrence": 1,
+      "EN": "Let' gooooo... kiiiillll... craaaash...",
+      "JA_current": "Let' gooooo... kiiiillll... craaaash...",
+      "JA_new": "いこう……ころす……つぶす……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_zombied",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_zombied_1#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 472,
+      "string_id": "companion_hire_dialog_zombied_1",
+      "occurrence": 1,
+      "EN": "Gooooo....",
+      "JA_current": "Gooooo....",
+      "JA_new": "いく……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_zombied",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_zombied_2#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 475,
+      "string_id": "companion_hire_dialog_zombied_2",
+      "occurrence": 1,
+      "EN": "Noooo... busyyyyy... ..uuuu...",
+      "JA_current": "Noooo... busyyyyy... ..uuuu...",
+      "JA_new": "だめ……いそがし……うう……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_zombied",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_zombied_3#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 478,
+      "string_id": "companion_hire_dialog_zombied_3",
+      "occurrence": 1,
+      "EN": "Noooo... Scaaar...yyyy...",
+      "JA_current": "Noooo... Scaaar...yyyy...",
+      "JA_new": "いや……こわい……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_zombied",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_zombied_4#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 481,
+      "string_id": "companion_hire_dialog_zombied_4",
+      "occurrence": 1,
+      "EN": "Uuuu... Goooo... you deeeaaath...",
+      "JA_current": "Uuuu... Goooo... you deeeaaath...",
+      "JA_new": "うう……いけ……おまえ、しぬ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_zombied",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_zombied_5#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 484,
+      "string_id": "companion_hire_dialog_zombied_5",
+      "occurrence": 1,
+      "EN": "Noooo... Sleeep... Tiiired...",
+      "JA_current": "Noooo... Sleeep... Tiiired...",
+      "JA_new": "いや……ねむい……つかれた……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_zombied",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_zombied_6#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 487,
+      "string_id": "companion_hire_dialog_zombied_6",
+      "occurrence": 1,
+      "EN": "Nooo, weeeaaak.",
+      "JA_current": "Nooo, weeeaaak.",
+      "JA_new": "よわい……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_zombied",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_zombied_7#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 490,
+      "string_id": "companion_hire_dialog_zombied_7",
+      "occurrence": 1,
+      "EN": "Scaaary... nooo...",
+      "JA_current": "Scaaary... nooo...",
+      "JA_new": "こわい……いや……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_zombied",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_zombied_8#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 493,
+      "string_id": "companion_hire_dialog_zombied_8",
+      "occurrence": 1,
+      "EN": "Luuut... luuut... nooo",
+      "JA_current": "Luuut... luuut... nooo",
+      "JA_new": "おたから……おたから……いや……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_zombied",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_zombied_9#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 496,
+      "string_id": "companion_hire_dialog_zombied_9",
+      "occurrence": 1,
+      "EN": "Gooooo... youu baaaad...",
+      "JA_current": "Gooooo... youu baaaad...",
+      "JA_new": "いけ……おまえ、わるい……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_zombied",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "companion_hire_dialog_zombied_0",
+      "next": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Let' gooooo... kiiiillll... craaaash...",
+      "JA_current": "Let' gooooo... kiiiillll... craaaash...",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_zombied_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "companion_hire_dialog_zombied_1",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_will_follow"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_start_following"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Gooooo....",
+      "JA_current": "Gooooo....",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_zombied_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "companion_hire_dialog_zombied_2",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Noooo... busyyyyy... ..uuuu...",
+      "JA_current": "Noooo... busyyyyy... ..uuuu...",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_zombied_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "companion_hire_dialog_zombied_3",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_bad"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Noooo... Scaaar...yyyy...",
+      "JA_current": "Noooo... Scaaar...yyyy...",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_zombied_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "companion_hire_dialog_zombied_4",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_deadly"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Uuuu... Goooo... you deeeaaath...",
+      "JA_current": "Uuuu... Goooo... you deeeaaath...",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_zombied_4#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "companion_hire_dialog_zombied_5",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_tired"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Noooo... Sleeep... Tiiired...",
+      "JA_current": "Noooo... Sleeep... Tiiired...",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_zombied_5#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "companion_hire_dialog_zombied_6",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_lowrank"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Nooo, weeeaaak.",
+      "JA_current": "Nooo, weeeaaak.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_zombied_6#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "companion_hire_dialog_zombied_7",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_highrank"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Scaaary... nooo...",
+      "JA_current": "Scaaary... nooo...",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_zombied_7#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "companion_hire_dialog_zombied_8",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_toomuch"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Luuut... luuut... nooo",
+      "JA_current": "Luuut... luuut... nooo",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_zombied_8#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "companion_hire_dialog_zombied_9",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_other_community"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Gooooo... youu baaaad...",
+      "JA_current": "Gooooo... youu baaaad...",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_zombied_9#1"
+      ]
+    }
+  ]
+}

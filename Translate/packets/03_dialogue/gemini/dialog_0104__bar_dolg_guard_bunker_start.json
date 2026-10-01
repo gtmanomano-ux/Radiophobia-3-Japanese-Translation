@@ -1,0 +1,230 @@
+{
+  "packet_id": "dialog_0104__bar_dolg_guard_bunker_start",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_dolg_guard_bunker_start",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [],
+  "dialog_conditions": [],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 3,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_dolg_guard_bunker_start_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1280,
+      "string_id": "bar_dolg_guard_bunker_start_11",
+      "occurrence": 1,
+      "EN": "Halt! Only members can go in there! We can't let you inside the bunker without a special pass. If you want to get one go see Colonel Petrenko. He's in the administration area across the yard.",
+      "JA_current": "止まれ！ ここから先は隊員専用だ！ 特別通行証がなければバンカー内へ通すわけにはいかん。欲しいならペトレンコ大佐のところへ行け。中庭を抜けた先の管理区画にいる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_guard_bunker_start",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_guard_bunker_start_21#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1283,
+      "string_id": "bar_dolg_guard_bunker_start_21",
+      "occurrence": 1,
+      "EN": "What are you standing there for? Keep moving.",
+      "JA_current": "何を突っ立っている？ さっさと歩け。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_guard_bunker_start",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_guard_bunker_start_31#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1286,
+      "string_id": "bar_dolg_guard_bunker_start_31",
+      "occurrence": 1,
+      "EN": "Go on. Remember: Duty's mission is to cleanse.",
+      "JA_current": "通れ。忘れるな、デューティーの使命はゾーンの浄化だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_guard_bunker_start",
+          "phrase_id": "31",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": null,
+      "next": [
+        "1",
+        "2",
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1",
+      "text_id": null,
+      "next": [
+        "11"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_dolg_community_leader"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "2",
+      "text_id": null,
+      "next": [
+        "21"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_dolg_community_leader_done"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_dolg_community_leader"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "3",
+      "text_id": null,
+      "next": [
+        "31"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "bar_dolg_community_leader_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "bar_dolg_guard_bunker_start_11",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Halt! Only members can go in there! We can't let you inside the bunker without a special pass. If you want to get one go see Colonel Petrenko. He's in the administration area across the yard.",
+      "JA_current": "待て！ ここはメンバー以外 立ち入り禁止だ！ 特別通行証なしでバンカーの中に入れるわけにはいかない。それが欲しかったら Petrenko 大佐に会いに行け。彼は中庭を横切った向こう、管理エリアにいる。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_guard_bunker_start_11#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "bar_dolg_guard_bunker_start_21",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "What are you standing there for? Keep moving.",
+      "JA_current": "何をこんな所で突っ立ってるんだ？ 止まるんじゃない。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_guard_bunker_start_21#1"
+      ]
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "bar_dolg_guard_bunker_start_31",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Go on. Remember: Duty's mission is to cleanse.",
+      "JA_current": "続けてくれ。Duty のミッションは粛清だということを忘れるなよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_guard_bunker_start_31#1"
+      ]
+    }
+  ]
+}

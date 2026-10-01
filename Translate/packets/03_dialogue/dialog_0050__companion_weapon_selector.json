@@ -1,0 +1,815 @@
+{
+  "packet_id": "dialog_0050__companion_weapon_selector",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "companion_weapon_selector",
+  "graph_source": "gamedata/config/gameplay/dialogs.xml",
+  "graph_sha256": "87109fb1ac4d045582ddab436da3571319106a69b21b6c21a4451cbb5f3afbbf",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "dialogs.is_companion"
+    },
+    {
+      "type": "precondition",
+      "value": "xr_companion.no_best_enemy"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 16,
+  "entries": [
+    {
+      "key": "stable_dialogs:companion_management_dialog_weapon_root#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 565,
+      "string_id": "companion_management_dialog_weapon_root",
+      "occurrence": 1,
+      "EN": "By the way, about your weapon...",
+      "JA_current": "By the way, about your weapon...",
+      "JA_new": "そういえば、武器のことなんだが……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_weapon_selector",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_weapon_what#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 568,
+      "string_id": "companion_management_dialog_weapon_what",
+      "occurrence": 1,
+      "EN": "Yes?",
+      "JA_current": "Yes?",
+      "JA_new": "何だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_weapon_selector",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_weapon_use_anything#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 571,
+      "string_id": "companion_management_dialog_weapon_use_anything",
+      "occurrence": 1,
+      "EN": "Use whatever you have.",
+      "JA_current": "Use whatever you have.",
+      "JA_new": "手持ちの武器を使え。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_weapon_selector",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_weapon_use_pistol#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 574,
+      "string_id": "companion_management_dialog_weapon_use_pistol",
+      "occurrence": 1,
+      "EN": "Use a pistol.",
+      "JA_current": "Use a pistol.",
+      "JA_new": "ピストルを使え。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_weapon_selector",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_weapon_use_submashinegun#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 577,
+      "string_id": "companion_management_dialog_weapon_use_submashinegun",
+      "occurrence": 1,
+      "EN": "Use a submachine gun.",
+      "JA_current": "Use a submachine gun.",
+      "JA_new": "サブマシンガンを使え。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_weapon_selector",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_weapon_use_shotgun#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 580,
+      "string_id": "companion_management_dialog_weapon_use_shotgun",
+      "occurrence": 1,
+      "EN": "Use a shotgun.",
+      "JA_current": "Use a shotgun.",
+      "JA_new": "ショットガンを使え。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_weapon_selector",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_weapon_use_assault_shotgun#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 583,
+      "string_id": "companion_management_dialog_weapon_use_assault_shotgun",
+      "occurrence": 1,
+      "EN": "Use an assault shotgun.",
+      "JA_current": "Use an assault shotgun.",
+      "JA_new": "アサルトショットガンを使え。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_weapon_selector",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_weapon_use_carbine#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 586,
+      "string_id": "companion_management_dialog_weapon_use_carbine",
+      "occurrence": 1,
+      "EN": "Use a carbine.",
+      "JA_current": "Use a carbine.",
+      "JA_new": "カービン銃を使え。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_weapon_selector",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_weapon_use_assault_rifle#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 589,
+      "string_id": "companion_management_dialog_weapon_use_assault_rifle",
+      "occurrence": 1,
+      "EN": "Use an assault rifle.",
+      "JA_current": "Use an assault rifle.",
+      "JA_new": "アサルトライフルを使え。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_weapon_selector",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_weapon_use_sniper_rifle#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 592,
+      "string_id": "companion_management_dialog_weapon_use_sniper_rifle",
+      "occurrence": 1,
+      "EN": "Use a sniper rifle.",
+      "JA_current": "Use a sniper rifle.",
+      "JA_new": "スナイパーライフルを使え。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_weapon_selector",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_weapon_use_mashinegun#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 595,
+      "string_id": "companion_management_dialog_weapon_use_mashinegun",
+      "occurrence": 1,
+      "EN": "Use a machinegun.",
+      "JA_current": "Use a machinegun.",
+      "JA_new": "機関銃を使え。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_weapon_selector",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_weapon_use_grenade_launcher#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 598,
+      "string_id": "companion_management_dialog_weapon_use_grenade_launcher",
+      "occurrence": 1,
+      "EN": "Use a grenade launcher.",
+      "JA_current": "Use a grenade launcher.",
+      "JA_new": "グレネードランチャーを使え。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_weapon_selector",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_weapon_use_flamethrower#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 601,
+      "string_id": "companion_management_dialog_weapon_use_flamethrower",
+      "occurrence": 1,
+      "EN": "Use a flamethrower.",
+      "JA_current": "Use a flamethrower.",
+      "JA_new": "火炎放射器を使え。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_weapon_selector",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_weapon_its_a_threeheaded_monkey#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 607,
+      "string_id": "companion_management_dialog_weapon_its_a_threeheaded_monkey",
+      "occurrence": 1,
+      "EN": "Hey, there's three-headed monkey behind your back!",
+      "JA_current": "Hey, there's three-headed monkey behind your back!",
+      "JA_new": "おい、後ろに三つ首の猿がいるぞ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_weapon_selector",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_weapon_allright#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 604,
+      "string_id": "companion_management_dialog_weapon_allright",
+      "occurrence": 1,
+      "EN": "All right.",
+      "JA_current": "All right.",
+      "JA_new": "分かった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_weapon_selector",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_weapon_omg_its_a_lion#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 610,
+      "string_id": "companion_management_dialog_weapon_omg_its_a_lion",
+      "occurrence": 1,
+      "EN": "Where? Ha-ha, funny.",
+      "JA_current": "Where? Ha-ha, funny.",
+      "JA_new": "どこだ？ はは、冗談きついな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_weapon_selector",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "companion_management_dialog_weapon_root",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "xr_companion.search_for_weapons"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "By the way, about your weapon...",
+      "JA_current": "By the way, about your weapon...",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_weapon_root#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "companion_management_dialog_weapon_what",
+      "next": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Yes?",
+      "JA_current": "Yes?",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_weapon_what#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "companion_management_dialog_weapon_use_anything",
+      "next": [
+        "14"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "xr_companion.set_weapon_anyting"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Use whatever you have.",
+      "JA_current": "Use whatever you have.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_weapon_use_anything#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "companion_management_dialog_weapon_use_pistol",
+      "next": [
+        "14"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "xr_companion.has_pistol"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "xr_companion.set_weapon_pistol"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Use a pistol.",
+      "JA_current": "Use a pistol.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_weapon_use_pistol#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "companion_management_dialog_weapon_use_submashinegun",
+      "next": [
+        "14"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "xr_companion.has_submashinegun"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "xr_companion.set_weapon_submashinegun"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Use a submachine gun.",
+      "JA_current": "Use a submachine gun.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_weapon_use_submashinegun#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "companion_management_dialog_weapon_use_shotgun",
+      "next": [
+        "14"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "xr_companion.has_shotgun"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "xr_companion.set_weapon_shotgun"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Use a shotgun.",
+      "JA_current": "Use a shotgun.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_weapon_use_shotgun#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "companion_management_dialog_weapon_use_assault_shotgun",
+      "next": [
+        "14"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "xr_companion.has_assault_shotgun"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "xr_companion.set_weapon_assault_shotgun"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Use an assault shotgun.",
+      "JA_current": "Use an assault shotgun.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_weapon_use_assault_shotgun#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "companion_management_dialog_weapon_use_carbine",
+      "next": [
+        "14"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "xr_companion.has_carbine"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "xr_companion.set_weapon_carbine"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Use a carbine.",
+      "JA_current": "Use a carbine.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_weapon_use_carbine#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "companion_management_dialog_weapon_use_assault_rifle",
+      "next": [
+        "14"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "xr_companion.has_assault_rifle"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "xr_companion.set_weapon_assault_rifle"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Use an assault rifle.",
+      "JA_current": "Use an assault rifle.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_weapon_use_assault_rifle#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "companion_management_dialog_weapon_use_sniper_rifle",
+      "next": [
+        "14"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "xr_companion.has_sniper_rifle"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "xr_companion.set_weapon_sniper_rifle"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Use a sniper rifle.",
+      "JA_current": "Use a sniper rifle.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_weapon_use_sniper_rifle#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "companion_management_dialog_weapon_use_mashinegun",
+      "next": [
+        "14"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "xr_companion.has_mashinegun"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "xr_companion.set_weapon_mashinegun"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Use a machinegun.",
+      "JA_current": "Use a machinegun.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_weapon_use_mashinegun#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "companion_management_dialog_weapon_use_grenade_launcher",
+      "next": [
+        "14"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "xr_companion.has_grenade_launcher"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "xr_companion.set_weapon_grenade_launcher"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Use a grenade launcher.",
+      "JA_current": "Use a grenade launcher.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_weapon_use_grenade_launcher#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "companion_management_dialog_weapon_use_flamethrower",
+      "next": [
+        "14"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "xr_companion.has_flamethrower"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "xr_companion.set_weapon_flamethrower"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Use a flamethrower.",
+      "JA_current": "Use a flamethrower.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_weapon_use_flamethrower#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "companion_management_dialog_weapon_its_a_threeheaded_monkey",
+      "next": [
+        "15"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Hey, there's three-headed monkey behind your back!",
+      "JA_current": "Hey, there's three-headed monkey behind your back!",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_weapon_its_a_threeheaded_monkey#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "companion_management_dialog_weapon_allright",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "All right.",
+      "JA_current": "All right.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_weapon_allright#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "companion_management_dialog_weapon_omg_its_a_lion",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Where? Ha-ha, funny.",
+      "JA_current": "Where? Ha-ha, funny.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_weapon_omg_its_a_lion#1"
+      ]
+    }
+  ]
+}

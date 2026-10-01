@@ -1,0 +1,608 @@
+{
+  "packet_id": "dialog_0108__bar_dolg_zastava_talk",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_dolg_zastava_talk",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_zastava_commander_1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 14,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zastava_talk_0#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1454,
+      "string_id": "bar_dolg_zastava_talk_0",
+      "occurrence": 1,
+      "EN": "I'd like to know something.",
+      "JA_current": "少し聞きたいことがあるんだが。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zastava_talk",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zastava_talk_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1457,
+      "string_id": "bar_dolg_zastava_talk_1",
+      "occurrence": 1,
+      "EN": "What do you want to know?",
+      "JA_current": "何が聞きたい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zastava_talk",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zastava_talk_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1460,
+      "string_id": "bar_dolg_zastava_talk_2",
+      "occurrence": 1,
+      "EN": "It's my first time here. Could you tell me a little about this place?",
+      "JA_current": "ここへ来るのは初めてなんだ。この場所について少し教えてくれないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zastava_talk",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zastava_talk_21#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1463,
+      "string_id": "bar_dolg_zastava_talk_21",
+      "occurrence": 1,
+      "EN": "Before the accident in '86 this was an industrial area. As you can see, there ain't much left of it now... In the basement by the hangar you'll find the 100 Rads bar. The place is run by the local trader who doubles up as a barman. If you want to trade, talk, get a mission or find out the latest news, that's the place to go. There's also the Arena where you can fight and make some cash. Duty's base is not far from the Arena. If you want to join Duty go straight over there - they'll tell you who to speak to. Oh, by the way, all of this area is protected by Duty so behave and keep your weapons holstered. If you start shooting, the patrol will \"calm you down\" pretty quickly.",
+      "JA_current": "86年の事故が起きる前、ここは工業地帯だった。見ての通り、今じゃ大したものは残っちゃいないがな……格納庫のそばの地下に『100レントゲン』というバーがある。地元の商人が店主を務めつつ、バーテンダーも兼ねているんだ。取引をしたい、雑談をしたい、仕事を探したい、最新の噂話を知りたい、そんな時はそこへ行けばいい。それから試合に出て賞金が稼げる『アリーナ』もある。デューティーの本拠地もアリーナから遠くない。デューティーに入隊したいなら真っ直ぐそこへ行け――誰に取り次げばいいか教えてくれるはずだ。ああ、言っておくが、この一帯はデューティーが警備している。武器はホルスターに収め、大人しく振る舞うんだな。発砲なんぞしてみろ、巡回兵があっという間に『大人しく』させてくれるぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zastava_talk",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zastava_talk_211#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1466,
+      "string_id": "bar_dolg_zastava_talk_211",
+      "occurrence": 1,
+      "EN": "You said there's a bar here. Can you tell me where exactly it is?",
+      "JA_current": "バーがあると言っていたな。正確にはどこにあるんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zastava_talk",
+          "phrase_id": "211",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zastava_talk_212#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1475,
+      "string_id": "bar_dolg_zastava_talk_212",
+      "occurrence": 1,
+      "EN": "You said the Duty base is here. How do I get to it?",
+      "JA_current": "デューティー基地があると言っていたな。どう行けばいい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zastava_talk",
+          "phrase_id": "212",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zastava_talk_213#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1484,
+      "string_id": "bar_dolg_zastava_talk_213",
+      "occurrence": 1,
+      "EN": "You said there's an Arena here? Where exactly is it?",
+      "JA_current": "アリーナがあると言っていたな。正確にはどこなんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zastava_talk",
+          "phrase_id": "213",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zastava_talk_214#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1493,
+      "string_id": "bar_dolg_zastava_talk_214",
+      "occurrence": 1,
+      "EN": "Thanks for the information.",
+      "JA_current": "教えてくれてありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zastava_talk",
+          "phrase_id": "214",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zastava_talk_2111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1469,
+      "string_id": "bar_dolg_zastava_talk_2111",
+      "occurrence": 1,
+      "EN": "In the basement behind the hangar...I'll mark it on your map.",
+      "JA_current": "格納庫の裏手にある地下だ……お前の地図に印をつけておいてやる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zastava_talk",
+          "phrase_id": "2111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zastava_talk_2121#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1478,
+      "string_id": "bar_dolg_zastava_talk_2121",
+      "occurrence": 1,
+      "EN": "It's not far from the Arena. I've marked it on the map for you.",
+      "JA_current": "アリーナからそう遠くない。お前の地図に印をつけておいたぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zastava_talk",
+          "phrase_id": "2121",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zastava_talk_2131#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1487,
+      "string_id": "bar_dolg_zastava_talk_2131",
+      "occurrence": 1,
+      "EN": "Go out of the hangar with the broken roof and you'll end up right in front of it. I'll mark it on your map.",
+      "JA_current": "屋根の崩れた格納庫を出ればすぐ目の前だ。お前の地図に印をつけておいてやる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zastava_talk",
+          "phrase_id": "2131",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zastava_talk_21111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1472,
+      "string_id": "bar_dolg_zastava_talk_21111",
+      "occurrence": 1,
+      "EN": "Thanks for the information.",
+      "JA_current": "教えてくれてありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zastava_talk",
+          "phrase_id": "21111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zastava_talk_21211#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1481,
+      "string_id": "bar_dolg_zastava_talk_21211",
+      "occurrence": 1,
+      "EN": "Thanks for the information.",
+      "JA_current": "教えてくれてありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zastava_talk",
+          "phrase_id": "21211",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zastava_talk_21311#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1490,
+      "string_id": "bar_dolg_zastava_talk_21311",
+      "occurrence": 1,
+      "EN": "Thanks for the information.",
+      "JA_current": "教えてくれてありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zastava_talk",
+          "phrase_id": "21311",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bar_dolg_zastava_talk_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'd like to know something.",
+      "JA_current": "いくつか知りたいことがあるんだが。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zastava_talk_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "bar_dolg_zastava_talk_1",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What do you want to know?",
+      "JA_current": "何が知りたいんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zastava_talk_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "bar_dolg_zastava_talk_2",
+      "next": [
+        "21"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It's my first time here. Could you tell me a little about this place?",
+      "JA_current": "ここは初めてなんだ。この場所について、2つ3つ教えてくれないか？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zastava_talk_2#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "bar_dolg_zastava_talk_21",
+      "next": [
+        "211",
+        "212",
+        "213",
+        "214"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21111",
+        "21211",
+        "21311",
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Before the accident in '86 this was an industrial area. As you can see, there ain't much left of it now... In the basement by the hangar you'll find the 100 Rads bar. The place is run by the local trader who doubles up as a barman. If you want to trade, talk, get a mission or find out the latest news, that's the place to go. There's also the Arena where you can fight and make some cash. Duty's base is not far from the Arena. If you want to join Duty go straight over there - they'll tell you who to speak to. Oh, by the way, all of this area is protected by Duty so behave and keep your weapons holstered. If you start shooting, the patrol will \"calm you down\" pretty quickly.",
+      "JA_current": "'86年の事故以前は工業地域だった。見ての通り、今やその多くは残っていない… 格納庫そばの地下に、100 Rads というバーを見つけるだろう。そこは、バーテンを兼ねた地元のトレーダーが経営している。トレードしたい、話したい、任務が欲しい、最新ニュースが知りたい、そんなときには、そこへ行くといい。決闘することで、いくらかの現金が稼げる場所、アリーナもある。Duty の基地はアリーナから遠くはない。Duty に参加したかったら、まっすぐそこへ行け ― 誰に話をつければいいか、教えてくれるだろう。おっと、ところで、この地域全体は Duty によって守られている。だから、行儀よく武器は仕舞っておけ。撃ったりしたら、とたんに警備が、「お前を黙らせる」ことになる。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zastava_talk_21#1"
+      ]
+    },
+    {
+      "phrase_id": "211",
+      "text_id": "bar_dolg_zastava_talk_211",
+      "next": [
+        "2111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.locate_bar_bar"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "21"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You said there's a bar here. Can you tell me where exactly it is?",
+      "JA_current": "アンタはこの辺りにバーがあるといってたな。詳しい場所を教えてくれないか？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zastava_talk_211#1"
+      ]
+    },
+    {
+      "phrase_id": "212",
+      "text_id": "bar_dolg_zastava_talk_212",
+      "next": [
+        "2121"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.locate_bar_dolg"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "21"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You said the Duty base is here. How do I get to it?",
+      "JA_current": "アンタはこの辺りに Duty の基地があると言っていたな。どうやって行けばいい？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zastava_talk_212#1"
+      ]
+    },
+    {
+      "phrase_id": "213",
+      "text_id": "bar_dolg_zastava_talk_213",
+      "next": [
+        "2131"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.locate_bar_arena"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "21"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You said there's an Arena here? Where exactly is it?",
+      "JA_current": "アンタはこの辺りにアリーナがあると言っていたな。詳しい場所はどこだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zastava_talk_213#1"
+      ]
+    },
+    {
+      "phrase_id": "214",
+      "text_id": "bar_dolg_zastava_talk_214",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thanks for the information.",
+      "JA_current": "情報をありがとう。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zastava_talk_214#1"
+      ]
+    },
+    {
+      "phrase_id": "2111",
+      "text_id": "bar_dolg_zastava_talk_2111",
+      "next": [
+        "21111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "211"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "In the basement behind the hangar...I'll mark it on your map.",
+      "JA_current": "納屋の後ろ側の地下だ… アンタの地図に印をつけておいたぜ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zastava_talk_2111#1"
+      ]
+    },
+    {
+      "phrase_id": "2121",
+      "text_id": "bar_dolg_zastava_talk_2121",
+      "next": [
+        "21211"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "212"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It's not far from the Arena. I've marked it on the map for you.",
+      "JA_current": "アリーナの近くさ。アンタの地図に印をつけておいたぜ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zastava_talk_2121#1"
+      ]
+    },
+    {
+      "phrase_id": "2131",
+      "text_id": "bar_dolg_zastava_talk_2131",
+      "next": [
+        "21311"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "213"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Go out of the hangar with the broken roof and you'll end up right in front of it. I'll mark it on your map.",
+      "JA_current": "屋根の壊れた格納庫の外へ出るんだ。そうすりゃ、アリーナの真正面に着くはずだ。アンタの地図に印をつけといてやるよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zastava_talk_2131#1"
+      ]
+    },
+    {
+      "phrase_id": "21111",
+      "text_id": "bar_dolg_zastava_talk_21111",
+      "next": [
+        "21"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thanks for the information.",
+      "JA_current": "情報をありがとう。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zastava_talk_21111#1"
+      ]
+    },
+    {
+      "phrase_id": "21211",
+      "text_id": "bar_dolg_zastava_talk_21211",
+      "next": [
+        "21"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2121"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thanks for the information.",
+      "JA_current": "情報をありがとう。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zastava_talk_21211#1"
+      ]
+    },
+    {
+      "phrase_id": "21311",
+      "text_id": "bar_dolg_zastava_talk_21311",
+      "next": [
+        "21"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2131"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thanks for the information.",
+      "JA_current": "情報をありがとう。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zastava_talk_21311#1"
+      ]
+    }
+  ]
+}

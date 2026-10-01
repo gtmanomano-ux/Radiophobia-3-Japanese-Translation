@@ -1,0 +1,558 @@
+{
+  "packet_id": "dialog_0300__esc_dinamit_to_volk_another_end",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "esc_dinamit_to_volk_another_end",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "esc_wolf",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "PMA_escape.have_esc_dynamite"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "esc_dinamit_pma_start"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "esc_dinamit_pma_done"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "esc_dinamit_pma_reward"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 12,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:esc_dinamit_to_volk_another_end_0#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1909,
+      "string_id": "esc_dinamit_to_volk_another_end_0",
+      "occurrence": 1,
+      "EN": "Wolf, are you interested in a dynamite crate?",
+      "JA_current": "ウルフ、ダイナマイトの木箱に興味はないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "esc_dinamit_to_volk_another_end",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:esc_dinamit_to_volk_another_end_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1912,
+      "string_id": "esc_dinamit_to_volk_another_end_1",
+      "occurrence": 1,
+      "EN": "A dynamite crate?! Were did you happen to find it?",
+      "JA_current": "ダイナマイトの木箱だと！？ 一体どこで見つけたんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "esc_dinamit_to_volk_another_end",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:esc_dinamit_to_volk_another_end_11#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1915,
+      "string_id": "esc_dinamit_to_volk_another_end_11",
+      "occurrence": 1,
+      "EN": "It doesn't matter - no more dynamite crates there anyway. Make it fast: are you interested or aren't you?",
+      "JA_current": "どこにあったかは関係ない、もう残っちゃいないしな。手短に頼む。いるのか、いらないのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "esc_dinamit_to_volk_another_end",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:esc_dinamit_to_volk_another_end_111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1918,
+      "string_id": "esc_dinamit_to_volk_another_end_111",
+      "occurrence": 1,
+      "EN": "How much do you charge?",
+      "JA_current": "いくらで譲る気だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "esc_dinamit_to_volk_another_end",
+          "phrase_id": "111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:esc_dinamit_to_volk_another_end_1111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1921,
+      "string_id": "esc_dinamit_to_volk_another_end_1111",
+      "occurrence": 1,
+      "EN": "1'000 and the crate is yours.",
+      "JA_current": "1,000ルーブルで木箱ごとくれてやる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "esc_dinamit_to_volk_another_end",
+          "phrase_id": "1111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:esc_dinamit_to_volk_another_end_1112#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1936,
+      "string_id": "esc_dinamit_to_volk_another_end_1112",
+      "occurrence": 1,
+      "EN": "500? That's ok for me.",
+      "JA_current": "500ルーブルでどうだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "esc_dinamit_to_volk_another_end",
+          "phrase_id": "1112",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:esc_dinamit_to_volk_another_end_11111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1924,
+      "string_id": "esc_dinamit_to_volk_another_end_11111",
+      "occurrence": 1,
+      "EN": "Look, man, aren't you charging a little too much? Be reasonable and think it over. What's more profitable for me: to pay you a \"grand\" and buy the dynamite, or just waste you right now and acquire the crate for the price of a single cartridge?",
+      "JA_current": "おいおい、いくらなんでもふっかけすぎじゃないか？ よく考えてみろ。1,000ルーブル払って買い取るのと、弾を一発撃ち込んでタダ同然で奪うのと、どっちが安上がりだと思う？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "esc_dinamit_to_volk_another_end",
+          "phrase_id": "11111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:esc_dinamit_to_volk_another_end_11121#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1939,
+      "string_id": "esc_dinamit_to_volk_another_end_11121",
+      "occurrence": 1,
+      "EN": "Deal. Here's your money and give me my dynamite.",
+      "JA_current": "商談成立だ。ほら金だ、ダイナマイトを受け取るぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "esc_dinamit_to_volk_another_end",
+          "phrase_id": "11121",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:esc_dinamit_to_volk_another_end_111111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1927,
+      "string_id": "esc_dinamit_to_volk_another_end_111111",
+      "occurrence": 1,
+      "EN": "The second method is more profitable, I guess.",
+      "JA_current": "後者のほうが安上がりだろうな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "esc_dinamit_to_volk_another_end",
+          "phrase_id": "111111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:esc_dinamit_to_volk_another_end_111211#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1942,
+      "string_id": "esc_dinamit_to_volk_another_end_111211",
+      "occurrence": 1,
+      "EN": "It was a pleasure to do business with you. See you!",
+      "JA_current": "毎度あり。じゃあな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "esc_dinamit_to_volk_another_end",
+          "phrase_id": "111211",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:esc_dinamit_to_volk_another_end_1111111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1930,
+      "string_id": "esc_dinamit_to_volk_another_end_1111111",
+      "occurrence": 1,
+      "EN": "That's right! And that's how I think, too. So, let me give you 500 and you hand over the explosives, I think that deal will end up better for you in the long run.",
+      "JA_current": "だろ？ 俺もそう思うのさ。だから500ルーブル払う、爆薬を渡せ。長い目で見りゃお前にとっても得な話だろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "esc_dinamit_to_volk_another_end",
+          "phrase_id": "1111111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:esc_dinamit_to_volk_another_end_11111111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1933,
+      "string_id": "esc_dinamit_to_volk_another_end_11111111",
+      "occurrence": 1,
+      "EN": "Ok, deal then.",
+      "JA_current": "分かった、それで手を打とう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "esc_dinamit_to_volk_another_end",
+          "phrase_id": "11111111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "esc_dinamit_to_volk_another_end_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Wolf, are you interested in a dynamite crate?",
+      "JA_current": "Wolf, are you interested in a dynamite crate?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_dinamit_to_volk_another_end_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "esc_dinamit_to_volk_another_end_1",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A dynamite crate?! Were did you happen to find it?",
+      "JA_current": "A dynamite crate?! Were did you happen to find it?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_dinamit_to_volk_another_end_1#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "esc_dinamit_to_volk_another_end_11",
+      "next": [
+        "111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It doesn't matter - no more dynamite crates there anyway. Make it fast: are you interested or aren't you?",
+      "JA_current": "It doesn't matter - no more dynamite crates there anyway. Make it fast: are you interested or aren't you?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_dinamit_to_volk_another_end_11#1"
+      ]
+    },
+    {
+      "phrase_id": "111",
+      "text_id": "esc_dinamit_to_volk_another_end_111",
+      "next": [
+        "1111",
+        "1112"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "How much do you charge?",
+      "JA_current": "How much do you charge?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_dinamit_to_volk_another_end_111#1"
+      ]
+    },
+    {
+      "phrase_id": "1111",
+      "text_id": "esc_dinamit_to_volk_another_end_1111",
+      "next": [
+        "11111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "1'000 and the crate is yours.",
+      "JA_current": "1'000 and the crate is yours.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_dinamit_to_volk_another_end_1111#1"
+      ]
+    },
+    {
+      "phrase_id": "1112",
+      "text_id": "esc_dinamit_to_volk_another_end_1112",
+      "next": [
+        "11121"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "PMA_escape.give_esc_dynamite"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "500? That's ok for me.",
+      "JA_current": "500? That's ok for me.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_dinamit_to_volk_another_end_1112#1"
+      ]
+    },
+    {
+      "phrase_id": "11111",
+      "text_id": "esc_dinamit_to_volk_another_end_11111",
+      "next": [
+        "111111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Look, man, aren't you charging a little too much? Be reasonable and think it over. What's more profitable for me: to pay you a \"grand\" and buy the dynamite, or just waste you right now and acquire the crate for the price of a single cartridge?",
+      "JA_current": "Look, man, aren't you charging a little too much? Be reasonable and think it over. What's more profitable for me: to pay you a \"grand\" and buy the dynamite, or just waste you right now and acquire the crate for the price of a single cartridge?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_dinamit_to_volk_another_end_11111#1"
+      ]
+    },
+    {
+      "phrase_id": "11121",
+      "text_id": "esc_dinamit_to_volk_another_end_11121",
+      "next": [
+        "111211"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "PMA_escape.give_esc_dynamite_another_reward"
+        },
+        {
+          "type": "give_info",
+          "value": "esc_dinamit_pma_reward"
+        },
+        {
+          "type": "give_info",
+          "value": "esc_dinamit_pma_done"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1112"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Deal. Here's your money and give me my dynamite.",
+      "JA_current": "Deal. Here's your money and give me my dynamite.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_dinamit_to_volk_another_end_11121#1"
+      ]
+    },
+    {
+      "phrase_id": "111111",
+      "text_id": "esc_dinamit_to_volk_another_end_111111",
+      "next": [
+        "1111111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The second method is more profitable, I guess.",
+      "JA_current": "The second method is more profitable, I guess.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_dinamit_to_volk_another_end_111111#1"
+      ]
+    },
+    {
+      "phrase_id": "111211",
+      "text_id": "esc_dinamit_to_volk_another_end_111211",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11121"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It was a pleasure to do business with you. See you!",
+      "JA_current": "It was a pleasure to do business with you. See you!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_dinamit_to_volk_another_end_111211#1"
+      ]
+    },
+    {
+      "phrase_id": "1111111",
+      "text_id": "esc_dinamit_to_volk_another_end_1111111",
+      "next": [
+        "11111111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "111111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "That's right! And that's how I think, too. So, let me give you 500 and you hand over the explosives, I think that deal will end up better for you in the long run.",
+      "JA_current": "That's right! And that's how I think, too. So, let me give you 500 and you hand over the explosives, I think that deal will end up better for you in the long run.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_dinamit_to_volk_another_end_1111111#1"
+      ]
+    },
+    {
+      "phrase_id": "11111111",
+      "text_id": "esc_dinamit_to_volk_another_end_11111111",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "esc_dinamit_pma_reward"
+        },
+        {
+          "type": "give_info",
+          "value": "esc_dinamit_pma_done"
+        },
+        {
+          "type": "action",
+          "value": "PMA_escape.give_esc_dynamite"
+        },
+        {
+          "type": "action",
+          "value": "PMA_escape.give_esc_dynamite_another_reward"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1111111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Ok, deal then.",
+      "JA_current": "Ok, deal then.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_dinamit_to_volk_another_end_11111111#1"
+      ]
+    }
+  ]
+}

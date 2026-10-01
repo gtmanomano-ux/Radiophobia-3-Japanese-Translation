@@ -1,0 +1,482 @@
+{
+  "packet_id": "dialog_0042__companion_hire_dialog_freedom",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "companion_hire_dialog_freedom",
+  "graph_source": "gamedata/config/gameplay/dialogs.xml",
+  "graph_sha256": "87109fb1ac4d045582ddab436da3571319106a69b21b6c21a4451cbb5f3afbbf",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "dialogs.not_is_companion"
+    },
+    {
+      "type": "precondition",
+      "value": "dialogs.is_freedom_companion"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 10,
+  "entries": [
+    {
+      "key": "stable_dialogs:companion_hire_dialog_freedom_0#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 261,
+      "string_id": "companion_hire_dialog_freedom_0",
+      "occurrence": 1,
+      "EN": "Hey, man, wanna hang with me? Let's party!!!",
+      "JA_current": "Hey, man, wanna hang with me? Let's party!!!",
+      "JA_new": "なあ、一緒に遊ばないか？ パーッとやろうぜ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_freedom",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_freedom_1#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 264,
+      "string_id": "companion_hire_dialog_freedom_1",
+      "occurrence": 1,
+      "EN": "Yeah, let's hang together, I'm in.",
+      "JA_current": "Yeah, let's hang together, I'm in.",
+      "JA_new": "いいね、つるもうぜ。乗った！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_freedom",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_freedom_2#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 267,
+      "string_id": "companion_hire_dialog_freedom_2",
+      "occurrence": 1,
+      "EN": "No, dude, got my own business.",
+      "JA_current": "No, dude, got my own business.",
+      "JA_new": "悪いな、こっちにも用がある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_freedom",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_freedom_3#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 270,
+      "string_id": "companion_hire_dialog_freedom_3",
+      "occurrence": 1,
+      "EN": "Ya kidding?! You're no good, Marked One.",
+      "JA_current": "Ya kidding?! You're no good, Marked One.",
+      "JA_new": "冗談だろ？ あんたとじゃ無理だよ、マークド・ワン。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_freedom",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_freedom_4#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 273,
+      "string_id": "companion_hire_dialog_freedom_4",
+      "occurrence": 1,
+      "EN": "Get lost, man, there were plenty of dudes with you. I didn't see a one since then.",
+      "JA_current": "Get lost, man, there were plenty of dudes with you. I didn't see a one since then.",
+      "JA_new": "あっち行けよ。大勢連れてったくせに、そのあと誰も見かけなかったぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_freedom",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_freedom_5#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 276,
+      "string_id": "companion_hire_dialog_freedom_5",
+      "occurrence": 1,
+      "EN": "Sorry, I can't. Tired to wander around, need to rest, smoke some weed and relax. Got any weed? No? Pity...",
+      "JA_current": "Sorry, I can't. Tired to wander around, need to rest, smoke some weed and relax. Got any weed? No? Pity...",
+      "JA_new": "悪い、無理だ。歩き回るのにも疲れたよ。ちょっと休んで、草でも吸ってのんびりしたい。草ある？ ないのか……残念。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_freedom",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_freedom_6#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 279,
+      "string_id": "companion_hire_dialog_freedom_6",
+      "occurrence": 1,
+      "EN": "No, man, you're like a kid. Grow bigger.",
+      "JA_current": "No, man, you're like a kid. Grow bigger.",
+      "JA_new": "いや、あんたはまだガキみたいなもんだ。もっと腕を上げな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_freedom",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_freedom_7#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 282,
+      "string_id": "companion_hire_dialog_freedom_7",
+      "occurrence": 1,
+      "EN": "No, Marked One - you're roaming such places! Don't know how you're staying alive yet.",
+      "JA_current": "No, Marked One - you're roaming such places! Don't know how you're staying alive yet.",
+      "JA_new": "いや、マークド・ワン。あんなところを歩き回ってるなんて、よく生きてるな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_freedom",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_freedom_8#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 285,
+      "string_id": "companion_hire_dialog_freedom_8",
+      "occurrence": 1,
+      "EN": "No, man, there's enough people with you already. Don't want to share my weed with them.",
+      "JA_current": "No, man, there's enough people with you already. Don't want to share my weed with them.",
+      "JA_new": "いや、もう十分連れがいるだろ。連中と草を分け合いたくないね。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_freedom",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_freedom_9#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 288,
+      "string_id": "companion_hire_dialog_freedom_9",
+      "occurrence": 1,
+      "EN": "No, man, you're not one of us. No offence, can't make business with you.",
+      "JA_current": "No, man, you're not one of us. No offence, can't make business with you.",
+      "JA_new": "悪いが、あんたは仲間じゃない。一緒に仕事はできないんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_freedom",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "companion_hire_dialog_freedom_0",
+      "next": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Hey, man, wanna hang with me? Let's party!!!",
+      "JA_current": "Hey, man, wanna hang with me? Let's party!!!",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_freedom_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "companion_hire_dialog_freedom_1",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_will_follow"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_start_following"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Yeah, let's hang together, I'm in.",
+      "JA_current": "Yeah, let's hang together, I'm in.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_freedom_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "companion_hire_dialog_freedom_2",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, dude, got my own business.",
+      "JA_current": "No, dude, got my own business.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_freedom_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "companion_hire_dialog_freedom_3",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_bad"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Ya kidding?! You're no good, Marked One.",
+      "JA_current": "Ya kidding?! You're no good, Marked One.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_freedom_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "companion_hire_dialog_freedom_4",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_deadly"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Get lost, man, there were plenty of dudes with you. I didn't see a one since then.",
+      "JA_current": "Get lost, man, there were plenty of dudes with you. I didn't see a one since then.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_freedom_4#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "companion_hire_dialog_freedom_5",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_tired"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Sorry, I can't. Tired to wander around, need to rest, smoke some weed and relax. Got any weed? No? Pity...",
+      "JA_current": "Sorry, I can't. Tired to wander around, need to rest, smoke some weed and relax. Got any weed? No? Pity...",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_freedom_5#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "companion_hire_dialog_freedom_6",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_lowrank"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, man, you're like a kid. Grow bigger.",
+      "JA_current": "No, man, you're like a kid. Grow bigger.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_freedom_6#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "companion_hire_dialog_freedom_7",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_highrank"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, Marked One - you're roaming such places! Don't know how you're staying alive yet.",
+      "JA_current": "No, Marked One - you're roaming such places! Don't know how you're staying alive yet.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_freedom_7#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "companion_hire_dialog_freedom_8",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_toomuch"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, man, there's enough people with you already. Don't want to share my weed with them.",
+      "JA_current": "No, man, there's enough people with you already. Don't want to share my weed with them.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_freedom_8#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "companion_hire_dialog_freedom_9",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_other_community"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, man, you're not one of us. No offence, can't make business with you.",
+      "JA_current": "No, man, you're not one of us. No offence, can't make business with you.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_freedom_9#1"
+      ]
+    }
+  ]
+}

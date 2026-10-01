@@ -1,0 +1,338 @@
+{
+  "packet_id": "dialog_0082__mahno_reward_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "mahno_reward_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml",
+  "graph_sha256": "0065cb49021f3d779d92b62bc9453bcaa767fa47933b73f8ecdd37c8a246e1ab",
+  "character_bindings": [
+    {
+      "profile_id": "mahnowec",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_agroprom.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.rujjo_vatnik_have"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "rujjo_vatnik_otdani"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 7,
+  "entries": [
+    {
+      "key": "stable_dialogs_agroprom:mahno_reward_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 431,
+      "string_id": "mahno_reward_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Here's your \"goodies\". I don't understand why you need that itchy rag. Better buy a vest.",
+      "JA_current": "Here's your \"goodies\". I don't understand why you need that itchy rag. Better buy a vest.",
+      "JA_new": "ほら、あんたの戦利品だ。そんなチクチクするボロ布、何に使うんだ？ ベストでも買えばいいのに。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mahno_reward_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:mahno_reward_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 434,
+      "string_id": "mahno_reward_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Heh-heh, you don't know shit about life in the Zone, you little shit. This jacket's got a three-finger layer of cotton inside the lining, and if a pseudo-dog bites onto it, he'll rip out a mouthful of cotton, and I'll be gone. If that same pseudo-dog latches onto your fancy outfit, you'll never get away in one piece. Understand? Besides, you can get a knife in between the ribs for a nice outfit like yours around here.",
+      "JA_current": "Heh-heh, you don't know shit about life in the Zone, you little shit. This jacket's got a three-finger layer of cotton inside the lining, and if a pseudo-dog bites onto it, he'll rip out a mouthful of cotton, and I'll be gone. If that same pseudo-dog latches onto your fancy outfit, you'll never get away in one piece. Understand? Besides, you can get a knife in between the ribs for a nice outfit like yours around here.",
+      "JA_new": "へっ、ゾーンでの暮らしを何も分かっちゃいないな、おチビさん。このジャケットの裏地には、指三本分くらい綿が詰まってる。シュードドッグに噛まれても、綿を食いちぎられるだけで俺は逃げられる。あんたのしゃれた服に噛みつかれたら、無傷じゃ済まないぞ。分かったか？ それに、こんな服を着てたら、肋骨の間にナイフを突き立てられるのがオチだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mahno_reward_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:mahno_reward_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 437,
+      "string_id": "mahno_reward_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Got it, I got it, what about the reward?",
+      "JA_current": "Got it, I got it, what about the reward?",
+      "JA_new": "分かった分かった。で、報酬は？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mahno_reward_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:mahno_reward_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 440,
+      "string_id": "mahno_reward_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Don't worry, little man, I'll take care of you. I don't have anything on me, so unfortunately you'll need to do a bit more legwork. I've managed to stash quite a few valuables here and there, here's a location of one of my hidey holes, feel free to grab whatever's in there.",
+      "JA_current": "Don't worry, little man, I'll take care of you. I don't have anything on me, so unfortunately you'll need to do a bit more legwork. I've managed to stash quite a few valuables here and there, here's a location of one of my hidey holes, feel free to grab whatever's in there.",
+      "JA_new": "心配すんな、ちび助。ちゃんと礼はするよ。あいにく今は何も持ち合わせがないんだ。悪いが、もう少し動いてもらう。あちこちに貴重品を隠してある。隠し場所を一つ教えるから、中にある物は好きに持っていけ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mahno_reward_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:mahno_reward_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 443,
+      "string_id": "mahno_reward_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "What's in your hiding place, anyway? Probably a couple of dead rats, nothing more.",
+      "JA_current": "What's in your hiding place, anyway? Probably a couple of dead rats, nothing more.",
+      "JA_new": "で、隠し場所には何があるんだ？ どうせ死んだネズミが二、三匹ってとこだろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mahno_reward_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:mahno_reward_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 446,
+      "string_id": "mahno_reward_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Do you think I'm a cheat, little fella? You don't trust me?",
+      "JA_current": "Do you think I'm a cheat, little fella? You don't trust me?",
+      "JA_new": "俺を詐欺師だと思ってるのか？ 信用できないって？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mahno_reward_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:mahno_reward_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 449,
+      "string_id": "mahno_reward_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "I do, I do. But I'll check.",
+      "JA_current": "I do, I do. But I'll check.",
+      "JA_new": "信用してるって。だが、確認はしておく。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mahno_reward_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "mahno_reward_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.rujjo_vatnik_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here's your \"goodies\". I don't understand why you need that itchy rag. Better buy a vest.",
+      "JA_current": "Here's your \"goodies\". I don't understand why you need that itchy rag. Better buy a vest.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:mahno_reward_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "mahno_reward_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Heh-heh, you don't know shit about life in the Zone, you little shit. This jacket's got a three-finger layer of cotton inside the lining, and if a pseudo-dog bites onto it, he'll rip out a mouthful of cotton, and I'll be gone. If that same pseudo-dog latches onto your fancy outfit, you'll never get away in one piece. Understand? Besides, you can get a knife in between the ribs for a nice outfit like yours around here.",
+      "JA_current": "Heh-heh, you don't know shit about life in the Zone, you little shit. This jacket's got a three-finger layer of cotton inside the lining, and if a pseudo-dog bites onto it, he'll rip out a mouthful of cotton, and I'll be gone. If that same pseudo-dog latches onto your fancy outfit, you'll never get away in one piece. Understand? Besides, you can get a knife in between the ribs for a nice outfit like yours around here.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:mahno_reward_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "mahno_reward_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Got it, I got it, what about the reward?",
+      "JA_current": "Got it, I got it, what about the reward?",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:mahno_reward_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "mahno_reward_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "mahno_taynik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Don't worry, little man, I'll take care of you. I don't have anything on me, so unfortunately you'll need to do a bit more legwork. I've managed to stash quite a few valuables here and there, here's a location of one of my hidey holes, feel free to grab whatever's in there.",
+      "JA_current": "Don't worry, little man, I'll take care of you. I don't have anything on me, so unfortunately you'll need to do a bit more legwork. I've managed to stash quite a few valuables here and there, here's a location of one of my hidey holes, feel free to grab whatever's in there.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:mahno_reward_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "mahno_reward_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What's in your hiding place, anyway? Probably a couple of dead rats, nothing more.",
+      "JA_current": "What's in your hiding place, anyway? Probably a couple of dead rats, nothing more.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:mahno_reward_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "mahno_reward_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Do you think I'm a cheat, little fella? You don't trust me?",
+      "JA_current": "Do you think I'm a cheat, little fella? You don't trust me?",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:mahno_reward_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "mahno_reward_dialog_phrase_7",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "rujjo_vatnik_otdani"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I do, I do. But I'll check.",
+      "JA_current": "I do, I do. But I'll check.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:mahno_reward_dialog_phrase_7#1"
+      ]
+    }
+  ]
+}

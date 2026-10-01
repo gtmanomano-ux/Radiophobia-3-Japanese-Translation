@@ -1,0 +1,1022 @@
+{
+  "packet_id": "dialog_0347__povar_svu_dialog_1",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "povar_svu_dialog_1",
+  "graph_source": "gamedata/config/gameplay/dialogs_military.xml",
+  "graph_sha256": "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+  "character_bindings": [
+    {
+      "profile_id": "mil_Svoboda_cook",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_military.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "zombie_hand_research"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "povar_vodka_asked"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "povar_svug_asked"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 22,
+  "entries": [
+    {
+      "key": "stable_dialogs_military:kakie_dela_s_ecologami#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 13,
+      "string_id": "kakie_dela_s_ecologami",
+      "occurrence": 1,
+      "EN": "Look, do you have any business with ecologists?",
+      "JA_current": "Look, do you have any business with ecologists?",
+      "JA_new": "なあ、エコロジストと何か取引してるのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "povar_svu_dialog_1",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:ty_o_chem#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 16,
+      "string_id": "ty_o_chem",
+      "occurrence": 1,
+      "EN": "Wha... What?! What damn ecologists?! What' ya talking about?! Scientists and Duty are our most bitter enemies! Only business we do with them is slicing them up! We... eh... You... How do you know about it anyway? Just zip it!! Or I... I'm fucked.",
+      "JA_current": "Wha... What?! What damn ecologists?! What' ya talking about?! Scientists and Duty are our most bitter enemies! Only business we do with them is slicing them up! We... eh... You... How do you know about it anyway? Just zip it!! Or I... I'm fucked.",
+      "JA_new": "な、何だって？エコロジストだと？何の話だ！？科学者とデューティーは俺たちの一番の敵だ！取引なんてしない。切り刻むだけさ！俺は……ええと、お前……どうしてそれを知ってる？黙ってろよ！！さもないと……俺が終わりだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "povar_svu_dialog_1",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:sahar_rasskazal#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 19,
+      "string_id": "sahar_rasskazal",
+      "occurrence": 1,
+      "EN": "How do I know? Sakharov dropped a word or two 'bout some drunkard... Who exchanged a really cool gun for a case of vodka.",
+      "JA_current": "How do I know? Sakharov dropped a word or two 'bout some drunkard... Who exchanged a really cool gun for a case of vodka.",
+      "JA_new": "どうして知ってるって？サハロフが、酔っぱらいのことを少し話してくれた。とびきりの銃とウォッカ1ケースを交換した奴のことをな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "povar_svu_dialog_1",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:moi_gromoboi#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 22,
+      "string_id": "moi_gromoboi",
+      "occurrence": 1,
+      "EN": "My \"MOD X Gen. 3\"!.. Whe... Where is it? Did you see it?!",
+      "JA_current": "My \"MOD X Gen. 3\"!.. Whe... Where is it? Did you see it?!",
+      "JA_new": "俺の「MOD X Gen. 3」が！？ど、どこだ？見たのか！？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "povar_svu_dialog_1",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:takoi_zaebatelskiy#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 25,
+      "string_id": "takoi_zaebatelskiy",
+      "occurrence": 1,
+      "EN": "You mean that rifle perfected for long range combat?",
+      "JA_current": "You mean that rifle perfected for long range combat?",
+      "JA_new": "長距離戦用に改造されたライフルのことか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "povar_svu_dialog_1",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:da_takoi#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 28,
+      "string_id": "da_takoi",
+      "occurrence": 1,
+      "EN": "Yeah! That's it! Have you seen it?!",
+      "JA_current": "Yeah! That's it! Have you seen it?!",
+      "JA_new": "そうだ！それだよ！見たのか！？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "povar_svu_dialog_1",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:nea_ne_videl#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 31,
+      "string_id": "nea_ne_videl",
+      "occurrence": 1,
+      "EN": "Ah... Nope, I haven't...",
+      "JA_current": "Ah... Nope, I haven't...",
+      "JA_new": "ああ……いや、見てない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "povar_svu_dialog_1",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:stvol_u_menya#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 59,
+      "string_id": "stvol_u_menya",
+      "occurrence": 1,
+      "EN": "I have seen it and actually, as a matter of fact, I have it with me.",
+      "JA_current": "I have seen it and actually, as a matter of fact, I have it with me.",
+      "JA_new": "見たし、実は今持ってる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "povar_svu_dialog_1",
+          "phrase_id": "61",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:fuck#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 34,
+      "string_id": "fuck",
+      "occurrence": 1,
+      "EN": "D... Damn... How the hell did I happen to lose it?.. It's all 'cause of those voices... In my head, making me exhausted... Now, again... Hey, be so kind, friend, bring me some vodka!",
+      "JA_current": "D... Damn... How the hell did I happen to lose it?.. It's all 'cause of those voices... In my head, making me exhausted... Now, again... Hey, be so kind, friend, bring me some vodka!",
+      "JA_new": "く……くそっ……どうして失くしたんだ？頭の中の声に疲れ果てて……全部あいつらのせいだ。なあ、頼むよ、ウォッカを持ってきてくれ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "povar_svu_dialog_1",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:verni_stvol#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 62,
+      "string_id": "verni_stvol",
+      "occurrence": 1,
+      "EN": "Listen to me, Marked One. Give it back to me, please... Whatever I have, I'll give it to you!",
+      "JA_current": "Listen to me, Marked One. Give it back to me, please... Whatever I have, I'll give it to you!",
+      "JA_new": "なあ、マークドワン。頼む、返してくれ……持ってるものは何でもやる！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "povar_svu_dialog_1",
+          "phrase_id": "611",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:chto_dash#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 37,
+      "string_id": "chto_dash",
+      "occurrence": 1,
+      "EN": "What's in it for me?",
+      "JA_current": "What's in it for me?",
+      "JA_new": "何をくれる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "povar_svu_dialog_1",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:chto_est#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 65,
+      "string_id": "chto_est",
+      "occurrence": 1,
+      "EN": "Would you care to be more specific about this \"whatever\"?",
+      "JA_current": "Would you care to be more specific about this \"whatever\"?",
+      "JA_new": "その「何でも」って、具体的には？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "povar_svu_dialog_1",
+          "phrase_id": "6111",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:patronov_dam#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 40,
+      "string_id": "patronov_dam",
+      "occurrence": 1,
+      "EN": "Really, Marked One!? Even I grew more sober by that! Can't you do a favor for free once in your life?! Screw you!.. Ok, I understand... The only thing I've got left is some ammo for that \"Commando ISG\" of mine... I don't need them, anyway... Bring me 10 bottles - and they are yours, all of them!",
+      "JA_current": "Really, Marked One!? Even I grew more sober by that! Can't you do a favor for free once in your life?! Screw you!.. Ok, I understand... The only thing I've got left is some ammo for that \"Commando ISG\" of mine... I don't need them, anyway... Bring me 10 bottles - and they are yours, all of them!",
+      "JA_new": "本当に頼むよ、マークドワン！こっちだって酔いがさめてきたぞ。たまにはタダで人助けできないのか？この野郎……分かったよ。残ってるのは「Commando ISG」用の弾薬くらいだ。もういらん。ウォッカを10本持ってこい。全部お前のだ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "povar_svu_dialog_1",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:vibiraj#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 68,
+      "string_id": "vibiraj",
+      "occurrence": 1,
+      "EN": "C'mon, choose...",
+      "JA_current": "C'mon, choose...",
+      "JA_new": "さあ、選べよ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "povar_svu_dialog_1",
+          "phrase_id": "61111",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:horosho_prinesu#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 43,
+      "string_id": "horosho_prinesu",
+      "occurrence": 1,
+      "EN": "Deal. I'm gone searching already.",
+      "JA_current": "Deal. I'm gone searching already.",
+      "JA_new": "いいぞ。探しに行く。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "povar_svu_dialog_1",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:idi_nafig#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 46,
+      "string_id": "idi_nafig",
+      "occurrence": 1,
+      "EN": "No way, I'm not in the mood to rumble all over the Zone to get vodka for you.",
+      "JA_current": "No way, I'm not in the mood to rumble all over the Zone to get vodka for you.",
+      "JA_new": "やめとく。お前のためにゾーンを歩き回ってウォッカを探す気分じゃない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "povar_svu_dialog_1",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:artefakty#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 71,
+      "string_id": "artefakty",
+      "occurrence": 1,
+      "EN": "Artifacts.",
+      "JA_current": "Artifacts.",
+      "JA_new": "アーティファクト。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "povar_svu_dialog_1",
+          "phrase_id": "611111",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:oruzhie#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 74,
+      "string_id": "oruzhie",
+      "occurrence": 1,
+      "EN": "Guns.",
+      "JA_current": "Guns.",
+      "JA_new": "銃。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "povar_svu_dialog_1",
+          "phrase_id": "611112",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:bablo#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 77,
+      "string_id": "bablo",
+      "occurrence": 1,
+      "EN": "Money.",
+      "JA_current": "Money.",
+      "JA_new": "金。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "povar_svu_dialog_1",
+          "phrase_id": "611113",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:ostavlu_sebe#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 80,
+      "string_id": "ostavlu_sebe",
+      "occurrence": 1,
+      "EN": "No, I'd better keep it for myself.",
+      "JA_current": "No, I'd better keep it for myself.",
+      "JA_new": "いや、自分で持っておく。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "povar_svu_dialog_1",
+          "phrase_id": "611114",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:vot_beri#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 83,
+      "string_id": "vot_beri",
+      "occurrence": 1,
+      "EN": "There you are. I've been keeping it for a rainy day...  \\nMany thanks for showing sympathy for an old drunk!",
+      "JA_current": "There you are. I've been keeping it for a rainy day...  \\nMany thanks for showing sympathy for an old drunk!",
+      "JA_new": "ほら、受け取れ。いざって時のために取っておいたんだ……\\n年寄りの酔いどれに情けをかけてくれて、本当にありがとう！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "povar_svu_dialog_1",
+          "phrase_id": "6111111",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:zhal#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 86,
+      "string_id": "zhal",
+      "occurrence": 1,
+      "EN": "Sorry to hear that... \\nIt's up to you, anyway...",
+      "JA_current": "Sorry to hear that... \\nIt's up to you, anyway...",
+      "JA_new": "そりゃ残念だ……まあ、\\n決めるのはお前だが……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "povar_svu_dialog_1",
+          "phrase_id": "6111141",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "kakie_dela_s_ecologami",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Look, do you have any business with ecologists?",
+      "JA_current": "Look, do you have any business with ecologists?",
+      "string_entry_candidates": [
+        "stable_dialogs_military:kakie_dela_s_ecologami#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "ty_o_chem",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Wha... What?! What damn ecologists?! What' ya talking about?! Scientists and Duty are our most bitter enemies! Only business we do with them is slicing them up! We... eh... You... How do you know about it anyway? Just zip it!! Or I... I'm fucked.",
+      "JA_current": "Wha... What?! What damn ecologists?! What' ya talking about?! Scientists and Duty are our most bitter enemies! Only business we do with them is slicing them up! We... eh... You... How do you know about it anyway? Just zip it!! Or I... I'm fucked.",
+      "string_entry_candidates": [
+        "stable_dialogs_military:ty_o_chem#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "sahar_rasskazal",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "How do I know? Sakharov dropped a word or two 'bout some drunkard... Who exchanged a really cool gun for a case of vodka.",
+      "JA_current": "How do I know? Sakharov dropped a word or two 'bout some drunkard... Who exchanged a really cool gun for a case of vodka.",
+      "string_entry_candidates": [
+        "stable_dialogs_military:sahar_rasskazal#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "moi_gromoboi",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "My \"MOD X Gen. 3\"!.. Whe... Where is it? Did you see it?!",
+      "JA_current": "My \"MOD X Gen. 3\"!.. Whe... Where is it? Did you see it?!",
+      "string_entry_candidates": [
+        "stable_dialogs_military:moi_gromoboi#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "takoi_zaebatelskiy",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You mean that rifle perfected for long range combat?",
+      "JA_current": "You mean that rifle perfected for long range combat?",
+      "string_entry_candidates": [
+        "stable_dialogs_military:takoi_zaebatelskiy#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "da_takoi",
+      "next": [
+        "6",
+        "61"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah! That's it! Have you seen it?!",
+      "JA_current": "Yeah! That's it! Have you seen it?!",
+      "string_entry_candidates": [
+        "stable_dialogs_military:da_takoi#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "nea_ne_videl",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Ah... Nope, I haven't...",
+      "JA_current": "Ah... Nope, I haven't...",
+      "string_entry_candidates": [
+        "stable_dialogs_military:nea_ne_videl#1"
+      ]
+    },
+    {
+      "phrase_id": "61",
+      "text_id": "stvol_u_menya",
+      "next": [
+        "611"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dotpack.actor_have_svug"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I have seen it and actually, as a matter of fact, I have it with me.",
+      "JA_current": "I have seen it and actually, as a matter of fact, I have it with me.",
+      "string_entry_candidates": [
+        "stable_dialogs_military:stvol_u_menya#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "fuck",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "61111411",
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "D... Damn... How the hell did I happen to lose it?.. It's all 'cause of those voices... In my head, making me exhausted... Now, again... Hey, be so kind, friend, bring me some vodka!",
+      "JA_current": "D... Damn... How the hell did I happen to lose it?.. It's all 'cause of those voices... In my head, making me exhausted... Now, again... Hey, be so kind, friend, bring me some vodka!",
+      "string_entry_candidates": [
+        "stable_dialogs_military:fuck#1"
+      ]
+    },
+    {
+      "phrase_id": "611",
+      "text_id": "verni_stvol",
+      "next": [
+        "6111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "61"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Listen to me, Marked One. Give it back to me, please... Whatever I have, I'll give it to you!",
+      "JA_current": "Listen to me, Marked One. Give it back to me, please... Whatever I have, I'll give it to you!",
+      "string_entry_candidates": [
+        "stable_dialogs_military:verni_stvol#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "chto_dash",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What's in it for me?",
+      "JA_current": "What's in it for me?",
+      "string_entry_candidates": [
+        "stable_dialogs_military:chto_dash#1"
+      ]
+    },
+    {
+      "phrase_id": "6111",
+      "text_id": "chto_est",
+      "next": [
+        "61111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "611"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Would you care to be more specific about this \"whatever\"?",
+      "JA_current": "Would you care to be more specific about this \"whatever\"?",
+      "string_entry_candidates": [
+        "stable_dialogs_military:chto_est#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "patronov_dam",
+      "next": [
+        "10",
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Really, Marked One!? Even I grew more sober by that! Can't you do a favor for free once in your life?! Screw you!.. Ok, I understand... The only thing I've got left is some ammo for that \"Commando ISG\" of mine... I don't need them, anyway... Bring me 10 bottles - and they are yours, all of them!",
+      "JA_current": "Really, Marked One!? Even I grew more sober by that! Can't you do a favor for free once in your life?! Screw you!.. Ok, I understand... The only thing I've got left is some ammo for that \"Commando ISG\" of mine... I don't need them, anyway... Bring me 10 bottles - and they are yours, all of them!",
+      "string_entry_candidates": [
+        "stable_dialogs_military:patronov_dam#1"
+      ]
+    },
+    {
+      "phrase_id": "61111",
+      "text_id": "vibiraj",
+      "next": [
+        "611111",
+        "611112",
+        "611113",
+        "611114"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "C'mon, choose...",
+      "JA_current": "C'mon, choose...",
+      "string_entry_candidates": [
+        "stable_dialogs_military:vibiraj#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "horosho_prinesu",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "povar_vodka_asked"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Deal. I'm gone searching already.",
+      "JA_current": "Deal. I'm gone searching already.",
+      "string_entry_candidates": [
+        "stable_dialogs_military:horosho_prinesu#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "idi_nafig",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No way, I'm not in the mood to rumble all over the Zone to get vodka for you.",
+      "JA_current": "No way, I'm not in the mood to rumble all over the Zone to get vodka for you.",
+      "string_entry_candidates": [
+        "stable_dialogs_military:idi_nafig#1"
+      ]
+    },
+    {
+      "phrase_id": "611111",
+      "text_id": "artefakty",
+      "next": [
+        "6111111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dotpack.give_svug"
+        },
+        {
+          "type": "action",
+          "value": "dotpack.povar_give_artefakty"
+        },
+        {
+          "type": "give_info",
+          "value": "povar_svug_asked"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "61111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Artifacts.",
+      "JA_current": "Artifacts.",
+      "string_entry_candidates": [
+        "stable_dialogs_military:artefakty#1"
+      ]
+    },
+    {
+      "phrase_id": "611112",
+      "text_id": "oruzhie",
+      "next": [
+        "6111111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dotpack.give_svug"
+        },
+        {
+          "type": "action",
+          "value": "dotpack.povar_give_oruzhie"
+        },
+        {
+          "type": "give_info",
+          "value": "povar_svug_asked"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "61111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Guns.",
+      "JA_current": "Guns.",
+      "string_entry_candidates": [
+        "stable_dialogs_military:oruzhie#1"
+      ]
+    },
+    {
+      "phrase_id": "611113",
+      "text_id": "bablo",
+      "next": [
+        "6111111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dotpack.give_svug"
+        },
+        {
+          "type": "action",
+          "value": "dotpack.povar_give_bablo"
+        },
+        {
+          "type": "give_info",
+          "value": "povar_svug_asked"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "61111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Money.",
+      "JA_current": "Money.",
+      "string_entry_candidates": [
+        "stable_dialogs_military:bablo#1"
+      ]
+    },
+    {
+      "phrase_id": "611114",
+      "text_id": "ostavlu_sebe",
+      "next": [
+        "6111141"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "61111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, I'd better keep it for myself.",
+      "JA_current": "No, I'd better keep it for myself.",
+      "string_entry_candidates": [
+        "stable_dialogs_military:ostavlu_sebe#1"
+      ]
+    },
+    {
+      "phrase_id": "6111111",
+      "text_id": "vot_beri",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "611111",
+        "611112",
+        "611113"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "There you are. I've been keeping it for a rainy day...  \\nMany thanks for showing sympathy for an old drunk!",
+      "JA_current": "There you are. I've been keeping it for a rainy day...  \\nMany thanks for showing sympathy for an old drunk!",
+      "string_entry_candidates": [
+        "stable_dialogs_military:vot_beri#1"
+      ]
+    },
+    {
+      "phrase_id": "6111141",
+      "text_id": "zhal",
+      "next": [
+        "61111411"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "611114"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sorry to hear that... \\nIt's up to you, anyway...",
+      "JA_current": "Sorry to hear that... \\nIt's up to you, anyway...",
+      "string_entry_candidates": [
+        "stable_dialogs_military:zhal#1"
+      ]
+    },
+    {
+      "phrase_id": "61111411",
+      "text_id": null,
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6111141"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    }
+  ]
+}

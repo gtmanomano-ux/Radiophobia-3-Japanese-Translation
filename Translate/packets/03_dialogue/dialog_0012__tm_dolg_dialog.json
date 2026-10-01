@@ -1,0 +1,34 @@
+{
+  "packet_id": "dialog_0012__tm_dolg_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "tm_dolg_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs.xml",
+  "graph_sha256": "87109fb1ac4d045582ddab436da3571319106a69b21b6c21a4451cbb5f3afbbf",
+  "character_bindings": [
+    {
+      "profile_id": "bar_dolg_leader",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "init_func",
+      "value": "task_manager.init_dolg_task_dialog"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 0,
+  "entries": [],
+  "graph_nodes": []
+}

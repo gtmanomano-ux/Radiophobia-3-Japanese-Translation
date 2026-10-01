@@ -1,0 +1,863 @@
+{
+  "packet_id": "dialog_0286__escape_lager_volk_info",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "escape_lager_volk_info",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "esc_wolf",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "esc_kill_bandits_quest_done"
+    },
+    {
+      "type": "precondition",
+      "value": "task_manager.wolf_is_on_cordon"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 19,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:escape_lager_volk_info_0#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 991,
+      "string_id": "escape_lager_volk_info_0",
+      "occurrence": 1,
+      "EN": "I've got questions.",
+      "JA_current": "聞きたいことがある。",
+      "JA_new": "いくつか聞きたいことがある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_lager_volk_info",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_lager_volk_info_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 994,
+      "string_id": "escape_lager_volk_info_1",
+      "occurrence": 1,
+      "EN": "Go ahead, I'll try to help.",
+      "JA_current": "言ってみろ。答えてみよう。",
+      "JA_new": "何でも聞いてくれ。分かる範囲で答えるよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_lager_volk_info",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_lager_volk_info_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1000,
+      "string_id": "escape_lager_volk_info_2",
+      "occurrence": 1,
+      "EN": "What do you know about the Zone?",
+      "JA_current": "ゾーンについて何か知っているか？",
+      "JA_new": "ゾーンについて何か知ってるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_lager_volk_info",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_lager_volk_info_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1036,
+      "string_id": "escape_lager_volk_info_3",
+      "occurrence": 1,
+      "EN": "Have you heard about a guy called Strelok?",
+      "JA_current": "Strelok という男を聞いたことがあるか？",
+      "JA_new": "ストレロクって男のこと、聞いたことはあるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_lager_volk_info",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_lager_volk_info_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1042,
+      "string_id": "escape_lager_volk_info_4",
+      "occurrence": 1,
+      "EN": "What do you know about \"death trucks?\"",
+      "JA_current": "「死のトラック」について何か知らないか？",
+      "JA_new": "「死のトラック」について、何か知ってるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_lager_volk_info",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_lager_volk_info_10#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 997,
+      "string_id": "escape_lager_volk_info_10",
+      "occurrence": 1,
+      "EN": "Thank you.",
+      "JA_current": "ありがとう。",
+      "JA_new": "ありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_lager_volk_info",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_lager_volk_info_21#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1003,
+      "string_id": "escape_lager_volk_info_21",
+      "occurrence": 1,
+      "EN": "I know many things. Be more specific.",
+      "JA_current": "色々と知っている。もっと絞って聞けよ。",
+      "JA_new": "知ってることは多い。もっと具体的に聞いてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_lager_volk_info",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_lager_volk_info_31#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1039,
+      "string_id": "escape_lager_volk_info_31",
+      "occurrence": 1,
+      "EN": "I seem to remember he's one of the tough ones. Never actually met the man. Well, I haven't come close to the center in a while and all we get here is rookies. You should find someone who hangs out deep in the Zone and have a chat with him.",
+      "JA_current": "タフな男の1人だった気がする。実際に会ったことはないがね。まあ、俺はしばらく中心部に近付いてなかったし、それにここいらはルーキーばかりだからな。ゾーン深くへ頻繁に訪れる連中を見つけ出し、話を聞くといい。",
+      "JA_new": "タフな男の一人だったと思う。本人に会ったことはない。ここしばらく中心部近くへ行ってないし、今ここに来るのは新米ばかりだ。ゾーンの奥にいる奴を探して、話を聞くといい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_lager_volk_info",
+          "phrase_id": "31",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_lager_volk_info_41#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1045,
+      "string_id": "escape_lager_volk_info_41",
+      "occurrence": 1,
+      "EN": "I know nothing and that's fine by me, thank you!  Sorry, I know about your situation. Too much mysticism about it. You spend a month in these parts and you can't help but become superstitious about life. Dead people in the trunk, dead people behind the wheel... Who are they, where did they come from and why? I can only hope they didn't rise up from the grave.",
+      "JA_current": "何も知らない、知らないことは俺にとっちゃいいことだ、ありがたいことにな！ すまないが、俺はお前に起きたことを知っている。あれに関しちゃあまりに怪しげなことが多すぎる。お前がこの件にひと月を費やすことになったら、生命についての迷信深い人間にならざるを得ないだろうよ。荷台に積まれた死体ども… ヤツらが誰で、どこから来るのか、それは何故なのか？ 俺はヤツらが墓から這い上がってこないことだけを望むよ。",
+      "JA_new": "俺は何も知らない。それでいいんだ、ありがとう！ ……いや、お前の事情は知ってる。あの話は謎めきすぎてる。この辺りに一か月もいれば、誰だって人生を迷信じみて考えるようになる。トランクの中の死体、ハンドルを握ったままの死体……あいつらは何者で、どこから来て、何のためにいる？ せめて墓から蘇った連中じゃないといいがな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_lager_volk_info",
+          "phrase_id": "41",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_lager_volk_info_211#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1006,
+      "string_id": "escape_lager_volk_info_211",
+      "occurrence": 1,
+      "EN": "What's in the center of the Zone?",
+      "JA_current": "ゾーンの中心には何があるんだ？",
+      "JA_new": "ゾーンの中心には何がある？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_lager_volk_info",
+          "phrase_id": "211",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_lager_volk_info_212#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1018,
+      "string_id": "escape_lager_volk_info_212",
+      "occurrence": 1,
+      "EN": "How did the Zone come to be?",
+      "JA_current": "ゾーンは、どうやって出来たんだ？",
+      "JA_new": "ゾーンはどうやってできた？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_lager_volk_info",
+          "phrase_id": "212",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_lager_volk_info_213#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1024,
+      "string_id": "escape_lager_volk_info_213",
+      "occurrence": 1,
+      "EN": "What brought you to the Zone?",
+      "JA_current": "どうしてゾーンへ行ったんだ？",
+      "JA_new": "あなたはどうしてゾーンに来たんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_lager_volk_info",
+          "phrase_id": "213",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_lager_volk_info_214#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1030,
+      "string_id": "escape_lager_volk_info_214",
+      "occurrence": 1,
+      "EN": "What's the most dangerous thing in the Zone?",
+      "JA_current": "ゾーンで一番危険なことは何だ？",
+      "JA_new": "ゾーンで一番危険なものは何だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_lager_volk_info",
+          "phrase_id": "214",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_lager_volk_info_2111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1009,
+      "string_id": "escape_lager_volk_info_2111",
+      "occurrence": 1,
+      "EN": "Ahem, that's a question alright... I've been looking for the answer for two years! I still haven't found a way to the center, at least not one I could take and come back alive. My friends and I tried to break through a couple of times. I barely made it back, but my friends - well, some did, some didn't...  You'll ask why we went there at all. We were chasing our dreams, trying to make them come true.",
+      "JA_current": "ふむ、それは確かに疑問だ… 俺は2年ものあいだ答えを探してる！ 中心部への道を俺は未だに見つけていない、たどることが出来て生きて返れる、少なくとも1本の道もな。仲間たちとは何回か突破を試みた。俺はかろうじて戻って来れたが、仲間は ― そう、ある者は戻れ、ある者は戻れず… 一体なぜそこに行ったのかと、聞きたいだろうな。俺たちはそれぞれが夢を追い、それを実現させようとしていたんだ。",
+      "JA_new": "ふむ……まさにそれを二年間探し続けてる。まだ中心へ行く道は見つかってない。生きて帰れる道はな。仲間と何度か突入を試みた。俺はどうにか戻れたが、仲間は……戻ってきた奴もいれば、そうでない奴もいた。なぜそこへ行ったのか、気になるだろう。俺たちは夢を追い、それを叶えようとしてたんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_lager_volk_info",
+          "phrase_id": "2111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_lager_volk_info_2121#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1021,
+      "string_id": "escape_lager_volk_info_2121",
+      "occurrence": 1,
+      "EN": "There was another explosion here in 2006. That's how it came about. I know that's not a real answer. Very few know the whole truth, if anyone at all.",
+      "JA_current": "2006年に、ここで別の爆発があった。それでゾーンが生まれた。それが本当の答えじゃないことは分かっている。誰かが知っているにしても、真実の全容を知る者は、ほとんどいないはずだ。",
+      "JA_new": "2006年に、ここでもう一度爆発が起きた。それでゾーンができた。十分な答えじゃないのは分かってる。真実の全てを知ってる人間は、ごくわずかだ。いや、そんな人間がいるかどうかも分からん。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_lager_volk_info",
+          "phrase_id": "2121",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_lager_volk_info_2131#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1027,
+      "string_id": "escape_lager_volk_info_2131",
+      "occurrence": 1,
+      "EN": "I used to work in a mine before they closed it down. I had no money and nothing to look forward to. Then I heard some rumors about the fabulous riches hidden inside the Zone. I had some experience under my belt, so I thought \"Why the hell not?\". Can't say I've become rich, but some cash came my way, that's for sure. Not a really interesting story; most of us got here the same way.",
+      "JA_current": "俺はある鉱山で働いていた、閉鎖される前の話だが。金も無く、楽しみも無かった。そんな時、ゾーン内部に隠されたすごいお宝の噂をいくつか聞いた。多少の経験は身に着けていたので、「何ッ？」と思ったね。金持ちになったとは言えないだろうが、そこそこの現ナマを手に入れたことは確かだ。典型的な話だよ； 俺たちの多くは似たような理由でそこへ向かったんだ。",
+      "JA_new": "閉山するまでは、鉱山で働いてた。金もなければ、先の楽しみもなかった。そんな時、ゾーンにはとんでもない財宝が眠ってるって噂を聞いた。多少の経験もあったし、「やってみるか」って思ったのさ。大金持ちになったとは言えないが、いくらか稼げたのは確かだ。面白くもない話だな。大抵の奴は似たような理由でここへ来てる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_lager_volk_info",
+          "phrase_id": "2131",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_lager_volk_info_2141#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1033,
+      "string_id": "escape_lager_volk_info_2141",
+      "occurrence": 1,
+      "EN": "Hard to say. There are so many dangers and surprises, you just can't run into all of them. There's more than enough for one person anyway. I got one toe bitten off, my hair is falling out from the radiation, and half my leg got fried in a Scorcher... Things are real bad out there. Another time I happened to come face to face with a bloodsucker - now there's a meeting I'd like to forget. So, we can talk all you like, but you'll never truly know until you experience it on your own. The only advice I can give is to be on your guard - everywhere and always.",
+      "JA_current": "言葉にはし難いな。すごく多くの危険と驚きがあるよ、そいつら全部に遭遇するわけじゃないがね。1人じゃ全部は無理だ。つま先の1つは噛み切られ、放射線で髪を失った、そして俺の脚の半分は Scorcher の中でフライにされちまった… 最悪の体験だったよ。ある時は Bloodsucker 鉢合わせになった ― 忘れたい出会いだ。まあ、お前が望むすべてを話すこともできるが、これは自分で経験しなきゃ絶対分からんだろう。何処でも何時でも気を付けること ― それが唯一のアドバイスだ。",
+      "JA_new": "何とも言えないな。危険も思いがけないことも多すぎて、全部に遭遇するわけじゃない。それでも一人が経験するには十分すぎる。俺は足の指を一本食いちぎられた。放射線で髪は抜けるし、スコーチャーで脚の半分を焼かれた……外はひどいもんだ。別の日にはブラッドサッカーとばったり出くわした。あんな出会い、忘れてしまいたいね。いくら話を聞いたって、自分で経験しなきゃ本当には分からん。俺から言えるのは、どこにいても、いつでも警戒を怠るなってことだけだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_lager_volk_info",
+          "phrase_id": "2141",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_lager_volk_info_21111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1012,
+      "string_id": "escape_lager_volk_info_21111",
+      "occurrence": 1,
+      "EN": "Can dreams come true?",
+      "JA_current": "夢が叶うのか？",
+      "JA_new": "夢は叶うのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_lager_volk_info",
+          "phrase_id": "21111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_lager_volk_info_211111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1015,
+      "string_id": "escape_lager_volk_info_211111",
+      "occurrence": 1,
+      "EN": "There is this beautiful story about a Wish-Granting Machine. They say there is a spot in the center of the Zone where any desires can come true, no matter how bizarre. But you know what? I know for a fact there's lots of ways to kick the bucket in the center of the Zone, and I don't believe in the Wish-Granting Machine anymore. Don't take that risk. I wouldn't.",
+      "JA_current": "Wish-Granting Machine（願望機）についての美しい話がある。ゾーンの中心には、どんなに突飛でも、どんな望みでも叶う場所が存在すると云われてるんだ。だがまぁ、ゾーンの中心には死に至る多くの厄介事があるってのは本当だよ。それに俺はもう「願望機」の存在を信じていない。そんな危険は冒すなよ。俺はやらないね。",
+      "JA_new": "願望機の話がある。どんなに突飛な願いでも叶う場所が、ゾーンの中心にあるらしい。だが、中心部で命を落とす方法はいくらでもある。それは間違いない。もう願望機なんて信じちゃいないよ。そんな危険を冒すな。俺なら行かない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_lager_volk_info",
+          "phrase_id": "211111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "escape_lager_volk_info_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I've got questions.",
+      "JA_current": "聞きたいことがある。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_lager_volk_info_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "escape_lager_volk_info_1",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Go ahead, I'll try to help.",
+      "JA_current": "言ってみろ。答えてみよう。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_lager_volk_info_1#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": null,
+      "next": [
+        "12"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "211111",
+        "2121",
+        "2131",
+        "2141",
+        "1",
+        "31",
+        "41"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "12",
+      "text_id": null,
+      "next": [
+        "2",
+        "3",
+        "4",
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "escape_lager_volk_info_2",
+      "next": [
+        "21"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What do you know about the Zone?",
+      "JA_current": "ゾーンについて何か知っているか？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_lager_volk_info_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "escape_lager_volk_info_3",
+      "next": [
+        "31"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Have you heard about a guy called Strelok?",
+      "JA_current": "Strelok という男を聞いたことがあるか？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_lager_volk_info_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "escape_lager_volk_info_4",
+      "next": [
+        "41"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What do you know about \"death trucks?\"",
+      "JA_current": "「死のトラック」について何か知らないか？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_lager_volk_info_4#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "escape_lager_volk_info_10",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you.",
+      "JA_current": "ありがとう。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_lager_volk_info_10#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "escape_lager_volk_info_21",
+      "next": [
+        "211",
+        "212",
+        "213",
+        "214"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I know many things. Be more specific.",
+      "JA_current": "色々と知っている。もっと絞って聞けよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_lager_volk_info_21#1"
+      ]
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "escape_lager_volk_info_31",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I seem to remember he's one of the tough ones. Never actually met the man. Well, I haven't come close to the center in a while and all we get here is rookies. You should find someone who hangs out deep in the Zone and have a chat with him.",
+      "JA_current": "タフな男の1人だった気がする。実際に会ったことはないがね。まあ、俺はしばらく中心部に近付いてなかったし、それにここいらはルーキーばかりだからな。ゾーン深くへ頻繁に訪れる連中を見つけ出し、話を聞くといい。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_lager_volk_info_31#1"
+      ]
+    },
+    {
+      "phrase_id": "41",
+      "text_id": "escape_lager_volk_info_41",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I know nothing and that's fine by me, thank you!  Sorry, I know about your situation. Too much mysticism about it. You spend a month in these parts and you can't help but become superstitious about life. Dead people in the trunk, dead people behind the wheel... Who are they, where did they come from and why? I can only hope they didn't rise up from the grave.",
+      "JA_current": "何も知らない、知らないことは俺にとっちゃいいことだ、ありがたいことにな！ すまないが、俺はお前に起きたことを知っている。あれに関しちゃあまりに怪しげなことが多すぎる。お前がこの件にひと月を費やすことになったら、生命についての迷信深い人間にならざるを得ないだろうよ。荷台に積まれた死体ども… ヤツらが誰で、どこから来るのか、それは何故なのか？ 俺はヤツらが墓から這い上がってこないことだけを望むよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_lager_volk_info_41#1"
+      ]
+    },
+    {
+      "phrase_id": "211",
+      "text_id": "escape_lager_volk_info_211",
+      "next": [
+        "2111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What's in the center of the Zone?",
+      "JA_current": "ゾーンの中心には何があるんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_lager_volk_info_211#1"
+      ]
+    },
+    {
+      "phrase_id": "212",
+      "text_id": "escape_lager_volk_info_212",
+      "next": [
+        "2121"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "How did the Zone come to be?",
+      "JA_current": "ゾーンは、どうやって出来たんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_lager_volk_info_212#1"
+      ]
+    },
+    {
+      "phrase_id": "213",
+      "text_id": "escape_lager_volk_info_213",
+      "next": [
+        "2131"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What brought you to the Zone?",
+      "JA_current": "どうしてゾーンへ行ったんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_lager_volk_info_213#1"
+      ]
+    },
+    {
+      "phrase_id": "214",
+      "text_id": "escape_lager_volk_info_214",
+      "next": [
+        "2141"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What's the most dangerous thing in the Zone?",
+      "JA_current": "ゾーンで一番危険なことは何だ？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_lager_volk_info_214#1"
+      ]
+    },
+    {
+      "phrase_id": "2111",
+      "text_id": "escape_lager_volk_info_2111",
+      "next": [
+        "21111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "211"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Ahem, that's a question alright... I've been looking for the answer for two years! I still haven't found a way to the center, at least not one I could take and come back alive. My friends and I tried to break through a couple of times. I barely made it back, but my friends - well, some did, some didn't...  You'll ask why we went there at all. We were chasing our dreams, trying to make them come true.",
+      "JA_current": "ふむ、それは確かに疑問だ… 俺は2年ものあいだ答えを探してる！ 中心部への道を俺は未だに見つけていない、たどることが出来て生きて返れる、少なくとも1本の道もな。仲間たちとは何回か突破を試みた。俺はかろうじて戻って来れたが、仲間は ― そう、ある者は戻れ、ある者は戻れず… 一体なぜそこに行ったのかと、聞きたいだろうな。俺たちはそれぞれが夢を追い、それを実現させようとしていたんだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_lager_volk_info_2111#1"
+      ]
+    },
+    {
+      "phrase_id": "2121",
+      "text_id": "escape_lager_volk_info_2121",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "212"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "There was another explosion here in 2006. That's how it came about. I know that's not a real answer. Very few know the whole truth, if anyone at all.",
+      "JA_current": "2006年に、ここで別の爆発があった。それでゾーンが生まれた。それが本当の答えじゃないことは分かっている。誰かが知っているにしても、真実の全容を知る者は、ほとんどいないはずだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_lager_volk_info_2121#1"
+      ]
+    },
+    {
+      "phrase_id": "2131",
+      "text_id": "escape_lager_volk_info_2131",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "213"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I used to work in a mine before they closed it down. I had no money and nothing to look forward to. Then I heard some rumors about the fabulous riches hidden inside the Zone. I had some experience under my belt, so I thought \"Why the hell not?\". Can't say I've become rich, but some cash came my way, that's for sure. Not a really interesting story; most of us got here the same way.",
+      "JA_current": "俺はある鉱山で働いていた、閉鎖される前の話だが。金も無く、楽しみも無かった。そんな時、ゾーン内部に隠されたすごいお宝の噂をいくつか聞いた。多少の経験は身に着けていたので、「何ッ？」と思ったね。金持ちになったとは言えないだろうが、そこそこの現ナマを手に入れたことは確かだ。典型的な話だよ； 俺たちの多くは似たような理由でそこへ向かったんだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_lager_volk_info_2131#1"
+      ]
+    },
+    {
+      "phrase_id": "2141",
+      "text_id": "escape_lager_volk_info_2141",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "214"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hard to say. There are so many dangers and surprises, you just can't run into all of them. There's more than enough for one person anyway. I got one toe bitten off, my hair is falling out from the radiation, and half my leg got fried in a Scorcher... Things are real bad out there. Another time I happened to come face to face with a bloodsucker - now there's a meeting I'd like to forget. So, we can talk all you like, but you'll never truly know until you experience it on your own. The only advice I can give is to be on your guard - everywhere and always.",
+      "JA_current": "言葉にはし難いな。すごく多くの危険と驚きがあるよ、そいつら全部に遭遇するわけじゃないがね。1人じゃ全部は無理だ。つま先の1つは噛み切られ、放射線で髪を失った、そして俺の脚の半分は Scorcher の中でフライにされちまった… 最悪の体験だったよ。ある時は Bloodsucker 鉢合わせになった ― 忘れたい出会いだ。まあ、お前が望むすべてを話すこともできるが、これは自分で経験しなきゃ絶対分からんだろう。何処でも何時でも気を付けること ― それが唯一のアドバイスだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_lager_volk_info_2141#1"
+      ]
+    },
+    {
+      "phrase_id": "21111",
+      "text_id": "escape_lager_volk_info_21111",
+      "next": [
+        "211111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Can dreams come true?",
+      "JA_current": "夢が叶うのか？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_lager_volk_info_21111#1"
+      ]
+    },
+    {
+      "phrase_id": "211111",
+      "text_id": "escape_lager_volk_info_211111",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "There is this beautiful story about a Wish-Granting Machine. They say there is a spot in the center of the Zone where any desires can come true, no matter how bizarre. But you know what? I know for a fact there's lots of ways to kick the bucket in the center of the Zone, and I don't believe in the Wish-Granting Machine anymore. Don't take that risk. I wouldn't.",
+      "JA_current": "Wish-Granting Machine（願望機）についての美しい話がある。ゾーンの中心には、どんなに突飛でも、どんな望みでも叶う場所が存在すると云われてるんだ。だがまぁ、ゾーンの中心には死に至る多くの厄介事があるってのは本当だよ。それに俺はもう「願望機」の存在を信じていない。そんな危険は冒すなよ。俺はやらないね。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_lager_volk_info_211111#1"
+      ]
+    }
+  ]
+}

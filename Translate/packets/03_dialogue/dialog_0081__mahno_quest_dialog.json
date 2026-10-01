@@ -1,0 +1,409 @@
+{
+  "packet_id": "dialog_0081__mahno_quest_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "mahno_quest_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml",
+  "graph_sha256": "0065cb49021f3d779d92b62bc9453bcaa767fa47933b73f8ecdd37c8a246e1ab",
+  "character_bindings": [
+    {
+      "profile_id": "mahnowec",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_agroprom.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "razgovor_s_krotom"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "mahno_quest_start"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 9,
+  "entries": [
+    {
+      "key": "stable_dialogs_agroprom:mahno_quest_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 403,
+      "string_id": "mahno_quest_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Okay, so what's the plan for you, anyway? Just gonna sit around?",
+      "JA_current": "Okay, so what's the plan for you, anyway? Just gonna sit around?",
+      "JA_new": "で、これからどうする？ ずっとここで座ってるつもりか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mahno_quest_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:mahno_quest_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 406,
+      "string_id": "mahno_quest_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Don't worry, I'm not imprisoned here or anything, just avoiding attention at the moment. My ex-associates are after me, they want to kill me.",
+      "JA_current": "Don't worry, I'm not imprisoned here or anything, just avoiding attention at the moment. My ex-associates are after me, they want to kill me.",
+      "JA_new": "心配すんな。閉じ込められてるわけじゃない。今は目立たないようにしてるだけさ。昔の仲間に命を狙われてるんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mahno_quest_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:mahno_quest_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 409,
+      "string_id": "mahno_quest_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Why would they want to do that?",
+      "JA_current": "Why would they want to do that?",
+      "JA_new": "なんでそいつらに狙われてる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mahno_quest_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:mahno_quest_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 412,
+      "string_id": "mahno_quest_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "For nothing! They say I took their share and ran with it, but it's not like that. I got mugged, is all... And now my guys are looking to break my kneecaps.",
+      "JA_current": "For nothing! They say I took their share and ran with it, but it's not like that. I got mugged, is all... And now my guys are looking to break my kneecaps.",
+      "JA_new": "何でもない！ 分け前を持ち逃げしたって言われてるが、違うんだ。ただ強盗にやられただけさ……。おかげで今は、あいつらに膝をへし折られそうになってる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mahno_quest_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:mahno_quest_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 415,
+      "string_id": "mahno_quest_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "So go and get your shit back! You look like you can handle a few bandits..",
+      "JA_current": "So go and get your shit back! You look like you can handle a few bandits..",
+      "JA_new": "なら取り返せばいいだろ！ バンディットが何人かなら、あんたでも相手できそうだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mahno_quest_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:mahno_quest_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 418,
+      "string_id": "mahno_quest_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Nah, you don't get me, little fella, it wasn't bandits. I was on my way to the garbage when I got jumped. I hit one of them in the face with the butt of my rifle and he went down. I wanted to hit the other one too - That's when I noticed the military fatigues. Then this dick yanked my piece out of my hands. I turned to run, he grabbed me by the scruff of the neck. He had a grip like iron pincers, he did! I managed to shake off my waterproof jacket and legged it into the bushes. Luckily he didn't bother shooting, probably went to help out his mate who I knocked out. Now, the bastard army boys had my piece and my coat! Help me, will you? See if you can get my stuff back, I'll get those back and will never see the light of day around here again.",
+      "JA_current": "Nah, you don't get me, little fella, it wasn't bandits. I was on my way to the garbage when I got jumped. I hit one of them in the face with the butt of my rifle and he went down. I wanted to hit the other one too - That's when I noticed the military fatigues. Then this dick yanked my piece out of my hands. I turned to run, he grabbed me by the scruff of the neck. He had a grip like iron pincers, he did! I managed to shake off my waterproof jacket and legged it into the bushes. Luckily he didn't bother shooting, probably went to help out his mate who I knocked out. Now, the bastard army boys had my piece and my coat! Help me, will you? See if you can get my stuff back, I'll get those back and will never see the light of day around here again.",
+      "JA_new": "分かってないな、おチビさん。バンディットじゃないんだ。ガーベジへ向かう途中で襲われた。ライフルの銃床で一人の顔を殴りつけて、そいつは倒れた。もう一人も殴ろうとしたとき、軍服が目に入ったんだ。その隙に、あの野郎が俺の銃をもぎ取りやがった。逃げようとしたら、首根っこをつかまれた。鉄のペンチみたいな力でな！ 防水ジャケットを脱ぎ捨てて、どうにか茂みに逃げ込んだよ。撃ってこなかったのは運がよかった。たぶん、俺が殴り倒した相棒のところへ戻ったんだろう。結局、軍のクソ野郎どもに銃と上着を持っていかれた！ 取り返してくれないか？ 俺の荷物を取り戻してくれたら、ここから逃げて二度と姿を見せないよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mahno_quest_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:mahno_quest_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 421,
+      "string_id": "mahno_quest_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "All right, I'll try to get them back.",
+      "JA_current": "All right, I'll try to get them back.",
+      "JA_new": "分かった。取り返してみる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mahno_quest_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:mahno_quest_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 424,
+      "string_id": "mahno_quest_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "Not now.",
+      "JA_current": "Not now.",
+      "JA_new": "今は無理だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mahno_quest_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:mahno_quest_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 427,
+      "string_id": "mahno_quest_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "That's a good boy, that's a good boy! They likely sold it to their arms dealer. He often does business at the factory, you should start there.",
+      "JA_current": "That's a good boy, that's a good boy! They likely sold it to their arms dealer. He often does business at the factory, you should start there.",
+      "JA_new": "よくやった、いい子だ！ あいつらはたぶん、武器商人に売ったな。そいつは工場でよく商売してる。まずはそこから探してみな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mahno_quest_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "mahno_quest_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Okay, so what's the plan for you, anyway? Just gonna sit around?",
+      "JA_current": "Okay, so what's the plan for you, anyway? Just gonna sit around?",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:mahno_quest_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "mahno_quest_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Don't worry, I'm not imprisoned here or anything, just avoiding attention at the moment. My ex-associates are after me, they want to kill me.",
+      "JA_current": "Don't worry, I'm not imprisoned here or anything, just avoiding attention at the moment. My ex-associates are after me, they want to kill me.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:mahno_quest_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "mahno_quest_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Why would they want to do that?",
+      "JA_current": "Why would they want to do that?",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:mahno_quest_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "mahno_quest_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "For nothing! They say I took their share and ran with it, but it's not like that. I got mugged, is all... And now my guys are looking to break my kneecaps.",
+      "JA_current": "For nothing! They say I took their share and ran with it, but it's not like that. I got mugged, is all... And now my guys are looking to break my kneecaps.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:mahno_quest_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "mahno_quest_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So go and get your shit back! You look like you can handle a few bandits..",
+      "JA_current": "So go and get your shit back! You look like you can handle a few bandits..",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:mahno_quest_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "mahno_quest_dialog_phrase_6",
+      "next": [
+        "6",
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Nah, you don't get me, little fella, it wasn't bandits. I was on my way to the garbage when I got jumped. I hit one of them in the face with the butt of my rifle and he went down. I wanted to hit the other one too - That's when I noticed the military fatigues. Then this dick yanked my piece out of my hands. I turned to run, he grabbed me by the scruff of the neck. He had a grip like iron pincers, he did! I managed to shake off my waterproof jacket and legged it into the bushes. Luckily he didn't bother shooting, probably went to help out his mate who I knocked out. Now, the bastard army boys had my piece and my coat! Help me, will you? See if you can get my stuff back, I'll get those back and will never see the light of day around here again.",
+      "JA_current": "Nah, you don't get me, little fella, it wasn't bandits. I was on my way to the garbage when I got jumped. I hit one of them in the face with the butt of my rifle and he went down. I wanted to hit the other one too - That's when I noticed the military fatigues. Then this dick yanked my piece out of my hands. I turned to run, he grabbed me by the scruff of the neck. He had a grip like iron pincers, he did! I managed to shake off my waterproof jacket and legged it into the bushes. Luckily he didn't bother shooting, probably went to help out his mate who I knocked out. Now, the bastard army boys had my piece and my coat! Help me, will you? See if you can get my stuff back, I'll get those back and will never see the light of day around here again.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:mahno_quest_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "mahno_quest_dialog_phrase_7",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "mahno_quest_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All right, I'll try to get them back.",
+      "JA_current": "All right, I'll try to get them back.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:mahno_quest_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "mahno_quest_dialog_phrase_8",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Not now.",
+      "JA_current": "Not now.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:mahno_quest_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "mahno_quest_dialog_phrase_9",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "That's a good boy, that's a good boy! They likely sold it to their arms dealer. He often does business at the factory, you should start there.",
+      "JA_current": "That's a good boy, that's a good boy! They likely sold it to their arms dealer. He often does business at the factory, you should start there.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:mahno_quest_dialog_phrase_9#1"
+      ]
+    }
+  ]
+}

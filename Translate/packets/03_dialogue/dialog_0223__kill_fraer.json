@@ -1,0 +1,304 @@
+{
+  "packet_id": "dialog_0223__kill_fraer",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "kill_fraer",
+  "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml",
+  "graph_sha256": "af90465ec3a6b7a324a6c5d72d8c5ed214013f3f66f7c85ea935c11f680b26c1",
+  "character_bindings": [
+    {
+      "profile_id": "new_mamay",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_bandit_borov",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "actor_set_bandit"
+    },
+    {
+      "type": "has_info",
+      "value": "borov_strelka_end"
+    },
+    {
+      "type": "precondition",
+      "value": "ogsm_quests.fraer_alive"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 6,
+  "entries": [
+    {
+      "key": "stable_dialogs_darkvalley:kill_fraer_0#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 28,
+      "string_id": "kill_fraer_0",
+      "occurrence": 1,
+      "EN": "What kind of job have you got for me?",
+      "JA_current": "What kind of job have you got for me?",
+      "JA_new": "どんな仕事がある？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kill_fraer",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:kill_fraer_1#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 31,
+      "string_id": "kill_fraer_1",
+      "occurrence": 1,
+      "EN": "I've got a job fit for a cold cat like you. There's this one bonehead blundering around too much, trying to become some type of leader... He's been pushing a lotta dirt my way, doing his best to frame me... Goofing around like this ruins my appetite, he's gotta get cut outta the picture! Whack this cocksucker and you'll get paid well. Whatever people blab about out there, you can be sure that Borov is one to keep his word! Waste that motherless fuck and I'll present ya with a kick ass reward.",
+      "JA_current": "I've got a job fit for a cold cat like you. There's this one bonehead blundering around too much, trying to become some type of leader... He's been pushing a lotta dirt my way, doing his best to frame me... Goofing around like this ruins my appetite, he's gotta get cut outta the picture! Whack this cocksucker and you'll get paid well. Whatever people blab about out there, you can be sure that Borov is one to keep his word! Waste that motherless fuck and I'll present ya with a kick ass reward.",
+      "JA_new": "冷血なお前にうってつけの仕事がある。リーダー気取りであちこちうろついてる間抜けがいてな……俺に汚名を着せようと、汚い噂を流してやがる。そんなことをされちゃ飯もまずくなる。あいつには消えてもらう。始末すれば報酬は弾むぞ。外で何を言われてようが、ボロフは約束を守る男だ。あのろくでなしを片づけたら、いいもんをくれてやる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kill_fraer",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:kill_fraer_2#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 34,
+      "string_id": "kill_fraer_2",
+      "occurrence": 1,
+      "EN": "Oh yeah? What's this \"motherless fuck's\" name?",
+      "JA_current": "Oh yeah? What's this \"motherless fuck's\" name?",
+      "JA_new": "へえ？そのクソ野郎ってのは誰だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kill_fraer",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:kill_fraer_3#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 37,
+      "string_id": "kill_fraer_3",
+      "occurrence": 1,
+      "EN": "Heh, they call him Friar. But be sure to wack him silently, don't make a scene now, ok?",
+      "JA_current": "Heh, they call him Friar. But be sure to wack him silently, don't make a scene now, ok?",
+      "JA_new": "へっ、フライアーって呼ばれてる。だが、音を立てずに始末しろ。騒ぎは起こすなよ、いいな？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kill_fraer",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:kill_fraer_4#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 40,
+      "string_id": "kill_fraer_4",
+      "occurrence": 1,
+      "EN": "No problem! He won't even see it coming.",
+      "JA_current": "No problem! He won't even see it coming.",
+      "JA_new": "任せろ。気づく暇も与えない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kill_fraer",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:kill_fraer_5#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 43,
+      "string_id": "kill_fraer_5",
+      "occurrence": 1,
+      "EN": "No way, sorry. I'm not willing to get mixed up in your arguments just now.",
+      "JA_current": "No way, sorry. I'm not willing to get mixed up in your arguments just now.",
+      "JA_new": "いや、悪いが、今はあんたらの揉め事に首を突っ込む気はない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kill_fraer",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "kill_fraer_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What kind of job have you got for me?",
+      "JA_current": "What kind of job have you got for me?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:kill_fraer_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "kill_fraer_1",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I've got a job fit for a cold cat like you. There's this one bonehead blundering around too much, trying to become some type of leader... He's been pushing a lotta dirt my way, doing his best to frame me... Goofing around like this ruins my appetite, he's gotta get cut outta the picture! Whack this cocksucker and you'll get paid well. Whatever people blab about out there, you can be sure that Borov is one to keep his word! Waste that motherless fuck and I'll present ya with a kick ass reward.",
+      "JA_current": "I've got a job fit for a cold cat like you. There's this one bonehead blundering around too much, trying to become some type of leader... He's been pushing a lotta dirt my way, doing his best to frame me... Goofing around like this ruins my appetite, he's gotta get cut outta the picture! Whack this cocksucker and you'll get paid well. Whatever people blab about out there, you can be sure that Borov is one to keep his word! Waste that motherless fuck and I'll present ya with a kick ass reward.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:kill_fraer_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "kill_fraer_2",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh yeah? What's this \"motherless fuck's\" name?",
+      "JA_current": "Oh yeah? What's this \"motherless fuck's\" name?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:kill_fraer_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "kill_fraer_3",
+      "next": [
+        "4",
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Heh, they call him Friar. But be sure to wack him silently, don't make a scene now, ok?",
+      "JA_current": "Heh, they call him Friar. But be sure to wack him silently, don't make a scene now, ok?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:kill_fraer_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "kill_fraer_4",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "kill_fraer_start"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No problem! He won't even see it coming.",
+      "JA_current": "No problem! He won't even see it coming.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:kill_fraer_4#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "kill_fraer_5",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No way, sorry. I'm not willing to get mixed up in your arguments just now.",
+      "JA_current": "No way, sorry. I'm not willing to get mixed up in your arguments just now.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:kill_fraer_5#1"
+      ]
+    }
+  ]
+}

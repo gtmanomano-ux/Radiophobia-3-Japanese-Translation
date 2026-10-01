@@ -1,0 +1,499 @@
+{
+    "packet_id":  "dialog_0391__lucky_start_dialog",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "lucky_start_dialog",
+    "graph_source":  "gamedata/config/gameplay/dialogs_military.xml",
+    "graph_sha256":  "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+    "character_bindings":  [
+                               {
+                                   "profile_id":  "lucky",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_military.xml"
+                               }
+                           ],
+    "dialog_conditions":  [
+                              {
+                                  "type":  "has_info",
+                                  "value":  "barmen_goto_lucky"
+                              },
+                              {
+                                  "type":  "dont_has_info",
+                                  "value":  "lucky_pda_task_start"
+                              }
+                          ],
+    "root_speaker_hint":  "player",
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  9,
+    "entries":  [
+                    {
+                        "key":  "stable_dialogs_military:lucky_start_dialog_phrase_1#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2004,
+                        "string_id":  "lucky_start_dialog_phrase_1",
+                        "occurrence":  1,
+                        "EN":  "Hello, the barkeep told me that you know about electronics and computers.",
+                        "JA_current":  "Hello, the barkeep told me that you know about electronics and computers.",
+                        "JA_new":  "バーキープから、電子機器やコンピューターに詳しいって聞いた。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lucky_start_dialog",
+                                               "phrase_id":  "0",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lucky_start_dialog_phrase_2#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2007,
+                        "string_id":  "lucky_start_dialog_phrase_2",
+                        "occurrence":  1,
+                        "EN":  "Did he now, that little... So what\u0027s wrong? Let me guess! Is the PDA glitchy? Or is the detector not turning on?",
+                        "JA_current":  "Did he now, that little... So what\u0027s wrong? Let me guess! Is the PDA glitchy? Or is the detector not turning on?",
+                        "JA_new":  "あいつ、そんなことまで言ったのか。あの野郎……で、どうした？ PDAの調子が悪いのか？ それとも検出器が起動しない？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lucky_start_dialog",
+                                               "phrase_id":  "1",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lucky_start_dialog_phrase_3#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2010,
+                        "string_id":  "lucky_start_dialog_phrase_3",
+                        "occurrence":  1,
+                        "EN":  "No, it\u0027s more interesting than that. You see this laptop? It\u0027s password-encrypted. I need to see what data is on it and that\u0027s why I came to you.",
+                        "JA_current":  "No, it\u0027s more interesting than that. You see this laptop? It\u0027s password-encrypted. I need to see what data is on it and that\u0027s why I came to you.",
+                        "JA_new":  "いや、もっと面白い話だ。このノートパソコンを見てくれ。パスワードでロックされてる。中のデータを見たいんだ。それであんたのところへ来た。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lucky_start_dialog",
+                                               "phrase_id":  "2",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lucky_start_dialog_phrase_4#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2013,
+                        "string_id":  "lucky_start_dialog_phrase_4",
+                        "occurrence":  1,
+                        "EN":  "Ah, that\u0027s unusual, a real request! Well, let me see... Yeah, just like I thought. I can crack this puppy for you. To do it, I need a package of special programs that I wrote for this kind of stuff back in the day... By the way, it\u0027s because of these programs that I ended up in this shithole in the first place, so there you go... ",
+                        "JA_current":  "Ah, that\u0027s unusual, a real request! Well, let me see... Yeah, just like I thought. I can crack this puppy for you. To do it, I need a package of special programs that I wrote for this kind of stuff back in the day... By the way, it\u0027s because of these programs that I ended up in this shithole in the first place, so there you go... ",
+                        "JA_new":  "へえ、本格的な頼みだな！ どれどれ……やっぱりな。こいつのロックなら解除できる。昔、こういう作業のために自分で書いた特別なプログラム一式が要るんだ。ちなみに、そのプログラムのせいで俺はこんなクソみたいな場所に来る羽目になった。そういうわけさ……。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lucky_start_dialog",
+                                               "phrase_id":  "3",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lucky_start_dialog_phrase_5#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2016,
+                        "string_id":  "lucky_start_dialog_phrase_5",
+                        "occurrence":  1,
+                        "EN":  "I see, so do you have these programs or not?",
+                        "JA_current":  "I see, so do you have these programs or not?",
+                        "JA_new":  "なるほど。それで、そのプログラムは持ってるのか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lucky_start_dialog",
+                                               "phrase_id":  "4",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lucky_start_dialog_phrase_6#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2019,
+                        "string_id":  "lucky_start_dialog_phrase_6",
+                        "occurrence":  1,
+                        "EN":  "I haven\u0027t finished: I was just getting to the fact that I no longer have them in my possession. I kept them in the storage of my PDA, but I managed to lose it. Quite recently, my friends and I were attacked by bandits who had trapped us in the wild territory. They robbed us and wanted to take us hostage because they knew that I, as an electronics specialist, could be ransomed for a big payout from Freedom. I managed to escape from those bastards, but they probably killed my buddies... It\u0027s a shame about those guys. But my point is, the PDA with my information was taken by their leader. So if you want me to help you, you\u0027ll have to go and get that PDA back for me - I see no other way for you but to confront those bastards head on. It is a bit tough for us Freedom guys to move around since Duty set up their bases and checkpoints, but you can get in without a problem, so think about it.",
+                        "JA_current":  "I haven\u0027t finished: I was just getting to the fact that I no longer have them in my possession. I kept them in the storage of my PDA, but I managed to lose it. Quite recently, my friends and I were attacked by bandits who had trapped us in the wild territory. They robbed us and wanted to take us hostage because they knew that I, as an electronics specialist, could be ransomed for a big payout from Freedom. I managed to escape from those bastards, but they probably killed my buddies... It\u0027s a shame about those guys. But my point is, the PDA with my information was taken by their leader. So if you want me to help you, you\u0027ll have to go and get that PDA back for me - I see no other way for you but to confront those bastards head on. It is a bit tough for us Freedom guys to move around since Duty set up their bases and checkpoints, but you can get in without a problem, so think about it.",
+                        "JA_new":  "まだ話の途中だ。今はもう持ってないってところを説明しようとしてたんだよ。PDAのストレージに入れてたんだが、そいつをなくした。少し前、仲間と荒廃領域にいた時、バンディットに待ち伏せされたんだ。連中は俺たちから物を奪い、身代金目当てに人質にしようとした。俺が電子機器の専門家だから、フリーダムから大金を取れると思ったんだろう。俺は何とか逃げたが、仲間は殺されたかもしれない……あいつらのことは残念だ。だが問題は、情報入りのPDAを連中のリーダーに奪われたことだ。手を貸してほしいなら、PDAを取り返してきてくれ。あいつらに正面から立ち向かうしかない。デューティーが基地や検問所を作ってから、俺たちフリーダムは動きづらい。だが、あんたなら問題なく入り込める。考えてみてくれ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lucky_start_dialog",
+                                               "phrase_id":  "5",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lucky_start_dialog_phrase_7#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2022,
+                        "string_id":  "lucky_start_dialog_phrase_7",
+                        "occurrence":  1,
+                        "EN":  "I\u0027ll bring you your PDA with the info. Wait for it.",
+                        "JA_current":  "I\u0027ll bring you your PDA with the info. Wait for it.",
+                        "JA_new":  "情報入りのPDAを持ってくる。待っててくれ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lucky_start_dialog",
+                                               "phrase_id":  "6",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lucky_start_dialog_phrase_8#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2025,
+                        "string_id":  "lucky_start_dialog_phrase_8",
+                        "occurrence":  1,
+                        "EN":  "Okay, I\u0027ll think about it.",
+                        "JA_current":  "Okay, I\u0027ll think about it.",
+                        "JA_new":  "分かった。考えておく。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lucky_start_dialog",
+                                               "phrase_id":  "7",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lucky_start_dialog_phrase_9#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2028,
+                        "string_id":  "lucky_start_dialog_phrase_9",
+                        "occurrence":  1,
+                        "EN":  "Great, then I\u0027ll throw you the coordinates of my PDA\u0027s most recent tracking signal. And be careful: these bandits are very sly and cunning! Leave the laptop with me, it\u0027ll be safer here.",
+                        "JA_current":  "Great, then I\u0027ll throw you the coordinates of my PDA\u0027s most recent tracking signal. And be careful: these bandits are very sly and cunning! Leave the laptop with me, it\u0027ll be safer here.",
+                        "JA_new":  "よし。PDAが最後に発信した位置の座標を送る。気をつけろよ。あのバンディットどもはずる賢いからな！ ノートパソコンは俺が預かっておく。ここに置いたほうが安全だ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lucky_start_dialog",
+                                               "phrase_id":  "8",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  "lucky_start_dialog_phrase_1",
+                            "next":  [
+                                         "1"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Hello, the barkeep told me that you know about electronics and computers.",
+                            "JA_current":  "Hello, the barkeep told me that you know about electronics and computers.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lucky_start_dialog_phrase_1#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "1",
+                            "text_id":  "lucky_start_dialog_phrase_2",
+                            "next":  [
+                                         "2"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Did he now, that little... So what\u0027s wrong? Let me guess! Is the PDA glitchy? Or is the detector not turning on?",
+                            "JA_current":  "Did he now, that little... So what\u0027s wrong? Let me guess! Is the PDA glitchy? Or is the detector not turning on?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lucky_start_dialog_phrase_2#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "2",
+                            "text_id":  "lucky_start_dialog_phrase_3",
+                            "next":  [
+                                         "3"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "No, it\u0027s more interesting than that. You see this laptop? It\u0027s password-encrypted. I need to see what data is on it and that\u0027s why I came to you.",
+                            "JA_current":  "No, it\u0027s more interesting than that. You see this laptop? It\u0027s password-encrypted. I need to see what data is on it and that\u0027s why I came to you.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lucky_start_dialog_phrase_3#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "3",
+                            "text_id":  "lucky_start_dialog_phrase_4",
+                            "next":  [
+                                         "4"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "2"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Ah, that\u0027s unusual, a real request! Well, let me see... Yeah, just like I thought. I can crack this puppy for you. To do it, I need a package of special programs that I wrote for this kind of stuff back in the day... By the way, it\u0027s because of these programs that I ended up in this shithole in the first place, so there you go... ",
+                            "JA_current":  "Ah, that\u0027s unusual, a real request! Well, let me see... Yeah, just like I thought. I can crack this puppy for you. To do it, I need a package of special programs that I wrote for this kind of stuff back in the day... By the way, it\u0027s because of these programs that I ended up in this shithole in the first place, so there you go... ",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lucky_start_dialog_phrase_4#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "4",
+                            "text_id":  "lucky_start_dialog_phrase_5",
+                            "next":  [
+                                         "5"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "3"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I see, so do you have these programs or not?",
+                            "JA_current":  "I see, so do you have these programs or not?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lucky_start_dialog_phrase_5#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "5",
+                            "text_id":  "lucky_start_dialog_phrase_6",
+                            "next":  [
+                                         "6",
+                                         "7"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "4"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I haven\u0027t finished: I was just getting to the fact that I no longer have them in my possession. I kept them in the storage of my PDA, but I managed to lose it. Quite recently, my friends and I were attacked by bandits who had trapped us in the wild territory. They robbed us and wanted to take us hostage because they knew that I, as an electronics specialist, could be ransomed for a big payout from Freedom. I managed to escape from those bastards, but they probably killed my buddies... It\u0027s a shame about those guys. But my point is, the PDA with my information was taken by their leader. So if you want me to help you, you\u0027ll have to go and get that PDA back for me - I see no other way for you but to confront those bastards head on. It is a bit tough for us Freedom guys to move around since Duty set up their bases and checkpoints, but you can get in without a problem, so think about it.",
+                            "JA_current":  "I haven\u0027t finished: I was just getting to the fact that I no longer have them in my possession. I kept them in the storage of my PDA, but I managed to lose it. Quite recently, my friends and I were attacked by bandits who had trapped us in the wild territory. They robbed us and wanted to take us hostage because they knew that I, as an electronics specialist, could be ransomed for a big payout from Freedom. I managed to escape from those bastards, but they probably killed my buddies... It\u0027s a shame about those guys. But my point is, the PDA with my information was taken by their leader. So if you want me to help you, you\u0027ll have to go and get that PDA back for me - I see no other way for you but to confront those bastards head on. It is a bit tough for us Freedom guys to move around since Duty set up their bases and checkpoints, but you can get in without a problem, so think about it.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lucky_start_dialog_phrase_6#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "6",
+                            "text_id":  "lucky_start_dialog_phrase_7",
+                            "next":  [
+                                         "8"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "give_info",
+                                                "value":  "lucky_pda_task_start"
+                                            },
+                                            {
+                                                "type":  "give_info",
+                                                "value":  "lucky_notebook_vzyat"
+                                            },
+                                            {
+                                                "type":  "action",
+                                                "value":  "addon_dialogs.notebook_out"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "5"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I\u0027ll bring you your PDA with the info. Wait for it.",
+                            "JA_current":  "I\u0027ll bring you your PDA with the info. Wait for it.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lucky_start_dialog_phrase_7#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "7",
+                            "text_id":  "lucky_start_dialog_phrase_8",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "5"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Okay, I\u0027ll think about it.",
+                            "JA_current":  "Okay, I\u0027ll think about it.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lucky_start_dialog_phrase_8#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "8",
+                            "text_id":  "lucky_start_dialog_phrase_9",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "6"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Great, then I\u0027ll throw you the coordinates of my PDA\u0027s most recent tracking signal. And be careful: these bandits are very sly and cunning! Leave the laptop with me, it\u0027ll be safer here.",
+                            "JA_current":  "Great, then I\u0027ll throw you the coordinates of my PDA\u0027s most recent tracking signal. And be careful: these bandits are very sly and cunning! Leave the laptop with me, it\u0027ll be safer here.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lucky_start_dialog_phrase_9#1"
+                                                        ]
+                        }
+                    ]
+}

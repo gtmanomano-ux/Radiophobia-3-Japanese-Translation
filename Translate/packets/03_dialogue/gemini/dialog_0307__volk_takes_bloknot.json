@@ -1,0 +1,254 @@
+{
+  "packet_id": "dialog_0307__volk_takes_bloknot",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "volk_takes_bloknot",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "esc_wolf",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "volk_bloknot_pokazan"
+    },
+    {
+      "type": "precondition",
+      "value": "escape_dialog.have_a_bloknot"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 5,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:volk_takes_bloknot_phrase_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2144,
+      "string_id": "volk_takes_bloknot_phrase_1",
+      "occurrence": 1,
+      "EN": "Wolf, I'd like you to take a look at this. Remember you told me about the burglars? I think it belonged to one of them. I found this notebook in the tunnel behind the railroad embankment.",
+      "JA_current": "ウルフ、これを見てほしい。前に泥棒の話をしていただろ？ おそらく犯人の一人の物だ。線路の盛り土の向こうにあるトンネルで、この手帳を見つけたんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "volk_takes_bloknot",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:volk_takes_bloknot_phrase_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2147,
+      "string_id": "volk_takes_bloknot_phrase_2",
+      "occurrence": 1,
+      "EN": "Well, well, well... Yes, it's Fedka's notebook, I've seen it with him more than once. And his handwriting... So it turns out that he was the instigator after all? So that's how it is. Well, thank you, man, for finding out how it really went, I can see that you're an honest and fair man!",
+      "JA_current": "どれどれ……ああ、間違いない、フェドカの手帳だ。あいつが持ってるのを何度も見た。筆跡も奴のだ……おいおい、ってことは、主犯はやっぱりあいつだったのか？ そういうことだったのか。真相を突き止めてくれて感謝するぞ。お前は本当に筋の通った誠実な男だな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "volk_takes_bloknot",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:volk_takes_bloknot_phrase_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2150,
+      "string_id": "volk_takes_bloknot_phrase_3",
+      "occurrence": 1,
+      "EN": "No problem... But I have one more favor to ask of you: please take the Outcast back to the camp.",
+      "JA_current": "気にするな……だが、一つ頼みがあるんだ。追放者をキャンプに戻してやってくれないか。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "volk_takes_bloknot",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:volk_takes_bloknot_phrase_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2153,
+      "string_id": "volk_takes_bloknot_phrase_4",
+      "occurrence": 1,
+      "EN": "All right, I will. Now it's clear that he's just an inexperienced loser, and not a thief. I'll have him taken care of, don't worry. Here, this is for you, personally, from me. One more thing: why don't you go over to the Trader, show him this information and let him know.",
+      "JA_current": "分かった、受け入れよう。あいつは泥棒なんかじゃなく、ただ経験が浅くて巻き込まれただけだと分かったからな。こっちで面倒を見る、心配するな。ほら、これは俺個人からの礼だ。それともう一つ、商人のシドロヴィッチのところへ行って、この手帳のことを教えてやってくれ。あいつにも知らせておかないとな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "volk_takes_bloknot",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:volk_takes_bloknot_phrase_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2156,
+      "string_id": "volk_takes_bloknot_phrase_5",
+      "occurrence": 1,
+      "EN": "Okay, I'll go see him now.",
+      "JA_current": "了解した。今からシドロヴィッチのところへ行ってくる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "volk_takes_bloknot",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "volk_takes_bloknot_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Wolf, I'd like you to take a look at this. Remember you told me about the burglars? I think it belonged to one of them. I found this notebook in the tunnel behind the railroad embankment.",
+      "JA_current": "Wolf, I'd like you to take a look at this. Remember you told me about the burglars? I think it belonged to one of them. I found this notebook in the tunnel behind the railroad embankment.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:volk_takes_bloknot_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "volk_takes_bloknot_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, well, well... Yes, it's Fedka's notebook, I've seen it with him more than once. And his handwriting... So it turns out that he was the instigator after all? So that's how it is. Well, thank you, man, for finding out how it really went, I can see that you're an honest and fair man!",
+      "JA_current": "Well, well, well... Yes, it's Fedka's notebook, I've seen it with him more than once. And his handwriting... So it turns out that he was the instigator after all? So that's how it is. Well, thank you, man, for finding out how it really went, I can see that you're an honest and fair man!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:volk_takes_bloknot_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "volk_takes_bloknot_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No problem... But I have one more favor to ask of you: please take the Outcast back to the camp.",
+      "JA_current": "No problem... But I have one more favor to ask of you: please take the Outcast back to the camp.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:volk_takes_bloknot_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "volk_takes_bloknot_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "volk_bloknot_pokazan"
+        },
+        {
+          "type": "action",
+          "value": "escape_dialog.volk_nagrada"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All right, I will. Now it's clear that he's just an inexperienced loser, and not a thief. I'll have him taken care of, don't worry. Here, this is for you, personally, from me. One more thing: why don't you go over to the Trader, show him this information and let him know.",
+      "JA_current": "All right, I will. Now it's clear that he's just an inexperienced loser, and not a thief. I'll have him taken care of, don't worry. Here, this is for you, personally, from me. One more thing: why don't you go over to the Trader, show him this information and let him know.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:volk_takes_bloknot_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "volk_takes_bloknot_phrase_5",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "pokazat_bloknot_sidory"
+        },
+        {
+          "type": "give_info",
+          "value": "volk_pogovorit_sidor"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Okay, I'll go see him now.",
+      "JA_current": "Okay, I'll go see him now.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:volk_takes_bloknot_phrase_5#1"
+      ]
+    }
+  ]
+}

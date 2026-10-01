@@ -1,0 +1,121 @@
+{
+  "packet_id": "dialog_0038__companion_release_dialog_dolg",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "companion_release_dialog_dolg",
+  "graph_source": "gamedata/config/gameplay/dialogs.xml",
+  "graph_sha256": "87109fb1ac4d045582ddab436da3571319106a69b21b6c21a4451cbb5f3afbbf",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "dialogs.is_companion"
+    },
+    {
+      "type": "precondition",
+      "value": "dialogs.can_be_free"
+    },
+    {
+      "type": "precondition",
+      "value": "dialogs.is_dolg_companion"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 2,
+  "entries": [
+    {
+      "key": "stable_dialogs:companion_release_dialog_dolg_0#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 151,
+      "string_id": "companion_release_dialog_dolg_0",
+      "occurrence": 1,
+      "EN": "Thanks for serving, soldier. At ease!",
+      "JA_current": "Thanks for serving, soldier. At ease!",
+      "JA_new": "任務ご苦労、兵士。休め！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_release_dialog_dolg",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_release_dialog_dolg_1#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 154,
+      "string_id": "companion_release_dialog_dolg_1",
+      "occurrence": 1,
+      "EN": "Serving Duty!",
+      "JA_current": "Serving Duty!",
+      "JA_new": "デューティーのために！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_release_dialog_dolg",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "companion_release_dialog_dolg_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Thanks for serving, soldier. At ease!",
+      "JA_current": "Thanks for serving, soldier. At ease!",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_release_dialog_dolg_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "companion_release_dialog_dolg_1",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_stop_following"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Serving Duty!",
+      "JA_current": "Serving Duty!",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_release_dialog_dolg_1#1"
+      ]
+    }
+  ]
+}

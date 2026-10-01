@@ -1,0 +1,96 @@
+{
+  "packet_id": "dialog_0403__tm_pri_reward_arny",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "tm_pri_reward_arny",
+  "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml",
+  "graph_sha256": "8bb9195290d87fda40f45e7ab7e4ed73c832c18ca04c708134554149eea56b2a",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "ogsm_quests.kill_arny_reward_precondition"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 1,
+  "entries": [
+    {
+      "key": "stable_dialogs_pripyat:pri_1_nu_4to#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 47,
+      "string_id": "pri_1_nu_4to",
+      "occurrence": 1,
+      "EN": "Yeah, sure, I've heard the rumors about the Arena manager's death. So sad, he-he... You've done a good job, Strelok! Here's your reward.",
+      "JA_current": "Yeah, sure, I've heard the rumors about the Arena manager's death. So sad, he-he... You've done a good job, Strelok! Here's your reward.",
+      "JA_new": "ああ、もちろんだ。アリーナの管理人が死んだって噂は聞いたよ。気の毒にな、へへ……よくやった、ストレロク。報酬だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "tm_pri_reward_arny",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "tm_reward_job",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'm here for the job.",
+      "JA_current": "あの仕事の件で来た。",
+      "string_entry_candidates": [
+        "stable_task_manager:tm_reward_job#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "pri_1_nu_4to",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "pri_trader_arny_task_done"
+        },
+        {
+          "type": "action",
+          "value": "ogsm_quests.kill_arny_reward"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Yeah, sure, I've heard the rumors about the Arena manager's death. So sad, he-he... You've done a good job, Strelok! Here's your reward.",
+      "JA_current": "Yeah, sure, I've heard the rumors about the Arena manager's death. So sad, he-he... You've done a good job, Strelok! Here's your reward.",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:pri_1_nu_4to#1"
+      ]
+    }
+  ]
+}

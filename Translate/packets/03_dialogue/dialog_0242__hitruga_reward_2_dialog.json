@@ -1,0 +1,251 @@
+{
+  "packet_id": "dialog_0242__hitruga_reward_2_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "hitruga_reward_2_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml",
+  "graph_sha256": "af90465ec3a6b7a324a6c5d72d8c5ed214013f3f66f7c85ea935c11f680b26c1",
+  "character_bindings": [
+    {
+      "profile_id": "hitruga",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "hitruga_reward_2"
+    },
+    {
+      "type": "has_info",
+      "value": "arheolog_dialog"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 5,
+  "entries": [
+    {
+      "key": "stable_dialogs_darkvalley:hitruga_reward_2_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 468,
+      "string_id": "hitruga_reward_2_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "I took that Archaeologist out. Duty won't get the weapons.",
+      "JA_current": "I took that Archaeologist out. Duty won't get the weapons.",
+      "JA_new": "考古学者は始末した。デューティーに武器は渡らない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hitruga_reward_2_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:hitruga_reward_2_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 470,
+      "string_id": "hitruga_reward_2_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "You sure about that, pal? Be serious now, do I look like a rookie?",
+      "JA_current": "You sure about that, pal? Be serious now, do I look like a rookie?",
+      "JA_new": "本当に？　冗談はよせよ。俺が新米に見えるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hitruga_reward_2_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:hitruga_reward_2_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 472,
+      "string_id": "hitruga_reward_2_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "I don't understand, don't you believe me?",
+      "JA_current": "I don't understand, don't you believe me?",
+      "JA_new": "何が言いたい？　信じてないのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hitruga_reward_2_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:hitruga_reward_2_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 474,
+      "string_id": "hitruga_reward_2_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Don't take me for an idiot! I followed you to the roadblock and watched your approach with binoculars. You didn't waste the Archaeologist, instead you came back here and tried to trick me. Well, that didn't work out the way you planned, did it? Now, I've got to waste you to ensure you don't blab!",
+      "JA_current": "Don't take me for an idiot! I followed you to the roadblock and watched your approach with binoculars. You didn't waste the Archaeologist, instead you came back here and tried to trick me. Well, that didn't work out the way you planned, did it? Now, I've got to waste you to ensure you don't blab!",
+      "JA_new": "馬鹿にするな！　検問所までつけて、双眼鏡で様子を見てたんだ。考古学者を殺さず、ここに戻って俺をだまそうとしたな。思いどおりにはいかなかったようだが？　口封じに、お前も始末するしかないな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hitruga_reward_2_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:hitruga_reward_2_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 476,
+      "string_id": "hitruga_reward_2_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "We'll see.",
+      "JA_current": "We'll see.",
+      "JA_new": "どうかな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hitruga_reward_2_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "hitruga_reward_2_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I took that Archaeologist out. Duty won't get the weapons.",
+      "JA_current": "I took that Archaeologist out. Duty won't get the weapons.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:hitruga_reward_2_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "hitruga_reward_2_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You sure about that, pal? Be serious now, do I look like a rookie?",
+      "JA_current": "You sure about that, pal? Be serious now, do I look like a rookie?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:hitruga_reward_2_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "hitruga_reward_2_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I don't understand, don't you believe me?",
+      "JA_current": "I don't understand, don't you believe me?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:hitruga_reward_2_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "hitruga_reward_2_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.hana"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Don't take me for an idiot! I followed you to the roadblock and watched your approach with binoculars. You didn't waste the Archaeologist, instead you came back here and tried to trick me. Well, that didn't work out the way you planned, did it? Now, I've got to waste you to ensure you don't blab!",
+      "JA_current": "Don't take me for an idiot! I followed you to the roadblock and watched your approach with binoculars. You didn't waste the Archaeologist, instead you came back here and tried to trick me. Well, that didn't work out the way you planned, did it? Now, I've got to waste you to ensure you don't blab!",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:hitruga_reward_2_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "hitruga_reward_2_dialog_phrase_5",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "hitruga_reward_2"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "We'll see.",
+      "JA_current": "We'll see.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:hitruga_reward_2_dialog_phrase_5#1"
+      ]
+    }
+  ]
+}

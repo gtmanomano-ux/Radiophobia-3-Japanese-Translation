@@ -1,0 +1,496 @@
+{
+  "packet_id": "dialog_0467__sahar_about_trofim",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "sahar_about_trofim",
+  "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml",
+  "graph_sha256": "131d3c64c00a1023af4aaa914f345f3cfff2e581dea421160993fad100675545",
+  "character_bindings": [
+    {
+      "profile_id": "yan_general_ecolog",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "yuri_goto_sahar"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "sahar_goto_trofim"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 11,
+  "entries": [
+    {
+      "key": "stable_dialogs_yantar:sahar_about_trofim_phrase_1#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 754,
+      "string_id": "sahar_about_trofim_phrase_1",
+      "occurrence": 1,
+      "EN": "Professor, I have a question for you.",
+      "JA_current": "Professor, I have a question for you.",
+      "JA_new": "教授、聞きたいことがある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sahar_about_trofim",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:sahar_about_trofim_phrase_2#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 757,
+      "string_id": "sahar_about_trofim_phrase_2",
+      "occurrence": 1,
+      "EN": "Yes, I'm listening.",
+      "JA_current": "Yes, I'm listening.",
+      "JA_new": "いいとも。聞こう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sahar_about_trofim",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:sahar_about_trofim_phrase_3#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 760,
+      "string_id": "sahar_about_trofim_phrase_3",
+      "occurrence": 1,
+      "EN": "Here's the thing, I'm investigating the disappearance of a group of stalkers, and I was told that one of them was seen in your camp. Is that true?",
+      "JA_current": "Here's the thing, I'm investigating the disappearance of a group of stalkers, and I was told that one of them was seen in your camp. Is that true?",
+      "JA_new": "ストーカーの一団が行方不明になった件を調べているんですが、そのうち一人を、ここのキャンプで見たという話を聞きました。本当ですか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sahar_about_trofim",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:sahar_about_trofim_phrase_4#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 763,
+      "string_id": "sahar_about_trofim_phrase_4",
+      "occurrence": 1,
+      "EN": "Hmm, really? I don't remember anything like that... Stalkers don't stay with us for long, usually they leave immediately after giving us scientific samples and getting paid in return. Maybe you know something else about him?",
+      "JA_current": "Hmm, really? I don't remember anything like that... Stalkers don't stay with us for long, usually they leave immediately after giving us scientific samples and getting paid in return. Maybe you know something else about him?",
+      "JA_new": "ふむ、そうなのか？ そんな話は覚えがないな……ストーカーは長く滞在しない。研究用のサンプルを渡して報酬を受け取ると、すぐに出ていくのが普通だ。彼について、ほかに何か知っているかね？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sahar_about_trofim",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:sahar_about_trofim_phrase_5#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 766,
+      "string_id": "sahar_about_trofim_phrase_5",
+      "occurrence": 1,
+      "EN": "His name is Trofim. He is short and wears a brown leather jacket and gray pants. He's a member of the Seekers.",
+      "JA_current": "His name is Trofim. He is short and wears a brown leather jacket and gray pants. He's a member of the Seekers.",
+      "JA_new": "名前はトロフィム。背が低くて、茶色の革ジャケットに灰色のズボンを着ている。探索隊の一員だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sahar_about_trofim",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:sahar_about_trofim_phrase_6#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 769,
+      "string_id": "sahar_about_trofim_phrase_6",
+      "occurrence": 1,
+      "EN": "The Seekers, you say? Your description does sound familiar, actually... Oh, yes, yes! It must be our Frankenstein! So his name is Trofim, interesting... ",
+      "JA_current": "The Seekers, you say? Your description does sound familiar, actually... Oh, yes, yes! It must be our Frankenstein! So his name is Trofim, interesting... ",
+      "JA_new": "探索隊だと？ そう言われると、たしかに見覚えが……ああ、そうだ！ うちで「フランケンシュタイン」と呼んでいる男だ！ トロフィムというのか、興味深いね……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sahar_about_trofim",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:sahar_about_trofim_phrase_7#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 772,
+      "string_id": "sahar_about_trofim_phrase_7",
+      "occurrence": 1,
+      "EN": "Who the hell is Frankenstein?",
+      "JA_current": "Who the hell is Frankenstein?",
+      "JA_new": "フランケンシュタイン？ 何の話だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sahar_about_trofim",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:sahar_about_trofim_phrase_8#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 775,
+      "string_id": "sahar_about_trofim_phrase_8",
+      "occurrence": 1,
+      "EN": "It's quite the story. It happened a while back: a survey team of ours stumbled upon him by chance while taking psi-field measurements, he was unconscious and in a rough shape, like he'd walked into an anomaly. He suffered extensive burns on his skin and appeared brain damaged, likely spent too long under psi-field influence. We examined him and tried to treat him, but understand: we have chemists, physicists, zoologists and even a veterinarian here, but there are no medical specialists onsite. Not that it would have made any difference. The Zone inflicts injuries which would give even world leading consultants a run for their money. All we can really do is study his affliction, and ease his symptoms until research turns up anything noteworthy...",
+      "JA_current": "It's quite the story. It happened a while back: a survey team of ours stumbled upon him by chance while taking psi-field measurements, he was unconscious and in a rough shape, like he'd walked into an anomaly. He suffered extensive burns on his skin and appeared brain damaged, likely spent too long under psi-field influence. We examined him and tried to treat him, but understand: we have chemists, physicists, zoologists and even a veterinarian here, but there are no medical specialists onsite. Not that it would have made any difference. The Zone inflicts injuries which would give even world leading consultants a run for their money. All we can really do is study his affliction, and ease his symptoms until research turns up anything noteworthy...",
+      "JA_new": "それが、なかなか大変な話でね。少し前、サイフィールドを測定していた調査班が、偶然彼を見つけた。意識を失い、ひどい有様だった。まるでアノマリーに飛び込んだかのようにね。皮膚は広範囲に焼けただれ、脳にも損傷があるようだった。長時間サイフィールドにさらされたのだろう。診察して治療を試みたが、知ってのとおり、ここには化学者や物理学者、動物学者、獣医はいても医師がいない。まあ、医師がいたところで大差なかったかもしれない。ゾーンが負わせる怪我は、世界トップクラスの専門医でも手こずるほどだからね。今できるのは、彼の症状を研究し、目立った成果が出るまで苦痛を和らげることくらいだ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sahar_about_trofim",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:sahar_about_trofim_phrase_9#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 778,
+      "string_id": "sahar_about_trofim_phrase_9",
+      "occurrence": 1,
+      "EN": "Professor, where is he now? Can I speak with him?",
+      "JA_current": "Professor, where is he now? Can I speak with him?",
+      "JA_new": "教授、今どこにいる？ 会ってもいいか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sahar_about_trofim",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:sahar_about_trofim_phrase_10#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 781,
+      "string_id": "sahar_about_trofim_phrase_10",
+      "occurrence": 1,
+      "EN": "Oh, of course, he's in the base yard, behind one of the hangars. He's usually asleep during the day, and may sometimes turn violent at night, so be careful. He prefers to spend time outdoors as it calms him down, and we don't protest. Feel free to go see him.",
+      "JA_current": "Oh, of course, he's in the base yard, behind one of the hangars. He's usually asleep during the day, and may sometimes turn violent at night, so be careful. He prefers to spend time outdoors as it calms him down, and we don't protest. Feel free to go see him.",
+      "JA_new": "ああ、もちろん。基地の敷地内、格納庫の裏にいる。昼間はたいてい寝ているが、夜は暴れることもある。気持ちを落ち着けるために外で過ごすのが好きでね。こちらも止めていない。会いに行くといい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sahar_about_trofim",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:sahar_about_trofim_phrase_11#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 784,
+      "string_id": "sahar_about_trofim_phrase_11",
+      "occurrence": 1,
+      "EN": "I'll go and have a look.",
+      "JA_current": "I'll go and have a look.",
+      "JA_new": "会ってみる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sahar_about_trofim",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "sahar_about_trofim_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Professor, I have a question for you.",
+      "JA_current": "Professor, I have a question for you.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:sahar_about_trofim_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "sahar_about_trofim_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, I'm listening.",
+      "JA_current": "Yes, I'm listening.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:sahar_about_trofim_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "sahar_about_trofim_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here's the thing, I'm investigating the disappearance of a group of stalkers, and I was told that one of them was seen in your camp. Is that true?",
+      "JA_current": "Here's the thing, I'm investigating the disappearance of a group of stalkers, and I was told that one of them was seen in your camp. Is that true?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:sahar_about_trofim_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "sahar_about_trofim_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hmm, really? I don't remember anything like that... Stalkers don't stay with us for long, usually they leave immediately after giving us scientific samples and getting paid in return. Maybe you know something else about him?",
+      "JA_current": "Hmm, really? I don't remember anything like that... Stalkers don't stay with us for long, usually they leave immediately after giving us scientific samples and getting paid in return. Maybe you know something else about him?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:sahar_about_trofim_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "sahar_about_trofim_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "His name is Trofim. He is short and wears a brown leather jacket and gray pants. He's a member of the Seekers.",
+      "JA_current": "His name is Trofim. He is short and wears a brown leather jacket and gray pants. He's a member of the Seekers.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:sahar_about_trofim_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "sahar_about_trofim_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The Seekers, you say? Your description does sound familiar, actually... Oh, yes, yes! It must be our Frankenstein! So his name is Trofim, interesting... ",
+      "JA_current": "The Seekers, you say? Your description does sound familiar, actually... Oh, yes, yes! It must be our Frankenstein! So his name is Trofim, interesting... ",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:sahar_about_trofim_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "sahar_about_trofim_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Who the hell is Frankenstein?",
+      "JA_current": "Who the hell is Frankenstein?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:sahar_about_trofim_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "sahar_about_trofim_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It's quite the story. It happened a while back: a survey team of ours stumbled upon him by chance while taking psi-field measurements, he was unconscious and in a rough shape, like he'd walked into an anomaly. He suffered extensive burns on his skin and appeared brain damaged, likely spent too long under psi-field influence. We examined him and tried to treat him, but understand: we have chemists, physicists, zoologists and even a veterinarian here, but there are no medical specialists onsite. Not that it would have made any difference. The Zone inflicts injuries which would give even world leading consultants a run for their money. All we can really do is study his affliction, and ease his symptoms until research turns up anything noteworthy...",
+      "JA_current": "It's quite the story. It happened a while back: a survey team of ours stumbled upon him by chance while taking psi-field measurements, he was unconscious and in a rough shape, like he'd walked into an anomaly. He suffered extensive burns on his skin and appeared brain damaged, likely spent too long under psi-field influence. We examined him and tried to treat him, but understand: we have chemists, physicists, zoologists and even a veterinarian here, but there are no medical specialists onsite. Not that it would have made any difference. The Zone inflicts injuries which would give even world leading consultants a run for their money. All we can really do is study his affliction, and ease his symptoms until research turns up anything noteworthy...",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:sahar_about_trofim_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "sahar_about_trofim_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Professor, where is he now? Can I speak with him?",
+      "JA_current": "Professor, where is he now? Can I speak with him?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:sahar_about_trofim_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "sahar_about_trofim_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh, of course, he's in the base yard, behind one of the hangars. He's usually asleep during the day, and may sometimes turn violent at night, so be careful. He prefers to spend time outdoors as it calms him down, and we don't protest. Feel free to go see him.",
+      "JA_current": "Oh, of course, he's in the base yard, behind one of the hangars. He's usually asleep during the day, and may sometimes turn violent at night, so be careful. He prefers to spend time outdoors as it calms him down, and we don't protest. Feel free to go see him.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:sahar_about_trofim_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "sahar_about_trofim_phrase_11",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.spawn_trofim"
+        },
+        {
+          "type": "give_info",
+          "value": "sahar_goto_trofim"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'll go and have a look.",
+      "JA_current": "I'll go and have a look.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:sahar_about_trofim_phrase_11#1"
+      ]
+    }
+  ]
+}

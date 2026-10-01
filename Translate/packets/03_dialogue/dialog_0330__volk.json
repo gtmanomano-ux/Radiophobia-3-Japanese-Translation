@@ -1,0 +1,632 @@
+{
+  "packet_id": "dialog_0330__volk",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "volk",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape_1.xml",
+  "graph_sha256": "642b4ff737fb16bff4c919ca20c2a487fbc53718450c22862eb22b60792d1a6c",
+  "character_bindings": [],
+  "dialog_conditions": [],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 0,
+  "entries": [],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": null,
+      "next": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "volk_1",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "volk_2",
+      "next": [
+        "21"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1111",
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "volk_3",
+      "next": [
+        "31"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1111",
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "volk_4",
+      "next": [
+        "41",
+        "42",
+        "43"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1111",
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "volk_5",
+      "next": [
+        "51"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1111",
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "volk_6",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1111",
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "volk_11",
+      "next": [
+        "111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "volk_21",
+      "next": [
+        "211",
+        "212",
+        "213"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "volk_31",
+      "next": [
+        "111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "41",
+      "text_id": "volk_41",
+      "next": [
+        "411",
+        "412"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "42",
+      "text_id": "volk_42",
+      "next": [
+        "421",
+        "422"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "43",
+      "text_id": "volk_43",
+      "next": [
+        "111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "51",
+      "text_id": "volk_51",
+      "next": [
+        "111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "111",
+      "text_id": "volk_111",
+      "next": [
+        "1111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11",
+        "31",
+        "43",
+        "51"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "211",
+      "text_id": "volk_211",
+      "next": [
+        "2111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "211111",
+        "211121",
+        "212111",
+        "21"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "212",
+      "text_id": "volk_212",
+      "next": [
+        "2121"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "211111",
+        "211121",
+        "212111",
+        "21"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "213",
+      "text_id": "volk_213",
+      "next": [
+        "1111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "211111",
+        "211121",
+        "212111",
+        "21"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "411",
+      "text_id": "volk_411",
+      "next": [
+        "1111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "41"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "412",
+      "text_id": "volk_412",
+      "next": [
+        "1111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "41"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "421",
+      "text_id": "volk_421",
+      "next": [
+        "1111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "42"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "422",
+      "text_id": "volk_422",
+      "next": [
+        "1111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "42"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1111",
+      "text_id": "volk_1111",
+      "next": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "213",
+        "412",
+        "422",
+        "411",
+        "421",
+        "111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "2111",
+      "text_id": "volk_2111",
+      "next": [
+        "21111",
+        "21112"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "211"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "2121",
+      "text_id": "volk_2121",
+      "next": [
+        "21211"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "212"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "21111",
+      "text_id": "volk_21111",
+      "next": [
+        "211111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "21112",
+      "text_id": "volk_21112",
+      "next": [
+        "211121"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "21211",
+      "text_id": "volk_21211",
+      "next": [
+        "212111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2121"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "211111",
+      "text_id": "volk_211111",
+      "next": [
+        "211",
+        "212",
+        "213"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "211121",
+      "text_id": "volk_211121",
+      "next": [
+        "211",
+        "212",
+        "213"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21112"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "212111",
+      "text_id": "volk_212111",
+      "next": [
+        "211",
+        "212",
+        "213"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21211"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    }
+  ]
+}

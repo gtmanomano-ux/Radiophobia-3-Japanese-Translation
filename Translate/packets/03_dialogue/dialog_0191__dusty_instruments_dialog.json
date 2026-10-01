@@ -1,0 +1,461 @@
+{
+  "packet_id": "dialog_0191__dusty_instruments_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "dusty_instruments_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "all_instruments_find"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 10,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:dusty_instruments_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3244,
+      "string_id": "dusty_instruments_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "The barkeep told me that you can upgrade weapons. Is that true?",
+      "JA_current": "The barkeep told me that you can upgrade weapons. Is that true?",
+      "JA_new": "バーキープから、あんたは武器を改造できると聞いた。本当か？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_instruments_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_instruments_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3247,
+      "string_id": "dusty_instruments_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Actually, depends what you need, for complex repairs like the barrel, you'd need access to an arms factory. I can merely adjust minor components, tweak them, improve stuff like the trigger pull or iron-sights. After all, I used to work in such a factory, my hands still remember all the movements... But I simply don't have the right tools for more complex repairs.",
+      "JA_current": "Actually, depends what you need, for complex repairs like the barrel, you'd need access to an arms factory. I can merely adjust minor components, tweak them, improve stuff like the trigger pull or iron-sights. After all, I used to work in such a factory, my hands still remember all the movements... But I simply don't have the right tools for more complex repairs.",
+      "JA_new": "何をしたいかによるな。銃身みたいな大掛かりな修理には、銃器工場の設備が要る。俺にできるのは、小さな部品を調整したり、トリガーの引き味やアイアンサイトを改良したりする程度だ。前は工場で働いてたから、手が作業を覚えてる……でも、大がかりな修理に必要な工具は持ってない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_instruments_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_instruments_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3250,
+      "string_id": "dusty_instruments_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Have you tried ordering from outside the perimeter?",
+      "JA_current": "Have you tried ordering from outside the perimeter?",
+      "JA_new": "境界の外から取り寄せようとは思わなかったのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_instruments_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_instruments_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3253,
+      "string_id": "dusty_instruments_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "What the hell for, no one would undertake that commission for cheap and the barkeep is not about to dish out for something like that. It would be more realistic to find such tools here, in the Zone, there's no shortage of abandoned workshops and factories around. Why don't you look for something like that, huh? Keep your eyes peeled for any tools or kits of that nature, then I'll upgrade all your weapons for free.",
+      "JA_current": "What the hell for, no one would undertake that commission for cheap and the barkeep is not about to dish out for something like that. It would be more realistic to find such tools here, in the Zone, there's no shortage of abandoned workshops and factories around. Why don't you look for something like that, huh? Keep your eyes peeled for any tools or kits of that nature, then I'll upgrade all your weapons for free.",
+      "JA_new": "何のために？ 安く引き受ける奴はいないし、バーキープもそんな物に金を出す気はない。ゾーンには廃工場や作業場がいくらでもある。ここで探す方が現実的だ。工具や修理キットを見つけたら持ってきてくれ。お前の武器を全部、無料で改造してやる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_instruments_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_instruments_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3256,
+      "string_id": "dusty_instruments_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "I'll see why not.",
+      "JA_current": "I'll see why not.",
+      "JA_new": "探してみるよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_instruments_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_instruments_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3259,
+      "string_id": "dusty_instruments_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "I don't have time for that right now.",
+      "JA_current": "I don't have time for that right now.",
+      "JA_new": "今はそんな時間がない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_instruments_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_instruments_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3262,
+      "string_id": "dusty_instruments_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "I've already found an ORK-42 set.",
+      "JA_current": "I've already found an ORK-42 set.",
+      "JA_new": "ORK-42の工具セットなら見つけた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_instruments_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_instruments_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3265,
+      "string_id": "dusty_instruments_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "I found the RKB-86u set",
+      "JA_current": "I found the RKB-86u set",
+      "JA_new": "RKB-86uの工具セットを見つけた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_instruments_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_instruments_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3268,
+      "string_id": "dusty_instruments_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "That's great! Now I'll be able to work with domestically made weapons.",
+      "JA_current": "That's great! Now I'll be able to work with domestically made weapons.",
+      "JA_new": "よし！ これで国産の武器を扱える。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_instruments_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_instruments_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3271,
+      "string_id": "dusty_instruments_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "That's great, Marked One. With this toolkit I will be able to improve foreign-made weapons.",
+      "JA_current": "That's great, Marked One. With this toolkit I will be able to improve foreign-made weapons.",
+      "JA_new": "よくやった、マークド・ワン。この工具セットがあれば、外国製の武器も改造できる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_instruments_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "dusty_instruments_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "The barkeep told me that you can upgrade weapons. Is that true?",
+      "JA_current": "The barkeep told me that you can upgrade weapons. Is that true?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_instruments_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "dusty_instruments_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Actually, depends what you need, for complex repairs like the barrel, you'd need access to an arms factory. I can merely adjust minor components, tweak them, improve stuff like the trigger pull or iron-sights. After all, I used to work in such a factory, my hands still remember all the movements... But I simply don't have the right tools for more complex repairs.",
+      "JA_current": "Actually, depends what you need, for complex repairs like the barrel, you'd need access to an arms factory. I can merely adjust minor components, tweak them, improve stuff like the trigger pull or iron-sights. After all, I used to work in such a factory, my hands still remember all the movements... But I simply don't have the right tools for more complex repairs.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_instruments_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "dusty_instruments_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Have you tried ordering from outside the perimeter?",
+      "JA_current": "Have you tried ordering from outside the perimeter?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_instruments_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "dusty_instruments_dialog_phrase_4",
+      "next": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "What the hell for, no one would undertake that commission for cheap and the barkeep is not about to dish out for something like that. It would be more realistic to find such tools here, in the Zone, there's no shortage of abandoned workshops and factories around. Why don't you look for something like that, huh? Keep your eyes peeled for any tools or kits of that nature, then I'll upgrade all your weapons for free.",
+      "JA_current": "What the hell for, no one would undertake that commission for cheap and the barkeep is not about to dish out for something like that. It would be more realistic to find such tools here, in the Zone, there's no shortage of abandoned workshops and factories around. Why don't you look for something like that, huh? Keep your eyes peeled for any tools or kits of that nature, then I'll upgrade all your weapons for free.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_instruments_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "dusty_instruments_dialog_phrase_5",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'll see why not.",
+      "JA_current": "I'll see why not.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_instruments_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "dusty_instruments_dialog_phrase_6",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I don't have time for that right now.",
+      "JA_current": "I don't have time for that right now.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_instruments_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "dusty_instruments_dialog_phrase_7",
+      "next": [
+        "8"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_instruments1"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.instruments1_out"
+        },
+        {
+          "type": "give_info",
+          "value": "instruments1_otdan"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I've already found an ORK-42 set.",
+      "JA_current": "I've already found an ORK-42 set.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_instruments_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "dusty_instruments_dialog_phrase_8",
+      "next": [
+        "9"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_instruments2"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.instruments2_out"
+        },
+        {
+          "type": "give_info",
+          "value": "instruments2_otdan"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I found the RKB-86u set",
+      "JA_current": "I found the RKB-86u set",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_instruments_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "dusty_instruments_dialog_phrase_9",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "That's great! Now I'll be able to work with domestically made weapons.",
+      "JA_current": "That's great! Now I'll be able to work with domestically made weapons.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_instruments_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "dusty_instruments_dialog_phrase_10",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "That's great, Marked One. With this toolkit I will be able to improve foreign-made weapons.",
+      "JA_current": "That's great, Marked One. With this toolkit I will be able to improve foreign-made weapons.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_instruments_dialog_phrase_10#1"
+      ]
+    }
+  ]
+}

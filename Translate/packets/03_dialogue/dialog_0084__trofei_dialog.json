@@ -1,0 +1,1793 @@
+{
+  "packet_id": "dialog_0084__trofei_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "trofei_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml",
+  "graph_sha256": "0065cb49021f3d779d92b62bc9453bcaa767fa47933b73f8ecdd37c8a246e1ab",
+  "character_bindings": [
+    {
+      "profile_id": "opasniy",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_agroprom.xml"
+    },
+    {
+      "profile_id": "albert",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    },
+    {
+      "profile_id": "borch",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "cherv",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "troll",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_garbage.xml"
+    },
+    {
+      "profile_id": "kandibober",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_military.xml"
+    },
+    {
+      "profile_id": "buiniy",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    },
+    {
+      "profile_id": "nikita",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    }
+  ],
+  "dialog_conditions": [],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 37,
+  "entries": [
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_0#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 488,
+      "string_id": "trofei_dialog_phrase_0",
+      "occurrence": 1,
+      "EN": "What's up?",
+      "JA_current": "What's up?",
+      "JA_new": "どうした？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 491,
+      "string_id": "trofei_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Hey, man! You want to make some money? I need mutant parts.",
+      "JA_current": "Hey, man! You want to make some money? I need mutant parts.",
+      "JA_new": "なあ、金を稼がないか？ ミュータントの部位が欲しいんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "01",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 494,
+      "string_id": "trofei_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "What will you give me for them?",
+      "JA_current": "What will you give me for them?",
+      "JA_new": "いくらで買ってくれる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 497,
+      "string_id": "trofei_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "I'll pay for them in loot. I have a contract with the scientists to supply samples. If you shoot anything, give it to me. I'll pay you properly. I can usually give you artifacts, but if I'm out of those, then it will be ammunition and health supplies? So, do you have anything to trade? \n\t\t\\n \\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Dog Tail (x4): %c[0,170,170,170]Jellyfish\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Cat Tail (x3): %c[0,170,170,170]Wrenched\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Pseudodog Tail: %c[0,170,170,170]Stone Blood\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Flesh Eye: %c[0,170,170,170]Droplet\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Boar Hoof (x2): %c[0,170,170,170]Thorn\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Tushkano Head (x2): %c[0,170,170,170]Antirad (x3)\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Snork Foot: %c[0,170,170,170]Slime\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Zombie Hand (x4): %c[0,170,170,170]Vodka, Vinca, Bandage\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Fracture Arm (x2):  %c[0,170,170,170]Rifled Slug (x2), Shotgun Slugs\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Burer Paw: %c[0,170,170,170]Fireball\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Controller Hand: %c[0,170,170,170]Meat Chunk\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Poltergeist Eye: %c[0,170,170,170]Slug\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Bloodsucker Tentacles: %c[0,170,170,170]Crystal Thorn\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Chimer Claw (x2): %c[0,170,170,170]Stone Flower\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Pseudogiant Paw: %c[0,170,170,170]Flash\n\t\t",
+      "JA_current": "I'll pay for them in loot. I have a contract with the scientists to supply samples. If you shoot anything, give it to me. I'll pay you properly. I can usually give you artifacts, but if I'm out of those, then it will be ammunition and health supplies? So, do you have anything to trade? \n\t\t\\n \\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Dog Tail (x4): %c[0,170,170,170]Jellyfish\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Cat Tail (x3): %c[0,170,170,170]Wrenched\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Pseudodog Tail: %c[0,170,170,170]Stone Blood\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Flesh Eye: %c[0,170,170,170]Droplet\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Boar Hoof (x2): %c[0,170,170,170]Thorn\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Tushkano Head (x2): %c[0,170,170,170]Antirad (x3)\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Snork Foot: %c[0,170,170,170]Slime\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Zombie Hand (x4): %c[0,170,170,170]Vodka, Vinca, Bandage\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Fracture Arm (x2):  %c[0,170,170,170]Rifled Slug (x2), Shotgun Slugs\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Burer Paw: %c[0,170,170,170]Fireball\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Controller Hand: %c[0,170,170,170]Meat Chunk\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Poltergeist Eye: %c[0,170,170,170]Slug\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Bloodsucker Tentacles: %c[0,170,170,170]Crystal Thorn\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Chimer Claw (x2): %c[0,170,170,170]Stone Flower\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Pseudogiant Paw: %c[0,170,170,170]Flash\n\t\t",
+      "JA_new": "戦利品で払うよ。科学者と標本を納める契約を結んでてな。何か仕留めたら俺に持ってきてくれ。ちゃんと買い取る。普段はアーティファクトを渡してるが、切らしてたら弾薬か医療品になる。取引できる物はあるか？ \n\t\t\\n \\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]ブラインドドッグの尻尾（x4）: %c[0,170,170,170]ジェリーフィッシュ\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]バユンの尻尾（x3）: %c[0,170,170,170]レンチド\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]シュードドッグの尻尾: %c[0,170,170,170]ストーンブラッド\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]フレッシュの目: %c[0,170,170,170]ドロップレット\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]ボアの蹄（x2）: %c[0,170,170,170]ソーン\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]トゥシュカーノの頭（x2）: %c[0,170,170,170]抗放射線薬（x3）\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]スノークの足: %c[0,170,170,170]スライム\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]ゾンビの手（x4）: %c[0,170,170,170]ウォッカ、ヴィンカ、包帯\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]フラクチャーの腕（x2）:  %c[0,170,170,170]ライフル用スラッグ弾（x2）, 散弾銃用スラッグ弾\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]ブーラーの手: %c[0,170,170,170]ファイアボール\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]コントローラーの手: %c[0,170,170,170]ミートチャンク\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]ポルターガイストの目: %c[0,170,170,170]スラッグ\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]ブラッドサッカーの触手: %c[0,170,170,170]クリスタルソーン\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]キメラの爪（x2）: %c[0,170,170,170]ストーンフラワー\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]シュードジャイアントの前足: %c[0,170,170,170]フラッシュ\n\t\t",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 517,
+      "string_id": "trofei_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "I have blind dog tails.",
+      "JA_current": "I have blind dog tails.",
+      "JA_new": "ブラインドドッグの尻尾ならある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 520,
+      "string_id": "trofei_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "I have wild cat tails.",
+      "JA_current": "I have wild cat tails.",
+      "JA_new": "バユンの尻尾ならある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 523,
+      "string_id": "trofei_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "I have pseudodog tails.",
+      "JA_current": "I have pseudodog tails.",
+      "JA_new": "シュードドッグの尻尾ならある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 526,
+      "string_id": "trofei_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "I have Flesh eyes.",
+      "JA_current": "I have Flesh eyes.",
+      "JA_new": "フレッシュの目ならある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 529,
+      "string_id": "trofei_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "I have boar hooves.",
+      "JA_current": "I have boar hooves.",
+      "JA_new": "ボアの蹄がある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 532,
+      "string_id": "trofei_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "I got a snork foot.",
+      "JA_current": "I got a snork foot.",
+      "JA_new": "スノークの足だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 535,
+      "string_id": "trofei_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "Tushkano heads, take them away.",
+      "JA_current": "Tushkano heads, take them away.",
+      "JA_new": "トゥシュカーノの頭だ。持ってってくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 538,
+      "string_id": "trofei_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "Couple of Burer paws here, take them.",
+      "JA_current": "Couple of Burer paws here, take them.",
+      "JA_new": "ブーラーの手が二つある。受け取れ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_12#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 541,
+      "string_id": "trofei_dialog_phrase_12",
+      "occurrence": 1,
+      "EN": "A Chimera's claws. Perfect for a talisman.",
+      "JA_current": "A Chimera's claws. Perfect for a talisman.",
+      "JA_new": "キメラの爪だ。お守りにぴったりだろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_13#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 544,
+      "string_id": "trofei_dialog_phrase_13",
+      "occurrence": 1,
+      "EN": "A controller's hand. Take this opportunity to cherish this rarity.",
+      "JA_current": "A controller's hand. Take this opportunity to cherish this rarity.",
+      "JA_new": "コントローラーの手だ。こんな珍しい品、今のうちに手に入れておけ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_14#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 547,
+      "string_id": "trofei_dialog_phrase_14",
+      "occurrence": 1,
+      "EN": "The paw of a pseudo-giant. You've probably never seen such a thing.",
+      "JA_current": "The paw of a pseudo-giant. You've probably never seen such a thing.",
+      "JA_new": "シュードジャイアントの前足だ。こんなもの見たことないだろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_15#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 550,
+      "string_id": "trofei_dialog_phrase_15",
+      "occurrence": 1,
+      "EN": "A bloodsucker's feelers, here you go.",
+      "JA_current": "A bloodsucker's feelers, here you go.",
+      "JA_new": "ブラッドサッカーの触手だ。ほらよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_16#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 553,
+      "string_id": "trofei_dialog_phrase_16",
+      "occurrence": 1,
+      "EN": "Got a hold of an eye of a poltergeist.",
+      "JA_current": "Got a hold of an eye of a poltergeist.",
+      "JA_new": "ポルターガイストの目を手に入れた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_17#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 556,
+      "string_id": "trofei_dialog_phrase_17",
+      "occurrence": 1,
+      "EN": "Got a few zombie hands here, will that do?",
+      "JA_current": "Got a few zombie hands here, will that do?",
+      "JA_new": "ゾンビの手がいくつかある。これでいいか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "16",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_18#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 559,
+      "string_id": "trofei_dialog_phrase_18",
+      "occurrence": 1,
+      "EN": "Hands of a Fracture. Take 'em.",
+      "JA_current": "Hands of a Fracture. Take 'em.",
+      "JA_new": "フラクチャーの腕だ。持ってけ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "17",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_19#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 562,
+      "string_id": "trofei_dialog_phrase_19",
+      "occurrence": 1,
+      "EN": "A rat carcass. Need it?",
+      "JA_current": "A rat carcass. Need it?",
+      "JA_new": "ネズミの死骸だ。要るか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "18",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_36#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 615,
+      "string_id": "trofei_dialog_phrase_36",
+      "occurrence": 1,
+      "EN": "I don't have that.",
+      "JA_current": "I don't have that.",
+      "JA_new": "それは持ってない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "35",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_20#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 567,
+      "string_id": "trofei_dialog_phrase_20",
+      "occurrence": 1,
+      "EN": "Great, you get a Jellyfish for that:",
+      "JA_current": "Great, you get a Jellyfish for that:",
+      "JA_new": "よし、代わりにジェリーフィッシュをやる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "19",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_21#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 570,
+      "string_id": "trofei_dialog_phrase_21",
+      "occurrence": 1,
+      "EN": "Here's a Twist for you:",
+      "JA_current": "Here's a Twist for you:",
+      "JA_new": "ほら、トゥイストだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "20",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_22#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 573,
+      "string_id": "trofei_dialog_phrase_22",
+      "occurrence": 1,
+      "EN": "I'll give you a Blood for a pseudo-dog's tail",
+      "JA_current": "I'll give you a Blood for a pseudo-dog's tail",
+      "JA_new": "シュードドッグの尻尾ならブラッドをやる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_23#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 576,
+      "string_id": "trofei_dialog_phrase_23",
+      "occurrence": 1,
+      "EN": "Here's a Drops for that:",
+      "JA_current": "Here's a Drops for that:",
+      "JA_new": "ほら、ドロップレットだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "22",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_24#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 579,
+      "string_id": "trofei_dialog_phrase_24",
+      "occurrence": 1,
+      "EN": "For a boar's hoof you get a \"Thorn\"",
+      "JA_current": "For a boar's hoof you get a \"Thorn\"",
+      "JA_new": "ボアの蹄ならソーンだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "23",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_25#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 582,
+      "string_id": "trofei_dialog_phrase_25",
+      "occurrence": 1,
+      "EN": "Here's a \"Slime\" for it:",
+      "JA_current": "Here's a \"Slime\" for it:",
+      "JA_new": "その代わり、スライムをやろう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "24",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_26#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 585,
+      "string_id": "trofei_dialog_phrase_26",
+      "occurrence": 1,
+      "EN": "I'll give you one Anti-Rad for a tushkan's head:",
+      "JA_current": "I'll give you one Anti-Rad for a tushkan's head:",
+      "JA_new": "トゥシュカーノの頭なら、抗放射線薬をやる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "25",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_27#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 588,
+      "string_id": "trofei_dialog_phrase_27",
+      "occurrence": 1,
+      "EN": "A Burer's paw is a valuable trophy, take a \"Fireball\" for it:",
+      "JA_current": "A Burer's paw is a valuable trophy, take a \"Fireball\" for it:",
+      "JA_new": "ブーラーの手は貴重な戦利品だ。ファイアボールを持っていけ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "26",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_28#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 591,
+      "string_id": "trofei_dialog_phrase_28",
+      "occurrence": 1,
+      "EN": "For him I will give the Stone Flower:",
+      "JA_current": "For him I will give the Stone Flower:",
+      "JA_new": "そいつと引き換えに、ストーンフラワーをやる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "27",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_29#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 594,
+      "string_id": "trofei_dialog_phrase_29",
+      "occurrence": 1,
+      "EN": "Yes, a very valuable specimen. Take this piece.",
+      "JA_current": "Yes, a very valuable specimen. Take this piece.",
+      "JA_new": "そう、かなり貴重な標本だ。こいつを持ってけ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "28",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_30#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 597,
+      "string_id": "trofei_dialog_phrase_30",
+      "occurrence": 1,
+      "EN": "Wow, what luck! Thank you, here's the artifact Flash as a reward:",
+      "JA_current": "Wow, what luck! Thank you, here's the artifact Flash as a reward:",
+      "JA_new": "こいつは運がいいな！ 礼を言うよ。報酬のフラッシュだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "29",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_31#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 600,
+      "string_id": "trofei_dialog_phrase_31",
+      "occurrence": 1,
+      "EN": "Was he a big guy? Did you do it yourself or did you have help? Take the crystal one.",
+      "JA_current": "Was he a big guy? Did you do it yourself or did you have help? Take the crystal one.",
+      "JA_new": "大物だったか？ 一人で倒したのか、それとも仲間がいた？ クリスタルをやるよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "30",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_32#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 603,
+      "string_id": "trofei_dialog_phrase_32",
+      "occurrence": 1,
+      "EN": "Yes, it's a rare find. Here's a Slug for you:",
+      "JA_current": "Yes, it's a rare find. Here's a Slug for you:",
+      "JA_new": "珍しいものを見つけたな。ほら、スラッグをやる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "31",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_33#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 606,
+      "string_id": "trofei_dialog_phrase_33",
+      "occurrence": 1,
+      "EN": "Give it to me, here's the medicine as a reward:",
+      "JA_current": "Give it to me, here's the medicine as a reward:",
+      "JA_new": "そいつを渡してくれ。礼に薬をやるよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "32",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_34#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 609,
+      "string_id": "trofei_dialog_phrase_34",
+      "occurrence": 1,
+      "EN": "If it comes in handy, have some ammunition, a real hunter can always use it: ",
+      "JA_current": "If it comes in handy, have some ammunition, a real hunter can always use it: ",
+      "JA_new": "役に立つなら弾薬を持っていけ。本物のハンターなら、弾はいくらあっても困らない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "33",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:trofei_dialog_phrase_35#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 612,
+      "string_id": "trofei_dialog_phrase_35",
+      "occurrence": 1,
+      "EN": "Nah, you keep that stuff.",
+      "JA_current": "Nah, you keep that stuff.",
+      "JA_new": "いや、そいつは持ってろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofei_dialog",
+          "phrase_id": "34",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "trofei_dialog_phrase_0",
+      "next": [
+        "01"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What's up?",
+      "JA_current": "What's up?",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_0#1"
+      ]
+    },
+    {
+      "phrase_id": "01",
+      "text_id": "trofei_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, man! You want to make some money? I need mutant parts.",
+      "JA_current": "Hey, man! You want to make some money? I need mutant parts.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "trofei_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "01"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What will you give me for them?",
+      "JA_current": "What will you give me for them?",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "trofei_dialog_phrase_3",
+      "next": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "35"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'll pay for them in loot. I have a contract with the scientists to supply samples. If you shoot anything, give it to me. I'll pay you properly. I can usually give you artifacts, but if I'm out of those, then it will be ammunition and health supplies? So, do you have anything to trade? \n\t\t\\n \\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Dog Tail (x4): %c[0,170,170,170]Jellyfish\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Cat Tail (x3): %c[0,170,170,170]Wrenched\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Pseudodog Tail: %c[0,170,170,170]Stone Blood\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Flesh Eye: %c[0,170,170,170]Droplet\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Boar Hoof (x2): %c[0,170,170,170]Thorn\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Tushkano Head (x2): %c[0,170,170,170]Antirad (x3)\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Snork Foot: %c[0,170,170,170]Slime\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Zombie Hand (x4): %c[0,170,170,170]Vodka, Vinca, Bandage\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Fracture Arm (x2):  %c[0,170,170,170]Rifled Slug (x2), Shotgun Slugs\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Burer Paw: %c[0,170,170,170]Fireball\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Controller Hand: %c[0,170,170,170]Meat Chunk\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Poltergeist Eye: %c[0,170,170,170]Slug\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Bloodsucker Tentacles: %c[0,170,170,170]Crystal Thorn\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Chimer Claw (x2): %c[0,170,170,170]Stone Flower\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Pseudogiant Paw: %c[0,170,170,170]Flash\n\t\t",
+      "JA_current": "I'll pay for them in loot. I have a contract with the scientists to supply samples. If you shoot anything, give it to me. I'll pay you properly. I can usually give you artifacts, but if I'm out of those, then it will be ammunition and health supplies? So, do you have anything to trade? \n\t\t\\n \\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Dog Tail (x4): %c[0,170,170,170]Jellyfish\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Cat Tail (x3): %c[0,170,170,170]Wrenched\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Pseudodog Tail: %c[0,170,170,170]Stone Blood\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Flesh Eye: %c[0,170,170,170]Droplet\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Boar Hoof (x2): %c[0,170,170,170]Thorn\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Tushkano Head (x2): %c[0,170,170,170]Antirad (x3)\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Snork Foot: %c[0,170,170,170]Slime\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Zombie Hand (x4): %c[0,170,170,170]Vodka, Vinca, Bandage\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Fracture Arm (x2):  %c[0,170,170,170]Rifled Slug (x2), Shotgun Slugs\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Burer Paw: %c[0,170,170,170]Fireball\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Controller Hand: %c[0,170,170,170]Meat Chunk\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Poltergeist Eye: %c[0,170,170,170]Slug\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Bloodsucker Tentacles: %c[0,170,170,170]Crystal Thorn\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Chimer Claw (x2): %c[0,170,170,170]Stone Flower\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]Pseudogiant Paw: %c[0,170,170,170]Flash\n\t\t",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "trofei_dialog_phrase_4",
+      "next": [
+        "19"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_dogtail"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.dogtail_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I have blind dog tails.",
+      "JA_current": "I have blind dog tails.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "trofei_dialog_phrase_5",
+      "next": [
+        "20"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_cattail"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.cattail_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I have wild cat tails.",
+      "JA_current": "I have wild cat tails.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "trofei_dialog_phrase_6",
+      "next": [
+        "21"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_pseudodogtail"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.pseudodogtail_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I have pseudodog tails.",
+      "JA_current": "I have pseudodog tails.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "trofei_dialog_phrase_7",
+      "next": [
+        "22"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_flasheye"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.flasheye_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I have Flesh eyes.",
+      "JA_current": "I have Flesh eyes.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "trofei_dialog_phrase_8",
+      "next": [
+        "23"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_boarleg"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.boarleg_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I have boar hooves.",
+      "JA_current": "I have boar hooves.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "trofei_dialog_phrase_9",
+      "next": [
+        "24"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_snorkleg"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.snorkleg_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I got a snork foot.",
+      "JA_current": "I got a snork foot.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "trofei_dialog_phrase_10",
+      "next": [
+        "25"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_tuscanhead"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.tuscanhead_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Tushkano heads, take them away.",
+      "JA_current": "Tushkano heads, take them away.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "trofei_dialog_phrase_11",
+      "next": [
+        "26"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_burerhand"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.burerhand_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Couple of Burer paws here, take them.",
+      "JA_current": "Couple of Burer paws here, take them.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "trofei_dialog_phrase_12",
+      "next": [
+        "27"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_chimeracogot"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.chimeracogot_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A Chimera's claws. Perfect for a talisman.",
+      "JA_current": "A Chimera's claws. Perfect for a talisman.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_12#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "trofei_dialog_phrase_13",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_controlhand"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.controlhand_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A controller's hand. Take this opportunity to cherish this rarity.",
+      "JA_current": "A controller's hand. Take this opportunity to cherish this rarity.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_13#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "trofei_dialog_phrase_14",
+      "next": [
+        "29"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_giganthand"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.giganthand_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The paw of a pseudo-giant. You've probably never seen such a thing.",
+      "JA_current": "The paw of a pseudo-giant. You've probably never seen such a thing.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_14#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "trofei_dialog_phrase_15",
+      "next": [
+        "30"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_suckerjaw"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.suckerjaw_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A bloodsucker's feelers, here you go.",
+      "JA_current": "A bloodsucker's feelers, here you go.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_15#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "trofei_dialog_phrase_16",
+      "next": [
+        "31"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_polterglaz"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.polterglaz_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Got a hold of an eye of a poltergeist.",
+      "JA_current": "Got a hold of an eye of a poltergeist.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_16#1"
+      ]
+    },
+    {
+      "phrase_id": "16",
+      "text_id": "trofei_dialog_phrase_17",
+      "next": [
+        "32"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_zombiehand"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.zombiehand_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Got a few zombie hands here, will that do?",
+      "JA_current": "Got a few zombie hands here, will that do?",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_17#1"
+      ]
+    },
+    {
+      "phrase_id": "17",
+      "text_id": "trofei_dialog_phrase_18",
+      "next": [
+        "33"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_izlomhand"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.izlomhand_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hands of a Fracture. Take 'em.",
+      "JA_current": "Hands of a Fracture. Take 'em.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_18#1"
+      ]
+    },
+    {
+      "phrase_id": "18",
+      "text_id": "trofei_dialog_phrase_19",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_ratcorp"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A rat carcass. Need it?",
+      "JA_current": "A rat carcass. Need it?",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_19#1"
+      ]
+    },
+    {
+      "phrase_id": "35",
+      "text_id": "trofei_dialog_phrase_36",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I don't have that.",
+      "JA_current": "I don't have that.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_36#1"
+      ]
+    },
+    {
+      "phrase_id": "19",
+      "text_id": "trofei_dialog_phrase_20",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.meduza_in"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Great, you get a Jellyfish for that:",
+      "JA_current": "Great, you get a Jellyfish for that:",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_20#1"
+      ]
+    },
+    {
+      "phrase_id": "20",
+      "text_id": "trofei_dialog_phrase_21",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.vivert_in"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here's a Twist for you:",
+      "JA_current": "Here's a Twist for you:",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_21#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "trofei_dialog_phrase_22",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.blood_in"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'll give you a Blood for a pseudo-dog's tail",
+      "JA_current": "I'll give you a Blood for a pseudo-dog's tail",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_22#1"
+      ]
+    },
+    {
+      "phrase_id": "22",
+      "text_id": "trofei_dialog_phrase_23",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.kapli_in"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here's a Drops for that:",
+      "JA_current": "Here's a Drops for that:",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_23#1"
+      ]
+    },
+    {
+      "phrase_id": "23",
+      "text_id": "trofei_dialog_phrase_24",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.thorn_in"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "For a boar's hoof you get a \"Thorn\"",
+      "JA_current": "For a boar's hoof you get a \"Thorn\"",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_24#1"
+      ]
+    },
+    {
+      "phrase_id": "24",
+      "text_id": "trofei_dialog_phrase_25",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.sliz_in"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here's a \"Slime\" for it:",
+      "JA_current": "Here's a \"Slime\" for it:",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_25#1"
+      ]
+    },
+    {
+      "phrase_id": "25",
+      "text_id": "trofei_dialog_phrase_26",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.antirad_in"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'll give you one Anti-Rad for a tushkan's head:",
+      "JA_current": "I'll give you one Anti-Rad for a tushkan's head:",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_26#1"
+      ]
+    },
+    {
+      "phrase_id": "26",
+      "text_id": "trofei_dialog_phrase_27",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.fireball_in"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A Burer's paw is a valuable trophy, take a \"Fireball\" for it:",
+      "JA_current": "A Burer's paw is a valuable trophy, take a \"Fireball\" for it:",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_27#1"
+      ]
+    },
+    {
+      "phrase_id": "27",
+      "text_id": "trofei_dialog_phrase_28",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.stoneflower_in"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "For him I will give the Stone Flower:",
+      "JA_current": "For him I will give the Stone Flower:",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_28#1"
+      ]
+    },
+    {
+      "phrase_id": "28",
+      "text_id": "trofei_dialog_phrase_29",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.meat_in"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, a very valuable specimen. Take this piece.",
+      "JA_current": "Yes, a very valuable specimen. Take this piece.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_29#1"
+      ]
+    },
+    {
+      "phrase_id": "29",
+      "text_id": "trofei_dialog_phrase_30",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.flash_in"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Wow, what luck! Thank you, here's the artifact Flash as a reward:",
+      "JA_current": "Wow, what luck! Thank you, here's the artifact Flash as a reward:",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_30#1"
+      ]
+    },
+    {
+      "phrase_id": "30",
+      "text_id": "trofei_dialog_phrase_31",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.kristallthorn_in"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Was he a big guy? Did you do it yourself or did you have help? Take the crystal one.",
+      "JA_current": "Was he a big guy? Did you do it yourself or did you have help? Take the crystal one.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_31#1"
+      ]
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "trofei_dialog_phrase_32",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.sliznyak_in"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "15"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, it's a rare find. Here's a Slug for you:",
+      "JA_current": "Yes, it's a rare find. Here's a Slug for you:",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_32#1"
+      ]
+    },
+    {
+      "phrase_id": "32",
+      "text_id": "trofei_dialog_phrase_33",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.medicine_in"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "16"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Give it to me, here's the medicine as a reward:",
+      "JA_current": "Give it to me, here's the medicine as a reward:",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_33#1"
+      ]
+    },
+    {
+      "phrase_id": "33",
+      "text_id": "trofei_dialog_phrase_34",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.patroni_in"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "17"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "If it comes in handy, have some ammunition, a real hunter can always use it: ",
+      "JA_current": "If it comes in handy, have some ammunition, a real hunter can always use it: ",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_34#1"
+      ]
+    },
+    {
+      "phrase_id": "34",
+      "text_id": "trofei_dialog_phrase_35",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "18"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Nah, you keep that stuff.",
+      "JA_current": "Nah, you keep that stuff.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:trofei_dialog_phrase_35#1"
+      ]
+    }
+  ]
+}

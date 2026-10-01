@@ -1,0 +1,1039 @@
+{
+  "packet_id": "dialog_0169__ahmet_obmen_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "ahmet_obmen_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "ahmet_stalker",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 21,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:ahmet_obmen_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2040,
+      "string_id": "ahmet_obmen_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "I want to trade artifacts for armor-piercing ammunition.",
+      "JA_current": "アーティファクトと徹甲弾を交換したい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_obmen_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_obmen_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2043,
+      "string_id": "ahmet_obmen_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Okay, what did you bring? \\n \\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]9x18 PBM: %c[0,170,170,170]Jellyfish\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]9x19 JHP: %c[0,170,170,170]Stone Blood\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]45ACP Hydro: %c[0,170,170,170]Thorn\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]5.45x39mm 7N22: %c[0,170,170,170]Stone Flower\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]5.56x45mm NATO SS190: %c[0,170,170,170]Gravi\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]7.62x54mm 7N13: %c[0,170,170,170]Fireball\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]7.62x51mm NATO BP: %c[0,170,170,170]Crystal Thorn\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]9x39 SP-6: %c[0,170,170,170]Slug\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]VOG-25 (2x), M-209 (2x): %c[0,170,170,170]Night Star\n\t\t",
+      "JA_current": "分かった。何を持ってきた？ \n \n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]9x18 PBM: %c[0,170,170,170]ジェリーフィッシュ\n\t\t%c[0,0,255,255] • %c[0,255,255,255]9x19 JHP: %c[0,170,170,170]ストーンブラッド\n\t\t%c[0,0,255,255] • %c[0,255,255,255]45ACP Hydro: %c[0,170,170,170]ソーン\n\t\t%c[0,0,255,255] • %c[0,255,255,255]5.45x39mm 7N22: %c[0,170,170,170]ストーンフラワー\n\t\t%c[0,0,255,255] • %c[0,255,255,255]5.56x45mm NATO SS190: %c[0,170,170,170]グラビ\n\t\t%c[0,0,255,255] • %c[0,255,255,255]7.62x54mm 7N13: %c[0,170,170,170]ファイアボール\n\t\t%c[0,0,255,255] • %c[0,255,255,255]7.62x51mm NATO BP: %c[0,170,170,170]クリスタルソーン\n\t\t%c[0,0,255,255] • %c[0,255,255,255]9x39 SP-6: %c[0,170,170,170]スラッグ\n\t\t%c[0,0,255,255] • %c[0,255,255,255]VOG-25 (2x), M-209 (2x): %c[0,170,170,170]ナイトスター\n\t\t",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_obmen_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_obmen_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2056,
+      "string_id": "ahmet_obmen_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "I have a Jellyfish. 9x18 sound good in exchange?",
+      "JA_current": "«ジェリーフィッシュ»がある。9x18 PBM弾と交換してくれるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_obmen_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_obmen_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2059,
+      "string_id": "ahmet_obmen_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "I have the Stone Blood artifact. How about some 9x19 AR.",
+      "JA_current": "«ストーンブラッド»を持ってきた。9x19 JHP弾はどうだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_obmen_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_obmen_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2062,
+      "string_id": "ahmet_obmen_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Here's a Thorn, I think. Give me something rare, how about 45ACP?.",
+      "JA_current": "«ソーン»があるぞ。45ACP Hydro弾を頼む。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_obmen_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_obmen_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2065,
+      "string_id": "ahmet_obmen_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Here's the Stone Flower, got any 5.45x39's?",
+      "JA_current": "«ストーンフラワー»だ。5.45x39mm 7N22弾をくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_obmen_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_obmen_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2068,
+      "string_id": "ahmet_obmen_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Take the Gravi, give me some 5.56x45 NATO rounds.",
+      "JA_current": "«グラビ»を渡す。5.56x45mm NATO SS190弾を頼む。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_obmen_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_obmen_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2071,
+      "string_id": "ahmet_obmen_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "Here's a Fireball. I need that heavy 7.62x54 ammo.",
+      "JA_current": "«ファイアボール»だ。7.62x54mm 7N13弾をもらおう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_obmen_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_obmen_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2074,
+      "string_id": "ahmet_obmen_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "Have a Slug, I want some fancy 9x39 caliber.",
+      "JA_current": "«スラッグ»がある。9x39 SP-6弾と交換してくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_obmen_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_obmen_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2077,
+      "string_id": "ahmet_obmen_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "I have the Crystal thorn, I need the 7.62x51 NATO ammo.",
+      "JA_current": "«クリスタルソーン»を持ってきた。7.62x51mm NATO BP弾が欲しい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_obmen_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_obmen_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2080,
+      "string_id": "ahmet_obmen_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "For the Night Star, how about some under-barrel grenades? Got some of that?",
+      "JA_current": "«ナイトスター»と交換に、アンダーバレル用のグレネード弾はあるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_obmen_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_31#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 96,
+      "string_id": "dialogs_bar_31",
+      "occurrence": 1,
+      "EN": "I changed my mind.",
+      "JA_current": "気が変わった、やめておく。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_obmen_dialog",
+          "phrase_id": "20",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_obmen_dialog_phrase_12#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2083,
+      "string_id": "ahmet_obmen_dialog_phrase_12",
+      "occurrence": 1,
+      "EN": "Done!",
+      "JA_current": "毎度あり！ 取引成立だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_obmen_dialog",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_obmen_dialog_phrase_13#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2086,
+      "string_id": "ahmet_obmen_dialog_phrase_13",
+      "occurrence": 1,
+      "EN": "Done!",
+      "JA_current": "毎度あり！ 取引成立だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_obmen_dialog",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_obmen_dialog_phrase_14#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2089,
+      "string_id": "ahmet_obmen_dialog_phrase_14",
+      "occurrence": 1,
+      "EN": "Done!",
+      "JA_current": "毎度あり！ 取引成立だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_obmen_dialog",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_obmen_dialog_phrase_15#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2092,
+      "string_id": "ahmet_obmen_dialog_phrase_15",
+      "occurrence": 1,
+      "EN": "Done!",
+      "JA_current": "毎度あり！ 取引成立だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_obmen_dialog",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_obmen_dialog_phrase_16#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2095,
+      "string_id": "ahmet_obmen_dialog_phrase_16",
+      "occurrence": 1,
+      "EN": "Done!",
+      "JA_current": "毎度あり！ 取引成立だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_obmen_dialog",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_obmen_dialog_phrase_17#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2098,
+      "string_id": "ahmet_obmen_dialog_phrase_17",
+      "occurrence": 1,
+      "EN": "Done!",
+      "JA_current": "毎度あり！ 取引成立だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_obmen_dialog",
+          "phrase_id": "16",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_obmen_dialog_phrase_18#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2101,
+      "string_id": "ahmet_obmen_dialog_phrase_18",
+      "occurrence": 1,
+      "EN": "Done!",
+      "JA_current": "毎度あり！ 取引成立だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_obmen_dialog",
+          "phrase_id": "17",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_obmen_dialog_phrase_19#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2104,
+      "string_id": "ahmet_obmen_dialog_phrase_19",
+      "occurrence": 1,
+      "EN": "Done!",
+      "JA_current": "毎度あり！ 取引成立だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_obmen_dialog",
+          "phrase_id": "18",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_obmen_dialog_phrase_20#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2107,
+      "string_id": "ahmet_obmen_dialog_phrase_20",
+      "occurrence": 1,
+      "EN": "Done!",
+      "JA_current": "毎度あり！ 取引成立だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_obmen_dialog",
+          "phrase_id": "19",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "ahmet_obmen_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.chto_tebya_interesuet"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I want to trade artifacts for armor-piercing ammunition.",
+      "JA_current": "I want to trade artifacts for armor-piercing ammunition.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_obmen_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "ahmet_obmen_dialog_phrase_2",
+      "next": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "20"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Okay, what did you bring? \\n \\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]9x18 PBM: %c[0,170,170,170]Jellyfish\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]9x19 JHP: %c[0,170,170,170]Stone Blood\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]45ACP Hydro: %c[0,170,170,170]Thorn\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]5.45x39mm 7N22: %c[0,170,170,170]Stone Flower\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]5.56x45mm NATO SS190: %c[0,170,170,170]Gravi\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]7.62x54mm 7N13: %c[0,170,170,170]Fireball\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]7.62x51mm NATO BP: %c[0,170,170,170]Crystal Thorn\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]9x39 SP-6: %c[0,170,170,170]Slug\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]VOG-25 (2x), M-209 (2x): %c[0,170,170,170]Night Star\n\t\t",
+      "JA_current": "Okay, what did you bring? \\n \\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]9x18 PBM: %c[0,170,170,170]Jellyfish\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]9x19 JHP: %c[0,170,170,170]Stone Blood\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]45ACP Hydro: %c[0,170,170,170]Thorn\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]5.45x39mm 7N22: %c[0,170,170,170]Stone Flower\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]5.56x45mm NATO SS190: %c[0,170,170,170]Gravi\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]7.62x54mm 7N13: %c[0,170,170,170]Fireball\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]7.62x51mm NATO BP: %c[0,170,170,170]Crystal Thorn\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]9x39 SP-6: %c[0,170,170,170]Slug\\n\n\t\t%c[0,0,255,255] • %c[0,255,255,255]VOG-25 (2x), M-209 (2x): %c[0,170,170,170]Night Star\n\t\t",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_obmen_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "ahmet_obmen_dialog_phrase_3",
+      "next": [
+        "11"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_medusa"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.medusa_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I have a Jellyfish. 9x18 sound good in exchange?",
+      "JA_current": "I have a Jellyfish. 9x18 sound good in exchange?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_obmen_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "ahmet_obmen_dialog_phrase_4",
+      "next": [
+        "12"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_blood"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.blood_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I have the Stone Blood artifact. How about some 9x19 AR.",
+      "JA_current": "I have the Stone Blood artifact. How about some 9x19 AR.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_obmen_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "ahmet_obmen_dialog_phrase_5",
+      "next": [
+        "13"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_koluchka"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.koluchka_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here's a Thorn, I think. Give me something rare, how about 45ACP?.",
+      "JA_current": "Here's a Thorn, I think. Give me something rare, how about 45ACP?.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_obmen_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "ahmet_obmen_dialog_phrase_6",
+      "next": [
+        "14"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_stoneflower"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.stoneflower_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here's the Stone Flower, got any 5.45x39's?",
+      "JA_current": "Here's the Stone Flower, got any 5.45x39's?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_obmen_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "ahmet_obmen_dialog_phrase_7",
+      "next": [
+        "15"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_gravi"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.gravi_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Take the Gravi, give me some 5.56x45 NATO rounds.",
+      "JA_current": "Take the Gravi, give me some 5.56x45 NATO rounds.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_obmen_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "ahmet_obmen_dialog_phrase_8",
+      "next": [
+        "16"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_shar"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.shar_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here's a Fireball. I need that heavy 7.62x54 ammo.",
+      "JA_current": "Here's a Fireball. I need that heavy 7.62x54 ammo.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_obmen_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "ahmet_obmen_dialog_phrase_9",
+      "next": [
+        "17"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_sliznyak"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.sliznyak_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Have a Slug, I want some fancy 9x39 caliber.",
+      "JA_current": "Have a Slug, I want some fancy 9x39 caliber.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_obmen_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "ahmet_obmen_dialog_phrase_10",
+      "next": [
+        "18"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_kristall_koluchka"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.kristall_koluchka_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I have the Crystal thorn, I need the 7.62x51 NATO ammo.",
+      "JA_current": "I have the Crystal thorn, I need the 7.62x51 NATO ammo.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_obmen_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "ahmet_obmen_dialog_phrase_11",
+      "next": [
+        "19"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_nochnaya_zvezda"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.nochnaya_zvezda_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "For the Night Star, how about some under-barrel grenades? Got some of that?",
+      "JA_current": "For the Night Star, how about some under-barrel grenades? Got some of that?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_obmen_dialog_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "20",
+      "text_id": "dialogs_bar_31",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I changed my mind.",
+      "JA_current": "I changed my mind.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_31#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "ahmet_obmen_dialog_phrase_12",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.zametano"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.poluchi_9x18"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Done!",
+      "JA_current": "Done!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_obmen_dialog_phrase_12#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "ahmet_obmen_dialog_phrase_13",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.zametano"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.poluchi_9x19"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Done!",
+      "JA_current": "Done!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_obmen_dialog_phrase_13#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "ahmet_obmen_dialog_phrase_14",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.zametano"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.poluchi_hidroshok"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Done!",
+      "JA_current": "Done!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_obmen_dialog_phrase_14#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "ahmet_obmen_dialog_phrase_15",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.zametano"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.poluchi_545x39"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Done!",
+      "JA_current": "Done!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_obmen_dialog_phrase_15#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "ahmet_obmen_dialog_phrase_16",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.zametano"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.poluchi_556x45"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Done!",
+      "JA_current": "Done!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_obmen_dialog_phrase_16#1"
+      ]
+    },
+    {
+      "phrase_id": "16",
+      "text_id": "ahmet_obmen_dialog_phrase_17",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.zametano"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.poluchi_762x54"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Done!",
+      "JA_current": "Done!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_obmen_dialog_phrase_17#1"
+      ]
+    },
+    {
+      "phrase_id": "17",
+      "text_id": "ahmet_obmen_dialog_phrase_18",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.zametano"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.poluchi_9x39SP6"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Done!",
+      "JA_current": "Done!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_obmen_dialog_phrase_18#1"
+      ]
+    },
+    {
+      "phrase_id": "18",
+      "text_id": "ahmet_obmen_dialog_phrase_19",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.zametano"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.poluchi_762x51"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Done!",
+      "JA_current": "Done!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_obmen_dialog_phrase_19#1"
+      ]
+    },
+    {
+      "phrase_id": "19",
+      "text_id": "ahmet_obmen_dialog_phrase_20",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.zametano"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.poluchi_podstvoli"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Done!",
+      "JA_current": "Done!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_obmen_dialog_phrase_20#1"
+      ]
+    }
+  ]
+}

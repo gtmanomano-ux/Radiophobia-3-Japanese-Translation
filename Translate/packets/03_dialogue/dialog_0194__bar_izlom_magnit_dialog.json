@@ -1,0 +1,418 @@
+{
+  "packet_id": "dialog_0194__bar_izlom_magnit_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_izlom_magnit_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_izlom",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.have_magnetto"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "bar_izlom_magnetto_no"
+    },
+    {
+      "type": "has_info",
+      "value": "bar_izlom"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 9,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_izlom_magnit_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2772,
+      "string_id": "bar_izlom_magnit_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Listen, do you know who could help me get rid of this Black Magnet?",
+      "JA_current": "Listen, do you know who could help me get rid of this Black Magnet?",
+      "JA_new": "なあ、このブラックマグネットを外してくれる奴を知らないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_magnit_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_izlom_magnit_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2775,
+      "string_id": "bar_izlom_magnit_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "A \"black magnet\", you say? How long have you had it?",
+      "JA_current": "A \"black magnet\", you say? How long have you had it?",
+      "JA_new": "「ブラックマグネット」だって？ どのくらい前からくっついてる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_magnit_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_izlom_magnit_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2778,
+      "string_id": "bar_izlom_magnit_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "A while... It's stuck to me like tar, I can't get rid of it.",
+      "JA_current": "A while... It's stuck to me like tar, I can't get rid of it.",
+      "JA_new": "しばらく前から……タールみたいに張りついて、どうしても取れない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_magnit_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_izlom_magnit_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2781,
+      "string_id": "bar_izlom_magnit_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Why didn't you tell me you had such delicious things? Come on, give it to me, my little dove, and hurry up!",
+      "JA_current": "Why didn't you tell me you had such delicious things? Come on, give it to me, my little dove, and hurry up!",
+      "JA_new": "そんなうまそうな物を持ってるなら、早く言えよ！ ほら、こっちへ渡せ、かわいい鳩ちゃん。急げ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_magnit_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_izlom_magnit_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2784,
+      "string_id": "bar_izlom_magnit_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Do you even know what this thing is?",
+      "JA_current": "Do you even know what this thing is?",
+      "JA_new": "これが何なのか、分かってるのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_magnit_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_izlom_magnit_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2787,
+      "string_id": "bar_izlom_magnit_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Sure! It's a real delicacy for us jerks. Well, why are you staring like a pig at lard? Come on, I said, bring it here, you cheapskate. You don't know that it's sucking the juices out of you people? Come on, while it's still good, I know just how to remove it!",
+      "JA_current": "Sure! It's a real delicacy for us jerks. Well, why are you staring like a pig at lard? Come on, I said, bring it here, you cheapskate. You don't know that it's sucking the juices out of you people? Come on, while it's still good, I know just how to remove it!",
+      "JA_new": "もちろんだ！ 俺たち化け物にはごちそうさ。何を豚みたいに眺めてる？ 早くこっちへ渡せ、ケチ野郎。こいつがお前らの生気を吸ってるって知らないのか？ いい状態のうちに渡せ。外し方は知ってる！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_magnit_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_izlom_magnit_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2790,
+      "string_id": "bar_izlom_magnit_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Yeah, sure, take it.",
+      "JA_current": "Yeah, sure, take it.",
+      "JA_new": "ああ、いいよ。持っていけ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_magnit_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_izlom_magnit_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2793,
+      "string_id": "bar_izlom_magnit_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "I'd rather take it to the scientists, they will irradiate it with something, and it will fall off. And I'll get some money for it, too.",
+      "JA_current": "I'd rather take it to the scientists, they will irradiate it with something, and it will fall off. And I'll get some money for it, too.",
+      "JA_new": "科学者に渡す方がいい。何かを照射すれば外れるし、金ももらえる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_magnit_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_izlom_magnit_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2796,
+      "string_id": "bar_izlom_magnit_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "Hehehe, well, go ahead... Fucking loser. You'll regret it later.",
+      "JA_current": "Hehehe, well, go ahead... Fucking loser. You'll regret it later.",
+      "JA_new": "へへへ、好きにしろ……負け犬め。後悔するぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_magnit_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bar_izlom_magnit_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Listen, do you know who could help me get rid of this Black Magnet?",
+      "JA_current": "Listen, do you know who could help me get rid of this Black Magnet?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_magnit_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "bar_izlom_magnit_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A \"black magnet\", you say? How long have you had it?",
+      "JA_current": "A \"black magnet\", you say? How long have you had it?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_magnit_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "bar_izlom_magnit_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A while... It's stuck to me like tar, I can't get rid of it.",
+      "JA_current": "A while... It's stuck to me like tar, I can't get rid of it.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_magnit_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "bar_izlom_magnit_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Why didn't you tell me you had such delicious things? Come on, give it to me, my little dove, and hurry up!",
+      "JA_current": "Why didn't you tell me you had such delicious things? Come on, give it to me, my little dove, and hurry up!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_magnit_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "bar_izlom_magnit_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Do you even know what this thing is?",
+      "JA_current": "Do you even know what this thing is?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_magnit_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "bar_izlom_magnit_dialog_phrase_6",
+      "next": [
+        "6",
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sure! It's a real delicacy for us jerks. Well, why are you staring like a pig at lard? Come on, I said, bring it here, you cheapskate. You don't know that it's sucking the juices out of you people? Come on, while it's still good, I know just how to remove it!",
+      "JA_current": "Sure! It's a real delicacy for us jerks. Well, why are you staring like a pig at lard? Come on, I said, bring it here, you cheapskate. You don't know that it's sucking the juices out of you people? Come on, while it's still good, I know just how to remove it!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_magnit_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "bar_izlom_magnit_dialog_phrase_7",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.magnetto_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, sure, take it.",
+      "JA_current": "Yeah, sure, take it.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_magnit_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "bar_izlom_magnit_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "bar_izlom_magnetto_no"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'd rather take it to the scientists, they will irradiate it with something, and it will fall off. And I'll get some money for it, too.",
+      "JA_current": "I'd rather take it to the scientists, they will irradiate it with something, and it will fall off. And I'll get some money for it, too.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_magnit_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "bar_izlom_magnit_dialog_phrase_9",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hehehe, well, go ahead... Fucking loser. You'll regret it later.",
+      "JA_current": "Hehehe, well, go ahead... Fucking loser. You'll regret it later.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_magnit_dialog_phrase_9#1"
+      ]
+    }
+  ]
+}

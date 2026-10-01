@@ -1,0 +1,164 @@
+{
+  "packet_id": "dialog_0111__bar_ecolog_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_ecolog_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [],
+  "dialog_conditions": [],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 2,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_ecolog_dialog_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1661,
+      "string_id": "bar_ecolog_dialog_11",
+      "occurrence": 1,
+      "EN": "Stalker, talk to professor Kruglov, help him get out.",
+      "JA_current": "ストーカー、クルグロフ教授と話して、ここから助け出してやってくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_ecolog_dialog",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_ecolog_dialog_21#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1664,
+      "string_id": "bar_ecolog_dialog_21",
+      "occurrence": 1,
+      "EN": "It's over. They killed Kruglov!",
+      "JA_current": "もう終わりだ。クルグロフは殺された！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_ecolog_dialog",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": null,
+      "next": [
+        "1",
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1",
+      "text_id": null,
+      "next": [
+        "11"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_heli_scene_professor_die"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "2",
+      "text_id": null,
+      "next": [
+        "21"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "bar_heli_scene_professor_die"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "bar_ecolog_dialog_11",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Stalker, talk to professor Kruglov, help him get out.",
+      "JA_current": "ストーカー、Kruglov 教授に話かけ、彼を助け出せ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_ecolog_dialog_11#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "bar_ecolog_dialog_21",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "It's over. They killed Kruglov!",
+      "JA_current": "おしまいだ。奴らは Kruglov を殺した！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_ecolog_dialog_21#1"
+      ]
+    }
+  ]
+}

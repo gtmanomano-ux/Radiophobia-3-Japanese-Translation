@@ -1,0 +1,392 @@
+{
+    "packet_id":  "dialog_0385__skryaga_reward",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "skryaga_reward",
+    "graph_source":  "gamedata/config/gameplay/dialogs_military.xml",
+    "graph_sha256":  "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+    "character_bindings":  [
+                               {
+                                   "profile_id":  "mil_Svoboda_trader",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_military.xml"
+                               }
+                           ],
+    "dialog_conditions":  [
+                              {
+                                  "type":  "dont_has_info",
+                                  "value":  "scryaga_o_alane"
+                              },
+                              {
+                                  "type":  "has_info",
+                                  "value":  "mikluha_infa"
+                              }
+                          ],
+    "root_speaker_hint":  "player",
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  7,
+    "entries":  [
+                    {
+                        "key":  "stable_dialogs_military:skryaga_reward_phrase_1#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1704,
+                        "string_id":  "skryaga_reward_phrase_1",
+                        "occurrence":  1,
+                        "EN":  "I found Miklukha\u0027s body.",
+                        "JA_current":  "I found Miklukha\u0027s body.",
+                        "JA_new":  "ミクルーハの遺体を見つけた。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "skryaga_reward",
+                                               "phrase_id":  "0",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:skryaga_reward_phrase_2#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1707,
+                        "string_id":  "skryaga_reward_phrase_2",
+                        "occurrence":  1,
+                        "EN":  "Is that so? And where is it located? How did he die?",
+                        "JA_current":  "Is that so? And where is it located? How did he die?",
+                        "JA_new":  "そうか。それで、どこにあった？ どうやって死んだんだ？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "skryaga_reward",
+                                               "phrase_id":  "1",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:skryaga_reward_phrase_3#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1710,
+                        "string_id":  "skryaga_reward_phrase_3",
+                        "occurrence":  1,
+                        "EN":  "Near the Scorcher, at the edge of the forest. Apparently, Miklukha fell into some strange anomaly... I got out of there by pure chance myself.",
+                        "JA_current":  "Near the Scorcher, at the edge of the forest. Apparently, Miklukha fell into some strange anomaly... I got out of there by pure chance myself.",
+                        "JA_new":  "スコーチャーの近く、森の端だ。どうやらミクルーハは奇妙なアノマリーに巻き込まれたらしい……俺も運よく逃げ出せただけだ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "skryaga_reward",
+                                               "phrase_id":  "2",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:skryaga_reward_phrase_4#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1713,
+                        "string_id":  "skryaga_reward_phrase_4",
+                        "occurrence":  1,
+                        "EN":  "Oh, the amount of shit the Zone throws at us just to wipe out our brothers, it\u0027s baffling... Of course, it\u0027s a pity about Miklukha, he was a real pro... About your case: while you were beyond the barrier, this one stalker came to me, started asking me questions about the same group of unknowns as you did. Told me he\u0027d been following them for a long time. But he didn\u0027t say anything about...",
+                        "JA_current":  "Oh, the amount of shit the Zone throws at us just to wipe out our brothers, it\u0027s baffling... Of course, it\u0027s a pity about Miklukha, he was a real pro... About your case: while you were beyond the barrier, this one stalker came to me, started asking me questions about the same group of unknowns as you did. Told me he\u0027d been following them for a long time. But he didn\u0027t say anything about...",
+                        "JA_new":  "ゾーンは、仲間を消し去るためにどれだけひどい目に遭わせるんだろうな……。ミクルーハは本当に惜しい奴だった。腕も立ったしな……。それはそうと、お前がバリアの向こうにいる間、見知らぬストーカーが来てな。お前と同じ、正体不明の連中について聞いてきた。そいつも、連中を長いこと追ってると言ってたが……",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "skryaga_reward",
+                                               "phrase_id":  "3",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:skryaga_reward_phrase_5#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1716,
+                        "string_id":  "skryaga_reward_phrase_5",
+                        "occurrence":  1,
+                        "EN":  "Who was he?",
+                        "JA_current":  "Who was he?",
+                        "JA_new":  "誰だった？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "skryaga_reward",
+                                               "phrase_id":  "4",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:skryaga_reward_phrase_6#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1719,
+                        "string_id":  "skryaga_reward_phrase_6",
+                        "occurrence":  1,
+                        "EN":  "His name is Alan, and he\u0027s a loner. Don\u0027t interrupt me, or I\u0027ll forget to tell you the main thing! I told this Alan about you, and he was interested and wanted to get in touch with you. I told him you had gone towards the barrier, and he followed you. You must have missed him.",
+                        "JA_current":  "His name is Alan, and he\u0027s a loner. Don\u0027t interrupt me, or I\u0027ll forget to tell you the main thing! I told this Alan about you, and he was interested and wanted to get in touch with you. I told him you had gone towards the barrier, and he followed you. You must have missed him.",
+                        "JA_new":  "アランって名前のローナーだ。話を遮るな、肝心なことを忘れるだろ！ そいつにお前のことを話したら、興味を持って連絡を取りたがってた。お前はバリアへ向かったと伝えたら、追いかけていったよ。すれ違ったんじゃないか。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "skryaga_reward",
+                                               "phrase_id":  "5",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:skryaga_reward_phrase_7#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1722,
+                        "string_id":  "skryaga_reward_phrase_7",
+                        "occurrence":  1,
+                        "EN":  "Thanks for the info, I\u0027ll try to catch up with him!",
+                        "JA_current":  "Thanks for the info, I\u0027ll try to catch up with him!",
+                        "JA_new":  "情報ありがとう。追いついてみる！",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "skryaga_reward",
+                                               "phrase_id":  "6",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  "skryaga_reward_phrase_1",
+                            "next":  [
+                                         "1"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I found Miklukha\u0027s body.",
+                            "JA_current":  "I found Miklukha\u0027s body.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:skryaga_reward_phrase_1#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "1",
+                            "text_id":  "skryaga_reward_phrase_2",
+                            "next":  [
+                                         "2"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Is that so? And where is it located? How did he die?",
+                            "JA_current":  "Is that so? And where is it located? How did he die?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:skryaga_reward_phrase_2#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "2",
+                            "text_id":  "skryaga_reward_phrase_3",
+                            "next":  [
+                                         "3"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Near the Scorcher, at the edge of the forest. Apparently, Miklukha fell into some strange anomaly... I got out of there by pure chance myself.",
+                            "JA_current":  "Near the Scorcher, at the edge of the forest. Apparently, Miklukha fell into some strange anomaly... I got out of there by pure chance myself.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:skryaga_reward_phrase_3#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "3",
+                            "text_id":  "skryaga_reward_phrase_4",
+                            "next":  [
+                                         "4"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "2"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Oh, the amount of shit the Zone throws at us just to wipe out our brothers, it\u0027s baffling... Of course, it\u0027s a pity about Miklukha, he was a real pro... About your case: while you were beyond the barrier, this one stalker came to me, started asking me questions about the same group of unknowns as you did. Told me he\u0027d been following them for a long time. But he didn\u0027t say anything about...",
+                            "JA_current":  "Oh, the amount of shit the Zone throws at us just to wipe out our brothers, it\u0027s baffling... Of course, it\u0027s a pity about Miklukha, he was a real pro... About your case: while you were beyond the barrier, this one stalker came to me, started asking me questions about the same group of unknowns as you did. Told me he\u0027d been following them for a long time. But he didn\u0027t say anything about...",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:skryaga_reward_phrase_4#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "4",
+                            "text_id":  "skryaga_reward_phrase_5",
+                            "next":  [
+                                         "5"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "3"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Who was he?",
+                            "JA_current":  "Who was he?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:skryaga_reward_phrase_5#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "5",
+                            "text_id":  "skryaga_reward_phrase_6",
+                            "next":  [
+                                         "6"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "4"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "His name is Alan, and he\u0027s a loner. Don\u0027t interrupt me, or I\u0027ll forget to tell you the main thing! I told this Alan about you, and he was interested and wanted to get in touch with you. I told him you had gone towards the barrier, and he followed you. You must have missed him.",
+                            "JA_current":  "His name is Alan, and he\u0027s a loner. Don\u0027t interrupt me, or I\u0027ll forget to tell you the main thing! I told this Alan about you, and he was interested and wanted to get in touch with you. I told him you had gone towards the barrier, and he followed you. You must have missed him.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:skryaga_reward_phrase_6#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "6",
+                            "text_id":  "skryaga_reward_phrase_7",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "give_info",
+                                                "value":  "scryaga_o_alane"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "5"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Thanks for the info, I\u0027ll try to catch up with him!",
+                            "JA_current":  "Thanks for the info, I\u0027ll try to catch up with him!",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:skryaga_reward_phrase_7#1"
+                                                        ]
+                        }
+                    ]
+}

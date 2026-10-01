@@ -1,0 +1,127 @@
+{
+  "packet_id": "dialog_0324__stas_first_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "stas_first_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "stas_chujoi",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "stas_goto_start_point"
+    },
+    {
+      "type": "has_info",
+      "value": "goto_stas"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 2,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:stas_first_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2553,
+      "string_id": "stas_first_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Well, that's it. You're free now, your brother and I have paid your ransom. Come with me.",
+      "JA_current": "Well, that's it. You're free now, your brother and I have paid your ransom. Come with me.",
+      "JA_new": "これで終わりだ。お前は自由だ。兄貴と俺で身代金を払った。さあ、一緒に来い。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "stas_first_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:stas_first_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2556,
+      "string_id": "stas_first_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Man, I owe you one forever! I knew my brother wouldn't leave me in this shit. Come on, let's get out of here.",
+      "JA_current": "Man, I owe you one forever! I knew my brother wouldn't leave me in this shit. Come on, let's get out of here.",
+      "JA_new": "一生、恩に着るよ！ 兄貴なら見捨てないって分かってた。行こう、ここを出るぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "stas_first_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "stas_first_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, that's it. You're free now, your brother and I have paid your ransom. Come with me.",
+      "JA_current": "Well, that's it. You're free now, your brother and I have paid your ransom. Come with me.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:stas_first_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "stas_first_dialog_phrase_2",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.vibiratsya"
+        },
+        {
+          "type": "give_info",
+          "value": "stas_goto_start_point"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Man, I owe you one forever! I knew my brother wouldn't leave me in this shit. Come on, let's get out of here.",
+      "JA_current": "Man, I owe you one forever! I knew my brother wouldn't leave me in this shit. Come on, let's get out of here.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:stas_first_dialog_phrase_2#1"
+      ]
+    }
+  ]
+}

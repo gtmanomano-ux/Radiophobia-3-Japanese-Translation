@@ -1,0 +1,653 @@
+{
+  "packet_id": "dialog_0465__trofim_start_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "trofim_start_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml",
+  "graph_sha256": "131d3c64c00a1023af4aaa914f345f3cfff2e581dea421160993fad100675545",
+  "character_bindings": [
+    {
+      "profile_id": "trofim",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "trofim_razgovor"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 14,
+  "entries": [
+    {
+      "key": "stable_dialogs_yantar:trofim_start_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 702,
+      "string_id": "trofim_start_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Ermm, hey there buddy.. Are you Trofim, by any chance?",
+      "JA_current": "Ermm, hey there buddy.. Are you Trofim, by any chance?",
+      "JA_new": "ええと、よう……あんたがトロフィムか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofim_start_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:trofim_start_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 705,
+      "string_id": "trofim_start_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "It's hard to see... Who's standing there... Hard to see.. Who is this... I can't see... Very dark....",
+      "JA_current": "It's hard to see... Who's standing there... Hard to see.. Who is this... I can't see... Very dark....",
+      "JA_new": "よく見えない……そこにいるのは誰だ……よく見えない……誰だ……見えない……真っ暗だ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofim_start_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:trofim_start_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 708,
+      "string_id": "trofim_start_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Listen, your boss Yuri sent me to find you. What happened to the Seekers? Why did the expedition fail?",
+      "JA_current": "Listen, your boss Yuri sent me to find you. What happened to the Seekers? Why did the expedition fail?",
+      "JA_new": "なあ、あんたの上司のユーリに頼まれて捜しに来た。探索隊はどうなった？ 遠征はなぜ失敗した？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofim_start_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:trofim_start_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 711,
+      "string_id": "trofim_start_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Where?",
+      "JA_current": "Where?",
+      "JA_new": "どこだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofim_start_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:trofim_start_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 714,
+      "string_id": "trofim_start_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "The Seekers you worked with, they all ended up dead. Why did they split up?",
+      "JA_current": "The Seekers you worked with, they all ended up dead. Why did they split up?",
+      "JA_new": "一緒に行動してた探索隊のことだ。みんな死んだ。どうしてバラバラになった？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofim_start_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:trofim_start_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 717,
+      "string_id": "trofim_start_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Spinning... Everyone spinning... Everyone spinning all around the circle...",
+      "JA_current": "Spinning... Everyone spinning... Everyone spinning all around the circle...",
+      "JA_new": "回ってる……みんな回ってる……輪になって、みんな回ってる……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofim_start_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:trofim_start_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 720,
+      "string_id": "trofim_start_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Do you remember anything at all?",
+      "JA_current": "Do you remember anything at all?",
+      "JA_new": "何か覚えてないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofim_start_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:trofim_start_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 723,
+      "string_id": "trofim_start_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "It's dark... Very dark...",
+      "JA_current": "It's dark... Very dark...",
+      "JA_new": "暗い……すごく暗い……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofim_start_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:trofim_start_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 726,
+      "string_id": "trofim_start_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "Why is it dark? Was it at night? Were you ambushed? Or what?",
+      "JA_current": "Why is it dark? Was it at night? Were you ambushed? Or what?",
+      "JA_new": "どうして暗い？ 夜だったのか？ 待ち伏せされた？ それとも何があった？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofim_start_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:trofim_start_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 729,
+      "string_id": "trofim_start_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "Why is it so dark...?",
+      "JA_current": "Why is it so dark...?",
+      "JA_new": "どうしてこんなに暗い……？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofim_start_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:trofim_start_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 732,
+      "string_id": "trofim_start_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "Do you understand anything I'm saying?",
+      "JA_current": "Do you understand anything I'm saying?",
+      "JA_new": "俺の言ってること、分かるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofim_start_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:trofim_start_dialog_phrase_12#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 735,
+      "string_id": "trofim_start_dialog_phrase_12",
+      "occurrence": 1,
+      "EN": "I don't understand... I don't understand nothing... Nothing... Nothing... Can't understand...",
+      "JA_current": "I don't understand... I don't understand nothing... Nothing... Nothing... Can't understand...",
+      "JA_new": "分からない……何も分からない……何も……何も……分からない……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofim_start_dialog",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:trofim_start_dialog_phrase_13#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 738,
+      "string_id": "trofim_start_dialog_phrase_13",
+      "occurrence": 1,
+      "EN": "Is there nothing you can give me?? Actually, forget it, this is going nowhere... You poor bastard...",
+      "JA_current": "Is there nothing you can give me?? Actually, forget it, this is going nowhere... You poor bastard...",
+      "JA_new": "何か教えてくれないか？……いや、もういい。これじゃ話にならないな……気の毒に。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofim_start_dialog",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:trofim_start_dialog_phrase_14#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 741,
+      "string_id": "trofim_start_dialog_phrase_14",
+      "occurrence": 1,
+      "EN": "Go... Go... Go...",
+      "JA_current": "Go... Go... Go...",
+      "JA_new": "行け……行け……行け……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trofim_start_dialog",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "trofim_start_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Ermm, hey there buddy.. Are you Trofim, by any chance?",
+      "JA_current": "Ermm, hey there buddy.. Are you Trofim, by any chance?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:trofim_start_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "trofim_start_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.ploho_vidno"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It's hard to see... Who's standing there... Hard to see.. Who is this... I can't see... Very dark....",
+      "JA_current": "It's hard to see... Who's standing there... Hard to see.. Who is this... I can't see... Very dark....",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:trofim_start_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "trofim_start_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Listen, your boss Yuri sent me to find you. What happened to the Seekers? Why did the expedition fail?",
+      "JA_current": "Listen, your boss Yuri sent me to find you. What happened to the Seekers? Why did the expedition fail?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:trofim_start_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "trofim_start_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.gde"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Where?",
+      "JA_current": "Where?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:trofim_start_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "trofim_start_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The Seekers you worked with, they all ended up dead. Why did they split up?",
+      "JA_current": "The Seekers you worked with, they all ended up dead. Why did they split up?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:trofim_start_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "trofim_start_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.krujitsya"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Spinning... Everyone spinning... Everyone spinning all around the circle...",
+      "JA_current": "Spinning... Everyone spinning... Everyone spinning all around the circle...",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:trofim_start_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "trofim_start_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Do you remember anything at all?",
+      "JA_current": "Do you remember anything at all?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:trofim_start_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "trofim_start_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.temno"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It's dark... Very dark...",
+      "JA_current": "It's dark... Very dark...",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:trofim_start_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "trofim_start_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Why is it dark? Was it at night? Were you ambushed? Or what?",
+      "JA_current": "Why is it dark? Was it at night? Were you ambushed? Or what?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:trofim_start_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "trofim_start_dialog_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.pochemu_temno"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Why is it so dark...?",
+      "JA_current": "Why is it so dark...?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:trofim_start_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "trofim_start_dialog_phrase_11",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Do you understand anything I'm saying?",
+      "JA_current": "Do you understand anything I'm saying?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:trofim_start_dialog_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "trofim_start_dialog_phrase_12",
+      "next": [
+        "12"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.ne_ponimayu"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I don't understand... I don't understand nothing... Nothing... Nothing... Can't understand...",
+      "JA_current": "I don't understand... I don't understand nothing... Nothing... Nothing... Can't understand...",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:trofim_start_dialog_phrase_12#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "trofim_start_dialog_phrase_13",
+      "next": [
+        "13"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Is there nothing you can give me?? Actually, forget it, this is going nowhere... You poor bastard...",
+      "JA_current": "Is there nothing you can give me?? Actually, forget it, this is going nowhere... You poor bastard...",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:trofim_start_dialog_phrase_13#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "trofim_start_dialog_phrase_14",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.idi"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.give_shevron"
+        },
+        {
+          "type": "give_info",
+          "value": "trofim_razgovor"
+        },
+        {
+          "type": "give_info",
+          "value": "iskatel_18_nayden"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Go... Go... Go...",
+      "JA_current": "Go... Go... Go...",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:trofim_start_dialog_phrase_14#1"
+      ]
+    }
+  ]
+}

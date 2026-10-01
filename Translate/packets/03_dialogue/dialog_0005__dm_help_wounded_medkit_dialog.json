@@ -1,0 +1,146 @@
+{
+  "packet_id": "dialog_0005__dm_help_wounded_medkit_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "dm_help_wounded_medkit_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs.xml",
+  "graph_sha256": "87109fb1ac4d045582ddab436da3571319106a69b21b6c21a4451cbb5f3afbbf",
+  "character_bindings": [
+    {
+      "profile_id": "x16_zombsold",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "tompson",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_default1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_default2",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_default3",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_default4",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_default5",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_default6",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_default7",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_veteran_default1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_veteran_default2",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_veteran_default3",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_veteran_default4",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_veteran_default5",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_ambush_default1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_ambush_default2",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_master_1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_zombied_dolg",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_fresh_Zombied_stalker_1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_fresh_Zombied_stalker_2",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    },
+    {
+      "profile_id": "yan_fresh_Zombied_stalker_3",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "init_func",
+      "value": "dialog_manager.init_help_wounded_medkit_dialog"
+    },
+    {
+      "type": "precondition",
+      "value": "dialogs.allow_wounded_dialog"
+    },
+    {
+      "type": "precondition",
+      "value": "dialogs.is_opp_wounded"
+    },
+    {
+      "type": "precondition",
+      "value": "dialogs.actor_have_medkit"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 0,
+  "entries": [],
+  "graph_nodes": []
+}

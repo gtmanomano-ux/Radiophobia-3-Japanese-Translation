@@ -1,0 +1,213 @@
+{
+  "packet_id": "dialog_0125__bar_bar_barman_killer_ambush",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_bar_barman_killer_ambush",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_barman",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "bar_dialogs.have_bar_tiran_pda"
+    },
+    {
+      "type": "has_info",
+      "value": "bar_kill_svoboda_ambush_start"
+    },
+    {
+      "type": "has_info",
+      "value": "bar_kill_svoboda_ambush_killed"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "bar_kill_svoboda_ambush_done"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 4,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_bar_barman_killer_ambush_0#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 425,
+      "string_id": "bar_bar_barman_killer_ambush_0",
+      "occurrence": 1,
+      "EN": "I accomplished my mission. Here is Tyran's PDA.",
+      "JA_current": "任務は片づけた。タイランのPDAだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barman_killer_ambush",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barman_killer_ambush_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 428,
+      "string_id": "bar_bar_barman_killer_ambush_1",
+      "occurrence": 1,
+      "EN": "Wow, Marked One. Great job! What can I say? You made me happy, man. I wasn't sure you'd manage, to be honest...but you're alive and they're not!",
+      "JA_current": "すごいな、マークド・ワン！ よくやった。何と言えばいいか……助かったよ。正直、お前にやり遂げられるか半信半疑だった。でも、お前は生きてて、連中は死んだ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barman_killer_ambush",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barman_killer_ambush_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 431,
+      "string_id": "bar_bar_barman_killer_ambush_2",
+      "occurrence": 1,
+      "EN": "What about my reward?",
+      "JA_current": "報酬は？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barman_killer_ambush",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barman_killer_ambush_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 434,
+      "string_id": "bar_bar_barman_killer_ambush_3",
+      "occurrence": 1,
+      "EN": "Here. Your reward as promised.",
+      "JA_current": "ほら、約束の報酬だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barman_killer_ambush",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bar_bar_barman_killer_ambush_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I accomplished my mission. Here is Tyran's PDA.",
+      "JA_current": "任務完了だ。これが Tyran の PDA だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barman_killer_ambush_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "bar_bar_barman_killer_ambush_1",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Wow, Marked One. Great job! What can I say? You made me happy, man. I wasn't sure you'd manage, to be honest...but you're alive and they're not!",
+      "JA_current": "おおっ、Marked One、素晴らしい仕事だ！ 文句の付けようがない。ふう、俺は幸せだぜ。やり遂げられるか、正直疑っていたぜ… だが実際お前は生還し、ヤツらはくたばった！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barman_killer_ambush_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "bar_bar_barman_killer_ambush_2",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.give_bar_tiran_pda"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_kill_svoboda_ambush_done"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What about my reward?",
+      "JA_current": "俺の報酬は？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barman_killer_ambush_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "bar_bar_barman_killer_ambush_3",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here. Your reward as promised.",
+      "JA_current": "ほらよ。約束通りだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barman_killer_ambush_3#1"
+      ]
+    }
+  ]
+}

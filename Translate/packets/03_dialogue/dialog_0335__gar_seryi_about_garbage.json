@@ -1,0 +1,166 @@
+{
+  "packet_id": "dialog_0335__gar_seryi_about_garbage",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "gar_seryi_about_garbage",
+  "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml",
+  "graph_sha256": "a2f5a0932a2d77c3600e24d5b337f12ef7ed4b48e06af7ae7ab65d1d649f0ac4",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "xr_conditions.gar_bandits_seryi_die"
+    },
+    {
+      "type": "has_info",
+      "value": "gar_seryi_open_fire"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 3,
+  "entries": [
+    {
+      "key": "stable_dialogs_garbage:gar_seryi_about_garbage_0#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 240,
+      "string_id": "gar_seryi_about_garbage_0",
+      "occurrence": 1,
+      "EN": "Listen man, what can I find at this Garbage?",
+      "JA_current": "なあ、この Garbage で見つけられるものを教えてくれないか？",
+      "JA_new": "なあ、このガーベジには何がある？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_seryi_about_garbage",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_seryi_about_garbage_1#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 243,
+      "string_id": "gar_seryi_about_garbage_1",
+      "occurrence": 1,
+      "EN": "You can find a lot of trouble real quick, that's for sure. But since you're such an explorer I'll tell you what I know. To the East there is a little forest. Nothing interesting there and it's full of dogs, so be careful. This railway track will lead you to a tunnel. There are lots of anomalies there, maybe something else too but I don't know - never really looked very hard. You probably know about the Duty checkpoint in the North. That's basically all I know about this place.",
+      "JA_current": "大量のトラブルならすぐ見つかるさ。保証するぜ。…冗談だ。マジメに教えてやるよ。東には小さい森がある。ここには大した物は無いが、犬なら腐るほど居るから気をつけろ。この線路はトンネルに続いてる。そこには大量のアノーマリーで満ちてて多分何かあるだろうが、詳しくは知らん。恐らく入り込むのは滅茶苦茶難しいぞ。後はお前もご存知の Duty の検問所だな。これは北にある。この辺の紹介としてはこんなところかな。",
+      "JA_new": "面倒に巻き込まれるのは間違いないがな。まあ、探検好きみたいだし、知ってることを教えてやる。東に小さな森がある。特に見るものはないが、犬だらけだ。気をつけろ。この線路を行けばトンネルに出る。アノマリーがいくつもある。ほかにも何かあるかもしれないが、俺はろくに調べてない。北のデューティー検問所は知ってるだろ。俺が知ってるのはそれくらいだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_seryi_about_garbage",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_seryi_about_garbage_11#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 246,
+      "string_id": "gar_seryi_about_garbage_11",
+      "occurrence": 1,
+      "EN": "Thanks for the info. I'll keep it in mind.",
+      "JA_current": "情報をありがとう。覚えておくよ。",
+      "JA_new": "情報ありがとう。覚えておくよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_seryi_about_garbage",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "gar_seryi_about_garbage_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Listen man, what can I find at this Garbage?",
+      "JA_current": "なあ、この Garbage で見つけられるものを教えてくれないか？",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_seryi_about_garbage_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "gar_seryi_about_garbage_1",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "You can find a lot of trouble real quick, that's for sure. But since you're such an explorer I'll tell you what I know. To the East there is a little forest. Nothing interesting there and it's full of dogs, so be careful. This railway track will lead you to a tunnel. There are lots of anomalies there, maybe something else too but I don't know - never really looked very hard. You probably know about the Duty checkpoint in the North. That's basically all I know about this place.",
+      "JA_current": "大量のトラブルならすぐ見つかるさ。保証するぜ。…冗談だ。マジメに教えてやるよ。東には小さい森がある。ここには大した物は無いが、犬なら腐るほど居るから気をつけろ。この線路はトンネルに続いてる。そこには大量のアノーマリーで満ちてて多分何かあるだろうが、詳しくは知らん。恐らく入り込むのは滅茶苦茶難しいぞ。後はお前もご存知の Duty の検問所だな。これは北にある。この辺の紹介としてはこんなところかな。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_seryi_about_garbage_1#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "gar_seryi_about_garbage_11",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "gar_remove_fake_spot7"
+        },
+        {
+          "type": "give_info",
+          "value": "gar_remove_fake_spot8"
+        },
+        {
+          "type": "give_info",
+          "value": "gar_remove_fake_spot4"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Thanks for the info. I'll keep it in mind.",
+      "JA_current": "情報をありがとう。覚えておくよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_seryi_about_garbage_11#1"
+      ]
+    }
+  ]
+}

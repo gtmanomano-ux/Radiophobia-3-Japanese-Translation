@@ -1,0 +1,727 @@
+{
+  "packet_id": "dialog_0063__agr_stalker_talk_about_ratcatcher1",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "agr_stalker_talk_about_ratcatcher1",
+  "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml",
+  "graph_sha256": "0065cb49021f3d779d92b62bc9453bcaa767fa47933b73f8ecdd37c8a246e1ab",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "dialogs.level_agroprom"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 15,
+  "entries": [
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_0#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 147,
+      "string_id": "agr_stalker_talk_about_ratcatcher1_0",
+      "occurrence": 1,
+      "EN": "Anything interesting happening here?",
+      "JA_current": "何か面白いことはあったかい？",
+      "JA_new": "この辺で何か面白いことはないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_talk_about_ratcatcher1",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_1#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 150,
+      "string_id": "agr_stalker_talk_about_ratcatcher1_1",
+      "occurrence": 1,
+      "EN": "Do you know about Ratcatcher? The info will cost you 30.",
+      "JA_current": "\"Ratcatcher\" を知ってるかい？ …30でいいぜ。",
+      "JA_new": "ラットキャッチャーのことを知りたいか？ 情報料は30だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_talk_about_ratcatcher1",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_31#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 186,
+      "string_id": "agr_stalker_talk_about_ratcatcher1_31",
+      "occurrence": 1,
+      "EN": "Nothing. Absolutely nothing.",
+      "JA_current": "ないよ。まったくもって、ない。",
+      "JA_new": "何もない。まったくな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_talk_about_ratcatcher1",
+          "phrase_id": "31",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_11#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 153,
+      "string_id": "agr_stalker_talk_about_ratcatcher1_11",
+      "occurrence": 1,
+      "EN": "Deal.",
+      "JA_current": "教えてくれ。",
+      "JA_new": "乗った。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_talk_about_ratcatcher1",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_12#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 171,
+      "string_id": "agr_stalker_talk_about_ratcatcher1_12",
+      "occurrence": 1,
+      "EN": "I know that already. Thanks.",
+      "JA_current": "もう知ってる。ありがとう。",
+      "JA_new": "それならもう知ってる。ありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_talk_about_ratcatcher1",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_13#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 177,
+      "string_id": "agr_stalker_talk_about_ratcatcher1_13",
+      "occurrence": 1,
+      "EN": "I don't have enough cash.",
+      "JA_current": "そんなに金を持ってないよ。",
+      "JA_new": "金が足りない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_talk_about_ratcatcher1",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_14#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 180,
+      "string_id": "agr_stalker_talk_about_ratcatcher1_14",
+      "occurrence": 1,
+      "EN": "I'm not interested.",
+      "JA_current": "面白くないな。",
+      "JA_new": "興味ないな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_talk_about_ratcatcher1",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_311#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 189,
+      "string_id": "agr_stalker_talk_about_ratcatcher1_311",
+      "occurrence": 1,
+      "EN": "I see. Bye!",
+      "JA_current": "わかった。じゃあな！",
+      "JA_new": "そうか。じゃあな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_talk_about_ratcatcher1",
+          "phrase_id": "311",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_111#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 156,
+      "string_id": "agr_stalker_talk_about_ratcatcher1_111",
+      "occurrence": 1,
+      "EN": "We have a local hero around here called Ratcatcher. He lives in the marshes. The man bred so many rats in the collectors that no doubt they'll soon straight up eat those army bastards.",
+      "JA_current": "この辺の腕っこきで「Ratcatcher」って奴がいるんだ。奴は沼地に住んでいる。そいつはそのうち軍隊のクソどもを食わせるために Collectors の中で沢山のネズミを飼ってるんだ。",
+      "JA_new": "この辺には、ラットキャッチャーと呼ばれる地元の英雄がいる。沼地に住んでて、下水道でネズミを繁殖させてるんだ。そのうち軍のクソ野郎どもも、ネズミに食われちまうかもな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_talk_about_ratcatcher1",
+          "phrase_id": "111",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_121#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 174,
+      "string_id": "agr_stalker_talk_about_ratcatcher1_121",
+      "occurrence": 1,
+      "EN": "I don't have anything else to tell you.",
+      "JA_current": "特に教えられることは無いな。",
+      "JA_new": "ほかに話すことはないな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_talk_about_ratcatcher1",
+          "phrase_id": "121",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_1111#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 159,
+      "string_id": "agr_stalker_talk_about_ratcatcher1_1111",
+      "occurrence": 1,
+      "EN": "Great. Thanks.",
+      "JA_current": "スゲェな。ありがとう。",
+      "JA_new": "よし、ありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_talk_about_ratcatcher1",
+          "phrase_id": "1111",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_1112#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 162,
+      "string_id": "agr_stalker_talk_about_ratcatcher1_1112",
+      "occurrence": 1,
+      "EN": "Tell me more about the collectors.",
+      "JA_current": "その Collectors について、もっと教えてくれ。",
+      "JA_new": "下水道について、もっと聞かせてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_talk_about_ratcatcher1",
+          "phrase_id": "1112",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_11121#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 165,
+      "string_id": "agr_stalker_talk_about_ratcatcher1_11121",
+      "occurrence": 1,
+      "EN": "Collectors are your standard shit-stinking sewers that take waste from the Institute and dump it in the nearest water reservoir. ",
+      "JA_current": "Collectors ってのはお馴染みの糞の臭いが立ち込めた下水のことさ。研究所の廃棄物を、近くの貯水池へ流し込むんだ。",
+      "JA_new": "研究所の排水を集めて、いちばん近い貯水池に流す、どこにでもある臭い下水道さ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_talk_about_ratcatcher1",
+          "phrase_id": "11121",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_111211#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 168,
+      "string_id": "agr_stalker_talk_about_ratcatcher1_111211",
+      "occurrence": 1,
+      "EN": "Great. See you and take care of yourself.",
+      "JA_current": "スゲェな。アンタも気を付けろよ。じゃあな。",
+      "JA_new": "よし、じゃあな。気をつけろよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_talk_about_ratcatcher1",
+          "phrase_id": "111211",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_3#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 183,
+      "string_id": "agr_stalker_talk_about_ratcatcher1_3",
+      "occurrence": 1,
+      "EN": "Anything interesting happening here?",
+      "JA_current": "なんか面白いことないかい？",
+      "JA_new": "この辺で何か面白いことはないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_talk_about_ratcatcher1",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "agr_stalker_talk_about_ratcatcher1_0",
+      "next": [
+        "1",
+        "31"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Anything interesting happening here?",
+      "JA_current": "何か面白いことはあったかい？",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "agr_stalker_talk_about_ratcatcher1_1",
+      "next": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "agr_sold_about_ratcatcher"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3",
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Do you know about Ratcatcher? The info will cost you 30.",
+      "JA_current": "\"Ratcatcher\" を知ってるかい？ …30でいいぜ。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_1#1"
+      ]
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "agr_stalker_talk_about_ratcatcher1_31",
+      "next": [
+        "311"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "agr_sold_about_ratcatcher"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3",
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Nothing. Absolutely nothing.",
+      "JA_current": "ないよ。まったくもって、ない。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_31#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "agr_stalker_talk_about_ratcatcher1_11",
+      "next": [
+        "111"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "agroprom_dialog.has_30_money"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "agr_sold_about_ratcatcher"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "agroprom_dialog.give_30_money_to_stalker_for_info_about_ratcatcher"
+        },
+        {
+          "type": "give_info",
+          "value": "agr_sold_about_ratcatcher"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Deal.",
+      "JA_current": "教えてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_11#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "agr_stalker_talk_about_ratcatcher1_12",
+      "next": [
+        "121"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "agroprom_dialog.not_has_30_money"
+        },
+        {
+          "type": "has_info",
+          "value": "agr_sold_about_ratcatcher"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "agr_sold_about_ratcatcher"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I know that already. Thanks.",
+      "JA_current": "もう知ってる。ありがとう。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_12#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "agr_stalker_talk_about_ratcatcher1_13",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "agroprom_dialog.not_has_30_money"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "agr_sold_about_ratcatcher"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I don't have enough cash.",
+      "JA_current": "そんなに金を持ってないよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_13#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "agr_stalker_talk_about_ratcatcher1_14",
+      "next": [],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "agr_sold_about_ratcatcher"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'm not interested.",
+      "JA_current": "面白くないな。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_14#1"
+      ]
+    },
+    {
+      "phrase_id": "311",
+      "text_id": "agr_stalker_talk_about_ratcatcher1_311",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "31"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I see. Bye!",
+      "JA_current": "わかった。じゃあな！",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_311#1"
+      ]
+    },
+    {
+      "phrase_id": "111",
+      "text_id": "agr_stalker_talk_about_ratcatcher1_111",
+      "next": [
+        "1111",
+        "1112"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "agr_sold_about_ratcatcher"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "We have a local hero around here called Ratcatcher. He lives in the marshes. The man bred so many rats in the collectors that no doubt they'll soon straight up eat those army bastards.",
+      "JA_current": "この辺の腕っこきで「Ratcatcher」って奴がいるんだ。奴は沼地に住んでいる。そいつはそのうち軍隊のクソどもを食わせるために Collectors の中で沢山のネズミを飼ってるんだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_111#1"
+      ]
+    },
+    {
+      "phrase_id": "121",
+      "text_id": "agr_stalker_talk_about_ratcatcher1_121",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "give_info",
+          "value": "agr_sold_about_ratcatcher"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I don't have anything else to tell you.",
+      "JA_current": "特に教えられることは無いな。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_121#1"
+      ]
+    },
+    {
+      "phrase_id": "1111",
+      "text_id": "agr_stalker_talk_about_ratcatcher1_1111",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Great. Thanks.",
+      "JA_current": "スゲェな。ありがとう。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_1111#1"
+      ]
+    },
+    {
+      "phrase_id": "1112",
+      "text_id": "agr_stalker_talk_about_ratcatcher1_1112",
+      "next": [
+        "11121"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Tell me more about the collectors.",
+      "JA_current": "その Collectors について、もっと教えてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_1112#1"
+      ]
+    },
+    {
+      "phrase_id": "11121",
+      "text_id": "agr_stalker_talk_about_ratcatcher1_11121",
+      "next": [
+        "111211"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1112"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Collectors are your standard shit-stinking sewers that take waste from the Institute and dump it in the nearest water reservoir. ",
+      "JA_current": "Collectors ってのはお馴染みの糞の臭いが立ち込めた下水のことさ。研究所の廃棄物を、近くの貯水池へ流し込むんだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_11121#1"
+      ]
+    },
+    {
+      "phrase_id": "111211",
+      "text_id": "agr_stalker_talk_about_ratcatcher1_111211",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "11121"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Great. See you and take care of yourself.",
+      "JA_current": "スゲェな。アンタも気を付けろよ。じゃあな。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_111211#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "agr_stalker_talk_about_ratcatcher1_3",
+      "next": [
+        "1",
+        "31"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Anything interesting happening here?",
+      "JA_current": "なんか面白いことないかい？",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_talk_about_ratcatcher1_3#1"
+      ]
+    }
+  ]
+}

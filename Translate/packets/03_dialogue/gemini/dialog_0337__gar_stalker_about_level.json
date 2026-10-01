@@ -1,0 +1,106 @@
+{
+  "packet_id": "dialog_0337__gar_stalker_about_level",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "gar_stalker_about_level",
+  "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml",
+  "graph_sha256": "a2f5a0932a2d77c3600e24d5b337f12ef7ed4b48e06af7ae7ab65d1d649f0ac4",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "dialogs.level_garbage"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 2,
+  "entries": [
+    {
+      "key": "stable_dialogs_garbage:gar_stalker_about_level_0#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 249,
+      "string_id": "gar_stalker_about_level_0",
+      "occurrence": 1,
+      "EN": "Can you tell me anything about this place?",
+      "JA_current": "この場所について何か教えてくれないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_stalker_about_level",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_stalker_about_level_1#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 252,
+      "string_id": "gar_stalker_about_level_1",
+      "occurrence": 1,
+      "EN": "Well, listen. Everywhere you look it's a big stinking dump. After the accident in 1986 they brought radioactive waste, cranes and all the destroyed machinery here. Basically, it's full of useless crap and a few anomalies here and there. You can even find some artifacts, but they're not spectacular so that's why you'll mostly find rookies in this place. Lots of rookies means lots of bandits, so it's best not to hang around too long. Further to the East there are loads of radiation pockets; you can't go there without protection. Going South you'll reach the border of the Zone. Go North and you'll eventually reach Rostok factory and the stalker bar. To the East is the Dark Valley, a gloomy, misty place. To the West is the Agroprom Research Institute. I'll mark safe pathways on your map.",
+      "JA_current": "そうだな、聞けよ。見渡す限り悪臭の漂う巨大なゴミ捨て場だ。1986年の事故のあと、放射性廃棄物やクレーン、壊れた重機がごっそりここに運び込まれた。要するに、役にも立たないガラクタの山と、あちこちのアノマリーがあるだけの場所さ。アーティファクトも拾えなくはないが、大した物は出ない。だからここには新米ばかり集まるのさ。新米が多いってことは、当然バンディットも多くなる。あんまり長居しない方が身のためだぜ。もっと東へ行くと放射線だまりだらけで、防護スーツなしじゃ立ち入れない。南へ戻ればゾーンの境界、北へ進めばロストク工場とストーカーの酒場に行き着く。東は陰気で霧深いダークバレー、西にはアフロプロム研究所がある。お前の地図に安全なルートを記しておいてやるよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_stalker_about_level",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "gar_stalker_about_level_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Can you tell me anything about this place?",
+      "JA_current": "この場所について何でも良いから話してくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_stalker_about_level_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "gar_stalker_about_level_1",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Well, listen. Everywhere you look it's a big stinking dump. After the accident in 1986 they brought radioactive waste, cranes and all the destroyed machinery here. Basically, it's full of useless crap and a few anomalies here and there. You can even find some artifacts, but they're not spectacular so that's why you'll mostly find rookies in this place. Lots of rookies means lots of bandits, so it's best not to hang around too long. Further to the East there are loads of radiation pockets; you can't go there without protection. Going South you'll reach the border of the Zone. Go North and you'll eventually reach Rostok factory and the stalker bar. To the East is the Dark Valley, a gloomy, misty place. To the West is the Agroprom Research Institute. I'll mark safe pathways on your map.",
+      "JA_current": "そうだな…。お前にもこの臭いゴミの山が見えるだろ？ 1986年の事故の後、汚染されたクレーンやら車両やら、とにかくそんな諸々がここに持ってこられた。そんなちょっとしたアノーマリーに囲まれたクソの役にも立たないゴミが、そこかしこにある。いくらかアーティファクトも見つけられるが、簡単に見つけられるのはそう大した物じゃないな。沢山の新米が居るって事は Bandits も沢山居るって事だ。だからあんまりフラフラしないほうがいいだろう。東のほうには沢山の放射能溜りがある。しっかりした装備無しでは近づかないほうがいい。南に行くとゾーンと外との境。北に行くと Rostok Factory と Stalker Bar。東は霧深い Dark Valleyだ。ここの西は Agroprom 研究所だ。そこまでの行き方を PDA に入力してやろう。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_stalker_about_level_1#1"
+      ]
+    }
+  ]
+}

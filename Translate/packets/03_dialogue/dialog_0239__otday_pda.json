@@ -1,0 +1,218 @@
+{
+  "packet_id": "dialog_0239__otday_pda",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "otday_pda",
+  "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml",
+  "graph_sha256": "af90465ec3a6b7a324a6c5d72d8c5ed214013f3f66f7c85ea935c11f680b26c1",
+  "character_bindings": [
+    {
+      "profile_id": "val_stalker_vovan",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "vovan_gives_habar"
+    },
+    {
+      "type": "has_info",
+      "value": "gigant_attak"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 4,
+  "entries": [
+    {
+      "key": "stable_dialogs_darkvalley:otday_pda_phrase_1#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 433,
+      "string_id": "otday_pda_phrase_1",
+      "occurrence": 1,
+      "EN": "Surprise, dickhead! Nice try with trying to feed me to a fucking pseudo-giant! I'm gonna shove that PDA right up your ass, sideways! Come here!!",
+      "JA_current": "Surprise, dickhead! Nice try with trying to feed me to a fucking pseudo-giant! I'm gonna shove that PDA right up your ass, sideways! Come here!!",
+      "JA_new": "サプライズだ、クソ野郎！　シュードジャイアントに食わせようとしたな！　そのPDAをケツにぶち込んでやる。横向きにな！　こっち来い！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otday_pda",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:otday_pda_phrase_2#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 435,
+      "string_id": "otday_pda_phrase_2",
+      "occurrence": 1,
+      "EN": "Hey man, what the fuck? How was I supposed to know what's crawling around out there?? This is the Zone, man, you just got shit luck... Forget about it, you pulled through and found the thing, right?",
+      "JA_current": "Hey man, what the fuck? How was I supposed to know what's crawling around out there?? This is the Zone, man, you just got shit luck... Forget about it, you pulled through and found the thing, right?",
+      "JA_new": "おい、何だよ！？　あそこに何がいるか、どうやって分かるんだ？　ここはゾーンだ、運が悪かっただけだろ……もういいじゃないか。生き延びて、PDAも見つけたんだろ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otday_pda",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:otday_pda_phrase_3#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 437,
+      "string_id": "otday_pda_phrase_3",
+      "occurrence": 1,
+      "EN": "Shit luck is what you're about to get if you keep wasting my time. Take your PDA and tell me where Sid's stuff is!",
+      "JA_current": "Shit luck is what you're about to get if you keep wasting my time. Take your PDA and tell me where Sid's stuff is!",
+      "JA_new": "運が悪かっただけだと？　これ以上時間を無駄にするなら、本当にひどい目に遭わせるぞ。PDAを受け取って、シドの品がどこにあるか言え！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otday_pda",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:otday_pda_phrase_4#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 439,
+      "string_id": "otday_pda_phrase_4",
+      "occurrence": 1,
+      "EN": "Okay, I'm pulling up the stash location. Files... down, down... Here, on this farm. Behind one of the trees, near the fence. I'll send it through to your PDA.",
+      "JA_current": "Okay, I'm pulling up the stash location. Files... down, down... Here, on this farm. Behind one of the trees, near the fence. I'll send it through to your PDA.",
+      "JA_new": "分かった、隠し場所を確認する。ファイルを開いて……下、下……あった。この農場だ。柵の近く、木の後ろ。PDAに送るぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otday_pda",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "otday_pda_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Surprise, dickhead! Nice try with trying to feed me to a fucking pseudo-giant! I'm gonna shove that PDA right up your ass, sideways! Come here!!",
+      "JA_current": "Surprise, dickhead! Nice try with trying to feed me to a fucking pseudo-giant! I'm gonna shove that PDA right up your ass, sideways! Come here!!",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:otday_pda_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "otday_pda_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey man, what the fuck? How was I supposed to know what's crawling around out there?? This is the Zone, man, you just got shit luck... Forget about it, you pulled through and found the thing, right?",
+      "JA_current": "Hey man, what the fuck? How was I supposed to know what's crawling around out there?? This is the Zone, man, you just got shit luck... Forget about it, you pulled through and found the thing, right?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:otday_pda_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "otday_pda_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs_darkvalley.pda_vovany"
+        },
+        {
+          "type": "give_info",
+          "value": "vovan_pda_otdan"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Shit luck is what you're about to get if you keep wasting my time. Take your PDA and tell me where Sid's stuff is!",
+      "JA_current": "Shit luck is what you're about to get if you keep wasting my time. Take your PDA and tell me where Sid's stuff is!",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:otday_pda_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "otday_pda_phrase_4",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "vovan_gives_habar"
+        },
+        {
+          "type": "action",
+          "value": "dialogs_darkvalley.spawn_sidor_habar"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Okay, I'm pulling up the stash location. Files... down, down... Here, on this farm. Behind one of the trees, near the fence. I'll send it through to your PDA.",
+      "JA_current": "Okay, I'm pulling up the stash location. Files... down, down... Here, on this farm. Behind one of the trees, near the fence. I'll send it through to your PDA.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:otday_pda_phrase_4#1"
+      ]
+    }
+  ]
+}

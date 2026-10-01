@@ -1,0 +1,328 @@
+{
+  "packet_id": "dialog_0312__volk_about_nastavnik",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "volk_about_nastavnik",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "esc_wolf",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "nastavnik_pogovorit"
+    },
+    {
+      "type": "has_info",
+      "value": "esc_kill_bandits_quest_done"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 7,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:volk_about_nastavnik_phrase_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2279,
+      "string_id": "volk_about_nastavnik_phrase_1",
+      "occurrence": 1,
+      "EN": "%c[255,255,128,128]Wolf, what did you want to tell me? I got your message when I was at the carpark.%c[default]",
+      "JA_current": "%c[255,255,128,128]Wolf, what did you want to tell me? I got your message when I was at the carpark.%c[default]",
+      "JA_new": "%c[255,255,128,128]ウルフ、何か話があるって？ 駐車場にいた時、連絡をもらった。%c[default]",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "volk_about_nastavnik",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:volk_about_nastavnik_phrase_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2282,
+      "string_id": "volk_about_nastavnik_phrase_2",
+      "occurrence": 1,
+      "EN": "Yes, Marked One, after you dealt with the bandits, I realized that you're not just a rookie who's lost his memory, but probably a pretty experienced stalker. My point is this: a good man needs help, and I'd like you to help him. I think it's within your power. And it's a good deal, by the way.",
+      "JA_current": "Yes, Marked One, after you dealt with the bandits, I realized that you're not just a rookie who's lost his memory, but probably a pretty experienced stalker. My point is this: a good man needs help, and I'd like you to help him. I think it's within your power. And it's a good deal, by the way.",
+      "JA_new": "ああ、印付き。バンディットを片付けた後、お前は記憶をなくしただけの新米じゃない、かなり腕の立つストーカーかもしれないと思った。つまり、いい奴が助けを必要としてる。お前に力を貸してほしいんだ。お前ならできると思う。それに、悪くない話だぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "volk_about_nastavnik",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:volk_about_nastavnik_phrase_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2285,
+      "string_id": "volk_about_nastavnik_phrase_3",
+      "occurrence": 1,
+      "EN": "What kind of guy is he?",
+      "JA_current": "What kind of guy is he?",
+      "JA_new": "どんな奴なんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "volk_about_nastavnik",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:volk_about_nastavnik_phrase_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2288,
+      "string_id": "volk_about_nastavnik_phrase_4",
+      "occurrence": 1,
+      "EN": "They call him Mentor. He is a veteran of the Zone, but recently he and his group had problems and need the help of experienced stalkers. Mentor is a great friend of our Sidorovich, they say that he once apparently saved his life.",
+      "JA_current": "They call him Mentor. He is a veteran of the Zone, but recently he and his group had problems and need the help of experienced stalkers. Mentor is a great friend of our Sidorovich, they say that he once apparently saved his life.",
+      "JA_new": "メンターと呼ばれてる。ゾーンを知り尽くしたベテランだ。だが最近、仲間と問題を抱えていて、腕の立つストーカーの助けが必要らしい。シドロヴィッチとは古くからの親友で、昔、命を救ったこともあるそうだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "volk_about_nastavnik",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:volk_about_nastavnik_phrase_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2291,
+      "string_id": "volk_about_nastavnik_phrase_5",
+      "occurrence": 1,
+      "EN": "Where can I find him?",
+      "JA_current": "Where can I find him?",
+      "JA_new": "どこにいる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "volk_about_nastavnik",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:volk_about_nastavnik_phrase_6#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2294,
+      "string_id": "volk_about_nastavnik_phrase_6",
+      "occurrence": 1,
+      "EN": "He is here in the village right now. He's staying in that red, roofless house across the street. You can go up to him right now.",
+      "JA_current": "He is here in the village right now. He's staying in that red, roofless house across the street. You can go up to him right now.",
+      "JA_new": "今は村にいる。通りの向かいにある、赤い屋根のない家にいるよ。すぐ会いに行ける。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "volk_about_nastavnik",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:volk_about_nastavnik_phrase_7#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2297,
+      "string_id": "volk_about_nastavnik_phrase_7",
+      "occurrence": 1,
+      "EN": "Okay.",
+      "JA_current": "Okay.",
+      "JA_new": "分かった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "volk_about_nastavnik",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "volk_about_nastavnik_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "%c[255,255,128,128]Wolf, what did you want to tell me? I got your message when I was at the carpark.%c[default]",
+      "JA_current": "%c[255,255,128,128]Wolf, what did you want to tell me? I got your message when I was at the carpark.%c[default]",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:volk_about_nastavnik_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "volk_about_nastavnik_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, Marked One, after you dealt with the bandits, I realized that you're not just a rookie who's lost his memory, but probably a pretty experienced stalker. My point is this: a good man needs help, and I'd like you to help him. I think it's within your power. And it's a good deal, by the way.",
+      "JA_current": "Yes, Marked One, after you dealt with the bandits, I realized that you're not just a rookie who's lost his memory, but probably a pretty experienced stalker. My point is this: a good man needs help, and I'd like you to help him. I think it's within your power. And it's a good deal, by the way.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:volk_about_nastavnik_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "volk_about_nastavnik_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What kind of guy is he?",
+      "JA_current": "What kind of guy is he?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:volk_about_nastavnik_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "volk_about_nastavnik_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "They call him Mentor. He is a veteran of the Zone, but recently he and his group had problems and need the help of experienced stalkers. Mentor is a great friend of our Sidorovich, they say that he once apparently saved his life.",
+      "JA_current": "They call him Mentor. He is a veteran of the Zone, but recently he and his group had problems and need the help of experienced stalkers. Mentor is a great friend of our Sidorovich, they say that he once apparently saved his life.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:volk_about_nastavnik_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "volk_about_nastavnik_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Where can I find him?",
+      "JA_current": "Where can I find him?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:volk_about_nastavnik_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "volk_about_nastavnik_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "He is here in the village right now. He's staying in that red, roofless house across the street. You can go up to him right now.",
+      "JA_current": "He is here in the village right now. He's staying in that red, roofless house across the street. You can go up to him right now.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:volk_about_nastavnik_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "volk_about_nastavnik_phrase_7",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "nastavnik_pogovorit"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Okay.",
+      "JA_current": "Okay.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:volk_about_nastavnik_phrase_7#1"
+      ]
+    }
+  ]
+}

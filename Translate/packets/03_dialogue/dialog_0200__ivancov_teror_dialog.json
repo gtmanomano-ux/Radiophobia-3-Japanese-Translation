@@ -1,0 +1,492 @@
+{
+  "packet_id": "dialog_0200__ivancov_teror_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "ivancov_teror_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_dolg_ivancov",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "voronin_terrorist_quest"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "ivancov_infa"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 11,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:ivancov_teror_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2964,
+      "string_id": "ivancov_teror_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Greetings. Voronin sent me, regarding this urgent problem we have here. Got anything helpful?",
+      "JA_current": "Greetings. Voronin sent me, regarding this urgent problem we have here. Got anything helpful?",
+      "JA_new": "どうも。ヴォロニンに頼まれて、この厄介事について来た。何か手がかりはあるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ivancov_teror_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ivancov_teror_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2967,
+      "string_id": "ivancov_teror_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Heh, an outsider! That's just fantastic, if the general is resorting to hiring loners, then we're pretty much fucked...",
+      "JA_current": "Heh, an outsider! That's just fantastic, if the general is resorting to hiring loners, then we're pretty much fucked...",
+      "JA_new": "へえ、部外者か！ 将軍がローナーを雇うほどなら、こっちはもうおしまいだな……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ivancov_teror_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ivancov_teror_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2970,
+      "string_id": "ivancov_teror_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Thanks for the vote of confidence, does wonders for my self-esteem! So, you think this case is beyond salvage or what?",
+      "JA_current": "Thanks for the vote of confidence, does wonders for my self-esteem! So, you think this case is beyond salvage or what?",
+      "JA_new": "その言葉、ありがたいよ。自尊心に効くな！ それで、この事件はもう手の施しようがないと思うか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ivancov_teror_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ivancov_teror_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2973,
+      "string_id": "ivancov_teror_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Of course is it. A lot of people think it's a practical joke, but it's not. I don't think it's even about any ransom. The fact is, I've seen something like this before, long ago. Not in the Zone, but outside the perimeter, back when I worked in intelligence for the government at the capital. We were doing a case on this group of religious nuts, a sect calling themselves \"Sin\". These fanatics had somehow managed to scrounge up enough parts to construct themselves an improvised dirty bomb, and they planned to carry out an explosion in the center of Kyiv during a busy event with many people present. We were able to prevent it and dismantled the whole group, took all of them into custody, or at least so I thought until now. Who's to say that one of them didn't slip through the cracks? The similarities are just too staggering for it to be a mere coincidence, this is why I am concerned about the seriousness of these threats...",
+      "JA_current": "Of course is it. A lot of people think it's a practical joke, but it's not. I don't think it's even about any ransom. The fact is, I've seen something like this before, long ago. Not in the Zone, but outside the perimeter, back when I worked in intelligence for the government at the capital. We were doing a case on this group of religious nuts, a sect calling themselves \"Sin\". These fanatics had somehow managed to scrounge up enough parts to construct themselves an improvised dirty bomb, and they planned to carry out an explosion in the center of Kyiv during a busy event with many people present. We were able to prevent it and dismantled the whole group, took all of them into custody, or at least so I thought until now. Who's to say that one of them didn't slip through the cracks? The similarities are just too staggering for it to be a mere coincidence, this is why I am concerned about the seriousness of these threats...",
+      "JA_new": "もちろんだ。悪ふざけだと思ってる奴も多いが、違う。身代金が目的とも思えん。昔、似た事件を見たことがある。ゾーンじゃなく、境界の外でだ。首都で政府の諜報部にいた頃、宗教に取り憑かれた連中を捜査していた。「シン」と名乗るカルト集団だ。狂信者どもは部品をかき集めて即席のダーティーボムを作り、人の集まる催しの最中にキーウ中心部で爆発させるつもりだった。阻止して組織を解体し、全員を逮捕した。少なくとも、そう思っていた……今まではな。誰か一人、網をすり抜けたのかもしれない。似ている点が多すぎて、偶然とは思えん。だから、この脅しを深刻に受け止めている……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ivancov_teror_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ivancov_teror_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2976,
+      "string_id": "ivancov_teror_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "So why would he choose to come into the Zone? Not exactly brimming with crowds over here!",
+      "JA_current": "So why would he choose to come into the Zone? Not exactly brimming with crowds over here!",
+      "JA_new": "どうしてゾーンに来たんだ？ ここに人混みなんてないだろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ivancov_teror_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ivancov_teror_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2979,
+      "string_id": "ivancov_teror_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "These people were fanatical about their beliefs, they didn't just do it for fun, they believed they were acting upon a divine mandate to purge the world from sin! Where else in the world are you gonna find a greater congregation of ex-cons, criminals, failures, fuckups and straight up psychopaths? That's right, all of them gravitate towards this place. The Zone is attractive to criminals in particular because it provides an opportunity to start a new life, to get away from the mistakes of the past and to avoid lengthy sentences and manhunts from law enforcement. You'll never find any cops or soldiers who would be willing to enter the Zone just to execute an arrest warrant, but that danger doesn't stop everyone. There are some people who would chase you to the end of the world even if it meant their death, like religious fanatics, for example. This guy knows that the Zone is where sinners come to hide, and so naturally this is the perfect target. The bar specifically was chosen for its population density, you have the Duty base as well as the popular stalker dive and campsite. ",
+      "JA_current": "These people were fanatical about their beliefs, they didn't just do it for fun, they believed they were acting upon a divine mandate to purge the world from sin! Where else in the world are you gonna find a greater congregation of ex-cons, criminals, failures, fuckups and straight up psychopaths? That's right, all of them gravitate towards this place. The Zone is attractive to criminals in particular because it provides an opportunity to start a new life, to get away from the mistakes of the past and to avoid lengthy sentences and manhunts from law enforcement. You'll never find any cops or soldiers who would be willing to enter the Zone just to execute an arrest warrant, but that danger doesn't stop everyone. There are some people who would chase you to the end of the world even if it meant their death, like religious fanatics, for example. This guy knows that the Zone is where sinners come to hide, and so naturally this is the perfect target. The bar specifically was chosen for its population density, you have the Duty base as well as the popular stalker dive and campsite. ",
+      "JA_new": "あいつらは信仰に狂っていた。面白半分じゃない。神に命じられて、世界から罪を粛清するんだと信じていた！ そんな連中が、どこに集まると思う？ 元受刑者、犯罪者、落伍者、失敗続きの奴、筋金入りのサイコパス……そういう連中は皆、ここへ流れ着く。ゾーンは過去を捨ててやり直し、長い刑期や警察の追跡から逃げられる場所だから、犯罪者を引きつける。逮捕状を執行するためだけにゾーンへ入る警官や兵士はいない。だが、危険を恐れない人間もいる。たとえ命を落としても世界の果てまで追いかけてくる連中だ。宗教の狂信者とかな。あの男は、罪人が隠れに来る場所がゾーンだと知ってる。だから標的に選んだんだ。バーは特に人が集まる。デューティー基地もあるし、人気の酒場と野営地もある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ivancov_teror_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ivancov_teror_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2982,
+      "string_id": "ivancov_teror_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "What else was this \"sin\" group known for? Maybe we can use their past methods to locate our guy?",
+      "JA_current": "What else was this \"sin\" group known for? Maybe we can use their past methods to locate our guy?",
+      "JA_new": "「シン」はほかにどんなことで知られてた？ 手口から犯人を見つけられないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ivancov_teror_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ivancov_teror_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2985,
+      "string_id": "ivancov_teror_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "What, aside from being the classic, self-righteous religious community?? They believed that everyone around them was steeped in sin, including themselves. That sin was like a disease permeating the very fabric of humanity, and preventing them from attaining God's mercy and salvation. So, the only way to purge themselves from that sin was to commit suicide and take down as many sinners with them as possible. In short, a bunch of suicide bombers. Naturally, they preyed on the outcasts of society, introverts rejected from social circles and full of angst and hatred for the popular folk. They had these so called \"acolytes\" who would conduct talent spotting and groom the vulnerable into joining the clan. Bonus points if the rejects were intellectuals, skilled in chemistry, physics, cyber-security, all the skills necessary to achieve the big bang and purge everyone in one swoop.",
+      "JA_current": "What, aside from being the classic, self-righteous religious community?? They believed that everyone around them was steeped in sin, including themselves. That sin was like a disease permeating the very fabric of humanity, and preventing them from attaining God's mercy and salvation. So, the only way to purge themselves from that sin was to commit suicide and take down as many sinners with them as possible. In short, a bunch of suicide bombers. Naturally, they preyed on the outcasts of society, introverts rejected from social circles and full of angst and hatred for the popular folk. They had these so called \"acolytes\" who would conduct talent spotting and groom the vulnerable into joining the clan. Bonus points if the rejects were intellectuals, skilled in chemistry, physics, cyber-security, all the skills necessary to achieve the big bang and purge everyone in one swoop.",
+      "JA_new": "あいつらが、典型的な独善的宗教集団だったこと以外か？ 周りの人間は皆、罪に染まってると信じていた。自分たちも含めてな。罪は人間の本質に染み込んだ病で、神の慈悲や救いを妨げると考えていた。だから罪を清めるには、自殺して、できるだけ多くの罪人を道連れにするしかない。要するに自爆犯だ。社会からはじき出され、内向的で、人付き合いの輪から拒まれた挙げ句、人気者への怒りや憎しみを募らせた連中を狙っていた。「アコライト」と呼ばれる勧誘役が、才能のある人間を見つけ、弱った奴を一族に引き込む。特に、化学や物理、サイバーセキュリティに詳しい知識人は歓迎された。大爆発を起こし、一度に全員を粛清するのに必要な技術を持ってるからな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ivancov_teror_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ivancov_teror_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2988,
+      "string_id": "ivancov_teror_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "Any other ideas? Could there be a chance this Terrorist isn't related to the sect? What if it's Freedom trying to smoke you out?",
+      "JA_current": "Any other ideas? Could there be a chance this Terrorist isn't related to the sect? What if it's Freedom trying to smoke you out?",
+      "JA_new": "ほかに考えはあるか？ 犯人がシンと無関係という可能性は？ フリーダムがあんたをおびき出そうとしてるとか。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ivancov_teror_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ivancov_teror_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2991,
+      "string_id": "ivancov_teror_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "I don't think so. Freedom may hate us but they're not completely feral, they wouldn't waste a bunch of stalkers just to take us out like that, they have too much honor and morality for such a cheap shot. I say we stick with what we know, your questions about how the sect operated gave me an idea. We should ask the stalkers around the bar about any suspicious, antisocial loners with unique talents that came through recently. My theory is that this weirdo is still around, because his beliefs will want him to detonate himself along with us \"sinners\". Ask around if there are any lone wolf stalkers in the area, we may just flush him out and waste him before he blows the place.",
+      "JA_current": "I don't think so. Freedom may hate us but they're not completely feral, they wouldn't waste a bunch of stalkers just to take us out like that, they have too much honor and morality for such a cheap shot. I say we stick with what we know, your questions about how the sect operated gave me an idea. We should ask the stalkers around the bar about any suspicious, antisocial loners with unique talents that came through recently. My theory is that this weirdo is still around, because his beliefs will want him to detonate himself along with us \"sinners\". Ask around if there are any lone wolf stalkers in the area, we may just flush him out and waste him before he blows the place.",
+      "JA_new": "そうは思わない。フリーダムは俺たちを嫌ってるが、そこまで獣じみちゃいない。俺たちを始末するだけのためにストーカーを大勢巻き添えにはしない。あいつらにも名誉や道義はある。そんな卑怯な手は使わないさ。分かっていることから調べよう。シンの手口を聞いて、考えが浮かんだ。バーの連中に聞いてみろ。最近ここに来た、妙な才能のある人付き合いの悪いローナーはいないか。あの変人はまだ近くにいると思う。信念に従って、「罪人」の俺たちと一緒に自爆するつもりだろう。近場に一匹狼のストーカーがいないか探せ。見つけて始末できれば、バーを吹き飛ばされる前に止められるかもしれない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ivancov_teror_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ivancov_teror_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2994,
+      "string_id": "ivancov_teror_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "I'll ask around the bar and try to track him down.",
+      "JA_current": "I'll ask around the bar and try to track him down.",
+      "JA_new": "バーで聞き込みをして、そいつを探してみる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ivancov_teror_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "ivancov_teror_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Greetings. Voronin sent me, regarding this urgent problem we have here. Got anything helpful?",
+      "JA_current": "Greetings. Voronin sent me, regarding this urgent problem we have here. Got anything helpful?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ivancov_teror_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "ivancov_teror_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Heh, an outsider! That's just fantastic, if the general is resorting to hiring loners, then we're pretty much fucked...",
+      "JA_current": "Heh, an outsider! That's just fantastic, if the general is resorting to hiring loners, then we're pretty much fucked...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ivancov_teror_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "ivancov_teror_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thanks for the vote of confidence, does wonders for my self-esteem! So, you think this case is beyond salvage or what?",
+      "JA_current": "Thanks for the vote of confidence, does wonders for my self-esteem! So, you think this case is beyond salvage or what?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ivancov_teror_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "ivancov_teror_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Of course is it. A lot of people think it's a practical joke, but it's not. I don't think it's even about any ransom. The fact is, I've seen something like this before, long ago. Not in the Zone, but outside the perimeter, back when I worked in intelligence for the government at the capital. We were doing a case on this group of religious nuts, a sect calling themselves \"Sin\". These fanatics had somehow managed to scrounge up enough parts to construct themselves an improvised dirty bomb, and they planned to carry out an explosion in the center of Kyiv during a busy event with many people present. We were able to prevent it and dismantled the whole group, took all of them into custody, or at least so I thought until now. Who's to say that one of them didn't slip through the cracks? The similarities are just too staggering for it to be a mere coincidence, this is why I am concerned about the seriousness of these threats...",
+      "JA_current": "Of course is it. A lot of people think it's a practical joke, but it's not. I don't think it's even about any ransom. The fact is, I've seen something like this before, long ago. Not in the Zone, but outside the perimeter, back when I worked in intelligence for the government at the capital. We were doing a case on this group of religious nuts, a sect calling themselves \"Sin\". These fanatics had somehow managed to scrounge up enough parts to construct themselves an improvised dirty bomb, and they planned to carry out an explosion in the center of Kyiv during a busy event with many people present. We were able to prevent it and dismantled the whole group, took all of them into custody, or at least so I thought until now. Who's to say that one of them didn't slip through the cracks? The similarities are just too staggering for it to be a mere coincidence, this is why I am concerned about the seriousness of these threats...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ivancov_teror_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "ivancov_teror_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So why would he choose to come into the Zone? Not exactly brimming with crowds over here!",
+      "JA_current": "So why would he choose to come into the Zone? Not exactly brimming with crowds over here!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ivancov_teror_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "ivancov_teror_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "These people were fanatical about their beliefs, they didn't just do it for fun, they believed they were acting upon a divine mandate to purge the world from sin! Where else in the world are you gonna find a greater congregation of ex-cons, criminals, failures, fuckups and straight up psychopaths? That's right, all of them gravitate towards this place. The Zone is attractive to criminals in particular because it provides an opportunity to start a new life, to get away from the mistakes of the past and to avoid lengthy sentences and manhunts from law enforcement. You'll never find any cops or soldiers who would be willing to enter the Zone just to execute an arrest warrant, but that danger doesn't stop everyone. There are some people who would chase you to the end of the world even if it meant their death, like religious fanatics, for example. This guy knows that the Zone is where sinners come to hide, and so naturally this is the perfect target. The bar specifically was chosen for its population density, you have the Duty base as well as the popular stalker dive and campsite. ",
+      "JA_current": "These people were fanatical about their beliefs, they didn't just do it for fun, they believed they were acting upon a divine mandate to purge the world from sin! Where else in the world are you gonna find a greater congregation of ex-cons, criminals, failures, fuckups and straight up psychopaths? That's right, all of them gravitate towards this place. The Zone is attractive to criminals in particular because it provides an opportunity to start a new life, to get away from the mistakes of the past and to avoid lengthy sentences and manhunts from law enforcement. You'll never find any cops or soldiers who would be willing to enter the Zone just to execute an arrest warrant, but that danger doesn't stop everyone. There are some people who would chase you to the end of the world even if it meant their death, like religious fanatics, for example. This guy knows that the Zone is where sinners come to hide, and so naturally this is the perfect target. The bar specifically was chosen for its population density, you have the Duty base as well as the popular stalker dive and campsite. ",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ivancov_teror_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "ivancov_teror_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What else was this \"sin\" group known for? Maybe we can use their past methods to locate our guy?",
+      "JA_current": "What else was this \"sin\" group known for? Maybe we can use their past methods to locate our guy?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ivancov_teror_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "ivancov_teror_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What, aside from being the classic, self-righteous religious community?? They believed that everyone around them was steeped in sin, including themselves. That sin was like a disease permeating the very fabric of humanity, and preventing them from attaining God's mercy and salvation. So, the only way to purge themselves from that sin was to commit suicide and take down as many sinners with them as possible. In short, a bunch of suicide bombers. Naturally, they preyed on the outcasts of society, introverts rejected from social circles and full of angst and hatred for the popular folk. They had these so called \"acolytes\" who would conduct talent spotting and groom the vulnerable into joining the clan. Bonus points if the rejects were intellectuals, skilled in chemistry, physics, cyber-security, all the skills necessary to achieve the big bang and purge everyone in one swoop.",
+      "JA_current": "What, aside from being the classic, self-righteous religious community?? They believed that everyone around them was steeped in sin, including themselves. That sin was like a disease permeating the very fabric of humanity, and preventing them from attaining God's mercy and salvation. So, the only way to purge themselves from that sin was to commit suicide and take down as many sinners with them as possible. In short, a bunch of suicide bombers. Naturally, they preyed on the outcasts of society, introverts rejected from social circles and full of angst and hatred for the popular folk. They had these so called \"acolytes\" who would conduct talent spotting and groom the vulnerable into joining the clan. Bonus points if the rejects were intellectuals, skilled in chemistry, physics, cyber-security, all the skills necessary to achieve the big bang and purge everyone in one swoop.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ivancov_teror_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "ivancov_teror_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Any other ideas? Could there be a chance this Terrorist isn't related to the sect? What if it's Freedom trying to smoke you out?",
+      "JA_current": "Any other ideas? Could there be a chance this Terrorist isn't related to the sect? What if it's Freedom trying to smoke you out?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ivancov_teror_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "ivancov_teror_dialog_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I don't think so. Freedom may hate us but they're not completely feral, they wouldn't waste a bunch of stalkers just to take us out like that, they have too much honor and morality for such a cheap shot. I say we stick with what we know, your questions about how the sect operated gave me an idea. We should ask the stalkers around the bar about any suspicious, antisocial loners with unique talents that came through recently. My theory is that this weirdo is still around, because his beliefs will want him to detonate himself along with us \"sinners\". Ask around if there are any lone wolf stalkers in the area, we may just flush him out and waste him before he blows the place.",
+      "JA_current": "I don't think so. Freedom may hate us but they're not completely feral, they wouldn't waste a bunch of stalkers just to take us out like that, they have too much honor and morality for such a cheap shot. I say we stick with what we know, your questions about how the sect operated gave me an idea. We should ask the stalkers around the bar about any suspicious, antisocial loners with unique talents that came through recently. My theory is that this weirdo is still around, because his beliefs will want him to detonate himself along with us \"sinners\". Ask around if there are any lone wolf stalkers in the area, we may just flush him out and waste him before he blows the place.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ivancov_teror_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "ivancov_teror_dialog_phrase_11",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "ivancov_infa"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'll ask around the bar and try to track him down.",
+      "JA_current": "I'll ask around the bar and try to track him down.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ivancov_teror_dialog_phrase_11#1"
+      ]
+    }
+  ]
+}

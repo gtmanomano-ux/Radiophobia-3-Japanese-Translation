@@ -1,0 +1,2379 @@
+{
+  "packet_id": "dialog_0141__bar_bar_barmen_start",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_bar_barmen_start",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_barman",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 47,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 734,
+      "string_id": "bar_bar_barmen_start_2",
+      "occurrence": 1,
+      "EN": "Hey, Marked One! Have you brought the documents from the Institute?",
+      "JA_current": "おお、Marked One！ 研究所から書類は持ち帰ったか？",
+      "JA_new": "よお、マークド・ワン！ 研究所の書類は持ってきたか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 758,
+      "string_id": "bar_bar_barmen_start_3",
+      "occurrence": 1,
+      "EN": "What do you want, Marked One?",
+      "JA_current": "何が望みだ、Marked One？",
+      "JA_new": "何の用だ、マークド・ワン？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 761,
+      "string_id": "bar_bar_barmen_start_4",
+      "occurrence": 1,
+      "EN": "Hey, Marked One! Times change but you don't, still grumpy and aloof. Here, take a seat, have a drink - might make you nicer...",
+      "JA_current": "おお、Marked One じゃねぇか。時代は変わっていくが、お前は変わらず、ホットでいかしたヤツだな。ここに来て座れよ。1杯やったらスッキリするぜ…。",
+      "JA_new": "よお、マークド・ワン！ 時がたっても変わらないな。相変わらず不機嫌で無愛想だ。ほら、座って一杯やれよ。少しは愛想がよくなるかもな……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_1131#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 623,
+      "string_id": "bar_bar_barmen_start_1131",
+      "occurrence": 1,
+      "EN": "Hmm... Where did you come from?",
+      "JA_current": "フム… アンタはどこから来たんだい？",
+      "JA_new": "ん……どこから来たんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "1131",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_121#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 626,
+      "string_id": "bar_bar_barmen_start_121",
+      "occurrence": 1,
+      "EN": "So, Marked One, you got the documents from X-16?",
+      "JA_current": "それで、Marked One。X18 から書類を手に入れたのかい？",
+      "JA_new": "それで、マークド・ワン。ラボX16の書類は手に入れたか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "121",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_131#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 641,
+      "string_id": "bar_bar_barmen_start_131",
+      "occurrence": 1,
+      "EN": "Excellent! Let me take a look at these... Interesting... Just as I thought... Heh, it can't be... Well, Marked One, now we just need to deal with the Scorcher and open the way North! We have all the details we need to make this work. I'll let you decide how and when to approach it, I'm sure you won't disappoint. You ready for the details?",
+      "JA_current": "ふぅむ、Marked One、それでは Scorcher をなんとかして、北への道を開かなきゃな！ もう準備は出来てるかい？",
+      "JA_new": "よし、見せてくれ……なるほど……思った通りだ。まさか……。マークド・ワン、あとはブレイン・スコーチャーを止めて、北への道を開くだけだ。必要な情報はそろった。どう攻めるか、いつ動くかはお前に任せる。期待してるぞ。詳しい話を聞くか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "131",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_151#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 668,
+      "string_id": "bar_bar_barmen_start_151",
+      "occurrence": 1,
+      "EN": "OK, the documents you brought from the Institute make some things a little clearer but we’re still missing the info we need to get a full picture. A lab designated X-18 is mentioned and its description matches the abandoned underground vaults in the Dark Valley. Looks like you’ll have to go there and get the info we need. The lab is closed and you’ll need two electronic keys to get inside. I’ll give you one but you’ll have to get the other one from Borov in the Dark Valley.",
+      "JA_current": "よし、お前が研究所から持ち帰った書類のおかげで、色々と分かってきたが、まだ全体像を把握するには情報が不足している。X18 と呼ばれるラボについて言及されているんだが、この描写が Dark Valley にある放棄された地下壕に一致するんだ。お前にそこへ行ってもらって、必要な情報を手に入れてもらうことになるな。ラボは閉鎖されている。中に入るには2つの電子キーが必要だ。1つはくれてやれるんだが、もう1つは Dark Valley にいるヤツらから力ずくで奪ってもらうことになる。",
+      "JA_new": "よし、研究所から持ち帰った書類で少し分かったが、全体を把握するにはまだ情報が足りない。ラボX18という施設が出てくる。説明からすると、ダークバレーの放棄された地下施設らしい。そこへ行って必要な情報を取ってこい。研究所は封鎖されていて、入るには電子キーが二つ要る。一つは渡すが、もう一つはダークバレーのボロフから手に入れてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "151",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_161#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 689,
+      "string_id": "bar_bar_barmen_start_161",
+      "occurrence": 1,
+      "EN": "What do you want, Marked One?",
+      "JA_current": "Marked One、何が望みだい？",
+      "JA_new": "何の用だ、マークド・ワン？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "161",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_162#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 692,
+      "string_id": "bar_bar_barmen_start_162",
+      "occurrence": 1,
+      "EN": "Hey, Marked One! Times change but you don't, still grumpy and aloof. Here, take a seat, have a drink - might make you nicer...",
+      "JA_current": "おお、Marked One じゃねぇか。時代は変わっていくが、お前は変わらず、ホットでいかしたヤツだな。ここに来て座れよ。1杯やったらスッキリするぜ…。",
+      "JA_new": "よお、マークド・ワン！ 時がたっても変わらないな。相変わらず不機嫌で無愛想だ。ほら、座って一杯やれよ。少しは愛想がよくなるかもな……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "162",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_171#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 695,
+      "string_id": "bar_bar_barmen_start_171",
+      "occurrence": 1,
+      "EN": "So, Marked One, you brought the documents from X-18?",
+      "JA_current": "で、X18 から書類を持ってきてくれたんだろうな、Marked One？",
+      "JA_new": "それで、マークド・ワン。ラボX18の書類は持ってきたか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "171",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_181#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 728,
+      "string_id": "bar_bar_barmen_start_181",
+      "occurrence": 1,
+      "EN": "What do you want, Marked One?",
+      "JA_current": "何が望みだ、Marked One？",
+      "JA_new": "何の用だ、マークド・ワン？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "181",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_182#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 731,
+      "string_id": "bar_bar_barmen_start_182",
+      "occurrence": 1,
+      "EN": "Hey, Marked One! Times change but you don't, still grumpy and aloof. Here, take a seat, have a drink - might make you nicer...",
+      "JA_current": "おお、Marked One じゃねぇか。時代は変わっていくが、お前は変わらず、ホットでいかしたヤツだな。ここに来て座れよ。1杯やったらスッキリするぜ…。",
+      "JA_new": "よお、マークド・ワン！ 時がたっても変わらないな。相変わらず不機嫌で無愛想だ。ほら、座って一杯やれよ。少しは愛想がよくなるかもな……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "182",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_1721#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 701,
+      "string_id": "bar_bar_barmen_start_1721",
+      "occurrence": 1,
+      "EN": "Good, the situation is becoming clearer. As I expected this Brain Scorcher is man-made. It’s a Kaymanov experimental emitter and its components were made exactly in X-18. These documents refer to lab X-16 where they sent some components. According to this, X-16 is located in the production complex area by Lake Yantar. The scientists have set up a mobile lab around there so maybe they can help.",
+      "JA_current": "よし、これでぐっとわかってきた。俺の予想通り、この Brain Scorcher ってのは人造らしい。で、それは Kaymanov の実験放出器で、そのパーツは確かに X18 で作られてる。書類によると Lab X16 にいくつかパーツが送られたらしい。それから、Lab X16 は Yantar 湖近くの生産棟エリアにあるらしい、とのことだ。科学者のヤツらは移動研究所をそのあたりに組み立てたらしい。",
+      "JA_new": "よし、全体が見えてきた。予想どおり、ブレイン・スコーチャーは人為的に作られたものだ。カイマノフ製の実験用放射装置で、部品はすべてラボX18で作られている。書類によると、その一部はラボX16へ送られた。X16はヤンター湖近くの生産施設にあるらしい。あの辺りには科学者が移動研究所を設置してる。力を貸してくれるかもしれない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "1721",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_21#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 737,
+      "string_id": "bar_bar_barmen_start_21",
+      "occurrence": 1,
+      "EN": "No, I haven't got the docs from the Institute yet.",
+      "JA_current": "いや、まだ研究所から持ち帰っていない。",
+      "JA_new": "いや、研究所の書類はまだだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_22#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 746,
+      "string_id": "bar_bar_barmen_start_22",
+      "occurrence": 1,
+      "EN": "Here are the documents from the Institute.",
+      "JA_current": "これが研究所の書類だ。",
+      "JA_new": "研究所の書類だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "22",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_1211#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 629,
+      "string_id": "bar_bar_barmen_start_1211",
+      "occurrence": 1,
+      "EN": "Yeah. Here.",
+      "JA_current": "ああ、ここにある。",
+      "JA_new": "ああ。ほら。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "1211",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_1212#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 632,
+      "string_id": "bar_bar_barmen_start_1212",
+      "occurrence": 1,
+      "EN": "No.",
+      "JA_current": "ない。",
+      "JA_new": "いや。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "1212",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_1312#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 644,
+      "string_id": "bar_bar_barmen_start_1312",
+      "occurrence": 1,
+      "EN": "Yes.",
+      "JA_current": "ああ。",
+      "JA_new": "聞くよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "1312",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_132#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 662,
+      "string_id": "bar_bar_barmen_start_132",
+      "occurrence": 1,
+      "EN": "No, bit busy right now.",
+      "JA_current": "いや、まだだ。",
+      "JA_new": "いや、今はちょっと忙しい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "132",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_1511#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 671,
+      "string_id": "bar_bar_barmen_start_1511",
+      "occurrence": 1,
+      "EN": "Go on.",
+      "JA_current": "わかった。",
+      "JA_new": "続けてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "1511",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_172#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 698,
+      "string_id": "bar_bar_barmen_start_172",
+      "occurrence": 1,
+      "EN": "Yeah. Here.",
+      "JA_current": "ああ、ここにある。",
+      "JA_new": "ああ。ほら。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "172",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_173#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 722,
+      "string_id": "bar_bar_barmen_start_173",
+      "occurrence": 1,
+      "EN": "No.",
+      "JA_current": "いいや。",
+      "JA_new": "いや。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "173",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_17211#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 704,
+      "string_id": "bar_bar_barmen_start_17211",
+      "occurrence": 1,
+      "EN": "Go on.",
+      "JA_current": "わかった。",
+      "JA_new": "続けてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "17211",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_211#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 740,
+      "string_id": "bar_bar_barmen_start_211",
+      "occurrence": 1,
+      "EN": "That ain't good, Marked One, ain't good at all... You understand how much we need 'em, don'tcha? We need 'em bad, believe me. The Brain Scorcher is right under our noses but we don't even know what it is! Go get the documents right now - we'll talk after that.",
+      "JA_current": "それはよくない、Marked One、まるでよくないぞ… それがどんなに必要なのか理解してないのか？ まずい内容のはずだ、信じろ。Brain Scorcher は今まさに鼻の下にぶら下がってるが、それが何かさえ知らないときた！ 今すぐ書類を取りに行け ― その後で話そう。",
+      "JA_new": "まずいな、マークド・ワン。かなりまずい……どれだけ必要な書類か分かってるだろ？ 本当に必要なんだ。ブレイン・スコーチャーは目と鼻の先なのに、正体すら分からない。今すぐ書類を探してこい。話はそれからだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "211",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_221#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 749,
+      "string_id": "bar_bar_barmen_start_221",
+      "occurrence": 1,
+      "EN": "Great work, Marked One! We have the documents at last. I need to have a look at them now and maybe I’ll work out how to get North. While I do that, if you have problems with money, you can fight at the Arena. The owner of the Arena is Arnie, I've uploaded his coordinates.",
+      "JA_current": "よくやった、Marked One！ ついに記録を入手したぞ。早速、読まなきゃな。そうすりゃ北への道が分かるかもしれん。その間、金に困ったら Arena で戦うといい。 Arena のオーナーは Arni だ。PDA にヤツの居場所をアップロードしておいたぞ。",
+      "JA_new": "よくやった、マークド・ワン！ ようやく書類が手に入った。目を通して、北へ進む方法を考えてみる。その間、金に困ったらアリーナで稼ぐといい。運営してるのはアーニーだ。座標を送っておいた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "221",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_12121#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 635,
+      "string_id": "bar_bar_barmen_start_12121",
+      "occurrence": 1,
+      "EN": "Damn it! Here I am, busting my arse while you're off wandering in the woods! Go get those damn documents or we won't make any progress!",
+      "JA_current": "何だと！？ 俺がここで全力を尽くしてるってのに、お前さんはその間、森をうろうろしてただけだってのか？ あの忌々しい書類を取りに行かなきゃ、何も進展しねぇんだぞ！",
+      "JA_new": "まったく！ お前が森をうろついてる間、こっちは必死に動き回ってるんだ！ 書類をさっさと探してこい。これじゃ先へ進めない！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "12121",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_13121#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 647,
+      "string_id": "bar_bar_barmen_start_13121",
+      "occurrence": 1,
+      "EN": "OK, Marked One, you’ve got the protective prototype from Sakharov so you should be more or less safe from the Scorcher's radiation. The documents you retrieved state clearly the design specifications of the Brain Scorcher; an array of antenna emitters controlled from a nearby bunker. I have sent you the bunker coordinates now. Don’t forget that the prototype won’t protect you forever, the Scorcher's radiation signature is more potent than it was at X-16. Once you enter its influence, you need to get to the bunker ASAP and turn off the Scorcher. I don’t know what will happen after that but I am sure it will be worth it. The only thing we can be sure of is that the road to the Zone’s center will be open.",
+      "JA_current": "よし Marked One、お前は、あの放出から身を守るための、プロトタイプを手に入れた。俺がバンカーの位置情報を持っている。忘れるな、プロトタイプは長い時間は守ってくれない。できるだけ早くバンカーにたどり着き、Scorcher をオフにする必要がある。それで何が起こるかは分からないが、価値ある試みには違いない。唯一確かなことは、それでゾーン中心への道が開くということだ。",
+      "JA_new": "よし、サハロフから防護用の試作品を受け取ったな。これでブレイン・スコーチャーの放射から、ある程度は身を守れる。持ち帰った書類には、ブレイン・スコーチャーの設計がはっきり記されている。近くのバンカーから制御するアンテナ放射装置の集合体だ。バンカーの座標を送った。試作品の防護がいつまでも続くわけじゃないことを忘れるな。ブレイン・スコーチャーの放射線は、X16で浴びたものより強い。影響圏に入ったら、すぐにバンカーへ向かって装置を止めろ。何が起きるか分からないが、やる価値はある。少なくとも、ゾーンの中心へ続く道は開けるはずだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "13121",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_1321#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 665,
+      "string_id": "bar_bar_barmen_start_1321",
+      "occurrence": 1,
+      "EN": "Come on, Marked One! This task can't wait! Let me brief you quickly then you can be on your way!",
+      "JA_current": "準備はいいか？ この任務は待ったなしだぜ！",
+      "JA_new": "急げ、マークド・ワン！ 待てない仕事だ。手短に説明するから、すぐ出発してくれ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "1321",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_15111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 674,
+      "string_id": "bar_bar_barmen_start_15111",
+      "occurrence": 1,
+      "EN": "All you have to do is acquire the second key to Lab X-18, get inside and retrieve the second batch of documents. Don’t forget to get yourself a protective suit or you won’t have a chance in hell of getting to the lab. So, will you do it?",
+      "JA_current": "お前には Lab X18 に行ってドキュメントを入手してきて欲しい。それから、この防護スーツを着るのを忘れるなよ。じゃないと、お前は研究室に着くまでに死んでしまうだろうからな。やってくれるか？",
+      "JA_new": "ラボX18の二つ目のキーを手に入れて中に入り、残りの書類を回収しろ。防護スーツを用意しておけ。着なければ研究所までたどり着けない。やってくれるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "15111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_1731#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 725,
+      "string_id": "bar_bar_barmen_start_1731",
+      "occurrence": 1,
+      "EN": "What are you wasting time for? Go get those damn documents or we won't make any progress!",
+      "JA_current": "何をグズグズしてるんだ？ あの忌々しい書類を取りに行かなきゃ、何も進展しねぇんだぞ！",
+      "JA_new": "何をぐずぐずしてる？ 書類をさっさと探せ。これじゃ先へ進めないぞ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "1731",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_17212#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 707,
+      "string_id": "bar_bar_barmen_start_17212",
+      "occurrence": 1,
+      "EN": "It ain’t simple. You need to get to the scientists and find out where X-16 is so you can get the missing documents. So, you up for it?",
+      "JA_current": "簡単にはいかないぞ。科学者のヤツらを調べて X16 がどこなのかを突き止めねばならん。そうすりゃ、失くなった書類も手に入るって寸法だ。",
+      "JA_new": "簡単じゃない。科学者のところへ行ってX16の場所を聞き出し、残りの書類を探すんだ。やってみるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "17212",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_2111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 743,
+      "string_id": "bar_bar_barmen_start_2111",
+      "occurrence": 1,
+      "EN": "I think I understand.",
+      "JA_current": "分かったと思う。",
+      "JA_new": "分かったと思う。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "2111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_2211#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 752,
+      "string_id": "bar_bar_barmen_start_2211",
+      "occurrence": 1,
+      "EN": "OK.",
+      "JA_current": "オーケー。",
+      "JA_new": "分かった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "2211",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_121211#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 638,
+      "string_id": "bar_bar_barmen_start_121211",
+      "occurrence": 1,
+      "EN": "OK.",
+      "JA_current": "オーケー。",
+      "JA_new": "分かった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "121211",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_1313#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 650,
+      "string_id": "bar_bar_barmen_start_1313",
+      "occurrence": 1,
+      "EN": "Go on.",
+      "JA_current": "続けてくれ。",
+      "JA_new": "続けてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "1313",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_15112#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 677,
+      "string_id": "bar_bar_barmen_start_15112",
+      "occurrence": 1,
+      "EN": "I'll try.",
+      "JA_current": "やってみよう。",
+      "JA_new": "やってみる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "15112",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_15114#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 683,
+      "string_id": "bar_bar_barmen_start_15114",
+      "occurrence": 1,
+      "EN": "No, I don't want to do it yet.",
+      "JA_current": "いや、今はやめとくよ。",
+      "JA_new": "いや、まだやるつもりはない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "15114",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_17213#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 710,
+      "string_id": "bar_bar_barmen_start_17213",
+      "occurrence": 1,
+      "EN": "Yeah.",
+      "JA_current": "ああ。",
+      "JA_new": "ああ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "17213",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_17214#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 716,
+      "string_id": "bar_bar_barmen_start_17214",
+      "occurrence": 1,
+      "EN": "No, I'm not ready yet.",
+      "JA_current": "いや、まだだ。",
+      "JA_new": "いや、まだ準備できてない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "17214",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_1314#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 653,
+      "string_id": "bar_bar_barmen_start_1314",
+      "occurrence": 1,
+      "EN": "All you need to do is get to the antennas and disable them. Got it?",
+      "JA_current": "俺達がすべきことは、アンテナまで行って使い物にならなくすることだ。わかったか？",
+      "JA_new": "アンテナまで行って、装置を止めればいい。分かったか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "1314",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_15113#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 680,
+      "string_id": "bar_bar_barmen_start_15113",
+      "occurrence": 1,
+      "EN": "Great! I'll be waiting.",
+      "JA_current": "ありがたい。期待しているよ。",
+      "JA_new": "よし。待ってるぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "15113",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_15115#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 686,
+      "string_id": "bar_bar_barmen_start_15115",
+      "occurrence": 1,
+      "EN": "Up to you but remember: this is the only way that can help us open the road to the North.",
+      "JA_current": "お前次第だ、だが覚えとけ： これが、北方への道を開く唯一の方法だ。",
+      "JA_new": "お前次第だ。だが、北への道を開くにはこれしかない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "15115",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_172131#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 713,
+      "string_id": "bar_bar_barmen_start_172131",
+      "occurrence": 1,
+      "EN": "Great! I'll be waiting.",
+      "JA_current": "よし！ 待ってるからな。",
+      "JA_new": "よし。待ってるぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "172131",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_172141#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 719,
+      "string_id": "bar_bar_barmen_start_172141",
+      "occurrence": 1,
+      "EN": "Well get ready real quick Marked One! This sort of business can't wait.",
+      "JA_current": "さっさと準備しやがれ！ この手のヤマは時間が命だ。",
+      "JA_new": "さっさと準備しろ、マークド・ワン！ 待っていられないんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "172141",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_1315#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 656,
+      "string_id": "bar_bar_barmen_start_1315",
+      "occurrence": 1,
+      "EN": "Got it.",
+      "JA_current": "わかった。",
+      "JA_new": "分かった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "1315",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_1316#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 659,
+      "string_id": "bar_bar_barmen_start_1316",
+      "occurrence": 1,
+      "EN": "Great, good luck Marked One! Also, if you haven't already, check in with General Voronin at the Duty base in case you need some extra cash for equipment, he's always got work to do. I'll make sure they let you in. Tell him Barkeep sent you, I'll vouch for you.",
+      "JA_current": "そうだ、最後にもう一つ！ Duty のリーダーが、Military warehouses である任務を実行してくれるボランティアを求めている。彼の位置をマップにマークしておいた。関心があるなら立ち寄るがいい。警備員に口をきいておけば、お前を中に入れてくれるだろう。",
+      "JA_new": "よし、幸運を祈るぞ、マークド・ワン！ まだなら、デューティー基地のヴォロニン将軍にも顔を出しておけ。装備を買う金が必要なら、仕事を回してくれる。中へ通すよう話をつけておく。バーキープに言われたと伝えろ。俺が保証する。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "1316",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_start_1111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 620,
+      "string_id": "bar_bar_barmen_start_1111",
+      "occurrence": 1,
+      "EN": "Let's start. You ready?",
+      "JA_current": "始めよう。準備はいいか？",
+      "JA_new": "始めよう。準備はいいか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_start",
+          "phrase_id": "1111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": null,
+      "next": [
+        "1",
+        "11",
+        "113",
+        "12",
+        "13",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1",
+      "text_id": null,
+      "next": [
+        "2"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "agroprom_military_case_done"
+        },
+        {
+          "type": "has_info",
+          "value": "agroprom_military_case"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "11",
+      "text_id": null,
+      "next": [
+        "3",
+        "4"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_barman_stay_room"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "yan_x16_documents_gain"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "bar_dolg_base_rules_start"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "bar_darklab_document_gain"
+        },
+        {
+          "type": "has_info",
+          "value": "agroprom_military_case_done"
+        },
+        {
+          "type": "has_info",
+          "value": "agroprom_military_case"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "113",
+      "text_id": null,
+      "next": [
+        "1131"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "agroprom_military_case"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "bar_barman_stay_room"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "12",
+      "text_id": null,
+      "next": [
+        "121"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_barman_stay_room"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "bar_x16_documents_done"
+        },
+        {
+          "type": "has_info",
+          "value": "agroprom_military_case_done"
+        },
+        {
+          "type": "has_info",
+          "value": "agroprom_military_case"
+        },
+        {
+          "type": "has_info",
+          "value": "yan_x16_documents_gain"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "13",
+      "text_id": null,
+      "next": [
+        "131"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_barman_stay_room"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "bar_deactivate_radar_start"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_x16_documents_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "15",
+      "text_id": null,
+      "next": [
+        "151"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_darklab_document_start"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_dolg_base_rules_start"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "22111",
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "16",
+      "text_id": null,
+      "next": [
+        "161",
+        "162"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "bar_deactivate_radar_start"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "17",
+      "text_id": null,
+      "next": [
+        "171"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_darklab_document_done"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_darklab_document_gain"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "18",
+      "text_id": null,
+      "next": [
+        "181",
+        "182"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_darklab_document_gain"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "bar_barman_stay_room"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "yan_x16_documents_gain"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_darklab_document_start"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "19",
+      "text_id": null,
+      "next": [
+        "1721"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_x16_documents_start"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_darklab_document_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "bar_bar_barmen_start_2",
+      "next": [
+        "21",
+        "22"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, Marked One! Have you brought the documents from the Institute?",
+      "JA_current": "おお、Marked One！ 研究所から書類は持ち帰ったか？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "bar_bar_barmen_start_3",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What do you want, Marked One?",
+      "JA_current": "何が望みだ、Marked One？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "bar_bar_barmen_start_4",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, Marked One! Times change but you don't, still grumpy and aloof. Here, take a seat, have a drink - might make you nicer...",
+      "JA_current": "おお、Marked One じゃねぇか。時代は変わっていくが、お前は変わらず、ホットでいかしたヤツだな。ここに来て座れよ。1杯やったらスッキリするぜ…。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_4#1"
+      ]
+    },
+    {
+      "phrase_id": "1131",
+      "text_id": "bar_bar_barmen_start_1131",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "113"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hmm... Where did you come from?",
+      "JA_current": "フム… アンタはどこから来たんだい？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_1131#1"
+      ]
+    },
+    {
+      "phrase_id": "121",
+      "text_id": "bar_bar_barmen_start_121",
+      "next": [
+        "1211",
+        "1212"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So, Marked One, you got the documents from X-16?",
+      "JA_current": "それで、Marked One。X18 から書類を手に入れたのかい？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_121#1"
+      ]
+    },
+    {
+      "phrase_id": "131",
+      "text_id": "bar_bar_barmen_start_131",
+      "next": [
+        "1312",
+        "132"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13",
+        "1211"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Excellent! Let me take a look at these... Interesting... Just as I thought... Heh, it can't be... Well, Marked One, now we just need to deal with the Scorcher and open the way North! We have all the details we need to make this work. I'll let you decide how and when to approach it, I'm sure you won't disappoint. You ready for the details?",
+      "JA_current": "ふぅむ、Marked One、それでは Scorcher をなんとかして、北への道を開かなきゃな！ もう準備は出来てるかい？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_131#1"
+      ]
+    },
+    {
+      "phrase_id": "151",
+      "text_id": "bar_bar_barmen_start_151",
+      "next": [
+        "1511"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "15"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "OK, the documents you brought from the Institute make some things a little clearer but we’re still missing the info we need to get a full picture. A lab designated X-18 is mentioned and its description matches the abandoned underground vaults in the Dark Valley. Looks like you’ll have to go there and get the info we need. The lab is closed and you’ll need two electronic keys to get inside. I’ll give you one but you’ll have to get the other one from Borov in the Dark Valley.",
+      "JA_current": "よし、お前が研究所から持ち帰った書類のおかげで、色々と分かってきたが、まだ全体像を把握するには情報が不足している。X18 と呼ばれるラボについて言及されているんだが、この描写が Dark Valley にある放棄された地下壕に一致するんだ。お前にそこへ行ってもらって、必要な情報を手に入れてもらうことになるな。ラボは閉鎖されている。中に入るには2つの電子キーが必要だ。1つはくれてやれるんだが、もう1つは Dark Valley にいるヤツらから力ずくで奪ってもらうことになる。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_151#1"
+      ]
+    },
+    {
+      "phrase_id": "161",
+      "text_id": "bar_bar_barmen_start_161",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "16"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What do you want, Marked One?",
+      "JA_current": "Marked One、何が望みだい？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_161#1"
+      ]
+    },
+    {
+      "phrase_id": "162",
+      "text_id": "bar_bar_barmen_start_162",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "16"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, Marked One! Times change but you don't, still grumpy and aloof. Here, take a seat, have a drink - might make you nicer...",
+      "JA_current": "おお、Marked One じゃねぇか。時代は変わっていくが、お前は変わらず、ホットでいかしたヤツだな。ここに来て座れよ。1杯やったらスッキリするぜ…。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_162#1"
+      ]
+    },
+    {
+      "phrase_id": "171",
+      "text_id": "bar_bar_barmen_start_171",
+      "next": [
+        "172",
+        "173"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "17"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So, Marked One, you brought the documents from X-18?",
+      "JA_current": "で、X18 から書類を持ってきてくれたんだろうな、Marked One？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_171#1"
+      ]
+    },
+    {
+      "phrase_id": "181",
+      "text_id": "bar_bar_barmen_start_181",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "18"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What do you want, Marked One?",
+      "JA_current": "何が望みだ、Marked One？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_181#1"
+      ]
+    },
+    {
+      "phrase_id": "182",
+      "text_id": "bar_bar_barmen_start_182",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "18"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, Marked One! Times change but you don't, still grumpy and aloof. Here, take a seat, have a drink - might make you nicer...",
+      "JA_current": "おお、Marked One じゃねぇか。時代は変わっていくが、お前は変わらず、ホットでいかしたヤツだな。ここに来て座れよ。1杯やったらスッキリするぜ…。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_182#1"
+      ]
+    },
+    {
+      "phrase_id": "1721",
+      "text_id": "bar_bar_barmen_start_1721",
+      "next": [
+        "17211"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "19",
+        "172"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Good, the situation is becoming clearer. As I expected this Brain Scorcher is man-made. It’s a Kaymanov experimental emitter and its components were made exactly in X-18. These documents refer to lab X-16 where they sent some components. According to this, X-16 is located in the production complex area by Lake Yantar. The scientists have set up a mobile lab around there so maybe they can help.",
+      "JA_current": "よし、これでぐっとわかってきた。俺の予想通り、この Brain Scorcher ってのは人造らしい。で、それは Kaymanov の実験放出器で、そのパーツは確かに X18 で作られてる。書類によると Lab X16 にいくつかパーツが送られたらしい。それから、Lab X16 は Yantar 湖近くの生産棟エリアにあるらしい、とのことだ。科学者のヤツらは移動研究所をそのあたりに組み立てたらしい。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_1721#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "bar_bar_barmen_start_21",
+      "next": [
+        "211"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, I haven't got the docs from the Institute yet.",
+      "JA_current": "いや、まだ研究所から持ち帰っていない。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_21#1"
+      ]
+    },
+    {
+      "phrase_id": "22",
+      "text_id": "bar_bar_barmen_start_22",
+      "next": [
+        "221"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "agroprom_military_case_have"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here are the documents from the Institute.",
+      "JA_current": "これが研究所の書類だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_22#1"
+      ]
+    },
+    {
+      "phrase_id": "1211",
+      "text_id": "bar_bar_barmen_start_1211",
+      "next": [
+        "131"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.have_x16_documents"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.give_x16_documents"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_x16_documents_done"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "121"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah. Here.",
+      "JA_current": "ああ、ここにある。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_1211#1"
+      ]
+    },
+    {
+      "phrase_id": "1212",
+      "text_id": "bar_bar_barmen_start_1212",
+      "next": [
+        "12121"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "121"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No.",
+      "JA_current": "ない。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_1212#1"
+      ]
+    },
+    {
+      "phrase_id": "1312",
+      "text_id": "bar_bar_barmen_start_1312",
+      "next": [
+        "13121"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "bar_deactivate_radar_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "131"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes.",
+      "JA_current": "ああ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_1312#1"
+      ]
+    },
+    {
+      "phrase_id": "132",
+      "text_id": "bar_bar_barmen_start_132",
+      "next": [
+        "1321"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "131"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, bit busy right now.",
+      "JA_current": "いや、まだだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_132#1"
+      ]
+    },
+    {
+      "phrase_id": "1511",
+      "text_id": "bar_bar_barmen_start_1511",
+      "next": [
+        "15111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "151"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Go on.",
+      "JA_current": "わかった。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_1511#1"
+      ]
+    },
+    {
+      "phrase_id": "172",
+      "text_id": "bar_bar_barmen_start_172",
+      "next": [
+        "1721"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.give_darklab_documents"
+        },
+        {
+          "type": "action",
+          "value": "bar_dialogs.give_darklab_reward"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_darklab_document_done"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "171"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah. Here.",
+      "JA_current": "ああ、ここにある。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_172#1"
+      ]
+    },
+    {
+      "phrase_id": "173",
+      "text_id": "bar_bar_barmen_start_173",
+      "next": [
+        "1731"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "171"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No.",
+      "JA_current": "いいや。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_173#1"
+      ]
+    },
+    {
+      "phrase_id": "17211",
+      "text_id": "bar_bar_barmen_start_17211",
+      "next": [
+        "17212"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1721"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Go on.",
+      "JA_current": "わかった。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_17211#1"
+      ]
+    },
+    {
+      "phrase_id": "211",
+      "text_id": "bar_bar_barmen_start_211",
+      "next": [
+        "2111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "That ain't good, Marked One, ain't good at all... You understand how much we need 'em, don'tcha? We need 'em bad, believe me. The Brain Scorcher is right under our noses but we don't even know what it is! Go get the documents right now - we'll talk after that.",
+      "JA_current": "それはよくない、Marked One、まるでよくないぞ… それがどんなに必要なのか理解してないのか？ まずい内容のはずだ、信じろ。Brain Scorcher は今まさに鼻の下にぶら下がってるが、それが何かさえ知らないときた！ 今すぐ書類を取りに行け ― その後で話そう。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_211#1"
+      ]
+    },
+    {
+      "phrase_id": "221",
+      "text_id": "bar_bar_barmen_start_221",
+      "next": [
+        "2211"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.locate_bar_arena"
+        },
+        {
+          "type": "give_info",
+          "value": "barman_sleep_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "22"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Great work, Marked One! We have the documents at last. I need to have a look at them now and maybe I’ll work out how to get North. While I do that, if you have problems with money, you can fight at the Arena. The owner of the Arena is Arnie, I've uploaded his coordinates.",
+      "JA_current": "よくやった、Marked One！ ついに記録を入手したぞ。早速、読まなきゃな。そうすりゃ北への道が分かるかもしれん。その間、金に困ったら Arena で戦うといい。 Arena のオーナーは Arni だ。PDA にヤツの居場所をアップロードしておいたぞ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_221#1"
+      ]
+    },
+    {
+      "phrase_id": "12121",
+      "text_id": "bar_bar_barmen_start_12121",
+      "next": [
+        "121211"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1212"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Damn it! Here I am, busting my arse while you're off wandering in the woods! Go get those damn documents or we won't make any progress!",
+      "JA_current": "何だと！？ 俺がここで全力を尽くしてるってのに、お前さんはその間、森をうろうろしてただけだってのか？ あの忌々しい書類を取りに行かなきゃ、何も進展しねぇんだぞ！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_12121#1"
+      ]
+    },
+    {
+      "phrase_id": "13121",
+      "text_id": "bar_bar_barmen_start_13121",
+      "next": [
+        "1313"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1312"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "OK, Marked One, you’ve got the protective prototype from Sakharov so you should be more or less safe from the Scorcher's radiation. The documents you retrieved state clearly the design specifications of the Brain Scorcher; an array of antenna emitters controlled from a nearby bunker. I have sent you the bunker coordinates now. Don’t forget that the prototype won’t protect you forever, the Scorcher's radiation signature is more potent than it was at X-16. Once you enter its influence, you need to get to the bunker ASAP and turn off the Scorcher. I don’t know what will happen after that but I am sure it will be worth it. The only thing we can be sure of is that the road to the Zone’s center will be open.",
+      "JA_current": "よし Marked One、お前は、あの放出から身を守るための、プロトタイプを手に入れた。俺がバンカーの位置情報を持っている。忘れるな、プロトタイプは長い時間は守ってくれない。できるだけ早くバンカーにたどり着き、Scorcher をオフにする必要がある。それで何が起こるかは分からないが、価値ある試みには違いない。唯一確かなことは、それでゾーン中心への道が開くということだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_13121#1"
+      ]
+    },
+    {
+      "phrase_id": "1321",
+      "text_id": "bar_bar_barmen_start_1321",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "132"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Come on, Marked One! This task can't wait! Let me brief you quickly then you can be on your way!",
+      "JA_current": "準備はいいか？ この任務は待ったなしだぜ！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_1321#1"
+      ]
+    },
+    {
+      "phrase_id": "15111",
+      "text_id": "bar_bar_barmen_start_15111",
+      "next": [
+        "15112",
+        "15114"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1511"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All you have to do is acquire the second key to Lab X-18, get inside and retrieve the second batch of documents. Don’t forget to get yourself a protective suit or you won’t have a chance in hell of getting to the lab. So, will you do it?",
+      "JA_current": "お前には Lab X18 に行ってドキュメントを入手してきて欲しい。それから、この防護スーツを着るのを忘れるなよ。じゃないと、お前は研究室に着くまでに死んでしまうだろうからな。やってくれるか？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_15111#1"
+      ]
+    },
+    {
+      "phrase_id": "1731",
+      "text_id": "bar_bar_barmen_start_1731",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "173"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What are you wasting time for? Go get those damn documents or we won't make any progress!",
+      "JA_current": "何をグズグズしてるんだ？ あの忌々しい書類を取りに行かなきゃ、何も進展しねぇんだぞ！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_1731#1"
+      ]
+    },
+    {
+      "phrase_id": "17212",
+      "text_id": "bar_bar_barmen_start_17212",
+      "next": [
+        "17213",
+        "17214"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "17211"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It ain’t simple. You need to get to the scientists and find out where X-16 is so you can get the missing documents. So, you up for it?",
+      "JA_current": "簡単にはいかないぞ。科学者のヤツらを調べて X16 がどこなのかを突き止めねばならん。そうすりゃ、失くなった書類も手に入るって寸法だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_17212#1"
+      ]
+    },
+    {
+      "phrase_id": "2111",
+      "text_id": "bar_bar_barmen_start_2111",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "211"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I think I understand.",
+      "JA_current": "分かったと思う。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_2111#1"
+      ]
+    },
+    {
+      "phrase_id": "2211",
+      "text_id": "bar_bar_barmen_start_2211",
+      "next": [
+        "22111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.give_agroprom_documents"
+        },
+        {
+          "type": "action",
+          "value": "bar_dialogs.give_agroprom_reward"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_dolg_base_rules_start"
+        },
+        {
+          "type": "give_info",
+          "value": "agroprom_military_case_done"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "221"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "OK.",
+      "JA_current": "オーケー。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_2211#1"
+      ]
+    },
+    {
+      "phrase_id": "121211",
+      "text_id": "bar_bar_barmen_start_121211",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "12121"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "OK.",
+      "JA_current": "オーケー。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_121211#1"
+      ]
+    },
+    {
+      "phrase_id": "1313",
+      "text_id": "bar_bar_barmen_start_1313",
+      "next": [
+        "1314"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13121"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Go on.",
+      "JA_current": "続けてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_1313#1"
+      ]
+    },
+    {
+      "phrase_id": "15112",
+      "text_id": "bar_bar_barmen_start_15112",
+      "next": [
+        "15113"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "bar_darklab_document_start"
+        },
+        {
+          "type": "give_info",
+          "value": "val_show_zones"
+        },
+        {
+          "type": "give_info",
+          "value": "val_actor_has_barman_key"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "15111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'll try.",
+      "JA_current": "やってみよう。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_15112#1"
+      ]
+    },
+    {
+      "phrase_id": "15114",
+      "text_id": "bar_bar_barmen_start_15114",
+      "next": [
+        "15115"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "15111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, I don't want to do it yet.",
+      "JA_current": "いや、今はやめとくよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_15114#1"
+      ]
+    },
+    {
+      "phrase_id": "17213",
+      "text_id": "bar_bar_barmen_start_17213",
+      "next": [
+        "172131"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "bar_x16_documents_start"
+        }
+      ],
+      "other_control": [
+        {
+          "type": "disable_info",
+          "value": "bar_darklab_document_gain"
+        }
+      ],
+      "incoming": [
+        "17212"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah.",
+      "JA_current": "ああ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_17213#1"
+      ]
+    },
+    {
+      "phrase_id": "17214",
+      "text_id": "bar_bar_barmen_start_17214",
+      "next": [
+        "172141"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "17212"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, I'm not ready yet.",
+      "JA_current": "いや、まだだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_17214#1"
+      ]
+    },
+    {
+      "phrase_id": "22111",
+      "text_id": null,
+      "next": [
+        "15"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2211"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1314",
+      "text_id": "bar_bar_barmen_start_1314",
+      "next": [
+        "1315"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1313"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All you need to do is get to the antennas and disable them. Got it?",
+      "JA_current": "俺達がすべきことは、アンテナまで行って使い物にならなくすることだ。わかったか？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_1314#1"
+      ]
+    },
+    {
+      "phrase_id": "15113",
+      "text_id": "bar_bar_barmen_start_15113",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "15112"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Great! I'll be waiting.",
+      "JA_current": "ありがたい。期待しているよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_15113#1"
+      ]
+    },
+    {
+      "phrase_id": "15115",
+      "text_id": "bar_bar_barmen_start_15115",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "15114"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Up to you but remember: this is the only way that can help us open the road to the North.",
+      "JA_current": "お前次第だ、だが覚えとけ： これが、北方への道を開く唯一の方法だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_15115#1"
+      ]
+    },
+    {
+      "phrase_id": "172131",
+      "text_id": "bar_bar_barmen_start_172131",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "17213"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Great! I'll be waiting.",
+      "JA_current": "よし！ 待ってるからな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_172131#1"
+      ]
+    },
+    {
+      "phrase_id": "172141",
+      "text_id": "bar_bar_barmen_start_172141",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "17214"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well get ready real quick Marked One! This sort of business can't wait.",
+      "JA_current": "さっさと準備しやがれ！ この手のヤマは時間が命だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_172141#1"
+      ]
+    },
+    {
+      "phrase_id": "1315",
+      "text_id": "bar_bar_barmen_start_1315",
+      "next": [
+        "1316"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1314"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Got it.",
+      "JA_current": "わかった。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_1315#1"
+      ]
+    },
+    {
+      "phrase_id": "1316",
+      "text_id": "bar_bar_barmen_start_1316",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.locate_bar_dolg"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1315"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Great, good luck Marked One! Also, if you haven't already, check in with General Voronin at the Duty base in case you need some extra cash for equipment, he's always got work to do. I'll make sure they let you in. Tell him Barkeep sent you, I'll vouch for you.",
+      "JA_current": "そうだ、最後にもう一つ！ Duty のリーダーが、Military warehouses である任務を実行してくれるボランティアを求めている。彼の位置をマップにマークしておいた。関心があるなら立ち寄るがいい。警備員に口をきいておけば、お前を中に入れてくれるだろう。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_1316#1"
+      ]
+    },
+    {
+      "phrase_id": "1111",
+      "text_id": "bar_bar_barmen_start_1111",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Let's start. You ready?",
+      "JA_current": "始めよう。準備はいいか？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_start_1111#1"
+      ]
+    }
+  ]
+}

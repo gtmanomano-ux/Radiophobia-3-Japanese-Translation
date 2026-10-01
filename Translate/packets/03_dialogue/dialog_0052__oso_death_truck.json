@@ -1,0 +1,128 @@
+{
+  "packet_id": "dialog_0052__oso_death_truck",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "oso_death_truck",
+  "graph_source": "gamedata/config/gameplay/dialogs_aes.xml",
+  "graph_sha256": "d2b4ce0efab5c369fd85b1604383e81764a6a0d021707198c360f1d888b39999",
+  "character_bindings": [
+    {
+      "profile_id": "stalker_osoznanie",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_general.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "oso_what_about_me"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "oso_death_truck"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 2,
+  "entries": [
+    {
+      "key": "stable_dialogs_aes:oso_death_truck_0#1",
+      "source_table": "stable_dialogs_aes",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_aes.xml",
+      "source_xml_line": 9,
+      "string_id": "oso_death_truck_0",
+      "occurrence": 1,
+      "EN": "What are \"death trucks\"?",
+      "JA_current": "「死のトラック」とはなんだ？",
+      "JA_new": "「死のトラック」とは何だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "oso_death_truck",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_aes.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_aes:oso_death_truck_1#1",
+      "source_table": "stable_dialogs_aes",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_aes.xml",
+      "source_xml_line": 12,
+      "string_id": "oso_death_truck_1",
+      "occurrence": 1,
+      "EN": "The transports we use to send our marked “agents” into the Zone. They infiltrate the stalker “community” and carry out our orders without realizing it. Unfortunately, more than half of stalkers die during transportation, the Zone is very unstable. You are one of our agents sent to kill Strelok and we’re now trying to work out how we made that mistake.",
+      "JA_current": "私たちが印をつけた「工作員」をゾーンの中へ送るために使う輸送システムだ。彼らは、ストーカーの「コミュニティ」に潜入し、知らず知らずのうちに我々の命令を実行する。残念なことに、ゾーンはとても不安定で、ストーカーたちの半分以上が輸送中に死亡してしまう。君は我々が Strelok を抹殺するために送った工作員の1人であり、我々は現在、我々が何故そのようなミスを犯したかに取り組んでいるのだ。",
+      "JA_new": "我々が“工作員”をゾーンへ送り込むための輸送車だ。彼らはストーカーたちの集団に紛れ込み、自覚のないまま我々の命令を実行する。残念ながら、輸送中に半数以上のストーカーが死ぬ。ゾーンは非常に不安定だからな。君もストレロクを殺すために送り込まれた工作員の一人だ。我々は今、なぜそんな誤りを犯したのか調べている。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "oso_death_truck",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_aes.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "oso_death_truck_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "oso_death_truck"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What are \"death trucks\"?",
+      "JA_current": "「死のトラック」とはなんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_aes:oso_death_truck_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "oso_death_truck_1",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs_aes.cc_oso_death_truck_1"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The transports we use to send our marked “agents” into the Zone. They infiltrate the stalker “community” and carry out our orders without realizing it. Unfortunately, more than half of stalkers die during transportation, the Zone is very unstable. You are one of our agents sent to kill Strelok and we’re now trying to work out how we made that mistake.",
+      "JA_current": "私たちが印をつけた「工作員」をゾーンの中へ送るために使う輸送システムだ。彼らは、ストーカーの「コミュニティ」に潜入し、知らず知らずのうちに我々の命令を実行する。残念なことに、ゾーンはとても不安定で、ストーカーたちの半分以上が輸送中に死亡してしまう。君は我々が Strelok を抹殺するために送った工作員の1人であり、我々は現在、我々が何故そのようなミスを犯したかに取り組んでいるのだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_aes:oso_death_truck_1#1"
+      ]
+    }
+  ]
+}

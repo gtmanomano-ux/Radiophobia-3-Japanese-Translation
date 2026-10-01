@@ -1,0 +1,1038 @@
+{
+  "packet_id": "dialog_0244__borov_strelka_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "borov_strelka_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml",
+  "graph_sha256": "af90465ec3a6b7a324a6c5d72d8c5ed214013f3f66f7c85ea935c11f680b26c1",
+  "character_bindings": [
+    {
+      "profile_id": "new_mamay",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_bandit_borov",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "barman_document_done"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "strelka_quest_start"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [
+      "7"
+    ],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 24,
+  "entries": [
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 496,
+      "string_id": "borov_strelka_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "I want to join your gang.",
+      "JA_current": "I want to join your gang.",
+      "JA_new": "あんたの仲間に加わりたい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 499,
+      "string_id": "borov_strelka_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "So, you wanna put your name down as one of my guys? You see, I don't accept just about anyone. So why don't you tell me who the hell do you think you are if you think you can roll with us?",
+      "JA_current": "So, you wanna put your name down as one of my guys? You see, I don't accept just about anyone. So why don't you tell me who the hell do you think you are if you think you can roll with us?",
+      "JA_new": "俺の仲間になりたいって？　誰でも受け入れるわけじゃねえ。うちでやっていけると思うなら、まず自分が何者か話してみな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 502,
+      "string_id": "borov_strelka_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Let's just say I know a thing or two about robbery, I have experience.",
+      "JA_current": "Let's just say I know a thing or two about robbery, I have experience.",
+      "JA_new": "盗みなら多少心得がある。経験もな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 505,
+      "string_id": "borov_strelka_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "I'm just a regular guy, want to make some money.",
+      "JA_current": "I'm just a regular guy, want to make some money.",
+      "JA_new": "ただの人間さ。金を稼ぎたい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 508,
+      "string_id": "borov_strelka_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "I'm just another stalker, why?",
+      "JA_current": "I'm just another stalker, why?",
+      "JA_new": "ただのストーカーだ。それがどうした？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 511,
+      "string_id": "borov_strelka_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Oh, so you're an ex-con, are ya? How many stays have you had at the iron hotel?",
+      "JA_current": "Oh, so you're an ex-con, are ya? How many stays have you had at the iron hotel?",
+      "JA_new": "前科持ちか？　刑務所には何度ぶち込まれた？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_16#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 541,
+      "string_id": "borov_strelka_dialog_phrase_16",
+      "occurrence": 1,
+      "EN": "You wanna make money, eh? Good attitude for business, maybe you'll do. However, if you want to become a respected man around here and earn your suit, you're gonna have to put in some work around here. You like making money, so this should be a no-brainer for you. You do an errand for me, and who knows, maybe you'll earn your stripes if you do a good job.",
+      "JA_current": "You wanna make money, eh? Good attitude for business, maybe you'll do. However, if you want to become a respected man around here and earn your suit, you're gonna have to put in some work around here. You like making money, so this should be a no-brainer for you. You do an errand for me, and who knows, maybe you'll earn your stripes if you do a good job.",
+      "JA_new": "金を稼ぎたいんだな。商売向きの考え方だ。気に入った、採用してやってもいい。ただ、ここで一目置かれて、一人前の装備を手に入れたければ、仕事をこなしてもらう。金が好きなら簡単な話だ。まずは俺の用事を一つ片づけろ。うまくやれば、認められるかもしれん。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_24#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 565,
+      "string_id": "borov_strelka_dialog_phrase_24",
+      "occurrence": 1,
+      "EN": "Heh, a stalker begging to join us? This must be a first! You loners are nothing but packs of filthy rats, dirty pigs, scumbags and rejects. You are like our servants, we make you go roll around in the mud for us, picking up swag and getting mangled in anomalies while we wait to collect our cut for protecting your useless hide. Why would I want a lowly serf like you to join my elite group here?? Get out of here and don't even dare to leave a single speck of your dust, or we'll make you clean it up.",
+      "JA_current": "Heh, a stalker begging to join us? This must be a first! You loners are nothing but packs of filthy rats, dirty pigs, scumbags and rejects. You are like our servants, we make you go roll around in the mud for us, picking up swag and getting mangled in anomalies while we wait to collect our cut for protecting your useless hide. Why would I want a lowly serf like you to join my elite group here?? Get out of here and don't even dare to leave a single speck of your dust, or we'll make you clean it up.",
+      "JA_new": "へえ、ストーカーが俺たちに入れてくれと頼みに来るとはな。初めて見たぜ！　お前らローナーは、汚いネズミに豚、ろくでなしに社会のはみ出し者ばかりだ。俺たちの召使いみたいなもんだ。泥まみれで戦利品を拾い、アノマリーでボロボロになってる間に、俺たちは守り代を取り立てる。そんな下っ端を、俺の精鋭集団に入れるわけねえだろ？　さっさと消えろ。塵ひとつ残すなよ。残したら掃除させるぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "23",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 514,
+      "string_id": "borov_strelka_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "I never went to jail.",
+      "JA_current": "I never went to jail.",
+      "JA_new": "刑務所になんか入ったことはない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 517,
+      "string_id": "borov_strelka_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "I had one stretch.",
+      "JA_current": "I had one stretch.",
+      "JA_new": "一度だけ服役した。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_17#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 544,
+      "string_id": "borov_strelka_dialog_phrase_17",
+      "occurrence": 1,
+      "EN": "What kind of errand?",
+      "JA_current": "What kind of errand?",
+      "JA_new": "どんな用事だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "16",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_14#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 535,
+      "string_id": "borov_strelka_dialog_phrase_14",
+      "occurrence": 1,
+      "EN": "You didn't, did you? But I did, and that's how I know you don't have what it takes. That you're a cheap pickpocket, a scumbag, a purse-cutting thief who wants to join an organization of real killers. We consider people like you to be nothing but cockroaches, so if you want to join our gang so badly, all I can offer you is a place by the crapper, where you and your kind belong! It's here under my room, one floor below. You'll always be busy mopping up floors, cleaning up trash and dumping stiffs in the cesspit, and, of course, keeping the latrine clean and tidy. Got it?",
+      "JA_current": "You didn't, did you? But I did, and that's how I know you don't have what it takes. That you're a cheap pickpocket, a scumbag, a purse-cutting thief who wants to join an organization of real killers. We consider people like you to be nothing but cockroaches, so if you want to join our gang so badly, all I can offer you is a place by the crapper, where you and your kind belong! It's here under my room, one floor below. You'll always be busy mopping up floors, cleaning up trash and dumping stiffs in the cesspit, and, of course, keeping the latrine clean and tidy. Got it?",
+      "JA_new": "そうかよ。俺は違うがな。だからお前に度胸がないのも分かる。安っぽいスリで、ろくでなしで、財布を抜くコソ泥だ。腕利きの殺し屋集団に入れてくれって？　お前みたいなのはゴキブリ同然だ。どうしても仲間になりたいなら、便所脇の席なら空いてるぜ。俺の部屋の真下、一階下だ。床を拭き、ゴミを片づけ、死体を汚水溜めに放り込み、便所も毎日きれいにしてもらう。分かったか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 520,
+      "string_id": "borov_strelka_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "What article was you in prison for?",
+      "JA_current": "What article was you in prison for?",
+      "JA_new": "何の罪で入った？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_18#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 547,
+      "string_id": "borov_strelka_dialog_phrase_18",
+      "occurrence": 1,
+      "EN": "Two of my gladiators attacked a stalker for not paying back the debt he owed us. Most reasonable people would cough something up to settle accounts or pay off points, but this guy ain't so clever. He's found some pals with a mutual distaste for our honest business and plans to bring them along the next time my boys come to make their pickups. Usually this would be a simple matter of going to collect, two guys more than enough to intimidate - but this guy is planning to put up a fight this time and he won't be alone. We need you as extra muscle, oversee the meeting and make sure heads roll if the stalkers get wise on us.",
+      "JA_current": "Two of my gladiators attacked a stalker for not paying back the debt he owed us. Most reasonable people would cough something up to settle accounts or pay off points, but this guy ain't so clever. He's found some pals with a mutual distaste for our honest business and plans to bring them along the next time my boys come to make their pickups. Usually this would be a simple matter of going to collect, two guys more than enough to intimidate - but this guy is planning to put up a fight this time and he won't be alone. We need you as extra muscle, oversee the meeting and make sure heads roll if the stalkers get wise on us.",
+      "JA_new": "俺の部下二人が、借金を返さないストーカーを締め上げた。普通なら金を払うか、借りを返して話をつける。だがそいつは頭が足りなくてな。俺たちの商売を嫌ってる仲間を集め、次に部下が取り立てに行くときは大勢で迎え撃つつもりらしい。いつもなら簡単な取り立てだ。脅すだけなら二人で十分。だが今度は相手も戦う気で、しかも一人じゃない。助っ人が要る。話し合いに立ち会って、あいつらが逆らったら容赦なく始末しろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "17",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_15#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 538,
+      "string_id": "borov_strelka_dialog_phrase_15",
+      "occurrence": 1,
+      "EN": "Fuck you!",
+      "JA_current": "Fuck you!",
+      "JA_new": "くたばれ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 523,
+      "string_id": "borov_strelka_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "For hooliganism and robbery.",
+      "JA_current": "For hooliganism and robbery.",
+      "JA_new": "傷害と強盗だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_19#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 550,
+      "string_id": "borov_strelka_dialog_phrase_19",
+      "occurrence": 1,
+      "EN": "What kind of outfit are you running here that you can't even squeeze one schmuck out of his lunch money?",
+      "JA_current": "What kind of outfit are you running here that you can't even squeeze one schmuck out of his lunch money?",
+      "JA_new": "昼飯代すら巻き上げられないなんて、どんな組織だよ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "18",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 526,
+      "string_id": "borov_strelka_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "I'm not asking you what you were in jail for, you tell me WHICH ARTICLE you were in jail for!",
+      "JA_current": "I'm not asking you what you were in jail for, you tell me WHICH ARTICLE you were in jail for!",
+      "JA_new": "罪の名前を聞いてるんじゃねえ。何条で食らったか聞いてるんだ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_20#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 553,
+      "string_id": "borov_strelka_dialog_phrase_20",
+      "occurrence": 1,
+      "EN": "You got balls mouthing off to me like that, I have half a mind to just feed you to my boys! Listen, the problem is not with us, the problem is that you loners are unreasonable, you borrow money and then lack the integrity to pay it back like a real man would! Then you go skulking around with your fellow rats and team up, knowing that the only way you'll stand a chance against us is in large groups. How many rats in this particular pack - who the fuck knows, but it is clear that it's not gonna be two or three. So, your job is simple, prove you're not a rat like those loners and go back up my guys. You got it?",
+      "JA_current": "You got balls mouthing off to me like that, I have half a mind to just feed you to my boys! Listen, the problem is not with us, the problem is that you loners are unreasonable, you borrow money and then lack the integrity to pay it back like a real man would! Then you go skulking around with your fellow rats and team up, knowing that the only way you'll stand a chance against us is in large groups. How many rats in this particular pack - who the fuck knows, but it is clear that it's not gonna be two or three. So, your job is simple, prove you're not a rat like those loners and go back up my guys. You got it?",
+      "JA_new": "俺にそんな口を利くとはいい度胸だな。部下にお前を食わせてやってもいいんだぞ！　問題は俺たちじゃない。お前らローナーが筋を通さないことだ。金を借りておいて、男らしく返す気もない。仲間のネズミどもとこそこそつるんで、大勢でなら俺たちに勝てると思ってるんだろ。何匹いるか知らねえが、二、三人ってことはない。やることは簡単だ。そいつらみたいなネズミじゃないと証明しろ。俺の部下に加勢するんだ。分かったな？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "19",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_12#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 529,
+      "string_id": "borov_strelka_dialog_phrase_12",
+      "occurrence": 1,
+      "EN": "Look, man, I don't remember. There's a lot of codes in those articles, I don't know. I groped a passerby, you know? Pinched his wallet.",
+      "JA_current": "Look, man, I don't remember. There's a lot of codes in those articles, I don't know. I groped a passerby, you know? Pinched his wallet.",
+      "JA_new": "ああ、悪い。覚えてないんだ。条文なんて山ほどあるだろ？　通りすがりの奴をぶん殴って、財布を取ったんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_21#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 556,
+      "string_id": "borov_strelka_dialog_phrase_21",
+      "occurrence": 1,
+      "EN": "Got it. Where are they?",
+      "JA_current": "Got it. Where are they?",
+      "JA_new": "分かった。どこにいる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "20",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_13#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 532,
+      "string_id": "borov_strelka_dialog_phrase_13",
+      "occurrence": 1,
+      "EN": "You don't get it, do you? We're on a totally different league here, we've all done serious time and many of us were cliqued up with major players on the outside. And what are you - a cheap pickpocket, a scumbag, a purse-cutting thief, and you're standing there, asking to join my group of professionals. We consider people like you to be nothing but cockroaches, so if you want to join our gang so badly, all I can offer you is a place by the crapper, where you and your kind belong! It's here under my room, one floor below. You'll always be busy mopping up floors, cleaning up trash and dumping stiffs in the cesspit, and, of course, keeping the latrine clean and tidy. Got it?",
+      "JA_current": "You don't get it, do you? We're on a totally different league here, we've all done serious time and many of us were cliqued up with major players on the outside. And what are you - a cheap pickpocket, a scumbag, a purse-cutting thief, and you're standing there, asking to join my group of professionals. We consider people like you to be nothing but cockroaches, so if you want to join our gang so badly, all I can offer you is a place by the crapper, where you and your kind belong! It's here under my room, one floor below. You'll always be busy mopping up floors, cleaning up trash and dumping stiffs in the cesspit, and, of course, keeping the latrine clean and tidy. Got it?",
+      "JA_new": "分かってねえな。俺たちは格が違うんだ。全員、長いお勤めをしてきたし、外じゃ大物とつるんでた奴もいる。お前はどうだ？　こそ泥で、ろくでなしで、スリ上がり。そんな奴がプロ集団に入れてくれと立ってる。俺たちから見りゃゴキブリ同然だ。どうしても仲間になりたいなら、便所脇の席なら空いてるぜ。お前みたいな奴にお似合いだ。俺の部屋の真下、一階下だ。床を拭き、ゴミを片づけ、死体を汚水溜めに放り込み、便所も毎日きれいにしてもらう。分かったか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_22#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 559,
+      "string_id": "borov_strelka_dialog_phrase_22",
+      "occurrence": 1,
+      "EN": "They're in the courtyard near the gate, getting ready. Go up to them, tell them I sent you as a backup. They won't like it, try not to provoke them, they hate rats!",
+      "JA_current": "They're in the courtyard near the gate, getting ready. Go up to them, tell them I sent you as a backup. They won't like it, try not to provoke them, they hate rats!",
+      "JA_new": "門の近くの中庭だ。準備してる。俺の助っ人だと言って合流しろ。歓迎はされないだろうから、挑発するなよ。ネズミどもを嫌ってるからな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_23#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 562,
+      "string_id": "borov_strelka_dialog_phrase_23",
+      "occurrence": 1,
+      "EN": "Okay.",
+      "JA_current": "Okay.",
+      "JA_new": "分かった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_dialog",
+          "phrase_id": "22",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "borov_strelka_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I want to join your gang.",
+      "JA_current": "I want to join your gang.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "borov_strelka_dialog_phrase_2",
+      "next": [
+        "2",
+        "3",
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So, you wanna put your name down as one of my guys? You see, I don't accept just about anyone. So why don't you tell me who the hell do you think you are if you think you can roll with us?",
+      "JA_current": "So, you wanna put your name down as one of my guys? You see, I don't accept just about anyone. So why don't you tell me who the hell do you think you are if you think you can roll with us?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "borov_strelka_dialog_phrase_3",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Let's just say I know a thing or two about robbery, I have experience.",
+      "JA_current": "Let's just say I know a thing or two about robbery, I have experience.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "borov_strelka_dialog_phrase_4",
+      "next": [
+        "15"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm just a regular guy, want to make some money.",
+      "JA_current": "I'm just a regular guy, want to make some money.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "borov_strelka_dialog_phrase_5",
+      "next": [
+        "23"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm just another stalker, why?",
+      "JA_current": "I'm just another stalker, why?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "borov_strelka_dialog_phrase_6",
+      "next": [
+        "6",
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh, so you're an ex-con, are ya? How many stays have you had at the iron hotel?",
+      "JA_current": "Oh, so you're an ex-con, are ya? How many stays have you had at the iron hotel?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "borov_strelka_dialog_phrase_16",
+      "next": [
+        "16"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You wanna make money, eh? Good attitude for business, maybe you'll do. However, if you want to become a respected man around here and earn your suit, you're gonna have to put in some work around here. You like making money, so this should be a no-brainer for you. You do an errand for me, and who knows, maybe you'll earn your stripes if you do a good job.",
+      "JA_current": "You wanna make money, eh? Good attitude for business, maybe you'll do. However, if you want to become a respected man around here and earn your suit, you're gonna have to put in some work around here. You like making money, so this should be a no-brainer for you. You do an errand for me, and who knows, maybe you'll earn your stripes if you do a good job.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_16#1"
+      ]
+    },
+    {
+      "phrase_id": "23",
+      "text_id": "borov_strelka_dialog_phrase_24",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Heh, a stalker begging to join us? This must be a first! You loners are nothing but packs of filthy rats, dirty pigs, scumbags and rejects. You are like our servants, we make you go roll around in the mud for us, picking up swag and getting mangled in anomalies while we wait to collect our cut for protecting your useless hide. Why would I want a lowly serf like you to join my elite group here?? Get out of here and don't even dare to leave a single speck of your dust, or we'll make you clean it up.",
+      "JA_current": "Heh, a stalker begging to join us? This must be a first! You loners are nothing but packs of filthy rats, dirty pigs, scumbags and rejects. You are like our servants, we make you go roll around in the mud for us, picking up swag and getting mangled in anomalies while we wait to collect our cut for protecting your useless hide. Why would I want a lowly serf like you to join my elite group here?? Get out of here and don't even dare to leave a single speck of your dust, or we'll make you clean it up.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_24#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "borov_strelka_dialog_phrase_7",
+      "next": [
+        "13"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I never went to jail.",
+      "JA_current": "I never went to jail.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "borov_strelka_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I had one stretch.",
+      "JA_current": "I had one stretch.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "16",
+      "text_id": "borov_strelka_dialog_phrase_17",
+      "next": [
+        "17"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "15"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What kind of errand?",
+      "JA_current": "What kind of errand?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_17#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "borov_strelka_dialog_phrase_14",
+      "next": [
+        "14"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You didn't, did you? But I did, and that's how I know you don't have what it takes. That you're a cheap pickpocket, a scumbag, a purse-cutting thief who wants to join an organization of real killers. We consider people like you to be nothing but cockroaches, so if you want to join our gang so badly, all I can offer you is a place by the crapper, where you and your kind belong! It's here under my room, one floor below. You'll always be busy mopping up floors, cleaning up trash and dumping stiffs in the cesspit, and, of course, keeping the latrine clean and tidy. Got it?",
+      "JA_current": "You didn't, did you? But I did, and that's how I know you don't have what it takes. That you're a cheap pickpocket, a scumbag, a purse-cutting thief who wants to join an organization of real killers. We consider people like you to be nothing but cockroaches, so if you want to join our gang so badly, all I can offer you is a place by the crapper, where you and your kind belong! It's here under my room, one floor below. You'll always be busy mopping up floors, cleaning up trash and dumping stiffs in the cesspit, and, of course, keeping the latrine clean and tidy. Got it?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_14#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "borov_strelka_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7",
+        "7"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What article was you in prison for?",
+      "JA_current": "What article was you in prison for?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "17",
+      "text_id": "borov_strelka_dialog_phrase_18",
+      "next": [
+        "18"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "16"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Two of my gladiators attacked a stalker for not paying back the debt he owed us. Most reasonable people would cough something up to settle accounts or pay off points, but this guy ain't so clever. He's found some pals with a mutual distaste for our honest business and plans to bring them along the next time my boys come to make their pickups. Usually this would be a simple matter of going to collect, two guys more than enough to intimidate - but this guy is planning to put up a fight this time and he won't be alone. We need you as extra muscle, oversee the meeting and make sure heads roll if the stalkers get wise on us.",
+      "JA_current": "Two of my gladiators attacked a stalker for not paying back the debt he owed us. Most reasonable people would cough something up to settle accounts or pay off points, but this guy ain't so clever. He's found some pals with a mutual distaste for our honest business and plans to bring them along the next time my boys come to make their pickups. Usually this would be a simple matter of going to collect, two guys more than enough to intimidate - but this guy is planning to put up a fight this time and he won't be alone. We need you as extra muscle, oversee the meeting and make sure heads roll if the stalkers get wise on us.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_18#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "borov_strelka_dialog_phrase_15",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.actor_clear_community"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "12",
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Fuck you!",
+      "JA_current": "Fuck you!",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_15#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "borov_strelka_dialog_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "For hooliganism and robbery.",
+      "JA_current": "For hooliganism and robbery.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "18",
+      "text_id": "borov_strelka_dialog_phrase_19",
+      "next": [
+        "19"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "17"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What kind of outfit are you running here that you can't even squeeze one schmuck out of his lunch money?",
+      "JA_current": "What kind of outfit are you running here that you can't even squeeze one schmuck out of his lunch money?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_19#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "borov_strelka_dialog_phrase_11",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm not asking you what you were in jail for, you tell me WHICH ARTICLE you were in jail for!",
+      "JA_current": "I'm not asking you what you were in jail for, you tell me WHICH ARTICLE you were in jail for!",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "19",
+      "text_id": "borov_strelka_dialog_phrase_20",
+      "next": [
+        "20"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "18"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You got balls mouthing off to me like that, I have half a mind to just feed you to my boys! Listen, the problem is not with us, the problem is that you loners are unreasonable, you borrow money and then lack the integrity to pay it back like a real man would! Then you go skulking around with your fellow rats and team up, knowing that the only way you'll stand a chance against us is in large groups. How many rats in this particular pack - who the fuck knows, but it is clear that it's not gonna be two or three. So, your job is simple, prove you're not a rat like those loners and go back up my guys. You got it?",
+      "JA_current": "You got balls mouthing off to me like that, I have half a mind to just feed you to my boys! Listen, the problem is not with us, the problem is that you loners are unreasonable, you borrow money and then lack the integrity to pay it back like a real man would! Then you go skulking around with your fellow rats and team up, knowing that the only way you'll stand a chance against us is in large groups. How many rats in this particular pack - who the fuck knows, but it is clear that it's not gonna be two or three. So, your job is simple, prove you're not a rat like those loners and go back up my guys. You got it?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_20#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "borov_strelka_dialog_phrase_12",
+      "next": [
+        "12"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Look, man, I don't remember. There's a lot of codes in those articles, I don't know. I groped a passerby, you know? Pinched his wallet.",
+      "JA_current": "Look, man, I don't remember. There's a lot of codes in those articles, I don't know. I groped a passerby, you know? Pinched his wallet.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_12#1"
+      ]
+    },
+    {
+      "phrase_id": "20",
+      "text_id": "borov_strelka_dialog_phrase_21",
+      "next": [
+        "21"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "19"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Got it. Where are they?",
+      "JA_current": "Got it. Where are they?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_21#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "borov_strelka_dialog_phrase_13",
+      "next": [
+        "14"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You don't get it, do you? We're on a totally different league here, we've all done serious time and many of us were cliqued up with major players on the outside. And what are you - a cheap pickpocket, a scumbag, a purse-cutting thief, and you're standing there, asking to join my group of professionals. We consider people like you to be nothing but cockroaches, so if you want to join our gang so badly, all I can offer you is a place by the crapper, where you and your kind belong! It's here under my room, one floor below. You'll always be busy mopping up floors, cleaning up trash and dumping stiffs in the cesspit, and, of course, keeping the latrine clean and tidy. Got it?",
+      "JA_current": "You don't get it, do you? We're on a totally different league here, we've all done serious time and many of us were cliqued up with major players on the outside. And what are you - a cheap pickpocket, a scumbag, a purse-cutting thief, and you're standing there, asking to join my group of professionals. We consider people like you to be nothing but cockroaches, so if you want to join our gang so badly, all I can offer you is a place by the crapper, where you and your kind belong! It's here under my room, one floor below. You'll always be busy mopping up floors, cleaning up trash and dumping stiffs in the cesspit, and, of course, keeping the latrine clean and tidy. Got it?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_13#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "borov_strelka_dialog_phrase_22",
+      "next": [
+        "22"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "20"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "They're in the courtyard near the gate, getting ready. Go up to them, tell them I sent you as a backup. They won't like it, try not to provoke them, they hate rats!",
+      "JA_current": "They're in the courtyard near the gate, getting ready. Go up to them, tell them I sent you as a backup. They won't like it, try not to provoke them, they hate rats!",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_22#1"
+      ]
+    },
+    {
+      "phrase_id": "22",
+      "text_id": "borov_strelka_dialog_phrase_23",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "strelka_quest_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "21"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Okay.",
+      "JA_current": "Okay.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_dialog_phrase_23#1"
+      ]
+    }
+  ]
+}

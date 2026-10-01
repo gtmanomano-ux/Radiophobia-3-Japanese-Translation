@@ -1,0 +1,465 @@
+{
+  "packet_id": "dialog_0088__bar_barman_dolg",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_barman_dolg",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_barman",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "community_relation.bad_relation_dolg"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 8,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_barman_dolg_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 109,
+      "string_id": "bar_barman_dolg_1",
+      "occurrence": 1,
+      "EN": "Could you help me settle this quarrel I have with the Duty guys? I'm not too keen on confronting them right about now.",
+      "JA_current": "デューティーの連中と揉めててな、仲裁を頼めないか？ 今あいつらと正面からやり合うのは勘弁願いたいんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_dolg",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_barman_dolg_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 112,
+      "string_id": "bar_barman_dolg_2",
+      "occurrence": 1,
+      "EN": "Damn, you sure know how to pick your enemies, don't you? I'm surprised no one blew you away yet! Alright, wait a moment, I'll check out what harm you have inflicted and find out the bounty on your head. This will influence the price, mind you, but I'm sure you already knew that... That'll be on top of what I'll charge you for my trouble.",
+      "JA_current": "まったく、敵に回す相手をまるで分かっちゃいないな！ まだ誰にもハチの巣にされてないのが奇跡なくらいだぞ！ まあいい、ちょっと待ってろ。お前がどれだけの損害を出したか調べて、首にかかった懸賞金の額を確かめてきてやる。もちろんその額次第で仲介料も跳ね上がるが……言わなくても分かってるな？ 俺の手間賃もきっちり上乗せさせてもらうからな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_dolg",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_barman_dolg_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 115,
+      "string_id": "bar_barman_dolg_3",
+      "occurrence": 1,
+      "EN": "So, what's the sum?",
+      "JA_current": "で、総額いくらになりそうだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_dolg",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_barman_dolg_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 118,
+      "string_id": "bar_barman_dolg_4",
+      "occurrence": 1,
+      "EN": "Well, it's not as bad as I thought, you didn't cause that much trouble and they're willing to look the other way if I front them the bounty. I can clear your name right here, right now for 10 grand. What do you say?",
+      "JA_current": "ふむ、思ったより酷くはなかったな。大した被害も出していないようだし、俺が立て替えて懸賞金を払えば目をつぶってくれるそうだ。今ここで1万ルーブル払うなら、お前の汚名をそっくり帳消しにしてやる。どうする？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_dolg",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_barman_dolg_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 121,
+      "string_id": "bar_barman_dolg_5",
+      "occurrence": 1,
+      "EN": "Whoops... You've vexed them quite a lot, you're a regular troublemaker, aren't you... They won't accept the bounty so I offered to consider it a personal favor down the line. For this reason, I'm gonna tax you heavily. Fork over 30 grand and you can consider them pacified, for now...",
+      "JA_current": "おいおい……連中を相当怒らせたらしいな。札付きのトラブルメーカーめ……。懸賞金だけじゃ手を打てないって言うから、いずれ個人的な貸しを返すって約束で話をつけた。そういうわけだから、たっぷり吹っかけるぞ。3万ルーブル耳を揃えて出しな、そうすりゃ連中の怒りもひとまず収まるはずだ……今のところはな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_dolg",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_barman_dolg_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 124,
+      "string_id": "bar_barman_dolg_6",
+      "occurrence": 1,
+      "EN": "Holy hell, you've really kicked the hornets nest out there, haven't heard my guy swear and mouth off like that in a long time, not since Freedom claimed one of their fancy exo-skeleton shipments! It's almost as if you went out of the Zone and wasted all their families in the Big Land, then nailed their mutilated heads in front of their HQ, they really want you! In fact, they're cooking up something nasty for you, apparently they're planning to catch you and have you roasted alive in front of the boys. Wouldn't want to be in your shoes, fella! Your problems are hard to solve, but... Nothing is impossible, I'll try to bribe the lead guy over there but he's gonna want a fat bounty as restitution for the harm you caused. I'm gonna need 80 grand to fix your mess, take it or leave it!",
+      "JA_current": "おいおい冗談だろ、とんでもないスズメバチの巣をつつきやがったな！ あいつがあんなに口を極めて罵り散らしてるのを聞いたのは、フリーダムに連中の高級エクソスケルトンの輸送隊を強奪されて以来だぞ！ まるでゾーンの外に出て本土にいる連中の家族を皆殺しにして、切り刻んだ生首を本部の門前に並べてやったかのようだ。連中、マジでお前を血祭りにあげる気満々だぞ！ 実際、相当エグい拷問を用意してるらしくてな、お前を生け捕りにして仲間の前で生きたまま丸焼きにしてやるって息巻いてたぞ。お前の立場には絶対なりたくねえな！ 解決するのは骨が折れるが……まあ、不可能なことなんてない。向こうの隊長に袖の下を握らせてみるが、お前がしでかした損害の賠償として莫大な額を要求されるぞ。この落とし前をつけるには8万ルーブル必要だ。呑むか、諦めるか、決めな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_dolg",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_barman_dolg_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 127,
+      "string_id": "bar_barman_dolg_7",
+      "occurrence": 1,
+      "EN": "Fine, I fucked up, now I've got to pay my dues, I guess...",
+      "JA_current": "分かったよ。やらかしたのは俺だし、落とし前をつけるしかないか……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_dolg",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "bar_barman_dolg",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "bar_barman_dolg",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_barman_dolg_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 130,
+      "string_id": "bar_barman_dolg_8",
+      "occurrence": 1,
+      "EN": "To hell with Duty. I'll handle it myself somehow.",
+      "JA_current": "デューティーなんぞ知ったことか。自分の問題は自分でどうにかする。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_dolg",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bar_barman_dolg_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Could you help me settle this quarrel I have with the Duty guys? I'm not too keen on confronting them right about now.",
+      "JA_current": "Could you help me settle this quarrel I have with the Duty guys? I'm not too keen on confronting them right about now.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_barman_dolg_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "bar_barman_dolg_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Damn, you sure know how to pick your enemies, don't you? I'm surprised no one blew you away yet! Alright, wait a moment, I'll check out what harm you have inflicted and find out the bounty on your head. This will influence the price, mind you, but I'm sure you already knew that... That'll be on top of what I'll charge you for my trouble.",
+      "JA_current": "Damn, you sure know how to pick your enemies, don't you? I'm surprised no one blew you away yet! Alright, wait a moment, I'll check out what harm you have inflicted and find out the bounty on your head. This will influence the price, mind you, but I'm sure you already knew that... That'll be on top of what I'll charge you for my trouble.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_barman_dolg_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "bar_barman_dolg_3",
+      "next": [
+        "3",
+        "4",
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So, what's the sum?",
+      "JA_current": "So, what's the sum?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_barman_dolg_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "bar_barman_dolg_4",
+      "next": [
+        "6",
+        "9"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.bad_relation_dolg_10000"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, it's not as bad as I thought, you didn't cause that much trouble and they're willing to look the other way if I front them the bounty. I can clear your name right here, right now for 10 grand. What do you say?",
+      "JA_current": "Well, it's not as bad as I thought, you didn't cause that much trouble and they're willing to look the other way if I front them the bounty. I can clear your name right here, right now for 10 grand. What do you say?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_barman_dolg_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "bar_barman_dolg_5",
+      "next": [
+        "7",
+        "9"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.bad_relation_dolg_30000"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Whoops... You've vexed them quite a lot, you're a regular troublemaker, aren't you... They won't accept the bounty so I offered to consider it a personal favor down the line. For this reason, I'm gonna tax you heavily. Fork over 30 grand and you can consider them pacified, for now...",
+      "JA_current": "Whoops... You've vexed them quite a lot, you're a regular troublemaker, aren't you... They won't accept the bounty so I offered to consider it a personal favor down the line. For this reason, I'm gonna tax you heavily. Fork over 30 grand and you can consider them pacified, for now...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_barman_dolg_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "bar_barman_dolg_6",
+      "next": [
+        "8",
+        "9"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.bad_relation_dolg_80000"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Holy hell, you've really kicked the hornets nest out there, haven't heard my guy swear and mouth off like that in a long time, not since Freedom claimed one of their fancy exo-skeleton shipments! It's almost as if you went out of the Zone and wasted all their families in the Big Land, then nailed their mutilated heads in front of their HQ, they really want you! In fact, they're cooking up something nasty for you, apparently they're planning to catch you and have you roasted alive in front of the boys. Wouldn't want to be in your shoes, fella! Your problems are hard to solve, but... Nothing is impossible, I'll try to bribe the lead guy over there but he's gonna want a fat bounty as restitution for the harm you caused. I'm gonna need 80 grand to fix your mess, take it or leave it!",
+      "JA_current": "Holy hell, you've really kicked the hornets nest out there, haven't heard my guy swear and mouth off like that in a long time, not since Freedom claimed one of their fancy exo-skeleton shipments! It's almost as if you went out of the Zone and wasted all their families in the Big Land, then nailed their mutilated heads in front of their HQ, they really want you! In fact, they're cooking up something nasty for you, apparently they're planning to catch you and have you roasted alive in front of the boys. Wouldn't want to be in your shoes, fella! Your problems are hard to solve, but... Nothing is impossible, I'll try to bribe the lead guy over there but he's gonna want a fat bounty as restitution for the harm you caused. I'm gonna need 80 grand to fix your mess, take it or leave it!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_barman_dolg_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "bar_barman_dolg_7",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.has_10000"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "community_relation.relocate_10000"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.repair_relation_dolg"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Fine, I fucked up, now I've got to pay my dues, I guess...",
+      "JA_current": "Fine, I fucked up, now I've got to pay my dues, I guess...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_barman_dolg_7#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "bar_barman_dolg_8",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3",
+        "4",
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "To hell with Duty. I'll handle it myself somehow.",
+      "JA_current": "To hell with Duty. I'll handle it myself somehow.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_barman_dolg_8#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "bar_barman_dolg_7",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.has_30000"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "community_relation.relocate_30000"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.repair_relation_dolg"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Fine, I fucked up, now I've got to pay my dues, I guess...",
+      "JA_current": "Fine, I fucked up, now I've got to pay my dues, I guess...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_barman_dolg_7#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "bar_barman_dolg_7",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.has_80000"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "community_relation.relocate_80000"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.repair_relation_dolg"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Fine, I fucked up, now I've got to pay my dues, I guess...",
+      "JA_current": "Fine, I fucked up, now I've got to pay my dues, I guess...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_barman_dolg_7#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "packet_id": "dialog_0212__shaman_shron2_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "shaman_shron2_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "shaman",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "shaman_navodka_1"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "shaman_navodka_2"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 6,
+  "entries": [
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_51#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 156,
+      "string_id": "dialogs_bar_51",
+      "occurrence": 1,
+      "EN": "Got a fix on any other caches?",
+      "JA_current": "他にも隠し場所を知っているか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "shaman_shron2_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_52#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 159,
+      "string_id": "dialogs_bar_52",
+      "occurrence": 1,
+      "EN": "Of course I do. If you bring me two Souls, you will have one.",
+      "JA_current": "もちろんだとも。«ソウル»を2つ持ってくれば、次の隠し場所を教えてやろう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "shaman_shron2_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_53#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 162,
+      "string_id": "dialogs_bar_53",
+      "occurrence": 1,
+      "EN": "Here are two \"Souls\" for you.",
+      "JA_current": "«ソウル»を2つ持ってきたぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "shaman_shron2_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_54#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 165,
+      "string_id": "dialogs_bar_54",
+      "occurrence": 1,
+      "EN": "I will, but not now.",
+      "JA_current": "持ってくるよ、今は無理だがな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "shaman_shron2_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_55#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 168,
+      "string_id": "dialogs_bar_55",
+      "occurrence": 1,
+      "EN": "Not bad, stalker, not bad at all. You found some pretty rare artifacts, so you'll have no problem finding this cache. It's in the Dark Valley. There's a swamp, an island on it, and a tree on the island. Under that tree is the cache.",
+      "JA_current": "上出来だ、ストーカー、実に素晴らしい。これほど貴重なアーティファクトを見つけられる腕なら、隠し場所も見落としはすまい。場所はダークバレーだ。沼の中に小島があって、そこに1本の木が生えている。その木の根元が隠し場所だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "shaman_shron2_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_56#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 171,
+      "string_id": "dialogs_bar_56",
+      "occurrence": 1,
+      "EN": "Not bad.",
+      "JA_current": "悪くない情報だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "shaman_shron2_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "dialogs_bar_51",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Got a fix on any other caches?",
+      "JA_current": "Got a fix on any other caches?",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_51#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "dialogs_bar_52",
+      "next": [
+        "2",
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Of course I do. If you bring me two Souls, you will have one.",
+      "JA_current": "Of course I do. If you bring me two Souls, you will have one.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_52#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "dialogs_bar_53",
+      "next": [
+        "4"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.proverka_dushi"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.otday_dushi"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here are two \"Souls\" for you.",
+      "JA_current": "Here are two \"Souls\" for you.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_53#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "dialogs_bar_54",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I will, but not now.",
+      "JA_current": "I will, but not now.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_54#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "dialogs_bar_55",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "shaman_navodka_2"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Not bad, stalker, not bad at all. You found some pretty rare artifacts, so you'll have no problem finding this cache. It's in the Dark Valley. There's a swamp, an island on it, and a tree on the island. Under that tree is the cache.",
+      "JA_current": "Not bad, stalker, not bad at all. You found some pretty rare artifacts, so you'll have no problem finding this cache. It's in the Dark Valley. There's a swamp, an island on it, and a tree on the island. Under that tree is the cache.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_55#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "dialogs_bar_56",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Not bad.",
+      "JA_current": "Not bad.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_56#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "packet_id": "dialog_0167__vardok_obmen_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "vardok_obmen_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "vardok_stalker",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 9,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:vardok_obmen_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1988,
+      "string_id": "vardok_obmen_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Can you help with any first-aid kits?",
+      "JA_current": "医療キットを用立ててもらえないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vardok_obmen_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:vardok_obmen_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1991,
+      "string_id": "vardok_obmen_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "I have them, but I don't sell them. It is my principle not to charge money for my help. However, if you bring me any artifact spawned from the whirligig anomaly, for example a Stone Blood, a Chunk of Meat or a Soul, I'll give you some medical supplies in return. Not to cut a profit, you see, it's just so that I can give them to the scientists to trade for any supplies I need.",
+      "JA_current": "在庫はあるが、金で売る気はないんだ。人を助けるのに金を受け取らないのが私の信条だからね。だが、もしウィリギグのアノマリーから生じるアーティファクト――例えば«ストーンブラッド»や«ミートチャンク»、«ソウル»を持ってきてくれれば、医療品と交換しよう。利益目当てではなく、科学者たちに渡して必要な医薬品と物々交換するためだよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vardok_obmen_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:vardok_obmen_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1994,
+      "string_id": "vardok_obmen_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "I see. If I find anything, I'll bring it to you.",
+      "JA_current": "分かった。見つけたら持ってくるよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vardok_obmen_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:vardok_obmen_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1997,
+      "string_id": "vardok_obmen_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "I have a Stone Blood artifact.",
+      "JA_current": "«ストーンブラッド»を持ってきた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vardok_obmen_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:vardok_obmen_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2000,
+      "string_id": "vardok_obmen_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "I have a Meat Chunk here.",
+      "JA_current": "ここに«ミートチャンク»がある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vardok_obmen_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:vardok_obmen_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2003,
+      "string_id": "vardok_obmen_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Here is the artifact called Soul. Take it.",
+      "JA_current": "これが«ソウル»だ。受け取ってくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vardok_obmen_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:vardok_obmen_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2006,
+      "string_id": "vardok_obmen_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Thank you, here's two basic first aid kits:",
+      "JA_current": "ありがとう、基本医療キットを2つ渡そう：",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vardok_obmen_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:vardok_obmen_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2009,
+      "string_id": "vardok_obmen_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "Thank you, how about two military first-aid kits:",
+      "JA_current": "助かるよ、軍用医療キット2つでどうだい？：",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vardok_obmen_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:vardok_obmen_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2012,
+      "string_id": "vardok_obmen_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "Thank you, for that I can give you four scientific survival kits:",
+      "JA_current": "感謝する、これなら科学用サバイバルキットを4つ渡せるよ：",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vardok_obmen_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "vardok_obmen_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Can you help with any first-aid kits?",
+      "JA_current": "Can you help with any first-aid kits?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:vardok_obmen_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "vardok_obmen_dialog_phrase_2",
+      "next": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I have them, but I don't sell them. It is my principle not to charge money for my help. However, if you bring me any artifact spawned from the whirligig anomaly, for example a Stone Blood, a Chunk of Meat or a Soul, I'll give you some medical supplies in return. Not to cut a profit, you see, it's just so that I can give them to the scientists to trade for any supplies I need.",
+      "JA_current": "I have them, but I don't sell them. It is my principle not to charge money for my help. However, if you bring me any artifact spawned from the whirligig anomaly, for example a Stone Blood, a Chunk of Meat or a Soul, I'll give you some medical supplies in return. Not to cut a profit, you see, it's just so that I can give them to the scientists to trade for any supplies I need.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:vardok_obmen_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "vardok_obmen_dialog_phrase_3",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I see. If I find anything, I'll bring it to you.",
+      "JA_current": "I see. If I find anything, I'll bring it to you.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:vardok_obmen_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "vardok_obmen_dialog_phrase_4",
+      "next": [
+        "6"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.have_a_blood"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.blood_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I have a Stone Blood artifact.",
+      "JA_current": "I have a Stone Blood artifact.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:vardok_obmen_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "vardok_obmen_dialog_phrase_5",
+      "next": [
+        "7"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.have_a_mincer"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.mincer_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I have a Meat Chunk here.",
+      "JA_current": "I have a Meat Chunk here.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:vardok_obmen_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "vardok_obmen_dialog_phrase_6",
+      "next": [
+        "8"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.have_a_soul"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.soul_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here is the artifact called Soul. Take it.",
+      "JA_current": "Here is the artifact called Soul. Take it.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:vardok_obmen_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "vardok_obmen_dialog_phrase_7",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.give_medkit"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you, here's two basic first aid kits:",
+      "JA_current": "Thank you, here's two basic first aid kits:",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:vardok_obmen_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "vardok_obmen_dialog_phrase_8",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.give_army_medkit"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you, how about two military first-aid kits:",
+      "JA_current": "Thank you, how about two military first-aid kits:",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:vardok_obmen_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "vardok_obmen_dialog_phrase_9",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.give_scient_medkit"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you, for that I can give you four scientific survival kits:",
+      "JA_current": "Thank you, for that I can give you four scientific survival kits:",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:vardok_obmen_dialog_phrase_9#1"
+      ]
+    }
+  ]
+}

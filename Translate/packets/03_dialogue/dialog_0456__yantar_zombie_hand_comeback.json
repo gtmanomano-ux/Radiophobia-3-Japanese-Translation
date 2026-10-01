@@ -1,0 +1,490 @@
+{
+    "packet_id":  "dialog_0456__yantar_zombie_hand_comeback",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "yantar_zombie_hand_comeback",
+    "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml",
+    "graph_sha256":  "131d3c64c00a1023af4aaa914f345f3cfff2e581dea421160993fad100675545",
+    "character_bindings":  [
+                               {
+                                   "profile_id":  "yan_general_ecolog",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               }
+                           ],
+    "dialog_conditions":  [
+                              {
+                                  "type":  "dont_has_info",
+                                  "value":  "actor_set_zombied"
+                              },
+                              {
+                                  "type":  "precondition",
+                                  "value":  "ogsm_quests.zombie_hand_sold"
+                              }
+                          ],
+    "root_speaker_hint":  "player",
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  9,
+    "entries":  [
+                    {
+                        "key":  "stable_dialogs_yantar:nu_kak_tam#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  186,
+                        "string_id":  "nu_kak_tam",
+                        "occurrence":  1,
+                        "EN":  "Well, how is the research of zombie-kamikaze\u0027s hand going?",
+                        "JA_current":  "Well, how is the research of zombie-kamikaze\u0027s hand going?",
+                        "JA_new":  "自爆ゾンビの手の研究はどうなった？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_zombie_hand_comeback",
+                                               "phrase_id":  "0",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:kak_raz_vovremja#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  190,
+                        "string_id":  "kak_raz_vovremja",
+                        "occurrence":  1,
+                        "EN":  "Marked One, you are just in time! I have finished with the investigation half an hour ago. It is unbelievable! The extraordinary features of this zombie hand are directly related to the influence of the \"Burner\" anomaly. Like other artifacts formed by this anomaly, the hand is capable to protect against radiation... But more than that! Also, it has got some medicinal properties: it helps the organism to withdraw toxins and promotes regeneration. Apparently, the zombie-kamikaze is notable for a very fast metabolism. This may be an explanation for its ability to explode. Its sulfur trioxide saturated tissues have got an utterly unstable structure due to the \"Burner\" anomaly-like high temperatures, all that leading to explosion in the event of critical damage. But when in quiescent state, these properties increase regeneration...",
+                        "JA_current":  "Marked One, you are just in time! I have finished with the investigation half an hour ago. It is unbelievable! The extraordinary features of this zombie hand are directly related to the influence of the \"Burner\" anomaly. Like other artifacts formed by this anomaly, the hand is capable to protect against radiation... But more than that! Also, it has got some medicinal properties: it helps the organism to withdraw toxins and promotes regeneration. Apparently, the zombie-kamikaze is notable for a very fast metabolism. This may be an explanation for its ability to explode. Its sulfur trioxide saturated tissues have got an utterly unstable structure due to the \"Burner\" anomaly-like high temperatures, all that leading to explosion in the event of critical damage. But when in quiescent state, these properties increase regeneration...",
+                        "JA_new":  "ちょうどいいところに来ましたね、マークドワン！ 30分ほど前に調査が終わったところです。信じられません！ このゾンビの手の特異な性質は、アノマリー「バーナー」の影響と直接関係していました。このアノマリーから生まれる他のアーティファクトと同じく、放射線を防ぐ力があります……それだけではありません！ 毒素を体外へ排出し、再生を促す作用もあるようです。自爆ゾンビは代謝が非常に速い。爆発する能力も、それで説明できるかもしれません。組織には三酸化硫黄が多く含まれていて、バーナーのような高温にさらされると構造がひどく不安定になる。そのため、致命的な損傷を受けると爆発するのです。ところが、平常時にはその性質が再生を促す……。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_zombie_hand_comeback",
+                                               "phrase_id":  "1",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:prodolzhai#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  194,
+                        "string_id":  "prodolzhai",
+                        "occurrence":  1,
+                        "EN":  "That\u0027s very interesting! Go on, please...",
+                        "JA_current":  "That\u0027s very interesting! Go on, please...",
+                        "JA_new":  "面白い話だ！ 続けてくれ……。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_zombie_hand_comeback",
+                                               "phrase_id":  "2",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:prodolzhaju#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  198,
+                        "string_id":  "prodolzhaju",
+                        "occurrence":  1,
+                        "EN":  "As opposed to a usual zombie, this one is ALIVE in the literal sense of the word! Different texture of the nerve cells testifies to the effect that this creature is capable of governing its metabolic rate. Zombie-kamikazes even possess a kind of group intelligence - ones may sacrifice themselves for the others to survive. This is the only possible explanation of their propensity for suicidal behavior. These are remarkable creatures indeed! A great deal of information could be gained, if only we could catch one alive! But I consider such an opportunity impossible due to the zombie-kamikazes\u0027 \"explosive temper\"... I will upload the information on my research to your PDA now, Marked One...",
+                        "JA_current":  "As opposed to a usual zombie, this one is ALIVE in the literal sense of the word! Different texture of the nerve cells testifies to the effect that this creature is capable of governing its metabolic rate. Zombie-kamikazes even possess a kind of group intelligence - ones may sacrifice themselves for the others to survive. This is the only possible explanation of their propensity for suicidal behavior. These are remarkable creatures indeed! A great deal of information could be gained, if only we could catch one alive! But I consider such an opportunity impossible due to the zombie-kamikazes\u0027 \"explosive temper\"... I will upload the information on my research to your PDA now, Marked One...",
+                        "JA_new":  "普通のゾンビと違って、こいつは文字通り生きています！ 神経細胞の構造が異なることから、この生物は自分の代謝速度を調節できると考えられます。自爆ゾンビには、ある種の集団知性まであるようです。仲間を生かすために、自分を犠牲にする個体もいる。自殺同然の行動を取る理由は、それしか考えられません。実に驚くべき生物です！ 生きた個体を捕まえられれば、さらに多くの情報が得られるでしょう。ですが、あの「爆発しやすい気性」を考えると、そんな機会はまずないでしょうね……。研究成果の情報を、今からPDAに送りますよ、マークドワン……。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_zombie_hand_comeback",
+                                               "phrase_id":  "3",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:a_gde_nagrada#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  202,
+                        "string_id":  "a_gde_nagrada",
+                        "occurrence":  1,
+                        "EN":  "All this is extremely fascinating... Interesting info and all... But, in fact, I\u0027ve been looking forward to something... mmm... more material, I should say...",
+                        "JA_current":  "All this is extremely fascinating... Interesting info and all... But, in fact, I\u0027ve been looking forward to something... mmm... more material, I should say...",
+                        "JA_new":  "どれも興味深い話だ……。いい情報だよ。けど、俺が待ってたのは……その、もっと形のあるものなんだが……。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_zombie_hand_comeback",
+                                               "phrase_id":  "4",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:ah_da#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  206,
+                        "string_id":  "ah_da",
+                        "occurrence":  1,
+                        "EN":  "Oh, Lord! I have been carried away so much by my research, that I have totally forgotten about your reward... Science is very poorly financed nowadays, so I am unable to give you much money. But I happened to acquire a unique firearm for you - a modified sniper rifle, the Remington M700 MOD X Gen. 3. The way it got into my possession is a funny story to tell! It was exchanged for a box of vodka! Imagine that! A \"leak\" of newly obtained weaponry took place at a Duty arsenal, and this rifle became owned by a loner. Not long ago this stalker strayed to our field lab here in Yantar. He was in terrible condition - he was experiencing hallucinations and his behavior was erratic. He kept repeating that vodka prevented THEM from getting inside his head. He did not make it clear, however, who \"they\" actually were... And associate Kruglov had finished distilling the alcohol... eh... khm... for our laboratory needs. In short, that stalker seized the box and rushed to the Army Warehouses, leaving all his belongings behind.",
+                        "JA_current":  "Oh, Lord! I have been carried away so much by my research, that I have totally forgotten about your reward... Science is very poorly financed nowadays, so I am unable to give you much money. But I happened to acquire a unique firearm for you - a modified sniper rifle, the Remington M700 MOD X Gen. 3. The way it got into my possession is a funny story to tell! It was exchanged for a box of vodka! Imagine that! A \"leak\" of newly obtained weaponry took place at a Duty arsenal, and this rifle became owned by a loner. Not long ago this stalker strayed to our field lab here in Yantar. He was in terrible condition - he was experiencing hallucinations and his behavior was erratic. He kept repeating that vodka prevented THEM from getting inside his head. He did not make it clear, however, who \"they\" actually were... And associate Kruglov had finished distilling the alcohol... eh... khm... for our laboratory needs. In short, that stalker seized the box and rushed to the Army Warehouses, leaving all his belongings behind.",
+                        "JA_new":  "ああ、なんということだ！ 研究に夢中で、報酬のことをすっかり忘れていました……。今は科学への予算がひどく少なくて、大金は渡せません。ですが、珍しい銃を手に入れたんです。改造型の狙撃銃、レミントンM700 MOD X Gen. 3です。どうやって手に入れたか、面白い話がありましてね。ウォッカ一箱と交換したんですよ！ 信じられますか？ デューティーの武器庫で、新しく入った武器が横流しされ、この銃はローナーの手に渡りました。少し前、そのストーカーがヤンターの野外研究所に迷い込んできたんです。ひどい状態で、幻覚を見て行動も支離滅裂でした。「ウォッカがあれば奴らに頭の中へ入られずに済む」と繰り返していました。奴らが誰なのかは、結局分かりませんでしたが……。ちょうどその時、同僚のクルグロフが蒸留酒を作り終えたところで……ええと……研究所で使うためですよ。とにかく、ストーカーはウォッカの箱をつかむと、持ち物を全部置いたまま軍事倉庫へ走っていきました。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_zombie_hand_comeback",
+                                               "phrase_id":  "5",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:zabavno#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  210,
+                        "string_id":  "zabavno",
+                        "occurrence":  1,
+                        "EN":  "That\u0027s quite amusing! And what is so peculiar about this weapon?",
+                        "JA_current":  "That\u0027s quite amusing! And what is so peculiar about this weapon?",
+                        "JA_new":  "そいつは面白いな！ その銃のどこが特別なんだ？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_zombie_hand_comeback",
+                                               "phrase_id":  "6",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:eta_vintovka#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  214,
+                        "string_id":  "eta_vintovka",
+                        "occurrence":  1,
+                        "EN":  "This rifle is perfect for long range combat, it is equipped with two sights and I even have the suppressor for it. A dream of any gunslinger. Here you are... And here is a pack of cartridges...",
+                        "JA_current":  "This rifle is perfect for long range combat, it is equipped with two sights and I even have the suppressor for it. A dream of any gunslinger. Here you are... And here is a pack of cartridges...",
+                        "JA_new":  "遠距離戦にぴったりの銃です。照準器が二つ付いていて、サプレッサーもあります。銃好きには夢の一丁でしょう。どうぞ……弾も一箱付けます。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_zombie_hand_comeback",
+                                               "phrase_id":  "7",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:spasibo#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  218,
+                        "string_id":  "spasibo",
+                        "occurrence":  1,
+                        "EN":  "Thank you very much. This gun will come in handy for me, for sure.",
+                        "JA_current":  "Thank you very much. This gun will come in handy for me, for sure.",
+                        "JA_new":  "本当にありがとう。これはきっと役に立つ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_zombie_hand_comeback",
+                                               "phrase_id":  "8",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  "nu_kak_tam",
+                            "next":  [
+                                         "1"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Well, how is the research of zombie-kamikaze\u0027s hand going?",
+                            "JA_current":  "Well, how is the research of zombie-kamikaze\u0027s hand going?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:nu_kak_tam#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "1",
+                            "text_id":  "kak_raz_vovremja",
+                            "next":  [
+                                         "2"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Marked One, you are just in time! I have finished with the investigation half an hour ago. It is unbelievable! The extraordinary features of this zombie hand are directly related to the influence of the \"Burner\" anomaly. Like other artifacts formed by this anomaly, the hand is capable to protect against radiation... But more than that! Also, it has got some medicinal properties: it helps the organism to withdraw toxins and promotes regeneration. Apparently, the zombie-kamikaze is notable for a very fast metabolism. This may be an explanation for its ability to explode. Its sulfur trioxide saturated tissues have got an utterly unstable structure due to the \"Burner\" anomaly-like high temperatures, all that leading to explosion in the event of critical damage. But when in quiescent state, these properties increase regeneration...",
+                            "JA_current":  "Marked One, you are just in time! I have finished with the investigation half an hour ago. It is unbelievable! The extraordinary features of this zombie hand are directly related to the influence of the \"Burner\" anomaly. Like other artifacts formed by this anomaly, the hand is capable to protect against radiation... But more than that! Also, it has got some medicinal properties: it helps the organism to withdraw toxins and promotes regeneration. Apparently, the zombie-kamikaze is notable for a very fast metabolism. This may be an explanation for its ability to explode. Its sulfur trioxide saturated tissues have got an utterly unstable structure due to the \"Burner\" anomaly-like high temperatures, all that leading to explosion in the event of critical damage. But when in quiescent state, these properties increase regeneration...",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:kak_raz_vovremja#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "2",
+                            "text_id":  "prodolzhai",
+                            "next":  [
+                                         "3"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "That\u0027s very interesting! Go on, please...",
+                            "JA_current":  "That\u0027s very interesting! Go on, please...",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:prodolzhai#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "3",
+                            "text_id":  "prodolzhaju",
+                            "next":  [
+                                         "4"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "2"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "As opposed to a usual zombie, this one is ALIVE in the literal sense of the word! Different texture of the nerve cells testifies to the effect that this creature is capable of governing its metabolic rate. Zombie-kamikazes even possess a kind of group intelligence - ones may sacrifice themselves for the others to survive. This is the only possible explanation of their propensity for suicidal behavior. These are remarkable creatures indeed! A great deal of information could be gained, if only we could catch one alive! But I consider such an opportunity impossible due to the zombie-kamikazes\u0027 \"explosive temper\"... I will upload the information on my research to your PDA now, Marked One...",
+                            "JA_current":  "As opposed to a usual zombie, this one is ALIVE in the literal sense of the word! Different texture of the nerve cells testifies to the effect that this creature is capable of governing its metabolic rate. Zombie-kamikazes even possess a kind of group intelligence - ones may sacrifice themselves for the others to survive. This is the only possible explanation of their propensity for suicidal behavior. These are remarkable creatures indeed! A great deal of information could be gained, if only we could catch one alive! But I consider such an opportunity impossible due to the zombie-kamikazes\u0027 \"explosive temper\"... I will upload the information on my research to your PDA now, Marked One...",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:prodolzhaju#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "4",
+                            "text_id":  "a_gde_nagrada",
+                            "next":  [
+                                         "5"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "3"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "All this is extremely fascinating... Interesting info and all... But, in fact, I\u0027ve been looking forward to something... mmm... more material, I should say...",
+                            "JA_current":  "All this is extremely fascinating... Interesting info and all... But, in fact, I\u0027ve been looking forward to something... mmm... more material, I should say...",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:a_gde_nagrada#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "5",
+                            "text_id":  "ah_da",
+                            "next":  [
+                                         "6"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "4"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Oh, Lord! I have been carried away so much by my research, that I have totally forgotten about your reward... Science is very poorly financed nowadays, so I am unable to give you much money. But I happened to acquire a unique firearm for you - a modified sniper rifle, the Remington M700 MOD X Gen. 3. The way it got into my possession is a funny story to tell! It was exchanged for a box of vodka! Imagine that! A \"leak\" of newly obtained weaponry took place at a Duty arsenal, and this rifle became owned by a loner. Not long ago this stalker strayed to our field lab here in Yantar. He was in terrible condition - he was experiencing hallucinations and his behavior was erratic. He kept repeating that vodka prevented THEM from getting inside his head. He did not make it clear, however, who \"they\" actually were... And associate Kruglov had finished distilling the alcohol... eh... khm... for our laboratory needs. In short, that stalker seized the box and rushed to the Army Warehouses, leaving all his belongings behind.",
+                            "JA_current":  "Oh, Lord! I have been carried away so much by my research, that I have totally forgotten about your reward... Science is very poorly financed nowadays, so I am unable to give you much money. But I happened to acquire a unique firearm for you - a modified sniper rifle, the Remington M700 MOD X Gen. 3. The way it got into my possession is a funny story to tell! It was exchanged for a box of vodka! Imagine that! A \"leak\" of newly obtained weaponry took place at a Duty arsenal, and this rifle became owned by a loner. Not long ago this stalker strayed to our field lab here in Yantar. He was in terrible condition - he was experiencing hallucinations and his behavior was erratic. He kept repeating that vodka prevented THEM from getting inside his head. He did not make it clear, however, who \"they\" actually were... And associate Kruglov had finished distilling the alcohol... eh... khm... for our laboratory needs. In short, that stalker seized the box and rushed to the Army Warehouses, leaving all his belongings behind.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:ah_da#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "6",
+                            "text_id":  "zabavno",
+                            "next":  [
+                                         "7"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "5"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "That\u0027s quite amusing! And what is so peculiar about this weapon?",
+                            "JA_current":  "That\u0027s quite amusing! And what is so peculiar about this weapon?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:zabavno#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "7",
+                            "text_id":  "eta_vintovka",
+                            "next":  [
+                                         "8"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "ogsm_quests.zombie_hand_research"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "6"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "This rifle is perfect for long range combat, it is equipped with two sights and I even have the suppressor for it. A dream of any gunslinger. Here you are... And here is a pack of cartridges...",
+                            "JA_current":  "This rifle is perfect for long range combat, it is equipped with two sights and I even have the suppressor for it. A dream of any gunslinger. Here you are... And here is a pack of cartridges...",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:eta_vintovka#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "8",
+                            "text_id":  "spasibo",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "7"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Thank you very much. This gun will come in handy for me, for sure.",
+                            "JA_current":  "Thank you very much. This gun will come in handy for me, for sure.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:spasibo#1"
+                                                        ]
+                        }
+                    ]
+}

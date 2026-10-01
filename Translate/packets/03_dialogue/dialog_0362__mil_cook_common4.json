@@ -1,0 +1,533 @@
+{
+  "packet_id": "dialog_0362__mil_cook_common4",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "mil_cook_common4",
+  "graph_source": "gamedata/config/gameplay/dialogs_military.xml",
+  "graph_sha256": "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+  "character_bindings": [
+    {
+      "profile_id": "mil_Svoboda_cook",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_military.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "dialogs.dialog_allowed"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "mil_cook_dialog4"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 12,
+  "entries": [
+    {
+      "key": "stable_dialogs_military:mil_cook_common4_0#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 194,
+      "string_id": "mil_cook_common4_0",
+      "occurrence": 1,
+      "EN": "Isn't there a village nearby?",
+      "JA_current": "近くに村はあるのか？",
+      "JA_new": "近くに村はないのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common4",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common4_401#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 197,
+      "string_id": "mil_cook_common4_401",
+      "occurrence": 1,
+      "EN": "Well...",
+      "JA_current": "さてね…。",
+      "JA_new": "ええと……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common4",
+          "phrase_id": "401",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common4_402#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 200,
+      "string_id": "mil_cook_common4_402",
+      "occurrence": 1,
+      "EN": "Well, what?",
+      "JA_current": "どういうことだ？",
+      "JA_new": "ええと、何だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common4",
+          "phrase_id": "402",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common4_403#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 203,
+      "string_id": "mil_cook_common4_403",
+      "occurrence": 1,
+      "EN": "Eh?",
+      "JA_current": "あぁ？",
+      "JA_new": "えっ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common4",
+          "phrase_id": "403",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common4_404#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 206,
+      "string_id": "mil_cook_common4_404",
+      "occurrence": 1,
+      "EN": "A village.",
+      "JA_current": "村だ。",
+      "JA_new": "村だよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common4",
+          "phrase_id": "404",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common4_405#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 209,
+      "string_id": "mil_cook_common4_405",
+      "occurrence": 1,
+      "EN": "Ahh... There is something. Some food there... condensed milk for one...",
+      "JA_current": "あぁ… 何かあるさ。奥に食べ物がいくらかある… 誰かのコンデンスミルク…。",
+      "JA_new": "ああ……何かあるな。食べ物もある……コンデンスミルクとか……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common4",
+          "phrase_id": "405",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common4_406#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 212,
+      "string_id": "mil_cook_common4_406",
+      "occurrence": 1,
+      "EN": "How do I get there?",
+      "JA_current": "どうやって行けばいい？",
+      "JA_new": "どう行けばいい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common4",
+          "phrase_id": "406",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common4_407#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 215,
+      "string_id": "mil_cook_common4_407",
+      "occurrence": 1,
+      "EN": "Eh? Wait. Let me think... Nah, look, do you really need all that? Relax... Sit... Let's sit and have a smoke, OK?",
+      "JA_current": "ん？ 待て。考えさせろ… だめだ、いいか、本当にそれが必要なのか？ 落ち着けって… 座れよ… 座って一服しようぜ、なあ？",
+      "JA_new": "え？待てよ。考えさせて……いや、そこまで必要か？落ち着けよ……座って、一服しようぜ。な？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common4",
+          "phrase_id": "407",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common4_408#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 218,
+      "string_id": "mil_cook_common4_408",
+      "occurrence": 1,
+      "EN": "I need to get to the village.",
+      "JA_current": "村に行かなきゃならんのだ。",
+      "JA_new": "村に行きたいんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common4",
+          "phrase_id": "408",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common4_409#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 221,
+      "string_id": "mil_cook_common4_409",
+      "occurrence": 1,
+      "EN": "Alright... we just sit here, have a smoke.. Then we go... I'll take you there. No problem.",
+      "JA_current": "わかったよ… まぁ座って一服しようぜ。それから行こう。俺がそこへ連れてってやるよ。それで満足だろ？",
+      "JA_new": "分かった……ここに座って一服して、それから行こう……連れてってやるよ。問題ない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common4",
+          "phrase_id": "409",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common4_410#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 224,
+      "string_id": "mil_cook_common4_410",
+      "occurrence": 1,
+      "EN": "Don't go to all that trouble. Just tell me how to get there.",
+      "JA_current": "足手まといはゴメンだぜ。行き方を教えてくれりゃいい。",
+      "JA_new": "そこまでしなくていい。行き方だけ教えてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common4",
+          "phrase_id": "410",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common4_411#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 227,
+      "string_id": "mil_cook_common4_411",
+      "occurrence": 1,
+      "EN": "Sure... Hey, you're really challenging me here! We'll go there together in just a sec. First we just sit down, OK, and...",
+      "JA_current": "わかったよ… オイ、あんたさっきからマジで挑発的だな。あんたと俺ですぐに着くぜ？ まぁいいから座れよ。",
+      "JA_new": "もちろん……おい、ずいぶん急かすな！すぐ一緒に行くからさ。まずは座って、それから……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common4",
+          "phrase_id": "411",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "mil_cook_common4_0",
+      "next": [
+        "401"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Isn't there a village nearby?",
+      "JA_current": "近くに村はあるのか？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common4_0#1"
+      ]
+    },
+    {
+      "phrase_id": "401",
+      "text_id": "mil_cook_common4_401",
+      "next": [
+        "402"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well...",
+      "JA_current": "さてね…。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common4_401#1"
+      ]
+    },
+    {
+      "phrase_id": "402",
+      "text_id": "mil_cook_common4_402",
+      "next": [
+        "403"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "401"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, what?",
+      "JA_current": "どういうことだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common4_402#1"
+      ]
+    },
+    {
+      "phrase_id": "403",
+      "text_id": "mil_cook_common4_403",
+      "next": [
+        "404"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "402"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Eh?",
+      "JA_current": "あぁ？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common4_403#1"
+      ]
+    },
+    {
+      "phrase_id": "404",
+      "text_id": "mil_cook_common4_404",
+      "next": [
+        "405"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "403"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A village.",
+      "JA_current": "村だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common4_404#1"
+      ]
+    },
+    {
+      "phrase_id": "405",
+      "text_id": "mil_cook_common4_405",
+      "next": [
+        "406"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "404"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Ahh... There is something. Some food there... condensed milk for one...",
+      "JA_current": "あぁ… 何かあるさ。奥に食べ物がいくらかある… 誰かのコンデンスミルク…。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common4_405#1"
+      ]
+    },
+    {
+      "phrase_id": "406",
+      "text_id": "mil_cook_common4_406",
+      "next": [
+        "407"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "405"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "How do I get there?",
+      "JA_current": "どうやって行けばいい？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common4_406#1"
+      ]
+    },
+    {
+      "phrase_id": "407",
+      "text_id": "mil_cook_common4_407",
+      "next": [
+        "408"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "406"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Eh? Wait. Let me think... Nah, look, do you really need all that? Relax... Sit... Let's sit and have a smoke, OK?",
+      "JA_current": "ん？ 待て。考えさせろ… だめだ、いいか、本当にそれが必要なのか？ 落ち着けって… 座れよ… 座って一服しようぜ、なあ？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common4_407#1"
+      ]
+    },
+    {
+      "phrase_id": "408",
+      "text_id": "mil_cook_common4_408",
+      "next": [
+        "409"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "407"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I need to get to the village.",
+      "JA_current": "村に行かなきゃならんのだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common4_408#1"
+      ]
+    },
+    {
+      "phrase_id": "409",
+      "text_id": "mil_cook_common4_409",
+      "next": [
+        "410"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "408"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Alright... we just sit here, have a smoke.. Then we go... I'll take you there. No problem.",
+      "JA_current": "わかったよ… まぁ座って一服しようぜ。それから行こう。俺がそこへ連れてってやるよ。それで満足だろ？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common4_409#1"
+      ]
+    },
+    {
+      "phrase_id": "410",
+      "text_id": "mil_cook_common4_410",
+      "next": [
+        "411"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "mil_cook_dialog4"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "409"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Don't go to all that trouble. Just tell me how to get there.",
+      "JA_current": "足手まといはゴメンだぜ。行き方を教えてくれりゃいい。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common4_410#1"
+      ]
+    },
+    {
+      "phrase_id": "411",
+      "text_id": "mil_cook_common4_411",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "410"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sure... Hey, you're really challenging me here! We'll go there together in just a sec. First we just sit down, OK, and...",
+      "JA_current": "わかったよ… オイ、あんたさっきからマジで挑発的だな。あんたと俺ですぐに着くぜ？ まぁいいから座れよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common4_411#1"
+      ]
+    }
+  ]
+}

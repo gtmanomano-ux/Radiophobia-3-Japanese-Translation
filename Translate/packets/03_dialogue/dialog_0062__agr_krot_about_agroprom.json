@@ -1,0 +1,240 @@
+{
+  "packet_id": "dialog_0062__agr_krot_about_agroprom",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "agr_krot_about_agroprom",
+  "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml",
+  "graph_sha256": "0065cb49021f3d779d92b62bc9453bcaa767fa47933b73f8ecdd37c8a246e1ab",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "agr_help_krot_done"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 5,
+  "entries": [
+    {
+      "key": "stable_dialogs_agroprom:agr_krot_about_agroprom_0#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 42,
+      "string_id": "agr_krot_about_agroprom_0",
+      "occurrence": 1,
+      "EN": "Where is the Agroprom Research Institute?",
+      "JA_current": "Agroprom 研究所はどこだい？",
+      "JA_new": "アフロプロム研究所はどこだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_krot_about_agroprom",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_krot_about_agroprom_10#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 45,
+      "string_id": "agr_krot_about_agroprom_10",
+      "occurrence": 1,
+      "EN": "Not far from here. Follow the road to the West and you'll come to the Institute's gates.",
+      "JA_current": "ここからそんなに遠くない。その道に沿って西に行けば、研究所のゲートに突き当たるよ。",
+      "JA_new": "ここから遠くない。西へ道なりに進めば、研究所の門に着く。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_krot_about_agroprom",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_krot_about_agroprom_100#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 48,
+      "string_id": "agr_krot_about_agroprom_100",
+      "occurrence": 1,
+      "EN": "I hear the military have set up a base there, right?",
+      "JA_current": "そこでは Army が待ち構えてると聞いたんだが… ちがうか？",
+      "JA_new": "軍が基地を構えたって聞いたが、そうなのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_krot_about_agroprom",
+          "phrase_id": "100",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_krot_about_agroprom_20#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 54,
+      "string_id": "agr_krot_about_agroprom_20",
+      "occurrence": 1,
+      "EN": "Yeah, there's a military base. I'm not sure how many of them there are exactly but it's at least a platoon. They're well-armed and you've got no chance of breaking through - they'll take you down before you can say \"hello, comrades\". The best way of getting in is during the night 'cause the base is too well-guarded during the day - they got checkpoints everywhere and even snipers on watch towers, yeah... I heard one of them deserted recently, maybe he's still hiding out around here somewhere? If you can find him I'm sure you can shake some useful info out of him.",
+      "JA_current": "ああ、軍の基地になってるよ。どの位人数がいるかははっきりしないが、多分、小隊規模以上だろうな。奴らは完全武装だから、正面突破は無理だろう。多分アンタが「やあ、同志！」と挨拶する前に、ぶっ殺されちまうぞ。1番いいのは、夜の間に入り込むことだな。昼間は完璧に固められてるからな… 奴らはたくさんの歩哨を置いて、方々に目を光らせている。沼に基地から逃げてきた兵士が隠れてるって聞いたことがある。もしアンタがそいつを見つけられたら、そいつから有益な情報を聞けるかもしれないぜ？",
+      "JA_new": "ああ、軍の基地がある。正確な人数は分からないが、少なくとも小隊規模だ。武装もいい。突破しようとすれば、「こんにちは、同志諸君」と言う前にやられるぞ。入り込むなら夜がいい。昼間は警備が厳重で、あちこちに検問所があるし、監視塔には狙撃兵までいる。そういえば、最近脱走兵が出たらしい。まだこの辺に潜んでるかもしれないな。見つければ、役に立つ情報を聞き出せるはずだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_krot_about_agroprom",
+          "phrase_id": "20",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_krot_about_agroprom_120#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 51,
+      "string_id": "agr_krot_about_agroprom_120",
+      "occurrence": 1,
+      "EN": "Thanks for the information.",
+      "JA_current": "ありがとう。ためになった。",
+      "JA_new": "情報ありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_krot_about_agroprom",
+          "phrase_id": "120",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "agr_krot_about_agroprom_0",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Where is the Agroprom Research Institute?",
+      "JA_current": "Agroprom 研究所はどこだい？",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_krot_about_agroprom_0#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "agr_krot_about_agroprom_10",
+      "next": [
+        "100"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Not far from here. Follow the road to the West and you'll come to the Institute's gates.",
+      "JA_current": "ここからそんなに遠くない。その道に沿って西に行けば、研究所のゲートに突き当たるよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_krot_about_agroprom_10#1"
+      ]
+    },
+    {
+      "phrase_id": "100",
+      "text_id": "agr_krot_about_agroprom_100",
+      "next": [
+        "20"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "agr_nii_location"
+        },
+        {
+          "type": "give_info",
+          "value": "agr_sold_about_ratcatcher"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I hear the military have set up a base there, right?",
+      "JA_current": "そこでは Army が待ち構えてると聞いたんだが… ちがうか？",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_krot_about_agroprom_100#1"
+      ]
+    },
+    {
+      "phrase_id": "20",
+      "text_id": "agr_krot_about_agroprom_20",
+      "next": [
+        "120"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "100"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Yeah, there's a military base. I'm not sure how many of them there are exactly but it's at least a platoon. They're well-armed and you've got no chance of breaking through - they'll take you down before you can say \"hello, comrades\". The best way of getting in is during the night 'cause the base is too well-guarded during the day - they got checkpoints everywhere and even snipers on watch towers, yeah... I heard one of them deserted recently, maybe he's still hiding out around here somewhere? If you can find him I'm sure you can shake some useful info out of him.",
+      "JA_current": "ああ、軍の基地になってるよ。どの位人数がいるかははっきりしないが、多分、小隊規模以上だろうな。奴らは完全武装だから、正面突破は無理だろう。多分アンタが「やあ、同志！」と挨拶する前に、ぶっ殺されちまうぞ。1番いいのは、夜の間に入り込むことだな。昼間は完璧に固められてるからな… 奴らはたくさんの歩哨を置いて、方々に目を光らせている。沼に基地から逃げてきた兵士が隠れてるって聞いたことがある。もしアンタがそいつを見つけられたら、そいつから有益な情報を聞けるかもしれないぜ？",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_krot_about_agroprom_20#1"
+      ]
+    },
+    {
+      "phrase_id": "120",
+      "text_id": "agr_krot_about_agroprom_120",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "20"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Thanks for the information.",
+      "JA_current": "ありがとう。ためになった。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_krot_about_agroprom_120#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "packet_id": "dialog_0354__mil_zoneguard_common2",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "mil_zoneguard_common2",
+  "graph_source": "gamedata/config/gameplay/dialogs_military.xml",
+  "graph_sha256": "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+  "character_bindings": [
+    {
+      "profile_id": "mil_Svoboda_zoneguard",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_military.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "mil_lukash_question_already"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 5,
+  "entries": [
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_common2_0#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1347,
+      "string_id": "mil_zoneguard_common2_0",
+      "occurrence": 1,
+      "EN": "Who's the boss here?",
+      "JA_current": "ここのボスは誰だ？",
+      "JA_new": "ここのリーダーは誰だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_common2",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_common2_1#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1350,
+      "string_id": "mil_zoneguard_common2_1",
+      "occurrence": 1,
+      "EN": "And what's your business with him?",
+      "JA_current": "で、用事とは何だ？",
+      "JA_new": "リーダーに何の用だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_common2",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_common2_2#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1353,
+      "string_id": "mil_zoneguard_common2_2",
+      "occurrence": 1,
+      "EN": "I've got information for him.",
+      "JA_current": "彼に情報を持ってきた。",
+      "JA_new": "伝えたい情報がある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_common2",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_common2_3#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1356,
+      "string_id": "mil_zoneguard_common2_3",
+      "occurrence": 1,
+      "EN": "Lukash is our leader. Go to the main building.",
+      "JA_current": "Lukash が俺達のリーダーだ。 メインの建物に行きな。",
+      "JA_new": "リーダーはルカシュだ。本館に行け。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_common2",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_common2_4#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1359,
+      "string_id": "mil_zoneguard_common2_4",
+      "occurrence": 1,
+      "EN": "Got it. Thanks.",
+      "JA_current": "了解、有り難う",
+      "JA_new": "分かった。ありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_common2",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "mil_zoneguard_common2_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Who's the boss here?",
+      "JA_current": "ここのボスは誰だ？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_common2_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "mil_zoneguard_common2_1",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "And what's your business with him?",
+      "JA_current": "で、用事とは何だ？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_common2_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "mil_zoneguard_common2_2",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I've got information for him.",
+      "JA_current": "彼に情報を持ってきた。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_common2_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "mil_zoneguard_common2_3",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Lukash is our leader. Go to the main building.",
+      "JA_current": "Lukash が俺達のリーダーだ。 メインの建物に行きな。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_common2_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "mil_zoneguard_common2_4",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "mil_lukash_question_already"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Got it. Thanks.",
+      "JA_current": "了解、有り難う",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_common2_4#1"
+      ]
+    }
+  ]
+}

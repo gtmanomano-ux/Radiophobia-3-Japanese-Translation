@@ -1,0 +1,106 @@
+{
+  "packet_id": "dialog_0119__bar_bar_osvedomitel_talk",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_bar_osvedomitel_talk",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "bar_volkodav_have_reward"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 2,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_talk_0#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 911,
+      "string_id": "bar_bar_osvedomitel_talk_0",
+      "occurrence": 1,
+      "EN": "So you're connected with Freedom then?",
+      "JA_current": "あんた、フリーダムと裏で通じてるんじゃないだろうな？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_talk",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_talk_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 914,
+      "string_id": "bar_bar_osvedomitel_talk_1",
+      "occurrence": 1,
+      "EN": "I can't answer that question right now. All I can say is that I am not a member of any group.",
+      "JA_current": "その質問にゃ今は答えられねえな。ただ言えるのは、俺自身はどこにも属しちゃいねえってことだけさ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_talk",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bar_bar_osvedomitel_talk_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "So you're connected with Freedom then?",
+      "JA_current": "それで、それから Freedom と関係しているのか？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_talk_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "bar_bar_osvedomitel_talk_1",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I can't answer that question right now. All I can say is that I am not a member of any group.",
+      "JA_current": "今はその質問には答えられないな。ただ言えることは、俺はどのグループにも属してないってことだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_talk_1#1"
+      ]
+    }
+  ]
+}

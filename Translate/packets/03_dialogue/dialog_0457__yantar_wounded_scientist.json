@@ -1,0 +1,419 @@
+{
+    "packet_id":  "dialog_0457__yantar_wounded_scientist",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "yantar_wounded_scientist",
+    "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml",
+    "graph_sha256":  "131d3c64c00a1023af4aaa914f345f3cfff2e581dea421160993fad100675545",
+    "character_bindings":  [
+                               {
+                                   "profile_id":  "yan_ecolog_help",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_ecolog_vasilyev",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               }
+                           ],
+    "dialog_conditions":  [
+
+                          ],
+    "root_speaker_hint":  "player",
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  5,
+    "entries":  [
+                    {
+                        "key":  "stable_dialogs_yantar:yantar_wounded_scientist_11#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  543,
+                        "string_id":  "yantar_wounded_scientist_11",
+                        "occurrence":  1,
+                        "EN":  "Yipe!. Ouch... argh..",
+                        "JA_current":  "うっ！… 痛え… あぁッ…。",
+                        "JA_new":  "いてっ！ 痛っ……ああ……。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_wounded_scientist",
+                                               "phrase_id":  "11",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:yantar_wounded_scientist_211#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  552,
+                        "string_id":  "yantar_wounded_scientist_211",
+                        "occurrence":  1,
+                        "EN":  "Done! Pack the camera, time to get going!",
+                        "JA_current":  "完了！ 写真に納めた、移動の時間だ！",
+                        "JA_new":  "よし！ カメラを片付けて、出発だ！",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_wounded_scientist",
+                                               "phrase_id":  "211",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:yantar_wounded_scientist_31#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  555,
+                        "string_id":  "yantar_wounded_scientist_31",
+                        "occurrence":  1,
+                        "EN":  "Hey, Marked One! How\u0027s life?",
+                        "JA_current":  "よお、Marked One！ 人生を謳歌してるかい？",
+                        "JA_new":  "よう、マークドワン！ 調子はどうだ？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_wounded_scientist",
+                                               "phrase_id":  "31",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:yantar_wounded_scientist_111#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  546,
+                        "string_id":  "yantar_wounded_scientist_111",
+                        "occurrence":  1,
+                        "EN":  "You alive? C\u0027mon, get up... Get up slowly. It\u0027s all over. It\u0027s behind us now.",
+                        "JA_current":  "生きてるか？ さあ、立て… ゆっくり立ち上がるんだ。全部終わったよ、奴らは遙か向こうだ。",
+                        "JA_new":  "生きてるか？ ほら、起きろ……ゆっくりでいい。もう終わった。危険は去ったぞ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_wounded_scientist",
+                                               "phrase_id":  "111",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:yantar_wounded_scientist_21#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  549,
+                        "string_id":  "yantar_wounded_scientist_21",
+                        "occurrence":  1,
+                        "EN":  "Hey, Marked One. How are you?",
+                        "JA_current":  "よう、Marked One。元気してるかい？",
+                        "JA_new":  "やあ、マークドワン。元気か？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_wounded_scientist",
+                                               "phrase_id":  "21",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  null,
+                            "next":  [
+                                         "1",
+                                         "2",
+                                         "3"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  null,
+                            "speaker_hint_basis":  "unresolved",
+                            "EN":  null,
+                            "JA_current":  null,
+                            "string_entry_candidates":  [
+
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "1",
+                            "text_id":  null,
+                            "next":  [
+                                         "11"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "dont_has_info",
+                                                   "value":  "yan_find_scientist_done"
+                                               },
+                                               {
+                                                   "type":  "dont_has_info",
+                                                   "value":  "yan_scientist_return_to_bunker"
+                                               }
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  null,
+                            "speaker_hint_basis":  "unresolved",
+                            "EN":  null,
+                            "JA_current":  null,
+                            "string_entry_candidates":  [
+
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "2",
+                            "text_id":  null,
+                            "next":  [
+                                         "211"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "dont_has_info",
+                                                   "value":  "yan_find_scientist_done"
+                                               },
+                                               {
+                                                   "type":  "has_info",
+                                                   "value":  "yan_scientist_return_to_bunker"
+                                               }
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  null,
+                            "speaker_hint_basis":  "unresolved",
+                            "EN":  null,
+                            "JA_current":  null,
+                            "string_entry_candidates":  [
+
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "3",
+                            "text_id":  null,
+                            "next":  [
+                                         "31"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "has_info",
+                                                   "value":  "yan_find_scientist_done"
+                                               }
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  null,
+                            "speaker_hint_basis":  "unresolved",
+                            "EN":  null,
+                            "JA_current":  null,
+                            "string_entry_candidates":  [
+
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "11",
+                            "text_id":  "yantar_wounded_scientist_11",
+                            "next":  [
+                                         "111"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Yipe!. Ouch... argh..",
+                            "JA_current":  "うっ！… 痛え… あぁッ…。",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:yantar_wounded_scientist_11#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "211",
+                            "text_id":  "yantar_wounded_scientist_211",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "2"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Done! Pack the camera, time to get going!",
+                            "JA_current":  "完了！ 写真に納めた、移動の時間だ！",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:yantar_wounded_scientist_211#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "31",
+                            "text_id":  "yantar_wounded_scientist_31",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "3"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Hey, Marked One! How\u0027s life?",
+                            "JA_current":  "よお、Marked One！ 人生を謳歌してるかい？",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:yantar_wounded_scientist_31#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "111",
+                            "text_id":  "yantar_wounded_scientist_111",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "dialogs.break_dialog"
+                                            },
+                                            {
+                                                "type":  "give_info",
+                                                "value":  "yan_scientist_return_to_bunker"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "11"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "You alive? C\u0027mon, get up... Get up slowly. It\u0027s all over. It\u0027s behind us now.",
+                            "JA_current":  "生きてるか？ さあ、立て… ゆっくり立ち上がるんだ。全部終わったよ、奴らは遙か向こうだ。",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:yantar_wounded_scientist_111#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "21",
+                            "text_id":  "yantar_wounded_scientist_21",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  null,
+                            "speaker_hint_basis":  "unresolved",
+                            "EN":  "Hey, Marked One. How are you?",
+                            "JA_current":  "よう、Marked One。元気してるかい？",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:yantar_wounded_scientist_21#1"
+                                                        ]
+                        }
+                    ]
+}

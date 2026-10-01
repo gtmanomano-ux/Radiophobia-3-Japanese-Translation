@@ -1,0 +1,1357 @@
+{
+  "packet_id": "dialog_0264__joke_stalker3",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "joke_stalker3",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "bar_bar_hunter",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "horror_time"
+    },
+    {
+      "type": "precondition",
+      "value": "dialogs.is_not_wounded1"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 29,
+  "entries": [
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_75#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 228,
+      "string_id": "dialogs_escape_75",
+      "occurrence": 1,
+      "EN": "Sure is dreary around here. Know anything that could cheer us up?",
+      "JA_current": "Sure is dreary around here. Know anything that could cheer us up?",
+      "JA_new": "ここは憂鬱だな。気分が晴れる話、何か知らないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke3_stalker_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 318,
+      "string_id": "joke3_stalker_1",
+      "occurrence": 1,
+      "EN": "Two drunk stalkers are sitting at the bar, enjoying a bottle of vodka. The first drunk looks at his buddy and says \"I gotta go use the can.\" \\nSo, he wanders off to the toilet and... \\n \\nA horrible scream! Sounds of full auto fire! His friend grabs his \"kalashnikov\" and rushes to the bathroom, where he sees his fellow reloading his gun with trembling hands, his face pale with fear. \\n\"What the hell happened?\" \\nThe first drunk replies \"Man, I was taking a dump, but when I tried to flush, something reached up and grabbed my balls! Some mutant!!! So I jumped up and discharged the whole magazine at the toilet bowl!\" \\nThe second drunk looks at the scene and says \"Well, you dumb-ass, you were sitting on the mop bucket!\". \n        ",
+      "JA_current": "Two drunk stalkers are sitting at the bar, enjoying a bottle of vodka. The first drunk looks at his buddy and says \"I gotta go use the can.\" \\nSo, he wanders off to the toilet and... \\n \\nA horrible scream! Sounds of full auto fire! His friend grabs his \"kalashnikov\" and rushes to the bathroom, where he sees his fellow reloading his gun with trembling hands, his face pale with fear. \\n\"What the hell happened?\" \\nThe first drunk replies \"Man, I was taking a dump, but when I tried to flush, something reached up and grabbed my balls! Some mutant!!! So I jumped up and discharged the whole magazine at the toilet bowl!\" \\nThe second drunk looks at the scene and says \"Well, you dumb-ass, you were sitting on the mop bucket!\". \n        ",
+      "JA_new": "酒場で酔っぱらったストーカーが2人、ウォッカを飲んでいた。片方が仲間を見て言う。「ちょっと便所に行ってくる」\\nそう言ってトイレへ向かった直後…\\n\\n…恐ろしい叫び声！連射音まで聞こえる！仲間はカラシニコフをつかんで、トイレへ駆け込んだ。そこでは、顔面蒼白で手を震わせたストーカーが、銃に弾を込めている。\\n「何があった！\\n？」最初の男が答えた。「用を足して水を流そうとしたら、何かが下から伸びてきて、俺の玉をつかんだんだ！ミュータントだ！飛び上がって、便器に弾倉を全部撃ち込んじまった！\\n」仲間はその場を見て言った。「この間抜け。お前が座ってたのはモップ入れだ！\n」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke3_stalker_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 327,
+      "string_id": "joke3_stalker_2",
+      "occurrence": 1,
+      "EN": "Swamp Doctor got called to examine the Freedom commander Lukash. After the examination the doctor said: \"I can't find a cause for your illness. Frankly, I think it's due to drinking.\"\n\\n\"In that case,\" replied his high ranking patient, \"I'll come back when you are sober.\"\n        ",
+      "JA_current": "Swamp Doctor got called to examine the Freedom commander Lukash. After the examination the doctor said: \"I can't find a cause for your illness. Frankly, I think it's due to drinking.\"\n\\n\"In that case,\" replied his high ranking patient, \"I'll come back when you are sober.\"\n        ",
+      "JA_new": "沼地の医者が、フリーダムの指揮官ルカシュを診察するよう呼ばれた。診察を終えた医師は言った。「病気の原因は見つかりません。正直に言えば、酒のせいだと思います」\n\\n「それなら」と高官は答えた。「先生が酔いから覚めた頃に、また来ます」\n",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke3_stalker_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 333,
+      "string_id": "joke3_stalker_3",
+      "occurrence": 1,
+      "EN": "A zombie falls down on a pile of construction rubble and gets its head torn off. The head rolls aside, sees the body roaming around to search for it and starts shouting:\n\\n\"I'm here! This way!\"\n        \\nThen it stops screaming and murmurs sadly:\n\\n\"Why the hell am I shouting? The ears are on ME, actually...\"\n        ",
+      "JA_current": "A zombie falls down on a pile of construction rubble and gets its head torn off. The head rolls aside, sees the body roaming around to search for it and starts shouting:\n\\n\"I'm here! This way!\"\n        \\nThen it stops screaming and murmurs sadly:\n\\n\"Why the hell am I shouting? The ears are on ME, actually...\"\n        ",
+      "JA_new": "ゾンビが建築廃材の山で転び、頭をもぎ取られてしまった。頭は転がっていき、体が自分を探して歩き回っているのを見つけて叫んだ。「こっちだ！\n\\nここにいる！」\nやがて叫ぶのをやめ、\\n悲しげにつぶやいた。\n\\n「なんで叫んでるんだ、俺……耳はこっちについてるじゃないか…\n…」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke3_stalker_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 341,
+      "string_id": "joke3_stalker_4",
+      "occurrence": 1,
+      "EN": "A veteran stalker got tired of roaming all over the Zone. So, he decided to settle down in some abandoned house and make his living by farming. Once a rookie stalker comes to visit him and asks:\n\\n\"Haven't seen you around for a long time. Where have you been?\"\n\\n\"I'm not going to explore the Zone anymore, I got sick and tired of it. I'm satisfied with living here, farming and all that... Come, take a look at my garden.\"\n\\nThe rookie takes a walk about the garden and gets excited!\n\\n\"Such big watermelons! Never saw anything like that! And the vegetable marrows are just wonderful! So nice here! And the nightingale sings so nicely! You've got an excellent garden!\"\n\\nThe veteran sighs and says:\n\\n\"Just a garden, nothing special: those are not watermelons but gooseberries, not marrows but pea pods... And it's not a nightingale but a Geiger counter...\" \n        ",
+      "JA_current": "A veteran stalker got tired of roaming all over the Zone. So, he decided to settle down in some abandoned house and make his living by farming. Once a rookie stalker comes to visit him and asks:\n\\n\"Haven't seen you around for a long time. Where have you been?\"\n\\n\"I'm not going to explore the Zone anymore, I got sick and tired of it. I'm satisfied with living here, farming and all that... Come, take a look at my garden.\"\n\\nThe rookie takes a walk about the garden and gets excited!\n\\n\"Such big watermelons! Never saw anything like that! And the vegetable marrows are just wonderful! So nice here! And the nightingale sings so nicely! You've got an excellent garden!\"\n\\nThe veteran sighs and says:\n\\n\"Just a garden, nothing special: those are not watermelons but gooseberries, not marrows but pea pods... And it's not a nightingale but a Geiger counter...\" \n        ",
+      "JA_new": "ゾーンを歩き回るのに疲れたベテランストーカーは、廃屋に住み着いて畑仕事で暮らすことにした。ある日、新米ストーカーが訪ねてきて聞いた。\n\\n「ずいぶん長いこと見かけなかったけど、どこにいたんだ？\n\\n」男は答えた。「もうゾーンを探索するのはやめた。うんざりでね。ここで畑を耕して暮らせば満足さ。庭を見ていけよ」\n\\n新米は庭を見て大喜び。「こんな大きなスイカは初めてだ！\n\\nズッキーニもすごい！ここは最高だな！ナイチンゲールの歌もきれいだ。見事な庭だよ！」ベテランはため息をついた。\n\\n「ただの庭さ。\n\\nスイカじゃなくてグーズベリー、ズッキーニじゃなくてエンドウ豆のさやだ……ナイチンゲールじゃなく、ガイガーカウンターの音だよ」\n",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke3_stalker_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 352,
+      "string_id": "joke3_stalker_5",
+      "occurrence": 1,
+      "EN": "A stalker returns to consciousness on a surgical table, sees a doctor and asks him:\n\\n\"Doctor! What's happened to me? I don't remember anything! Did I get into an anomaly?!\"\n\\n\"That's right, you walked into a 'Whirligig' when approaching Yantar. We have found you and had to perform an urgent surgery...\"\n\\n\"So, I am currently in Sakharov's bunker?\"\n\\n\"Well... Mostly, my friend, MOSTLY...\"\n        ",
+      "JA_current": "A stalker returns to consciousness on a surgical table, sees a doctor and asks him:\n\\n\"Doctor! What's happened to me? I don't remember anything! Did I get into an anomaly?!\"\n\\n\"That's right, you walked into a 'Whirligig' when approaching Yantar. We have found you and had to perform an urgent surgery...\"\n\\n\"So, I am currently in Sakharov's bunker?\"\n\\n\"Well... Mostly, my friend, MOSTLY...\"\n        ",
+      "JA_new": "ストーカーが手術台で意識を取り戻し、医者を見て尋ねた。「先生！俺に何があった？\n\\n何も覚えてない！アノマリーに入ったのか！？」医者は答えた。「その通り。\n\\nヤンターに近づいた時、ウィリギグに入ったんだ。私たちが見つけて、緊急手術をした……」「じゃあ、今いるのはサハロフのバンカーですか？\n\\n」「まあ……だいたいはね。\n\\n体のほとんどは、ここにあるよ…\n…」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke3_stalker_6#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 361,
+      "string_id": "joke3_stalker_6",
+      "occurrence": 1,
+      "EN": "Monolith fanatics approach the Barrier. Freedom fighters are getting prepared for a fight, when a voice comes on the radio: \n\\n\"Forsake the Barrier, infidels, and we will let you leave in peace!\" \n\\n\"In peace, you say?.. Hm... Do you need a drum, by the way?\" \n\\n\"A drum?! To glorify the mighty Monolith?\" \n\\n\"No. To take the lead of all those going to fuck themselves!\" \n        ",
+      "JA_current": "Monolith fanatics approach the Barrier. Freedom fighters are getting prepared for a fight, when a voice comes on the radio: \n\\n\"Forsake the Barrier, infidels, and we will let you leave in peace!\" \n\\n\"In peace, you say?.. Hm... Do you need a drum, by the way?\" \n\\n\"A drum?! To glorify the mighty Monolith?\" \n\\n\"No. To take the lead of all those going to fuck themselves!\" \n        ",
+      "JA_new": "モノリスの狂信者たちがバリアに迫っていた。フリーダムの兵士が戦いに備えると、無線から声が響いた。「バリアを捨てよ、\n\\n異教徒ども！今なら無事に帰してやる！」フリーダムの兵士は返した。\n\\n「無事に帰れるって？……なあ、ドラムいるか？\n\\n」「ドラムだと？偉大なるモノリスを讃えるためか？\n\\n」「違う。地獄へ行く連中を先頭で導いてやるためさ！\n」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke3_stalker_7#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 370,
+      "string_id": "joke3_stalker_7",
+      "occurrence": 1,
+      "EN": "Question. What's red, angry, armed to the teeth and has a combined IQ of a 100? \\nAnswer: A duty squad.\n        ",
+      "JA_current": "Question. What's red, angry, armed to the teeth and has a combined IQ of a 100? \\nAnswer: A duty squad.\n        ",
+      "JA_new": "問題だ。赤くて、怒りっぽくて、重武装。全員のIQを足すと100。これは何だ？\\n答えは、デューティーの分隊。\n",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke3_stalker_8#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 375,
+      "string_id": "joke3_stalker_8",
+      "occurrence": 1,
+      "EN": "One bandit says to his fellow: \"Now, a good friend of mine, he knew the exact day of the year that he was going to die. It was the right year too. Not only that, but he knew what time he would die that day, and he was right about that too.\"\\n\nFellow: \"Wow, that's Incredible. How did he know all of that?\"\\n\nBandit: \"The Duty commander, General Voronin, told him at court martial.\"\n        ",
+      "JA_current": "One bandit says to his fellow: \"Now, a good friend of mine, he knew the exact day of the year that he was going to die. It was the right year too. Not only that, but he knew what time he would die that day, and he was right about that too.\"\\n\nFellow: \"Wow, that's Incredible. How did he know all of that?\"\\n\nBandit: \"The Duty commander, General Voronin, told him at court martial.\"\n        ",
+      "JA_new": "バンディットが仲間に言った。「俺の親友は、自分が死ぬ年だけじゃなく、日付まで正確に知ってたんだ。しかもその年も日付も、当たってた。何時に死ぬかまで分かってて、それもその通りになったんだぜ」「すごい予知能力だな！\\n\nどうして分かったんだ？」仲間は驚いた。バンディットは答えた。\\n\n「デューティーの指揮官、ヴォロニン将軍が軍法会議で教えてくれたんだ」\n",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke3_stalker_9#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 386,
+      "string_id": "joke3_stalker_9",
+      "occurrence": 1,
+      "EN": "A Duty squad enters the bar. The guys have just come back from a deep raid against mutants, they are exhausted and hungry. So, they order some chow and beer. While waiting for their order, they keep talking about how they wasted a controller, fought against hordes of zombies and bloodsuckers, etc. At that moment a mosquito flies into the room. All the Dutyers grab their weapons and open fire! Other visitors drop down to the floor in panic, the room fills up with smoke... \\n \\nAfter some time the Barkeep pokes his head from under the table: \"Hey, HEY!!! What the fuck?!?! WHAT are you doing?!\"\\nThe squad leader: \"These bastards must be exterminated BEFORE they become mature bloodsuckers!\"\n        ",
+      "JA_current": "A Duty squad enters the bar. The guys have just come back from a deep raid against mutants, they are exhausted and hungry. So, they order some chow and beer. While waiting for their order, they keep talking about how they wasted a controller, fought against hordes of zombies and bloodsuckers, etc. At that moment a mosquito flies into the room. All the Dutyers grab their weapons and open fire! Other visitors drop down to the floor in panic, the room fills up with smoke... \\n \\nAfter some time the Barkeep pokes his head from under the table: \"Hey, HEY!!! What the fuck?!?! WHAT are you doing?!\"\\nThe squad leader: \"These bastards must be exterminated BEFORE they become mature bloodsuckers!\"\n        ",
+      "JA_new": "デューティーの分隊が酒場に入ってきた。ミュータント討伐の遠征から戻ったばかりで、腹も減って疲れ切っている。食事とビールを注文し、コントローラーを仕留めたとか、ゾンビやブラッドサッカーの大群と戦ったとか話していた。その時、部屋に蚊が1匹飛び込んできた。デューティー兵は全員、武器をつかんで一斉に発砲！客たちはパニックで床に伏せ、部屋は煙だらけになった……。\\n\\nしばらくして、バーキープがテーブルの下から顔を出した。「おい、ちょっと！何をしてるんだ！\\n？」分隊長は答えた。「こいつらは成体のブラッドサッカーになる前に始末する！\n」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke3_stalker_10#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 394,
+      "string_id": "joke3_stalker_10",
+      "occurrence": 1,
+      "EN": "Did you know pseudogiants have their sex organs on their feet? They step on you and you're fucked!\n        ",
+      "JA_current": "Did you know pseudogiants have their sex organs on their feet? They step on you and you're fucked!\n        ",
+      "JA_new": "シュードジャイアントは性器が足についてるって知ってたか？踏まれたら、こっちはヤられたも同然だ！\n",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke3_stalker_11#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 399,
+      "string_id": "joke3_stalker_11",
+      "occurrence": 1,
+      "EN": "A rookie stalker goes through the Zone and gets to a crossroad with a huge stone and a note on it: \"Go left - get screwed, go right - get screwed, go forward - surely you'll get screwed!\"\n        So the rookie stops and starts thinking... After a couple of minutes a master stalker with a minigun comes out from behind the stone:\n\"Hey, you! Choose quickly, or you get screwed right here!!!\"\n        ",
+      "JA_current": "A rookie stalker goes through the Zone and gets to a crossroad with a huge stone and a note on it: \"Go left - get screwed, go right - get screwed, go forward - surely you'll get screwed!\"\n        So the rookie stops and starts thinking... After a couple of minutes a master stalker with a minigun comes out from behind the stone:\n\"Hey, you! Choose quickly, or you get screwed right here!!!\"\n        ",
+      "JA_new": "新米ストーカーがゾーンを歩いていると、大きな石と看板のある分かれ道に出た。看板にはこうある。「左へ行け、ヤられるぞ。右へ行け、ヤられるぞ。まっすぐ進めば、\n確実にヤられる！」新米は立ち止まって考え込んだ……。数分後、石の陰からミニガンを持ったベテランストーカーが現れた。\n「おい、さっさと選べ！でないとここでヤられるぞ！\n」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke3_stalker_12#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 406,
+      "string_id": "joke3_stalker_12",
+      "occurrence": 1,
+      "EN": "Once an old lone stalker came to the scientists' camp at Yantar. \"I'm too old to hunt for swag, but I cannot leave the Zone - I've been here for so long that I've become a part of Her\". The eggheads gladly accepted the lad, as they had a need for experienced stalkers, and he became a good adviser for them. One evening all the lab staff gathered at a get-together - chit-chat, food and drinks. And that stalker was there, too. \\n \\nThe conversation finally got to an end (they started from the question of why there were no women in the Zone and ended up on the inability to distinguish a bloodsuckers' sex). They almost decided to wrap things up, when one of the young assistants addressed a question to the old stalker: \"You've got experience, been through the whole Zone... Maybe you even saw the Monolith?\" The old man hummed and hawed and finally said: \"Well, I saw it.\" \"What wish did you ask it to fulfill?\" \"Happiness\", the old man said, \"for all in general and for everybody in person.\" \\n \\nThe scientists were listening attentively and questioning themselves: \"How is it possible? The guy got granted a wish?! Is he joking?\" The assistant let slip: \"I wish we could see the Monolith, too...\" \"Why not? That's quite possible\", the stalker hummed. He reached for his backpack and took out a handful of stones. The stones were obviously not ordinary, nothing anybody of those present had ever seen before. The scientists grasped the stones - curiosity was overwhelming them. \\n \\nAnd the stalker was watching them, saw their eyes glittering with delight and happiness... \"Take them, have them, as many as you like... I've got plenty of this \"happiness\" in my backpack, for all in general and for everybody in person...\", he kept muttering.",
+      "JA_current": "Once an old lone stalker came to the scientists' camp at Yantar. \"I'm too old to hunt for swag, but I cannot leave the Zone - I've been here for so long that I've become a part of Her\". The eggheads gladly accepted the lad, as they had a need for experienced stalkers, and he became a good adviser for them. One evening all the lab staff gathered at a get-together - chit-chat, food and drinks. And that stalker was there, too. \\n \\nThe conversation finally got to an end (they started from the question of why there were no women in the Zone and ended up on the inability to distinguish a bloodsuckers' sex). They almost decided to wrap things up, when one of the young assistants addressed a question to the old stalker: \"You've got experience, been through the whole Zone... Maybe you even saw the Monolith?\" The old man hummed and hawed and finally said: \"Well, I saw it.\" \"What wish did you ask it to fulfill?\" \"Happiness\", the old man said, \"for all in general and for everybody in person.\" \\n \\nThe scientists were listening attentively and questioning themselves: \"How is it possible? The guy got granted a wish?! Is he joking?\" The assistant let slip: \"I wish we could see the Monolith, too...\" \"Why not? That's quite possible\", the stalker hummed. He reached for his backpack and took out a handful of stones. The stones were obviously not ordinary, nothing anybody of those present had ever seen before. The scientists grasped the stones - curiosity was overwhelming them. \\n \\nAnd the stalker was watching them, saw their eyes glittering with delight and happiness... \"Take them, have them, as many as you like... I've got plenty of this \"happiness\" in my backpack, for all in general and for everybody in person...\", he kept muttering.",
+      "JA_new": "ある年老いた一匹狼のストーカーが、ヤンターの科学者キャンプを訪れた。「珍しい戦利品を探すには年を取りすぎたが、ゾーンを離れられん。長くここにいて、もう彼女の一部みたいなものだ」科学者たちは経験豊富なストーカーを必要としていたので、彼を喜んで迎え入れた。彼はよき助言者になった。ある晩、研究所の職員が集まり、\\n\\n食べたり飲んだりしながら話に花を咲かせた。話題はついに、ゾーンに女がいないのはなぜかという話から、ブラッドサッカーの性別を見分けられないという話にまで及んだ。お開きにしようとした時、若い助手が老人に尋ねた。「ゾーン中を歩いてきたんですよね。モノリスを見たこともあるんですか？」老人は言いよどみ、やがて答えた。「ああ、見たよ」「どんな願いをかなえてもらったんです？」「幸せさ」と老人は言った。「みんなに、1人残らずな」\\n\\n科学者たちは聞き入り、顔を見合わせた。「本当か？願いをかなえてもらったのか？冗談じゃないのか？」助手が思わず口にした。「僕たちもモノリスを見られたらな……」「見られるとも」とストーカーは言い、バックパックに手を入れて、石をひとつかみ取り出した。どれも明らかに普通の石ではない。そこにいた誰も見たことのないものだった。科学者たちは好奇心を抑えられず、\\n\\nその石を手に取った。ストーカーは、目を輝かせて喜ぶ彼らを見ていた。「好きなだけ持っていきな。バックパックには『幸せ』が山ほどある。みんなに、1人残らずな……」彼はそうつぶやき続けた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke3_stalker_13#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 410,
+      "string_id": "joke3_stalker_13",
+      "occurrence": 1,
+      "EN": "A stalker was passing through some swamp and saw an ordinary frog. \n\t\tHe was taken aback at first, then he started looking for signs of mutation - a fifth extremity or an eye in the ass, whatever. But everything seemed to be normal. \\n \\nThe stalker scratched his head and almost decided to leave, when the frog started speaking to him in human language: \"Kiss me, my Prince, and I will become your Princess!\" \\n \\nThe guy barely managed to stop himself from falling into the swamp! He collected his thoughts and started slowly backing away from the frog. And the latter spoke again:\n\t\t\"Come on, kiss me! I'll turn into a beautiful princess and we'll live happily together ever after!\" \\n \\nThe stalker finally thought: \"Who knows what kind of miracles may happen in the Zone? May it be true? Why not, maybe it really turns into a beauty?!\"\n\t\tSo he finally kissed the frog. \\n \\nImmediately after the kiss, the frog became covered in thick smoke, and when the smoke vanished... There was a bloodsucker! \"Thank you, my Prince! A deal is a deal, and from now on I will be your Princess! And don't you ever dare say I'm not a beauty!!!\"\n        ",
+      "JA_current": "A stalker was passing through some swamp and saw an ordinary frog. \n\t\tHe was taken aback at first, then he started looking for signs of mutation - a fifth extremity or an eye in the ass, whatever. But everything seemed to be normal. \\n \\nThe stalker scratched his head and almost decided to leave, when the frog started speaking to him in human language: \"Kiss me, my Prince, and I will become your Princess!\" \\n \\nThe guy barely managed to stop himself from falling into the swamp! He collected his thoughts and started slowly backing away from the frog. And the latter spoke again:\n\t\t\"Come on, kiss me! I'll turn into a beautiful princess and we'll live happily together ever after!\" \\n \\nThe stalker finally thought: \"Who knows what kind of miracles may happen in the Zone? May it be true? Why not, maybe it really turns into a beauty?!\"\n\t\tSo he finally kissed the frog. \\n \\nImmediately after the kiss, the frog became covered in thick smoke, and when the smoke vanished... There was a bloodsucker! \"Thank you, my Prince! A deal is a deal, and from now on I will be your Princess! And don't you ever dare say I'm not a beauty!!!\"\n        ",
+      "JA_new": "ストーカーが沼地を歩いていると、普通のカエルを見つけた。\n\t\t最初は驚いたが、すぐに変異の兆候を探し始めた。5本目の足とか、尻の目とか、何でもいい。だが、どこも普通に見える。\\n\\n首をかしげ、立ち去ろうとした時、カエルが人間の言葉で話しかけた。「私にキスして、王子様。そうすればお姫様になれるわ！」\\n\\n男は沼に落ちそうになり、どうにか踏みとどまった。気を取り直し、ゆっくり後ずさる。カエルはまた言った。「さあ、キスして！\n\t\t美しいお姫様になって、ずっと幸せに暮らしましょう！」ストーカーは考えた。\\n\\n「ゾーンでは奇跡だって起きるかもしれない。本当か？もしかしたら、本当に美女に変わるのか？」彼はついにカエルにキスした。\n\t\tするとすぐ、\\n\\nカエルは濃い煙に包まれた。煙が晴れると……そこにいたのはブラッドサッカー！「ありがとう、王子様！約束は約束よ。今日からあなたのお姫様になるわ！私が美人じゃないなんて、絶対に言わせないわよ！\n！！」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_76#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 231,
+      "string_id": "dialogs_escape_76",
+      "occurrence": 1,
+      "EN": "Some other time, maybe. I want to take some rest now.",
+      "JA_current": "Some other time, maybe. I want to take some rest now.",
+      "JA_new": "また今度にしてくれ。今は少し休みたい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke3_stalker_1_reply#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 322,
+      "string_id": "joke3_stalker_1_reply",
+      "occurrence": 1,
+      "EN": "I would be terrified myself, if I were in his shoes! Ha-ha!\n\t",
+      "JA_current": "I would be terrified myself, if I were in his shoes! Ha-ha!\n\t",
+      "JA_new": "あんな目に遭ったら、俺でも怖くてたまらないよ！ハハッ！\n\t",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "16",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_78#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 237,
+      "string_id": "dialogs_escape_78",
+      "occurrence": 1,
+      "EN": "Funny.",
+      "JA_current": "Funny.",
+      "JA_new": "面白いな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "17",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_79#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 240,
+      "string_id": "dialogs_escape_79",
+      "occurrence": 1,
+      "EN": "You've made me laugh.",
+      "JA_current": "You've made me laugh.",
+      "JA_new": "笑わせてくれたな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "18",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_80#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 243,
+      "string_id": "dialogs_escape_80",
+      "occurrence": 1,
+      "EN": "Yeah, that was a very funny joke.",
+      "JA_current": "Yeah, that was a very funny joke.",
+      "JA_new": "かなり笑える話だった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "19",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_81#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 246,
+      "string_id": "dialogs_escape_81",
+      "occurrence": 1,
+      "EN": "Good joke, man.",
+      "JA_current": "Good joke, man.",
+      "JA_new": "いい冗談だ。気に入ったよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "20",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_82#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 249,
+      "string_id": "dialogs_escape_82",
+      "occurrence": 1,
+      "EN": "You are a good comedian.",
+      "JA_current": "You are a good comedian.",
+      "JA_new": "なかなかのコメディアンだな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_83#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 252,
+      "string_id": "dialogs_escape_83",
+      "occurrence": 1,
+      "EN": "Gave me a chuckle!",
+      "JA_current": "Gave me a chuckle!",
+      "JA_new": "ちょっと笑っちまった！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "22",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke3_stalker_8_reply#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 382,
+      "string_id": "joke3_stalker_8_reply",
+      "occurrence": 1,
+      "EN": "Yeah, amazing foresight, ha-ha!",
+      "JA_current": "Yeah, amazing foresight, ha-ha!",
+      "JA_new": "いやあ、先見の明があるな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "23",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke3_stalker_9_reply#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 390,
+      "string_id": "joke3_stalker_9_reply",
+      "occurrence": 1,
+      "EN": "Now I know where the bloodsuckers come from, ha-ha!",
+      "JA_current": "Now I know where the bloodsuckers come from, ha-ha!",
+      "JA_new": "これでブラッドサッカーの生まれ方が分かったな。ハハッ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "24",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_84#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 255,
+      "string_id": "dialogs_escape_84",
+      "occurrence": 1,
+      "EN": "Well, that's quite lifelike in a way.",
+      "JA_current": "Well, that's quite lifelike in a way.",
+      "JA_new": "妙に現実味があるな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "25",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_85#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 258,
+      "string_id": "dialogs_escape_85",
+      "occurrence": 1,
+      "EN": "That's funny!",
+      "JA_current": "That's funny!",
+      "JA_new": "笑えるな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "26",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_86#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 261,
+      "string_id": "dialogs_escape_86",
+      "occurrence": 1,
+      "EN": "That's zany.",
+      "JA_current": "That's zany.",
+      "JA_new": "ぶっ飛んでるな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "27",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_87#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 264,
+      "string_id": "dialogs_escape_87",
+      "occurrence": 1,
+      "EN": "Man, you are quite the narrator.",
+      "JA_current": "Man, you are quite the narrator.",
+      "JA_new": "あんた、語り上手だな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "28",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_77#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 234,
+      "string_id": "dialogs_escape_77",
+      "occurrence": 1,
+      "EN": "Heh. Thanks for the laugh.",
+      "JA_current": "Heh. Thanks for the laugh.",
+      "JA_new": "ふっ、笑わせてくれてありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker3",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "dialogs_escape_75",
+      "next": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.joke_precondition"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sure is dreary around here. Know anything that could cheer us up?",
+      "JA_current": "Sure is dreary around here. Know anything that could cheer us up?",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_75#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "joke3_stalker_1",
+      "next": [
+        "16"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc1"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Two drunk stalkers are sitting at the bar, enjoying a bottle of vodka. The first drunk looks at his buddy and says \"I gotta go use the can.\" \\nSo, he wanders off to the toilet and... \\n \\nA horrible scream! Sounds of full auto fire! His friend grabs his \"kalashnikov\" and rushes to the bathroom, where he sees his fellow reloading his gun with trembling hands, his face pale with fear. \\n\"What the hell happened?\" \\nThe first drunk replies \"Man, I was taking a dump, but when I tried to flush, something reached up and grabbed my balls! Some mutant!!! So I jumped up and discharged the whole magazine at the toilet bowl!\" \\nThe second drunk looks at the scene and says \"Well, you dumb-ass, you were sitting on the mop bucket!\". \n        ",
+      "JA_current": "Two drunk stalkers are sitting at the bar, enjoying a bottle of vodka. The first drunk looks at his buddy and says \"I gotta go use the can.\" \\nSo, he wanders off to the toilet and... \\n \\nA horrible scream! Sounds of full auto fire! His friend grabs his \"kalashnikov\" and rushes to the bathroom, where he sees his fellow reloading his gun with trembling hands, his face pale with fear. \\n\"What the hell happened?\" \\nThe first drunk replies \"Man, I was taking a dump, but when I tried to flush, something reached up and grabbed my balls! Some mutant!!! So I jumped up and discharged the whole magazine at the toilet bowl!\" \\nThe second drunk looks at the scene and says \"Well, you dumb-ass, you were sitting on the mop bucket!\". \n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke3_stalker_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "joke3_stalker_2",
+      "next": [
+        "17"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc2"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Swamp Doctor got called to examine the Freedom commander Lukash. After the examination the doctor said: \"I can't find a cause for your illness. Frankly, I think it's due to drinking.\"\n\\n\"In that case,\" replied his high ranking patient, \"I'll come back when you are sober.\"\n        ",
+      "JA_current": "Swamp Doctor got called to examine the Freedom commander Lukash. After the examination the doctor said: \"I can't find a cause for your illness. Frankly, I think it's due to drinking.\"\n\\n\"In that case,\" replied his high ranking patient, \"I'll come back when you are sober.\"\n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke3_stalker_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "joke3_stalker_3",
+      "next": [
+        "18"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc3"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A zombie falls down on a pile of construction rubble and gets its head torn off. The head rolls aside, sees the body roaming around to search for it and starts shouting:\n\\n\"I'm here! This way!\"\n        \\nThen it stops screaming and murmurs sadly:\n\\n\"Why the hell am I shouting? The ears are on ME, actually...\"\n        ",
+      "JA_current": "A zombie falls down on a pile of construction rubble and gets its head torn off. The head rolls aside, sees the body roaming around to search for it and starts shouting:\n\\n\"I'm here! This way!\"\n        \\nThen it stops screaming and murmurs sadly:\n\\n\"Why the hell am I shouting? The ears are on ME, actually...\"\n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke3_stalker_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "joke3_stalker_4",
+      "next": [
+        "19"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc4"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A veteran stalker got tired of roaming all over the Zone. So, he decided to settle down in some abandoned house and make his living by farming. Once a rookie stalker comes to visit him and asks:\n\\n\"Haven't seen you around for a long time. Where have you been?\"\n\\n\"I'm not going to explore the Zone anymore, I got sick and tired of it. I'm satisfied with living here, farming and all that... Come, take a look at my garden.\"\n\\nThe rookie takes a walk about the garden and gets excited!\n\\n\"Such big watermelons! Never saw anything like that! And the vegetable marrows are just wonderful! So nice here! And the nightingale sings so nicely! You've got an excellent garden!\"\n\\nThe veteran sighs and says:\n\\n\"Just a garden, nothing special: those are not watermelons but gooseberries, not marrows but pea pods... And it's not a nightingale but a Geiger counter...\" \n        ",
+      "JA_current": "A veteran stalker got tired of roaming all over the Zone. So, he decided to settle down in some abandoned house and make his living by farming. Once a rookie stalker comes to visit him and asks:\n\\n\"Haven't seen you around for a long time. Where have you been?\"\n\\n\"I'm not going to explore the Zone anymore, I got sick and tired of it. I'm satisfied with living here, farming and all that... Come, take a look at my garden.\"\n\\nThe rookie takes a walk about the garden and gets excited!\n\\n\"Such big watermelons! Never saw anything like that! And the vegetable marrows are just wonderful! So nice here! And the nightingale sings so nicely! You've got an excellent garden!\"\n\\nThe veteran sighs and says:\n\\n\"Just a garden, nothing special: those are not watermelons but gooseberries, not marrows but pea pods... And it's not a nightingale but a Geiger counter...\" \n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke3_stalker_4#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "joke3_stalker_5",
+      "next": [
+        "20"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc5"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A stalker returns to consciousness on a surgical table, sees a doctor and asks him:\n\\n\"Doctor! What's happened to me? I don't remember anything! Did I get into an anomaly?!\"\n\\n\"That's right, you walked into a 'Whirligig' when approaching Yantar. We have found you and had to perform an urgent surgery...\"\n\\n\"So, I am currently in Sakharov's bunker?\"\n\\n\"Well... Mostly, my friend, MOSTLY...\"\n        ",
+      "JA_current": "A stalker returns to consciousness on a surgical table, sees a doctor and asks him:\n\\n\"Doctor! What's happened to me? I don't remember anything! Did I get into an anomaly?!\"\n\\n\"That's right, you walked into a 'Whirligig' when approaching Yantar. We have found you and had to perform an urgent surgery...\"\n\\n\"So, I am currently in Sakharov's bunker?\"\n\\n\"Well... Mostly, my friend, MOSTLY...\"\n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke3_stalker_5#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "joke3_stalker_6",
+      "next": [
+        "21"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc6"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Monolith fanatics approach the Barrier. Freedom fighters are getting prepared for a fight, when a voice comes on the radio: \n\\n\"Forsake the Barrier, infidels, and we will let you leave in peace!\" \n\\n\"In peace, you say?.. Hm... Do you need a drum, by the way?\" \n\\n\"A drum?! To glorify the mighty Monolith?\" \n\\n\"No. To take the lead of all those going to fuck themselves!\" \n        ",
+      "JA_current": "Monolith fanatics approach the Barrier. Freedom fighters are getting prepared for a fight, when a voice comes on the radio: \n\\n\"Forsake the Barrier, infidels, and we will let you leave in peace!\" \n\\n\"In peace, you say?.. Hm... Do you need a drum, by the way?\" \n\\n\"A drum?! To glorify the mighty Monolith?\" \n\\n\"No. To take the lead of all those going to fuck themselves!\" \n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke3_stalker_6#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "joke3_stalker_7",
+      "next": [
+        "22"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc7"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Question. What's red, angry, armed to the teeth and has a combined IQ of a 100? \\nAnswer: A duty squad.\n        ",
+      "JA_current": "Question. What's red, angry, armed to the teeth and has a combined IQ of a 100? \\nAnswer: A duty squad.\n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke3_stalker_7#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "joke3_stalker_8",
+      "next": [
+        "23"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc8"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "One bandit says to his fellow: \"Now, a good friend of mine, he knew the exact day of the year that he was going to die. It was the right year too. Not only that, but he knew what time he would die that day, and he was right about that too.\"\\n\nFellow: \"Wow, that's Incredible. How did he know all of that?\"\\n\nBandit: \"The Duty commander, General Voronin, told him at court martial.\"\n        ",
+      "JA_current": "One bandit says to his fellow: \"Now, a good friend of mine, he knew the exact day of the year that he was going to die. It was the right year too. Not only that, but he knew what time he would die that day, and he was right about that too.\"\\n\nFellow: \"Wow, that's Incredible. How did he know all of that?\"\\n\nBandit: \"The Duty commander, General Voronin, told him at court martial.\"\n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke3_stalker_8#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "joke3_stalker_9",
+      "next": [
+        "24"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc9"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A Duty squad enters the bar. The guys have just come back from a deep raid against mutants, they are exhausted and hungry. So, they order some chow and beer. While waiting for their order, they keep talking about how they wasted a controller, fought against hordes of zombies and bloodsuckers, etc. At that moment a mosquito flies into the room. All the Dutyers grab their weapons and open fire! Other visitors drop down to the floor in panic, the room fills up with smoke... \\n \\nAfter some time the Barkeep pokes his head from under the table: \"Hey, HEY!!! What the fuck?!?! WHAT are you doing?!\"\\nThe squad leader: \"These bastards must be exterminated BEFORE they become mature bloodsuckers!\"\n        ",
+      "JA_current": "A Duty squad enters the bar. The guys have just come back from a deep raid against mutants, they are exhausted and hungry. So, they order some chow and beer. While waiting for their order, they keep talking about how they wasted a controller, fought against hordes of zombies and bloodsuckers, etc. At that moment a mosquito flies into the room. All the Dutyers grab their weapons and open fire! Other visitors drop down to the floor in panic, the room fills up with smoke... \\n \\nAfter some time the Barkeep pokes his head from under the table: \"Hey, HEY!!! What the fuck?!?! WHAT are you doing?!\"\\nThe squad leader: \"These bastards must be exterminated BEFORE they become mature bloodsuckers!\"\n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke3_stalker_9#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "joke3_stalker_10",
+      "next": [
+        "25"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc10"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Did you know pseudogiants have their sex organs on their feet? They step on you and you're fucked!\n        ",
+      "JA_current": "Did you know pseudogiants have their sex organs on their feet? They step on you and you're fucked!\n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke3_stalker_10#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "joke3_stalker_11",
+      "next": [
+        "26"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc11"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A rookie stalker goes through the Zone and gets to a crossroad with a huge stone and a note on it: \"Go left - get screwed, go right - get screwed, go forward - surely you'll get screwed!\"\n        So the rookie stops and starts thinking... After a couple of minutes a master stalker with a minigun comes out from behind the stone:\n\"Hey, you! Choose quickly, or you get screwed right here!!!\"\n        ",
+      "JA_current": "A rookie stalker goes through the Zone and gets to a crossroad with a huge stone and a note on it: \"Go left - get screwed, go right - get screwed, go forward - surely you'll get screwed!\"\n        So the rookie stops and starts thinking... After a couple of minutes a master stalker with a minigun comes out from behind the stone:\n\"Hey, you! Choose quickly, or you get screwed right here!!!\"\n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke3_stalker_11#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "joke3_stalker_12",
+      "next": [
+        "27"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc12"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Once an old lone stalker came to the scientists' camp at Yantar. \"I'm too old to hunt for swag, but I cannot leave the Zone - I've been here for so long that I've become a part of Her\". The eggheads gladly accepted the lad, as they had a need for experienced stalkers, and he became a good adviser for them. One evening all the lab staff gathered at a get-together - chit-chat, food and drinks. And that stalker was there, too. \\n \\nThe conversation finally got to an end (they started from the question of why there were no women in the Zone and ended up on the inability to distinguish a bloodsuckers' sex). They almost decided to wrap things up, when one of the young assistants addressed a question to the old stalker: \"You've got experience, been through the whole Zone... Maybe you even saw the Monolith?\" The old man hummed and hawed and finally said: \"Well, I saw it.\" \"What wish did you ask it to fulfill?\" \"Happiness\", the old man said, \"for all in general and for everybody in person.\" \\n \\nThe scientists were listening attentively and questioning themselves: \"How is it possible? The guy got granted a wish?! Is he joking?\" The assistant let slip: \"I wish we could see the Monolith, too...\" \"Why not? That's quite possible\", the stalker hummed. He reached for his backpack and took out a handful of stones. The stones were obviously not ordinary, nothing anybody of those present had ever seen before. The scientists grasped the stones - curiosity was overwhelming them. \\n \\nAnd the stalker was watching them, saw their eyes glittering with delight and happiness... \"Take them, have them, as many as you like... I've got plenty of this \"happiness\" in my backpack, for all in general and for everybody in person...\", he kept muttering.",
+      "JA_current": "Once an old lone stalker came to the scientists' camp at Yantar. \"I'm too old to hunt for swag, but I cannot leave the Zone - I've been here for so long that I've become a part of Her\". The eggheads gladly accepted the lad, as they had a need for experienced stalkers, and he became a good adviser for them. One evening all the lab staff gathered at a get-together - chit-chat, food and drinks. And that stalker was there, too. \\n \\nThe conversation finally got to an end (they started from the question of why there were no women in the Zone and ended up on the inability to distinguish a bloodsuckers' sex). They almost decided to wrap things up, when one of the young assistants addressed a question to the old stalker: \"You've got experience, been through the whole Zone... Maybe you even saw the Monolith?\" The old man hummed and hawed and finally said: \"Well, I saw it.\" \"What wish did you ask it to fulfill?\" \"Happiness\", the old man said, \"for all in general and for everybody in person.\" \\n \\nThe scientists were listening attentively and questioning themselves: \"How is it possible? The guy got granted a wish?! Is he joking?\" The assistant let slip: \"I wish we could see the Monolith, too...\" \"Why not? That's quite possible\", the stalker hummed. He reached for his backpack and took out a handful of stones. The stones were obviously not ordinary, nothing anybody of those present had ever seen before. The scientists grasped the stones - curiosity was overwhelming them. \\n \\nAnd the stalker was watching them, saw their eyes glittering with delight and happiness... \"Take them, have them, as many as you like... I've got plenty of this \"happiness\" in my backpack, for all in general and for everybody in person...\", he kept muttering.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke3_stalker_12#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "joke3_stalker_13",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc13"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A stalker was passing through some swamp and saw an ordinary frog. \n\t\tHe was taken aback at first, then he started looking for signs of mutation - a fifth extremity or an eye in the ass, whatever. But everything seemed to be normal. \\n \\nThe stalker scratched his head and almost decided to leave, when the frog started speaking to him in human language: \"Kiss me, my Prince, and I will become your Princess!\" \\n \\nThe guy barely managed to stop himself from falling into the swamp! He collected his thoughts and started slowly backing away from the frog. And the latter spoke again:\n\t\t\"Come on, kiss me! I'll turn into a beautiful princess and we'll live happily together ever after!\" \\n \\nThe stalker finally thought: \"Who knows what kind of miracles may happen in the Zone? May it be true? Why not, maybe it really turns into a beauty?!\"\n\t\tSo he finally kissed the frog. \\n \\nImmediately after the kiss, the frog became covered in thick smoke, and when the smoke vanished... There was a bloodsucker! \"Thank you, my Prince! A deal is a deal, and from now on I will be your Princess! And don't you ever dare say I'm not a beauty!!!\"\n        ",
+      "JA_current": "A stalker was passing through some swamp and saw an ordinary frog. \n\t\tHe was taken aback at first, then he started looking for signs of mutation - a fifth extremity or an eye in the ass, whatever. But everything seemed to be normal. \\n \\nThe stalker scratched his head and almost decided to leave, when the frog started speaking to him in human language: \"Kiss me, my Prince, and I will become your Princess!\" \\n \\nThe guy barely managed to stop himself from falling into the swamp! He collected his thoughts and started slowly backing away from the frog. And the latter spoke again:\n\t\t\"Come on, kiss me! I'll turn into a beautiful princess and we'll live happily together ever after!\" \\n \\nThe stalker finally thought: \"Who knows what kind of miracles may happen in the Zone? May it be true? Why not, maybe it really turns into a beauty?!\"\n\t\tSo he finally kissed the frog. \\n \\nImmediately after the kiss, the frog became covered in thick smoke, and when the smoke vanished... There was a bloodsucker! \"Thank you, my Prince! A deal is a deal, and from now on I will be your Princess! And don't you ever dare say I'm not a beauty!!!\"\n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke3_stalker_13#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "dialogs_escape_76",
+      "next": [
+        "15"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc14"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Some other time, maybe. I want to take some rest now.",
+      "JA_current": "Some other time, maybe. I want to take some rest now.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_76#1"
+      ]
+    },
+    {
+      "phrase_id": "16",
+      "text_id": "joke3_stalker_1_reply",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I would be terrified myself, if I were in his shoes! Ha-ha!\n\t",
+      "JA_current": "I would be terrified myself, if I were in his shoes! Ha-ha!\n\t",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke3_stalker_1_reply#1"
+      ]
+    },
+    {
+      "phrase_id": "17",
+      "text_id": "dialogs_escape_78",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Funny.",
+      "JA_current": "Funny.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_78#1"
+      ]
+    },
+    {
+      "phrase_id": "18",
+      "text_id": "dialogs_escape_79",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You've made me laugh.",
+      "JA_current": "You've made me laugh.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_79#1"
+      ]
+    },
+    {
+      "phrase_id": "19",
+      "text_id": "dialogs_escape_80",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, that was a very funny joke.",
+      "JA_current": "Yeah, that was a very funny joke.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_80#1"
+      ]
+    },
+    {
+      "phrase_id": "20",
+      "text_id": "dialogs_escape_81",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Good joke, man.",
+      "JA_current": "Good joke, man.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_81#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "dialogs_escape_82",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You are a good comedian.",
+      "JA_current": "You are a good comedian.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_82#1"
+      ]
+    },
+    {
+      "phrase_id": "22",
+      "text_id": "dialogs_escape_83",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Gave me a chuckle!",
+      "JA_current": "Gave me a chuckle!",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_83#1"
+      ]
+    },
+    {
+      "phrase_id": "23",
+      "text_id": "joke3_stalker_8_reply",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, amazing foresight, ha-ha!",
+      "JA_current": "Yeah, amazing foresight, ha-ha!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke3_stalker_8_reply#1"
+      ]
+    },
+    {
+      "phrase_id": "24",
+      "text_id": "joke3_stalker_9_reply",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Now I know where the bloodsuckers come from, ha-ha!",
+      "JA_current": "Now I know where the bloodsuckers come from, ha-ha!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke3_stalker_9_reply#1"
+      ]
+    },
+    {
+      "phrase_id": "25",
+      "text_id": "dialogs_escape_84",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, that's quite lifelike in a way.",
+      "JA_current": "Well, that's quite lifelike in a way.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_84#1"
+      ]
+    },
+    {
+      "phrase_id": "26",
+      "text_id": "dialogs_escape_85",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "That's funny!",
+      "JA_current": "That's funny!",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_85#1"
+      ]
+    },
+    {
+      "phrase_id": "27",
+      "text_id": "dialogs_escape_86",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "That's zany.",
+      "JA_current": "That's zany.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_86#1"
+      ]
+    },
+    {
+      "phrase_id": "28",
+      "text_id": "dialogs_escape_87",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Man, you are quite the narrator.",
+      "JA_current": "Man, you are quite the narrator.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_87#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "dialogs_escape_77",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Heh. Thanks for the laugh.",
+      "JA_current": "Heh. Thanks for the laugh.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_77#1"
+      ]
+    }
+  ]
+}

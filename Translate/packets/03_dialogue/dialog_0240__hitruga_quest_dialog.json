@@ -1,0 +1,446 @@
+{
+  "packet_id": "dialog_0240__hitruga_quest_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "hitruga_quest_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml",
+  "graph_sha256": "af90465ec3a6b7a324a6c5d72d8c5ed214013f3f66f7c85ea935c11f680b26c1",
+  "character_bindings": [
+    {
+      "profile_id": "hitruga",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "hitruga_quest_start"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 10,
+  "entries": [
+    {
+      "key": "stable_dialogs_darkvalley:hitruga_quest_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 442,
+      "string_id": "hitruga_quest_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Hey, who are you? What do you want from me?",
+      "JA_current": "Hey, who are you? What do you want from me?",
+      "JA_new": "おい、誰だ？　俺に何の用だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hitruga_quest_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:hitruga_quest_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 444,
+      "string_id": "hitruga_quest_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Calm down, man, I'm not a thug, so don't make any noise. I've got something to talk to you about.",
+      "JA_current": "Calm down, man, I'm not a thug, so don't make any noise. I've got something to talk to you about.",
+      "JA_new": "落ち着けよ。チンピラじゃない、騒ぐな。話があって来たんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hitruga_quest_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:hitruga_quest_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 446,
+      "string_id": "hitruga_quest_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Oh yeah? What's that?",
+      "JA_current": "Oh yeah? What's that?",
+      "JA_new": "へえ、どんな話だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hitruga_quest_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:hitruga_quest_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 448,
+      "string_id": "hitruga_quest_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "I'm Sneaky, a mercenary. I was sent here on assignment but I encountered a complication. Supposed to be a simple contract hit, just to ice some mark, but the guy got smart when he realized he was targeted and went to cry to Duty. Now he's under their protection, and my boss is due a status report. If my command finds out I haven't done the job, they'll cut me loose, they don't tolerate failure. Give me a hand, try to kill the bastard! You do this for me, I'll hand over some pretty rare artifacts! What do you think?",
+      "JA_current": "I'm Sneaky, a mercenary. I was sent here on assignment but I encountered a complication. Supposed to be a simple contract hit, just to ice some mark, but the guy got smart when he realized he was targeted and went to cry to Duty. Now he's under their protection, and my boss is due a status report. If my command finds out I haven't done the job, they'll cut me loose, they don't tolerate failure. Give me a hand, try to kill the bastard! You do this for me, I'll hand over some pretty rare artifacts! What do you think?",
+      "JA_new": "俺はスニーキー、マーセナリーズの傭兵だ。任務でここに来たが、厄介なことになってな。簡単な暗殺依頼のはずだった。標的を始末するだけだ。だが狙われてると気づいた奴がデューティーに泣きついて、今じゃ連中に守られてる。雇い主には状況を報告しなきゃならない。任務を果たせてないと知られたら、俺はクビだ。失敗は許されない。手を貸してくれ、あの野郎を殺してくれ。引き受けてくれたら、珍しいアーティファクトをいくつか渡す。どうだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hitruga_quest_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:hitruga_quest_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 450,
+      "string_id": "hitruga_quest_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "I don't want to kill a man for profit.",
+      "JA_current": "I don't want to kill a man for profit.",
+      "JA_new": "金のために人を殺す気はない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hitruga_quest_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:hitruga_quest_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 452,
+      "string_id": "hitruga_quest_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Why not.",
+      "JA_current": "Why not.",
+      "JA_new": "いいだろう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hitruga_quest_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:hitruga_quest_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 454,
+      "string_id": "hitruga_quest_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "All right! Let me give you some intel on the mark: this dude is a digger nicknamed \"the Dark Archaeologist\". They call him that because he makes a living excavating antique World War II weapons. Rumor has it that he got a hold of a wartime Nazi map which contains locations of hidden stockpiles of supplies. Well, as it happens, this archaeologist then made an agreement with Duty to hand over these locations for payment. Unlike him, they have the logistical ability to smuggle that stuff out of the Zone, so they agreed to deal with him as they stand to make a fat profit. Think about it: there's a lot of collectors out there who'd give their left nut for some genuine historical pieces, and apparently there's supposed to be a lot of guns in those stockpiles. There's a large group that doesn't want to see Duty get rich, so they paid to silence this \"Dark Archaeologist\" before he finalizes his deal. Here's the good thing, he definitely hasn't told them yet, he's using that info like a bargaining chip in the hope that Duty keeps sheltering him. He knows that as soon as he hands over the map, his value decreases dramatically. All you need to do is infiltrate the AO and terminate the target, simple enough? ",
+      "JA_current": "All right! Let me give you some intel on the mark: this dude is a digger nicknamed \"the Dark Archaeologist\". They call him that because he makes a living excavating antique World War II weapons. Rumor has it that he got a hold of a wartime Nazi map which contains locations of hidden stockpiles of supplies. Well, as it happens, this archaeologist then made an agreement with Duty to hand over these locations for payment. Unlike him, they have the logistical ability to smuggle that stuff out of the Zone, so they agreed to deal with him as they stand to make a fat profit. Think about it: there's a lot of collectors out there who'd give their left nut for some genuine historical pieces, and apparently there's supposed to be a lot of guns in those stockpiles. There's a large group that doesn't want to see Duty get rich, so they paid to silence this \"Dark Archaeologist\" before he finalizes his deal. Here's the good thing, he definitely hasn't told them yet, he's using that info like a bargaining chip in the hope that Duty keeps sheltering him. He knows that as soon as he hands over the map, his value decreases dramatically. All you need to do is infiltrate the AO and terminate the target, simple enough? ",
+      "JA_new": "よし！　標的の情報を教える。そいつはディガーで、「闇の考古学者」と呼ばれてる。第二次大戦時の骨董品の武器を掘り出して生計を立ててるからな。戦時中のナチスの地図を手に入れたって噂もある。隠された物資集積所の場所が記されてるらしい。で、その考古学者は場所を教える代わりに金をもらう約束をデューティーとした。連中にはゾーンから物資を運び出す手段があるからな。大もうけできると踏んで取引に応じたわけだ。歴史的な本物の品なら、左のタマを差し出してでも欲しがるコレクターは山ほどいる。集積所には銃もかなりあるらしい。デューティーが大金を手にするのを快く思わない連中が、この「闇の考古学者」を始末しろと金を払ってきた。幸い、あいつはまだ場所を教えてない。デューティーが守ってくれるよう、情報を切り札にしてるんだ。地図を渡せば、自分の価値が一気に下がると分かってる。やることは簡単だ。作戦区域に潜り込んで標的を始末する。それだけだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hitruga_quest_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:hitruga_quest_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 456,
+      "string_id": "hitruga_quest_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "You got info on his current location?",
+      "JA_current": "You got info on his current location?",
+      "JA_new": "今、どこにいるか分かるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hitruga_quest_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:hitruga_quest_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 458,
+      "string_id": "hitruga_quest_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "Yes, last known whereabouts place him at the Garbage, near the Duty roadblock on the road to the Bar. The Duty stiffs are keeping an eye on him, they've been warned that he has a price on his head and that mercs are coming to collect, so they won't let any of our people go near there. You're an independent, though, nothing's gonna stop you from getting in.",
+      "JA_current": "Yes, last known whereabouts place him at the Garbage, near the Duty roadblock on the road to the Bar. The Duty stiffs are keeping an eye on him, they've been warned that he has a price on his head and that mercs are coming to collect, so they won't let any of our people go near there. You're an independent, though, nothing's gonna stop you from getting in.",
+      "JA_new": "ああ。最後に確認されたのはガーベジだ。ロストクへ向かう道沿いにあるデューティーの検問所の近くだ。連中も標的に賞金がかかってることや、マーセナリーズが狙ってることを知ってる。だから仲間を近づけさせない。だがあんたは独立したストーカーだ。潜り込むのを止める奴はいない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hitruga_quest_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:hitruga_quest_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 460,
+      "string_id": "hitruga_quest_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "All right, I'll be there soon. Get your reward ready.",
+      "JA_current": "All right, I'll be there soon. Get your reward ready.",
+      "JA_new": "分かった。すぐ向かう。報酬を用意しておけ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hitruga_quest_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "hitruga_quest_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, who are you? What do you want from me?",
+      "JA_current": "Hey, who are you? What do you want from me?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:hitruga_quest_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "hitruga_quest_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Calm down, man, I'm not a thug, so don't make any noise. I've got something to talk to you about.",
+      "JA_current": "Calm down, man, I'm not a thug, so don't make any noise. I've got something to talk to you about.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:hitruga_quest_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "hitruga_quest_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh yeah? What's that?",
+      "JA_current": "Oh yeah? What's that?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:hitruga_quest_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "hitruga_quest_dialog_phrase_4",
+      "next": [
+        "4",
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm Sneaky, a mercenary. I was sent here on assignment but I encountered a complication. Supposed to be a simple contract hit, just to ice some mark, but the guy got smart when he realized he was targeted and went to cry to Duty. Now he's under their protection, and my boss is due a status report. If my command finds out I haven't done the job, they'll cut me loose, they don't tolerate failure. Give me a hand, try to kill the bastard! You do this for me, I'll hand over some pretty rare artifacts! What do you think?",
+      "JA_current": "I'm Sneaky, a mercenary. I was sent here on assignment but I encountered a complication. Supposed to be a simple contract hit, just to ice some mark, but the guy got smart when he realized he was targeted and went to cry to Duty. Now he's under their protection, and my boss is due a status report. If my command finds out I haven't done the job, they'll cut me loose, they don't tolerate failure. Give me a hand, try to kill the bastard! You do this for me, I'll hand over some pretty rare artifacts! What do you think?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:hitruga_quest_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "hitruga_quest_dialog_phrase_5",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I don't want to kill a man for profit.",
+      "JA_current": "I don't want to kill a man for profit.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:hitruga_quest_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "hitruga_quest_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "hitruga_quest_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Why not.",
+      "JA_current": "Why not.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:hitruga_quest_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "hitruga_quest_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All right! Let me give you some intel on the mark: this dude is a digger nicknamed \"the Dark Archaeologist\". They call him that because he makes a living excavating antique World War II weapons. Rumor has it that he got a hold of a wartime Nazi map which contains locations of hidden stockpiles of supplies. Well, as it happens, this archaeologist then made an agreement with Duty to hand over these locations for payment. Unlike him, they have the logistical ability to smuggle that stuff out of the Zone, so they agreed to deal with him as they stand to make a fat profit. Think about it: there's a lot of collectors out there who'd give their left nut for some genuine historical pieces, and apparently there's supposed to be a lot of guns in those stockpiles. There's a large group that doesn't want to see Duty get rich, so they paid to silence this \"Dark Archaeologist\" before he finalizes his deal. Here's the good thing, he definitely hasn't told them yet, he's using that info like a bargaining chip in the hope that Duty keeps sheltering him. He knows that as soon as he hands over the map, his value decreases dramatically. All you need to do is infiltrate the AO and terminate the target, simple enough? ",
+      "JA_current": "All right! Let me give you some intel on the mark: this dude is a digger nicknamed \"the Dark Archaeologist\". They call him that because he makes a living excavating antique World War II weapons. Rumor has it that he got a hold of a wartime Nazi map which contains locations of hidden stockpiles of supplies. Well, as it happens, this archaeologist then made an agreement with Duty to hand over these locations for payment. Unlike him, they have the logistical ability to smuggle that stuff out of the Zone, so they agreed to deal with him as they stand to make a fat profit. Think about it: there's a lot of collectors out there who'd give their left nut for some genuine historical pieces, and apparently there's supposed to be a lot of guns in those stockpiles. There's a large group that doesn't want to see Duty get rich, so they paid to silence this \"Dark Archaeologist\" before he finalizes his deal. Here's the good thing, he definitely hasn't told them yet, he's using that info like a bargaining chip in the hope that Duty keeps sheltering him. He knows that as soon as he hands over the map, his value decreases dramatically. All you need to do is infiltrate the AO and terminate the target, simple enough? ",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:hitruga_quest_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "hitruga_quest_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You got info on his current location?",
+      "JA_current": "You got info on his current location?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:hitruga_quest_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "hitruga_quest_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, last known whereabouts place him at the Garbage, near the Duty roadblock on the road to the Bar. The Duty stiffs are keeping an eye on him, they've been warned that he has a price on his head and that mercs are coming to collect, so they won't let any of our people go near there. You're an independent, though, nothing's gonna stop you from getting in.",
+      "JA_current": "Yes, last known whereabouts place him at the Garbage, near the Duty roadblock on the road to the Bar. The Duty stiffs are keeping an eye on him, they've been warned that he has a price on his head and that mercs are coming to collect, so they won't let any of our people go near there. You're an independent, though, nothing's gonna stop you from getting in.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:hitruga_quest_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "hitruga_quest_dialog_phrase_10",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All right, I'll be there soon. Get your reward ready.",
+      "JA_current": "All right, I'll be there soon. Get your reward ready.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:hitruga_quest_dialog_phrase_10#1"
+      ]
+    }
+  ]
+}

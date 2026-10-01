@@ -1,0 +1,333 @@
+{
+  "packet_id": "dialog_0333__napad",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "napad",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape_1.xml",
+  "graph_sha256": "642b4ff737fb16bff4c919ca20c2a487fbc53718450c22862eb22b60792d1a6c",
+  "character_bindings": [],
+  "dialog_conditions": [],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 0,
+  "entries": [],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": null,
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1",
+      "text_id": null,
+      "next": [
+        "11",
+        "12"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "napad_11",
+      "next": [
+        "111",
+        "112",
+        "113"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "go_to_vodka"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "napad_12",
+      "next": [
+        "111",
+        "112",
+        "113"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "go_to_vodka"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "111",
+      "text_id": "napad_111",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "11",
+        "12"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "112",
+      "text_id": "napad_112",
+      "next": [
+        "1121"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11",
+        "12"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "113",
+      "text_id": "napad_113",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "give_info",
+          "value": "go_to_vodka"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "11",
+        "12"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1121",
+      "text_id": "napad_1121",
+      "next": [
+        "11211",
+        "11212"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "112"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "11211",
+      "text_id": "napad_11211",
+      "next": [
+        "112111"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.dont_have_a_vodka"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1121"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "11212",
+      "text_id": "napad_11212",
+      "next": [
+        "112121"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.have_a_vodka"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1121"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "112111",
+      "text_id": "napad_112111",
+      "next": [
+        "1121111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "go_to_vodka"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "11211"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "112121",
+      "text_id": "napad_112121",
+      "next": [
+        "1121211"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.transfer_vodka"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "11212"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1121111",
+      "text_id": "napad_1121111",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "give_info",
+          "value": "go_to_vodka"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "112111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1121211",
+      "text_id": "napad_1121211",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "sniper_dead"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "112121"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    }
+  ]
+}

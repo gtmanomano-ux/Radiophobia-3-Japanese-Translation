@@ -1,0 +1,854 @@
+{
+  "packet_id": "dialog_0282__escape_trader_jobs",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "escape_trader_jobs",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "escape_trader",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "esc_serious_talk"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 19,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_0#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1177,
+      "string_id": "escape_trader_jobs_0",
+      "occurrence": 1,
+      "EN": "Got any special missions for me?",
+      "JA_current": "何か特別な任務はないか？",
+      "JA_new": "何か特別な依頼はあるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_12#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1183,
+      "string_id": "escape_trader_jobs_12",
+      "occurrence": 1,
+      "EN": "What special missions? You haven't even finished the last one!",
+      "JA_current": "特別任務だと？ お前は今の任務すら満足にできねぇのか！",
+      "JA_new": "特別な依頼だと？ 前の仕事もまだ終わってないだろ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_6#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1207,
+      "string_id": "escape_trader_jobs_6",
+      "occurrence": 1,
+      "EN": "Listen, Marked One... I've done some thinking, and here's what I'd like to offer... Generally speaking, what you really need is to find Strelok. Right?",
+      "JA_current": "よく聞きな… 俺は色々考えてみたのさ。で、お前さんに「頼み事」ができた。今まで話した限りだと、お前さんは Strelok を見つけたい、そうだろう？",
+      "JA_new": "なあ、印付き……少し考えてみたんだが、こういう話はどうだ……お前が本当にやるべきことは、ストレロクを見つけることだろ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1186,
+      "string_id": "escape_trader_jobs_5",
+      "occurrence": 1,
+      "EN": "Well, here's the deal... A box containing the reports made by an expedition that went deep North into the Zone has been taken to the army outpost. By day, it's guarded as if it was filled with pure plutonium, but for some reason at night they only leave two guards.",
+      "JA_current": "さて、ひとつ取引がある… 北方深くゾーンの中まで踏み込んだ遠征隊が作成した報告書、そいつの入った箱を軍の前哨へ持ってかれちまった。日中は、純粋なプルトニウムで満たされるかのように用心深いのだが、ある理由で夜は、2人の見張りしか出てこない。",
+      "JA_new": "話はこうだ……ゾーン北部の奥まで進んだ遠征隊の報告書が入った箱が、軍の前哨基地に運び込まれた。昼間は純プルトニウムでも詰まってるかのように厳重に守られてる。だが、なぜか夜は警備が二人だけになる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1180,
+      "string_id": "escape_trader_jobs_1",
+      "occurrence": 1,
+      "EN": "Nope, not a thing.",
+      "JA_current": "いや、何もないな。",
+      "JA_new": "いや、今は何もない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_61#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1210,
+      "string_id": "escape_trader_jobs_61",
+      "occurrence": 1,
+      "EN": "Let's assume I do.",
+      "JA_current": "そういうことになるな。",
+      "JA_new": "分かった、引き受けるとしよう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs",
+          "phrase_id": "61",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_51#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1189,
+      "string_id": "escape_trader_jobs_51",
+      "occurrence": 1,
+      "EN": "Go on.",
+      "JA_current": "続けてくれ。",
+      "JA_new": "続けてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs",
+          "phrase_id": "51",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_611#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1213,
+      "string_id": "escape_trader_jobs_611",
+      "occurrence": 1,
+      "EN": "Anyway, here's the thing about Strelok. There's a stalker that goes by this name. They say he's found a path to the northern reaches of the Zone. And that is a virgin area, a real goldmine for artifacts... Yeah... Anyway, I can help you find him... However... As you can imagine, it won't be a free ride. You'll have to work it off... But in the long run we will both benefit: You're going to waste that Strelok fella and find out what's happened to you... And I'll find... well, I mean... I'll get my share of our mutual profit, he-he... So what do you say? Deal?",
+      "JA_current": "じゃあ Strelok について、少し話してやろう。まずはそういう名前のストーカーがいるってことだ。噂じゃ、ヤッコさん、ゾーンの北に抜ける方法を見つけ出したらしい。で、そこはまだ未開拓の地域なのさ。例えるならばアーティファクトの鉱山。そういうことで、俺はお前さんが Strelokを 見つけるのを手伝ってやれる… が、予想はついてるだろうがタダで手伝ってやるわけじゃない。色々と働いてもらうことになる。だがな、最終的には俺達両方にとって得になるって訳だ。お前さんは Strelok のお仲間を突っついて、自分に何が起こったかを突き止める。で、俺の方はだな、まぁ要するに色々と得をするのさ。そういう訳だ。お前さんはどうする？ 乗り気かね？",
+      "JA_new": "ストレロクのことだ。そういう名のストーカーがいる。ゾーン北部へ抜ける道を見つけたらしい。そこはまだ手つかずの場所で、アーティファクトの宝庫だ……まあ、とにかく、俺なら奴を探す手助けができる……ただし……分かるだろ、タダじゃない。働いて返してもらう。だが、最後にはお互い得をする。お前はストレロクを始末して、自分に何が起きたかを突き止める。俺は……そうだな……その儲けを分けてもらう。へへ……どうだ？ 取引成立か？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs",
+          "phrase_id": "611",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_511#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1192,
+      "string_id": "escape_trader_jobs_511",
+      "occurrence": 1,
+      "EN": "Sneak into the outpost quietly and \"recover\" the box. Do that and I'll pay you anything...within reason. Will you do it?",
+      "JA_current": "前哨へ静かに忍び入って、箱を「回収」してくれ。そうすれば、何でもお礼をする… 当然のことだが。やってくれるか？",
+      "JA_new": "前哨基地に忍び込んで、箱を「回収」してこい。やってくれたら、分相応の額は払う。引き受けるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs",
+          "phrase_id": "511",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_6111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1216,
+      "string_id": "escape_trader_jobs_6111",
+      "occurrence": 1,
+      "EN": "Go on.",
+      "JA_current": "やってみよう。",
+      "JA_new": "続けてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs",
+          "phrase_id": "6111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_5111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1195,
+      "string_id": "escape_trader_jobs_5111",
+      "occurrence": 1,
+      "EN": "I'll try.",
+      "JA_current": "やってみよう。",
+      "JA_new": "やってみる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs",
+          "phrase_id": "5111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_52#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1201,
+      "string_id": "escape_trader_jobs_52",
+      "occurrence": 1,
+      "EN": "No, I can't take it on yet.",
+      "JA_current": "いや、まだそれを引き受けることはできない。",
+      "JA_new": "いや、まだ引き受けられない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs",
+          "phrase_id": "52",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_61111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1219,
+      "string_id": "escape_trader_jobs_61111",
+      "occurrence": 1,
+      "EN": "Alright, listen... You mean business, I can see that... And I... I mean, we need guys like you. We're doing sort of an investigation with some other traders. We want to open up the path to the North, to the center of the Zone. And near the center someone or something is trying to hamper our progress... How the heck this Strelok managed to sneak through, I don't know... You see, there's this one area where your brain starts boiling. An eerie place... Anyway, to cut a long story short - a couple of guys have been spying on them grunts for me, not far from here. Apparently, the ones at the Agroprom Research Institute, have dug up something. Something major. I'm positive it has something to do with the center of the Zone. Anyway, whatever they've dug up, it's secured somewhere on the third floor of the Institute. And we really need this stuff. You see what I mean?",
+      "JA_current": "よし、聞け… お前にとってはビジネスだ。それはわかるな。で、俺はだな… まあ、お前みたいな奴が必要なんだよ。俺たちは他の Trader とある種の調査をしてるところだ。俺たちは北への道を開きたい。ゾーンの中心部へな。だが中心近くの誰か、何かが邪魔しようとしてるんだ… 一体この Strelok がどうやって忍び込んだのか俺には解らん… 判るか？ ムカついて頭が熱くなってくるのはこの部分なんだ。不気味な場所だよ… とにかく、まとめるとだな、2～3人の奴らが俺の不満に関して調査中なんだ。ここから遠くない場所でな。どうやらそいつらの中の一人が、Agroprom 研究所で何かを掘り出したらしいんだ。何か重大な物をな。俺はそれがゾーンの中心部に関するものだと思ってる。とにかく、あいつらが何を掘り出したにせよ、それが研究所の3階のどこかに保管されてるんだ。で、俺たちはそれがどうしても必要なわけだ。わかるな？",
+      "JA_new": "よし、聞いてくれ……やる気があるのは分かった。俺たちにはお前みたいな奴が必要だ。ほかの商人たちと、ある調査を進めてる。ゾーン北部、中心へ通じる道を開きたいんだ。ところが中心部の近くで、何者かが……何かが、俺たちの邪魔をしてる。ストレロクがどうやってそこを抜けたのかは見当もつかん……脳が煮えるような場所があるんだ。不気味なところさ……簡単に言おう。少し離れたところで、兵隊どもを監視してくれてる奴が何人かいる。どうやらアフロプロム研究所の連中が、何かを掘り当てたらしい。かなり大物だ。ゾーンの中心と関係があるのは間違いない。手に入れたものは、研究所の三階のどこかに保管されてる。どうしてもそれが必要なんだ。言いたいことは分かるな？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs",
+          "phrase_id": "61111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_51111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1198,
+      "string_id": "escape_trader_jobs_51111",
+      "occurrence": 1,
+      "EN": "I'll get the cash ready - you haven't let me down once. Just one other thing... keep it low profile. If the military gets pissed off we're all in for a lot of trouble.",
+      "JA_current": "現金を用意しとく ― お前は、一度も俺を失望させていない。それにもう1つ… 目立たないようにしてくれ。軍を怒らせたら、俺たち全員がトラブルに直面する。",
+      "JA_new": "報酬を用意しておく。お前なら今まで一度も期待を裏切らなかったからな。あと一つ……目立たないようにやれ。軍を怒らせたら、俺たち全員が面倒なことになる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs",
+          "phrase_id": "51111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_521#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1204,
+      "string_id": "escape_trader_jobs_521",
+      "occurrence": 1,
+      "EN": "C'mon man, it's not as bad as it sounds. A bunch of drunk recruits green as grass with a single NCO...Well, OK, but I was really counting on you, Marked One...",
+      "JA_current": "おいおい頼むよ、それは聞くほど悪くないぞ。1人の下士官と草みたいに青っちょろい酔っ払いの新兵がひと束だぞ… まあいいだろう、本当にお前を当てにしてたのにな、Marked One…。",
+      "JA_new": "なあ、聞いたほど悪い仕事じゃない。酒に酔った新兵が大勢いるだけだ。どいつも青二才で、下士官は一人だけ……分かったよ。印付き、お前を頼りにしてたんだがな……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs",
+          "phrase_id": "521",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_611111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1222,
+      "string_id": "escape_trader_jobs_611111",
+      "occurrence": 1,
+      "EN": "I think so.",
+      "JA_current": "わかるとも。",
+      "JA_new": "そうだな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs",
+          "phrase_id": "611111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_6111111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1225,
+      "string_id": "escape_trader_jobs_6111111",
+      "occurrence": 1,
+      "EN": "Once you have the documents, don't bring them here. Take them straight to the Barman. He runs the stalker bar, the 100 Rads, I'll upload the coordinates and all the data you need to your PDA. Clear?",
+      "JA_current": "ブツを手に入れても、此処には持って来るなよ。直接バーテンダーの元に届けるんだ。奴は 100 Rads というストーカーバーを経営している。今から必要な情報をお前の PDA にアップロードする。いいな？",
+      "JA_new": "書類を手に入れても、ここには持ってくるな。バーテンダーに直接渡せ。ストーカーの酒場「100レントゲン」を仕切ってる男だ。座標と必要な情報は、PDAに送っておく。分かったな？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs",
+          "phrase_id": "6111111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_61111111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1228,
+      "string_id": "escape_trader_jobs_61111111",
+      "occurrence": 1,
+      "EN": "Gotcha.",
+      "JA_current": "ああ。",
+      "JA_new": "了解。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs",
+          "phrase_id": "61111111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_611111111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1231,
+      "string_id": "escape_trader_jobs_611111111",
+      "occurrence": 1,
+      "EN": "You'll have to go North through the Garbage, then turn West. You'll end up at the Agroprom Research Institute after a few kilometers. And be careful, the radiation level is way too high at the Garbage. So I suggest you cough up for some anti-rad or vodka. Well, good luck.",
+      "JA_current": "じゃあまずは北の Garbage を抜けて途中で西を目指すんだ。数キロ行けば Agroprom 研究所にぶち当たるだろう。それと気をつけろよ、Garbage は放射能で凄いことになってるんだ。薬かウォッカを持ってった方がいいだろうな。じゃあ、頑張ってくれ。",
+      "JA_new": "ガーベジを北へ進んでから、西へ曲がれ。数キロ行けばアフロプロム研究所に着く。ガーベジは放射線がかなり強いから気をつけろ。耐放射線薬かウォッカを用意しておけ。じゃあな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs",
+          "phrase_id": "611111111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "escape_trader_jobs_0",
+      "next": [
+        "12",
+        "6",
+        "5",
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Got any special missions for me?",
+      "JA_current": "何か特別な任務はないか？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_0#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "escape_trader_jobs_12",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "escape_dialog.trader_dont_has_job"
+        },
+        {
+          "type": "precondition",
+          "value": "escape_dialog.not_final_job"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What special missions? You haven't even finished the last one!",
+      "JA_current": "特別任務だと？ お前は今の任務すら満足にできねぇのか！",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_12#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "escape_trader_jobs_6",
+      "next": [
+        "61"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "escape_dialog.trader_need_military_case"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Listen, Marked One... I've done some thinking, and here's what I'd like to offer... Generally speaking, what you really need is to find Strelok. Right?",
+      "JA_current": "よく聞きな… 俺は色々考えてみたのさ。で、お前さんに「頼み事」ができた。今まで話した限りだと、お前さんは Strelok を見つけたい、そうだろう？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_6#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "escape_trader_jobs_5",
+      "next": [
+        "51"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "escape_dialog.trader_need_blockpost_box"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, here's the deal... A box containing the reports made by an expedition that went deep North into the Zone has been taken to the army outpost. By day, it's guarded as if it was filled with pure plutonium, but for some reason at night they only leave two guards.",
+      "JA_current": "さて、ひとつ取引がある… 北方深くゾーンの中まで踏み込んだ遠征隊が作成した報告書、そいつの入った箱を軍の前哨へ持ってかれちまった。日中は、純粋なプルトニウムで満たされるかのように用心深いのだが、ある理由で夜は、2人の見張りしか出てこない。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_5#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "escape_trader_jobs_1",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "escape_dialog.trader_dont_has_job"
+        },
+        {
+          "type": "has_info",
+          "value": "escape_blockpost_case_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Nope, not a thing.",
+      "JA_current": "いや、何もないな。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_1#1"
+      ]
+    },
+    {
+      "phrase_id": "61",
+      "text_id": "escape_trader_jobs_61",
+      "next": [
+        "611"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Let's assume I do.",
+      "JA_current": "そういうことになるな。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_61#1"
+      ]
+    },
+    {
+      "phrase_id": "51",
+      "text_id": "escape_trader_jobs_51",
+      "next": [
+        "511"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Go on.",
+      "JA_current": "続けてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_51#1"
+      ]
+    },
+    {
+      "phrase_id": "611",
+      "text_id": "escape_trader_jobs_611",
+      "next": [
+        "6111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "closecaption.giveinfo_trader_monolog2"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "61"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Anyway, here's the thing about Strelok. There's a stalker that goes by this name. They say he's found a path to the northern reaches of the Zone. And that is a virgin area, a real goldmine for artifacts... Yeah... Anyway, I can help you find him... However... As you can imagine, it won't be a free ride. You'll have to work it off... But in the long run we will both benefit: You're going to waste that Strelok fella and find out what's happened to you... And I'll find... well, I mean... I'll get my share of our mutual profit, he-he... So what do you say? Deal?",
+      "JA_current": "じゃあ Strelok について、少し話してやろう。まずはそういう名前のストーカーがいるってことだ。噂じゃ、ヤッコさん、ゾーンの北に抜ける方法を見つけ出したらしい。で、そこはまだ未開拓の地域なのさ。例えるならばアーティファクトの鉱山。そういうことで、俺はお前さんが Strelokを 見つけるのを手伝ってやれる… が、予想はついてるだろうがタダで手伝ってやるわけじゃない。色々と働いてもらうことになる。だがな、最終的には俺達両方にとって得になるって訳だ。お前さんは Strelok のお仲間を突っついて、自分に何が起こったかを突き止める。で、俺の方はだな、まぁ要するに色々と得をするのさ。そういう訳だ。お前さんはどうする？ 乗り気かね？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_611#1"
+      ]
+    },
+    {
+      "phrase_id": "511",
+      "text_id": "escape_trader_jobs_511",
+      "next": [
+        "5111",
+        "52"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "51"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sneak into the outpost quietly and \"recover\" the box. Do that and I'll pay you anything...within reason. Will you do it?",
+      "JA_current": "前哨へ静かに忍び入って、箱を「回収」してくれ。そうすれば、何でもお礼をする… 当然のことだが。やってくれるか？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_511#1"
+      ]
+    },
+    {
+      "phrase_id": "6111",
+      "text_id": "escape_trader_jobs_6111",
+      "next": [
+        "61111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "611"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Go on.",
+      "JA_current": "やってみよう。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_6111#1"
+      ]
+    },
+    {
+      "phrase_id": "5111",
+      "text_id": "escape_trader_jobs_5111",
+      "next": [
+        "51111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "escape_blockpost_case"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "511"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'll try.",
+      "JA_current": "やってみよう。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_5111#1"
+      ]
+    },
+    {
+      "phrase_id": "52",
+      "text_id": "escape_trader_jobs_52",
+      "next": [
+        "521"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "511"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, I can't take it on yet.",
+      "JA_current": "いや、まだそれを引き受けることはできない。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_52#1"
+      ]
+    },
+    {
+      "phrase_id": "61111",
+      "text_id": "escape_trader_jobs_61111",
+      "next": [
+        "611111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Alright, listen... You mean business, I can see that... And I... I mean, we need guys like you. We're doing sort of an investigation with some other traders. We want to open up the path to the North, to the center of the Zone. And near the center someone or something is trying to hamper our progress... How the heck this Strelok managed to sneak through, I don't know... You see, there's this one area where your brain starts boiling. An eerie place... Anyway, to cut a long story short - a couple of guys have been spying on them grunts for me, not far from here. Apparently, the ones at the Agroprom Research Institute, have dug up something. Something major. I'm positive it has something to do with the center of the Zone. Anyway, whatever they've dug up, it's secured somewhere on the third floor of the Institute. And we really need this stuff. You see what I mean?",
+      "JA_current": "よし、聞け… お前にとってはビジネスだ。それはわかるな。で、俺はだな… まあ、お前みたいな奴が必要なんだよ。俺たちは他の Trader とある種の調査をしてるところだ。俺たちは北への道を開きたい。ゾーンの中心部へな。だが中心近くの誰か、何かが邪魔しようとしてるんだ… 一体この Strelok がどうやって忍び込んだのか俺には解らん… 判るか？ ムカついて頭が熱くなってくるのはこの部分なんだ。不気味な場所だよ… とにかく、まとめるとだな、2～3人の奴らが俺の不満に関して調査中なんだ。ここから遠くない場所でな。どうやらそいつらの中の一人が、Agroprom 研究所で何かを掘り出したらしいんだ。何か重大な物をな。俺はそれがゾーンの中心部に関するものだと思ってる。とにかく、あいつらが何を掘り出したにせよ、それが研究所の3階のどこかに保管されてるんだ。で、俺たちはそれがどうしても必要なわけだ。わかるな？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_61111#1"
+      ]
+    },
+    {
+      "phrase_id": "51111",
+      "text_id": "escape_trader_jobs_51111",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'll get the cash ready - you haven't let me down once. Just one other thing... keep it low profile. If the military gets pissed off we're all in for a lot of trouble.",
+      "JA_current": "現金を用意しとく ― お前は、一度も俺を失望させていない。それにもう1つ… 目立たないようにしてくれ。軍を怒らせたら、俺たち全員がトラブルに直面する。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_51111#1"
+      ]
+    },
+    {
+      "phrase_id": "521",
+      "text_id": "escape_trader_jobs_521",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "52"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "C'mon man, it's not as bad as it sounds. A bunch of drunk recruits green as grass with a single NCO...Well, OK, but I was really counting on you, Marked One...",
+      "JA_current": "おいおい頼むよ、それは聞くほど悪くないぞ。1人の下士官と草みたいに青っちょろい酔っ払いの新兵がひと束だぞ… まあいいだろう、本当にお前を当てにしてたのにな、Marked One…。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_521#1"
+      ]
+    },
+    {
+      "phrase_id": "611111",
+      "text_id": "escape_trader_jobs_611111",
+      "next": [
+        "6111111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "61111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I think so.",
+      "JA_current": "わかるとも。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_611111#1"
+      ]
+    },
+    {
+      "phrase_id": "6111111",
+      "text_id": "escape_trader_jobs_6111111",
+      "next": [
+        "61111111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "agroprom_military_case"
+        },
+        {
+          "type": "give_info",
+          "value": "esc_find_railroad_passage_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "611111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Once you have the documents, don't bring them here. Take them straight to the Barman. He runs the stalker bar, the 100 Rads, I'll upload the coordinates and all the data you need to your PDA. Clear?",
+      "JA_current": "ブツを手に入れても、此処には持って来るなよ。直接バーテンダーの元に届けるんだ。奴は 100 Rads というストーカーバーを経営している。今から必要な情報をお前の PDA にアップロードする。いいな？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_6111111#1"
+      ]
+    },
+    {
+      "phrase_id": "61111111",
+      "text_id": "escape_trader_jobs_61111111",
+      "next": [
+        "611111111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6111111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Gotcha.",
+      "JA_current": "ああ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_61111111#1"
+      ]
+    },
+    {
+      "phrase_id": "611111111",
+      "text_id": "escape_trader_jobs_611111111",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "61111111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You'll have to go North through the Garbage, then turn West. You'll end up at the Agroprom Research Institute after a few kilometers. And be careful, the radiation level is way too high at the Garbage. So I suggest you cough up for some anti-rad or vodka. Well, good luck.",
+      "JA_current": "じゃあまずは北の Garbage を抜けて途中で西を目指すんだ。数キロ行けば Agroprom 研究所にぶち当たるだろう。それと気をつけろよ、Garbage は放射能で凄いことになってるんだ。薬かウォッカを持ってった方がいいだろうな。じゃあ、頑張ってくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_611111111#1"
+      ]
+    }
+  ]
+}

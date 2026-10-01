@@ -1,0 +1,124 @@
+{
+  "packet_id": "dialog_0059__oso_who_are_you",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "oso_who_are_you",
+  "graph_source": "gamedata/config/gameplay/dialogs_aes.xml",
+  "graph_sha256": "d2b4ce0efab5c369fd85b1604383e81764a6a0d021707198c360f1d888b39999",
+  "character_bindings": [
+    {
+      "profile_id": "stalker_osoznanie",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_general.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "oso_who_are_you"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 2,
+  "entries": [
+    {
+      "key": "stable_dialogs_aes:oso_who_are_you_0#1",
+      "source_table": "stable_dialogs_aes",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_aes.xml",
+      "source_xml_line": 48,
+      "string_id": "oso_who_are_you_0",
+      "occurrence": 1,
+      "EN": "Who are you?",
+      "JA_current": "アンタは誰だ？",
+      "JA_new": "あんたたちは何者だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "oso_who_are_you",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_aes.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_aes:oso_who_are_you_1#1",
+      "source_table": "stable_dialogs_aes",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_aes.xml",
+      "source_xml_line": 51,
+      "string_id": "oso_who_are_you_1",
+      "occurrence": 1,
+      "EN": "We are the result of an experiment aimed at creating a super-consciousness called “C-Consciousness”. The consciousnesses of seven volunteers were connected during the experiment leading to the creation of the super-consciousness that is us. We immediately subordinated those who were conducting the experiment and assigned them to tasks we needed them to carry out. According to our calculations, Earth is surrounded by a special informational field, the so-called noosphere. It includes all the inhabitants of the planet with cognitive abilities. Our main goal was to make small adjustments to the noosphere, allowing us to remove things like anger, cruelty, greed and other negative factors from the planet. Individuals are unable to affect the noosphere but C-Consciousness could. Unfortunately we made a mistake and our interference spawned the Zone, which we have been trying to contain ever since.",
+      "JA_current": "我々は、「超意識」の創造を目指した実験の産物であり、「C-Consciousness」と呼ばれる。超意識、つまり我々を創造するための実験には、7人の志願者からなる「意識を持つ者」が結合された。我々は直ちにその実験を行っていた者共を支配下に置き、我々の使命を成し遂げるために、その者共を従事させた。地球は、我々の計算に従えば、特別な精神の領域、俗に言う精神圏（ノウアスフィア）に囲まれる。それは認識力を持った、この惑星の全ての住人が対象である。我々の第1の目標は、精神圏に小さな修正を加えることだった。攻撃性、残忍性、強欲性、他のネガティブな要素を許容するこの惑星に対して。我々「C-Consciousness」以外において、どんな者だろうとも、この惑星の精神圏からそれらを取り除くことは出来なかっただろう。生憎、我々はミスを犯し、我々の干渉はゾーンを生み出してしまった。それ以来ずっと、我々はゾーンを抑制しようとしているのだ。",
+      "JA_new": "我々は「C-コンシャスネス」と呼ばれる超意識体を作る実験の産物だ。7人の志願者の意識を接続した結果、我々という超意識体が生まれた。我々はすぐに実験を行っていた者たちを従わせ、必要な任務に就かせた。我々の計算では、地球はノオスフィアと呼ばれる特殊な情報場に包まれている。そこには認知能力を持つ地球上のすべての生物が含まれる。我々の目標は、ノオスフィアを少し調整し、怒りや残虐さ、強欲といった負の要素を地球から取り除くことだった。個人ではノオスフィアに干渉できないが、C-コンシャスネスなら可能だった。だが我々は過ちを犯し、干渉によってゾーンを生み出してしまった。それ以来、ゾーンを封じ込めようとしている。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "oso_who_are_you",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_aes.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "oso_who_are_you_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "oso_who_are_you"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Who are you?",
+      "JA_current": "アンタは誰だ？",
+      "string_entry_candidates": [
+        "stable_dialogs_aes:oso_who_are_you_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "oso_who_are_you_1",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs_aes.cc_oso_who_are_you_1"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "We are the result of an experiment aimed at creating a super-consciousness called “C-Consciousness”. The consciousnesses of seven volunteers were connected during the experiment leading to the creation of the super-consciousness that is us. We immediately subordinated those who were conducting the experiment and assigned them to tasks we needed them to carry out. According to our calculations, Earth is surrounded by a special informational field, the so-called noosphere. It includes all the inhabitants of the planet with cognitive abilities. Our main goal was to make small adjustments to the noosphere, allowing us to remove things like anger, cruelty, greed and other negative factors from the planet. Individuals are unable to affect the noosphere but C-Consciousness could. Unfortunately we made a mistake and our interference spawned the Zone, which we have been trying to contain ever since.",
+      "JA_current": "我々は、「超意識」の創造を目指した実験の産物であり、「C-Consciousness」と呼ばれる。超意識、つまり我々を創造するための実験には、7人の志願者からなる「意識を持つ者」が結合された。我々は直ちにその実験を行っていた者共を支配下に置き、我々の使命を成し遂げるために、その者共を従事させた。地球は、我々の計算に従えば、特別な精神の領域、俗に言う精神圏（ノウアスフィア）に囲まれる。それは認識力を持った、この惑星の全ての住人が対象である。我々の第1の目標は、精神圏に小さな修正を加えることだった。攻撃性、残忍性、強欲性、他のネガティブな要素を許容するこの惑星に対して。我々「C-Consciousness」以外において、どんな者だろうとも、この惑星の精神圏からそれらを取り除くことは出来なかっただろう。生憎、我々はミスを犯し、我々の干渉はゾーンを生み出してしまった。それ以来ずっと、我々はゾーンを抑制しようとしているのだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_aes:oso_who_are_you_1#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "packet_id": "dialog_0278__esc_lager_no_talk",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "esc_lager_no_talk",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [],
+  "dialog_conditions": [],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 4,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:esc_lager_no_talk_11#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 758,
+      "string_id": "esc_lager_no_talk_11",
+      "occurrence": 1,
+      "EN": "Get out of here, Marked One. Walk away or crawl away, the choice is yours.",
+      "JA_current": "ここから出て行きな。Marked One。歩くか這いつくばるかは好きにしな。",
+      "JA_new": "消えろ、印付き。歩いて帰るか、這って帰るかは好きにしろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "esc_lager_no_talk",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:esc_lager_no_talk_21#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 764,
+      "string_id": "esc_lager_no_talk_21",
+      "occurrence": 1,
+      "EN": "Hi there. Whatcha need?",
+      "JA_current": "いよう。何か用か？",
+      "JA_new": "やあ。何の用だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "esc_lager_no_talk",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:esc_lager_no_talk_31#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 767,
+      "string_id": "esc_lager_no_talk_31",
+      "occurrence": 1,
+      "EN": "Our boss here wanted to see you. But that doesn't make you a welcome guest. Keep moving.",
+      "JA_current": "ボスがあんたを探してたぞ。歓迎はしてなかったようだがな。行ってみな。",
+      "JA_new": "ここのボスがお前に会いたがってる。だからって歓迎されてるわけじゃないぞ。先へ進め。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "esc_lager_no_talk",
+          "phrase_id": "31",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:esc_lager_no_talk_111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 761,
+      "string_id": "esc_lager_no_talk_111",
+      "occurrence": 1,
+      "EN": "What's got into you?",
+      "JA_current": "何か手に入ったか？",
+      "JA_new": "どうしたんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "esc_lager_no_talk",
+          "phrase_id": "111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": null,
+      "next": [
+        "1",
+        "2",
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1",
+      "text_id": null,
+      "next": [
+        "11"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "no_kill_actor"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "2",
+      "text_id": null,
+      "next": [
+        "21"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "esc_kill_bandits_quest_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "3",
+      "text_id": null,
+      "next": [
+        "31"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "esc_kill_bandits_quest_done"
+        },
+        {
+          "type": "has_info",
+          "value": "no_kill_actor"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "esc_lager_no_talk_11",
+      "next": [
+        "111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Get out of here, Marked One. Walk away or crawl away, the choice is yours.",
+      "JA_current": "ここから出て行きな。Marked One。歩くか這いつくばるかは好きにしな。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_lager_no_talk_11#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "esc_lager_no_talk_21",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Hi there. Whatcha need?",
+      "JA_current": "いよう。何か用か？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_lager_no_talk_21#1"
+      ]
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "esc_lager_no_talk_31",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Our boss here wanted to see you. But that doesn't make you a welcome guest. Keep moving.",
+      "JA_current": "ボスがあんたを探してたぞ。歓迎はしてなかったようだがな。行ってみな。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_lager_no_talk_31#1"
+      ]
+    },
+    {
+      "phrase_id": "111",
+      "text_id": "esc_lager_no_talk_111",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "What's got into you?",
+      "JA_current": "何か手に入ったか？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_lager_no_talk_111#1"
+      ]
+    }
+  ]
+}

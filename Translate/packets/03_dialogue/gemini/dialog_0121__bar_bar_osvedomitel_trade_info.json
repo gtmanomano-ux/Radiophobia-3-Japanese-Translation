@@ -1,0 +1,861 @@
+{
+  "packet_id": "dialog_0121__bar_bar_osvedomitel_trade_info",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_bar_osvedomitel_trade_info",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_bar_osvedomitel",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 17,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_0#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 932,
+      "string_id": "bar_bar_osvedomitel_trade_info_0",
+      "occurrence": 1,
+      "EN": "I want to buy some information.",
+      "JA_current": "情報を買いに来た。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_trade_info",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_21#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 935,
+      "string_id": "bar_bar_osvedomitel_trade_info_21",
+      "occurrence": 1,
+      "EN": "Right now, I can sell you information about Strelok's group virtually for nothing - 4000 rubles.",
+      "JA_current": "今ならストレロクの一味に関するネタがある。タダ同然の4,000ルーブルで譲ってやるぜ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_trade_info",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_31#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 950,
+      "string_id": "bar_bar_osvedomitel_trade_info_31",
+      "occurrence": 1,
+      "EN": "Right now, I have some information about a group that made it to the center of the Zone. I'm practically giving it away - only 2000 rubles.",
+      "JA_current": "ゾーンの中心部まで辿り着いた連中のネタがあるぜ。ほとんどくれてやるようなもんだ――たったの2,000ルーブルだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_trade_info",
+          "phrase_id": "31",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_41#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 965,
+      "string_id": "bar_bar_osvedomitel_trade_info_41",
+      "occurrence": 1,
+      "EN": "I've got some information about the secret of Lake Yantar. The price is just 3500 rubles - any less and I'd be paying you!",
+      "JA_current": "ヤンター湖の秘密に関するネタを仕入れてある。値段はポッキリ3,500ルーブルだ――これ以上まけたら、こっちが金払って話す羽目になっちまうぜ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_trade_info",
+          "phrase_id": "41",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_999#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 980,
+      "string_id": "bar_bar_osvedomitel_trade_info_999",
+      "occurrence": 1,
+      "EN": "I don't have any new information at the moment.",
+      "JA_current": "今のところ、新しいネタは入ってきてないな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_trade_info",
+          "phrase_id": "999",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_211#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 938,
+      "string_id": "bar_bar_osvedomitel_trade_info_211",
+      "occurrence": 1,
+      "EN": "OK, I'll take it. Here's 4000.",
+      "JA_current": "よし、買おう。4,000ルーブルだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_trade_info",
+          "phrase_id": "211",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_212#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 944,
+      "string_id": "bar_bar_osvedomitel_trade_info_212",
+      "occurrence": 1,
+      "EN": "No, I changed my mind.",
+      "JA_current": "いや、やめておく。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_trade_info",
+          "phrase_id": "212",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_311#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 953,
+      "string_id": "bar_bar_osvedomitel_trade_info_311",
+      "occurrence": 1,
+      "EN": "OK, I'll buy it. Here's 2000.",
+      "JA_current": "分かった、買うよ。2,000ルーブルだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_trade_info",
+          "phrase_id": "311",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_312#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 959,
+      "string_id": "bar_bar_osvedomitel_trade_info_312",
+      "occurrence": 1,
+      "EN": "No, I changed my mind.",
+      "JA_current": "いや、やめておく。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_trade_info",
+          "phrase_id": "312",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_411#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 968,
+      "string_id": "bar_bar_osvedomitel_trade_info_411",
+      "occurrence": 1,
+      "EN": "Okay, I'll buy. Take 3500.",
+      "JA_current": "よし、その話に乗ろう。3,500ルーブルだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_trade_info",
+          "phrase_id": "411",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_412#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 974,
+      "string_id": "bar_bar_osvedomitel_trade_info_412",
+      "occurrence": 1,
+      "EN": "No, I changed my mind.",
+      "JA_current": "いや、やめておく。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_trade_info",
+          "phrase_id": "412",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_2111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 941,
+      "string_id": "bar_bar_osvedomitel_trade_info_2111",
+      "occurrence": 1,
+      "EN": "It's located by the Agroprom Research Institute, there's a stash in the underground. It probably contains information about the group's plans and a list of group members. The coordinates of the stash are attached.",
+      "JA_current": "アフロプロム研究所の敷地内、地下に隠し場所がある。おそらく一味の計画書やメンバーのリストが眠ってるはずだ。隠し場所の座標をPDAに送っておくぜ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_trade_info",
+          "phrase_id": "2111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_2121#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 947,
+      "string_id": "bar_bar_osvedomitel_trade_info_2121",
+      "occurrence": 1,
+      "EN": "Up to you. Come to the bar when you decide otherwise - I'm always here.",
+      "JA_current": "好きにしな。気が変わったらバーに来い――俺はいつでもここにいる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_trade_info",
+          "phrase_id": "2121",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_3111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 956,
+      "string_id": "bar_bar_osvedomitel_trade_info_3111",
+      "occurrence": 1,
+      "EN": "Strelok, Ghost and Fang went to the center of the Zone. What they found there, no one knows, but Strelok went missing while Ghost and Fang came back distraught. The latest news on Ghost is that he went to the mobile lab by Lake Yantar. Coordinates of the scientists' camp are attached.",
+      "JA_current": "ストレロク、ゴースト、それにファングの3人がゾーンの中心へ向かった。そこで何を見ちまったのかは誰も知らねえが、ストレロクは行方知れずになり、ゴーストとファングは正気を失って戻ってきた。ゴーストの最近の足取りなら、ヤンター湖の移動研究所へ向かったって話だ。科学者のキャンプの座標を送っておくぜ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_trade_info",
+          "phrase_id": "3111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_3121#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 962,
+      "string_id": "bar_bar_osvedomitel_trade_info_3121",
+      "occurrence": 1,
+      "EN": "Up to you. Come to the bar when you decide otherwise - I'm always here.",
+      "JA_current": "好きにしな。気が変わったらバーに来い――俺はいつでもここにいる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_trade_info",
+          "phrase_id": "3121",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_4111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 971,
+      "string_id": "bar_bar_osvedomitel_trade_info_4111",
+      "occurrence": 1,
+      "EN": "The secret of Lake Yantar is similar to the secret of the Brain Scorcher and their effects are similar in many ways. Some kind of emission zombifies all who come in contact with it. The zombified stalkers move around the center of some emitter, attacking everyone. There is information to suggest that the solution to the riddle of Lake Yantar is below ground. Here are the coordinates of the emitter at Lake Yantar and those of the Brain Scorcher.",
+      "JA_current": "ヤンター湖の秘密ってのは、ブレイン・スコーチャーの仕組みとそっくりで、引き起こされる現象も瓜二つだ。正体不明の放射を浴びた者は、例外なくゾンビ化しちまう。ゾンビ化したストーカーどもは、放射源の周りをうろつきながら手当たり次第に襲いかかってくるわけだ。ヤンター湖の謎を解く鍵は地下にあるって情報もある。ヤンター湖の放射源とブレイン・スコーチャー、両方の座標をマークしてやるよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_trade_info",
+          "phrase_id": "4111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_4121#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 977,
+      "string_id": "bar_bar_osvedomitel_trade_info_4121",
+      "occurrence": 1,
+      "EN": "Up to you. Come to the bar when you decide otherwise - I'm always here.",
+      "JA_current": "好きにしな。気が変わったらバーに来い――俺はいつでもここにいる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_trade_info",
+          "phrase_id": "4121",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bar_bar_osvedomitel_trade_info_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I want to buy some information.",
+      "JA_current": "情報を買いたいんだが。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": null,
+      "next": [
+        "2",
+        "3",
+        "4",
+        "99"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "2",
+      "text_id": null,
+      "next": [
+        "21"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_bar_osvedomitel_info_01"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "3",
+      "text_id": null,
+      "next": [
+        "31"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_bar_osvedomitel_info_02"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_bar_osvedomitel_info_01"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "4",
+      "text_id": null,
+      "next": [
+        "41"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_bar_osvedomitel_info_03"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_bar_osvedomitel_info_02"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "99",
+      "text_id": null,
+      "next": [
+        "999"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "bar_bar_osvedomitel_info_03"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "bar_bar_osvedomitel_trade_info_21",
+      "next": [
+        "211",
+        "212"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Right now, I can sell you information about Strelok's group virtually for nothing - 4000 rubles.",
+      "JA_current": "今のところ、Strelok のグループに関する情報は、ほとんどタダと言っていい位の値段で売ってやることができるよ… 4000ルーブルだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_21#1"
+      ]
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "bar_bar_osvedomitel_trade_info_31",
+      "next": [
+        "311",
+        "312"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Right now, I have some information about a group that made it to the center of the Zone. I'm practically giving it away - only 2000 rubles.",
+      "JA_current": "今のところ、ゾーンの中心に到達したグループに関する情報が、いくつかある。実際、タダ同然でやることになるが… たったの2000ルーブルだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_31#1"
+      ]
+    },
+    {
+      "phrase_id": "41",
+      "text_id": "bar_bar_osvedomitel_trade_info_41",
+      "next": [
+        "411",
+        "412"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I've got some information about the secret of Lake Yantar. The price is just 3500 rubles - any less and I'd be paying you!",
+      "JA_current": "Yantar 湖の秘密に関する情報が手に入った。値段は3500ルーブルきっかりだ… 安いが、アンタにゃ世話になってるからな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_41#1"
+      ]
+    },
+    {
+      "phrase_id": "999",
+      "text_id": "bar_bar_osvedomitel_trade_info_999",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "99"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I don't have any new information at the moment.",
+      "JA_current": "今のところ、新しい情報は何もないな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_999#1"
+      ]
+    },
+    {
+      "phrase_id": "211",
+      "text_id": "bar_bar_osvedomitel_trade_info_211",
+      "next": [
+        "2111"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.has_money_for_informer_1"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.give_money_for_informer_1"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_bar_osvedomitel_info_01"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "21"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "OK, I'll take it. Here's 4000.",
+      "JA_current": "いいだろう、貰うことにする。さぁ、4000だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_211#1"
+      ]
+    },
+    {
+      "phrase_id": "212",
+      "text_id": "bar_bar_osvedomitel_trade_info_212",
+      "next": [
+        "2121"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, I changed my mind.",
+      "JA_current": "いや、気が変わった。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_212#1"
+      ]
+    },
+    {
+      "phrase_id": "311",
+      "text_id": "bar_bar_osvedomitel_trade_info_311",
+      "next": [
+        "3111"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.has_money_for_informer_2"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.give_money_for_informer_2"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_bar_osvedomitel_info_02"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "31"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "OK, I'll buy it. Here's 2000.",
+      "JA_current": "いいだろう、買おう。2000だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_311#1"
+      ]
+    },
+    {
+      "phrase_id": "312",
+      "text_id": "bar_bar_osvedomitel_trade_info_312",
+      "next": [
+        "3121"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, I changed my mind.",
+      "JA_current": "いや、気が変わった。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_312#1"
+      ]
+    },
+    {
+      "phrase_id": "411",
+      "text_id": "bar_bar_osvedomitel_trade_info_411",
+      "next": [
+        "4111"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.has_money_for_informer_3"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.give_money_for_informer_3"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_bar_osvedomitel_info_03"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "41"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Okay, I'll buy. Take 3500.",
+      "JA_current": "いいだろう、買おう。3500だ、受け取れ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_411#1"
+      ]
+    },
+    {
+      "phrase_id": "412",
+      "text_id": "bar_bar_osvedomitel_trade_info_412",
+      "next": [
+        "4121"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "41"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, I changed my mind.",
+      "JA_current": "いいや、気が変わった。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_412#1"
+      ]
+    },
+    {
+      "phrase_id": "2111",
+      "text_id": "bar_bar_osvedomitel_trade_info_2111",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "211"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It's located by the Agroprom Research Institute, there's a stash in the underground. It probably contains information about the group's plans and a list of group members. The coordinates of the stash are attached.",
+      "JA_current": "Agroprom 研究所の近くで、その情報は見付かる。地下に隠し場所があるんだ。恐らく、グループの計画やメンバーのリストに関する情報があるはずだ。隠し場所の座標を添付しておいたぞ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_2111#1"
+      ]
+    },
+    {
+      "phrase_id": "2121",
+      "text_id": "bar_bar_osvedomitel_trade_info_2121",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "212"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Up to you. Come to the bar when you decide otherwise - I'm always here.",
+      "JA_current": "アンタ次第だ。気が変わったならバーに来な ― 俺はいつでもここにいる。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_2121#1"
+      ]
+    },
+    {
+      "phrase_id": "3111",
+      "text_id": "bar_bar_osvedomitel_trade_info_3111",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "311"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Strelok, Ghost and Fang went to the center of the Zone. What they found there, no one knows, but Strelok went missing while Ghost and Fang came back distraught. The latest news on Ghost is that he went to the mobile lab by Lake Yantar. Coordinates of the scientists' camp are attached.",
+      "JA_current": "Strelok、Ghost それに Fang が、ゾーンの中心へと向かった。彼らがそこで何を見つけたかは、誰も知らない。だが、Strelok は、Ghost と Fang が正気に返るまでに行方不明となった。Ghost の最近の消息は、彼が Yantar 湖の近くの移動研究所へ向かったというものだ。科学者のキャンプの座標を添付しておくよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_3111#1"
+      ]
+    },
+    {
+      "phrase_id": "3121",
+      "text_id": "bar_bar_osvedomitel_trade_info_3121",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "312"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Up to you. Come to the bar when you decide otherwise - I'm always here.",
+      "JA_current": "アンタ次第だ。気が変わったならバーに来な ― 俺はいつでもここにいる。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_3121#1"
+      ]
+    },
+    {
+      "phrase_id": "4111",
+      "text_id": "bar_bar_osvedomitel_trade_info_4111",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "411"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The secret of Lake Yantar is similar to the secret of the Brain Scorcher and their effects are similar in many ways. Some kind of emission zombifies all who come in contact with it. The zombified stalkers move around the center of some emitter, attacking everyone. There is information to suggest that the solution to the riddle of Lake Yantar is below ground. Here are the coordinates of the emitter at Lake Yantar and those of the Brain Scorcher.",
+      "JA_current": "Yantar 湖の秘密は、色々な意味で Brain Scorcher と、その影響との関係が持つ秘密にそっくりだ。どんな放射も、それに接触するもの全てをゾンビ化する。ゾンビ化されたストーカーたちは、誰彼構わず襲いながら、放射体の中心を彷徨う。Yantar 湖の謎の答えが地面の下にあることを示す情報がある。これが、 Yantar 湖の放射体と Brain Scorcher の座標だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_4111#1"
+      ]
+    },
+    {
+      "phrase_id": "4121",
+      "text_id": "bar_bar_osvedomitel_trade_info_4121",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "412"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Up to you. Come to the bar when you decide otherwise - I'm always here.",
+      "JA_current": "アンタ次第だ。気が変わったならバーに来な ― 俺はいつでもここにいる。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_trade_info_4121#1"
+      ]
+    }
+  ]
+}

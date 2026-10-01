@@ -1,0 +1,183 @@
+{
+  "packet_id": "dialog_0288__volk_talk_about_nagrada",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "volk_talk_about_nagrada",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "esc_wolf",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "PMA_escape.tolik_saved"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "revarded_tolik"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 3,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:volk_talk_about_nagrada_0#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1945,
+      "string_id": "volk_talk_about_nagrada_0",
+      "occurrence": 1,
+      "EN": "How's Tolik?",
+      "JA_current": "How's Tolik?",
+      "JA_new": "トーリクの具合はどうだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "volk_talk_about_nagrada",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        },
+        {
+          "dialog_id": "escape_lager_volk_talk",
+          "phrase_id": "44444442",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:volk_talk_about_nagrada_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1948,
+      "string_id": "volk_talk_about_nagrada_1",
+      "occurrence": 1,
+      "EN": "He seems ok, no need to worry, you patched him up good. He has been through worse situations before and managed to survive. He's going to become a good stalker some day... Here you are, some stuff for helping him out. Thank you, Marked One.",
+      "JA_current": "He seems ok, no need to worry, you patched him up good. He has been through worse situations before and managed to survive. He's going to become a good stalker some day... Here you are, some stuff for helping him out. Thank you, Marked One.",
+      "JA_new": "大丈夫そうだ、心配いらない。お前の手当てがよかったんだな。あいつは前にももっとひどい目に遭って、生き延びてきた。いつか立派なストーカーになるさ……ほら、助けてくれた礼だ。受け取ってくれ。ありがとう、印付き。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "volk_talk_about_nagrada",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        },
+        {
+          "dialog_id": "escape_lager_volk_talk",
+          "phrase_id": "444444421",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:volk_talk_about_nagrada_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1951,
+      "string_id": "volk_talk_about_nagrada_2",
+      "occurrence": 1,
+      "EN": "You are welcome. Who knows, I may need help myself some day.",
+      "JA_current": "You are welcome. Who knows, I may need help myself some day.",
+      "JA_new": "気にするな。いつか俺が助けてもらう側になるかもしれないしな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "volk_talk_about_nagrada",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        },
+        {
+          "dialog_id": "escape_lager_volk_talk",
+          "phrase_id": "444444422",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "volk_talk_about_nagrada_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "How's Tolik?",
+      "JA_current": "How's Tolik?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:volk_talk_about_nagrada_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "volk_talk_about_nagrada_1",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "PMA_escape.give_nagrada"
+        },
+        {
+          "type": "give_info",
+          "value": "revarded_tolik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "He seems ok, no need to worry, you patched him up good. He has been through worse situations before and managed to survive. He's going to become a good stalker some day... Here you are, some stuff for helping him out. Thank you, Marked One.",
+      "JA_current": "He seems ok, no need to worry, you patched him up good. He has been through worse situations before and managed to survive. He's going to become a good stalker some day... Here you are, some stuff for helping him out. Thank you, Marked One.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:volk_talk_about_nagrada_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "volk_talk_about_nagrada_2",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You are welcome. Who knows, I may need help myself some day.",
+      "JA_current": "You are welcome. Who knows, I may need help myself some day.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:volk_talk_about_nagrada_2#1"
+      ]
+    }
+  ]
+}

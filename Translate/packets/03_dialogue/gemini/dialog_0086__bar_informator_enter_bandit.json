@@ -1,0 +1,310 @@
+{
+  "packet_id": "dialog_0086__bar_informator_enter_bandit",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_informator_enter_bandit",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_bar_osvedomitel",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "val_actor_has_borov_key"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "actor_set_zombied"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "actor_prebandit"
+    },
+    {
+      "type": "has_info",
+      "value": "bar_darklab_document_start"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 6,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_informator_enter_bandit_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 67,
+      "string_id": "bar_informator_enter_bandit_1",
+      "occurrence": 1,
+      "EN": "Hey, I don't suppose you could try and put in a good word with the bandits for me??",
+      "JA_current": "なあ、バンディットの連中に口利きをしてくれないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_informator_enter_bandit",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_informator_enter_bandit_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 70,
+      "string_id": "bar_informator_enter_bandit_2",
+      "occurrence": 1,
+      "EN": "The bandits? What do you want with them guys?? Look, I can make a few moves for you if you have the cash. First, I need to know which gang you want to make nice with, because there's plenty of different groups out there and they're not exactly organized, get what I'm saying?? ",
+      "JA_current": "バンディットだと？ あんなゴロツキどもに何の用だ？？ ま、現ナマがあるなら多少手を回してやれんこともないがね。まず、どこの組と仲良くしたいんだ？ あいつらはあちこちに群れ散らかしてて、一枚岩ってわけじゃねえんだよ。分かるだろ？？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_informator_enter_bandit",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_informator_enter_bandit_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 73,
+      "string_id": "bar_informator_enter_bandit_3",
+      "occurrence": 1,
+      "EN": "I have some business to discuss with Borov, out in Dark Valley, you know him? Don't bother yourself about the money - I've got enough.",
+      "JA_current": "ダークバレーにいるボロフと話がしたいんだ。あいつを知ってるか？ 金なら心配するな、十分ある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_informator_enter_bandit",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_informator_enter_bandit_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 76,
+      "string_id": "bar_informator_enter_bandit_4",
+      "occurrence": 1,
+      "EN": "All right, Borov's boys, huh? Pay me, ermm, 30 grand and I will let Borov know that there's a stalker inbound with an important deal for him. His boys will stand down when they see you and you'll get a few minutes one of one with Borov. But beware: don't take too long to go see him, they won't wait around forever, maybe I can get you a couple of days, tops. My advice is to go haul ass over there at once as soon as I send the message out. If you miss your window, Borov will get suspicious and will probably cease contact with me for good. I don't want you to go burning my contacts, so this is my reputation at stake here too, you understand?\n\t\tBy the way, if you fuck up over there and piss him off, I'm not liable for anything they do to you, so don't go thinking you're under any protection! You wanna mess with bandits and scumbags, that's entirely on you!",
+      "JA_current": "なるほど、ボロフの一味か。そうだな……3万ルーブル寄越しな。ボロフに、大事な商談を持ちかけてるストーカーが向かってるって通してやる。奴の手下どももお前を見ても手を出さねえし、ボロフとサシで数分話せるはずだ。だが気をつけろよ。あんまりぐずぐず行くんじゃないぞ。連中だっていつまでも待っちゃくれねえ、もって2、3日が関の山だ。俺が連絡を飛ばしたら、すぐに現場へすっ飛んでいくんだな。チャンスを逃しゃ、ボロフに勘繰られて俺までパイプを切られかねねえ。俺の顔を潰すような真似は勘弁してくれよ、こっちだって信用問題なんだからな。分かってるだろうな？\n\nそれと、向こうでヘマやらかして奴を怒らせても、俺は一切ケツを持たねえぞ。守ってもらえるなんて甘い考えは捨てるんだな！ バンディットや人間のクズどもと渡り合おうってんだ、全部テメエの責任だ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_informator_enter_bandit",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_informator_enter_bandit_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 80,
+      "string_id": "bar_informator_enter_bandit_5",
+      "occurrence": 1,
+      "EN": "Fine, perfect, I'm in. Take the money and send the message.",
+      "JA_current": "よし、乗った。金を受け取って、すぐに連絡を通してくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_informator_enter_bandit",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_informator_enter_bandit_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 83,
+      "string_id": "bar_informator_enter_bandit_6",
+      "occurrence": 1,
+      "EN": "On second thought, I think I've changed my mind... Maybe later, though!",
+      "JA_current": "……いや、考え直した。やめておくよ。また今度な！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_informator_enter_bandit",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bar_informator_enter_bandit_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, I don't suppose you could try and put in a good word with the bandits for me??",
+      "JA_current": "Hey, I don't suppose you could try and put in a good word with the bandits for me??",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_informator_enter_bandit_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "bar_informator_enter_bandit_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The bandits? What do you want with them guys?? Look, I can make a few moves for you if you have the cash. First, I need to know which gang you want to make nice with, because there's plenty of different groups out there and they're not exactly organized, get what I'm saying?? ",
+      "JA_current": "The bandits? What do you want with them guys?? Look, I can make a few moves for you if you have the cash. First, I need to know which gang you want to make nice with, because there's plenty of different groups out there and they're not exactly organized, get what I'm saying?? ",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_informator_enter_bandit_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "bar_informator_enter_bandit_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I have some business to discuss with Borov, out in Dark Valley, you know him? Don't bother yourself about the money - I've got enough.",
+      "JA_current": "I have some business to discuss with Borov, out in Dark Valley, you know him? Don't bother yourself about the money - I've got enough.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_informator_enter_bandit_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "bar_informator_enter_bandit_4",
+      "next": [
+        "4",
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All right, Borov's boys, huh? Pay me, ermm, 30 grand and I will let Borov know that there's a stalker inbound with an important deal for him. His boys will stand down when they see you and you'll get a few minutes one of one with Borov. But beware: don't take too long to go see him, they won't wait around forever, maybe I can get you a couple of days, tops. My advice is to go haul ass over there at once as soon as I send the message out. If you miss your window, Borov will get suspicious and will probably cease contact with me for good. I don't want you to go burning my contacts, so this is my reputation at stake here too, you understand?\n\t\tBy the way, if you fuck up over there and piss him off, I'm not liable for anything they do to you, so don't go thinking you're under any protection! You wanna mess with bandits and scumbags, that's entirely on you!",
+      "JA_current": "All right, Borov's boys, huh? Pay me, ermm, 30 grand and I will let Borov know that there's a stalker inbound with an important deal for him. His boys will stand down when they see you and you'll get a few minutes one of one with Borov. But beware: don't take too long to go see him, they won't wait around forever, maybe I can get you a couple of days, tops. My advice is to go haul ass over there at once as soon as I send the message out. If you miss your window, Borov will get suspicious and will probably cease contact with me for good. I don't want you to go burning my contacts, so this is my reputation at stake here too, you understand?\n\t\tBy the way, if you fuck up over there and piss him off, I'm not liable for anything they do to you, so don't go thinking you're under any protection! You wanna mess with bandits and scumbags, that's entirely on you!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_informator_enter_bandit_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "bar_informator_enter_bandit_5",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.has_30000"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "osvedomitel_actor_prebandit"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.set_actor_prebandit"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.relocate_30000"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Fine, perfect, I'm in. Take the money and send the message.",
+      "JA_current": "Fine, perfect, I'm in. Take the money and send the message.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_informator_enter_bandit_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "bar_informator_enter_bandit_6",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "On second thought, I think I've changed my mind... Maybe later, though!",
+      "JA_current": "On second thought, I think I've changed my mind... Maybe later, though!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_informator_enter_bandit_6#1"
+      ]
+    }
+  ]
+}

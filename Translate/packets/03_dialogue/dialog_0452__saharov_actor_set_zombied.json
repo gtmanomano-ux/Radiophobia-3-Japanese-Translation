@@ -1,0 +1,506 @@
+{
+    "packet_id":  "dialog_0452__saharov_actor_set_zombied",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "saharov_actor_set_zombied",
+    "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml",
+    "graph_sha256":  "131d3c64c00a1023af4aaa914f345f3cfff2e581dea421160993fad100675545",
+    "character_bindings":  [
+                               {
+                                   "profile_id":  "yan_general_ecolog",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               }
+                           ],
+    "dialog_conditions":  [
+                              {
+                                  "type":  "has_info",
+                                  "value":  "actor_set_zombied"
+                              },
+                              {
+                                  "type":  "dont_has_info",
+                                  "value":  "find_gold_fish_start"
+                              },
+                              {
+                                  "type":  "dont_has_info",
+                                  "value":  "af_gold_fish_have"
+                              },
+                              {
+                                  "type":  "dont_has_info",
+                                  "value":  "buddte_ostorojney"
+                              }
+                          ],
+    "root_speaker_hint":  "player",
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  9,
+    "entries":  [
+                    {
+                        "key":  "stable_dialogs_yantar:pomogi#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  98,
+                        "string_id":  "pomogi",
+                        "occurrence":  1,
+                        "EN":  "He... help me...",
+                        "JA_current":  "He... help me...",
+                        "JA_new":  "た……助けて……。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "saharov_actor_set_zombied",
+                                               "phrase_id":  "0",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:viju#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  102,
+                        "string_id":  "viju",
+                        "occurrence":  1,
+                        "EN":  "Alright, alright, I see the problem. It\u0027s been too often that I see such bared-teeth faces recently.",
+                        "JA_current":  "Alright, alright, I see the problem. It\u0027s been too often that I see such bared-teeth faces recently.",
+                        "JA_new":  "分かりました、分かりました。状況は把握しましたよ。最近、歯をむき出しにした顔ばかり見ますね。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "saharov_actor_set_zombied",
+                                               "phrase_id":  "1",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:chto_delat#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  106,
+                        "string_id":  "chto_delat",
+                        "occurrence":  1,
+                        "EN":  "Wha...t... to do?",
+                        "JA_current":  "Wha...t... to do?",
+                        "JA_new":  "ど……どうすれば……？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "saharov_actor_set_zombied",
+                                               "phrase_id":  "3",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:est_sposob#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  110,
+                        "string_id":  "est_sposob",
+                        "occurrence":  1,
+                        "EN":  "There\u0027s a way to help you. But we will need a \"Goldfish\" artifact to exercise the treatment.",
+                        "JA_current":  "There\u0027s a way to help you. But we will need a \"Goldfish\" artifact to exercise the treatment.",
+                        "JA_new":  "治療する方法はあります。ただし、«ゴールドフィッシュ»が必要です。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "saharov_actor_set_zombied",
+                                               "phrase_id":  "31",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:gde_naiti#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  114,
+                        "string_id":  "gde_naiti",
+                        "occurrence":  1,
+                        "EN":  "Where... find it?",
+                        "JA_current":  "Where... find it?",
+                        "JA_new":  "どこで……見つかる？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "saharov_actor_set_zombied",
+                                               "phrase_id":  "311",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:tompson#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  118,
+                        "string_id":  "tompson",
+                        "occurrence":  1,
+                        "EN":  "It may appear after a Blowout. Or... Maybe my former colleague Doctor Thompson has it.",
+                        "JA_current":  "It may appear after a Blowout. Or... Maybe my former colleague Doctor Thompson has it.",
+                        "JA_new":  "エミッションの後に現れることがあります。あるいは……元同僚のトンプソン博士が持っているかもしれません。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "saharov_actor_set_zombied",
+                                               "phrase_id":  "4",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:pochem#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  122,
+                        "string_id":  "pochem",
+                        "occurrence":  1,
+                        "EN":  "Why for... former?",
+                        "JA_current":  "Why for... former?",
+                        "JA_new":  "なぜ……元同僚？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "saharov_actor_set_zombied",
+                                               "phrase_id":  "5",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:zombi#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  126,
+                        "string_id":  "zombi",
+                        "occurrence":  1,
+                        "EN":  "Doctor Thompson came upon a controller in the underground lab nearby. The controller did not manage to subdue him completely, but many of the nervous system functions ran out of order... He has become a zombie now, but he still believes to be carrying out his research. He is a frequenter to many dangerous places, so it\u0027s quite possible that he may possess a \"Goldfish\".",
+                        "JA_current":  "Doctor Thompson came upon a controller in the underground lab nearby. The controller did not manage to subdue him completely, but many of the nervous system functions ran out of order... He has become a zombie now, but he still believes to be carrying out his research. He is a frequenter to many dangerous places, so it\u0027s quite possible that he may possess a \"Goldfish\".",
+                        "JA_new":  "トンプソン博士は、近くの地下研究所でコントローラーに遭遇しました。完全に支配されたわけではありませんが、神経系の機能があちこち狂ってしまって……。今ではゾンビになりましたが、本人はまだ研究を続けているつもりです。危険な場所にもよく出入りするので、«ゴールドフィッシュ»を持っている可能性は十分あります。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "saharov_actor_set_zombied",
+                                               "phrase_id":  "6",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:popr#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  130,
+                        "string_id":  "popr",
+                        "occurrence":  1,
+                        "EN":  "Find... artifact... Okay...",
+                        "JA_current":  "Find... artifact... Okay...",
+                        "JA_new":  "探す……アーティファクト……分かった……。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "saharov_actor_set_zombied",
+                                               "phrase_id":  "7",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  "pomogi",
+                            "next":  [
+                                         "1"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "He... help me...",
+                            "JA_current":  "He... help me...",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:pomogi#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "1",
+                            "text_id":  "viju",
+                            "next":  [
+                                         "3"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Alright, alright, I see the problem. It\u0027s been too often that I see such bared-teeth faces recently.",
+                            "JA_current":  "Alright, alright, I see the problem. It\u0027s been too often that I see such bared-teeth faces recently.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:viju#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "3",
+                            "text_id":  "chto_delat",
+                            "next":  [
+                                         "31"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Wha...t... to do?",
+                            "JA_current":  "Wha...t... to do?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:chto_delat#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "31",
+                            "text_id":  "est_sposob",
+                            "next":  [
+                                         "311"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "3"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "There\u0027s a way to help you. But we will need a \"Goldfish\" artifact to exercise the treatment.",
+                            "JA_current":  "There\u0027s a way to help you. But we will need a \"Goldfish\" artifact to exercise the treatment.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:est_sposob#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "311",
+                            "text_id":  "gde_naiti",
+                            "next":  [
+                                         "4"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "31"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Where... find it?",
+                            "JA_current":  "Where... find it?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:gde_naiti#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "4",
+                            "text_id":  "tompson",
+                            "next":  [
+                                         "5"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "311"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "It may appear after a Blowout. Or... Maybe my former colleague Doctor Thompson has it.",
+                            "JA_current":  "It may appear after a Blowout. Or... Maybe my former colleague Doctor Thompson has it.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:tompson#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "5",
+                            "text_id":  "pochem",
+                            "next":  [
+                                         "6"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "4"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Why for... former?",
+                            "JA_current":  "Why for... former?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:pochem#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "6",
+                            "text_id":  "zombi",
+                            "next":  [
+                                         "7"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "5"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Doctor Thompson came upon a controller in the underground lab nearby. The controller did not manage to subdue him completely, but many of the nervous system functions ran out of order... He has become a zombie now, but he still believes to be carrying out his research. He is a frequenter to many dangerous places, so it\u0027s quite possible that he may possess a \"Goldfish\".",
+                            "JA_current":  "Doctor Thompson came upon a controller in the underground lab nearby. The controller did not manage to subdue him completely, but many of the nervous system functions ran out of order... He has become a zombie now, but he still believes to be carrying out his research. He is a frequenter to many dangerous places, so it\u0027s quite possible that he may possess a \"Goldfish\".",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:zombi#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "7",
+                            "text_id":  "popr",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "give_info",
+                                                "value":  "find_gold_fish_start"
+                                            },
+                                            {
+                                                "type":  "action",
+                                                "value":  "dialogs_yantar.saharov_af_gold_fish_have"
+                                            },
+                                            {
+                                                "type":  "action",
+                                                "value":  "dialogs.break_dialog"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "6"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Find... artifact... Okay...",
+                            "JA_current":  "Find... artifact... Okay...",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:popr#1"
+                                                        ]
+                        }
+                    ]
+}

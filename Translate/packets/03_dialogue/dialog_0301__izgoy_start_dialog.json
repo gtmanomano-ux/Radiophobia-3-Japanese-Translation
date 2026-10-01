@@ -1,0 +1,247 @@
+{
+  "packet_id": "dialog_0301__izgoy_start_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "izgoy_start_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "esc_stalker_izgoy",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "izgoy_start_dialog"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 5,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:izgoy_start_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2012,
+      "string_id": "izgoy_start_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Hey, man. What are you doing sitting here, all alone?",
+      "JA_current": "Hey, man. What are you doing sitting here, all alone?",
+      "JA_new": "なあ、どうしたんだ？ こんなところに一人で座って。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_start_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_start_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2015,
+      "string_id": "izgoy_start_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "What does it matter to you? Won't be around for much longer anyway..",
+      "JA_current": "What does it matter to you? Won't be around for much longer anyway..",
+      "JA_new": "あんたには関係ない。どうせ、もう長くはない……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_start_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_start_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2018,
+      "string_id": "izgoy_start_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "What's wrong? Do you need help?",
+      "JA_current": "What's wrong? Do you need help?",
+      "JA_new": "どうした？ 助けがいるのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_start_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_start_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2021,
+      "string_id": "izgoy_start_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Look, give me a break, will you? I'm in real trouble right now, and I don't know how long I can last. Don't bother wasting your time. There's nothing you can do for me anyway.",
+      "JA_current": "Look, give me a break, will you? I'm in real trouble right now, and I don't know how long I can last. Don't bother wasting your time. There's nothing you can do for me anyway.",
+      "JA_new": "頼む、放っておいてくれ。今は本当に大変なんだ。あとどれくらい持つかも分からない。時間を無駄にするな。どうせあんたにできることはない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_start_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_start_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2024,
+      "string_id": "izgoy_start_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Well, suit yourself...",
+      "JA_current": "Well, suit yourself...",
+      "JA_new": "そうか。好きにしろ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_start_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "izgoy_start_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, man. What are you doing sitting here, all alone?",
+      "JA_current": "Hey, man. What are you doing sitting here, all alone?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_start_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "izgoy_start_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.izgoy_replik_1"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What does it matter to you? Won't be around for much longer anyway..",
+      "JA_current": "What does it matter to you? Won't be around for much longer anyway..",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_start_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "izgoy_start_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What's wrong? Do you need help?",
+      "JA_current": "What's wrong? Do you need help?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_start_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "izgoy_start_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Look, give me a break, will you? I'm in real trouble right now, and I don't know how long I can last. Don't bother wasting your time. There's nothing you can do for me anyway.",
+      "JA_current": "Look, give me a break, will you? I'm in real trouble right now, and I don't know how long I can last. Don't bother wasting your time. There's nothing you can do for me anyway.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_start_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "izgoy_start_dialog_phrase_5",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "izgoy_start_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, suit yourself...",
+      "JA_current": "Well, suit yourself...",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_start_dialog_phrase_5#1"
+      ]
+    }
+  ]
+}

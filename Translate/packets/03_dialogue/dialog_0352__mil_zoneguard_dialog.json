@@ -1,0 +1,2728 @@
+{
+  "packet_id": "dialog_0352__mil_zoneguard_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "mil_zoneguard_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_military.xml",
+  "graph_sha256": "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+  "character_bindings": [],
+  "dialog_conditions": [],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 62,
+  "entries": [
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_3#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1386,
+      "string_id": "mil_zoneguard_dialog_3",
+      "occurrence": 1,
+      "EN": "Greetings.",
+      "JA_current": "ごきげんよう。",
+      "JA_new": "よう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_4#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1398,
+      "string_id": "mil_zoneguard_dialog_4",
+      "occurrence": 1,
+      "EN": "What's this swamp nearby?",
+      "JA_current": "近くにある、湿地帯は一体？",
+      "JA_new": "近くにある沼地は何なんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_5#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1416,
+      "string_id": "mil_zoneguard_dialog_5",
+      "occurrence": 1,
+      "EN": "Listen, where can I stock up on some ammo? Rostok is kind of a long walk from here, I don't feel like going there.",
+      "JA_current": "なあ、俺はどこで弾薬を仕入れることが出来る？ Rostok へはここからは、ちょっと長い散歩だ。俺は行く気がしない。",
+      "JA_new": "弾薬を補給できる場所はないか？ロストクまで歩くのは遠いし、行く気がしない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_30#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1389,
+      "string_id": "mil_zoneguard_dialog_30",
+      "occurrence": 1,
+      "EN": "Halt! Who goes there?!",
+      "JA_current": "止まれ！ 誰が来た！？",
+      "JA_new": "止まれ！誰だ！？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "30",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_41#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1401,
+      "string_id": "mil_zoneguard_dialog_41",
+      "occurrence": 1,
+      "EN": "A real radioactive puddle. Better not go near it, or you'll get enough rads to make a third arm grow out of your belly button. There's a character in the middle of this swamp, doesn't let anyone come close. Well, I can sympathize with him: who'd want to mix with idiots? 'Cause a normal person would definitely stay away from there.",
+      "JA_current": "完全に放射能の水たまりさ。腹一杯に放射能を浴びて、臍のボタンを外したくなければ、近づかないに越したことはない。その中央にある者が1人いて、誰も近寄らせない。ああ、俺はあいつにこう感じてるよ、誰が馬鹿と関わりたがる？ まともな人間なら、そんなの確実に敬遠するだろ",
+      "JA_new": "放射能まみれの水たまりだ。近寄るなよ。放射線を浴びて、へそから3本目の腕が生えてくるぞ。沼の真ん中には、誰も近寄らせない変な奴がいる。まあ、気持ちは分かるけどな。馬鹿どもと関わりたくないんだろ。まともな奴なら、あそこには近寄らないさ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "41",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_51#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1419,
+      "string_id": "mil_zoneguard_dialog_51",
+      "occurrence": 1,
+      "EN": "Go to the main building and you'll find it on the first floor.",
+      "JA_current": "メインのビルの最初のフロアにあるだろうよ。",
+      "JA_new": "本館の1階に行けばある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "51",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_6#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1422,
+      "string_id": "mil_zoneguard_dialog_6",
+      "occurrence": 1,
+      "EN": "Whassup, rambling man? Looking to drop in at our place, huh?",
+      "JA_current": "どうした、放浪者？ ふらっと立ち寄っただけか？ んん？",
+      "JA_new": "よお、放浪者。うちに寄っていくのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_81#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1542,
+      "string_id": "mil_zoneguard_dialog_81",
+      "occurrence": 1,
+      "EN": "OK, wanna try again? Alright. Question: what is Dotty Strangelove's bra size?",
+      "JA_current": "オーケー、再挑戦したいか？ いいだろう、問題: Dotty Strangelove のブラのサイズは？",
+      "JA_new": "もう一度やってみるか？いいだろう。質問だ。ドッティ・ストレンジラブのブラのサイズは？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "81",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_91#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1545,
+      "string_id": "mil_zoneguard_dialog_91",
+      "occurrence": 1,
+      "EN": "You're a pushy sort! I repeat: what's the capacity of the magazine that goes into the Russian SMG Bizon?",
+      "JA_current": "なんて図々しい奴だ！ 繰り返すぞ： ロシアの SMG、Bizon に装着するマガジンの装弾数は？",
+      "JA_new": "押しが強いな！もう一度聞くぞ。ロシア製サブマシンガン「ビゾン」のマガジン容量は？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "91",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_31#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1392,
+      "string_id": "mil_zoneguard_dialog_31",
+      "occurrence": 1,
+      "EN": "South African swallow!",
+      "JA_current": "南アフリカのツバメだ！",
+      "JA_new": "南アフリカツバメ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "31",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_42#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1404,
+      "string_id": "mil_zoneguard_dialog_42",
+      "occurrence": 1,
+      "EN": "Who is that guy, anyway?",
+      "JA_current": "一体、その男は誰だい？",
+      "JA_new": "あいつは何者なんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "42",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_601#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1425,
+      "string_id": "mil_zoneguard_dialog_601",
+      "occurrence": 1,
+      "EN": "Something like that.",
+      "JA_current": "そんなとこかな。",
+      "JA_new": "まあ、そんなところだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "601",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_6200#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1482,
+      "string_id": "mil_zoneguard_dialog_6200",
+      "occurrence": 1,
+      "EN": "34 C.",
+      "JA_current": "34のCカップ。",
+      "JA_new": "34 C。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "6200",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_6203#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1491,
+      "string_id": "mil_zoneguard_dialog_6203",
+      "occurrence": 1,
+      "EN": "35 D.",
+      "JA_current": "35のDカップ。",
+      "JA_new": "35 D。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "6203",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_6205#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1497,
+      "string_id": "mil_zoneguard_dialog_6205",
+      "occurrence": 1,
+      "EN": "36 DD.",
+      "JA_current": "36のDDカップ。",
+      "JA_new": "36 DD。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "6205",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_6300#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1509,
+      "string_id": "mil_zoneguard_dialog_6300",
+      "occurrence": 1,
+      "EN": "Twenty-five.",
+      "JA_current": "25発だ。",
+      "JA_new": "25。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "6300",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_6301#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1512,
+      "string_id": "mil_zoneguard_dialog_6301",
+      "occurrence": 1,
+      "EN": "Sixty-eight.",
+      "JA_current": "68発だ。",
+      "JA_new": "68。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "6301",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_6302#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1515,
+      "string_id": "mil_zoneguard_dialog_6302",
+      "occurrence": 1,
+      "EN": "Fifty-four.",
+      "JA_current": "44発だ。",
+      "JA_new": "54。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "6302",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_32#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1395,
+      "string_id": "mil_zoneguard_dialog_32",
+      "occurrence": 1,
+      "EN": "Ha-ha! Correct! You can pass.",
+      "JA_current": "ははっ、正解！ 通って良いぞ。",
+      "JA_new": "ははっ、正解だ！通っていいぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "32",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_43#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1407,
+      "string_id": "mil_zoneguard_dialog_43",
+      "occurrence": 1,
+      "EN": "Hell knows. They say he's one of our folks that's been to the village.",
+      "JA_current": "知るかよ。彼らは、村に行ったことがある、彼らのうちの1人であると言ってる。",
+      "JA_new": "さあな。村まで行ったことがある、うちの仲間らしいが。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "43",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_602#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1428,
+      "string_id": "mil_zoneguard_dialog_602",
+      "occurrence": 1,
+      "EN": "How about joining us, eh?",
+      "JA_current": "俺達に加わるのはどうだ？ ん？",
+      "JA_new": "俺たちに加わらないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "602",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_6201#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1485,
+      "string_id": "mil_zoneguard_dialog_6201",
+      "occurrence": 1,
+      "EN": "You're a real idiot. Go fly a kite!",
+      "JA_current": "お前は本当に愚か者だ。おととい来やがれ！",
+      "JA_new": "本当に馬鹿だな。どっか行け！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "6201",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_6206#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1500,
+      "string_id": "mil_zoneguard_dialog_6206",
+      "occurrence": 1,
+      "EN": "Good job! I can tell you're the right kind of man!",
+      "JA_current": "よくやった！ 俺はお前が一人前の漢だと認めるぜ。",
+      "JA_new": "いいね！お前は話が分かる奴だな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "6206",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_6400#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1518,
+      "string_id": "mil_zoneguard_dialog_6400",
+      "occurrence": 1,
+      "EN": "Awesome! I'm liking you more and more... don't get me wrong, not that way!",
+      "JA_current": "素晴らしい！ ますますお前が好きになったぜ… 俺を失望させないでくれよ、道を外すな！",
+      "JA_new": "最高だ！ますます気に入ったぞ……変な意味じゃないからな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "6400",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_44#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1410,
+      "string_id": "mil_zoneguard_dialog_44",
+      "occurrence": 1,
+      "EN": "What village?",
+      "JA_current": "村だって？",
+      "JA_new": "どの村だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "44",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_603#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1431,
+      "string_id": "mil_zoneguard_dialog_603",
+      "occurrence": 1,
+      "EN": "How about not. I'm here on business.",
+      "JA_current": "そんなんじゃない、用事で来たんだ。",
+      "JA_new": "やめておく。用があって来ただけだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "603",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_6202#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1488,
+      "string_id": "mil_zoneguard_dialog_6202",
+      "occurrence": 1,
+      "EN": "Crap.",
+      "JA_current": "畜生。",
+      "JA_new": "ちくしょう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "6202",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_6207#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1503,
+      "string_id": "mil_zoneguard_dialog_6207",
+      "occurrence": 1,
+      "EN": "Yep, I am.",
+      "JA_current": "うん、もちろんその通り。",
+      "JA_new": "ああ、そうだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "6207",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_6401#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1521,
+      "string_id": "mil_zoneguard_dialog_6401",
+      "occurrence": 1,
+      "EN": "Sure.",
+      "JA_current": "もちろんだ。",
+      "JA_new": "いいとも。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "6401",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_45#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1413,
+      "string_id": "mil_zoneguard_dialog_45",
+      "occurrence": 1,
+      "EN": "Well, there is one little hamlet nearby. Full of mutants and anomalies. I haven't been there yet - I only came to this base just recently. Ask Max - he's been here a hundred years.",
+      "JA_current": "ああ、ある小さな村落がこの近くにあるんだ。ミュータントとアノーマリーでいっぱいさ。まだ俺は行ったことがない。俺はつい最近、この基地に来たばかりなんだ。Max に聞きな、あいつは百年間もここに居るんだぜ？",
+      "JA_new": "近くに小さな村がある。ミュータントとアノマリーだらけだ。俺はまだ行ったことがない。この基地に来たばかりでな。マックスに聞いてみろ。ここに百年もいる奴だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "45",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_604#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1434,
+      "string_id": "mil_zoneguard_dialog_604",
+      "occurrence": 1,
+      "EN": "C'mon, join us! It's a lot of fun.",
+      "JA_current": "なあ、俺達と来なよ、楽しいぜ？",
+      "JA_new": "なあ、仲間になれよ！楽しいぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "604",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_6208#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1506,
+      "string_id": "mil_zoneguard_dialog_6208",
+      "occurrence": 1,
+      "EN": "A bit more difficult now! OK... What's the round capacity of a magazine that goes into the Russian sub-machine gun Bizon?",
+      "JA_current": "次は少し難しいぞ、オーケー… ロシアのサブマシンガン、Bizon に装着するマガジンの装弾数はいくつだ？",
+      "JA_new": "今度は少し難しくするぞ！ロシア製サブマシンガン「ビゾン」のマガジンに、弾は何発入る？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "6208",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_6402#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1524,
+      "string_id": "mil_zoneguard_dialog_6402",
+      "occurrence": 1,
+      "EN": "On to the third one! What's the flight speed of a South African swallow?",
+      "JA_current": "3つ目にかかるぞ！ ミナミアフリカツバメの飛行速度は？",
+      "JA_new": "3問目だ！南アフリカツバメの飛行速度は？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "6402",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_605#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1437,
+      "string_id": "mil_zoneguard_dialog_605",
+      "occurrence": 1,
+      "EN": "I'll think about it.",
+      "JA_current": "考えとくよ。",
+      "JA_new": "考えておくよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "605",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_6403#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1527,
+      "string_id": "mil_zoneguard_dialog_6403",
+      "occurrence": 1,
+      "EN": "A South African what?!",
+      "JA_current": "南アフリカの… 何だって！？",
+      "JA_new": "南アフリカの何だって！？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "6403",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_6404#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1530,
+      "string_id": "mil_zoneguard_dialog_6404",
+      "occurrence": 1,
+      "EN": "A Swallow!",
+      "JA_current": "ツバメだ！",
+      "JA_new": "ツバメだ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "6404",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_6405#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1533,
+      "string_id": "mil_zoneguard_dialog_6405",
+      "occurrence": 1,
+      "EN": "How am I supposed to know that?! Do you even have the answer?",
+      "JA_current": "何でそんなことを俺が知ってなきゃならないんだ！？ あんたは、答えを持っているのか？",
+      "JA_new": "そんなの知るわけないだろ！？あんたも答えを知らないんじゃないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "6405",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_6406#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1536,
+      "string_id": "mil_zoneguard_dialog_6406",
+      "occurrence": 1,
+      "EN": "Of course not. That's the thing, I can't seem to solve that puzzle... Well, OK, you can pass.",
+      "JA_current": "とんでもない、こんなもの。俺はこんなパズル解けるとは思えん、よしいいだろう、通って良し。",
+      "JA_new": "もちろん知らない。そこがこの謎の肝なんだ……まあいい、通っていいぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "6406",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_6407#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1539,
+      "string_id": "mil_zoneguard_dialog_6407",
+      "occurrence": 1,
+      "EN": "Whoa, man!",
+      "JA_current": "わお、やったぜ。",
+      "JA_new": "おいおい！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "6407",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_100#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1365,
+      "string_id": "mil_zoneguard_dialog_100",
+      "occurrence": 1,
+      "EN": "Who's the boss around here? I've got business to discuss with him.",
+      "JA_current": "この辺りのボスは誰だ？ 彼と話し合う用事がある。",
+      "JA_new": "ここのボスは誰だ？話がある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "100",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_1000#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1368,
+      "string_id": "mil_zoneguard_dialog_1000",
+      "occurrence": 1,
+      "EN": "Lukash is our leader, you can find him in the main building. But as you enter, make sure to put your piece away - unless you wanna get shot for nothing.",
+      "JA_current": "Lukash が俺たちのリーダーだ。中央の建物にいる。だが入るに当たって、エモノは必ずしまえ。無駄に撃たれたくはないだろう。",
+      "JA_new": "指揮官はルカシュだ。本館にいる。入る時は銃をしまえ。でなきゃ、無駄死にするぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "1000",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_10000#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1371,
+      "string_id": "mil_zoneguard_dialog_10000",
+      "occurrence": 1,
+      "EN": "What for?",
+      "JA_current": "何のため？",
+      "JA_new": "なぜだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "10000",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_100000#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1374,
+      "string_id": "mil_zoneguard_dialog_100000",
+      "occurrence": 1,
+      "EN": "We had some shit happen - once a killer got this close to dropping Lukash. We stopped tolerating any risks after that.",
+      "JA_current": "何度かクソったれな事があった ― 1度ヒットマンが Lukash をハメようと近づいた。その後、俺たちはリスクを冒すのをやめたんだ。",
+      "JA_new": "以前、殺し屋がルカシュを殺しかける事件があった。それ以来、危険は一切見過ごさないことにした。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "100000",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_1000000#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1377,
+      "string_id": "mil_zoneguard_dialog_1000000",
+      "occurrence": 1,
+      "EN": "Got it.",
+      "JA_current": "わかったよ。",
+      "JA_new": "分かった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "1000000",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_10000000#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1380,
+      "string_id": "mil_zoneguard_dialog_10000000",
+      "occurrence": 1,
+      "EN": "OK, you can go.",
+      "JA_current": "オーケー。行ってよし。",
+      "JA_new": "よし、通っていいぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "10000000",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_20#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1383,
+      "string_id": "mil_zoneguard_dialog_20",
+      "occurrence": 1,
+      "EN": "So-so. Keep out, don't bother me.",
+      "JA_current": "まあまあ、入るな。俺を困らせないでくれ。",
+      "JA_new": "まあまあだ。中に入るな。俺に構うな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "20",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_6204#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1494,
+      "string_id": "mil_zoneguard_dialog_6204",
+      "occurrence": 1,
+      "EN": "You're a real idiot. Go take a hike!",
+      "JA_current": "お前は本当に愚か者だ。 おととい来やがれ！",
+      "JA_new": "ほんとに馬鹿だな。失せろ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "6204",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_10#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1362,
+      "string_id": "mil_zoneguard_dialog_10",
+      "occurrence": 1,
+      "EN": "Same to you. What brings you here?\\n",
+      "JA_current": "Same to you. What brings you here?\\n",
+      "JA_new": "こっちもだ。何の用だ？\\n",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_613#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1458,
+      "string_id": "mil_zoneguard_dialog_613",
+      "occurrence": 1,
+      "EN": "Will you tell me?",
+      "JA_current": "教えてくれるか？",
+      "JA_new": "教えてくれるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "613",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_614#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1461,
+      "string_id": "mil_zoneguard_dialog_614",
+      "occurrence": 1,
+      "EN": "Yeah, riiiight.",
+      "JA_current": "ああ、もっっちろん。",
+      "JA_new": "へえ、そうなのか。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "614",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_615#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1464,
+      "string_id": "mil_zoneguard_dialog_615",
+      "occurrence": 1,
+      "EN": "C'mon, please let me in. I can't spend the night out in the fields, can I?",
+      "JA_current": "おおい、頼む、入れてくれ。夜を野外で過ごせないよ、そうしろってか？",
+      "JA_new": "頼むよ、中に入れてくれ。野宿はしたくないだろ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "615",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_617#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1470,
+      "string_id": "mil_zoneguard_dialog_617",
+      "occurrence": 1,
+      "EN": "The test?",
+      "JA_current": "テスト？",
+      "JA_new": "試験だと？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "617",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_612#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1455,
+      "string_id": "mil_zoneguard_dialog_612",
+      "occurrence": 1,
+      "EN": "Twenty-one. Damn, got me again! You're a slick one. OK, so you dunno the password, do you?",
+      "JA_current": "21だ。畜生、また俺を！ お前は狡猾だな。OK、で、あんたはパスワードを知らない、だろ？",
+      "JA_new": "21。ちくしょう、また引っかかった！やるな。じゃあ、合言葉は知らないんだな？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "612",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_611#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1452,
+      "string_id": "mil_zoneguard_dialog_611",
+      "occurrence": 1,
+      "EN": "Hit me.",
+      "JA_current": "撃て！",
+      "JA_new": "かかってこい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "611",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_610#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1449,
+      "string_id": "mil_zoneguard_dialog_610",
+      "occurrence": 1,
+      "EN": "Battleship sunk. Shit, stop tricking me! Got anything else?",
+      "JA_current": "戦艦沈没、くそっ、俺をハメるのをやめろ！ 他には？",
+      "JA_new": "戦艦が沈んだ。くそっ、もう引っかけるなよ！ほかに何かあるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "610",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_609#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1446,
+      "string_id": "mil_zoneguard_dialog_609",
+      "occurrence": 1,
+      "EN": "A-9?",
+      "JA_current": "A-9 ？",
+      "JA_new": "A-9？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "609",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_608#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1443,
+      "string_id": "mil_zoneguard_dialog_608",
+      "occurrence": 1,
+      "EN": "Off target.",
+      "JA_current": "眼中にない。",
+      "JA_new": "外れだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "608",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_607#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1440,
+      "string_id": "mil_zoneguard_dialog_607",
+      "occurrence": 1,
+      "EN": "Talking horse?",
+      "JA_current": "喋る馬？",
+      "JA_new": "しゃべる馬？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "607",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_619#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1476,
+      "string_id": "mil_zoneguard_dialog_619",
+      "occurrence": 1,
+      "EN": "I'm not scared. Go ahead.",
+      "JA_current": "びびっちゃいないぜ。続けろ。",
+      "JA_new": "怖くないぞ。やってみろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "619",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_616#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1467,
+      "string_id": "mil_zoneguard_dialog_616",
+      "occurrence": 1,
+      "EN": "Why not - the weather is fine, almost like summer. Well, alright, if you pass the test - you can go, if not - get lost.",
+      "JA_current": "何故出来ない？ 天気は良い、殆ど夏みたいだが。よしいいだろう、このテストにパスすれば、お前は行って良い、でなければお前の負けだ。",
+      "JA_new": "いいだろう。天気もいいし、ほとんど夏みたいなもんだ。試験に受かれば通してやる。落ちたら失せろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "616",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_618#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1473,
+      "string_id": "mil_zoneguard_dialog_618",
+      "occurrence": 1,
+      "EN": "Sure. Three things every real man has to know.",
+      "JA_current": "そうさ。真の漢が知ってなければならない、3つの事柄。",
+      "JA_new": "いいとも。本物の男なら知っておくべき3つのことだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "618",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_dialog_620#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1479,
+      "string_id": "mil_zoneguard_dialog_620",
+      "occurrence": 1,
+      "EN": "OK, the easiest one first. Ready? Alright, what is Pamela Anderson's bra size?",
+      "JA_current": "オーケー、1番簡単なのが最初だ。用意は良いか？ よし、Pamela Anderson のブラのサイズは？",
+      "JA_new": "よし、まずは一番簡単な質問からだ。準備はいいか？パメラ・アンダーソンのブラのサイズは？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_dialog",
+          "phrase_id": "620",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": null,
+      "next": [
+        "3",
+        "4",
+        "5",
+        "7",
+        "8",
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "mil_zoneguard_dialog_3",
+      "next": [
+        "30"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "mil_zoneguard_talk"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Greetings.",
+      "JA_current": "ごきげんよう。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "mil_zoneguard_dialog_4",
+      "next": [
+        "41"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "mil_zoneguard_talk"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "What's this swamp nearby?",
+      "JA_current": "近くにある、湿地帯は一体？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_4#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "mil_zoneguard_dialog_5",
+      "next": [
+        "51"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "mil_zoneguard_talk"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Listen, where can I stock up on some ammo? Rostok is kind of a long walk from here, I don't feel like going there.",
+      "JA_current": "なあ、俺はどこで弾薬を仕入れることが出来る？ Rostok へはここからは、ちょっと長い散歩だ。俺は行く気がしない。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_5#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": null,
+      "next": [
+        "6"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "mil_zoneguard_talk"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "mil_zoneguard_test1_passed"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "mil_zoneguard_test2_passed"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "8",
+      "text_id": null,
+      "next": [
+        "81"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "mil_zoneguard_test2_passed"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "mil_zoneguard_talk"
+        },
+        {
+          "type": "has_info",
+          "value": "mil_zoneguard_test1_passed"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "9",
+      "text_id": null,
+      "next": [
+        "91"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "mil_zoneguard_talk"
+        },
+        {
+          "type": "has_info",
+          "value": "mil_zoneguard_test2_passed"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "30",
+      "text_id": "mil_zoneguard_dialog_30",
+      "next": [
+        "31"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Halt! Who goes there?!",
+      "JA_current": "止まれ！ 誰が来た！？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_30#1"
+      ]
+    },
+    {
+      "phrase_id": "41",
+      "text_id": "mil_zoneguard_dialog_41",
+      "next": [
+        "42"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "A real radioactive puddle. Better not go near it, or you'll get enough rads to make a third arm grow out of your belly button. There's a character in the middle of this swamp, doesn't let anyone come close. Well, I can sympathize with him: who'd want to mix with idiots? 'Cause a normal person would definitely stay away from there.",
+      "JA_current": "完全に放射能の水たまりさ。腹一杯に放射能を浴びて、臍のボタンを外したくなければ、近づかないに越したことはない。その中央にある者が1人いて、誰も近寄らせない。ああ、俺はあいつにこう感じてるよ、誰が馬鹿と関わりたがる？ まともな人間なら、そんなの確実に敬遠するだろ",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_41#1"
+      ]
+    },
+    {
+      "phrase_id": "51",
+      "text_id": "mil_zoneguard_dialog_51",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Go to the main building and you'll find it on the first floor.",
+      "JA_current": "メインのビルの最初のフロアにあるだろうよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_51#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "mil_zoneguard_dialog_6",
+      "next": [
+        "601"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Whassup, rambling man? Looking to drop in at our place, huh?",
+      "JA_current": "どうした、放浪者？ ふらっと立ち寄っただけか？ んん？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_6#1"
+      ]
+    },
+    {
+      "phrase_id": "81",
+      "text_id": "mil_zoneguard_dialog_81",
+      "next": [
+        "6200",
+        "6203",
+        "6205"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "OK, wanna try again? Alright. Question: what is Dotty Strangelove's bra size?",
+      "JA_current": "オーケー、再挑戦したいか？ いいだろう、問題: Dotty Strangelove のブラのサイズは？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_81#1"
+      ]
+    },
+    {
+      "phrase_id": "91",
+      "text_id": "mil_zoneguard_dialog_91",
+      "next": [
+        "6300",
+        "6301",
+        "6302"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "You're a pushy sort! I repeat: what's the capacity of the magazine that goes into the Russian SMG Bizon?",
+      "JA_current": "なんて図々しい奴だ！ 繰り返すぞ： ロシアの SMG、Bizon に装着するマガジンの装弾数は？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_91#1"
+      ]
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "mil_zoneguard_dialog_31",
+      "next": [
+        "32"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "30"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "South African swallow!",
+      "JA_current": "南アフリカのツバメだ！",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_31#1"
+      ]
+    },
+    {
+      "phrase_id": "42",
+      "text_id": "mil_zoneguard_dialog_42",
+      "next": [
+        "43"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "41"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Who is that guy, anyway?",
+      "JA_current": "一体、その男は誰だい？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_42#1"
+      ]
+    },
+    {
+      "phrase_id": "601",
+      "text_id": "mil_zoneguard_dialog_601",
+      "next": [
+        "602"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Something like that.",
+      "JA_current": "そんなとこかな。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_601#1"
+      ]
+    },
+    {
+      "phrase_id": "6200",
+      "text_id": "mil_zoneguard_dialog_6200",
+      "next": [
+        "6201"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "mil_zoneguard_test1_passed"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "620",
+        "81"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "34 C.",
+      "JA_current": "34のCカップ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_6200#1"
+      ]
+    },
+    {
+      "phrase_id": "6203",
+      "text_id": "mil_zoneguard_dialog_6203",
+      "next": [
+        "6201"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "mil_zoneguard_test1_passed"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "620",
+        "81"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "35 D.",
+      "JA_current": "35のDカップ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_6203#1"
+      ]
+    },
+    {
+      "phrase_id": "6205",
+      "text_id": "mil_zoneguard_dialog_6205",
+      "next": [
+        "6206"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "mil_zoneguard_test1_passed"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "620",
+        "81"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "36 DD.",
+      "JA_current": "36のDDカップ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_6205#1"
+      ]
+    },
+    {
+      "phrase_id": "6300",
+      "text_id": "mil_zoneguard_dialog_6300",
+      "next": [
+        "6201"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "mil_zoneguard_test2_passed"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6208",
+        "91"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Twenty-five.",
+      "JA_current": "25発だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_6300#1"
+      ]
+    },
+    {
+      "phrase_id": "6301",
+      "text_id": "mil_zoneguard_dialog_6301",
+      "next": [
+        "6201"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "mil_zoneguard_test2_passed"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6208",
+        "91"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Sixty-eight.",
+      "JA_current": "68発だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_6301#1"
+      ]
+    },
+    {
+      "phrase_id": "6302",
+      "text_id": "mil_zoneguard_dialog_6302",
+      "next": [
+        "6400"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "mil_zoneguard_test2_passed"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6208",
+        "91"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Fifty-four.",
+      "JA_current": "44発だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_6302#1"
+      ]
+    },
+    {
+      "phrase_id": "32",
+      "text_id": "mil_zoneguard_dialog_32",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Ha-ha! Correct! You can pass.",
+      "JA_current": "ははっ、正解！ 通って良いぞ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_32#1"
+      ]
+    },
+    {
+      "phrase_id": "43",
+      "text_id": "mil_zoneguard_dialog_43",
+      "next": [
+        "44"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "42"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Hell knows. They say he's one of our folks that's been to the village.",
+      "JA_current": "知るかよ。彼らは、村に行ったことがある、彼らのうちの1人であると言ってる。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_43#1"
+      ]
+    },
+    {
+      "phrase_id": "602",
+      "text_id": "mil_zoneguard_dialog_602",
+      "next": [
+        "603"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "601"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "How about joining us, eh?",
+      "JA_current": "俺達に加わるのはどうだ？ ん？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_602#1"
+      ]
+    },
+    {
+      "phrase_id": "6201",
+      "text_id": "mil_zoneguard_dialog_6201",
+      "next": [
+        "6202"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6203",
+        "6301",
+        "6300",
+        "6200"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "You're a real idiot. Go fly a kite!",
+      "JA_current": "お前は本当に愚か者だ。おととい来やがれ！",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_6201#1"
+      ]
+    },
+    {
+      "phrase_id": "6206",
+      "text_id": "mil_zoneguard_dialog_6206",
+      "next": [
+        "6207"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6205"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Good job! I can tell you're the right kind of man!",
+      "JA_current": "よくやった！ 俺はお前が一人前の漢だと認めるぜ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_6206#1"
+      ]
+    },
+    {
+      "phrase_id": "6400",
+      "text_id": "mil_zoneguard_dialog_6400",
+      "next": [
+        "6401"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6302"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Awesome! I'm liking you more and more... don't get me wrong, not that way!",
+      "JA_current": "素晴らしい！ ますますお前が好きになったぜ… 俺を失望させないでくれよ、道を外すな！",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_6400#1"
+      ]
+    },
+    {
+      "phrase_id": "44",
+      "text_id": "mil_zoneguard_dialog_44",
+      "next": [
+        "45"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "43"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "What village?",
+      "JA_current": "村だって？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_44#1"
+      ]
+    },
+    {
+      "phrase_id": "603",
+      "text_id": "mil_zoneguard_dialog_603",
+      "next": [
+        "604"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "602"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "How about not. I'm here on business.",
+      "JA_current": "そんなんじゃない、用事で来たんだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_603#1"
+      ]
+    },
+    {
+      "phrase_id": "6202",
+      "text_id": "mil_zoneguard_dialog_6202",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6201"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Crap.",
+      "JA_current": "畜生。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_6202#1"
+      ]
+    },
+    {
+      "phrase_id": "6207",
+      "text_id": "mil_zoneguard_dialog_6207",
+      "next": [
+        "6208"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6206"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Yep, I am.",
+      "JA_current": "うん、もちろんその通り。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_6207#1"
+      ]
+    },
+    {
+      "phrase_id": "6401",
+      "text_id": "mil_zoneguard_dialog_6401",
+      "next": [
+        "6402"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6400"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Sure.",
+      "JA_current": "もちろんだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_6401#1"
+      ]
+    },
+    {
+      "phrase_id": "45",
+      "text_id": "mil_zoneguard_dialog_45",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "44"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Well, there is one little hamlet nearby. Full of mutants and anomalies. I haven't been there yet - I only came to this base just recently. Ask Max - he's been here a hundred years.",
+      "JA_current": "ああ、ある小さな村落がこの近くにあるんだ。ミュータントとアノーマリーでいっぱいさ。まだ俺は行ったことがない。俺はつい最近、この基地に来たばかりなんだ。Max に聞きな、あいつは百年間もここに居るんだぜ？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_45#1"
+      ]
+    },
+    {
+      "phrase_id": "604",
+      "text_id": "mil_zoneguard_dialog_604",
+      "next": [
+        "605"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "603"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "C'mon, join us! It's a lot of fun.",
+      "JA_current": "なあ、俺達と来なよ、楽しいぜ？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_604#1"
+      ]
+    },
+    {
+      "phrase_id": "6208",
+      "text_id": "mil_zoneguard_dialog_6208",
+      "next": [
+        "6300",
+        "6301",
+        "6302"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6207"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "A bit more difficult now! OK... What's the round capacity of a magazine that goes into the Russian sub-machine gun Bizon?",
+      "JA_current": "次は少し難しいぞ、オーケー… ロシアのサブマシンガン、Bizon に装着するマガジンの装弾数はいくつだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_6208#1"
+      ]
+    },
+    {
+      "phrase_id": "6402",
+      "text_id": "mil_zoneguard_dialog_6402",
+      "next": [
+        "6403"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6401"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "On to the third one! What's the flight speed of a South African swallow?",
+      "JA_current": "3つ目にかかるぞ！ ミナミアフリカツバメの飛行速度は？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_6402#1"
+      ]
+    },
+    {
+      "phrase_id": "605",
+      "text_id": "mil_zoneguard_dialog_605",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "mil_zoneguard_talk"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "604"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'll think about it.",
+      "JA_current": "考えとくよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_605#1"
+      ]
+    },
+    {
+      "phrase_id": "6403",
+      "text_id": "mil_zoneguard_dialog_6403",
+      "next": [
+        "6404"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6402"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "A South African what?!",
+      "JA_current": "南アフリカの… 何だって！？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_6403#1"
+      ]
+    },
+    {
+      "phrase_id": "6404",
+      "text_id": "mil_zoneguard_dialog_6404",
+      "next": [
+        "6405"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6403"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "A Swallow!",
+      "JA_current": "ツバメだ！",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_6404#1"
+      ]
+    },
+    {
+      "phrase_id": "6405",
+      "text_id": "mil_zoneguard_dialog_6405",
+      "next": [
+        "6406"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "mil_zoneguard_talk"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6404"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "How am I supposed to know that?! Do you even have the answer?",
+      "JA_current": "何でそんなことを俺が知ってなきゃならないんだ！？ あんたは、答えを持っているのか？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_6405#1"
+      ]
+    },
+    {
+      "phrase_id": "6406",
+      "text_id": "mil_zoneguard_dialog_6406",
+      "next": [
+        "6407"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6405"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Of course not. That's the thing, I can't seem to solve that puzzle... Well, OK, you can pass.",
+      "JA_current": "とんでもない、こんなもの。俺はこんなパズル解けるとは思えん、よしいいだろう、通って良し。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_6406#1"
+      ]
+    },
+    {
+      "phrase_id": "6407",
+      "text_id": "mil_zoneguard_dialog_6407",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6406"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Whoa, man!",
+      "JA_current": "わお、やったぜ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_6407#1"
+      ]
+    },
+    {
+      "phrase_id": "100",
+      "text_id": "mil_zoneguard_dialog_100",
+      "next": [
+        "1000"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Who's the boss around here? I've got business to discuss with him.",
+      "JA_current": "この辺りのボスは誰だ？ 彼と話し合う用事がある。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_100#1"
+      ]
+    },
+    {
+      "phrase_id": "1000",
+      "text_id": "mil_zoneguard_dialog_1000",
+      "next": [
+        "10000"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "100"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Lukash is our leader, you can find him in the main building. But as you enter, make sure to put your piece away - unless you wanna get shot for nothing.",
+      "JA_current": "Lukash が俺たちのリーダーだ。中央の建物にいる。だが入るに当たって、エモノは必ずしまえ。無駄に撃たれたくはないだろう。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_1000#1"
+      ]
+    },
+    {
+      "phrase_id": "10000",
+      "text_id": "mil_zoneguard_dialog_10000",
+      "next": [
+        "100000"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1000"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "What for?",
+      "JA_current": "何のため？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_10000#1"
+      ]
+    },
+    {
+      "phrase_id": "100000",
+      "text_id": "mil_zoneguard_dialog_100000",
+      "next": [
+        "1000000"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "10000"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "We had some shit happen - once a killer got this close to dropping Lukash. We stopped tolerating any risks after that.",
+      "JA_current": "何度かクソったれな事があった ― 1度ヒットマンが Lukash をハメようと近づいた。その後、俺たちはリスクを冒すのをやめたんだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_100000#1"
+      ]
+    },
+    {
+      "phrase_id": "1000000",
+      "text_id": "mil_zoneguard_dialog_1000000",
+      "next": [
+        "10000000"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "100000"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Got it.",
+      "JA_current": "わかったよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_1000000#1"
+      ]
+    },
+    {
+      "phrase_id": "10000000",
+      "text_id": "mil_zoneguard_dialog_10000000",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1000000"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "OK, you can go.",
+      "JA_current": "オーケー。行ってよし。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_10000000#1"
+      ]
+    },
+    {
+      "phrase_id": "20",
+      "text_id": "mil_zoneguard_dialog_20",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "So-so. Keep out, don't bother me.",
+      "JA_current": "まあまあ、入るな。俺を困らせないでくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_20#1"
+      ]
+    },
+    {
+      "phrase_id": "6204",
+      "text_id": "mil_zoneguard_dialog_6204",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "You're a real idiot. Go take a hike!",
+      "JA_current": "お前は本当に愚か者だ。 おととい来やがれ！",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_6204#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "mil_zoneguard_dialog_10",
+      "next": [
+        "100"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Same to you. What brings you here?\\n",
+      "JA_current": "Same to you. What brings you here?\\n",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_10#1"
+      ]
+    },
+    {
+      "phrase_id": "613",
+      "text_id": "mil_zoneguard_dialog_613",
+      "next": [
+        "614"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "612"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Will you tell me?",
+      "JA_current": "教えてくれるか？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_613#1"
+      ]
+    },
+    {
+      "phrase_id": "614",
+      "text_id": "mil_zoneguard_dialog_614",
+      "next": [
+        "615"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "613"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Yeah, riiiight.",
+      "JA_current": "ああ、もっっちろん。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_614#1"
+      ]
+    },
+    {
+      "phrase_id": "615",
+      "text_id": "mil_zoneguard_dialog_615",
+      "next": [
+        "616"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "614"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "C'mon, please let me in. I can't spend the night out in the fields, can I?",
+      "JA_current": "おおい、頼む、入れてくれ。夜を野外で過ごせないよ、そうしろってか？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_615#1"
+      ]
+    },
+    {
+      "phrase_id": "617",
+      "text_id": "mil_zoneguard_dialog_617",
+      "next": [
+        "618"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "616"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "The test?",
+      "JA_current": "テスト？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_617#1"
+      ]
+    },
+    {
+      "phrase_id": "612",
+      "text_id": "mil_zoneguard_dialog_612",
+      "next": [
+        "613"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "611"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Twenty-one. Damn, got me again! You're a slick one. OK, so you dunno the password, do you?",
+      "JA_current": "21だ。畜生、また俺を！ お前は狡猾だな。OK、で、あんたはパスワードを知らない、だろ？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_612#1"
+      ]
+    },
+    {
+      "phrase_id": "611",
+      "text_id": "mil_zoneguard_dialog_611",
+      "next": [
+        "612"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "610"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Hit me.",
+      "JA_current": "撃て！",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_611#1"
+      ]
+    },
+    {
+      "phrase_id": "610",
+      "text_id": "mil_zoneguard_dialog_610",
+      "next": [
+        "611"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "609"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Battleship sunk. Shit, stop tricking me! Got anything else?",
+      "JA_current": "戦艦沈没、くそっ、俺をハメるのをやめろ！ 他には？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_610#1"
+      ]
+    },
+    {
+      "phrase_id": "609",
+      "text_id": "mil_zoneguard_dialog_609",
+      "next": [
+        "610"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "608"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "A-9?",
+      "JA_current": "A-9 ？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_609#1"
+      ]
+    },
+    {
+      "phrase_id": "608",
+      "text_id": "mil_zoneguard_dialog_608",
+      "next": [
+        "609"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "607"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Off target.",
+      "JA_current": "眼中にない。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_608#1"
+      ]
+    },
+    {
+      "phrase_id": "607",
+      "text_id": "mil_zoneguard_dialog_607",
+      "next": [
+        "608"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Talking horse?",
+      "JA_current": "喋る馬？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_607#1"
+      ]
+    },
+    {
+      "phrase_id": "619",
+      "text_id": "mil_zoneguard_dialog_619",
+      "next": [
+        "620"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "618"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'm not scared. Go ahead.",
+      "JA_current": "びびっちゃいないぜ。続けろ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_619#1"
+      ]
+    },
+    {
+      "phrase_id": "616",
+      "text_id": "mil_zoneguard_dialog_616",
+      "next": [
+        "617"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "615"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Why not - the weather is fine, almost like summer. Well, alright, if you pass the test - you can go, if not - get lost.",
+      "JA_current": "何故出来ない？ 天気は良い、殆ど夏みたいだが。よしいいだろう、このテストにパスすれば、お前は行って良い、でなければお前の負けだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_616#1"
+      ]
+    },
+    {
+      "phrase_id": "618",
+      "text_id": "mil_zoneguard_dialog_618",
+      "next": [
+        "619"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "617"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Sure. Three things every real man has to know.",
+      "JA_current": "そうさ。真の漢が知ってなければならない、3つの事柄。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_618#1"
+      ]
+    },
+    {
+      "phrase_id": "620",
+      "text_id": "mil_zoneguard_dialog_620",
+      "next": [
+        "6200",
+        "6203",
+        "6205"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "619"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "OK, the easiest one first. Ready? Alright, what is Pamela Anderson's bra size?",
+      "JA_current": "オーケー、1番簡単なのが最初だ。用意は良いか？ よし、Pamela Anderson のブラのサイズは？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_dialog_620#1"
+      ]
+    }
+  ]
+}

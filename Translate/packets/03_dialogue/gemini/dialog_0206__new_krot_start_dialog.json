@@ -1,0 +1,406 @@
+{
+  "packet_id": "dialog_0206__new_krot_start_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "new_krot_start_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "new_krot",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "new_krot_map"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "new_krot_reward"
+    }
+  ],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 8,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:new_krot_start_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3118,
+      "string_id": "new_krot_start_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Hey! It's you! Thanks again for the help with those jarheads, I owe you! How did things work out down in the catacombs? Found anything?",
+      "JA_current": "おい！ あんたじゃないか！ あの時は軍の連中を蹴散らすのを手伝ってくれて本当に助かった、恩に着るぜ！ 地下のカタコンベはどうだった？ 何か見つかったかい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "new_krot_start_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:new_krot_start_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3121,
+      "string_id": "new_krot_start_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Hey, it's no problem, I'm glad you made it. As for me, let's just say I found more questions than answers, and leave it there.",
+      "JA_current": "気にするな、無事で何よりだ。俺のほうは……答えよりも謎が増えた、とだけ言っておこう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "new_krot_start_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:new_krot_start_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3124,
+      "string_id": "new_krot_start_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "I know what that's like... Anyway, if it weren't for you, I probably wouldn't be here right now. So, take this, from me:",
+      "JA_current": "よく分かるよ……何にせよ、あんたがいなきゃ俺はとっくにあの世行きだった。だからこれを受け取ってくれ、俺からの礼だ：",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "new_krot_start_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:new_krot_start_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3127,
+      "string_id": "new_krot_start_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Thank you. So, what's brought you to these parts?",
+      "JA_current": "ありがたく受け取っておく。ところで、こんな場所まで何しに来たんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "new_krot_start_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:new_krot_start_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3130,
+      "string_id": "new_krot_start_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "I'm here to rest up a while and lick my wounds, drink to my fallen friends... I have a lot of planning to do regarding some unfinished business as well, just thinking how to approach it.",
+      "JA_current": "しばらく羽を休めて傷を癒し、散っていった仲間に酒を捧げようと思ってね……片付けなきゃならん仕事も山積みだし、どう手をつけたものか思案中だったのさ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "new_krot_start_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:new_krot_start_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3133,
+      "string_id": "new_krot_start_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "What's the business, if it's not a secret?",
+      "JA_current": "差し支えなければ、どんな仕事か聞かせてくれないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "new_krot_start_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:new_krot_start_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3136,
+      "string_id": "new_krot_start_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "To you, no secret at all. Actually, perhaps you could help? Not sure if you were aware, but me and my crew of diggers are treasure hunters of sorts, we make our living by scoping out valuables in hard to reach places. We got a fix on several high value caches from some veteran stalker some time ago, one of them was actually Strelok's stash beneath Agroprom. We were about to nab it when the military sent a hit squad after us, that's when you came in to save the day. The army doesn't like anyone going into the catacombs you see, especially not large organized groups of stalkers. Guess we should've been more cautious about gathering in the open.. Anyway, once you went down there, me and my men scattered in all directions and it'll be a while before we regroup, depending on who survived. So, long story short, I'm sitting on a large number of caches and I am not in a state to go fetch them alone. Don't suppose you could go and check those locations out? You find anything out there, we can split 50-50.",
+      "JA_current": "あんたになら隠すことなんかないさ。むしろ力を貸してほしいくらいだ。知っての通り、俺と仲間のディガーズ（穴掘り屋）は一種のトレジャーハンターでね、容易には手の届かない場所から貴重品を掘り出して生計を立てている。少し前、あるベテランストーカーから値打ちのある隠し場所の情報をいくつか仕入れたんだ。アフロプロムの地下にあったストレロクの隠し場所もその一つだった。あそこを回収しようとした矢先に軍の部隊に急襲され、そこへあんたが駆けつけてくれたわけだ。軍はカタコンベに人を近づけたがらない、特にストーカーのまとまった集団となれば目の敵にしてくる。白昼堂々集まったのは軽率だったよ……あんたが地下へ降りた後、俺たちは四方八方に散り散りになった。生き残りを再集結させるにはまだ時間がかかる。要するに、手元に隠し場所の情報は山ほどあるのに、一人じゃ回収に行けない状態なんだ。代わりにその場所を回ってきてくれないか？ 見つけた獲物は山分け、五分五分でどうだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "new_krot_start_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:new_krot_start_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3139,
+      "string_id": "new_krot_start_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "All right, send me that information, and we'll see what's there.",
+      "JA_current": "いいだろう、情報を送ってくれ。何があるか見てこよう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "new_krot_start_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "new_krot_start_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey! It's you! Thanks again for the help with those jarheads, I owe you! How did things work out down in the catacombs? Found anything?",
+      "JA_current": "Hey! It's you! Thanks again for the help with those jarheads, I owe you! How did things work out down in the catacombs? Found anything?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:new_krot_start_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "new_krot_start_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, it's no problem, I'm glad you made it. As for me, let's just say I found more questions than answers, and leave it there.",
+      "JA_current": "Hey, it's no problem, I'm glad you made it. As for me, let's just say I found more questions than answers, and leave it there.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:new_krot_start_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "new_krot_start_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.new_krot_nagrada"
+        },
+        {
+          "type": "give_info",
+          "value": "new_krot_reward"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I know what that's like... Anyway, if it weren't for you, I probably wouldn't be here right now. So, take this, from me:",
+      "JA_current": "I know what that's like... Anyway, if it weren't for you, I probably wouldn't be here right now. So, take this, from me:",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:new_krot_start_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "new_krot_start_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you. So, what's brought you to these parts?",
+      "JA_current": "Thank you. So, what's brought you to these parts?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:new_krot_start_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "new_krot_start_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm here to rest up a while and lick my wounds, drink to my fallen friends... I have a lot of planning to do regarding some unfinished business as well, just thinking how to approach it.",
+      "JA_current": "I'm here to rest up a while and lick my wounds, drink to my fallen friends... I have a lot of planning to do regarding some unfinished business as well, just thinking how to approach it.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:new_krot_start_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "new_krot_start_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What's the business, if it's not a secret?",
+      "JA_current": "What's the business, if it's not a secret?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:new_krot_start_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "new_krot_start_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "To you, no secret at all. Actually, perhaps you could help? Not sure if you were aware, but me and my crew of diggers are treasure hunters of sorts, we make our living by scoping out valuables in hard to reach places. We got a fix on several high value caches from some veteran stalker some time ago, one of them was actually Strelok's stash beneath Agroprom. We were about to nab it when the military sent a hit squad after us, that's when you came in to save the day. The army doesn't like anyone going into the catacombs you see, especially not large organized groups of stalkers. Guess we should've been more cautious about gathering in the open.. Anyway, once you went down there, me and my men scattered in all directions and it'll be a while before we regroup, depending on who survived. So, long story short, I'm sitting on a large number of caches and I am not in a state to go fetch them alone. Don't suppose you could go and check those locations out? You find anything out there, we can split 50-50.",
+      "JA_current": "To you, no secret at all. Actually, perhaps you could help? Not sure if you were aware, but me and my crew of diggers are treasure hunters of sorts, we make our living by scoping out valuables in hard to reach places. We got a fix on several high value caches from some veteran stalker some time ago, one of them was actually Strelok's stash beneath Agroprom. We were about to nab it when the military sent a hit squad after us, that's when you came in to save the day. The army doesn't like anyone going into the catacombs you see, especially not large organized groups of stalkers. Guess we should've been more cautious about gathering in the open.. Anyway, once you went down there, me and my men scattered in all directions and it'll be a while before we regroup, depending on who survived. So, long story short, I'm sitting on a large number of caches and I am not in a state to go fetch them alone. Don't suppose you could go and check those locations out? You find anything out there, we can split 50-50.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:new_krot_start_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "new_krot_start_dialog_phrase_8",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.spawn_krot_shron_1"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.spawn_krot_shron_2"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.spawn_krot_shron_3"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.spawn_krot_shron_4"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.spawn_krot_shron_5"
+        },
+        {
+          "type": "give_info",
+          "value": "new_krot_shron_1"
+        },
+        {
+          "type": "give_info",
+          "value": "new_krot_shron_2"
+        },
+        {
+          "type": "give_info",
+          "value": "new_krot_shron_3"
+        },
+        {
+          "type": "give_info",
+          "value": "new_krot_shron_4"
+        },
+        {
+          "type": "give_info",
+          "value": "new_krot_shron_5"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All right, send me that information, and we'll see what's there.",
+      "JA_current": "All right, send me that information, and we'll see what's there.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:new_krot_start_dialog_phrase_8#1"
+      ]
+    }
+  ]
+}

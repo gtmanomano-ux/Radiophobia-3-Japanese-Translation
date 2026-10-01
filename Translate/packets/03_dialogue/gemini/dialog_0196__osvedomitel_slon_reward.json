@@ -1,0 +1,284 @@
+{
+  "packet_id": "dialog_0196__osvedomitel_slon_reward",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "osvedomitel_slon_reward",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "informator_arts_task"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "informator_arts_have"
+    },
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.informator_arts_have"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 6,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:osvedomitel_slon_reward_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2825,
+      "string_id": "osvedomitel_slon_reward_phrase_1",
+      "occurrence": 1,
+      "EN": "I found those artifacts you asked for, here they are.",
+      "JA_current": "頼まれていたアーティファクトを持ってきたぞ、これだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_slon_reward",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:osvedomitel_slon_reward_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2828,
+      "string_id": "osvedomitel_slon_reward_phrase_2",
+      "occurrence": 1,
+      "EN": "Well done, it's obvious that you're a stalker, not a fucking looter!",
+      "JA_current": "上出来だ！ どこぞのコソ泥野郎とは違って、お前はれっきとした本物のストーカーだな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_slon_reward",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:osvedomitel_slon_reward_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2831,
+      "string_id": "osvedomitel_slon_reward_phrase_3",
+      "occurrence": 1,
+      "EN": "Now I need information about the burglar.",
+      "JA_current": "さて、あの泥棒の情報を教えてもらおうか。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_slon_reward",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:osvedomitel_slon_reward_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2834,
+      "string_id": "osvedomitel_slon_reward_phrase_4",
+      "occurrence": 1,
+      "EN": "Three days before you came to me with your request, I saw the stalker you described at the bar. How am I sure it was him? Let me explain: this tramp kept telling me that he had just come from Yantar. Then he goes and slips on his own protective cape that he was wearing, just as you described, I give 99 percent chance that it was him! Not many capes of that particular type around here, what are the odds. When I started digging around for you, I discovered he was recently seen at Cordon, somewhere between the vehicle compound and the farm. If you hurry, maybe you can still catch him out that way.",
+      "JA_current": "お前が頼みに来る3日前、その特徴にぴったりなストーカーをこのバーで見かけたぜ。なぜそいつだと断言できるかって？ わけを話してやろう。そいつはヤンターから戻ったばかりだとくだを巻いててな。その挙句、着ていた防護マントの裾を踏んづけてすっ転びやがったのさ。お前が言ってた特徴そのまんまだろ。99パーセントそいつで間違いねえ！ あんな仕立てのマントを羽織ってる奴なんざそうそういねえし、偶然にしちゃ出来すぎだ。お前のために裏を取ってみたら、最近コルドンの車両置き場と農場の中間あたりで目撃されたらしい。急げば、まだあの辺で捕まえられるかもしれねえぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_slon_reward",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:osvedomitel_slon_reward_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2837,
+      "string_id": "osvedomitel_slon_reward_phrase_5",
+      "occurrence": 1,
+      "EN": "Great, thank you! What's his nickname, do you know?",
+      "JA_current": "助かった、恩に着る！ 通称は何て言うんだ、知ってるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_slon_reward",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:osvedomitel_slon_reward_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2840,
+      "string_id": "osvedomitel_slon_reward_phrase_6",
+      "occurrence": 1,
+      "EN": "They call him Lekha the Elephant.",
+      "JA_current": "連中は奴を『レーハ・エレファント』と呼んでるぜ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_slon_reward",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "osvedomitel_slon_reward_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.informator_arts_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I found those artifacts you asked for, here they are.",
+      "JA_current": "I found those artifacts you asked for, here they are.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_slon_reward_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "osvedomitel_slon_reward_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Well done, it's obvious that you're a stalker, not a fucking looter!",
+      "JA_current": "Well done, it's obvious that you're a stalker, not a fucking looter!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_slon_reward_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "osvedomitel_slon_reward_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Now I need information about the burglar.",
+      "JA_current": "Now I need information about the burglar.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_slon_reward_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "osvedomitel_slon_reward_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Three days before you came to me with your request, I saw the stalker you described at the bar. How am I sure it was him? Let me explain: this tramp kept telling me that he had just come from Yantar. Then he goes and slips on his own protective cape that he was wearing, just as you described, I give 99 percent chance that it was him! Not many capes of that particular type around here, what are the odds. When I started digging around for you, I discovered he was recently seen at Cordon, somewhere between the vehicle compound and the farm. If you hurry, maybe you can still catch him out that way.",
+      "JA_current": "Three days before you came to me with your request, I saw the stalker you described at the bar. How am I sure it was him? Let me explain: this tramp kept telling me that he had just come from Yantar. Then he goes and slips on his own protective cape that he was wearing, just as you described, I give 99 percent chance that it was him! Not many capes of that particular type around here, what are the odds. When I started digging around for you, I discovered he was recently seen at Cordon, somewhere between the vehicle compound and the farm. If you hurry, maybe you can still catch him out that way.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_slon_reward_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "osvedomitel_slon_reward_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "informator_arts_have"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Great, thank you! What's his nickname, do you know?",
+      "JA_current": "Great, thank you! What's his nickname, do you know?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_slon_reward_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "osvedomitel_slon_reward_phrase_6",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "They call him Lekha the Elephant.",
+      "JA_current": "They call him Lekha the Elephant.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_slon_reward_phrase_6#1"
+      ]
+    }
+  ]
+}

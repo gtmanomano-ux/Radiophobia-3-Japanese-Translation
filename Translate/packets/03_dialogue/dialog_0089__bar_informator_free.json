@@ -1,0 +1,431 @@
+{
+  "packet_id": "dialog_0089__bar_informator_free",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_informator_free",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_bar_osvedomitel",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "community_relation.bad_relation_freedom"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 7,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_informator_free_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 135,
+      "string_id": "bar_informator_free_1",
+      "occurrence": 1,
+      "EN": "Don't suppose you could help me clear my name with the Freedom faction? I'm sick and tired of dodging their gunfire.",
+      "JA_current": "Don't suppose you could help me clear my name with the Freedom faction? I'm sick and tired of dodging their gunfire.",
+      "JA_new": "フリーダムとの関係を取り持ってもらえないか？ もう撃たれるのを避け続けるのはうんざりだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_informator_free",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_informator_free_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 141,
+      "string_id": "bar_informator_free_2",
+      "occurrence": 1,
+      "EN": "Ermm, sure, I could help, I guess. I don't think you've pissed them off too much, I haven't had any bounties sent to me by my guy over there. Tell you what, gimme 10,000 rubles and I'll put in a good word for you with the leadership, they'll tell the lads to look the other way. ",
+      "JA_current": "Ermm, sure, I could help, I guess. I don't think you've pissed them off too much, I haven't had any bounties sent to me by my guy over there. Tell you what, gimme 10,000 rubles and I'll put in a good word for you with the leadership, they'll tell the lads to look the other way. ",
+      "JA_new": "ええと、まあ、できなくはないが……そこまで怒らせたわけでもなさそうだ。向こうの知り合いから懸賞金の話は来てない。こうしよう。1万ルーブルくれれば、上の連中に口を利いてやる。部下には見逃すよう言ってくれるはずだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_informator_free",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_informator_free_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 144,
+      "string_id": "bar_informator_free_3",
+      "occurrence": 1,
+      "EN": "Yeah, I hear you've marked yourself quite a lot, they sent feelers out for you to see your movements, my guess is they'll lay an ambush and waste you when you least expect it. This situation is gonna require a few favors on my part so it's gonna be pricey to cover my end. I promise to settle everything for 30,000 rubles. Take it or leave it.",
+      "JA_current": "Yeah, I hear you've marked yourself quite a lot, they sent feelers out for you to see your movements, my guess is they'll lay an ambush and waste you when you least expect it. This situation is gonna require a few favors on my part so it's gonna be pricey to cover my end. I promise to settle everything for 30,000 rubles. Take it or leave it.",
+      "JA_new": "ああ、相当恨まれてるらしいな。向こうはお前の動きを探ってる。油断したところを待ち伏せして、仕留めるつもりだろう。こっちも色々手を回さなきゃならないから高くつくぞ。3万ルーブルで全部片づけてやる。どうする？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_informator_free",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_informator_free_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 147,
+      "string_id": "bar_informator_free_4",
+      "occurrence": 1,
+      "EN": "Ahh, so it's you they're searching for! Yikes, you made quite the mess out there, Freedom has every gunner out searching for you with kill on sight executive orders, and they're usually peace loving teddy bears, so whatever you did was big! Alright, look, I think I know just the people that need to be paid off to stop thinking about you so much, of-course some of those fellas are gonna remember you, I'd try to be careful around them in the future. Paying them all off is gonna cost a fortune though, they'll all want a fat stack as compensation. I'm thinking something in the range of 80,000 rubles will cover my end and satisfy the Freedom seniors. What do you say?",
+      "JA_current": "Ahh, so it's you they're searching for! Yikes, you made quite the mess out there, Freedom has every gunner out searching for you with kill on sight executive orders, and they're usually peace loving teddy bears, so whatever you did was big! Alright, look, I think I know just the people that need to be paid off to stop thinking about you so much, of-course some of those fellas are gonna remember you, I'd try to be careful around them in the future. Paying them all off is gonna cost a fortune though, they'll all want a fat stack as compensation. I'm thinking something in the range of 80,000 rubles will cover my end and satisfy the Freedom seniors. What do you say?",
+      "JA_new": "ああ、お前が探されてるのか！ こりゃ参ったな。フリーダムは射殺命令まで出して、総出でお前を捜してる。普段は平和主義の連中なのに、よっぽどのことをしたんだな。よし、話をつけられそうな相手には心当たりがある。だが中にはお前を覚えてる奴もいるだろうから、今後は気をつけろよ。全員に口止めするとなると大金が要る。俺の手間賃込みで8万ルーブルってところだ。どうする？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_informator_free",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_informator_free_7_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 138,
+      "string_id": "bar_informator_free_7_1",
+      "occurrence": 1,
+      "EN": "Alas, at the moment, I can't help you.",
+      "JA_current": "Alas, at the moment, I can't help you.",
+      "JA_new": "悪いが、今は力になれない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_informator_free",
+          "phrase_id": "7_1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_informator_free_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 150,
+      "string_id": "bar_informator_free_5",
+      "occurrence": 1,
+      "EN": "Yes, whatever, do whatever it takes. Here's the cash.",
+      "JA_current": "Yes, whatever, do whatever it takes. Here's the cash.",
+      "JA_new": "ああ、わかった。必要なことは何でもやってくれ。ほら、金だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_informator_free",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "bar_informator_free",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "bar_informator_free",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_informator_free_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 153,
+      "string_id": "bar_informator_free_6",
+      "occurrence": 1,
+      "EN": "Fuck those Freedomers! They aren't worth that much.",
+      "JA_current": "Fuck those Freedomers! They aren't worth that much.",
+      "JA_new": "あんなフリーダム野郎どもに払う金なんかない！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_informator_free",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bar_informator_free_1",
+      "next": [
+        "1",
+        "2",
+        "3",
+        "7_1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Don't suppose you could help me clear my name with the Freedom faction? I'm sick and tired of dodging their gunfire.",
+      "JA_current": "Don't suppose you could help me clear my name with the Freedom faction? I'm sick and tired of dodging their gunfire.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_informator_free_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "bar_informator_free_2",
+      "next": [
+        "4",
+        "7"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.bad_relation_freedom_10000"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Ermm, sure, I could help, I guess. I don't think you've pissed them off too much, I haven't had any bounties sent to me by my guy over there. Tell you what, gimme 10,000 rubles and I'll put in a good word for you with the leadership, they'll tell the lads to look the other way. ",
+      "JA_current": "Ermm, sure, I could help, I guess. I don't think you've pissed them off too much, I haven't had any bounties sent to me by my guy over there. Tell you what, gimme 10,000 rubles and I'll put in a good word for you with the leadership, they'll tell the lads to look the other way. ",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_informator_free_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "bar_informator_free_3",
+      "next": [
+        "5",
+        "7"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.bad_relation_freedom_30000"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, I hear you've marked yourself quite a lot, they sent feelers out for you to see your movements, my guess is they'll lay an ambush and waste you when you least expect it. This situation is gonna require a few favors on my part so it's gonna be pricey to cover my end. I promise to settle everything for 30,000 rubles. Take it or leave it.",
+      "JA_current": "Yeah, I hear you've marked yourself quite a lot, they sent feelers out for you to see your movements, my guess is they'll lay an ambush and waste you when you least expect it. This situation is gonna require a few favors on my part so it's gonna be pricey to cover my end. I promise to settle everything for 30,000 rubles. Take it or leave it.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_informator_free_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "bar_informator_free_4",
+      "next": [
+        "6",
+        "7"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.bad_relation_freedom_80000"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Ahh, so it's you they're searching for! Yikes, you made quite the mess out there, Freedom has every gunner out searching for you with kill on sight executive orders, and they're usually peace loving teddy bears, so whatever you did was big! Alright, look, I think I know just the people that need to be paid off to stop thinking about you so much, of-course some of those fellas are gonna remember you, I'd try to be careful around them in the future. Paying them all off is gonna cost a fortune though, they'll all want a fat stack as compensation. I'm thinking something in the range of 80,000 rubles will cover my end and satisfy the Freedom seniors. What do you say?",
+      "JA_current": "Ahh, so it's you they're searching for! Yikes, you made quite the mess out there, Freedom has every gunner out searching for you with kill on sight executive orders, and they're usually peace loving teddy bears, so whatever you did was big! Alright, look, I think I know just the people that need to be paid off to stop thinking about you so much, of-course some of those fellas are gonna remember you, I'd try to be careful around them in the future. Paying them all off is gonna cost a fortune though, they'll all want a fat stack as compensation. I'm thinking something in the range of 80,000 rubles will cover my end and satisfy the Freedom seniors. What do you say?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_informator_free_4#1"
+      ]
+    },
+    {
+      "phrase_id": "7_1",
+      "text_id": "bar_informator_free_7_1",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Alas, at the moment, I can't help you.",
+      "JA_current": "Alas, at the moment, I can't help you.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_informator_free_7_1#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "bar_informator_free_5",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.has_10000"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "community_relation.relocate_10000"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.repair_relation_freedom"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, whatever, do whatever it takes. Here's the cash.",
+      "JA_current": "Yes, whatever, do whatever it takes. Here's the cash.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_informator_free_5#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "bar_informator_free_6",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1",
+        "2",
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Fuck those Freedomers! They aren't worth that much.",
+      "JA_current": "Fuck those Freedomers! They aren't worth that much.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_informator_free_6#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "bar_informator_free_5",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.has_30000"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "community_relation.relocate_30000"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.repair_relation_freedom"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, whatever, do whatever it takes. Here's the cash.",
+      "JA_current": "Yes, whatever, do whatever it takes. Here's the cash.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_informator_free_5#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "bar_informator_free_5",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.has_10000"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "community_relation.relocate_80000"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.repair_relation_freedom"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, whatever, do whatever it takes. Here's the cash.",
+      "JA_current": "Yes, whatever, do whatever it takes. Here's the cash.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_informator_free_5#1"
+      ]
+    }
+  ]
+}

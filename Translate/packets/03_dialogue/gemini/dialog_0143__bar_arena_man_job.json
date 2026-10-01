@@ -1,0 +1,1237 @@
+{
+  "packet_id": "dialog_0143__bar_arena_man_job",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_arena_man_job",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_arena_manager",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "bar_arena_pause"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "bar_arena_fight_8_done"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "bar_arena_rank_false"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 25,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_0#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 174,
+      "string_id": "bar_arena_man_job_0",
+      "occurrence": 1,
+      "EN": "Go on...",
+      "JA_current": "続けてくれ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 177,
+      "string_id": "bar_arena_man_job_11",
+      "occurrence": 1,
+      "EN": "So, your first fight? Your opponent is a piece of meat just like you. He's here because of debts and he only has two options: to come out and fight or to land himself in the nearest anomaly. He's gonna fight like a cornered animal. Equipment for today... lemme think... OK! Why don't you two use PMm's...two mags each should be plenty. Either you kick his arse or we feed you to the dogs - not much of a choice. Go on now.",
+      "JA_current": "で、初戦だな？ 相手はお前と同じ、ただの肉切れみたいなもんだ。借金で首が回らなくなってここへ送られてきた。あいつに選べる道は二つだけ……出てきて戦うか、近くのアノマリーに放り込まれるかだ。追い詰められた獣みたいに死に物狂いで向かってくるぞ。今日の得物は……そうだな……よし！ 二人ともPMmを使え……弾倉は2本ずつで十分だろ。相手を叩きのめすか、お前が犬の餌になるか……好きな方を選びな。さあ行け。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_12#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 186,
+      "string_id": "bar_arena_man_job_12",
+      "occurrence": 1,
+      "EN": "Your last fight didn't mean shit. You're still the same piece of meat you were before and no self-respecting person will bet a single mag on you. If you wanna earn some proper cash you're gonna have to make a few more appearances in the arena. Your new opponent also got through the first round and his fight was a lot harder than yours. I don't like him, to be honest - he kills too quickly and the crowd doesn't like that. So, go and show us what you can do! The stakes will increase after this fight - all you gotta do is stay alive. Move it!",
+      "JA_current": "前回の勝ちなんざ何の自慢にもならん。お前はまだただの肉切れのままだし、まともな奴なら弾倉1本すらお前に賭けやしない。しっかり稼ぎたいなら、あと何回かアリーナに上がって結果を出すんだな。今度の相手も1回戦を勝ち上がってきたが、お前の試合より遥かに過酷だったぞ。正直、俺はあいつが気に入らねえ……あまりに早く相手を殺しすぎるせいで、客のウケが最悪なんだ。だから行って、お前の力を見せてやれ！ この試合を越えれば掛け金も跳ね上がる……生き残りさえすりゃいいんだ。さっさと行け！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_13#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 195,
+      "string_id": "bar_arena_man_job_13",
+      "occurrence": 1,
+      "EN": "Well, well... You're not as much of a pussy as you first seemed. Now it's time to test you out in a real fight. You're up against two guys. The first one's called Swede and I don't remember the second one's name. They were paired up intentionally as they hate each other's guts so don't worry about them working as a team - they're more likely to shoot each other. Today is rifle day so don't let them get too close or we'll have to pick you up piece by piece. The odds are 10:1 so if you win you'll make a fair amount. Off you go!",
+      "JA_current": "ほう……最初に見かけた時よりは骨があるようだな。さて、そろそろ本物の戦いを試してやる番だ。相手は2人だ。1人目は「スウェード」って奴で、もう1人の名前は忘れた。互いに反吐が出るほど憎み合ってる連中だから、わざと組ませてやったんだ。連携してくる心配はねえ、むしろ同士討ちを始めるかもしれん。今日はライフル戦だ。あまり接近させるなよ、後でお前の肉片を一つずつ拾い集める羽目になりたくないからな。オッズは10倍だ。勝てばかなりの稼ぎになるぞ。行ってこい！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_14#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 204,
+      "string_id": "bar_arena_man_job_14",
+      "occurrence": 1,
+      "EN": "Well, now I can safely say that you're a fighter, a real fighter. Now it's time for a team fight. You get to fight with two rookies - two brothers - on your side. They haven't fought yet but they're brothers, so I had to put them into a team fight. I wouldn't expect any real help from them if I were you. You're fighting an experienced team, they're contenders for the final this season. A dangerous lot. They use different weapons but one has an automatic shotgun - be very careful with him. Good luck, pal... you're gonna need it.",
+      "JA_current": "よし、これならお前を本物の戦士と呼んでも誰も文句は言わねえな。次はチーム戦だ。新米2人……兄弟同士とチームを組んでもらう。まだ実戦経験はないが、兄弟だってんでチーム戦にねじ込んでやった。俺がお前なら、奴らの援護はあてにしねえがな。相手は経験豊富なベテランチームで、今シーズンの決勝候補だ。かなり危険な連中だぞ。それぞれ違う武器を使うが、1人がオートマチック・ショットガンを持ってる。そいつには特に気をつけろ。幸運を祈るぜ、相棒……お前には運が必要だろうからな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_15#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 213,
+      "string_id": "bar_arena_man_job_15",
+      "occurrence": 1,
+      "EN": "You've got a special fight today. Even the army has heard about you! Don't be surprised, they fight here too - there's even a general in the crowd. These guys are from the Spetsnaz or from OMON. They're well armed and their armor is good as you'd expect. Don't worry though, I ain't gonna leave you out in the rain, either. You'll get a vest used by Freedom - it's light so it won't slow you down. Go on, show them that stalkers ain't no whipping boys. Good luck!",
+      "JA_current": "今日は特別な試合だ。軍の連中までお前の噂を聞きつけてるぞ！ 驚くなよ、奴らだってここで戦うんだ。観客席には将軍まで来てる。相手はスペツナズかオモンの連中だ。予想どおり武装は一流だし、着てるアーマーも頑丈そのものだ。だが心配すんな、お前を丸裸で放り出す気はねえよ。フリーダムのベストを用意した。軽いから動きを邪魔されることもない。さあ行け、ストーカーが生贄なんかじゃないってことを思い知らせてやれ。健闘を祈る！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_16#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 222,
+      "string_id": "bar_arena_man_job_16",
+      "occurrence": 1,
+      "EN": "Time for you to show what you can do. Duty captured a group of bandits that had been causing problems for stalkers near Rostok. Duty took 'em at night so most of the bandits were taken alive. They were all gonna be executed anyway so I convinced Duty to give them a chance. If any of them survive, they'll go in the can outside the Zone, which is better than dying here. They're not well-armed - just a few pistols and sawn-offs - but there's six of them so watch yourself. Go on now!",
+      "JA_current": "お前の腕を見せつける時が来たぞ。デューティーがロストク近辺でストーカーたちを荒らしまわってたバンディットの一味を捕まえたんだ。夜襲だったんで、ほとんどが生け捕りにされた。どのみち全員処刑される運命だったんだが、俺がデューティーを説得してチャンスをやろうってことになった。もし生き残ったらゾーンの外の刑務所送りだが、ここで野垂れ死ぬよりはマシだろ。武装は貧弱で、ピストル数丁とソードオフ・ショットガンくらいだが、6人もいる。油断するなよ。さあ、行ってこい！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "16",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_17#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 231,
+      "string_id": "bar_arena_man_job_17",
+      "occurrence": 1,
+      "EN": "Well, you're almost in the final. Now you'll be fighting a real stalker. He's alone but he's got a real sweet weapon and he's sporting very decent ballistic armor. Catch one burst from his piece and you're toast. There will be a surprise that I can't tell you about too... Here's my advice: be prepared, it's gonna be tough. The winner makes it through to the final. Fight to the death, go!",
+      "JA_current": "よし、決勝まであと一歩だ。今度の相手は本物の手練れのストーカーだ。単身だが強力な武器を持ち、上等な対弾アーマーを着込んでる。あいつの銃の連射を一発でもまともに食らえば終わりだぞ。それと、ここでは言えねえサプライズも用意してある……俺からの忠告だ。しっかり覚悟を決めていけ、タフな戦いになるぞ。勝った方が決勝進出だ。死ぬまで戦え、行け！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "17",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_18#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 240,
+      "string_id": "bar_arena_man_job_18",
+      "occurrence": 1,
+      "EN": "Congratulations, you're in the final! One more to go and this one is to the death, every man for himself. There will be 4 other stalkers in the arena: all real pros in top notch kit with high powered weapons but it's a fair deal this time - you'll get exactly what they have. The only thing is, you don't get medkits or bandages in a fight to the death. Ready? Go prove you're the best, GO!",
+      "JA_current": "おめでとう、決勝進出だ！ あと1試合……そして最後は、全員が敵同士のデスマッチだ。アリーナには他に4人のストーカーが入る。全員が一流のプロで、最高級の装備と高威力の銃で武装してる。だが今回はフェアな勝負だ、奴らと全く同じ装備を用意してやる。ただし一つだけ、この死闘じゃ救急キットも包帯も一切支給されねえ。準備はいいか？ 誰が最強か証明してこい、行け！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "18",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 180,
+      "string_id": "bar_arena_man_job_111",
+      "occurrence": 1,
+      "EN": "I'm ready.",
+      "JA_current": "準備できた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_112#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 183,
+      "string_id": "bar_arena_man_job_112",
+      "occurrence": 1,
+      "EN": "I'm not ready.",
+      "JA_current": "まだ準備できてない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "112",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_121#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 189,
+      "string_id": "bar_arena_man_job_121",
+      "occurrence": 1,
+      "EN": "I'm ready.",
+      "JA_current": "準備できた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "121",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_122#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 192,
+      "string_id": "bar_arena_man_job_122",
+      "occurrence": 1,
+      "EN": "I'm not ready.",
+      "JA_current": "まだ準備できてない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "122",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_131#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 198,
+      "string_id": "bar_arena_man_job_131",
+      "occurrence": 1,
+      "EN": "I'm ready.",
+      "JA_current": "準備できた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "131",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_132#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 201,
+      "string_id": "bar_arena_man_job_132",
+      "occurrence": 1,
+      "EN": "I'm not ready.",
+      "JA_current": "まだ準備できてない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "132",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_141#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 207,
+      "string_id": "bar_arena_man_job_141",
+      "occurrence": 1,
+      "EN": "I'm ready.",
+      "JA_current": "準備できた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "141",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_142#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 210,
+      "string_id": "bar_arena_man_job_142",
+      "occurrence": 1,
+      "EN": "I'm not ready.",
+      "JA_current": "まだ準備できてない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "142",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_151#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 216,
+      "string_id": "bar_arena_man_job_151",
+      "occurrence": 1,
+      "EN": "I'm ready.",
+      "JA_current": "準備できた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "151",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_152#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 219,
+      "string_id": "bar_arena_man_job_152",
+      "occurrence": 1,
+      "EN": "I'm not ready.",
+      "JA_current": "まだ準備できてない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "152",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_161#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 225,
+      "string_id": "bar_arena_man_job_161",
+      "occurrence": 1,
+      "EN": "I'm ready.",
+      "JA_current": "準備できた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "161",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_162#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 228,
+      "string_id": "bar_arena_man_job_162",
+      "occurrence": 1,
+      "EN": "I'm not ready.",
+      "JA_current": "まだ準備できてない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "162",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_171#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 234,
+      "string_id": "bar_arena_man_job_171",
+      "occurrence": 1,
+      "EN": "I'm ready.",
+      "JA_current": "準備できた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "171",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_172#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 237,
+      "string_id": "bar_arena_man_job_172",
+      "occurrence": 1,
+      "EN": "I'm not ready.",
+      "JA_current": "まだ準備できてない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "172",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_181#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 243,
+      "string_id": "bar_arena_man_job_181",
+      "occurrence": 1,
+      "EN": "I'm ready.",
+      "JA_current": "準備できた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "181",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_job_182#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 246,
+      "string_id": "bar_arena_man_job_182",
+      "occurrence": 1,
+      "EN": "I'm not ready.",
+      "JA_current": "まだ準備できてない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_job",
+          "phrase_id": "182",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bar_arena_man_job_0",
+      "next": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Go on...",
+      "JA_current": "続けてくれ…。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_0#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "bar_arena_man_job_11",
+      "next": [
+        "111",
+        "112"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_arena_fight_1_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So, your first fight? Your opponent is a piece of meat just like you. He's here because of debts and he only has two options: to come out and fight or to land himself in the nearest anomaly. He's gonna fight like a cornered animal. Equipment for today... lemme think... OK! Why don't you two use PMm's...two mags each should be plenty. Either you kick his arse or we feed you to the dogs - not much of a choice. Go on now.",
+      "JA_current": "で、アンタ初めてかい？ 相手はアンタと同じく肉の塊だ。ヤツは借金のカタにここにいるわけだが、ヤツには2つの選択肢があったんだ。ここで戦うか、それともアノーマリーの近くに置いてかれるかのどちらかってわけだ。だから、奴さん死に物狂いだぜ。装備は… そうだな。よし、互いに PMm と弾倉2個ずつってので十分だろ？ どうだい？ ヤツをぶっ飛ばすか、それともアンタが犬のエサになるかのどっちかだけだ。用意は良いか？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_11#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "bar_arena_man_job_12",
+      "next": [
+        "121",
+        "122"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_arena_fight_2_done"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_arena_fight_1_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Your last fight didn't mean shit. You're still the same piece of meat you were before and no self-respecting person will bet a single mag on you. If you wanna earn some proper cash you're gonna have to make a few more appearances in the arena. Your new opponent also got through the first round and his fight was a lot harder than yours. I don't like him, to be honest - he kills too quickly and the crowd doesn't like that. So, go and show us what you can do! The stakes will increase after this fight - all you gotta do is stay alive. Move it!",
+      "JA_current": "この前のファイトは悪くなかったぜ。だが、まだお前は単なる肉の塊だ。自尊心のある奴なら、お前にマガジン1個だって賭けやしない。まだ金が欲しいってんなら、アリーナに2、3回出てもらおうか。今度の対戦相手は、お前よりキツい1回戦を勝ち上がってるんだが、はっきり言って、ヤツは金にならん。早く殺しすぎて、客のウケが悪い。で、お前の力を借りたいんだが、どうだ。とにかく生きてさえいりゃ、賭けがデカくなるぜ。さぁ、行ってこい！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_12#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "bar_arena_man_job_13",
+      "next": [
+        "131",
+        "132"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_arena_fight_3_done"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_arena_fight_2_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, well... You're not as much of a pussy as you first seemed. Now it's time to test you out in a real fight. You're up against two guys. The first one's called Swede and I don't remember the second one's name. They were paired up intentionally as they hate each other's guts so don't worry about them working as a team - they're more likely to shoot each other. Today is rifle day so don't let them get too close or we'll have to pick you up piece by piece. The odds are 10:1 so if you win you'll make a fair amount. Off you go!",
+      "JA_current": "アンタ、思ってたよりやるな。そこでだ。今度は本当の戦いってモンを味わってもらう。2対1で戦ってもらうんだが、1人は Swede ってヤツで、もう1人は… 忘れちまった。まぁ、とにかく、お互いに憎しみあってるってんで組ませたわけだから、ヤツらが連携するだとか、そんな心配はないから安心しろ。それより同士撃ちしそうな勢いだぜ。それと、今日の得物はライフルだからな。あんまりヤツらを近づけちまうと、蜂の巣になったアンタの始末をしなけりゃならん。気をつけてくれよ。オッズは10：1だから、勝てばデカいぜ。さぁ、行ってこい！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_13#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "bar_arena_man_job_14",
+      "next": [
+        "141",
+        "142"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_arena_fight_4_done"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_arena_fight_3_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, now I can safely say that you're a fighter, a real fighter. Now it's time for a team fight. You get to fight with two rookies - two brothers - on your side. They haven't fought yet but they're brothers, so I had to put them into a team fight. I wouldn't expect any real help from them if I were you. You're fighting an experienced team, they're contenders for the final this season. A dangerous lot. They use different weapons but one has an automatic shotgun - be very careful with him. Good luck, pal... you're gonna need it.",
+      "JA_current": "ようやく、あんたを本当の戦士と言うことができるな。さぁ、チーム戦の時間だ。あんたは2人の新米 ― 2人の兄弟 ― と一緒に戦うことができる。あいつらとはまだやりあっていないと思うが、あいつらは味方だ。もし俺があんたなら、あいつらの援護を期待はしねぇだろうな。今度は、あんたに経験豊かなチームと戦ってもらうんだが、ヤツらは今シーズンの決勝戦のための相手だ。かなりヤバイ。ヤツらはそれぞれ違う武器を使ってんだが、そのうち1人のオートマチック・ショットガンを持っているヤツに注意するんだ。幸運と仲間… あんたには必要だろう。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_14#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "bar_arena_man_job_15",
+      "next": [
+        "151",
+        "152"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_arena_fight_5_done"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_arena_fight_4_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You've got a special fight today. Even the army has heard about you! Don't be surprised, they fight here too - there's even a general in the crowd. These guys are from the Spetsnaz or from OMON. They're well armed and their armor is good as you'd expect. Don't worry though, I ain't gonna leave you out in the rain, either. You'll get a vest used by Freedom - it's light so it won't slow you down. Go on, show them that stalkers ain't no whipping boys. Good luck!",
+      "JA_current": "今日は特別な戦いだ。Army さえアンタの噂で持ちきりだ！ そりゃそうさ、今日は彼らと戦う。観客席には将軍までもが来ている。こいつらはスペツナズ、あるいは特別警察の奴らだ。アンタの思ってる通り、奴らの武装は強力で、アーマーは厚い。だが心配するな、アンタを嵐の中に放り込もうなんて思っちゃいねえ。Freedom スーツが使える。これは軽くて動きやすい。よし行け、行ってストーカーが生贄じゃないってことを思い知らせてやれ。幸運を祈る！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_15#1"
+      ]
+    },
+    {
+      "phrase_id": "16",
+      "text_id": "bar_arena_man_job_16",
+      "next": [
+        "161",
+        "162"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_arena_fight_6_done"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_arena_fight_5_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Time for you to show what you can do. Duty captured a group of bandits that had been causing problems for stalkers near Rostok. Duty took 'em at night so most of the bandits were taken alive. They were all gonna be executed anyway so I convinced Duty to give them a chance. If any of them survive, they'll go in the can outside the Zone, which is better than dying here. They're not well-armed - just a few pistols and sawn-offs - but there's six of them so watch yourself. Go on now!",
+      "JA_current": "アンタのやれることを見せてやる時だ。Rostok の近くでストーカーと騒ぎを起こしていた Bandit のグループを、Duty が捕えた。夜間の襲撃でほとんどの Bandit を生け捕りに出来たんだ。ヤツらは処刑されるところだったが、俺は Duty にヤツらにチャンスを与えるよう説得した。もし生き残れるなら、彼らはゾーンの外で刑務所に収監されるだろうが、ここで死ぬよりよっぽどいい。奴らの武装は貧弱だ。数丁のピストルと短銃身ショットガンのみ。だが6人いる、気を付けろ。さあ、行くんだ！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_16#1"
+      ]
+    },
+    {
+      "phrase_id": "17",
+      "text_id": "bar_arena_man_job_17",
+      "next": [
+        "171",
+        "172"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_arena_fight_7_done"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_arena_fight_6_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, you're almost in the final. Now you'll be fighting a real stalker. He's alone but he's got a real sweet weapon and he's sporting very decent ballistic armor. Catch one burst from his piece and you're toast. There will be a surprise that I can't tell you about too... Here's my advice: be prepared, it's gonna be tough. The winner makes it through to the final. Fight to the death, go!",
+      "JA_current": "よし、後1つでファイナルだ。今度の相手は、ストーカーの中のストーカーだ。単独の相手だが、FT 200M を持ち、外骨格を身に着けている。一瞬を捕らえろ、お前は窮地にある。言葉に出来ないサプライズがあるだろう… 俺のアドバイスは： 心の準備をすること、タフな戦いになるはずだ。勝者がファイナル進出となる。死ぬまで戦え、行け！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_17#1"
+      ]
+    },
+    {
+      "phrase_id": "18",
+      "text_id": "bar_arena_man_job_18",
+      "next": [
+        "181",
+        "182"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_arena_fight_8_done"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_arena_fight_7_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Congratulations, you're in the final! One more to go and this one is to the death, every man for himself. There will be 4 other stalkers in the arena: all real pros in top notch kit with high powered weapons but it's a fair deal this time - you'll get exactly what they have. The only thing is, you don't get medkits or bandages in a fight to the death. Ready? Go prove you're the best, GO!",
+      "JA_current": "おめでとう、いよいよ決勝だ！ 残すところ後1つ、この逃げ場の無い戦いも、これが最後だ。アリーナには4人のストーカーがいるだろう。全員が外骨格に身を包み、GP-37s で武装したエキスパート揃いだが、今回は公平に執り行う。アンタもまったく同じ装備で挑んでもらおう。ただ一点、戦いが終わるまでメディキットも包帯も使うことは出来ない。準備はいいか？ ベストを尽くして行け！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_18#1"
+      ]
+    },
+    {
+      "phrase_id": "111",
+      "text_id": "bar_arena_man_job_111",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_arena_fight_1"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_arena_fight"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm ready.",
+      "JA_current": "ああ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_111#1"
+      ]
+    },
+    {
+      "phrase_id": "112",
+      "text_id": "bar_arena_man_job_112",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm not ready.",
+      "JA_current": "ちょっと待ってくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_112#1"
+      ]
+    },
+    {
+      "phrase_id": "121",
+      "text_id": "bar_arena_man_job_121",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_arena_fight_2"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_arena_fight"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm ready.",
+      "JA_current": "ああ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_121#1"
+      ]
+    },
+    {
+      "phrase_id": "122",
+      "text_id": "bar_arena_man_job_122",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm not ready.",
+      "JA_current": "ちょっと待ってくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_122#1"
+      ]
+    },
+    {
+      "phrase_id": "131",
+      "text_id": "bar_arena_man_job_131",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_arena_fight_3"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_arena_fight"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm ready.",
+      "JA_current": "ああ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_131#1"
+      ]
+    },
+    {
+      "phrase_id": "132",
+      "text_id": "bar_arena_man_job_132",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm not ready.",
+      "JA_current": "ちょっと待ってくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_132#1"
+      ]
+    },
+    {
+      "phrase_id": "141",
+      "text_id": "bar_arena_man_job_141",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_arena_fight_4"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_arena_fight"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm ready.",
+      "JA_current": "ああ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_141#1"
+      ]
+    },
+    {
+      "phrase_id": "142",
+      "text_id": "bar_arena_man_job_142",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm not ready.",
+      "JA_current": "ちょっと待ってくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_142#1"
+      ]
+    },
+    {
+      "phrase_id": "151",
+      "text_id": "bar_arena_man_job_151",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_arena_fight_5"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_arena_fight"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "15"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm ready.",
+      "JA_current": "ああ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_151#1"
+      ]
+    },
+    {
+      "phrase_id": "152",
+      "text_id": "bar_arena_man_job_152",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "15"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm not ready.",
+      "JA_current": "ちょっと待ってくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_152#1"
+      ]
+    },
+    {
+      "phrase_id": "161",
+      "text_id": "bar_arena_man_job_161",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_arena_fight_6"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_arena_fight"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "16"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm ready.",
+      "JA_current": "ああ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_161#1"
+      ]
+    },
+    {
+      "phrase_id": "162",
+      "text_id": "bar_arena_man_job_162",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "16"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm not ready.",
+      "JA_current": "ちょっと待ってくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_162#1"
+      ]
+    },
+    {
+      "phrase_id": "171",
+      "text_id": "bar_arena_man_job_171",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_arena_fight_7"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_arena_fight"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "17"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm ready.",
+      "JA_current": "ああ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_171#1"
+      ]
+    },
+    {
+      "phrase_id": "172",
+      "text_id": "bar_arena_man_job_172",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "17"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm not ready.",
+      "JA_current": "ちょっと待ってくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_172#1"
+      ]
+    },
+    {
+      "phrase_id": "181",
+      "text_id": "bar_arena_man_job_181",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_arena_fight_8"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_arena_fight"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "18"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm ready.",
+      "JA_current": "ああ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_181#1"
+      ]
+    },
+    {
+      "phrase_id": "182",
+      "text_id": "bar_arena_man_job_182",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "18"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm not ready.",
+      "JA_current": "ちょっと待ってくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_job_182#1"
+      ]
+    }
+  ]
+}

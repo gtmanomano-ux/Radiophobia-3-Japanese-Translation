@@ -1,0 +1,1874 @@
+{
+  "packet_id": "dialog_0188__dusty_dialog_1",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "dusty_dialog_1",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "dusty",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "bar_barman_need_room"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "stalker_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "bandit_veteran_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "bandit_master_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "exo_bandit_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "scientific_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "exo_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "dolg_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "dolg_scientific_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "dolg_black_exoskeleton_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "svoboda_light_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "svoboda_heavy_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "freedom_scientific_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "svoboda_exoskeleton_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "killer_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "merc_scientific_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "killer_blue_exoskeleton_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "monolit_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "monolit_scientific_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "monolit_exoskeleton_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "ecolog_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "protection_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "scientific_exoskeleton_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "soldier_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "specops_kostum_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "military_kostum_otdan"
+    },
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.have_fake_suits"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 31,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_0#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2511,
+      "string_id": "dusty_dialog_1_phrase_0",
+      "occurrence": 1,
+      "EN": "Hello.",
+      "JA_current": "どうも。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2514,
+      "string_id": "dusty_dialog_1_phrase_1",
+      "occurrence": 1,
+      "EN": "What can I do for you?",
+      "JA_current": "何か用か？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "0_1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2517,
+      "string_id": "dusty_dialog_1_phrase_2",
+      "occurrence": 1,
+      "EN": "I got some kit here, I need it adjusted to my size.",
+      "JA_current": "手持ちの装備があるんだが、体に合うようサイズを調整してほしい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2520,
+      "string_id": "dusty_dialog_1_phrase_3",
+      "occurrence": 1,
+      "EN": "Show me what kind of armor.",
+      "JA_current": "どの防具だ？ 見せてみな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2523,
+      "string_id": "dusty_dialog_1_phrase_4",
+      "occurrence": 1,
+      "EN": "Stalker costume.",
+      "JA_current": "ストーカースーツ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2526,
+      "string_id": "dusty_dialog_1_phrase_5",
+      "occurrence": 1,
+      "EN": "Brown cape.",
+      "JA_current": "ブラウンのマント。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2529,
+      "string_id": "dusty_dialog_1_phrase_6",
+      "occurrence": 1,
+      "EN": "Black Coat.",
+      "JA_current": "ブラックコート。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2532,
+      "string_id": "dusty_dialog_1_phrase_7",
+      "occurrence": 1,
+      "EN": "Bandit exoskeleton.",
+      "JA_current": "バンディット用エクソスケルトン。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2535,
+      "string_id": "dusty_dialog_1_phrase_8",
+      "occurrence": 1,
+      "EN": "Seva",
+      "JA_current": "SEVAボディスーツ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_9#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2538,
+      "string_id": "dusty_dialog_1_phrase_9",
+      "occurrence": 1,
+      "EN": "Neutral Exoskeleton.",
+      "JA_current": "ローナー用エクソスケルトン。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_10#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2541,
+      "string_id": "dusty_dialog_1_phrase_10",
+      "occurrence": 1,
+      "EN": "Duty staff uniform",
+      "JA_current": "デューティーの隊員服。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2544,
+      "string_id": "dusty_dialog_1_phrase_11",
+      "occurrence": 1,
+      "EN": "Duty Scientist",
+      "JA_current": "デューティーの科学者用スーツ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_12#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2547,
+      "string_id": "dusty_dialog_1_phrase_12",
+      "occurrence": 1,
+      "EN": "Duty Exoskeleton",
+      "JA_current": "デューティー用エクソスケルトン。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_13#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2550,
+      "string_id": "dusty_dialog_1_phrase_13",
+      "occurrence": 1,
+      "EN": "\"The Wind of Freedom.\"",
+      "JA_current": "ウィンド・オブ・フリーダム。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_14#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2553,
+      "string_id": "dusty_dialog_1_phrase_14",
+      "occurrence": 1,
+      "EN": "\"Guardian of Freedom\"",
+      "JA_current": "ガーディアン・オブ・フリーダム。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_15#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2556,
+      "string_id": "dusty_dialog_1_phrase_15",
+      "occurrence": 1,
+      "EN": "Freedom's scientific jumpsuit",
+      "JA_current": "フリーダムの科学者用スーツ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_16#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2559,
+      "string_id": "dusty_dialog_1_phrase_16",
+      "occurrence": 1,
+      "EN": "Freedom Exoskeleton",
+      "JA_current": "フリーダム用エクソスケルトン。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_17#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2562,
+      "string_id": "dusty_dialog_1_phrase_17",
+      "occurrence": 1,
+      "EN": "Mercenary Suit",
+      "JA_current": "マーセナリーズ用LCスーツ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "16",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_18#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2565,
+      "string_id": "dusty_dialog_1_phrase_18",
+      "occurrence": 1,
+      "EN": "Mercenary Science Suit",
+      "JA_current": "マーセナリーズの科学者用スーツ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "17",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_19#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2568,
+      "string_id": "dusty_dialog_1_phrase_19",
+      "occurrence": 1,
+      "EN": "Mercenary Exoskeleton",
+      "JA_current": "マーセナリーズ用エクソスケルトン。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "18",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_20#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2571,
+      "string_id": "dusty_dialog_1_phrase_20",
+      "occurrence": 1,
+      "EN": "Monolith's jumpsuit",
+      "JA_current": "モノリス X-18スーツ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "19",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_21#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2574,
+      "string_id": "dusty_dialog_1_phrase_21",
+      "occurrence": 1,
+      "EN": "Monolith science jumpsuit",
+      "JA_current": "モノリス 科学スーツ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "20",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_22#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2577,
+      "string_id": "dusty_dialog_1_phrase_22",
+      "occurrence": 1,
+      "EN": "Monolith Exoskeleton",
+      "JA_current": "モノリス用エクソスケルトン。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_23#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2580,
+      "string_id": "dusty_dialog_1_phrase_23",
+      "occurrence": 1,
+      "EN": "Orange Scientist Suit",
+      "JA_current": "オレンジの科学者用スーツ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "22",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_24#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2583,
+      "string_id": "dusty_dialog_1_phrase_24",
+      "occurrence": 1,
+      "EN": "Green Scientists Suit",
+      "JA_current": "グリーンの科学者用スーツ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "23",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_25#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2586,
+      "string_id": "dusty_dialog_1_phrase_25",
+      "occurrence": 1,
+      "EN": "Exoskeleton Scientist",
+      "JA_current": "科学者用エクソスケルトン。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "24",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_26#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2589,
+      "string_id": "dusty_dialog_1_phrase_26",
+      "occurrence": 1,
+      "EN": "Army vest",
+      "JA_current": "軍用ベスト。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "25",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_27#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2592,
+      "string_id": "dusty_dialog_1_phrase_27",
+      "occurrence": 1,
+      "EN": "Army Beryl",
+      "JA_current": "ベリル軍用スーツ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "26",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_28#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2595,
+      "string_id": "dusty_dialog_1_phrase_28",
+      "occurrence": 1,
+      "EN": "SKAT-9A",
+      "JA_current": "SKAT-9A。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "27",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_29#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2598,
+      "string_id": "dusty_dialog_1_phrase_29",
+      "occurrence": 1,
+      "EN": "Well, let's see. Turn around like this, I'm going to measure you... All right, now go and wait for my signal. When the suit is ready, I'll let you know.",
+      "JA_current": "よし、どれどれ。ちょっと向きを変えてくれ、寸法を測るぞ……よし、これでいい。合図するまで待っててくれ。仕上がったら知らせる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "28",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_dialog_1_phrase_30#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2601,
+      "string_id": "dusty_dialog_1_phrase_30",
+      "occurrence": 1,
+      "EN": "Done.",
+      "JA_current": "分かった、頼む。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_1",
+          "phrase_id": "29",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "dusty_dialog_1_phrase_0",
+      "next": [
+        "0_1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hello.",
+      "JA_current": "Hello.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_0#1"
+      ]
+    },
+    {
+      "phrase_id": "0_1",
+      "text_id": "dusty_dialog_1_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What can I do for you?",
+      "JA_current": "What can I do for you?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "dusty_dialog_1_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0_1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I got some kit here, I need it adjusted to my size.",
+      "JA_current": "I got some kit here, I need it adjusted to my size.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "dusty_dialog_1_phrase_3",
+      "next": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Show me what kind of armor.",
+      "JA_current": "Show me what kind of armor.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "dusty_dialog_1_phrase_4",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_stalker_outfit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.neutralsuit_out"
+        },
+        {
+          "type": "give_info",
+          "value": "stalker_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Stalker costume.",
+      "JA_current": "Stalker costume.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "dusty_dialog_1_phrase_5",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_bandit_veteran_outfit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.brownsuit_out"
+        },
+        {
+          "type": "give_info",
+          "value": "bandit_veteran_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Brown cape.",
+      "JA_current": "Brown cape.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "dusty_dialog_1_phrase_6",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_bandit_master_outfit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.blacksuit_out"
+        },
+        {
+          "type": "give_info",
+          "value": "bandit_master_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Black Coat.",
+      "JA_current": "Black Coat.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "dusty_dialog_1_phrase_7",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_exo_bandit_outfit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.bandskelet_out"
+        },
+        {
+          "type": "give_info",
+          "value": "exo_bandit_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Bandit exoskeleton.",
+      "JA_current": "Bandit exoskeleton.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "dusty_dialog_1_phrase_8",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_scientific_outfit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.seva_out"
+        },
+        {
+          "type": "give_info",
+          "value": "scientific_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Seva",
+      "JA_current": "Seva",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "dusty_dialog_1_phrase_9",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_exo_outfit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.neutralskelet_out"
+        },
+        {
+          "type": "give_info",
+          "value": "exo_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Neutral Exoskeleton.",
+      "JA_current": "Neutral Exoskeleton.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "dusty_dialog_1_phrase_10",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_dolg_outfit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.dolgsuit_out"
+        },
+        {
+          "type": "give_info",
+          "value": "dolg_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Duty staff uniform",
+      "JA_current": "Duty staff uniform",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "dusty_dialog_1_phrase_11",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_dolg_scientific_outfit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.dolgnaucn_out"
+        },
+        {
+          "type": "give_info",
+          "value": "dolg_scientific_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Duty Scientist",
+      "JA_current": "Duty Scientist",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "dusty_dialog_1_phrase_12",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_dolg_black_exoskeleton"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.dolgskelet_out"
+        },
+        {
+          "type": "give_info",
+          "value": "dolg_black_exoskeleton_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Duty Exoskeleton",
+      "JA_current": "Duty Exoskeleton",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_12#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "dusty_dialog_1_phrase_13",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_svoboda_light_outfit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.svobodasuit_out"
+        },
+        {
+          "type": "give_info",
+          "value": "svoboda_light_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"The Wind of Freedom.\"",
+      "JA_current": "\"The Wind of Freedom.\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_13#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "dusty_dialog_1_phrase_14",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_svoboda_heavy_outfit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.svobodaheavysuit_out"
+        },
+        {
+          "type": "give_info",
+          "value": "svoboda_heavy_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Guardian of Freedom\"",
+      "JA_current": "\"Guardian of Freedom\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_14#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "dusty_dialog_1_phrase_15",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_freedom_scientific_outfit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.svobodanaucn_out"
+        },
+        {
+          "type": "give_info",
+          "value": "freedom_scientific_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Freedom's scientific jumpsuit",
+      "JA_current": "Freedom's scientific jumpsuit",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_15#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "dusty_dialog_1_phrase_16",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_svoboda_exoskeleton"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.svobodaskelet_out"
+        },
+        {
+          "type": "give_info",
+          "value": "svoboda_exoskeleton_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Freedom Exoskeleton",
+      "JA_current": "Freedom Exoskeleton",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_16#1"
+      ]
+    },
+    {
+      "phrase_id": "16",
+      "text_id": "dusty_dialog_1_phrase_17",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_killer_outfit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.merksuit_out"
+        },
+        {
+          "type": "give_info",
+          "value": "killer_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Mercenary Suit",
+      "JA_current": "Mercenary Suit",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_17#1"
+      ]
+    },
+    {
+      "phrase_id": "17",
+      "text_id": "dusty_dialog_1_phrase_18",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_merc_scientific_outfit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.merknaucn_out"
+        },
+        {
+          "type": "give_info",
+          "value": "merc_scientific_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Mercenary Science Suit",
+      "JA_current": "Mercenary Science Suit",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_18#1"
+      ]
+    },
+    {
+      "phrase_id": "18",
+      "text_id": "dusty_dialog_1_phrase_19",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_killer_blue_exoskeleton"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.merkskelet_out"
+        },
+        {
+          "type": "give_info",
+          "value": "killer_blue_exoskeleton_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Mercenary Exoskeleton",
+      "JA_current": "Mercenary Exoskeleton",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_19#1"
+      ]
+    },
+    {
+      "phrase_id": "19",
+      "text_id": "dusty_dialog_1_phrase_20",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_monolit_outfit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.monolitsuit_out"
+        },
+        {
+          "type": "give_info",
+          "value": "monolit_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Monolith's jumpsuit",
+      "JA_current": "Monolith's jumpsuit",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_20#1"
+      ]
+    },
+    {
+      "phrase_id": "20",
+      "text_id": "dusty_dialog_1_phrase_21",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_monolit_scientific_outfit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.monolitnaucn_out"
+        },
+        {
+          "type": "give_info",
+          "value": "monolit_scientific_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Monolith science jumpsuit",
+      "JA_current": "Monolith science jumpsuit",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_21#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "dusty_dialog_1_phrase_22",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_monolit_exoskeleton"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.monolitskelet_out"
+        },
+        {
+          "type": "give_info",
+          "value": "monolit_exoskeleton_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Monolith Exoskeleton",
+      "JA_current": "Monolith Exoskeleton",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_22#1"
+      ]
+    },
+    {
+      "phrase_id": "22",
+      "text_id": "dusty_dialog_1_phrase_23",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_ecolog_outfit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.naucnsuit_out"
+        },
+        {
+          "type": "give_info",
+          "value": "ecolog_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Orange Scientist Suit",
+      "JA_current": "Orange Scientist Suit",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_23#1"
+      ]
+    },
+    {
+      "phrase_id": "23",
+      "text_id": "dusty_dialog_1_phrase_24",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_protection_outfit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.naucngreensuit_out"
+        },
+        {
+          "type": "give_info",
+          "value": "protection_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Green Scientists Suit",
+      "JA_current": "Green Scientists Suit",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_24#1"
+      ]
+    },
+    {
+      "phrase_id": "24",
+      "text_id": "dusty_dialog_1_phrase_25",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_scientific_exoskeleton"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.naucnskelet_out"
+        },
+        {
+          "type": "give_info",
+          "value": "scientific_exoskeleton_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Exoskeleton Scientist",
+      "JA_current": "Exoskeleton Scientist",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_25#1"
+      ]
+    },
+    {
+      "phrase_id": "25",
+      "text_id": "dusty_dialog_1_phrase_26",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_soldier_outfit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.armysuit_out"
+        },
+        {
+          "type": "give_info",
+          "value": "soldier_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Army vest",
+      "JA_current": "Army vest",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_26#1"
+      ]
+    },
+    {
+      "phrase_id": "26",
+      "text_id": "dusty_dialog_1_phrase_27",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_specops_outfit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.berillsuit_out"
+        },
+        {
+          "type": "give_info",
+          "value": "specops_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Army Beryl",
+      "JA_current": "Army Beryl",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_27#1"
+      ]
+    },
+    {
+      "phrase_id": "27",
+      "text_id": "dusty_dialog_1_phrase_28",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fake_military_outfit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.skatsuit_out"
+        },
+        {
+          "type": "give_info",
+          "value": "military_kostum_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.suit_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "SKAT-9A",
+      "JA_current": "SKAT-9A",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_28#1"
+      ]
+    },
+    {
+      "phrase_id": "28",
+      "text_id": "dusty_dialog_1_phrase_29",
+      "next": [
+        "29"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, let's see. Turn around like this, I'm going to measure you... All right, now go and wait for my signal. When the suit is ready, I'll let you know.",
+      "JA_current": "Well, let's see. Turn around like this, I'm going to measure you... All right, now go and wait for my signal. When the suit is ready, I'll let you know.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_29#1"
+      ]
+    },
+    {
+      "phrase_id": "29",
+      "text_id": "dusty_dialog_1_phrase_30",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "28"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Done.",
+      "JA_current": "Done.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_dialog_1_phrase_30#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "packet_id": "dialog_0256__cit_doctor_hello_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "cit_doctor_hello_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml",
+  "graph_sha256": "dd2e868a0418eeb66a0c1b47f7b24e267acb6d08ed5de71a1335884a50a88cb9",
+  "character_bindings": [],
+  "dialog_conditions": [],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 2,
+  "entries": [
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_hello_dialog_11#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 63,
+      "string_id": "cit_doctor_hello_dialog_11",
+      "occurrence": 1,
+      "EN": "Strelok! Where the hell have you been??? I haven't seen you or the guys since the last raid! I was getting worried!",
+      "JA_current": "Strelok か！ 君は今まで一体どこにいたんだね？？ 最後の旅立ち以来、君と仲間とは音信不通だった。私は心配していたんだぞ！",
+      "JA_new": "ストレロク！　今までどこにいたんだ！？　前の襲撃以来、お前たちを見てないんだぞ！　心配してたんだ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_hello_dialog",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_hello_dialog_21#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 66,
+      "string_id": "cit_doctor_hello_dialog_21",
+      "occurrence": 1,
+      "EN": "So, you feeling better? You thinking clearly?",
+      "JA_current": "それで、気分はどうだね？ 頭はすっきりしたかね？",
+      "JA_new": "調子は戻ったか？　頭ははっきりしてるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_hello_dialog",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": null,
+      "next": [
+        "1",
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1",
+      "text_id": null,
+      "next": [
+        "11"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "cit_jail_doctor_pryp_task"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "2",
+      "text_id": null,
+      "next": [
+        "21"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "cit_jail_doctor_pryp_task"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "cit_doctor_hello_dialog_11",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Strelok! Where the hell have you been??? I haven't seen you or the guys since the last raid! I was getting worried!",
+      "JA_current": "Strelok か！ 君は今まで一体どこにいたんだね？？ 最後の旅立ち以来、君と仲間とは音信不通だった。私は心配していたんだぞ！",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_hello_dialog_11#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "cit_doctor_hello_dialog_21",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "So, you feeling better? You thinking clearly?",
+      "JA_current": "それで、気分はどうだね？ 頭はすっきりしたかね？",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_hello_dialog_21#1"
+      ]
+    }
+  ]
+}

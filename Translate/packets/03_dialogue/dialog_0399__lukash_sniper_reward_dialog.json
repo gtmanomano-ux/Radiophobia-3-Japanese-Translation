@@ -1,0 +1,350 @@
+{
+    "packet_id":  "dialog_0399__lukash_sniper_reward_dialog",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "lukash_sniper_reward_dialog",
+    "graph_source":  "gamedata/config/gameplay/dialogs_military.xml",
+    "graph_sha256":  "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+    "character_bindings":  [
+                               {
+                                   "profile_id":  "mil_Svoboda_leader",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_military.xml"
+                               }
+                           ],
+    "dialog_conditions":  [
+                              {
+                                  "type":  "has_info",
+                                  "value":  "mil_max_flash_get"
+                              },
+                              {
+                                  "type":  "dont_has_info",
+                                  "value":  "mil_max_job_complete"
+                              }
+                          ],
+    "root_speaker_hint":  "player",
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  6,
+    "entries":  [
+                    {
+                        "key":  "stable_dialogs_military:lukash_sniper_reward_dialog_phrase_1#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2159,
+                        "string_id":  "lukash_sniper_reward_dialog_phrase_1",
+                        "occurrence":  1,
+                        "EN":  "Your sniper pal is no more.",
+                        "JA_current":  "Your sniper pal is no more.",
+                        "JA_new":  "あんたの狙撃手の仲間は、もういない。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lukash_sniper_reward_dialog",
+                                               "phrase_id":  "0",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lukash_sniper_reward_dialog_phrase_2#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2162,
+                        "string_id":  "lukash_sniper_reward_dialog_phrase_2",
+                        "occurrence":  1,
+                        "EN":  "So that\u0027s it, is it? Problem solved?",
+                        "JA_current":  "So that\u0027s it, is it? Problem solved?",
+                        "JA_new":  "そうか。これで問題は片付いたのか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lukash_sniper_reward_dialog",
+                                               "phrase_id":  "1",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lukash_sniper_reward_dialog_phrase_3#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2165,
+                        "string_id":  "lukash_sniper_reward_dialog_phrase_3",
+                        "occurrence":  1,
+                        "EN":  "Yeah, he won\u0027t trouble you anymore. I searched him as you asked, found his diary..",
+                        "JA_current":  "Yeah, he won\u0027t trouble you anymore. I searched him as you asked, found his diary..",
+                        "JA_new":  "ああ、もう邪魔はしない。頼まれた通り調べたら、日記を見つけた……。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lukash_sniper_reward_dialog",
+                                               "phrase_id":  "2",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lukash_sniper_reward_dialog_phrase_4#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2168,
+                        "string_id":  "lukash_sniper_reward_dialog_phrase_4",
+                        "occurrence":  1,
+                        "EN":  "Well done! Now, let\u0027s take a peek... Hmm, he mentions some kind of Raven right before it all turns into chicken scratch. What\u0027s the story with that? He meets this guy and goes off the rails just after?",
+                        "JA_current":  "Well done! Now, let\u0027s take a peek... Hmm, he mentions some kind of Raven right before it all turns into chicken scratch. What\u0027s the story with that? He meets this guy and goes off the rails just after?",
+                        "JA_new":  "よくやった。ちょっと見せてくれ……ふむ、途中で意味不明な殴り書きになる前に、「レイヴン」って奴のことが書いてある。どういうことだ？ こいつに会ってからおかしくなったのか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lukash_sniper_reward_dialog",
+                                               "phrase_id":  "3",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lukash_sniper_reward_dialog_phrase_5#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2171,
+                        "string_id":  "lukash_sniper_reward_dialog_phrase_5",
+                        "occurrence":  1,
+                        "EN":  "I don\u0027t know, but I\u0027m gonna find this Raven and ask him myself.",
+                        "JA_current":  "I don\u0027t know, but I\u0027m gonna find this Raven and ask him myself.",
+                        "JA_new":  "分からない。だが、そのレイヴンを見つけて、直接聞いてみる。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lukash_sniper_reward_dialog",
+                                               "phrase_id":  "4",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lukash_sniper_reward_dialog_phrase_6#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2174,
+                        "string_id":  "lukash_sniper_reward_dialog_phrase_6",
+                        "occurrence":  1,
+                        "EN":  "All right, you do that! You let me know when you figure it out. In the meantime, here\u0027s your reward. Oh, and go see Lucky, he\u0027s got something for you.",
+                        "JA_current":  "All right, you do that! You let me know when you figure it out. In the meantime, here\u0027s your reward. Oh, and go see Lucky, he\u0027s got something for you.",
+                        "JA_new":  "よし、そうしてくれ！ 分かったことがあれば教えてくれ。その間に報酬を渡そう。ああ、ラッキーのところへも行け。お前に渡すものがあるそうだ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lukash_sniper_reward_dialog",
+                                               "phrase_id":  "5",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  "lukash_sniper_reward_dialog_phrase_1",
+                            "next":  [
+                                         "1"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Your sniper pal is no more.",
+                            "JA_current":  "Your sniper pal is no more.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lukash_sniper_reward_dialog_phrase_1#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "1",
+                            "text_id":  "lukash_sniper_reward_dialog_phrase_2",
+                            "next":  [
+                                         "2"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "So that\u0027s it, is it? Problem solved?",
+                            "JA_current":  "So that\u0027s it, is it? Problem solved?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lukash_sniper_reward_dialog_phrase_2#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "2",
+                            "text_id":  "lukash_sniper_reward_dialog_phrase_3",
+                            "next":  [
+                                         "3"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "addon_dialogs.sniper_diary_out"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Yeah, he won\u0027t trouble you anymore. I searched him as you asked, found his diary..",
+                            "JA_current":  "Yeah, he won\u0027t trouble you anymore. I searched him as you asked, found his diary..",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lukash_sniper_reward_dialog_phrase_3#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "3",
+                            "text_id":  "lukash_sniper_reward_dialog_phrase_4",
+                            "next":  [
+                                         "4"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "2"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Well done! Now, let\u0027s take a peek... Hmm, he mentions some kind of Raven right before it all turns into chicken scratch. What\u0027s the story with that? He meets this guy and goes off the rails just after?",
+                            "JA_current":  "Well done! Now, let\u0027s take a peek... Hmm, he mentions some kind of Raven right before it all turns into chicken scratch. What\u0027s the story with that? He meets this guy and goes off the rails just after?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lukash_sniper_reward_dialog_phrase_4#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "4",
+                            "text_id":  "lukash_sniper_reward_dialog_phrase_5",
+                            "next":  [
+                                         "5"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "3"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I don\u0027t know, but I\u0027m gonna find this Raven and ask him myself.",
+                            "JA_current":  "I don\u0027t know, but I\u0027m gonna find this Raven and ask him myself.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lukash_sniper_reward_dialog_phrase_5#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "5",
+                            "text_id":  "lukash_sniper_reward_dialog_phrase_6",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "addon_dialogs.lukash_sniper_reward"
+                                            },
+                                            {
+                                                "type":  "give_info",
+                                                "value":  "mil_max_job_complete"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "4"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "All right, you do that! You let me know when you figure it out. In the meantime, here\u0027s your reward. Oh, and go see Lucky, he\u0027s got something for you.",
+                            "JA_current":  "All right, you do that! You let me know when you figure it out. In the meantime, here\u0027s your reward. Oh, and go see Lucky, he\u0027s got something for you.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lukash_sniper_reward_dialog_phrase_6#1"
+                                                        ]
+                        }
+                    ]
+}

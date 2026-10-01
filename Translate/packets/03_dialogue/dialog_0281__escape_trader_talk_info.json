@@ -1,0 +1,1464 @@
+{
+  "packet_id": "dialog_0281__escape_trader_talk_info",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "escape_trader_talk_info",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "escape_trader",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "escape_dialog.trader_alredy_give_job"
+    },
+    {
+      "type": "has_info",
+      "value": "tutorial_end"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 32,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_0#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1386,
+      "string_id": "escape_trader_talk_info_0",
+      "occurrence": 1,
+      "EN": "I need answers to a few questions.",
+      "JA_current": "聞きたいことがいくつかある。",
+      "JA_new": "いくつか聞きたいことがある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1389,
+      "string_id": "escape_trader_talk_info_1",
+      "occurrence": 1,
+      "EN": "Ask away but I don’t know everything. I sit here all day while life goes on outside, in the Zone. I can tell you about the Zone in general and a little about the nearby areas where I've been myself.",
+      "JA_current": "他で聞け。俺は何でも知ってる訳じゃない。ゾーンであれやこれや起こっている間、俺は一日中ここに座ってるのだからな。ゾーンについての一般的なことや、俺が行ったことのある近所についてなら少しは教えられるが。",
+      "JA_new": "聞いてくれ。ただ、何でも知ってるわけじゃない。外でゾーンの暮らしが続いてる間、俺はここに一日中座ってるだけだ。ゾーン全般のことと、実際に行ったことのある近場なら少し話せる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_100#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1392,
+      "string_id": "escape_trader_talk_info_100",
+      "occurrence": 1,
+      "EN": "Tell me about the Zone in general.",
+      "JA_current": "ゾーンの一般的な事について教えてくれ。",
+      "JA_new": "まず、ゾーン全体について聞かせてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "100",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_99#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1446,
+      "string_id": "escape_trader_talk_info_99",
+      "occurrence": 1,
+      "EN": "What's going on in this neighborhood?",
+      "JA_current": "この辺りで何が起こっているんだ？",
+      "JA_new": "この辺りでは何が起きてる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "99",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_101#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1395,
+      "string_id": "escape_trader_talk_info_101",
+      "occurrence": 1,
+      "EN": "Ask away.",
+      "JA_current": "他で聞け。",
+      "JA_new": "何でも聞いてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "101",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_999#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1449,
+      "string_id": "escape_trader_talk_info_999",
+      "occurrence": 1,
+      "EN": "Huh! This is the entrance to the Zone, a sort of an antechamber. We've got an army cordon here. It's relatively quiet, with the exception of a couple of army guys who like to have some fun, go on shakedown runs. Experienced stalkers don't come by very often, so it's mostly rookies. Some settle here for good, yeah... A little ways from here there's a farm made into a rookie camp. Watch yourself though, they aren't afraid to pull the trigger when push comes to shove. What else? You won't make huge profit here, that's for sure. There's a deserted factory across the road. To the North, behind the railroad embankment there are the ruins of a farm. An army outpost lies to the South of here. And beware: the military left some mines in the ground. Also, there used to be a bridge in the center, but it went down somehow. That's about it, really.",
+      "JA_current": "はっ！ ここはゾーンの入口だよ、控え室みたいなもんだ。軍の非常線もここにある。軍の野郎どもの内、騒ぎが好きな何人かを除いては、比較的静かだ。経験を積んだストーカーは滅多に来ない。だからここに居るのは殆どは新米だ。何人かはここに住み着いてる。そうだ… ここからほんの少し行った所に、農場を作り変えたルーキーキャンプがある。お前が通り抜けようとして大騒ぎの事態にでもなれば、あいつらは間違いなくお前を攻撃するだろう。他にはだな、ここでデカい稼ぎなんて出来やしねえよ。それは間違いない。道を渡った所に廃れた工場がある。北のレールの土手の裏には農場の廃墟がある。ここの南側は軍の前哨基地がある。それから、中心部は橋があったんだが、何かあって壊れちまった。そんなところだな。本当だぜ。",
+      "JA_new": "へえ、ここはゾーンの入口、いわば前室みたいな場所だ。ここには軍の封鎖線がある。軍人が何人か暇つぶしにカツアゲして回ってるのを除けば、比較的静かなもんさ。腕の立つストーカーは滅多に来ないから、ほとんどが新米だ。中にはここに居着く奴もいる。そうだな……少し行った先に、農場を新米キャンプにした場所がある。だが気をつけろ。いざとなれば、あいつらは平気で引き金を引く。ほかには……ここじゃ大儲けはできない。それだけは確かだ。道の向かいには廃工場がある。北へ行って線路の盛り土を越えると、農場跡がある。ここから南には軍の前哨基地だ。それと、軍が地雷を埋めたままにしてるから注意しろ。中央には昔、橋があったんだが、どういうわけか崩れちまった。まあ、そんなところだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "999",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_9991#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1452,
+      "string_id": "escape_trader_talk_info_9991",
+      "occurrence": 1,
+      "EN": "Tell me more about the army outpost.",
+      "JA_current": "軍の前哨基地について教えてくれ。",
+      "JA_new": "軍の前哨基地について、もう少し教えてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "9991",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_9992#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1458,
+      "string_id": "escape_trader_talk_info_9992",
+      "occurrence": 1,
+      "EN": "I want to know more about the fallen bridge.",
+      "JA_current": "壊れた橋についてもっと知りたいんだが。",
+      "JA_new": "崩れた橋について聞きたい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "9992",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_9993#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1464,
+      "string_id": "escape_trader_talk_info_9993",
+      "occurrence": 1,
+      "EN": "Got some more info about the factory?",
+      "JA_current": "工場についてもっと情報はないか？",
+      "JA_new": "工場について、ほかに何か知らないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "9993",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_9994#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1470,
+      "string_id": "escape_trader_talk_info_9994",
+      "occurrence": 1,
+      "EN": "Tell me about the farm.",
+      "JA_current": "農場について教えてくれ。",
+      "JA_new": "農場について教えてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "9994",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_9995#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1476,
+      "string_id": "escape_trader_talk_info_9995",
+      "occurrence": 1,
+      "EN": "Thanks, that's all.",
+      "JA_current": "ありがとう、それだけだ。",
+      "JA_new": "ありがとう、もういい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "9995",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_9996#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1479,
+      "string_id": "escape_trader_talk_info_9996",
+      "occurrence": 1,
+      "EN": "I'd like to find out more.",
+      "JA_current": "もう少し詳しく聞かせてくれ。",
+      "JA_new": "もう少し詳しく聞かせてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "9996",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_99911#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1455,
+      "string_id": "escape_trader_talk_info_99911",
+      "occurrence": 1,
+      "EN": "The few soldiers there have been ordered to shoot on sight, so you'd better walk around it and try not to show your ass. If you piss them off, they may call for the Spetsnaz from the further cordon. Those guys can brew up such shit that I won't have any customers for a month... I know the commander a little: he likes to take a swig as much as the next man. I'm surviving on here thanks to him.",
+      "JA_current": "そこの何人かの兵士どもは視界に入った者を撃つように命令されている。だからそいつらには近寄らないようにして、お前の尻を晒すような真似はやめとけ。もしあいつらを怒らせれば、スペツナズを呼んでくるかもしれん。そいつらはそういう糞どもをぶっ飛ばすのさ。そんなお客はここ1ヶ月見てないが… 俺は司令官について少しだけ知っている。奴は隣の人間をぶん殴るのが好きなくらい粗暴な奴だ。俺はあいつのおかげでここで生き残っているようなもんだがな。",
+      "JA_new": "あそこにいる兵士は、見つけ次第撃てと命令されてる。だから近寄らず、尻尾を見せるような真似はするな。怒らせれば、奥の封鎖線からスペツナズを呼ぶかもしれん。あいつらが暴れたら、ひと月は客が寄りつかなくなるような騒ぎになる……司令官とは少し面識がある。あの人も人並みに酒を飲むんでな。俺はそのおかげでここで商売を続けられてる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "99911",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_99922#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1461,
+      "string_id": "escape_trader_talk_info_99922",
+      "occurrence": 1,
+      "EN": "That's just a couple of minutes North of here, you'll see it right away. There used to be a bridge over the road, but then it collapsed during one of the blowouts. The army guys built a checkpoint there and don't let anyone through... but if you grease the right palm, you'll pass with no problems. In general, you don't want to show your face there too much, unless you're badly wounded or got a heavy load on you.",
+      "JA_current": "あれはここから北へちょっと行った所にある、すぐに見えてくるだろう。そこはかつては道を渡す橋だったんだが、何度かあった騒ぎの間にぶっ壊れちまった。軍の野郎どもが検問所を作って誰も通そうとしねえ。でも、もしお前がこっそり賄賂でも渡せば、問題なく通れるだろうな。基本的にはひでえ怪我をしてるか、重い荷物でも背負っていないかぎりは、あんまりあそこには顔を出さないようにしておけ。",
+      "JA_new": "ここから北へほんの数分だ。すぐ見える。道にかかる橋があったんだが、大放出のときに崩れちまってな。軍が検問所を置いて、誰も通さなくなった……だが、袖の下を握らせれば問題なく通れる。ひどい怪我をしてるか、荷物がよほど重いんでもなければ、あまり顔を出さないほうがいい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "99922",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_99933#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1467,
+      "string_id": "escape_trader_talk_info_99933",
+      "occurrence": 1,
+      "EN": "Cross the road and you'll see a brick building - that's it. Everything worth stealing has already been stolen, just this one box is left. This is the bandits' favorite place. I don't know if they are there now, but watch out just in case. You got nothing valuable on you to take, but do you really wanna go through all that?",
+      "JA_current": "道を渡ればレンガ造りの建物が見えてくる。それが工場だ。金目の物はもう皆盗まれて、残ったのはこの箱だけだ。これが悪党どもの好きなやりかただ。アイツらがまだそこにいるのかはわからんが、もしもの時も考えて気をつけろよ。価値のある物なんて何もないだろうが、それでも本当に行きたいってのか？",
+      "JA_new": "道を渡るとレンガ造りの建物がある。そこだ。盗めるものは全部持っていかれて、残ってるのはあの箱だけ。バンディットのお気に入りの場所だ。今もいるかは知らんが、念のため気をつけろ。盗られるような価値あるものは持ってないだろうが、わざわざ危ない目に遭いたいのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "99933",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_99944#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1473,
+      "string_id": "escape_trader_talk_info_99944",
+      "occurrence": 1,
+      "EN": "You're getting boring, you know that? It's just a farm like any other. The place used to thrive before democracy broke out.",
+      "JA_current": "退屈してきただろう、わかるか？ アレはどこにでもあるようなただの農場さ。あそこは民主主義が崩壊する前までは賑わっていた。",
+      "JA_new": "退屈なやつだな……どこにでもある農場さ。民主化だなんだと騒ぐ前は、あそこも栄えてたんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "99944",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1404,
+      "string_id": "escape_trader_talk_info_3",
+      "occurrence": 1,
+      "EN": "Tell me about the Zone.",
+      "JA_current": "ゾーンについて詳しく教えてくれ。",
+      "JA_new": "ゾーンについて教えてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1428,
+      "string_id": "escape_trader_talk_info_4",
+      "occurrence": 1,
+      "EN": "Do you know what happened to me?",
+      "JA_current": "俺の身に何が起こっているんだ？",
+      "JA_new": "俺に何が起きたか、知ってるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1434,
+      "string_id": "escape_trader_talk_info_5",
+      "occurrence": 1,
+      "EN": "Who is Strelok?",
+      "JA_current": "Strelok とは何者だ？",
+      "JA_new": "ストレロクって何者だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_6#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1440,
+      "string_id": "escape_trader_talk_info_6",
+      "occurrence": 1,
+      "EN": "Who is this Ghost stalker?",
+      "JA_current": "Ghost っていうストーカーは誰だ？",
+      "JA_new": "ゴーストっていうストーカーは誰だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1398,
+      "string_id": "escape_trader_talk_info_2",
+      "occurrence": 1,
+      "EN": "What does the army do in the Zone?",
+      "JA_current": "あの軍隊はゾーンで何をやってるんだ？",
+      "JA_new": "軍はゾーンで何をしてる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_31#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1407,
+      "string_id": "escape_trader_talk_info_31",
+      "occurrence": 1,
+      "EN": "The Zone... You see, it's not just a circle a few kilometers in diameter with a nuclear power plant in the center. It's something bizarre. Really bizarre. I doubt anyone in the world could give you a straight answer. I feel the Zone isn't even part of this world. It's a different, detached world, weird and dangerous... and attractive, too. And you know why? Because with a little luck anyone can get rich quick. And the closer you come to the center of the Zone, the higher you will climb on the money ladder.",
+      "JA_current": "ゾーンなぁ… わかるか、あれは原子力発電所を中心とした、単なる直径数キロの地域じゃねえんだ。あれは本当に奇妙な、奇妙な何かだ。俺はあれにたいしてまともな答を出せる奴なんて、この世には居ないと思うね。俺はゾーンってのはこの世界の一部でさえないと感じてる。あれは世界から引き離された、別の異様で危険なもんだ。ただ魅力的でもあるんだがね。なんでかわかるか？ あそこではな、ほんの少しの運があれば誰でもすぐ金持ちになれるんだよ。お前がゾーンの中心に近づけば近づくほど金持ちへの階段を上っていくってことなのさ。",
+      "JA_new": "ゾーンか……直径数キロの円の真ん中に原発がある、ってだけじゃない。ここは異様な場所だ。本当に奇妙でな。世界中を探しても、まともに説明できる奴はいないだろう。俺には、ゾーンはこの世界の一部ですらないように思える。別個に切り離された、奇妙で危険な世界……それでいて、人を惹きつける。なぜだか分かるか？ 運がよければ、誰だってすぐに大金を稼げるからさ。ゾーンの中心に近づくほど、懐も潤うってわけだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "31",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_41#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1431,
+      "string_id": "escape_trader_talk_info_41",
+      "occurrence": 1,
+      "EN": "What kind of question is that? You see, that's some shady business...\\n They found you in a \"death truck\", that's a... a kind of corpse carrier, right? These trucks come in from the center of the Zone once in a while, loaded with bodies. No one really knows where they are heading. So, one of them crashed into something and you were found nearby. This is the most amazing thing of all. We've found broken-down corpse carriers before, but no one ever came out of them alive. I'm sorry, bro, that's all I can help you with. The rest you'll have to figure out for yourself.",
+      "JA_current": "What kind of question is that? You see, that's some shady business...\\n They found you in a \"death truck\", that's a... a kind of corpse carrier, right? These trucks come in from the center of the Zone once in a while, loaded with bodies. No one really knows where they are heading. So, one of them crashed into something and you were found nearby. This is the most amazing thing of all. We've found broken-down corpse carriers before, but no one ever came out of them alive. I'm sorry, bro, that's all I can help you with. The rest you'll have to figure out for yourself.",
+      "JA_new": "なんだその質問は？ どうにもきな臭い話だな……\\nお前は「死のトラック」の中で見つかった。あれは……遺体を運ぶトラックだろ？ ときどきゾーンの中心から、死体を積んで走ってくる。どこへ向かうのかは誰にも分からん。そのうちの一台が何かにぶつかって、お前は近くで発見された。驚くべきなのはそこさ。壊れた遺体運搬車は前にも見つかってるが、中から生きて出てきた奴はいなかった。すまんな、俺に話せるのはここまでだ。あとは自分で突き止めてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "41",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_51#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1437,
+      "string_id": "escape_trader_talk_info_51",
+      "occurrence": 1,
+      "EN": "Yeah, I've heard of a stalker by that name. Rumors is he's one of the few who went to the center of the Zone and made it back. Still, we got so many of these legendary stories about stalker heroes that I can't really guarantee anything. At any rate, I've never dealt with him personally. It seems he has his own trading channels. Anyhow, just ask the folks here in the Zone and you'll be sure to learn a lot more.",
+      "JA_current": "ああ、その名前のストーカーについて聞いたことがある。そいつはゾーンの中心部に行き、そして生還した何人かの1人だって噂だ。それ以外にも、俺には真実なのかどうか約束は出来んが、そういう英雄的なストーカーについての伝説的な噂はかなり沢山聞いたな。とにかく、俺はそいつと個人的に関わった事はない。どうもそいつはそいつ自身の取引のルートを持っているようだな。いずれにしてもだ、とりあえずゾーンにいる野郎に聞いてみろ。おそらくもっと沢山の事がわかるだろうさ。",
+      "JA_new": "ああ、その名のストーカーの噂なら聞いたことがある。ゾーンの中心まで行って戻ってきた、数少ない一人だそうだ。とはいえ、ストーカーの英雄譚なんて山ほどある。どこまで本当かは保証できん。俺自身は会ったこともない。独自の取引ルートを持ってるらしい。とにかく、ここにいる連中に聞けば、もっと話が聞けるはずだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "51",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_61#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1443,
+      "string_id": "escape_trader_talk_info_61",
+      "occurrence": 1,
+      "EN": "Heh, that's another local legend.\\n We haven't had any news from him in a long while. I suppose he perished somewhere deep in the Zone.",
+      "JA_current": "Heh, that's another local legend.\\n We haven't had any news from him in a long while. I suppose he perished somewhere deep in the Zone.",
+      "JA_new": "へえ、あれもこの辺りの伝説さ。\\nもう長いこと消息を聞いてない。ゾーンの奥で死んだんだろうな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "61",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_21#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1401,
+      "string_id": "escape_trader_talk_info_21",
+      "occurrence": 1,
+      "EN": "They guard and protect, what else? No one really knows whether they're guarding the Zone or protecting the rest of the world from it. Sometimes they send whole expeditions here to look for something... But I'll tell you something: they don't respect the Zone and the Zone doesn't like them either, that's why they return home in body bags very often. What else is there? Well, they look down at everyone and act like gods or something. They have no respect for stalker rules and won't ever help you even if you're dying right in front of them. They'll gladly shoot you themselves tho', and they don't get reprimanded for that... I've got a few contacts among them...you know, people always need vodka and... Umm, magazines, right? Don't annoy them - they'll whack you for nothing.",
+      "JA_current": "あいつらは監視して、守ってるんだよ。他に何がある？ あいつらがゾーンを守っているのか、それとも外の世界をゾーンから守っているのか、実際の所は誰も知らねぇ。時々あいつらはこっちにも遠征隊を出して何かを探しに来るんだ… でもな、お前に教えてやれる事はだ、あいつらはゾーンの事なんか気にしちゃいねえし、ゾーンの方もあいつらを好きじゃないって事だ。だからあいつらはしょっちゅう棺に入ってご帰宅されるのさ。他に理由なんてないだろ？ ま、あいつらは皆を見下してるし、神様か何かみたいに振る舞ってやがる。奴らはストーカー同士の慣習なんて全く気にしてないし、仮にお前が奴らの目の前で死にかけていたとしても、助けてはくれんだろうな。それどころかお前を喜んで撃つかもな。それでもあいつらはそんな事をして責められる事はねえんだ… 俺はあいつらの内の何人かとコンタクトを得ている。ほれ、人ってのはいつもウォッカを飲むだろ。それに… ああ、弾薬とかな。だろ？ あいつらを怒らすなよ。あいつらは意味も無くお前を殺すかもしれんからな。",
+      "JA_new": "見張って、守ってるんだろ。他に何がある？ 奴らがゾーンを監視してるのか、ゾーンから外の世界を守ってるのか、誰にも分からん。何かを探すため、時には大部隊を送り込んでくる……だが一つ言わせてもらうと、奴らはゾーンを敬ってないし、ゾーンも奴らを嫌ってる。だから、兵士が棺桶に入って帰ることも珍しくない。ほかには……誰にでも偉そうにして、神様気取りだ。ストーカーの掟なんてお構いなしで、目の前で死にかけてても助けちゃくれない。それどころか平気で撃ってくるし、お咎めもなしだ……俺にも何人か知り合いがいる。ほら、誰だってウォッカはいるし……ええと、弾倉もな。連中を怒らせるなよ。何でもないことで殺されるぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_311#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1410,
+      "string_id": "escape_trader_talk_info_311",
+      "occurrence": 1,
+      "EN": "What's so dangerous about this \"different world\"?",
+      "JA_current": "「別の世界」の何がそんなに危険なんだ？",
+      "JA_new": "この「別世界」は何がそんなに危険なんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "311",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_312#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1416,
+      "string_id": "escape_trader_talk_info_312",
+      "occurrence": 1,
+      "EN": "How does one get rich around here?",
+      "JA_current": "この辺りで、金を得るには どうしたらいい？",
+      "JA_new": "ここで金を稼ぐにはどうすればいい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "312",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_313#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1422,
+      "string_id": "escape_trader_talk_info_313",
+      "occurrence": 1,
+      "EN": "Does anyone know what's happening in the center of the Zone?",
+      "JA_current": "ゾーンの中心部で何が起こっているのか、誰か知ってるか？",
+      "JA_new": "ゾーンの中心で何が起きているか、誰か知ってるのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "313",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_3111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1413,
+      "string_id": "escape_trader_talk_info_3111",
+      "occurrence": 1,
+      "EN": "Hrm... Not a whole lot, except you can croak any second and not know what hit you. A dumb soldier's bullet is the least of your problems, although they've pulled in a lot of military here. Getting shot is basically the most painless kind of death in the Zone. Anomalies, now that's something for you... To die in an anomaly is a terrible thing indeed. Even mutants try to keep away from them. By the way, mutants, these \"children of the Zone\", are another kind of trouble, so don't go anywhere unarmed. And anyway, to learn about the other dangers, just ask other stalkers.",
+      "JA_current": "うーん、別に大した事は無いな。お前がいつでもバラされたり、誰がお前を襲ってくるかわからんって事を除いてはな。少なくとも無言の兵士がブっ放す弾がお前にとっての問題といえるだろう。ここらにはかなりの軍隊が来てるからな。ゾーンでは撃たれて死ぬってのが一番楽な死に方だよ。アノーマリー、これがお前にとっては、見慣れないものだろうな… 実際のところ、アノーマリーの中でくたばるのが一番酷いんだ。ミュータントでさえアノーマリーには入らないようにしてるくらいだからな。ところで、ミュータントは「ゾーンの子供達」ともいえるが、これはまた別の厄介者だ。だから何処へ行くにも丸腰はやめておけ。ま、他の危険について知りたけりゃ、他のストーカーにでも聞くんだな。",
+      "JA_new": "うーん……大した話じゃない。何が起きたか分からないまま、いつ死んでもおかしくないってことさ。兵士の間抜けな銃弾なんて、悩みの種としてはまだマシだ。軍人も大勢送り込まれてるが、撃たれて死ぬのはゾーンじゃ一番苦痛の少ない死に方だ。アノマリーは別だ……あれに呑まれて死ぬのは本当にひどい。ミュータントでさえ近寄らない。そうそう、その「ゾーンの子供」――ミュータントも厄介だ。武器なしで出歩くな。ほかの危険については、他のストーカーに聞くことだな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "3111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_3121#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1419,
+      "string_id": "escape_trader_talk_info_3121",
+      "occurrence": 1,
+      "EN": "Gee, man, what do you think? You don't remember?!\\n Artifacts, that's the most important thing here. All sorts of weird toys that come from the Zone are worth a fortune in the Big Land. Artifacts are more precious than gold, diamonds or pure plutonium. Why? Because no jewelry in the world can give you the supernatural powers that the artifacts possess. Just imagine: you can hang a little gadget on your belt that makes bullets swerve by and never hit you! What else? Well, you can find bits and pieces even right here. For the most valuable pieces though, you'll have to get closer to the center.",
+      "JA_current": "Gee, man, what do you think? You don't remember?!\\n Artifacts, that's the most important thing here. All sorts of weird toys that come from the Zone are worth a fortune in the Big Land. Artifacts are more precious than gold, diamonds or pure plutonium. Why? Because no jewelry in the world can give you the supernatural powers that the artifacts possess. Just imagine: you can hang a little gadget on your belt that makes bullets swerve by and never hit you! What else? Well, you can find bits and pieces even right here. For the most valuable pieces though, you'll have to get closer to the center.",
+      "JA_new": "おい、何を言ってるんだ？ 覚えてないのか？\\nアーティファクトだよ。ここじゃ何より大事なもんだ。ゾーンから出てくる奇妙な品は、外の世界じゃ大金になる。金やダイヤ、純プルトニウムより高い値がつくんだ。なぜかって？ アーティファクトが持つ超常の力は、どんな宝石にも出せないからさ。想像してみろ。ベルトに小さな道具をぶら下げるだけで、弾がそれて当たらなくなるんだ！ ほかにもいろいろある。欠片ならこの辺でも見つかるが、一番の掘り出し物を狙うなら、もっと中心に近づかないとな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "3121",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_talk_info_3131#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1425,
+      "string_id": "escape_trader_talk_info_3131",
+      "occurrence": 1,
+      "EN": "It's a different tale every time you hear it. It's a bunch of fairy tales... except I don't believe all that otherworldly nonsense. The one thing I do believe is that the center of the Zone contains a lot of valuable artifacts. Only I haven't met anyone who went there and managed to come back alive.",
+      "JA_current": "聞かれる度に、違った話になる。多くは絵空事だが… ああいったあの世のナンセンスを俺は信じてないからな。ゾーンの中心部に、価値あるアーティファクトが沢山存在するってことは信じている。ただし、そこへ行き、生きて戻った者に、俺は会ったことがないよ。",
+      "JA_new": "聞くたびに話が違う。どれも作り話みたいなもんさ……あの世の力だなんて話は信じちゃいない。信じてるのは、ゾーンの中心には価値あるアーティファクトが山ほどあるってことだけだ。だが、そこへ行って生きて戻った奴には会ったことがない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_talk_info",
+          "phrase_id": "3131",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "escape_trader_talk_info_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I need answers to a few questions.",
+      "JA_current": "聞きたいことがいくつかある。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "escape_trader_talk_info_1",
+      "next": [
+        "100",
+        "99"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9996",
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Ask away but I don’t know everything. I sit here all day while life goes on outside, in the Zone. I can tell you about the Zone in general and a little about the nearby areas where I've been myself.",
+      "JA_current": "他で聞け。俺は何でも知ってる訳じゃない。ゾーンであれやこれや起こっている間、俺は一日中ここに座ってるのだからな。ゾーンについての一般的なことや、俺が行ったことのある近所についてなら少しは教えられるが。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_1#1"
+      ]
+    },
+    {
+      "phrase_id": "100",
+      "text_id": "escape_trader_talk_info_100",
+      "next": [
+        "101"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Tell me about the Zone in general.",
+      "JA_current": "ゾーンの一般的な事について教えてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_100#1"
+      ]
+    },
+    {
+      "phrase_id": "99",
+      "text_id": "escape_trader_talk_info_99",
+      "next": [
+        "999"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What's going on in this neighborhood?",
+      "JA_current": "この辺りで何が起こっているんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_99#1"
+      ]
+    },
+    {
+      "phrase_id": "101",
+      "text_id": "escape_trader_talk_info_101",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "100"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Ask away.",
+      "JA_current": "他で聞け。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_101#1"
+      ]
+    },
+    {
+      "phrase_id": "999",
+      "text_id": "escape_trader_talk_info_999",
+      "next": [
+        "9991",
+        "9992",
+        "9993",
+        "9994",
+        "9995",
+        "9996"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "99"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Huh! This is the entrance to the Zone, a sort of an antechamber. We've got an army cordon here. It's relatively quiet, with the exception of a couple of army guys who like to have some fun, go on shakedown runs. Experienced stalkers don't come by very often, so it's mostly rookies. Some settle here for good, yeah... A little ways from here there's a farm made into a rookie camp. Watch yourself though, they aren't afraid to pull the trigger when push comes to shove. What else? You won't make huge profit here, that's for sure. There's a deserted factory across the road. To the North, behind the railroad embankment there are the ruins of a farm. An army outpost lies to the South of here. And beware: the military left some mines in the ground. Also, there used to be a bridge in the center, but it went down somehow. That's about it, really.",
+      "JA_current": "はっ！ ここはゾーンの入口だよ、控え室みたいなもんだ。軍の非常線もここにある。軍の野郎どもの内、騒ぎが好きな何人かを除いては、比較的静かだ。経験を積んだストーカーは滅多に来ない。だからここに居るのは殆どは新米だ。何人かはここに住み着いてる。そうだ… ここからほんの少し行った所に、農場を作り変えたルーキーキャンプがある。お前が通り抜けようとして大騒ぎの事態にでもなれば、あいつらは間違いなくお前を攻撃するだろう。他にはだな、ここでデカい稼ぎなんて出来やしねえよ。それは間違いない。道を渡った所に廃れた工場がある。北のレールの土手の裏には農場の廃墟がある。ここの南側は軍の前哨基地がある。それから、中心部は橋があったんだが、何かあって壊れちまった。そんなところだな。本当だぜ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_999#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": null,
+      "next": [
+        "111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "101"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "9991",
+      "text_id": "escape_trader_talk_info_9991",
+      "next": [
+        "99911"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "999"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Tell me more about the army outpost.",
+      "JA_current": "軍の前哨基地について教えてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_9991#1"
+      ]
+    },
+    {
+      "phrase_id": "9992",
+      "text_id": "escape_trader_talk_info_9992",
+      "next": [
+        "99922"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "999"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I want to know more about the fallen bridge.",
+      "JA_current": "壊れた橋についてもっと知りたいんだが。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_9992#1"
+      ]
+    },
+    {
+      "phrase_id": "9993",
+      "text_id": "escape_trader_talk_info_9993",
+      "next": [
+        "99933"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "999"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Got some more info about the factory?",
+      "JA_current": "工場についてもっと情報はないか？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_9993#1"
+      ]
+    },
+    {
+      "phrase_id": "9994",
+      "text_id": "escape_trader_talk_info_9994",
+      "next": [
+        "99944"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "999"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Tell me about the farm.",
+      "JA_current": "農場について教えてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_9994#1"
+      ]
+    },
+    {
+      "phrase_id": "9995",
+      "text_id": "escape_trader_talk_info_9995",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "999",
+        "99922",
+        "3121",
+        "3131",
+        "41",
+        "51",
+        "61",
+        "3111",
+        "21",
+        "99911",
+        "99944",
+        "99933",
+        "111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thanks, that's all.",
+      "JA_current": "ありがとう、それだけだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_9995#1"
+      ]
+    },
+    {
+      "phrase_id": "9996",
+      "text_id": "escape_trader_talk_info_9996",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "999",
+        "99922",
+        "3121",
+        "3131",
+        "41",
+        "51",
+        "61",
+        "3111",
+        "21",
+        "99911",
+        "99944",
+        "99933",
+        "111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'd like to find out more.",
+      "JA_current": "もう少し詳しく聞かせてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_9996#1"
+      ]
+    },
+    {
+      "phrase_id": "111",
+      "text_id": null,
+      "next": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "2",
+        "9996",
+        "9995"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "99911",
+      "text_id": "escape_trader_talk_info_99911",
+      "next": [
+        "9996",
+        "9995"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9991"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The few soldiers there have been ordered to shoot on sight, so you'd better walk around it and try not to show your ass. If you piss them off, they may call for the Spetsnaz from the further cordon. Those guys can brew up such shit that I won't have any customers for a month... I know the commander a little: he likes to take a swig as much as the next man. I'm surviving on here thanks to him.",
+      "JA_current": "そこの何人かの兵士どもは視界に入った者を撃つように命令されている。だからそいつらには近寄らないようにして、お前の尻を晒すような真似はやめとけ。もしあいつらを怒らせれば、スペツナズを呼んでくるかもしれん。そいつらはそういう糞どもをぶっ飛ばすのさ。そんなお客はここ1ヶ月見てないが… 俺は司令官について少しだけ知っている。奴は隣の人間をぶん殴るのが好きなくらい粗暴な奴だ。俺はあいつのおかげでここで生き残っているようなもんだがな。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_99911#1"
+      ]
+    },
+    {
+      "phrase_id": "99922",
+      "text_id": "escape_trader_talk_info_99922",
+      "next": [
+        "9996",
+        "9995"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9992"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "That's just a couple of minutes North of here, you'll see it right away. There used to be a bridge over the road, but then it collapsed during one of the blowouts. The army guys built a checkpoint there and don't let anyone through... but if you grease the right palm, you'll pass with no problems. In general, you don't want to show your face there too much, unless you're badly wounded or got a heavy load on you.",
+      "JA_current": "あれはここから北へちょっと行った所にある、すぐに見えてくるだろう。そこはかつては道を渡す橋だったんだが、何度かあった騒ぎの間にぶっ壊れちまった。軍の野郎どもが検問所を作って誰も通そうとしねえ。でも、もしお前がこっそり賄賂でも渡せば、問題なく通れるだろうな。基本的にはひでえ怪我をしてるか、重い荷物でも背負っていないかぎりは、あんまりあそこには顔を出さないようにしておけ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_99922#1"
+      ]
+    },
+    {
+      "phrase_id": "99933",
+      "text_id": "escape_trader_talk_info_99933",
+      "next": [
+        "9996",
+        "9995"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9993"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Cross the road and you'll see a brick building - that's it. Everything worth stealing has already been stolen, just this one box is left. This is the bandits' favorite place. I don't know if they are there now, but watch out just in case. You got nothing valuable on you to take, but do you really wanna go through all that?",
+      "JA_current": "道を渡ればレンガ造りの建物が見えてくる。それが工場だ。金目の物はもう皆盗まれて、残ったのはこの箱だけだ。これが悪党どもの好きなやりかただ。アイツらがまだそこにいるのかはわからんが、もしもの時も考えて気をつけろよ。価値のある物なんて何もないだろうが、それでも本当に行きたいってのか？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_99933#1"
+      ]
+    },
+    {
+      "phrase_id": "99944",
+      "text_id": "escape_trader_talk_info_99944",
+      "next": [
+        "9996",
+        "9995"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9994"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You're getting boring, you know that? It's just a farm like any other. The place used to thrive before democracy broke out.",
+      "JA_current": "退屈してきただろう、わかるか？ アレはどこにでもあるようなただの農場さ。あそこは民主主義が崩壊する前までは賑わっていた。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_99944#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "escape_trader_talk_info_3",
+      "next": [
+        "31"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "esc_trader_talked_about_me"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "esc_trader_talked_about_zone"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Tell me about the Zone.",
+      "JA_current": "ゾーンについて詳しく教えてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "escape_trader_talk_info_4",
+      "next": [
+        "41"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "esc_trader_talked_about_me"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Do you know what happened to me?",
+      "JA_current": "俺の身に何が起こっているんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_4#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "escape_trader_talk_info_5",
+      "next": [
+        "51"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Who is Strelok?",
+      "JA_current": "Strelok とは何者だ？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_5#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "escape_trader_talk_info_6",
+      "next": [
+        "61"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "agroprom_find_stalker_phantom"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Who is this Ghost stalker?",
+      "JA_current": "Ghost っていうストーカーは誰だ？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_6#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "escape_trader_talk_info_2",
+      "next": [
+        "21"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "esc_trader_talked_about_army"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What does the army do in the Zone?",
+      "JA_current": "あの軍隊はゾーンで何をやってるんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_2#1"
+      ]
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "escape_trader_talk_info_31",
+      "next": [
+        "311",
+        "312",
+        "313"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The Zone... You see, it's not just a circle a few kilometers in diameter with a nuclear power plant in the center. It's something bizarre. Really bizarre. I doubt anyone in the world could give you a straight answer. I feel the Zone isn't even part of this world. It's a different, detached world, weird and dangerous... and attractive, too. And you know why? Because with a little luck anyone can get rich quick. And the closer you come to the center of the Zone, the higher you will climb on the money ladder.",
+      "JA_current": "ゾーンなぁ… わかるか、あれは原子力発電所を中心とした、単なる直径数キロの地域じゃねえんだ。あれは本当に奇妙な、奇妙な何かだ。俺はあれにたいしてまともな答を出せる奴なんて、この世には居ないと思うね。俺はゾーンってのはこの世界の一部でさえないと感じてる。あれは世界から引き離された、別の異様で危険なもんだ。ただ魅力的でもあるんだがね。なんでかわかるか？ あそこではな、ほんの少しの運があれば誰でもすぐ金持ちになれるんだよ。お前がゾーンの中心に近づけば近づくほど金持ちへの階段を上っていくってことなのさ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_31#1"
+      ]
+    },
+    {
+      "phrase_id": "41",
+      "text_id": "escape_trader_talk_info_41",
+      "next": [
+        "9996",
+        "9995"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What kind of question is that? You see, that's some shady business...\\n They found you in a \"death truck\", that's a... a kind of corpse carrier, right? These trucks come in from the center of the Zone once in a while, loaded with bodies. No one really knows where they are heading. So, one of them crashed into something and you were found nearby. This is the most amazing thing of all. We've found broken-down corpse carriers before, but no one ever came out of them alive. I'm sorry, bro, that's all I can help you with. The rest you'll have to figure out for yourself.",
+      "JA_current": "What kind of question is that? You see, that's some shady business...\\n They found you in a \"death truck\", that's a... a kind of corpse carrier, right? These trucks come in from the center of the Zone once in a while, loaded with bodies. No one really knows where they are heading. So, one of them crashed into something and you were found nearby. This is the most amazing thing of all. We've found broken-down corpse carriers before, but no one ever came out of them alive. I'm sorry, bro, that's all I can help you with. The rest you'll have to figure out for yourself.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_41#1"
+      ]
+    },
+    {
+      "phrase_id": "51",
+      "text_id": "escape_trader_talk_info_51",
+      "next": [
+        "9996",
+        "9995"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, I've heard of a stalker by that name. Rumors is he's one of the few who went to the center of the Zone and made it back. Still, we got so many of these legendary stories about stalker heroes that I can't really guarantee anything. At any rate, I've never dealt with him personally. It seems he has his own trading channels. Anyhow, just ask the folks here in the Zone and you'll be sure to learn a lot more.",
+      "JA_current": "ああ、その名前のストーカーについて聞いたことがある。そいつはゾーンの中心部に行き、そして生還した何人かの1人だって噂だ。それ以外にも、俺には真実なのかどうか約束は出来んが、そういう英雄的なストーカーについての伝説的な噂はかなり沢山聞いたな。とにかく、俺はそいつと個人的に関わった事はない。どうもそいつはそいつ自身の取引のルートを持っているようだな。いずれにしてもだ、とりあえずゾーンにいる野郎に聞いてみろ。おそらくもっと沢山の事がわかるだろうさ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_51#1"
+      ]
+    },
+    {
+      "phrase_id": "61",
+      "text_id": "escape_trader_talk_info_61",
+      "next": [
+        "9996",
+        "9995"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Heh, that's another local legend.\\n We haven't had any news from him in a long while. I suppose he perished somewhere deep in the Zone.",
+      "JA_current": "Heh, that's another local legend.\\n We haven't had any news from him in a long while. I suppose he perished somewhere deep in the Zone.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_61#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "escape_trader_talk_info_21",
+      "next": [
+        "9996",
+        "9995"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "They guard and protect, what else? No one really knows whether they're guarding the Zone or protecting the rest of the world from it. Sometimes they send whole expeditions here to look for something... But I'll tell you something: they don't respect the Zone and the Zone doesn't like them either, that's why they return home in body bags very often. What else is there? Well, they look down at everyone and act like gods or something. They have no respect for stalker rules and won't ever help you even if you're dying right in front of them. They'll gladly shoot you themselves tho', and they don't get reprimanded for that... I've got a few contacts among them...you know, people always need vodka and... Umm, magazines, right? Don't annoy them - they'll whack you for nothing.",
+      "JA_current": "あいつらは監視して、守ってるんだよ。他に何がある？ あいつらがゾーンを守っているのか、それとも外の世界をゾーンから守っているのか、実際の所は誰も知らねぇ。時々あいつらはこっちにも遠征隊を出して何かを探しに来るんだ… でもな、お前に教えてやれる事はだ、あいつらはゾーンの事なんか気にしちゃいねえし、ゾーンの方もあいつらを好きじゃないって事だ。だからあいつらはしょっちゅう棺に入ってご帰宅されるのさ。他に理由なんてないだろ？ ま、あいつらは皆を見下してるし、神様か何かみたいに振る舞ってやがる。奴らはストーカー同士の慣習なんて全く気にしてないし、仮にお前が奴らの目の前で死にかけていたとしても、助けてはくれんだろうな。それどころかお前を喜んで撃つかもな。それでもあいつらはそんな事をして責められる事はねえんだ… 俺はあいつらの内の何人かとコンタクトを得ている。ほれ、人ってのはいつもウォッカを飲むだろ。それに… ああ、弾薬とかな。だろ？ あいつらを怒らすなよ。あいつらは意味も無くお前を殺すかもしれんからな。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_21#1"
+      ]
+    },
+    {
+      "phrase_id": "311",
+      "text_id": "escape_trader_talk_info_311",
+      "next": [
+        "3111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "esc_trader_talked_about_army"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "31"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What's so dangerous about this \"different world\"?",
+      "JA_current": "「別の世界」の何がそんなに危険なんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_311#1"
+      ]
+    },
+    {
+      "phrase_id": "312",
+      "text_id": "escape_trader_talk_info_312",
+      "next": [
+        "3121"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "How does one get rich around here?",
+      "JA_current": "この辺りで、金を得るには どうしたらいい？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_312#1"
+      ]
+    },
+    {
+      "phrase_id": "313",
+      "text_id": "escape_trader_talk_info_313",
+      "next": [
+        "3131"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Does anyone know what's happening in the center of the Zone?",
+      "JA_current": "ゾーンの中心部で何が起こっているのか、誰か知ってるか？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_313#1"
+      ]
+    },
+    {
+      "phrase_id": "3111",
+      "text_id": "escape_trader_talk_info_3111",
+      "next": [
+        "9996",
+        "9995"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "311"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hrm... Not a whole lot, except you can croak any second and not know what hit you. A dumb soldier's bullet is the least of your problems, although they've pulled in a lot of military here. Getting shot is basically the most painless kind of death in the Zone. Anomalies, now that's something for you... To die in an anomaly is a terrible thing indeed. Even mutants try to keep away from them. By the way, mutants, these \"children of the Zone\", are another kind of trouble, so don't go anywhere unarmed. And anyway, to learn about the other dangers, just ask other stalkers.",
+      "JA_current": "うーん、別に大した事は無いな。お前がいつでもバラされたり、誰がお前を襲ってくるかわからんって事を除いてはな。少なくとも無言の兵士がブっ放す弾がお前にとっての問題といえるだろう。ここらにはかなりの軍隊が来てるからな。ゾーンでは撃たれて死ぬってのが一番楽な死に方だよ。アノーマリー、これがお前にとっては、見慣れないものだろうな… 実際のところ、アノーマリーの中でくたばるのが一番酷いんだ。ミュータントでさえアノーマリーには入らないようにしてるくらいだからな。ところで、ミュータントは「ゾーンの子供達」ともいえるが、これはまた別の厄介者だ。だから何処へ行くにも丸腰はやめておけ。ま、他の危険について知りたけりゃ、他のストーカーにでも聞くんだな。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_3111#1"
+      ]
+    },
+    {
+      "phrase_id": "3121",
+      "text_id": "escape_trader_talk_info_3121",
+      "next": [
+        "9996",
+        "9995"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "312"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Gee, man, what do you think? You don't remember?!\\n Artifacts, that's the most important thing here. All sorts of weird toys that come from the Zone are worth a fortune in the Big Land. Artifacts are more precious than gold, diamonds or pure plutonium. Why? Because no jewelry in the world can give you the supernatural powers that the artifacts possess. Just imagine: you can hang a little gadget on your belt that makes bullets swerve by and never hit you! What else? Well, you can find bits and pieces even right here. For the most valuable pieces though, you'll have to get closer to the center.",
+      "JA_current": "Gee, man, what do you think? You don't remember?!\\n Artifacts, that's the most important thing here. All sorts of weird toys that come from the Zone are worth a fortune in the Big Land. Artifacts are more precious than gold, diamonds or pure plutonium. Why? Because no jewelry in the world can give you the supernatural powers that the artifacts possess. Just imagine: you can hang a little gadget on your belt that makes bullets swerve by and never hit you! What else? Well, you can find bits and pieces even right here. For the most valuable pieces though, you'll have to get closer to the center.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_3121#1"
+      ]
+    },
+    {
+      "phrase_id": "3131",
+      "text_id": "escape_trader_talk_info_3131",
+      "next": [
+        "9996",
+        "9995"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "313"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It's a different tale every time you hear it. It's a bunch of fairy tales... except I don't believe all that otherworldly nonsense. The one thing I do believe is that the center of the Zone contains a lot of valuable artifacts. Only I haven't met anyone who went there and managed to come back alive.",
+      "JA_current": "聞かれる度に、違った話になる。多くは絵空事だが… ああいったあの世のナンセンスを俺は信じてないからな。ゾーンの中心部に、価値あるアーティファクトが沢山存在するってことは信じている。ただし、そこへ行き、生きて戻った者に、俺は会ったことがないよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_talk_info_3131#1"
+      ]
+    }
+  ]
+}

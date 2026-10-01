@@ -1,0 +1,344 @@
+{
+  "packet_id": "dialog_0153__arenda_v94_finish_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "arenda_v94_finish_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "arenda_v94_start"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "arenda_v94_finish"
+    },
+    {
+      "type": "precondition",
+      "value": "ogse_quests.v94_arenda_off_check"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 7,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:arenda_v94_finish_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1749,
+      "string_id": "arenda_v94_finish_1",
+      "occurrence": 1,
+      "EN": "Look, I made up my mind to give your \"artillery\" piece back.",
+      "JA_current": "Look, I made up my mind to give your \"artillery\" piece back.",
+      "JA_new": "なあ、あんたの「大砲」を返すことにした。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arenda_v94_finish_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arenda_v94_finish_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1752,
+      "string_id": "arenda_v94_finish_2",
+      "occurrence": 1,
+      "EN": "Oh, why? You can't afford the ammo or are you just too weak to carry it? Ha-ha-ha!",
+      "JA_current": "Oh, why? You can't afford the ammo or are you just too weak to carry it? Ha-ha-ha!",
+      "JA_new": "何だ？ 弾を買う金がないのか、それとも重くて持てないのか？ ははは！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arenda_v94_finish_dialog",
+          "phrase_id": "991",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arenda_v94_finish_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1755,
+      "string_id": "arenda_v94_finish_3",
+      "occurrence": 1,
+      "EN": "Bit of both, actually. Let's skip the bullshit: here's the gun, give me back my money.",
+      "JA_current": "Bit of both, actually. Let's skip the bullshit: here's the gun, give me back my money.",
+      "JA_new": "どっちもだ。くだらない話はいい。ほら、銃だ。金を返してくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arenda_v94_finish_dialog",
+          "phrase_id": "992",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arenda_v94_finish_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1758,
+      "string_id": "arenda_v94_finish_4",
+      "occurrence": 1,
+      "EN": "So, let me calculate... Aha... Here you are, 20,000 dough in return.",
+      "JA_current": "So, let me calculate... Aha... Here you are, 20,000 dough in return.",
+      "JA_new": "計算すると……よし。2万ルーブル返してやる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arenda_v94_finish_dialog",
+          "phrase_id": "993",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arenda_v94_finish_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1761,
+      "string_id": "arenda_v94_finish_5",
+      "occurrence": 1,
+      "EN": "Have you lost your head, scumbag?! Think about this, you really got nothing to lose?!",
+      "JA_current": "Have you lost your head, scumbag?! Think about this, you really got nothing to lose?!",
+      "JA_new": "頭おかしいのか、このクソ野郎！？ 自分に失うものがないとでも思ってるのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arenda_v94_finish_dialog",
+          "phrase_id": "994",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arenda_v94_finish_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1764,
+      "string_id": "arenda_v94_finish_6",
+      "occurrence": 1,
+      "EN": "Calm down, calm down. Alright, here, another 10 grand and a beer for you. You understand I'm taking the rest as my cut for the service, and for maintenance costs of wear and tear. Don't go trying to make trouble around here - the guys will quickly help you with your problems.",
+      "JA_current": "Calm down, calm down. Alright, here, another 10 grand and a beer for you. You understand I'm taking the rest as my cut for the service, and for maintenance costs of wear and tear. Don't go trying to make trouble around here - the guys will quickly help you with your problems.",
+      "JA_new": "落ち着け、落ち着け。分かったよ。あと1万ルーブルとビールをやる。残りは貸し賃と、銃の消耗分の整備費としてもらう。ここで騒ぎを起こすなよ。仲間がすぐに「問題」を片づけてくれるぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arenda_v94_finish_dialog",
+          "phrase_id": "995",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arenda_v94_finish_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1767,
+      "string_id": "arenda_v94_finish_7",
+      "occurrence": 1,
+      "EN": "Finished with it. Hey, to my health!",
+      "JA_current": "Finished with it. Hey, to my health!",
+      "JA_new": "これで終わりだ。さあ、俺の健康に乾杯！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arenda_v94_finish_dialog",
+          "phrase_id": "996",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "arenda_v94_finish_1",
+      "next": [
+        "991"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Look, I made up my mind to give your \"artillery\" piece back.",
+      "JA_current": "Look, I made up my mind to give your \"artillery\" piece back.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arenda_v94_finish_1#1"
+      ]
+    },
+    {
+      "phrase_id": "991",
+      "text_id": "arenda_v94_finish_2",
+      "next": [
+        "992"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Oh, why? You can't afford the ammo or are you just too weak to carry it? Ha-ha-ha!",
+      "JA_current": "Oh, why? You can't afford the ammo or are you just too weak to carry it? Ha-ha-ha!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arenda_v94_finish_2#1"
+      ]
+    },
+    {
+      "phrase_id": "992",
+      "text_id": "arenda_v94_finish_3",
+      "next": [
+        "993"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "991"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Bit of both, actually. Let's skip the bullshit: here's the gun, give me back my money.",
+      "JA_current": "Bit of both, actually. Let's skip the bullshit: here's the gun, give me back my money.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arenda_v94_finish_3#1"
+      ]
+    },
+    {
+      "phrase_id": "993",
+      "text_id": "arenda_v94_finish_4",
+      "next": [
+        "994"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "ogse_quests.v94_arenda_off_1"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "992"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "So, let me calculate... Aha... Here you are, 20,000 dough in return.",
+      "JA_current": "So, let me calculate... Aha... Here you are, 20,000 dough in return.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arenda_v94_finish_4#1"
+      ]
+    },
+    {
+      "phrase_id": "994",
+      "text_id": "arenda_v94_finish_5",
+      "next": [
+        "995"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "993"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Have you lost your head, scumbag?! Think about this, you really got nothing to lose?!",
+      "JA_current": "Have you lost your head, scumbag?! Think about this, you really got nothing to lose?!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arenda_v94_finish_5#1"
+      ]
+    },
+    {
+      "phrase_id": "995",
+      "text_id": "arenda_v94_finish_6",
+      "next": [
+        "996"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "ogse_quests.v94_arenda_off_2"
+        },
+        {
+          "type": "give_info",
+          "value": "arenda_v94_finish"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "994"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Calm down, calm down. Alright, here, another 10 grand and a beer for you. You understand I'm taking the rest as my cut for the service, and for maintenance costs of wear and tear. Don't go trying to make trouble around here - the guys will quickly help you with your problems.",
+      "JA_current": "Calm down, calm down. Alright, here, another 10 grand and a beer for you. You understand I'm taking the rest as my cut for the service, and for maintenance costs of wear and tear. Don't go trying to make trouble around here - the guys will quickly help you with your problems.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arenda_v94_finish_6#1"
+      ]
+    },
+    {
+      "phrase_id": "996",
+      "text_id": "arenda_v94_finish_7",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "ogse_quests.v94_arenda_off_3"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "995"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Finished with it. Hey, to my health!",
+      "JA_current": "Finished with it. Hey, to my health!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arenda_v94_finish_7#1"
+      ]
+    }
+  ]
+}

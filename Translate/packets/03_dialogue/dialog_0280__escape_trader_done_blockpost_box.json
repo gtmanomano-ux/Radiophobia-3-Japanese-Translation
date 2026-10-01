@@ -1,0 +1,132 @@
+{
+  "packet_id": "dialog_0280__escape_trader_done_blockpost_box",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "escape_trader_done_blockpost_box",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "escape_trader",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "escape_dialog.have_blockpost_case"
+    },
+    {
+      "type": "has_info",
+      "value": "escape_blockpost_case_have"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 2,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:escape_trader_done_blockpost_box_0#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1171,
+      "string_id": "escape_trader_done_blockpost_box_0",
+      "occurrence": 1,
+      "EN": "Mission complete. Here's the box from the army outpost.",
+      "JA_current": "任務完了だ。軍の前哨から持ち帰ったボックスがこれだ。",
+      "JA_new": "任務完了だ。軍の前哨基地から箱を持ってきた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_done_blockpost_box",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_done_blockpost_box_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1174,
+      "string_id": "escape_trader_done_blockpost_box_2",
+      "occurrence": 1,
+      "EN": "Good! You were a great help. But, of course a \"thank you\" won't buy you a loaf of bread. Here's three... wait, two thousand pieces of eight and we're square!  By the way, the soldiers will certainly notice something missing, so things are going to heat up. You better get going, and the faster, the better.",
+      "JA_current": "よくやった。大いに助かった。だがもちろん、「ありがとう」ではパンのひと切れも買えまい。ほら、3000… いや待てよ、2000両だ、これで貸し借りなしだ！ ところで、軍の兵士たちは何かを失ったことに気づくはずだ、事態はヒートアップするだろう。さぁ行くがいい、より早く、より上手くな。",
+      "JA_new": "よし、助かった。だが礼だけじゃパンは買えないからな。3,000……いや、2,000ルーブル払おう。これで貸し借りなしだ！　そうそう、兵士は何かなくなったと気づくはずだ。しばらく騒ぎになるぞ。早く立ち去った方がいい。急げよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_done_blockpost_box",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "escape_trader_done_blockpost_box_0",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "escape_dialog.give_blockpost_case"
+        },
+        {
+          "type": "give_info",
+          "value": "escape_blockpost_case_done"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Mission complete. Here's the box from the army outpost.",
+      "JA_current": "任務完了だ。軍の前哨から持ち帰ったボックスがこれだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_done_blockpost_box_0#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "escape_trader_done_blockpost_box_2",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "escape_dialog.give_blockpost_case_reward"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Good! You were a great help. But, of course a \"thank you\" won't buy you a loaf of bread. Here's three... wait, two thousand pieces of eight and we're square!  By the way, the soldiers will certainly notice something missing, so things are going to heat up. You better get going, and the faster, the better.",
+      "JA_current": "よくやった。大いに助かった。だがもちろん、「ありがとう」ではパンのひと切れも買えまい。ほら、3000… いや待てよ、2000両だ、これで貸し借りなしだ！ ところで、軍の兵士たちは何かを失ったことに気づくはずだ、事態はヒートアップするだろう。さぁ行くがいい、より早く、より上手くな。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_done_blockpost_box_2#1"
+      ]
+    }
+  ]
+}

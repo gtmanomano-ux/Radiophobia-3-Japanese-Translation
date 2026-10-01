@@ -1,0 +1,378 @@
+{
+  "packet_id": "dialog_0144__bar_bar_hunter_quest_start",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_bar_hunter_quest_start",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_bar_hunter",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "bar_bar_hunter_quest_start"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "bar_bar_hunter_quest_finish"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 8,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_bar_hunter_quest_start_0#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 854,
+      "string_id": "bar_bar_hunter_quest_start_0",
+      "occurrence": 1,
+      "EN": "Go on.",
+      "JA_current": "続けてくれ。",
+      "JA_new": "続けてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_hunter_quest_start",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_hunter_quest_start_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 857,
+      "string_id": "bar_bar_hunter_quest_start_1",
+      "occurrence": 1,
+      "EN": "I'll give you anything! Just return my rifle, I beg you. I lost it by that place where those damn bloodsuckers live. Here are the coordinates. Be careful, though. Bloodsuckers aren't the friendly kind.",
+      "JA_current": "何でもくれてやるよ！ 頼むからライフルを取り戻してくれ。あのクソ Bloodsucker がいる場所で無くしたんだ。これがその座標だ。用心してくれよ。友好的なヤツらじゃないからな。",
+      "JA_new": "何でも払う！ 頼むから、俺のライフルを取り戻してくれ。あのクソみたいなブラッドサッカーの縄張りでなくした。座標を渡すよ。だが気をつけろ。あいつらは友好的じゃない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_hunter_quest_start",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_hunter_quest_start_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 860,
+      "string_id": "bar_bar_hunter_quest_start_11",
+      "occurrence": 1,
+      "EN": "OK, I'll try to get your rifle.",
+      "JA_current": "わかった。アンタのライフルを手に入れてみよう。",
+      "JA_new": "分かった。ライフルを探してくる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_hunter_quest_start",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_hunter_quest_start_12#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 869,
+      "string_id": "bar_bar_hunter_quest_start_12",
+      "occurrence": 1,
+      "EN": "No. I've got more important things to do.",
+      "JA_current": "いいや、他に重要なことがあるんだ。",
+      "JA_new": "いや、もっと大事な用がある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_hunter_quest_start",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_hunter_quest_start_111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 863,
+      "string_id": "bar_bar_hunter_quest_start_111",
+      "occurrence": 1,
+      "EN": "I won't cheat you.",
+      "JA_current": "騙すつもりはない。",
+      "JA_new": "損はさせない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_hunter_quest_start",
+          "phrase_id": "111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_hunter_quest_start_121#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 872,
+      "string_id": "bar_bar_hunter_quest_start_121",
+      "occurrence": 1,
+      "EN": "Up to you... but I hope you change your mind.",
+      "JA_current": "お前次第だがな… しかし、考え直してくれるよう願ってるよ。",
+      "JA_new": "お前の自由だ……気が変わるといいがな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_hunter_quest_start",
+          "phrase_id": "121",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_hunter_quest_start_1111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 866,
+      "string_id": "bar_bar_hunter_quest_start_1111",
+      "occurrence": 1,
+      "EN": "It's in your interest.",
+      "JA_current": "お前のためだ。",
+      "JA_new": "あんたのためでもある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_hunter_quest_start",
+          "phrase_id": "1111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_hunter_quest_start_1212#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 875,
+      "string_id": "bar_bar_hunter_quest_start_1212",
+      "occurrence": 1,
+      "EN": "We'll see.",
+      "JA_current": "考えてみよう。",
+      "JA_new": "その時になったらな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_hunter_quest_start",
+          "phrase_id": "1212",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bar_bar_hunter_quest_start_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Go on.",
+      "JA_current": "続けてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_hunter_quest_start_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "bar_bar_hunter_quest_start_1",
+      "next": [
+        "11",
+        "12"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'll give you anything! Just return my rifle, I beg you. I lost it by that place where those damn bloodsuckers live. Here are the coordinates. Be careful, though. Bloodsuckers aren't the friendly kind.",
+      "JA_current": "何でもくれてやるよ！ 頼むからライフルを取り戻してくれ。あのクソ Bloodsucker がいる場所で無くしたんだ。これがその座標だ。用心してくれよ。友好的なヤツらじゃないからな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_hunter_quest_start_1#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "bar_bar_hunter_quest_start_11",
+      "next": [
+        "111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "bar_bar_hunter_quest_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "OK, I'll try to get your rifle.",
+      "JA_current": "わかった。アンタのライフルを手に入れてみよう。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_hunter_quest_start_11#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "bar_bar_hunter_quest_start_12",
+      "next": [
+        "121"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No. I've got more important things to do.",
+      "JA_current": "いいや、他に重要なことがあるんだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_hunter_quest_start_12#1"
+      ]
+    },
+    {
+      "phrase_id": "111",
+      "text_id": "bar_bar_hunter_quest_start_111",
+      "next": [
+        "1111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I won't cheat you.",
+      "JA_current": "騙すつもりはない。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_hunter_quest_start_111#1"
+      ]
+    },
+    {
+      "phrase_id": "121",
+      "text_id": "bar_bar_hunter_quest_start_121",
+      "next": [
+        "1212"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Up to you... but I hope you change your mind.",
+      "JA_current": "お前次第だがな… しかし、考え直してくれるよう願ってるよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_hunter_quest_start_121#1"
+      ]
+    },
+    {
+      "phrase_id": "1111",
+      "text_id": "bar_bar_hunter_quest_start_1111",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It's in your interest.",
+      "JA_current": "お前のためだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_hunter_quest_start_1111#1"
+      ]
+    },
+    {
+      "phrase_id": "1212",
+      "text_id": "bar_bar_hunter_quest_start_1212",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "121"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "We'll see.",
+      "JA_current": "考えてみよう。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_hunter_quest_start_1212#1"
+      ]
+    }
+  ]
+}

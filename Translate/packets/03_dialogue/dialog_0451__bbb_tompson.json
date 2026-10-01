@@ -1,0 +1,476 @@
+{
+    "packet_id":  "dialog_0451__bbb_tompson",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "bbb_tompson",
+    "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml",
+    "graph_sha256":  "131d3c64c00a1023af4aaa914f345f3cfff2e581dea421160993fad100675545",
+    "character_bindings":  [
+                               {
+                                   "profile_id":  "tompson",
+                                   "binding_type":  "start_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               }
+                           ],
+    "dialog_conditions":  [
+                              {
+                                  "type":  "has_info",
+                                  "value":  "actor_set_zombied"
+                              }
+                          ],
+    "root_speaker_hint":  "npc",
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  8,
+    "entries":  [
+                    {
+                        "key":  "stable_dialogs_yantar:mojno_vas#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  63,
+                        "string_id":  "mojno_vas",
+                        "occurrence":  1,
+                        "EN":  "Excuse me! May I talk to you?",
+                        "JA_current":  "Excuse me! May I talk to you?",
+                        "JA_new":  "すみません、話を聞かせてもらえますか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "bbb_tompson",
+                                               "phrase_id":  "1",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:bbb#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  66,
+                        "string_id":  "bbb",
+                        "occurrence":  1,
+                        "EN":  "Don\u0027t distract me...",
+                        "JA_current":  "Don\u0027t distract me...",
+                        "JA_new":  "邪魔するな……。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "bbb_tompson",
+                                               "phrase_id":  "2",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:vi_tompson#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  69,
+                        "string_id":  "vi_tompson",
+                        "occurrence":  1,
+                        "EN":  "Are you Tompson?",
+                        "JA_current":  "Are you Tompson?",
+                        "JA_new":  "あんたがトンプソンか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "bbb_tompson",
+                                               "phrase_id":  "3",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:da_eto_ya#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  72,
+                        "string_id":  "da_eto_ya",
+                        "occurrence":  1,
+                        "EN":  "Yes, I am.",
+                        "JA_current":  "Yes, I am.",
+                        "JA_new":  "そうだ、俺だ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "bbb_tompson",
+                                               "phrase_id":  "4",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:saharov_skazal#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  75,
+                        "string_id":  "saharov_skazal",
+                        "occurrence":  1,
+                        "EN":  "Sakharov said...",
+                        "JA_current":  "Sakharov said...",
+                        "JA_new":  "サハロフが……。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "bbb_tompson",
+                                               "phrase_id":  "5",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:ne_pugaj#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  78,
+                        "string_id":  "ne_pugaj",
+                        "occurrence":  1,
+                        "EN":  "Don\u0027t try to frighten me...",
+                        "JA_current":  "Don\u0027t try to frighten me...",
+                        "JA_new":  "脅かすな……。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "bbb_tompson",
+                                               "phrase_id":  "6",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:u_teba_est_artef#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  81,
+                        "string_id":  "u_teba_est_artef",
+                        "occurrence":  1,
+                        "EN":  "Have you got any artifacts with you? Tell me, or I\u0027ll kill you!",
+                        "JA_current":  "Have you got any artifacts with you? Tell me, or I\u0027ll kill you!",
+                        "JA_new":  "アーティファクトを持ってるか？ あるなら言え。でなきゃ殺すぞ！",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "bbb_tompson",
+                                               "phrase_id":  "7",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:est#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  84,
+                        "string_id":  "est",
+                        "occurrence":  1,
+                        "EN":  "Yes, I have. But if you murder me, you won\u0027t get anything. But I may sell them to you.",
+                        "JA_current":  "Yes, I have. But if you murder me, you won\u0027t get anything. But I may sell them to you.",
+                        "JA_new":  "ああ、持ってる。だが俺を殺したら手に入らないぞ。売ってやってもいい。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "bbb_tompson",
+                                               "phrase_id":  "8",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  null,
+                            "next":  [
+                                         "1"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  null,
+                            "speaker_hint_basis":  "unresolved",
+                            "EN":  null,
+                            "JA_current":  null,
+                            "string_entry_candidates":  [
+
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "1",
+                            "text_id":  "mojno_vas",
+                            "next":  [
+                                         "2"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Excuse me! May I talk to you?",
+                            "JA_current":  "Excuse me! May I talk to you?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:mojno_vas#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "2",
+                            "text_id":  "bbb",
+                            "next":  [
+                                         "3"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "soundtrack.tompson_bbb"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Don\u0027t distract me...",
+                            "JA_current":  "Don\u0027t distract me...",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:bbb#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "3",
+                            "text_id":  "vi_tompson",
+                            "next":  [
+                                         "4"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "2"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Are you Tompson?",
+                            "JA_current":  "Are you Tompson?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:vi_tompson#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "4",
+                            "text_id":  "da_eto_ya",
+                            "next":  [
+                                         "5"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "give_info",
+                                                "value":  "meet_tompson"
+                                            },
+                                            {
+                                                "type":  "action",
+                                                "value":  "soundtrack.tompson_da"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "3"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Yes, I am.",
+                            "JA_current":  "Yes, I am.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:da_eto_ya#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "5",
+                            "text_id":  "saharov_skazal",
+                            "next":  [
+                                         "6"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "4"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Sakharov said...",
+                            "JA_current":  "Sakharov said...",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:saharov_skazal#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "6",
+                            "text_id":  "ne_pugaj",
+                            "next":  [
+                                         "7"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "soundtrack.tompson_saharov"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "5"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Don\u0027t try to frighten me...",
+                            "JA_current":  "Don\u0027t try to frighten me...",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:ne_pugaj#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "7",
+                            "text_id":  "u_teba_est_artef",
+                            "next":  [
+                                         "8"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "6"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Have you got any artifacts with you? Tell me, or I\u0027ll kill you!",
+                            "JA_current":  "Have you got any artifacts with you? Tell me, or I\u0027ll kill you!",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:u_teba_est_artef#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "8",
+                            "text_id":  "est",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "soundtrack.tompson_nado"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "7"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Yes, I have. But if you murder me, you won\u0027t get anything. But I may sell them to you.",
+                            "JA_current":  "Yes, I have. But if you murder me, you won\u0027t get anything. But I may sell them to you.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:est#1"
+                                                        ]
+                        }
+                    ]
+}

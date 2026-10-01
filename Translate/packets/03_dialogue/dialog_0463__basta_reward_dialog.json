@@ -1,0 +1,222 @@
+{
+  "packet_id": "dialog_0463__basta_reward_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "basta_reward_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml",
+  "graph_sha256": "131d3c64c00a1023af4aaa914f345f3cfff2e581dea421160993fad100675545",
+  "character_bindings": [
+    {
+      "profile_id": "basta_stalker",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "basta_fisheye_otdana"
+    },
+    {
+      "type": "precondition",
+      "value": "yantar_dialog.have_a_fisheye"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 4,
+  "entries": [
+    {
+      "key": "stable_dialogs_yantar:basta_reward_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 680,
+      "string_id": "basta_reward_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Get your artifact.",
+      "JA_current": "Get your artifact.",
+      "JA_new": "アーティファクトを持ってきた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_reward_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_reward_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 683,
+      "string_id": "basta_reward_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Thank you, Marked One. Now I am saved. Here comes the reward:",
+      "JA_current": "Thank you, Marked One. Now I am saved. Here comes the reward:",
+      "JA_new": "ありがとう、マークド・ワン。これで助かった。報酬を渡すよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_reward_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_reward_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 686,
+      "string_id": "basta_reward_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "What is this information?",
+      "JA_current": "What is this information?",
+      "JA_new": "その情報って何だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_reward_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_reward_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 689,
+      "string_id": "basta_reward_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "There was some interesting information on that Vulture flash drive I was talking about. The fact is that these unknown stalkers apparently were going to hire one of ours to make him their agent. He was to act as their scout, to find connections, to negotiate with the right people. It listed his name. So, a stalker I know recently passed me a note that this agent was seen on the way from the Army Warehouses to the Bar. You can try to intercept him there and get information about the group of unknowns. They call this stalker Knopik. Hurry up!",
+      "JA_current": "There was some interesting information on that Vulture flash drive I was talking about. The fact is that these unknown stalkers apparently were going to hire one of ours to make him their agent. He was to act as their scout, to find connections, to negotiate with the right people. It listed his name. So, a stalker I know recently passed me a note that this agent was seen on the way from the Army Warehouses to the Bar. You can try to intercept him there and get information about the group of unknowns. They call this stalker Knopik. Hurry up!",
+      "JA_new": "話したヴァルチャーのフラッシュドライブに、気になる情報があった。正体不明のストーカーたちは、俺たちの仲間を一人、手先として雇おうとしていたらしい。斥候として周囲を探らせ、連絡先を見つけさせ、目当ての相手と交渉させるつもりだった。そいつの名前も載っていた。少し前に知り合いのストーカーからメモを受け取ったんだが、その手先が軍事倉庫からロストクへ向かう道で目撃されたそうだ。そこで待ち伏せして、正体不明の連中について聞き出せるかもしれない。そいつの名はクノピクだ。急げ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_reward_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "basta_reward_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "yantar_dialog.otday_fisheye"
+        },
+        {
+          "type": "give_info",
+          "value": "basta_fisheye_otdana"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Get your artifact.",
+      "JA_current": "Get your artifact.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_reward_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "basta_reward_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.sps_viruchil"
+        },
+        {
+          "type": "action",
+          "value": "yantar_dialog.basta_reward"
+        },
+        {
+          "type": "give_info",
+          "value": "nayti_agenta"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you, Marked One. Now I am saved. Here comes the reward:",
+      "JA_current": "Thank you, Marked One. Now I am saved. Here comes the reward:",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_reward_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "basta_reward_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What is this information?",
+      "JA_current": "What is this information?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_reward_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "basta_reward_dialog_phrase_4",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "There was some interesting information on that Vulture flash drive I was talking about. The fact is that these unknown stalkers apparently were going to hire one of ours to make him their agent. He was to act as their scout, to find connections, to negotiate with the right people. It listed his name. So, a stalker I know recently passed me a note that this agent was seen on the way from the Army Warehouses to the Bar. You can try to intercept him there and get information about the group of unknowns. They call this stalker Knopik. Hurry up!",
+      "JA_current": "There was some interesting information on that Vulture flash drive I was talking about. The fact is that these unknown stalkers apparently were going to hire one of ours to make him their agent. He was to act as their scout, to find connections, to negotiate with the right people. It listed his name. So, a stalker I know recently passed me a note that this agent was seen on the way from the Army Warehouses to the Bar. You can try to intercept him there and get information about the group of unknowns. They call this stalker Knopik. Hurry up!",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_reward_dialog_phrase_4#1"
+      ]
+    }
+  ]
+}

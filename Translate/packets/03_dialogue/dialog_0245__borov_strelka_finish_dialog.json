@@ -1,0 +1,342 @@
+{
+  "packet_id": "dialog_0245__borov_strelka_finish_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "borov_strelka_finish_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml",
+  "graph_sha256": "af90465ec3a6b7a324a6c5d72d8c5ed214013f3f66f7c85ea935c11f680b26c1",
+  "character_bindings": [
+    {
+      "profile_id": "new_mamay",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_bandit_borov",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.kill_stalkers_zasada"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "kaligula_dead"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "borov_strelka_end"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 7,
+  "entries": [
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_finish_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 641,
+      "string_id": "borov_strelka_finish_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "I went to the meet with your gladiators.",
+      "JA_current": "I went to the meet with your gladiators.",
+      "JA_new": "部下たちとの待ち合わせ場所に行ってきた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_finish_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_finish_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 644,
+      "string_id": "borov_strelka_finish_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "So what's up?",
+      "JA_current": "So what's up?",
+      "JA_new": "それで、どうなった？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_finish_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_finish_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 647,
+      "string_id": "borov_strelka_finish_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "You were right, the stalker ambushed us with his pals, we took them out.",
+      "JA_current": "You were right, the stalker ambushed us with his pals, we took them out.",
+      "JA_new": "あんたの言ったとおりだった。ストーカーが仲間を連れて待ち伏せしてたが、全員片づけた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_finish_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_finish_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 650,
+      "string_id": "borov_strelka_finish_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "That takes some skill, proves to me you're a real man! Stories are gonna spread, now no one around here has any right to give you shit without good reason, and you will answer only to one guy, me! Understand?",
+      "JA_current": "That takes some skill, proves to me you're a real man! Stories are gonna spread, now no one around here has any right to give you shit without good reason, and you will answer only to one guy, me! Understand?",
+      "JA_new": "なかなかやるじゃねえか。お前が本物だって分かったぜ！　噂も広まるだろう。これからは、よほどの理由がない限り誰もお前に文句は言えねえ。お前が従う相手は一人だけ、俺だ。分かったな？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_finish_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_finish_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 653,
+      "string_id": "borov_strelka_finish_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "I got it, boss. So have I earned those stripes now? Do I get a suit?",
+      "JA_current": "I got it, boss. So have I earned those stripes now? Do I get a suit?",
+      "JA_new": "分かったよ、ボス。それで、もう一人前ってことでいいのか？　スーツももらえる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_finish_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_finish_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 656,
+      "string_id": "borov_strelka_finish_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Don't be stupid, you've got your stripes, you're a part of the group. The part about the suit was just a metaphor, a suit in the Zone would be about as useful as an ashtray on a motorbike!",
+      "JA_current": "Don't be stupid, you've got your stripes, you're a part of the group. The part about the suit was just a metaphor, a suit in the Zone would be about as useful as an ashtray on a motorbike!",
+      "JA_new": "馬鹿言うな。お前はもう仲間だ。「スーツ」ってのはたとえ話だよ。ゾーンで着るスーツなんざ、バイクの灰皿みたいなもんだ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_finish_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_strelka_finish_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 659,
+      "string_id": "borov_strelka_finish_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Great.",
+      "JA_current": "Great.",
+      "JA_new": "そいつはよかった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_strelka_finish_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "borov_strelka_finish_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I went to the meet with your gladiators.",
+      "JA_current": "I went to the meet with your gladiators.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_finish_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "borov_strelka_finish_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So what's up?",
+      "JA_current": "So what's up?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_finish_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "borov_strelka_finish_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You were right, the stalker ambushed us with his pals, we took them out.",
+      "JA_current": "You were right, the stalker ambushed us with his pals, we took them out.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_finish_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "borov_strelka_finish_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "That takes some skill, proves to me you're a real man! Stories are gonna spread, now no one around here has any right to give you shit without good reason, and you will answer only to one guy, me! Understand?",
+      "JA_current": "That takes some skill, proves to me you're a real man! Stories are gonna spread, now no one around here has any right to give you shit without good reason, and you will answer only to one guy, me! Understand?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_finish_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "borov_strelka_finish_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.actor_set_bandit"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I got it, boss. So have I earned those stripes now? Do I get a suit?",
+      "JA_current": "I got it, boss. So have I earned those stripes now? Do I get a suit?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_finish_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "borov_strelka_finish_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Don't be stupid, you've got your stripes, you're a part of the group. The part about the suit was just a metaphor, a suit in the Zone would be about as useful as an ashtray on a motorbike!",
+      "JA_current": "Don't be stupid, you've got your stripes, you're a part of the group. The part about the suit was just a metaphor, a suit in the Zone would be about as useful as an ashtray on a motorbike!",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_finish_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "borov_strelka_finish_dialog_phrase_7",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "borov_strelka_end"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Great.",
+      "JA_current": "Great.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_strelka_finish_dialog_phrase_7#1"
+      ]
+    }
+  ]
+}

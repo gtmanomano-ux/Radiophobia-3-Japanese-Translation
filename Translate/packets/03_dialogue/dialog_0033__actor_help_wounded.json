@@ -1,0 +1,419 @@
+{
+  "packet_id": "dialog_0033__actor_help_wounded",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "actor_help_wounded",
+  "graph_source": "gamedata/config/gameplay/dialogs.xml",
+  "graph_sha256": "87109fb1ac4d045582ddab436da3571319106a69b21b6c21a4451cbb5f3afbbf",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "dialogs.allow_wounded_dialog"
+    },
+    {
+      "type": "precondition",
+      "value": "dialogs.is_opp_wounded"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 9,
+  "entries": [
+    {
+      "key": "stable_dialogs:actor_help_wounded_0#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 6,
+      "string_id": "actor_help_wounded_0",
+      "occurrence": 1,
+      "EN": "Are you alright?",
+      "JA_current": "大丈夫か？",
+      "JA_new": "大丈夫か？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "actor_help_wounded",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:actor_help_wounded_1#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 9,
+      "string_id": "actor_help_wounded_1",
+      "occurrence": 1,
+      "EN": "I'm hurt damn it, don't you see that? I need a medkit or at least a bandage.",
+      "JA_current": "くそ！ やられたよ。包帯か Medkit を分けてくれないか？",
+      "JA_new": "くそっ、見りゃ分かるだろ？ 医療キットか、せめて包帯をくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "actor_help_wounded",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:actor_help_wounded_11#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 12,
+      "string_id": "actor_help_wounded_11",
+      "occurrence": 1,
+      "EN": "Here, take this medkit.",
+      "JA_current": "ほら、Medkit だ。",
+      "JA_new": "ほら、医療キットだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "actor_help_wounded",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:actor_help_wounded_12#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 18,
+      "string_id": "actor_help_wounded_12",
+      "occurrence": 1,
+      "EN": "Here, take this bandage.",
+      "JA_current": "包帯だ。使えよ。",
+      "JA_new": "ほら、包帯だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "actor_help_wounded",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:actor_help_wounded_13#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 21,
+      "string_id": "actor_help_wounded_13",
+      "occurrence": 1,
+      "EN": "Sorry, I don't have any.",
+      "JA_current": "すまん。持ってないんだ。",
+      "JA_new": "悪い、持ってないんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "actor_help_wounded",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:actor_help_wounded_14#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 27,
+      "string_id": "actor_help_wounded_14",
+      "occurrence": 1,
+      "EN": "Sorry man. But if I give you mine I won't have any left for myself.",
+      "JA_current": "ごめんよ。余分な持ち合わせが無いんだ。",
+      "JA_new": "悪いな。自分の分を渡したら、俺の分がなくなっちまう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "actor_help_wounded",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:actor_help_wounded_111#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 15,
+      "string_id": "actor_help_wounded_111",
+      "occurrence": 1,
+      "EN": "Thanks bro, I won't forget it.",
+      "JA_current": "ありがとう。恩に着るよ。",
+      "JA_new": "ありがとう、兄弟。恩に着るよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "actor_help_wounded",
+          "phrase_id": "111",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:actor_help_wounded_131#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 24,
+      "string_id": "actor_help_wounded_131",
+      "occurrence": 1,
+      "EN": "So how do you go around the Zone then? What if you're infected or something? You won't even be able to heal yourself!",
+      "JA_current": "だがどうやってゾーンを回るんだい？ 例えば、アンタが病気なんかに感染した時なんかは？ アンタ自身じゃ治せやしないだろ！",
+      "JA_new": "じゃあ、どうやってゾーンを歩き回るんだ？ 感染症にでもかかったらどうする？ 自分で治療もできないだろ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "actor_help_wounded",
+          "phrase_id": "131",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:actor_help_wounded_141#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 30,
+      "string_id": "actor_help_wounded_141",
+      "occurrence": 1,
+      "EN": "It's your business, but it doesn't do you any good.",
+      "JA_current": "そりゃアンタの問題だが、アンタの為にゃならないぜ？",
+      "JA_new": "あんたの勝手だが、それじゃ自分のためにならないぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "actor_help_wounded",
+          "phrase_id": "141",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "actor_help_wounded_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Are you alright?",
+      "JA_current": "大丈夫か？",
+      "string_entry_candidates": [
+        "stable_dialogs:actor_help_wounded_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "actor_help_wounded_1",
+      "next": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'm hurt damn it, don't you see that? I need a medkit or at least a bandage.",
+      "JA_current": "くそ！ やられたよ。包帯か Medkit を分けてくれないか？",
+      "string_entry_candidates": [
+        "stable_dialogs:actor_help_wounded_1#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "actor_help_wounded_11",
+      "next": [
+        "111"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.actor_have_medkit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.transfer_medkit"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Here, take this medkit.",
+      "JA_current": "ほら、Medkit だ。",
+      "string_entry_candidates": [
+        "stable_dialogs:actor_help_wounded_11#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "actor_help_wounded_12",
+      "next": [
+        "111"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.actor_have_bandage"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.transfer_bandage"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Here, take this bandage.",
+      "JA_current": "包帯だ。使えよ。",
+      "string_entry_candidates": [
+        "stable_dialogs:actor_help_wounded_12#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "actor_help_wounded_13",
+      "next": [
+        "131"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Sorry, I don't have any.",
+      "JA_current": "すまん。持ってないんだ。",
+      "string_entry_candidates": [
+        "stable_dialogs:actor_help_wounded_13#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "actor_help_wounded_14",
+      "next": [
+        "141"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Sorry man. But if I give you mine I won't have any left for myself.",
+      "JA_current": "ごめんよ。余分な持ち合わせが無いんだ。",
+      "string_entry_candidates": [
+        "stable_dialogs:actor_help_wounded_14#1"
+      ]
+    },
+    {
+      "phrase_id": "111",
+      "text_id": "actor_help_wounded_111",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "12",
+        "11"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Thanks bro, I won't forget it.",
+      "JA_current": "ありがとう。恩に着るよ。",
+      "string_entry_candidates": [
+        "stable_dialogs:actor_help_wounded_111#1"
+      ]
+    },
+    {
+      "phrase_id": "131",
+      "text_id": "actor_help_wounded_131",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "So how do you go around the Zone then? What if you're infected or something? You won't even be able to heal yourself!",
+      "JA_current": "だがどうやってゾーンを回るんだい？ 例えば、アンタが病気なんかに感染した時なんかは？ アンタ自身じゃ治せやしないだろ！",
+      "string_entry_candidates": [
+        "stable_dialogs:actor_help_wounded_131#1"
+      ]
+    },
+    {
+      "phrase_id": "141",
+      "text_id": "actor_help_wounded_141",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "It's your business, but it doesn't do you any good.",
+      "JA_current": "そりゃアンタの問題だが、アンタの為にゃならないぜ？",
+      "string_entry_candidates": [
+        "stable_dialogs:actor_help_wounded_141#1"
+      ]
+    }
+  ]
+}

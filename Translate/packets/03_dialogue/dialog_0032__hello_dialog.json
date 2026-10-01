@@ -1,0 +1,1549 @@
+{
+  "packet_id": "dialog_0032__hello_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "hello_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs.xml",
+  "graph_sha256": "87109fb1ac4d045582ddab436da3571319106a69b21b6c21a4451cbb5f3afbbf",
+  "character_bindings": [
+    {
+      "profile_id": "aes_Monolit_rpg",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes.xml"
+    },
+    {
+      "profile_id": "aes_Monolit_specnaz",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes.xml"
+    },
+    {
+      "profile_id": "aes_Monolit_specnaz_rg6",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes.xml"
+    },
+    {
+      "profile_id": "aes_Monolit_sniper",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes.xml"
+    },
+    {
+      "profile_id": "aes_Monolit_sniper_gauss",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes.xml"
+    },
+    {
+      "profile_id": "aes_Monolit_master",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes.xml"
+    },
+    {
+      "profile_id": "aes_Soldier_commander",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes.xml"
+    },
+    {
+      "profile_id": "aes_Soldier_military",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes.xml"
+    },
+    {
+      "profile_id": "aes_Soldier_specnaz",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes.xml"
+    },
+    {
+      "profile_id": "aes_Soldier_specnaz_aes",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes.xml"
+    },
+    {
+      "profile_id": "aes_Soldier_sniper",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes.xml"
+    },
+    {
+      "profile_id": "aes_x",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes.xml"
+    },
+    {
+      "profile_id": "aes_x_2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes.xml"
+    },
+    {
+      "profile_id": "aes2_Monolit_rpg",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes2.xml"
+    },
+    {
+      "profile_id": "aes2_Monolit_specnaz",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes2.xml"
+    },
+    {
+      "profile_id": "aes2_Monolit_specnaz_rg6",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes2.xml"
+    },
+    {
+      "profile_id": "aes2_Monolit_sniper",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes2.xml"
+    },
+    {
+      "profile_id": "aes2_Monolit_sniper_gauss",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes2.xml"
+    },
+    {
+      "profile_id": "aes2_Monolit_master",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes2.xml"
+    },
+    {
+      "profile_id": "aes2_Soldier_commander",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes2.xml"
+    },
+    {
+      "profile_id": "aes2_Soldier_military",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes2.xml"
+    },
+    {
+      "profile_id": "aes2_Soldier_specnaz",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes2.xml"
+    },
+    {
+      "profile_id": "aes2_Soldier_specnaz_aes",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes2.xml"
+    },
+    {
+      "profile_id": "aes2_Soldier_sniper",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_aes2.xml"
+    },
+    {
+      "profile_id": "dar_corpse_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_dar.xml"
+    },
+    {
+      "profile_id": "dar_corpse_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_dar.xml"
+    },
+    {
+      "profile_id": "dar_corpse_default3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_dar.xml"
+    },
+    {
+      "profile_id": "dar_corpse_default4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_dar.xml"
+    },
+    {
+      "profile_id": "razved_sila_0",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_dolg_regular_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_dolg_regular_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_dolg_regular_default3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_dolg_prisoner",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_escort_nap1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_escort_captive",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "sidr_guard",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_novice_fright",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_stalker_novice_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_stalker_novice_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_stalker_novice_default3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_stalker_novice_default4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_stalker_novice_default5",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_stalker_novice_default6",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_stalker_novice_default9",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_stalker_novice_default10",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_soldier_regular_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_soldier_regular_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_soldier_regular_default3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_soldier_regular_default4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_soldier_regular_default5",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_soldier_blockpost_commander",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_soldier_blokpost_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_soldier_blokpost_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_soldier_blokpost_default3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_soldier_specnaz_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_soldier_specnaz_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_killer_master",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "gar_bandit_leader",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_garbage.xml"
+    },
+    {
+      "profile_id": "gar_wounded_bandit",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_garbage.xml"
+    },
+    {
+      "profile_id": "gar_dolg_blokpost_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_garbage.xml"
+    },
+    {
+      "profile_id": "gar_dolg_blokpost_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_garbage.xml"
+    },
+    {
+      "profile_id": "gar_dolg_blokpost_default3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_garbage.xml"
+    },
+    {
+      "profile_id": "gar_sniper",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_garbage.xml"
+    },
+    {
+      "profile_id": "gar_bandit_dm_1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_garbage.xml"
+    },
+    {
+      "profile_id": "gar_bandit_dm_2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_garbage.xml"
+    },
+    {
+      "profile_id": "gar_bandit_dm_3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_garbage.xml"
+    },
+    {
+      "profile_id": "stalker_general_default",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_general.xml"
+    },
+    {
+      "profile_id": "ds_bandit_1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_bandit_2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_bandit_3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_bandit_4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_bandit_5",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_bandit_6",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_dolg_1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_dolg_2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_dolg_3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_dolg_4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_dolg_5",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_dolg_6",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_nauch_1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_nauch_2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_kill_1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_kill_2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_kill_3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_kill_4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_kill_5",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_mil_1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_mil_2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_mil_3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_mil_4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_mil_5",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_mil_6",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_mil_7",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_mil_8",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_mil_9",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_mil_10",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_mon_1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_mon_2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_mon_3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_mon_4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_mon_5",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_stalk_1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_stalk_2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_stalk_3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_stalk_4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_stalk_5",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_stalk_6",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_stalk_7",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_stalk_8",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_novice_1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_novice_2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_novice_3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_novice_4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_novice_5",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_novice_6",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_novice_7",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_zomb_1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_zomb_2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_zomb_3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_zomb_4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_zomb_5",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_zomb_6",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_zomb_7",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_zomb_8",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_zomb_9",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_zomb_10",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_zomb_11",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_zomb_12",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_free_1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_free_2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_free_3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_free_4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_free_5",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_free_6",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_free_7",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_free_8",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_borov",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_volkodav",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_mil_agr_boss",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_ara",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_mil_boss_nii",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_boss_aes",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_prizrak",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_freeman",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_cook",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ds_pavlik",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_kishka.xml"
+    },
+    {
+      "profile_id": "ros_killer_1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_megadeath.xml"
+    },
+    {
+      "profile_id": "mil_Svoboda_zoneguard",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_military.xml"
+    },
+    {
+      "profile_id": "mil_Svoboda_leader",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_military.xml"
+    },
+    {
+      "profile_id": "mil_Svoboda_cook",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_military.xml"
+    },
+    {
+      "profile_id": "mil_Killer_informator",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_military.xml"
+    },
+    {
+      "profile_id": "mil_Monolit_regular",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_military.xml"
+    },
+    {
+      "profile_id": "mil_Monolit_master",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_military.xml"
+    },
+    {
+      "profile_id": "pri_monolith_ambush_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    },
+    {
+      "profile_id": "pri_monolith_ambush_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    },
+    {
+      "profile_id": "pri_monolith_ambush_specnaz_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    },
+    {
+      "profile_id": "pri_monolith_ambush_specnaz_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    },
+    {
+      "profile_id": "pri_monolith_ambush_exo_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    },
+    {
+      "profile_id": "pri_monolith_ambush_exo_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    },
+    {
+      "profile_id": "pri_monolith_regular_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    },
+    {
+      "profile_id": "pri_monolith_regular_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    },
+    {
+      "profile_id": "pri_monolith_regular_default3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    },
+    {
+      "profile_id": "pri_monolith_regular_default4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    },
+    {
+      "profile_id": "pri_monolith_specnaz_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    },
+    {
+      "profile_id": "pri_monolith_specnaz_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    },
+    {
+      "profile_id": "pri_monolith_exo_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    },
+    {
+      "profile_id": "pri_monolith_exo_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    },
+    {
+      "profile_id": "pri_monolith_leader",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    },
+    {
+      "profile_id": "pri_soldier_suicide_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    },
+    {
+      "profile_id": "pri_soldier_suicide_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    },
+    {
+      "profile_id": "pri_zombied_suicide_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    },
+    {
+      "profile_id": "pri_zombied_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    },
+    {
+      "profile_id": "pri_zombied_veteran_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    },
+    {
+      "profile_id": "pri_zombied_veteran_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    },
+    {
+      "profile_id": "rad_sila_paladin_2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_sila_paladin_3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_sila_paladin_4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "razved_sila_1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "razved_sila_2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_regular_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_regular_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_regular_default3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_regular_default4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_regular_default5",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_regular_default6",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_regular_default7",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_regular_default8",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_bunker_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_bunker_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_bunker_default3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_bunker_default4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_bunker_default5",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_bunker_default6",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_bunker_default7",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_bunker_default8",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_strong_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_strong_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_strong_default3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_strong_default4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_strong_default5",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_strong_default6",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_strong_default7",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_strong_default8",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_sniper_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_sniper_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_specnaz_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_specnaz_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_specnaz_default3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_specnaz_default4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_master",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_rpg_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_monolit_rpg_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_zombied_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_zombied_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_zombied_default3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_zombied_default4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_zombied_default5",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_zombied_default6",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_zombied_default7",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_zombied_default8",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_zombied_veteran_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_zombied_veteran_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_zombied_veteran_default3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_zombied_veteran_default4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_stalker_veteran_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_stalker_veteran_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_stalker_veteran_default3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_stalker_veteran_default4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_stalker_veteran_default5",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_stalker_master_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_stalker_master_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_stalker_master_default3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_stalker_master_default4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_stalker_master_default5",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_soldier_specnaz_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_soldier_specnaz_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_soldier_specnaz_default3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_Svoboda_master1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_Svoboda_master2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_Svoboda_master3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_dolg_master_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_dolg_master_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_dolg_master_default3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_dolg_master_default4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_ecolog_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_ecolog_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "rad_ecolog_default3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    },
+    {
+      "profile_id": "sar_monolith_specnaz_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_sarcofag.xml"
+    },
+    {
+      "profile_id": "sar_monolith_specnaz_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_sarcofag.xml"
+    },
+    {
+      "profile_id": "sar_monolith_specnaz_default3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_sarcofag.xml"
+    },
+    {
+      "profile_id": "sar_monolith_specnaz_default4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_sarcofag.xml"
+    },
+    {
+      "profile_id": "sar_monolith_specnaz_default5",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_sarcofag.xml"
+    },
+    {
+      "profile_id": "sar_monolith_exo_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_sarcofag.xml"
+    },
+    {
+      "profile_id": "sar_monolith_exo_default3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_sarcofag.xml"
+    },
+    {
+      "profile_id": "sar_monolith_exo_default4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_sarcofag.xml"
+    },
+    {
+      "profile_id": "sar_monolith_exo_default6",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_sarcofag.xml"
+    },
+    {
+      "profile_id": "sar_monolith_exo_default7",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_sarcofag.xml"
+    },
+    {
+      "profile_id": "sar_monolith_exo_default8",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_sarcofag.xml"
+    },
+    {
+      "profile_id": "sar_monolith_exo_crystal_1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_sarcofag.xml"
+    },
+    {
+      "profile_id": "sar_monolith_commander",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_sarcofag.xml"
+    },
+    {
+      "profile_id": "sar2_monolith_regular",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_sarcofag.xml"
+    },
+    {
+      "profile_id": "sar2_monolith_regular2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_sarcofag.xml"
+    },
+    {
+      "profile_id": "sar2_monolith_specnaz",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_sarcofag.xml"
+    },
+    {
+      "profile_id": "sar2_monolith_specnaz2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_sarcofag.xml"
+    },
+    {
+      "profile_id": "sar2_monolith_exo",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_sarcofag.xml"
+    },
+    {
+      "profile_id": "sar2_monolith_exo2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_sarcofag.xml"
+    },
+    {
+      "profile_id": "sim_bandit_veteran_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_simulation.xml"
+    },
+    {
+      "profile_id": "sim_soldier_regular_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_simulation.xml"
+    },
+    {
+      "profile_id": "sim_soldier_regular_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_simulation.xml"
+    },
+    {
+      "profile_id": "sim_soldier_regular_default3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_simulation.xml"
+    },
+    {
+      "profile_id": "sim_soldier_regular_default4",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_simulation.xml"
+    },
+    {
+      "profile_id": "sim_soldier_regular_default5",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_simulation.xml"
+    },
+    {
+      "profile_id": "sim_soldier_specnaz_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_simulation.xml"
+    },
+    {
+      "profile_id": "sim_soldier_specnaz_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_simulation.xml"
+    },
+    {
+      "profile_id": "sim_soldier_commander1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_simulation.xml"
+    },
+    {
+      "profile_id": "sim_soldier_commander2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_simulation.xml"
+    },
+    {
+      "profile_id": "sim_soldier_sniper_default1",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_simulation.xml"
+    },
+    {
+      "profile_id": "sim_soldier_sniper_default2",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_simulation.xml"
+    },
+    {
+      "profile_id": "sim_soldier_sniper_default3",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_simulation.xml"
+    },
+    {
+      "profile_id": "sim_Soldier_master",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_simulation.xml"
+    }
+  ],
+  "dialog_conditions": [],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 2,
+  "entries": [
+    {
+      "key": "stable_dialogs:hello_dialog_2#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 33,
+      "string_id": "hello_dialog_2",
+      "occurrence": 1,
+      "EN": "Hey!",
+      "JA_current": "よう！",
+      "JA_new": "よう！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hello_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:hello_dialog_3#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 36,
+      "string_id": "hello_dialog_3",
+      "occurrence": 1,
+      "EN": "Help me out, would you?",
+      "JA_current": "頼む。助けてくれ。",
+      "JA_new": "頼む、手を貸してくれないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hello_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": null,
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1",
+      "text_id": null,
+      "next": [
+        "2",
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "hello_dialog_2",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.is_not_wounded"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey!",
+      "JA_current": "よう！",
+      "string_entry_candidates": [
+        "stable_dialogs:hello_dialog_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "hello_dialog_3",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.is_wounded"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Help me out, would you?",
+      "JA_current": "頼む。助けてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs:hello_dialog_3#1"
+      ]
+    }
+  ]
+}

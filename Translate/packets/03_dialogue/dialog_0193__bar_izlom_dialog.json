@@ -1,0 +1,643 @@
+{
+  "packet_id": "dialog_0193__bar_izlom_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_izlom_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_izlom",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "bar_izlom"
+    }
+  ],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 14,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_izlom_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2729,
+      "string_id": "bar_izlom_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "You're an Indian, I love it! Bam-Bam-Bam!",
+      "JA_current": "You're an Indian, I love it! Bam-Bam-Bam!",
+      "JA_new": "インディアンだ！ いいね！ バン！ バン！ バン！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_izlom_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2732,
+      "string_id": "bar_izlom_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Are you an idiot?",
+      "JA_current": "Are you an idiot?",
+      "JA_new": "バカなのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_izlom_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2735,
+      "string_id": "bar_izlom_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "All right, don't purr, we'll figure it out... What's your name, huh?",
+      "JA_current": "All right, don't purr, we'll figure it out... What's your name, huh?",
+      "JA_new": "よしよし、唸るなよ。何とかするから……名前は何だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_izlom_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2738,
+      "string_id": "bar_izlom_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "I'm the Marked One... Who are you?",
+      "JA_current": "I'm the Marked One... Who are you?",
+      "JA_new": "俺はマークド・ワンだ……あんたは？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_izlom_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2741,
+      "string_id": "bar_izlom_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "You're a Frenchman, Bam-baaaam! Ha-ha!!!",
+      "JA_current": "You're a Frenchman, Bam-baaaam! Ha-ha!!!",
+      "JA_new": "フランス人か！ バン！ バンバン！ ははは！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_izlom_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2744,
+      "string_id": "bar_izlom_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "I see...",
+      "JA_current": "I see...",
+      "JA_new": "なるほど……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_izlom_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2747,
+      "string_id": "bar_izlom_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Stalker, a stalker! Do you have any water? Give me a drink.",
+      "JA_current": "Stalker, a stalker! Do you have any water? Give me a drink.",
+      "JA_new": "ストーカーだ！ ストーカー！ 水を持ってるか？ 一口くれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_izlom_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2750,
+      "string_id": "bar_izlom_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "Fuck you, asshole!",
+      "JA_current": "Fuck you, asshole!",
+      "JA_new": "くたばれ、このクソ野郎！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_izlom_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2756,
+      "string_id": "bar_izlom_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "Here, take this.",
+      "JA_current": "Here, take this.",
+      "JA_new": "ほら、これを飲め。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_izlom_dialog_phrase_8_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2753,
+      "string_id": "bar_izlom_dialog_phrase_8_1",
+      "occurrence": 1,
+      "EN": "H-r-r-r-r!!!",
+      "JA_current": "H-r-r-r-r!!!",
+      "JA_new": "ゴクゴクゴク……！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_dialog",
+          "phrase_id": "8_1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_izlom_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2759,
+      "string_id": "bar_izlom_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "Thank you. Do you want me to tell you something interesting?",
+      "JA_current": "Thank you. Do you want me to tell you something interesting?",
+      "JA_new": "ありがとう。面白い話を聞きたいか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_izlom_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2762,
+      "string_id": "bar_izlom_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "Well?",
+      "JA_current": "Well?",
+      "JA_new": "何だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_izlom_dialog_phrase_12#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2765,
+      "string_id": "bar_izlom_dialog_phrase_12",
+      "occurrence": 1,
+      "EN": "There's a rusty Kamaz truck about fifty meters down the road. You'll have to look through it, maybe you'll find something of value.",
+      "JA_current": "There's a rusty Kamaz truck about fifty meters down the road. You'll have to look through it, maybe you'll find something of value.",
+      "JA_new": "道を50メートルほど進むと、錆びたカマズのトラックがある。中を探してみな。何か価値のある物が見つかるかもしれない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_dialog",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_izlom_dialog_phrase_13#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2768,
+      "string_id": "bar_izlom_dialog_phrase_13",
+      "occurrence": 1,
+      "EN": "Thank you.",
+      "JA_current": "Thank you.",
+      "JA_new": "ありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_izlom_dialog",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bar_izlom_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.indeets"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You're an Indian, I love it! Bam-Bam-Bam!",
+      "JA_current": "You're an Indian, I love it! Bam-Bam-Bam!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "bar_izlom_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Are you an idiot?",
+      "JA_current": "Are you an idiot?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "bar_izlom_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.ne_urchi"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All right, don't purr, we'll figure it out... What's your name, huh?",
+      "JA_current": "All right, don't purr, we'll figure it out... What's your name, huh?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "bar_izlom_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm the Marked One... Who are you?",
+      "JA_current": "I'm the Marked One... Who are you?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "bar_izlom_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You're a Frenchman, Bam-baaaam! Ha-ha!!!",
+      "JA_current": "You're a Frenchman, Bam-baaaam! Ha-ha!!!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "bar_izlom_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I see...",
+      "JA_current": "I see...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "bar_izlom_dialog_phrase_7",
+      "next": [
+        "7",
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Stalker, a stalker! Do you have any water? Give me a drink.",
+      "JA_current": "Stalker, a stalker! Do you have any water? Give me a drink.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "bar_izlom_dialog_phrase_8",
+      "next": [
+        "8_1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "action",
+          "value": "rad_funcs.turn_hostile"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Fuck you, asshole!",
+      "JA_current": "Fuck you, asshole!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "bar_izlom_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_voda"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.voda_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here, take this.",
+      "JA_current": "Here, take this.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "8_1",
+      "text_id": "bar_izlom_dialog_phrase_8_1",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "H-r-r-r-r!!!",
+      "JA_current": "H-r-r-r-r!!!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_dialog_phrase_8_1#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "bar_izlom_dialog_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you. Do you want me to tell you something interesting?",
+      "JA_current": "Thank you. Do you want me to tell you something interesting?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "bar_izlom_dialog_phrase_11",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well?",
+      "JA_current": "Well?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_dialog_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "bar_izlom_dialog_phrase_12",
+      "next": [
+        "12"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "There's a rusty Kamaz truck about fifty meters down the road. You'll have to look through it, maybe you'll find something of value.",
+      "JA_current": "There's a rusty Kamaz truck about fifty meters down the road. You'll have to look through it, maybe you'll find something of value.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_dialog_phrase_12#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "bar_izlom_dialog_phrase_13",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.spawn_izlom_shron"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_izlom"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you.",
+      "JA_current": "Thank you.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_izlom_dialog_phrase_13#1"
+      ]
+    }
+  ]
+}

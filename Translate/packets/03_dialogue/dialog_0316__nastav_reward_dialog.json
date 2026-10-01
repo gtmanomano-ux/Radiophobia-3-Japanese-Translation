@@ -1,0 +1,382 @@
+{
+  "packet_id": "dialog_0316__nastav_reward_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "nastav_reward_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "nastavnik",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.have_manowar_guitar"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "muzikant_quest_finish"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 8,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:nastav_reward_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2362,
+      "string_id": "nastav_reward_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Here, I found the Musician's guitar.",
+      "JA_current": "Here, I found the Musician's guitar.",
+      "JA_new": "ほら、ミュージシャンのギターを見つけた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_reward_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_reward_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2365,
+      "string_id": "nastav_reward_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Oh, well done... God rest his soul. Right, as I promised, let me give you something. I'd give you a weapon, but I've only got an old sub-machine gun myself, and it's damaged... How about these binoculars? They're a useful piece of equipment, and they've got an IFF heads up display too, will automatically display who is and isn't friendly based on a wireless PDA signal. Take this dosimeter, too. You'll really need it out here, detects radiation and anomalous energy too, essential in the zone, always carry it on your belt.",
+      "JA_current": "Oh, well done... God rest his soul. Right, as I promised, let me give you something. I'd give you a weapon, but I've only got an old sub-machine gun myself, and it's damaged... How about these binoculars? They're a useful piece of equipment, and they've got an IFF heads up display too, will automatically display who is and isn't friendly based on a wireless PDA signal. Take this dosimeter, too. You'll really need it out here, detects radiation and anomalous energy too, essential in the zone, always carry it on your belt.",
+      "JA_new": "よくやった……安らかに眠ってくれ。約束どおり、礼をさせてくれ。武器を渡したいが、俺が持ってるのは古い短機関銃だけだ。しかも壊れてる……この双眼鏡はどうだ？ 役に立つ装備だし、敵味方識別のヘッドアップディスプレイも付いてる。無線PDAの信号を読み取って、味方か敵かを自動で表示するんだ。線量計も持っていけ。ここじゃ本当に必要になる。放射線だけでなく、アノマリーエネルギーも検知できる。ゾーンでは必需品だ。いつもベルトに付けておけ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_reward_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_reward_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2368,
+      "string_id": "nastav_reward_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Thank you!",
+      "JA_current": "Thank you!",
+      "JA_new": "ありがとう！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_reward_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_reward_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2371,
+      "string_id": "nastav_reward_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Look, I found something else on his body...",
+      "JA_current": "Look, I found something else on his body...",
+      "JA_new": "なあ、遺体のそばでもう一つ見つけた……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_reward_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_reward_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2374,
+      "string_id": "nastav_reward_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "What is it?",
+      "JA_current": "What is it?",
+      "JA_new": "何だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_reward_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_reward_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2377,
+      "string_id": "nastav_reward_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "It's a disc. Some kind of \"Anomalous Album\". Do you know what it could be?",
+      "JA_current": "It's a disc. Some kind of \"Anomalous Album\". Do you know what it could be?",
+      "JA_new": "ディスクだ。「アノマラス・アルバム」とかいうものらしい。何か分かるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_reward_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_reward_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2380,
+      "string_id": "nastav_reward_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "No, I don't. But I know the Barkeep over at the Duty base collects things like that. He'll know what to do with it.",
+      "JA_current": "No, I don't. But I know the Barkeep over at the Duty base collects things like that. He'll know what to do with it.",
+      "JA_new": "分からない。だがデューティー基地のバーキープが、そういうものを集めてる。あいつなら、どうすればいいか分かるだろう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_reward_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_reward_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2383,
+      "string_id": "nastav_reward_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "Okay.",
+      "JA_current": "Okay.",
+      "JA_new": "分かった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_reward_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "nastav_reward_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.gitara_out"
+        },
+        {
+          "type": "give_info",
+          "value": "gitara_otdana"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here, I found the Musician's guitar.",
+      "JA_current": "Here, I found the Musician's guitar.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_reward_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "nastav_reward_dialog_phrase_2",
+      "next": [
+        "2",
+        "3"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.nastavnik_reward"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh, well done... God rest his soul. Right, as I promised, let me give you something. I'd give you a weapon, but I've only got an old sub-machine gun myself, and it's damaged... How about these binoculars? They're a useful piece of equipment, and they've got an IFF heads up display too, will automatically display who is and isn't friendly based on a wireless PDA signal. Take this dosimeter, too. You'll really need it out here, detects radiation and anomalous energy too, essential in the zone, always carry it on your belt.",
+      "JA_current": "Oh, well done... God rest his soul. Right, as I promised, let me give you something. I'd give you a weapon, but I've only got an old sub-machine gun myself, and it's damaged... How about these binoculars? They're a useful piece of equipment, and they've got an IFF heads up display too, will automatically display who is and isn't friendly based on a wireless PDA signal. Take this dosimeter, too. You'll really need it out here, detects radiation and anomalous energy too, essential in the zone, always carry it on your belt.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_reward_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "nastav_reward_dialog_phrase_3",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you!",
+      "JA_current": "Thank you!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_reward_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "nastav_reward_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.has_alan_disc"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Look, I found something else on his body...",
+      "JA_current": "Look, I found something else on his body...",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_reward_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "nastav_reward_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What is it?",
+      "JA_current": "What is it?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_reward_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "nastav_reward_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It's a disc. Some kind of \"Anomalous Album\". Do you know what it could be?",
+      "JA_current": "It's a disc. Some kind of \"Anomalous Album\". Do you know what it could be?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_reward_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "nastav_reward_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, I don't. But I know the Barkeep over at the Duty base collects things like that. He'll know what to do with it.",
+      "JA_current": "No, I don't. But I know the Barkeep over at the Duty base collects things like that. He'll know what to do with it.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_reward_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "nastav_reward_dialog_phrase_8",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Okay.",
+      "JA_current": "Okay.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_reward_dialog_phrase_8#1"
+      ]
+    }
+  ]
+}

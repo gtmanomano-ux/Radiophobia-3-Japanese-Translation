@@ -1,0 +1,610 @@
+{
+  "packet_id": "dialog_0294__hello_me4enuy",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "hello_me4enuy",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "sidr_guard",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 14,
+  "entries": [
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_91#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 276,
+      "string_id": "dialogs_escape_91",
+      "occurrence": 1,
+      "EN": "Good to see you.",
+      "JA_current": "Good to see you.",
+      "JA_new": "会えてよかった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hello_me4enuy",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_92#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 279,
+      "string_id": "dialogs_escape_92",
+      "occurrence": 1,
+      "EN": "The rumour is that they brought you from the Death Truck... You don't look too bad, though.",
+      "JA_current": "The rumour is that they brought you from the Death Truck... You don't look too bad, though.",
+      "JA_new": "あんたが「死のトラック」から運び出されたって噂だ。でも、見たところ元気そうだな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hello_me4enuy",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_93#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 282,
+      "string_id": "dialogs_escape_93",
+      "occurrence": 1,
+      "EN": "Well, yes, I've got nothing more to say but that I was damn lucky. And who are you, by the way? You see, I almost had my brains out, so I'm not good at remembering the details now.",
+      "JA_current": "Well, yes, I've got nothing more to say but that I was damn lucky. And who are you, by the way? You see, I almost had my brains out, so I'm not good at remembering the details now.",
+      "JA_new": "ああな。運がよかったとしか言えない。ところであんたは？ 頭を吹き飛ばされかけて、まだ細かいことを思い出せないんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hello_me4enuy",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:esc_quardstory_part3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1828,
+      "string_id": "esc_quardstory_part3",
+      "occurrence": 1,
+      "EN": "I've been a mercenary here in the Zone for three years already, now working as a personal security guard for Sidorovich. There are plenty of desperate bastards out there willing to step on his toes and pinch his stuff, that's why he hired me. The job isn't too complicated, the food and salary are ok as well, got to deal with shit from time to time but it's pretty quiet out here for the most part.",
+      "JA_current": "I've been a mercenary here in the Zone for three years already, now working as a personal security guard for Sidorovich. There are plenty of desperate bastards out there willing to step on his toes and pinch his stuff, that's why he hired me. The job isn't too complicated, the food and salary are ok as well, got to deal with shit from time to time but it's pretty quiet out here for the most part.",
+      "JA_new": "俺はもう3年、このゾーンでマーセナリーズとしてやってる。今はシドロヴィッチの専属護衛だ。あいつにちょっかいを出して、物を盗もうとするろくでなしが大勢いるからな。仕事自体は大したことない。食い物も給料も悪くない。たまに面倒事はあるが、ここは大体静かだよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hello_me4enuy",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_94#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 285,
+      "string_id": "dialogs_escape_94",
+      "occurrence": 1,
+      "EN": "You said you had been in the Zone for a long time already. I'm sure you've got some story for you to tell and for me to listen.",
+      "JA_current": "You said you had been in the Zone for a long time already. I'm sure you've got some story for you to tell and for me to listen.",
+      "JA_new": "長くゾーンにいるんだな。聞かせたい話の一つや二つあるだろう？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hello_me4enuy",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:esc_quardstory_part1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1819,
+      "string_id": "esc_quardstory_part1",
+      "occurrence": 1,
+      "EN": "Sure, I do. Not for you, though. But I would be eager to hear YOUR story. About how you happened to be in the \"Death truck\" in the first place... \n\t\\nThat's something I cannot understand. What are these trucks? Where do they come from, and more importantly, what for? Who are their \"passengers\" and what does this tattoo mean? I've seen many things in the Zone, but have never come across anybody with this tattoo alive.\n\t\\nI happened to hear an interesting story one time... And it was told by an experienced stalker who wasn't known for bullshitting... So, he spoke about how he had lost his companion during a raid gone wrong. They were deep in the Zone when they got caught by something similar to a Blowout...",
+      "JA_current": "Sure, I do. Not for you, though. But I would be eager to hear YOUR story. About how you happened to be in the \"Death truck\" in the first place... \n\t\\nThat's something I cannot understand. What are these trucks? Where do they come from, and more importantly, what for? Who are their \"passengers\" and what does this tattoo mean? I've seen many things in the Zone, but have never come across anybody with this tattoo alive.\n\t\\nI happened to hear an interesting story one time... And it was told by an experienced stalker who wasn't known for bullshitting... So, he spoke about how he had lost his companion during a raid gone wrong. They were deep in the Zone when they got caught by something similar to a Blowout...",
+      "JA_new": "あるにはあるが、お前には話したくない。だが、お前の話は聞いてみたい。そもそも、どうして「死のトラック」に乗ってた？ ……\n\t\\n分からないことばかりだ。あのトラックは何だ？ どこから来て、何のために走ってる？ 乗ってる連中は何者だ？ それに、その刺青は何なんだ？ ゾーンじゃ色々見てきたが、この刺青を入れた人間が生きてる姿は見たことがない。\n\t\\n以前、興味深い話を聞いたことがある……語ったのは、でたらめを言うことで知られてはいない、経験豊かなストーカーだ……そいつは、遠征が失敗して仲間とはぐれたと話していた。二人でゾーンの奥にいたとき、ブロウアウトに似た現象に遭遇したらしい……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hello_me4enuy",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_95#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 288,
+      "string_id": "dialogs_escape_95",
+      "occurrence": 1,
+      "EN": "So, well, what happened next?",
+      "JA_current": "So, well, what happened next?",
+      "JA_new": "じゃあ、その後どうなった？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hello_me4enuy",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:esc_quardstory_part2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1824,
+      "string_id": "esc_quardstory_part2",
+      "occurrence": 1,
+      "EN": "But that wasn't a Blowout, it was something else. The storyteller managed to recover after some time, but he could not see his friend anywhere! Neither dead nor alive! He was completely sure at that point that the Zone claimed his friend. \n\t\\nWell, guess what! His friend turned up at the Bar a month later - in a torn up outfit, with a different weapon and a lost expression on his face... The most interesting thing was that he came to the Bar from the Swamps, but they had gotten split up in the Red Forest! The stalker could not remember how he had happened to arrive at the Swamps, nor anything before that! Sounds familiar? You can take one guess about what was on his arm.. A tattoo, just like yours! ",
+      "JA_current": "But that wasn't a Blowout, it was something else. The storyteller managed to recover after some time, but he could not see his friend anywhere! Neither dead nor alive! He was completely sure at that point that the Zone claimed his friend. \n\t\\nWell, guess what! His friend turned up at the Bar a month later - in a torn up outfit, with a different weapon and a lost expression on his face... The most interesting thing was that he came to the Bar from the Swamps, but they had gotten split up in the Red Forest! The stalker could not remember how he had happened to arrive at the Swamps, nor anything before that! Sounds familiar? You can take one guess about what was on his arm.. A tattoo, just like yours! ",
+      "JA_new": "いや、ブロウアウトじゃなかった。別の何かだった。語り手はしばらくして意識を取り戻したが、友人の姿はどこにもなかった。死んでもいない、生きてもいない。あの時は、友人はゾーンに連れ去られたと確信したそうだ。 \n\t\\nところが一か月後、その友人がバーに現れた。服はぼろぼろで、武器も違うし、ぼう然とした顔をしてた……妙なのは、その男が沼地からバーまで来ていたことだ。二人がはぐれたのは赤い森なのに！ そいつはどうして沼地にいたのか、その前に何があったのか、何も思い出せなかった。……何か思い当たるか？ あいつの腕に何があったかは、想像がつくだろう。お前と同じ、刺青だ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hello_me4enuy",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_96#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 291,
+      "string_id": "dialogs_escape_96",
+      "occurrence": 1,
+      "EN": "Very interesting! This might be a clue! I'll remember that.",
+      "JA_current": "Very interesting! This might be a clue! I'll remember that.",
+      "JA_new": "面白い話だな。手がかりになるかもしれない。覚えておくよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hello_me4enuy",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_97#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 294,
+      "string_id": "dialogs_escape_97",
+      "occurrence": 1,
+      "EN": "You are a cock-and-bull storyteller! Do you think I believed you?",
+      "JA_current": "You are a cock-and-bull storyteller! Do you think I believed you?",
+      "JA_new": "でたらめを話すな。俺が信じると思ったのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hello_me4enuy",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_98#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 297,
+      "string_id": "dialogs_escape_98",
+      "occurrence": 1,
+      "EN": "Be good, lucky man! Let the Zone guard you!",
+      "JA_current": "Be good, lucky man! Let the Zone guard you!",
+      "JA_new": "元気でな、運のいい奴！ ゾーンに守られて生きろよ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hello_me4enuy",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_99#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 300,
+      "string_id": "dialogs_escape_99",
+      "occurrence": 1,
+      "EN": "Do you guess, why all of a sudden I made up my mind to put a bullet in your head?",
+      "JA_current": "Do you guess, why all of a sudden I made up my mind to put a bullet in your head?",
+      "JA_new": "どうして俺が急にお前の頭を撃ち抜こうと思ったか、分かるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hello_me4enuy",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_100#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 303,
+      "string_id": "dialogs_escape_100",
+      "occurrence": 1,
+      "EN": "Good luck to you too.",
+      "JA_current": "Good luck to you too.",
+      "JA_new": "あんたも元気でな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hello_me4enuy",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_101#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 306,
+      "string_id": "dialogs_escape_101",
+      "occurrence": 1,
+      "EN": "Take it easy, that was nothing more than a joke. Be good!",
+      "JA_current": "Take it easy, that was nothing more than a joke. Be good!",
+      "JA_new": "落ち着けよ、冗談だって。元気でな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "hello_me4enuy",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "dialogs_escape_91",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Good to see you.",
+      "JA_current": "Good to see you.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_91#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "dialogs_escape_92",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The rumour is that they brought you from the Death Truck... You don't look too bad, though.",
+      "JA_current": "The rumour is that they brought you from the Death Truck... You don't look too bad, though.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_92#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "dialogs_escape_93",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, yes, I've got nothing more to say but that I was damn lucky. And who are you, by the way? You see, I almost had my brains out, so I'm not good at remembering the details now.",
+      "JA_current": "Well, yes, I've got nothing more to say but that I was damn lucky. And who are you, by the way? You see, I almost had my brains out, so I'm not good at remembering the details now.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_93#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "esc_quardstory_part3",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I've been a mercenary here in the Zone for three years already, now working as a personal security guard for Sidorovich. There are plenty of desperate bastards out there willing to step on his toes and pinch his stuff, that's why he hired me. The job isn't too complicated, the food and salary are ok as well, got to deal with shit from time to time but it's pretty quiet out here for the most part.",
+      "JA_current": "I've been a mercenary here in the Zone for three years already, now working as a personal security guard for Sidorovich. There are plenty of desperate bastards out there willing to step on his toes and pinch his stuff, that's why he hired me. The job isn't too complicated, the food and salary are ok as well, got to deal with shit from time to time but it's pretty quiet out here for the most part.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_quardstory_part3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "dialogs_escape_94",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You said you had been in the Zone for a long time already. I'm sure you've got some story for you to tell and for me to listen.",
+      "JA_current": "You said you had been in the Zone for a long time already. I'm sure you've got some story for you to tell and for me to listen.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_94#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "esc_quardstory_part1",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sure, I do. Not for you, though. But I would be eager to hear YOUR story. About how you happened to be in the \"Death truck\" in the first place... \n\t\\nThat's something I cannot understand. What are these trucks? Where do they come from, and more importantly, what for? Who are their \"passengers\" and what does this tattoo mean? I've seen many things in the Zone, but have never come across anybody with this tattoo alive.\n\t\\nI happened to hear an interesting story one time... And it was told by an experienced stalker who wasn't known for bullshitting... So, he spoke about how he had lost his companion during a raid gone wrong. They were deep in the Zone when they got caught by something similar to a Blowout...",
+      "JA_current": "Sure, I do. Not for you, though. But I would be eager to hear YOUR story. About how you happened to be in the \"Death truck\" in the first place... \n\t\\nThat's something I cannot understand. What are these trucks? Where do they come from, and more importantly, what for? Who are their \"passengers\" and what does this tattoo mean? I've seen many things in the Zone, but have never come across anybody with this tattoo alive.\n\t\\nI happened to hear an interesting story one time... And it was told by an experienced stalker who wasn't known for bullshitting... So, he spoke about how he had lost his companion during a raid gone wrong. They were deep in the Zone when they got caught by something similar to a Blowout...",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_quardstory_part1#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "dialogs_escape_95",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So, well, what happened next?",
+      "JA_current": "So, well, what happened next?",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_95#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "esc_quardstory_part2",
+      "next": [
+        "8",
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "But that wasn't a Blowout, it was something else. The storyteller managed to recover after some time, but he could not see his friend anywhere! Neither dead nor alive! He was completely sure at that point that the Zone claimed his friend. \n\t\\nWell, guess what! His friend turned up at the Bar a month later - in a torn up outfit, with a different weapon and a lost expression on his face... The most interesting thing was that he came to the Bar from the Swamps, but they had gotten split up in the Red Forest! The stalker could not remember how he had happened to arrive at the Swamps, nor anything before that! Sounds familiar? You can take one guess about what was on his arm.. A tattoo, just like yours! ",
+      "JA_current": "But that wasn't a Blowout, it was something else. The storyteller managed to recover after some time, but he could not see his friend anywhere! Neither dead nor alive! He was completely sure at that point that the Zone claimed his friend. \n\t\\nWell, guess what! His friend turned up at the Bar a month later - in a torn up outfit, with a different weapon and a lost expression on his face... The most interesting thing was that he came to the Bar from the Swamps, but they had gotten split up in the Red Forest! The stalker could not remember how he had happened to arrive at the Swamps, nor anything before that! Sounds familiar? You can take one guess about what was on his arm.. A tattoo, just like yours! ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_quardstory_part2#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "dialogs_escape_96",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Very interesting! This might be a clue! I'll remember that.",
+      "JA_current": "Very interesting! This might be a clue! I'll remember that.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_96#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "dialogs_escape_97",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You are a cock-and-bull storyteller! Do you think I believed you?",
+      "JA_current": "You are a cock-and-bull storyteller! Do you think I believed you?",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_97#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "dialogs_escape_98",
+      "next": [
+        "12"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Be good, lucky man! Let the Zone guard you!",
+      "JA_current": "Be good, lucky man! Let the Zone guard you!",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_98#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "dialogs_escape_99",
+      "next": [
+        "13"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Do you guess, why all of a sudden I made up my mind to put a bullet in your head?",
+      "JA_current": "Do you guess, why all of a sudden I made up my mind to put a bullet in your head?",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_99#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "dialogs_escape_100",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Good luck to you too.",
+      "JA_current": "Good luck to you too.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_100#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "dialogs_escape_101",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Take it easy, that was nothing more than a joke. Be good!",
+      "JA_current": "Take it easy, that was nothing more than a joke. Be good!",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_101#1"
+      ]
+    }
+  ]
+}

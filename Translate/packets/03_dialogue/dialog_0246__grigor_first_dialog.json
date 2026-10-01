@@ -1,0 +1,695 @@
+{
+  "packet_id": "dialog_0246__grigor_first_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "grigor_first_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml",
+  "graph_sha256": "af90465ec3a6b7a324a6c5d72d8c5ed214013f3f66f7c85ea935c11f680b26c1",
+  "character_bindings": [
+    {
+      "profile_id": "grigor",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "kaligula_goto_grigor"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "stalkers_zasada"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 14,
+  "entries": [
+    {
+      "key": "stable_dialogs_darkvalley:grigor_first_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 586,
+      "string_id": "grigor_first_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Hey you, we're here to collect! How about you hand over the money you owe and put this behind you.",
+      "JA_current": "Hey you, we're here to collect! How about you hand over the money you owe and put this behind you.",
+      "JA_new": "おい、取り立てに来たぞ！　借りた金を返して、これで終わりにしないか。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "grigor_first_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:grigor_first_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 589,
+      "string_id": "grigor_first_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "I don't recognize you, did those retards over there bring you along as backup? You're not really a part of their group, are you? You look like a normal person, why would you get mixed up with these scumbags.",
+      "JA_current": "I don't recognize you, did those retards over there bring you along as backup? You're not really a part of their group, are you? You look like a normal person, why would you get mixed up with these scumbags.",
+      "JA_new": "見覚えのない顔だな。あそこにいる間抜けどもが、用心棒に連れてきたのか？　お前もあいつらの仲間ってわけじゃないだろ？　まともそうなのに、どうしてあんなクズとつるんでる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "grigor_first_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:grigor_first_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 592,
+      "string_id": "grigor_first_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "None of your fucking business! Give me the money or I'll blow your head off!",
+      "JA_current": "None of your fucking business! Give me the money or I'll blow your head off!",
+      "JA_new": "てめえに関係ねえだろ！　金を出せ。さもないと頭を吹っ飛ばすぞ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "grigor_first_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:grigor_first_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 598,
+      "string_id": "grigor_first_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "You wouldn't understand.",
+      "JA_current": "You wouldn't understand.",
+      "JA_new": "お前には分からないさ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "grigor_first_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:grigor_first_dialog_phrase_3_1#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 595,
+      "string_id": "grigor_first_dialog_phrase_3_1",
+      "occurrence": 1,
+      "EN": "No.",
+      "JA_current": "No.",
+      "JA_new": "いいえ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "grigor_first_dialog",
+          "phrase_id": "3_1",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:grigor_first_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 601,
+      "string_id": "grigor_first_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "What's not to understand? Oh, man, why are so many decent people like you turning to banditry lately? We could all get along and live peacefully, the Zone is a big place and there are plenty of artifacts for us all. So tell me: what makes someone like you decide that it's better to make money by shaking down hard working stalkers? Why don't you join up with us. Together we'll collect plenty of artifacts and will not be left without money, none of us go hungry and there's plenty left over for a vodka or two. Think about it, if we all showed a little bit more solidarity and united together for survival, there would be no one out there willing to resort to crime and robbery, bandits would cease to exist.",
+      "JA_current": "What's not to understand? Oh, man, why are so many decent people like you turning to banditry lately? We could all get along and live peacefully, the Zone is a big place and there are plenty of artifacts for us all. So tell me: what makes someone like you decide that it's better to make money by shaking down hard working stalkers? Why don't you join up with us. Together we'll collect plenty of artifacts and will not be left without money, none of us go hungry and there's plenty left over for a vodka or two. Think about it, if we all showed a little bit more solidarity and united together for survival, there would be no one out there willing to resort to crime and robbery, bandits would cease to exist.",
+      "JA_new": "何が分からないんだ？　まったく、まともな人間がどうして最近バンディットになるんだろうな。みんなで仲良くやればいい。ゾーンは広いし、アーティファクトだって全員分ある。教えてくれよ。真面目に働くストーカーから金を巻き上げる方がいいと思ったのは、なぜだ？　俺たちと組まないか。一緒にアーティファクトを集めれば、金に困らず、誰も飢えずに済む。ウォッカを二杯飲むくらいの余裕もある。みんなが少しずつ助け合って、生き残るために団結すれば、犯罪や強盗に走る奴もいなくなる。バンディットだっていなくなるはずだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "grigor_first_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:grigor_first_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 604,
+      "string_id": "grigor_first_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "I don't have time for your fancy speeches. Give me the money! Now!",
+      "JA_current": "I don't have time for your fancy speeches. Give me the money! Now!",
+      "JA_new": "ご立派な話はいい。金を出せ！　今すぐだ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "grigor_first_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:grigor_first_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 610,
+      "string_id": "grigor_first_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "All right, you make a good point. What about those retards back there?",
+      "JA_current": "All right, you make a good point. What about those retards back there?",
+      "JA_new": "なるほど、言いたいことは分かった。後ろにいるあの間抜けどもはどうする？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "grigor_first_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:grigor_first_dialog_phrase_6_1#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 607,
+      "string_id": "grigor_first_dialog_phrase_6_1",
+      "occurrence": 1,
+      "EN": "No.",
+      "JA_current": "No.",
+      "JA_new": "いいえ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "grigor_first_dialog",
+          "phrase_id": "6_1",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:grigor_first_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 613,
+      "string_id": "grigor_first_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "We'll get rid of them. Don't worry, you made a good decision friend: there are some pals of mine hidden around, waiting for the signal to attack. So, you joining us? Grigorovich's company won't tolerate getting shaken down anymore, believe me.",
+      "JA_current": "We'll get rid of them. Don't worry, you made a good decision friend: there are some pals of mine hidden around, waiting for the signal to attack. So, you joining us? Grigorovich's company won't tolerate getting shaken down anymore, believe me.",
+      "JA_new": "俺たちで片づける。心配するな、いい判断をしたな。仲間が近くに隠れて、襲撃の合図を待ってる。俺たちに加わるんだな？　グリゴロヴィッチの仲間は、もう金を巻き上げられるままじゃない。信じてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "grigor_first_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:grigor_first_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 616,
+      "string_id": "grigor_first_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "I'll help. Give the signal, let's take down the bandits together!",
+      "JA_current": "I'll help. Give the signal, let's take down the bandits together!",
+      "JA_new": "手を貸す。合図を出せ、バンディットを一緒に片づけよう！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "grigor_first_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:grigor_first_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 622,
+      "string_id": "grigor_first_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "You're pissing me off!",
+      "JA_current": "You're pissing me off!",
+      "JA_new": "いい加減にしろよ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "grigor_first_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:grigor_first_dialog_phrase_9_1#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 619,
+      "string_id": "grigor_first_dialog_phrase_9_1",
+      "occurrence": 1,
+      "EN": "Good!",
+      "JA_current": "Good!",
+      "JA_new": "よし！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "grigor_first_dialog",
+          "phrase_id": "9_1",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:grigor_first_dialog_phrase_10_1#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 625,
+      "string_id": "grigor_first_dialog_phrase_10_1",
+      "occurrence": 1,
+      "EN": "No.",
+      "JA_current": "No.",
+      "JA_new": "いいえ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "grigor_first_dialog",
+          "phrase_id": "10_1",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "grigor_first_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey you, we're here to collect! How about you hand over the money you owe and put this behind you.",
+      "JA_current": "Hey you, we're here to collect! How about you hand over the money you owe and put this behind you.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:grigor_first_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "grigor_first_dialog_phrase_2",
+      "next": [
+        "2",
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I don't recognize you, did those retards over there bring you along as backup? You're not really a part of their group, are you? You look like a normal person, why would you get mixed up with these scumbags.",
+      "JA_current": "I don't recognize you, did those retards over there bring you along as backup? You're not really a part of their group, are you? You look like a normal person, why would you get mixed up with these scumbags.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:grigor_first_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "grigor_first_dialog_phrase_3",
+      "next": [
+        "3_1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "stalkers_zasada"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.set_stalker_enemy"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.vali_ego"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "None of your fucking business! Give me the money or I'll blow your head off!",
+      "JA_current": "None of your fucking business! Give me the money or I'll blow your head off!",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:grigor_first_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "grigor_first_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You wouldn't understand.",
+      "JA_current": "You wouldn't understand.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:grigor_first_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "3_1",
+      "text_id": "grigor_first_dialog_phrase_3_1",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.set_grigor_stalker"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No.",
+      "JA_current": "No.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:grigor_first_dialog_phrase_3_1#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "grigor_first_dialog_phrase_5",
+      "next": [
+        "5",
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What's not to understand? Oh, man, why are so many decent people like you turning to banditry lately? We could all get along and live peacefully, the Zone is a big place and there are plenty of artifacts for us all. So tell me: what makes someone like you decide that it's better to make money by shaking down hard working stalkers? Why don't you join up with us. Together we'll collect plenty of artifacts and will not be left without money, none of us go hungry and there's plenty left over for a vodka or two. Think about it, if we all showed a little bit more solidarity and united together for survival, there would be no one out there willing to resort to crime and robbery, bandits would cease to exist.",
+      "JA_current": "What's not to understand? Oh, man, why are so many decent people like you turning to banditry lately? We could all get along and live peacefully, the Zone is a big place and there are plenty of artifacts for us all. So tell me: what makes someone like you decide that it's better to make money by shaking down hard working stalkers? Why don't you join up with us. Together we'll collect plenty of artifacts and will not be left without money, none of us go hungry and there's plenty left over for a vodka or two. Think about it, if we all showed a little bit more solidarity and united together for survival, there would be no one out there willing to resort to crime and robbery, bandits would cease to exist.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:grigor_first_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "grigor_first_dialog_phrase_6",
+      "next": [
+        "6_1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "stalkers_zasada"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.set_stalker_enemy"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.vali_ego"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I don't have time for your fancy speeches. Give me the money! Now!",
+      "JA_current": "I don't have time for your fancy speeches. Give me the money! Now!",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:grigor_first_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "grigor_first_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All right, you make a good point. What about those retards back there?",
+      "JA_current": "All right, you make a good point. What about those retards back there?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:grigor_first_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "6_1",
+      "text_id": "grigor_first_dialog_phrase_6_1",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.set_grigor_stalker"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No.",
+      "JA_current": "No.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:grigor_first_dialog_phrase_6_1#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "grigor_first_dialog_phrase_8",
+      "next": [
+        "8",
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "We'll get rid of them. Don't worry, you made a good decision friend: there are some pals of mine hidden around, waiting for the signal to attack. So, you joining us? Grigorovich's company won't tolerate getting shaken down anymore, believe me.",
+      "JA_current": "We'll get rid of them. Don't worry, you made a good decision friend: there are some pals of mine hidden around, waiting for the signal to attack. So, you joining us? Grigorovich's company won't tolerate getting shaken down anymore, believe me.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:grigor_first_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "grigor_first_dialog_phrase_9",
+      "next": [
+        "9_1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "stalkers_zasada"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.actor_clear_community"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'll help. Give the signal, let's take down the bandits together!",
+      "JA_current": "I'll help. Give the signal, let's take down the bandits together!",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:grigor_first_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "grigor_first_dialog_phrase_10",
+      "next": [
+        "10_1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "stalkers_zasada"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.set_stalker_enemy"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.vali_ego"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You're pissing me off!",
+      "JA_current": "You're pissing me off!",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:grigor_first_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "9_1",
+      "text_id": "grigor_first_dialog_phrase_9_1",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.actor_clear_community"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Good!",
+      "JA_current": "Good!",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:grigor_first_dialog_phrase_9_1#1"
+      ]
+    },
+    {
+      "phrase_id": "10_1",
+      "text_id": "grigor_first_dialog_phrase_10_1",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.actor_clear_community"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.set_grigor_stalker"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No.",
+      "JA_current": "No.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:grigor_first_dialog_phrase_10_1#1"
+      ]
+    }
+  ]
+}

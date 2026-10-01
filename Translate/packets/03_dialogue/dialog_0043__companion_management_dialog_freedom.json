@@ -1,0 +1,1029 @@
+{
+  "packet_id": "dialog_0043__companion_management_dialog_freedom",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "companion_management_dialog_freedom",
+  "graph_source": "gamedata/config/gameplay/dialogs.xml",
+  "graph_sha256": "87109fb1ac4d045582ddab436da3571319106a69b21b6c21a4451cbb5f3afbbf",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "dialogs.is_companion"
+    },
+    {
+      "type": "precondition",
+      "value": "dialogs.is_freedom_companion"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 22,
+  "entries": [
+    {
+      "key": "stable_dialogs:companion_management_dialog_freedom_0#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 291,
+      "string_id": "companion_management_dialog_freedom_0",
+      "occurrence": 1,
+      "EN": "Hey, man, let's discuss our tactics.",
+      "JA_current": "Hey, man, let's discuss our tactics.",
+      "JA_new": "なあ、作戦の相談をしようぜ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_freedom",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_freedom_1#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 294,
+      "string_id": "companion_management_dialog_freedom_1",
+      "occurrence": 1,
+      "EN": "I'm all ears, bro.",
+      "JA_current": "I'm all ears, bro.",
+      "JA_new": "聞くぜ、兄弟。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_freedom",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_freedom_2#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 297,
+      "string_id": "companion_management_dialog_freedom_2",
+      "occurrence": 1,
+      "EN": "Follow me.",
+      "JA_current": "Follow me.",
+      "JA_new": "ついてこい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_freedom",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_freedom_7#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 312,
+      "string_id": "companion_management_dialog_freedom_7",
+      "occurrence": 1,
+      "EN": "Sit here and smoke one, I need to move away.",
+      "JA_current": "Sit here and smoke one, I need to move away.",
+      "JA_new": "ここで一服してろ。俺はちょっと出る。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_freedom",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_freedom_12#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 327,
+      "string_id": "companion_management_dialog_freedom_12",
+      "occurrence": 1,
+      "EN": "Follow me and don't stick your head out.",
+      "JA_current": "Follow me and don't stick your head out.",
+      "JA_new": "ついてこい。頭を出すなよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_freedom",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_freedom_17#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 342,
+      "string_id": "companion_management_dialog_freedom_17",
+      "occurrence": 1,
+      "EN": "Sit here and hide.",
+      "JA_current": "Sit here and hide.",
+      "JA_new": "ここで隠れて待ってろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_freedom",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_freedom_3#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 300,
+      "string_id": "companion_management_dialog_freedom_3",
+      "occurrence": 1,
+      "EN": "And if something happens?",
+      "JA_current": "And if something happens?",
+      "JA_new": "何かあったら？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_freedom",
+          "phrase_id": "111",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_freedom_8#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 315,
+      "string_id": "companion_management_dialog_freedom_8",
+      "occurrence": 1,
+      "EN": "And if something happens?",
+      "JA_current": "And if something happens?",
+      "JA_new": "何かあったら？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_freedom",
+          "phrase_id": "121",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_freedom_13#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 330,
+      "string_id": "companion_management_dialog_freedom_13",
+      "occurrence": 1,
+      "EN": "And if something happens?",
+      "JA_current": "And if something happens?",
+      "JA_new": "何かあったら？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_freedom",
+          "phrase_id": "131",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_freedom_18#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 345,
+      "string_id": "companion_management_dialog_freedom_18",
+      "occurrence": 1,
+      "EN": "And if something happens?",
+      "JA_current": "And if something happens?",
+      "JA_new": "何かあったら？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_freedom",
+          "phrase_id": "141",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_freedom_4#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 303,
+      "string_id": "companion_management_dialog_freedom_4",
+      "occurrence": 1,
+      "EN": "That's ok, but be prepared.",
+      "JA_current": "That's ok, but be prepared.",
+      "JA_new": "いいか、いつでも動けるようにしておけ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_freedom",
+          "phrase_id": "1111",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_freedom_5#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 306,
+      "string_id": "companion_management_dialog_freedom_5",
+      "occurrence": 1,
+      "EN": "Be calm and get them close.",
+      "JA_current": "Be calm and get them close.",
+      "JA_new": "落ち着け。敵を引きつけてからだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_freedom",
+          "phrase_id": "1112",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_freedom_6#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 309,
+      "string_id": "companion_management_dialog_freedom_6",
+      "occurrence": 1,
+      "EN": "Just go and strap your gun.",
+      "JA_current": "Just go and strap your gun.",
+      "JA_new": "行って銃を構えろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_freedom",
+          "phrase_id": "1113",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_freedom_9#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 318,
+      "string_id": "companion_management_dialog_freedom_9",
+      "occurrence": 1,
+      "EN": "Just rest here, but be prepared.",
+      "JA_current": "Just rest here, but be prepared.",
+      "JA_new": "ここで休め。ただし警戒は怠るな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_freedom",
+          "phrase_id": "1211",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_freedom_10#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 321,
+      "string_id": "companion_management_dialog_freedom_10",
+      "occurrence": 1,
+      "EN": "Rest here, let them get close to you.",
+      "JA_current": "Rest here, let them get close to you.",
+      "JA_new": "ここで休んで、敵を近くまで引きつけろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_freedom",
+          "phrase_id": "1212",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_freedom_11#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 324,
+      "string_id": "companion_management_dialog_freedom_11",
+      "occurrence": 1,
+      "EN": "Smoke one with peace, don't bother.",
+      "JA_current": "Smoke one with peace, don't bother.",
+      "JA_new": "一服でもして、ゆっくりしてろ。余計なことはするな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_freedom",
+          "phrase_id": "1213",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_freedom_14#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 333,
+      "string_id": "companion_management_dialog_freedom_14",
+      "occurrence": 1,
+      "EN": "Let's go and be ready.",
+      "JA_current": "Let's go and be ready.",
+      "JA_new": "行くぞ。警戒しろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_freedom",
+          "phrase_id": "1311",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_freedom_15#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 336,
+      "string_id": "companion_management_dialog_freedom_15",
+      "occurrence": 1,
+      "EN": "Ok, just be calm and let them get close to you.",
+      "JA_current": "Ok, just be calm and let them get close to you.",
+      "JA_new": "落ち着け。敵を近くまで引きつけろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_freedom",
+          "phrase_id": "1312",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_freedom_16#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 339,
+      "string_id": "companion_management_dialog_freedom_16",
+      "occurrence": 1,
+      "EN": "Listen, wait as much as you can, ok?",
+      "JA_current": "Listen, wait as much as you can, ok?",
+      "JA_new": "なあ、できるだけじっとしてろ。いいな？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_freedom",
+          "phrase_id": "1313",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_freedom_19#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 348,
+      "string_id": "companion_management_dialog_freedom_19",
+      "occurrence": 1,
+      "EN": "Hide and be prepared.",
+      "JA_current": "Hide and be prepared.",
+      "JA_new": "隠れて、警戒しろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_freedom",
+          "phrase_id": "1411",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_freedom_20#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 351,
+      "string_id": "companion_management_dialog_freedom_20",
+      "occurrence": 1,
+      "EN": "Hide and let them get close to you.",
+      "JA_current": "Hide and let them get close to you.",
+      "JA_new": "隠れて、敵を近くまで引きつけろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_freedom",
+          "phrase_id": "1412",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_management_dialog_freedom_21#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 354,
+      "string_id": "companion_management_dialog_freedom_21",
+      "occurrence": 1,
+      "EN": "Hide and don't show up yourself.",
+      "JA_current": "Hide and don't show up yourself.",
+      "JA_new": "隠れてろ。姿を見せるな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_management_dialog_freedom",
+          "phrase_id": "1413",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "companion_management_dialog_freedom_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Hey, man, let's discuss our tactics.",
+      "JA_current": "Hey, man, let's discuss our tactics.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_freedom_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "companion_management_dialog_freedom_1",
+      "next": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'm all ears, bro.",
+      "JA_current": "I'm all ears, bro.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_freedom_1#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "companion_management_dialog_freedom_2",
+      "next": [
+        "111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Follow me.",
+      "JA_current": "Follow me.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_freedom_2#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "companion_management_dialog_freedom_7",
+      "next": [
+        "121"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Sit here and smoke one, I need to move away.",
+      "JA_current": "Sit here and smoke one, I need to move away.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_freedom_7#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "companion_management_dialog_freedom_12",
+      "next": [
+        "131"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Follow me and don't stick your head out.",
+      "JA_current": "Follow me and don't stick your head out.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_freedom_12#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "companion_management_dialog_freedom_17",
+      "next": [
+        "141"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Sit here and hide.",
+      "JA_current": "Sit here and hide.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_freedom_17#1"
+      ]
+    },
+    {
+      "phrase_id": "111",
+      "text_id": "companion_management_dialog_freedom_3",
+      "next": [
+        "1111",
+        "1112",
+        "1113"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "And if something happens?",
+      "JA_current": "And if something happens?",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_freedom_3#1"
+      ]
+    },
+    {
+      "phrase_id": "121",
+      "text_id": "companion_management_dialog_freedom_8",
+      "next": [
+        "1211",
+        "1212",
+        "1213"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "And if something happens?",
+      "JA_current": "And if something happens?",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_freedom_8#1"
+      ]
+    },
+    {
+      "phrase_id": "131",
+      "text_id": "companion_management_dialog_freedom_13",
+      "next": [
+        "1311",
+        "1312",
+        "1313"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "And if something happens?",
+      "JA_current": "And if something happens?",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_freedom_13#1"
+      ]
+    },
+    {
+      "phrase_id": "141",
+      "text_id": "companion_management_dialog_freedom_18",
+      "next": [
+        "1411",
+        "1412",
+        "1413"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "And if something happens?",
+      "JA_current": "And if something happens?",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_freedom_18#1"
+      ]
+    },
+    {
+      "phrase_id": "1111",
+      "text_id": "companion_management_dialog_freedom_4",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_walk_simple"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "That's ok, but be prepared.",
+      "JA_current": "That's ok, but be prepared.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_freedom_4#1"
+      ]
+    },
+    {
+      "phrase_id": "1112",
+      "text_id": "companion_management_dialog_freedom_5",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_walk_low_aggr"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Be calm and get them close.",
+      "JA_current": "Be calm and get them close.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_freedom_5#1"
+      ]
+    },
+    {
+      "phrase_id": "1113",
+      "text_id": "companion_management_dialog_freedom_6",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_walk_ignore"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Just go and strap your gun.",
+      "JA_current": "Just go and strap your gun.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_freedom_6#1"
+      ]
+    },
+    {
+      "phrase_id": "1211",
+      "text_id": "companion_management_dialog_freedom_9",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_wait_simple"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "121"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Just rest here, but be prepared.",
+      "JA_current": "Just rest here, but be prepared.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_freedom_9#1"
+      ]
+    },
+    {
+      "phrase_id": "1212",
+      "text_id": "companion_management_dialog_freedom_10",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_wait_low_aggr"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "121"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Rest here, let them get close to you.",
+      "JA_current": "Rest here, let them get close to you.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_freedom_10#1"
+      ]
+    },
+    {
+      "phrase_id": "1213",
+      "text_id": "companion_management_dialog_freedom_11",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_wait_ignore"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "121"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Smoke one with peace, don't bother.",
+      "JA_current": "Smoke one with peace, don't bother.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_freedom_11#1"
+      ]
+    },
+    {
+      "phrase_id": "1311",
+      "text_id": "companion_management_dialog_freedom_14",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_crouch_simple"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "131"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Let's go and be ready.",
+      "JA_current": "Let's go and be ready.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_freedom_14#1"
+      ]
+    },
+    {
+      "phrase_id": "1312",
+      "text_id": "companion_management_dialog_freedom_15",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_crouch_low_aggr"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "131"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Ok, just be calm and let them get close to you.",
+      "JA_current": "Ok, just be calm and let them get close to you.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_freedom_15#1"
+      ]
+    },
+    {
+      "phrase_id": "1313",
+      "text_id": "companion_management_dialog_freedom_16",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_crouch_ignore"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "131"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Listen, wait as much as you can, ok?",
+      "JA_current": "Listen, wait as much as you can, ok?",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_freedom_16#1"
+      ]
+    },
+    {
+      "phrase_id": "1411",
+      "text_id": "companion_management_dialog_freedom_19",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_hide_simple"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "141"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Hide and be prepared.",
+      "JA_current": "Hide and be prepared.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_freedom_19#1"
+      ]
+    },
+    {
+      "phrase_id": "1412",
+      "text_id": "companion_management_dialog_freedom_20",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_hide_low_aggr"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "141"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Hide and let them get close to you.",
+      "JA_current": "Hide and let them get close to you.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_freedom_20#1"
+      ]
+    },
+    {
+      "phrase_id": "1413",
+      "text_id": "companion_management_dialog_freedom_21",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_beh_hide_ignore"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "141"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Hide and don't show up yourself.",
+      "JA_current": "Hide and don't show up yourself.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_management_dialog_freedom_21#1"
+      ]
+    }
+  ]
+}

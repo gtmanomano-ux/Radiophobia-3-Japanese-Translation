@@ -1,0 +1,213 @@
+{
+  "packet_id": "dialog_0402__tm_pri_dialog_arny",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "tm_pri_dialog_arny",
+  "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml",
+  "graph_sha256": "8bb9195290d87fda40f45e7ab7e4ed73c832c18ca04c708134554149eea56b2a",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "ogsm_quests.kill_arny_precondition"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 3,
+  "entries": [
+    {
+      "key": "stable_dialogs_pripyat:pri_1_est_delicatnoe_delo#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 38,
+      "string_id": "pri_1_est_delicatnoe_delo",
+      "occurrence": 1,
+      "EN": "There's a delicate situation I need to be assisted with: a neutral stalker must vanish. Or, better say, \"be vanished\". His name is Arnie, and he runs the events at the Arena in Rostok. He's also a frequenter at the \"100 Rads\" bar. I'm sure you know him... Anyway, it's Duty territory so if you waste him, there will be heat!",
+      "JA_current": "There's a delicate situation I need to be assisted with: a neutral stalker must vanish. Or, better say, \"be vanished\". His name is Arnie, and he runs the events at the Arena in Rostok. He's also a frequenter at the \"100 Rads\" bar. I'm sure you know him... Anyway, it's Duty territory so if you waste him, there will be heat!",
+      "JA_new": "ちょっと厄介な件で手を貸してほしい。ローナーを一人、消してもらいたい。いや、「消えてもらう」と言った方がいいか。アーニーって男だ。ロストクのアリーナを仕切っていて、100レントゲンにもよくいる。あんたも知ってるだろう……デューティーの縄張りだから、殺れば面倒なことになるぞ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "tm_pri_dialog_arny",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:pri_1_znayu#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 41,
+      "string_id": "pri_1_znayu",
+      "occurrence": 1,
+      "EN": "Sure, I know him. But why do you want him killed?",
+      "JA_current": "Sure, I know him. But why do you want him killed?",
+      "JA_new": "ああ、知ってる。だが、なぜ殺したい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "tm_pri_dialog_arny",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:pri_1_bereshsya#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 44,
+      "string_id": "pri_1_bereshsya",
+      "occurrence": 1,
+      "EN": "Are you here to earn money or to ask questions? Let's just say that this guy's not really the simpleton he portrays himself as. You may not believe me now, but you'll find proof when you waste him... So, are you in?",
+      "JA_current": "Are you here to earn money or to ask questions? Let's just say that this guy's not really the simpleton he portrays himself as. You may not believe me now, but you'll find proof when you waste him... So, are you in?",
+      "JA_new": "金を稼ぎに来たのか、質問しに来たのか？ まあ聞け。あいつは自分で装ってるほどの間抜けじゃない。今は信じなくてもいいが、殺せば証拠が見つかる。どうだ、引き受けるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "tm_pri_dialog_arny",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "tm_seek_new_job",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I need a job. Do you have something for me?",
+      "JA_current": "仕事が必要なんだ。何かないか？",
+      "string_entry_candidates": [
+        "stable_task_manager:tm_seek_new_job#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "pri_1_est_delicatnoe_delo",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "There's a delicate situation I need to be assisted with: a neutral stalker must vanish. Or, better say, \"be vanished\". His name is Arnie, and he runs the events at the Arena in Rostok. He's also a frequenter at the \"100 Rads\" bar. I'm sure you know him... Anyway, it's Duty territory so if you waste him, there will be heat!",
+      "JA_current": "There's a delicate situation I need to be assisted with: a neutral stalker must vanish. Or, better say, \"be vanished\". His name is Arnie, and he runs the events at the Arena in Rostok. He's also a frequenter at the \"100 Rads\" bar. I'm sure you know him... Anyway, it's Duty territory so if you waste him, there will be heat!",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:pri_1_est_delicatnoe_delo#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "pri_1_znayu",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Sure, I know him. But why do you want him killed?",
+      "JA_current": "Sure, I know him. But why do you want him killed?",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:pri_1_znayu#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "pri_1_bereshsya",
+      "next": [
+        "4",
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Are you here to earn money or to ask questions? Let's just say that this guy's not really the simpleton he portrays himself as. You may not believe me now, but you'll find proof when you waste him... So, are you in?",
+      "JA_current": "Are you here to earn money or to ask questions? Let's just say that this guy's not really the simpleton he portrays himself as. You may not believe me now, but you'll find proof when you waste him... So, are you in?",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:pri_1_bereshsya#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "tm_seek_job_yes",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "pri_trader_arny_task"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'm up for it.",
+      "JA_current": "やってみよう。",
+      "string_entry_candidates": [
+        "stable_task_manager:tm_seek_job_yes#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "tm_seek_job_no",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Some other time.",
+      "JA_current": "いつか、な。",
+      "string_entry_candidates": [
+        "stable_task_manager:tm_seek_job_no#1"
+      ]
+    }
+  ]
+}

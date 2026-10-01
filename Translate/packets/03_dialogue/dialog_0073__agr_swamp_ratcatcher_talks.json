@@ -1,0 +1,519 @@
+{
+  "packet_id": "dialog_0073__agr_swamp_ratcatcher_talks",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "agr_swamp_ratcatcher_talks",
+  "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml",
+  "graph_sha256": "0065cb49021f3d779d92b62bc9453bcaa767fa47933b73f8ecdd37c8a246e1ab",
+  "character_bindings": [
+    {
+      "profile_id": "agr_ratcatcher",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_agroprom.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "agr_collector_entrance_info"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 11,
+  "entries": [
+    {
+      "key": "stable_dialogs_agroprom:agr_swamp_ratcatcher_talks_0#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 213,
+      "string_id": "agr_swamp_ratcatcher_talks_0",
+      "occurrence": 1,
+      "EN": "What are you doing?",
+      "JA_current": "何をしているんだ？",
+      "JA_new": "何をしてる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_swamp_ratcatcher_talks",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_swamp_ratcatcher_talks_10#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 216,
+      "string_id": "agr_swamp_ratcatcher_talks_10",
+      "occurrence": 1,
+      "EN": "I'm hiding here, I don't want no trouble.",
+      "JA_current": "ここに隠れてるのさ、面倒はごめんだからな。",
+      "JA_new": "ここに隠れてるんだ。厄介事には巻き込まれたくない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_swamp_ratcatcher_talks",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_swamp_ratcatcher_talks_100#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 219,
+      "string_id": "agr_swamp_ratcatcher_talks_100",
+      "occurrence": 1,
+      "EN": "Who are you hiding from?",
+      "JA_current": "誰から隠れているんだ？",
+      "JA_new": "誰から隠れてる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_swamp_ratcatcher_talks",
+          "phrase_id": "100",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_swamp_ratcatcher_talks_20#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 234,
+      "string_id": "agr_swamp_ratcatcher_talks_20",
+      "occurrence": 1,
+      "EN": "I am from the local recon unit. They sent us into the catacombs to see what was going on below the base. It's hell down there, I'm telling you. I was the only one to get out of there alive... everyone else is probably dead by now. I don't want to go back to the base - those bastards are always using us to plug up all the holes in this cursed Zone.",
+      "JA_current": "俺は偵察部隊の一員だった。基地の地下で何が起きてるのか解明するために、Catacombs へ送られたんだ。いいか、地獄だ、あそこは。脱出できたのは俺だけで、他のみんなはおそらく死んだ。俺はもう基地には帰りたくない。あのくそったれども、俺たちをこき使いやがって、ゾーン中の穴という穴を埋めさせようとするのさ。",
+      "JA_new": "俺はこの辺の偵察部隊にいた。基地の地下で何が起きてるのか調べろって、カタコンベに送り込まれたんだ。あそこは地獄だよ。生きて出られたのは俺だけだ……ほかの連中は、もう死んでるだろうな。基地には戻りたくない。あのクソ野郎どもは、呪われたゾーンの穴埋めに、いつも俺たちを使いやがる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_swamp_ratcatcher_talks",
+          "phrase_id": "20",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_swamp_ratcatcher_talks_120#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 222,
+      "string_id": "agr_swamp_ratcatcher_talks_120",
+      "occurrence": 1,
+      "EN": "Catacombs?",
+      "JA_current": "Catacombs？",
+      "JA_new": "カタコンベ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_swamp_ratcatcher_talks",
+          "phrase_id": "120",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_swamp_ratcatcher_talks_30#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 237,
+      "string_id": "agr_swamp_ratcatcher_talks_30",
+      "occurrence": 1,
+      "EN": "Underground tunnels. They go from the Institute to the area around it - I'll show you the entrances. I don't have maps of the catacombs themselves.",
+      "JA_current": "地下トンネルだ。奴らは研究所から周辺領域まで移動する。俺はその入り口へお前を案内できるが、Catacombs 自体の地図は持っていない。",
+      "JA_new": "地下トンネルだ。研究所から周辺一帯へつながってる。出入口なら案内するよ。地下道の地図は持ってないけどな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_swamp_ratcatcher_talks",
+          "phrase_id": "30",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_swamp_ratcatcher_talks_130#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 225,
+      "string_id": "agr_swamp_ratcatcher_talks_130",
+      "occurrence": 1,
+      "EN": "Do you know where they keep documents at the Institute?",
+      "JA_current": "奴らが研究所の何処に書類を保管してるか知らないか？",
+      "JA_new": "研究所の書類がどこに保管されてるか知ってるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_swamp_ratcatcher_talks",
+          "phrase_id": "130",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_swamp_ratcatcher_talks_141#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 231,
+      "string_id": "agr_swamp_ratcatcher_talks_141",
+      "occurrence": 1,
+      "EN": "What are you going to do now?",
+      "JA_current": "何をしようとしてるんだ？",
+      "JA_new": "これからどうする？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_swamp_ratcatcher_talks",
+          "phrase_id": "141",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_swamp_ratcatcher_talks_40#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 240,
+      "string_id": "agr_swamp_ratcatcher_talks_40",
+      "occurrence": 1,
+      "EN": "At the HQ, to the Southwest. It's on the third floor of the Institute. That's where they keep those damn papers, guarded by senior officers. But it would be a suicide mission getting in there, especially in broad daylight. The area is teeming with patrols, they have orders to fire at will. You'd stand a better chance at night when most of the guys are asleep in the barracks. I'll tell you this though: if you wanna get inside discreetly, you can try the catacombs, there's a manhole emerging right into the base perimeter - the catacombs are a fucked up place, but you stand no chance at the gates, trust me. They got guards at every entrance all the time, plus snipers in the towers scanning the perimeter, on two hour rotations. Oh, and also, keep in mind they have an alarm system, a speaker on the roof will start blaring if there's trouble. If you want to go in quietly, try to hit that speaker, maybe you'll have a better shot at keeping a low profile. ",
+      "JA_current": "本部だな。それは研究所の3階にある。そこが重要書類を保管する場所さ。だが、任務だからそこに入らなきゃならない。日中、このエリアは部隊が巡視しているが、夜間は昼間ほどじゃない。これはタダで教えてやろう、中に入りたいなら、Catacombs を通らねばならないだろうな、正面立っても見込みはない。",
+      "JA_new": "司令部だ。南西にある研究所の3階。あの忌々しい書類はそこで保管されてる。上級将校が警備してるよ。特に昼間は、忍び込むなんて自殺行為だ。辺りは巡回だらけで、見つけ次第撃てという命令が出てる。兵舎で大半が寝てる夜のほうが、まだ望みはある。こっそり入るなら地下道を使う手もある。基地の敷地内に出るマンホールがあるんだ。地下道もひどい場所だが、正門から入るのはまず無理だ。どの入口にも常に見張りがいるし、塔の狙撃兵が2時間交代で周囲を見張ってる。警報装置があるのも忘れるな。屋上のスピーカーが、異常があれば鳴り響く。静かに入りたいなら、あのスピーカーを壊しておけ。そうすれば見つからずに済むかもしれない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_swamp_ratcatcher_talks",
+          "phrase_id": "40",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_swamp_ratcatcher_talks_50#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 243,
+      "string_id": "agr_swamp_ratcatcher_talks_50",
+      "occurrence": 1,
+      "EN": "Hmm. I don't know. According to military code, I'm a deserter, if I try to return they'll probably just waste me. I need to get out of the Zone somehow, then get out of the country. When we first got deployed here there was a Zaporozhets in the garage that was almost working. I brought it back to life in half an hour, but that damn captain took it for himself claiming he should have it according to the rules. He drove it along this road and dumped it in the rain by the gate. If only I could get my hands on that car - making a run for it is much safer on wheels!",
+      "JA_current": "うーん、俺は知らない。俺は軍規に照らせば脱走兵だから、どうにかゾーンを出なきゃならない。俺たちが初めてここに来たとき、車庫に動きそうな Zaporozhets があった。俺は30分ばかりで、そいつを生き返らせてみたんだが、糞隊長が規律ではこれは俺が運転するべきだと言って、手前で取り上げちまった。ヤツは一人で雨の中を運転して、ゲートに衝突させやがった。もし俺がその車を運転していれば、遙かに安全に運転できたろうに。",
+      "JA_new": "どうだろうな。軍の規則じゃ俺は脱走兵だ。戻ったところで、たぶん始末される。何とかゾーンを出て、国の外まで逃げなきゃならない。ここに派遣されたばかりの頃、ガレージに動きそうなザポロージェツがあったんだ。30分で走れるように直したのに、あのクソ大尉が規則だから自分のものだと言って持っていきやがった。道沿いに走らせて、門のそばに雨ざらしで放置した。あの車を取り戻せればな。車輪があれば、ずっと安全に逃げられるのに！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_swamp_ratcatcher_talks",
+          "phrase_id": "50",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_swamp_ratcatcher_talks_140#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 228,
+      "string_id": "agr_swamp_ratcatcher_talks_140",
+      "occurrence": 1,
+      "EN": "What are you going to do now?",
+      "JA_current": "何をしようとしてるんだ？",
+      "JA_new": "これからどうする？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_swamp_ratcatcher_talks",
+          "phrase_id": "140",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "agr_swamp_ratcatcher_talks_0",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What are you doing?",
+      "JA_current": "何をしているんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_swamp_ratcatcher_talks_0#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "agr_swamp_ratcatcher_talks_10",
+      "next": [
+        "100"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm hiding here, I don't want no trouble.",
+      "JA_current": "ここに隠れてるのさ、面倒はごめんだからな。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_swamp_ratcatcher_talks_10#1"
+      ]
+    },
+    {
+      "phrase_id": "100",
+      "text_id": "agr_swamp_ratcatcher_talks_100",
+      "next": [
+        "20"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "agr_ratcatcher_friend"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Who are you hiding from?",
+      "JA_current": "誰から隠れているんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_swamp_ratcatcher_talks_100#1"
+      ]
+    },
+    {
+      "phrase_id": "20",
+      "text_id": "agr_swamp_ratcatcher_talks_20",
+      "next": [
+        "120"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "100"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I am from the local recon unit. They sent us into the catacombs to see what was going on below the base. It's hell down there, I'm telling you. I was the only one to get out of there alive... everyone else is probably dead by now. I don't want to go back to the base - those bastards are always using us to plug up all the holes in this cursed Zone.",
+      "JA_current": "俺は偵察部隊の一員だった。基地の地下で何が起きてるのか解明するために、Catacombs へ送られたんだ。いいか、地獄だ、あそこは。脱出できたのは俺だけで、他のみんなはおそらく死んだ。俺はもう基地には帰りたくない。あのくそったれども、俺たちをこき使いやがって、ゾーン中の穴という穴を埋めさせようとするのさ。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_swamp_ratcatcher_talks_20#1"
+      ]
+    },
+    {
+      "phrase_id": "120",
+      "text_id": "agr_swamp_ratcatcher_talks_120",
+      "next": [
+        "30"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "20"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Catacombs?",
+      "JA_current": "Catacombs？",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_swamp_ratcatcher_talks_120#1"
+      ]
+    },
+    {
+      "phrase_id": "30",
+      "text_id": "agr_swamp_ratcatcher_talks_30",
+      "next": [
+        "130",
+        "141"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "120"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Underground tunnels. They go from the Institute to the area around it - I'll show you the entrances. I don't have maps of the catacombs themselves.",
+      "JA_current": "地下トンネルだ。奴らは研究所から周辺領域まで移動する。俺はその入り口へお前を案内できるが、Catacombs 自体の地図は持っていない。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_swamp_ratcatcher_talks_30#1"
+      ]
+    },
+    {
+      "phrase_id": "130",
+      "text_id": "agr_swamp_ratcatcher_talks_130",
+      "next": [
+        "40"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "agroprom_military_case"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "agr_collector_entrance_info"
+        },
+        {
+          "type": "give_info",
+          "value": "agr_nii_security_plan_flash_have"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "30"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Do you know where they keep documents at the Institute?",
+      "JA_current": "奴らが研究所の何処に書類を保管してるか知らないか？",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_swamp_ratcatcher_talks_130#1"
+      ]
+    },
+    {
+      "phrase_id": "141",
+      "text_id": "agr_swamp_ratcatcher_talks_141",
+      "next": [
+        "50"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "agroprom_military_case"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "agr_zaz_location"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "30"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What are you going to do now?",
+      "JA_current": "何をしようとしてるんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_swamp_ratcatcher_talks_141#1"
+      ]
+    },
+    {
+      "phrase_id": "40",
+      "text_id": "agr_swamp_ratcatcher_talks_40",
+      "next": [
+        "140"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "130"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "At the HQ, to the Southwest. It's on the third floor of the Institute. That's where they keep those damn papers, guarded by senior officers. But it would be a suicide mission getting in there, especially in broad daylight. The area is teeming with patrols, they have orders to fire at will. You'd stand a better chance at night when most of the guys are asleep in the barracks. I'll tell you this though: if you wanna get inside discreetly, you can try the catacombs, there's a manhole emerging right into the base perimeter - the catacombs are a fucked up place, but you stand no chance at the gates, trust me. They got guards at every entrance all the time, plus snipers in the towers scanning the perimeter, on two hour rotations. Oh, and also, keep in mind they have an alarm system, a speaker on the roof will start blaring if there's trouble. If you want to go in quietly, try to hit that speaker, maybe you'll have a better shot at keeping a low profile. ",
+      "JA_current": "本部だな。それは研究所の3階にある。そこが重要書類を保管する場所さ。だが、任務だからそこに入らなきゃならない。日中、このエリアは部隊が巡視しているが、夜間は昼間ほどじゃない。これはタダで教えてやろう、中に入りたいなら、Catacombs を通らねばならないだろうな、正面立っても見込みはない。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_swamp_ratcatcher_talks_40#1"
+      ]
+    },
+    {
+      "phrase_id": "50",
+      "text_id": "agr_swamp_ratcatcher_talks_50",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "140",
+        "141"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hmm. I don't know. According to military code, I'm a deserter, if I try to return they'll probably just waste me. I need to get out of the Zone somehow, then get out of the country. When we first got deployed here there was a Zaporozhets in the garage that was almost working. I brought it back to life in half an hour, but that damn captain took it for himself claiming he should have it according to the rules. He drove it along this road and dumped it in the rain by the gate. If only I could get my hands on that car - making a run for it is much safer on wheels!",
+      "JA_current": "うーん、俺は知らない。俺は軍規に照らせば脱走兵だから、どうにかゾーンを出なきゃならない。俺たちが初めてここに来たとき、車庫に動きそうな Zaporozhets があった。俺は30分ばかりで、そいつを生き返らせてみたんだが、糞隊長が規律ではこれは俺が運転するべきだと言って、手前で取り上げちまった。ヤツは一人で雨の中を運転して、ゲートに衝突させやがった。もし俺がその車を運転していれば、遙かに安全に運転できたろうに。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_swamp_ratcatcher_talks_50#1"
+      ]
+    },
+    {
+      "phrase_id": "140",
+      "text_id": "agr_swamp_ratcatcher_talks_140",
+      "next": [
+        "50"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "agr_zaz_location"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "40"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What are you going to do now?",
+      "JA_current": "何をしようとしてるんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_swamp_ratcatcher_talks_140#1"
+      ]
+    }
+  ]
+}

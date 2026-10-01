@@ -1,0 +1,180 @@
+{
+  "packet_id": "dialog_0252__neron_pobeda_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "neron_pobeda_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml",
+  "graph_sha256": "af90465ec3a6b7a324a6c5d72d8c5ed214013f3f66f7c85ea935c11f680b26c1",
+  "character_bindings": [
+    {
+      "profile_id": "neron",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "kaligula_dead"
+    },
+    {
+      "type": "has_info",
+      "value": "grigor_dead"
+    },
+    {
+      "type": "has_info",
+      "value": "ochkarik_dead"
+    },
+    {
+      "type": "has_info",
+      "value": "prohor_dead"
+    },
+    {
+      "type": "has_info",
+      "value": "yava_dead"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "bandits_back"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 3,
+  "entries": [
+    {
+      "key": "stable_dialogs_darkvalley:neron_pobeda_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 674,
+      "string_id": "neron_pobeda_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "All good?",
+      "JA_current": "All good?",
+      "JA_new": "問題ないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "neron_pobeda_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:neron_pobeda_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 677,
+      "string_id": "neron_pobeda_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Man, Caligula's been clipped, fuck! That's gonna drive the boss up the fucking wall... You do what you want, but I'll go camp out somewhere and sit tight until he gets over it. Laters.",
+      "JA_current": "Man, Caligula's been clipped, fuck! That's gonna drive the boss up the fucking wall... You do what you want, but I'll go camp out somewhere and sit tight until he gets over it. Laters.",
+      "JA_new": "カリグラがやられた。くそっ、ボスが知ったらブチ切れるぞ……好きにしろよ。俺はどこかで身を隠して、ボスが落ち着くまで待つ。じゃあな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "neron_pobeda_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:neron_pobeda_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 680,
+      "string_id": "neron_pobeda_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Come on.",
+      "JA_current": "Come on.",
+      "JA_new": "おい、待てよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "neron_pobeda_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "neron_pobeda_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All good?",
+      "JA_current": "All good?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:neron_pobeda_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "neron_pobeda_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Man, Caligula's been clipped, fuck! That's gonna drive the boss up the fucking wall... You do what you want, but I'll go camp out somewhere and sit tight until he gets over it. Laters.",
+      "JA_current": "Man, Caligula's been clipped, fuck! That's gonna drive the boss up the fucking wall... You do what you want, but I'll go camp out somewhere and sit tight until he gets over it. Laters.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:neron_pobeda_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "neron_pobeda_dialog_phrase_3",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "bandits_back"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Come on.",
+      "JA_current": "Come on.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:neron_pobeda_dialog_phrase_3#1"
+      ]
+    }
+  ]
+}

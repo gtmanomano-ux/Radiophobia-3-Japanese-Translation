@@ -1,0 +1,219 @@
+{
+  "packet_id": "dialog_0311__vozvrat_habara",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "vozvrat_habara",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "escape_trader",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "habar_sidora_nayden"
+    },
+    {
+      "type": "precondition",
+      "value": "escape_dialog.have_a_sidor_habar"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 4,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:vozvrat_habara_phrase_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2211,
+      "string_id": "vozvrat_habara_phrase_1",
+      "occurrence": 1,
+      "EN": "Hello, Sidorovich! Here I am, with your loot, no less!",
+      "JA_current": "Hello, Sidorovich! Here I am, with your loot, no less!",
+      "JA_new": "やあ、シドロヴィッチ！ ほら、あんたの戦利品だ。たっぷりあるぞ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vozvrat_habara",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:vozvrat_habara_phrase_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2214,
+      "string_id": "vozvrat_habara_phrase_2",
+      "occurrence": 1,
+      "EN": "You managed to get it? I knew I could count on you... Hold on, let me see if everything's accounted for. All right, provisions, ammo... Where's the two latest rechargeable kits? And where are the army medical kits, ten of them??? Relax, I'm just kidding! Everything of value is mostly accounted for. Thank you very much! All right, off you go.",
+      "JA_current": "You managed to get it? I knew I could count on you... Hold on, let me see if everything's accounted for. All right, provisions, ammo... Where's the two latest rechargeable kits? And where are the army medical kits, ten of them??? Relax, I'm just kidding! Everything of value is mostly accounted for. Thank you very much! All right, off you go.",
+      "JA_new": "手に入れたのか？ お前ならやると思ってたよ……ちょっと待て、全部そろってるか確認させろ。よし、食料、弾薬……新しい充電キットが二つ足りないな。軍の救急キットは十個もないのか？？？ ……落ち着け、冗談だ！ 値打ちのあるものは、だいたいそろってる。助かったよ！ よし、行っていいぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vozvrat_habara",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:vozvrat_habara_phrase_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2217,
+      "string_id": "vozvrat_habara_phrase_3",
+      "occurrence": 1,
+      "EN": "Aren't you forgetting something, Sidorovich? This wasn't a stroll through the park, one freak almost fed me to the mutants over your loot.",
+      "JA_current": "Aren't you forgetting something, Sidorovich? This wasn't a stroll through the park, one freak almost fed me to the mutants over your loot.",
+      "JA_new": "シドロヴィッチ、報酬を忘れてないか？ 楽な仕事じゃなかった。あんたの荷物を巡って、俺をミュータントに食わせようとした変人までいたんだぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vozvrat_habara",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:vozvrat_habara_phrase_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2220,
+      "string_id": "vozvrat_habara_phrase_4",
+      "occurrence": 1,
+      "EN": "You're a self-serving man, Marked One, I can see that... I thought that maybe you wanted to do this for free out kindness for all we did for you here, but whatever, I won't have it said that Sidorovich doesn't pay his workers. I won't let you go empty-handed, so here:",
+      "JA_current": "You're a self-serving man, Marked One, I can see that... I thought that maybe you wanted to do this for free out kindness for all we did for you here, but whatever, I won't have it said that Sidorovich doesn't pay his workers. I won't let you go empty-handed, so here:",
+      "JA_new": "自分の利益しか頭にないんだな、印付き……ここまで世話したんだ、無料でやってくれてもいいと思ったんだが。まあいい。シドロヴィッチは働き手に報酬も払わない、なんて噂は立てさせないさ。手ぶらじゃ帰さない。ほら、受け取れ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vozvrat_habara",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "vozvrat_habara_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "escape_dialog.otday_sidor_habar"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hello, Sidorovich! Here I am, with your loot, no less!",
+      "JA_current": "Hello, Sidorovich! Here I am, with your loot, no less!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:vozvrat_habara_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "vozvrat_habara_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.prines_taki"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You managed to get it? I knew I could count on you... Hold on, let me see if everything's accounted for. All right, provisions, ammo... Where's the two latest rechargeable kits? And where are the army medical kits, ten of them??? Relax, I'm just kidding! Everything of value is mostly accounted for. Thank you very much! All right, off you go.",
+      "JA_current": "You managed to get it? I knew I could count on you... Hold on, let me see if everything's accounted for. All right, provisions, ammo... Where's the two latest rechargeable kits? And where are the army medical kits, ten of them??? Relax, I'm just kidding! Everything of value is mostly accounted for. Thank you very much! All right, off you go.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:vozvrat_habara_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "vozvrat_habara_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Aren't you forgetting something, Sidorovich? This wasn't a stroll through the park, one freak almost fed me to the mutants over your loot.",
+      "JA_current": "Aren't you forgetting something, Sidorovich? This wasn't a stroll through the park, one freak almost fed me to the mutants over your loot.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:vozvrat_habara_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "vozvrat_habara_phrase_4",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "habar_sidora_nayden"
+        },
+        {
+          "type": "action",
+          "value": "escape_dialog.sidor_nagrada_za_habar"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You're a self-serving man, Marked One, I can see that... I thought that maybe you wanted to do this for free out kindness for all we did for you here, but whatever, I won't have it said that Sidorovich doesn't pay his workers. I won't let you go empty-handed, so here:",
+      "JA_current": "You're a self-serving man, Marked One, I can see that... I thought that maybe you wanted to do this for free out kindness for all we did for you here, but whatever, I won't have it said that Sidorovich doesn't pay his workers. I won't let you go empty-handed, so here:",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:vozvrat_habara_phrase_4#1"
+      ]
+    }
+  ]
+}

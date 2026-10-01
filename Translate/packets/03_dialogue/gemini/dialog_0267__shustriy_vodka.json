@@ -1,0 +1,293 @@
+{
+  "packet_id": "dialog_0267__shustriy_vodka",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "shustriy_vodka",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "esc_tutorial_wounded",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "tutorial_wounded_help"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "look_tolik_vodka"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "find_tolik_vodka"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 6,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:chto_mneshcja#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 708,
+      "string_id": "chto_mneshcja",
+      "occurrence": 1,
+      "EN": "What are you muttering? C'mon, speak up!",
+      "JA_current": "何をブツブツ言ってるんだ？ ほら、はっきり言えよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "shustriy_vodka",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:othodnjak#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 712,
+      "string_id": "othodnjak",
+      "occurrence": 1,
+      "EN": "Look, Marked One. I'm damn stressed after all this shit that happened, can barely sleep. Can you help me, please?",
+      "JA_current": "なあ、マークド・ワン。あんな酷い目に遭って、神経が参っちまいそうなんだ。ろくに眠れやしない。頼む、助けてくれないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "shustriy_vodka",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:what_can_i_do#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 716,
+      "string_id": "what_can_i_do",
+      "occurrence": 1,
+      "EN": "What do you want from me?",
+      "JA_current": "俺に何をしろと？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "shustriy_vodka",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:search_vodka#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 720,
+      "string_id": "search_vodka",
+      "occurrence": 1,
+      "EN": "I need a little something to help me forget my troubles. Get a bottle of vodka for me. Don't worry, I've got something to pay you back with - you won't regret it, I assure you. I'm offering a big reward for a mere bottle of booze.",
+      "JA_current": "嫌なことを全部忘れるための気付け薬が要るんだ。ウォッカを一本調達してきてくれ。心配すんな、ちゃんと見返りは用意してある――絶対に損はさせないさ。たった一本の酒にしちゃ、破格の報酬を弾むぜ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "shustriy_vodka",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:well_i_agree#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 724,
+      "string_id": "well_i_agree",
+      "occurrence": 1,
+      "EN": "Ok, no problem. Deal.",
+      "JA_current": "分かった、取引成立だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "shustriy_vodka",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:ne_budu#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 728,
+      "string_id": "ne_budu",
+      "occurrence": 1,
+      "EN": "No, I don't feel like searching for vodka right now.",
+      "JA_current": "断る。今はウォッカを探し回る気分じゃない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "shustriy_vodka",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "chto_mneshcja",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What are you muttering? C'mon, speak up!",
+      "JA_current": "What are you muttering? C'mon, speak up!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:chto_mneshcja#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "othodnjak",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Look, Marked One. I'm damn stressed after all this shit that happened, can barely sleep. Can you help me, please?",
+      "JA_current": "Look, Marked One. I'm damn stressed after all this shit that happened, can barely sleep. Can you help me, please?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:othodnjak#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "what_can_i_do",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What do you want from me?",
+      "JA_current": "What do you want from me?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:what_can_i_do#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "search_vodka",
+      "next": [
+        "4",
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I need a little something to help me forget my troubles. Get a bottle of vodka for me. Don't worry, I've got something to pay you back with - you won't regret it, I assure you. I'm offering a big reward for a mere bottle of booze.",
+      "JA_current": "I need a little something to help me forget my troubles. Get a bottle of vodka for me. Don't worry, I've got something to pay you back with - you won't regret it, I assure you. I'm offering a big reward for a mere bottle of booze.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:search_vodka#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "well_i_agree",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "look_tolik_vodka"
+        },
+        {
+          "type": "action",
+          "value": "ogsm_quests.has_five_vodkas"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Ok, no problem. Deal.",
+      "JA_current": "Ok, no problem. Deal.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:well_i_agree#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "ne_budu",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, I don't feel like searching for vodka right now.",
+      "JA_current": "No, I don't feel like searching for vodka right now.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:ne_budu#1"
+      ]
+    }
+  ]
+}

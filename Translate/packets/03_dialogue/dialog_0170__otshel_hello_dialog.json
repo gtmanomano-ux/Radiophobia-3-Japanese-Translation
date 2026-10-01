@@ -1,0 +1,462 @@
+{
+  "packet_id": "dialog_0170__otshel_hello_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "otshel_hello_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "stalker_otshelnik",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "arti_na_obmen_otshel"
+    }
+  ],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 10,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:otshel_hello_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2110,
+      "string_id": "otshel_hello_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "What, again?",
+      "JA_current": "What, again?",
+      "JA_new": "またお前か？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_hello_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:otshel_hello_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2113,
+      "string_id": "otshel_hello_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "What do you mean?",
+      "JA_current": "What do you mean?",
+      "JA_new": "どういう意味だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_hello_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:otshel_hello_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2116,
+      "string_id": "otshel_hello_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Oh, shit... Who the hell are you?",
+      "JA_current": "Oh, shit... Who the hell are you?",
+      "JA_new": "くそっ……お前、誰だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_hello_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:otshel_hello_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2119,
+      "string_id": "otshel_hello_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Me? I'm just your average stalker.",
+      "JA_current": "Me? I'm just your average stalker.",
+      "JA_new": "俺か？ どこにでもいる普通のストーカーだよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_hello_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:otshel_hello_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2122,
+      "string_id": "otshel_hello_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Oh yeah?? They sent you after the money, didn't they? Well, make your move, fucker!!",
+      "JA_current": "Oh yeah?? They sent you after the money, didn't they? Well, make your move, fucker!!",
+      "JA_new": "そうか？ 金を取りに来たんだろ？ さあ、やってみろよ、クソ野郎！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_hello_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:otshel_hello_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2125,
+      "string_id": "otshel_hello_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "I'm not after any money! Calm down, bro..",
+      "JA_current": "I'm not after any money! Calm down, bro..",
+      "JA_new": "金なんか狙ってない！ 落ち着けよ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_hello_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:otshel_hello_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2128,
+      "string_id": "otshel_hello_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "For fuck's sake, sorry.. I'm so sick of this, man... Those fucking racketeers... There's all kinds of scumbags around here eager to fleece the working man...",
+      "JA_current": "For fuck's sake, sorry.. I'm so sick of this, man... Those fucking racketeers... There's all kinds of scumbags around here eager to fleece the working man...",
+      "JA_new": "くそっ、悪かった……もううんざりなんだよ。あのクソみたいな取り立て屋ども……働く奴から金を巻き上げようとするクズばかりだ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_hello_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:otshel_hello_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2131,
+      "string_id": "otshel_hello_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "You got beef with some group?",
+      "JA_current": "You got beef with some group?",
+      "JA_new": "どこかの集団と揉めてるのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_hello_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:otshel_hello_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2134,
+      "string_id": "otshel_hello_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "Yeah, there's these... Naah, forget it. Anyway, you seem alright, give me a shout if you need supplies and we can make a deal. I dabble in some trade on behalf of my associates, so I can get you something that interests you.. for a price.",
+      "JA_current": "Yeah, there's these... Naah, forget it. Anyway, you seem alright, give me a shout if you need supplies and we can make a deal. I dabble in some trade on behalf of my associates, so I can get you something that interests you.. for a price.",
+      "JA_new": "ああ、連中が……いや、忘れてくれ。とにかく、あんたは悪い奴じゃなさそうだ。物資が要るなら声をかけてくれ。取引しよう。仲間の代わりに少し商売をしてるから、金を払えば欲しい物を用意できるよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_hello_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:otshel_hello_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2137,
+      "string_id": "otshel_hello_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "Okay...",
+      "JA_current": "Okay...",
+      "JA_new": "分かった……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otshel_hello_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "otshel_hello_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.chto_opyat"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What, again?",
+      "JA_current": "What, again?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_hello_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "otshel_hello_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What do you mean?",
+      "JA_current": "What do you mean?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_hello_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "otshel_hello_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.ti_kto_takoy"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh, shit... Who the hell are you?",
+      "JA_current": "Oh, shit... Who the hell are you?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_hello_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "otshel_hello_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Me? I'm just your average stalker.",
+      "JA_current": "Me? I'm just your average stalker.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_hello_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "otshel_hello_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh yeah?? They sent you after the money, didn't they? Well, make your move, fucker!!",
+      "JA_current": "Oh yeah?? They sent you after the money, didn't they? Well, make your move, fucker!!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_hello_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "otshel_hello_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.razvelos_tut"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm not after any money! Calm down, bro..",
+      "JA_current": "I'm not after any money! Calm down, bro..",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_hello_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "otshel_hello_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "For fuck's sake, sorry.. I'm so sick of this, man... Those fucking racketeers... There's all kinds of scumbags around here eager to fleece the working man...",
+      "JA_current": "For fuck's sake, sorry.. I'm so sick of this, man... Those fucking racketeers... There's all kinds of scumbags around here eager to fleece the working man...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_hello_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "otshel_hello_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You got beef with some group?",
+      "JA_current": "You got beef with some group?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_hello_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "otshel_hello_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, there's these... Naah, forget it. Anyway, you seem alright, give me a shout if you need supplies and we can make a deal. I dabble in some trade on behalf of my associates, so I can get you something that interests you.. for a price.",
+      "JA_current": "Yeah, there's these... Naah, forget it. Anyway, you seem alright, give me a shout if you need supplies and we can make a deal. I dabble in some trade on behalf of my associates, so I can get you something that interests you.. for a price.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_hello_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "otshel_hello_dialog_phrase_10",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "arti_na_obmen_otshel"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Okay...",
+      "JA_current": "Okay...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:otshel_hello_dialog_phrase_10#1"
+      ]
+    }
+  ]
+}

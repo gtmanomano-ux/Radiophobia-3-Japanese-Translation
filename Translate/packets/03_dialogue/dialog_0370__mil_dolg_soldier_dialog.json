@@ -1,0 +1,532 @@
+{
+  "packet_id": "dialog_0370__mil_dolg_soldier_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "mil_dolg_soldier_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_military.xml",
+  "graph_sha256": "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+  "character_bindings": [],
+  "dialog_conditions": [],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 12,
+  "entries": [
+    {
+      "key": "stable_dialogs_military:mil_dolg_soldier_dialog_0#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 518,
+      "string_id": "mil_dolg_soldier_dialog_0",
+      "occurrence": 1,
+      "EN": "Three assholes down, just like that! You came just in time: didn't blow our cover and came out safe and sound. By the way, I think no one has to know about this, eh?",
+      "JA_current": "おやおや、クソッタレが3人あの世へ行ったようだ。お前、来るタイミングがよかったぜ。俺たちの存在をバラしちまうこともなく、音を立てずにじっとしてたな。さて、ここで何が起きたか、誰も知らない、そうだな？",
+      "JA_new": "くそ野郎を3人も片付けた！ちょうどいい時に来たな。俺たちの正体はバレず、あんたも無事だ。ところで、この件は誰にも言わなくていいよな？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_dolg_soldier_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_dolg_soldier_dialog_1#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 521,
+      "string_id": "mil_dolg_soldier_dialog_1",
+      "occurrence": 1,
+      "EN": "I don't think so.",
+      "JA_current": "そうは思わない。",
+      "JA_new": "そうは思わない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_dolg_soldier_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_dolg_soldier_dialog_20#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 527,
+      "string_id": "mil_dolg_soldier_dialog_20",
+      "occurrence": 1,
+      "EN": "Difficult to say.",
+      "JA_current": "なんとも言えん。",
+      "JA_new": "さあな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_dolg_soldier_dialog",
+          "phrase_id": "20",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_dolg_soldier_dialog_2#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 524,
+      "string_id": "mil_dolg_soldier_dialog_2",
+      "occurrence": 1,
+      "EN": "Perfect. Are you looking for a way to earn some dough, stalker?",
+      "JA_current": "それでいい。金を稼ぎたくないか、ストーカー？",
+      "JA_new": "よし。ストーカー、金を稼ぐ仕事を探してるのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_dolg_soldier_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_dolg_soldier_dialog_21#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 530,
+      "string_id": "mil_dolg_soldier_dialog_21",
+      "occurrence": 1,
+      "EN": "What, you don't feel like living anymore?",
+      "JA_current": "なんだと？ もう生きていたくないってか？",
+      "JA_new": "もう死にたいのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_dolg_soldier_dialog",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_dolg_soldier_dialog_3#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 536,
+      "string_id": "mil_dolg_soldier_dialog_3",
+      "occurrence": 1,
+      "EN": "Something like that.",
+      "JA_current": "そんなところだ。",
+      "JA_new": "そんなところだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_dolg_soldier_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_dolg_soldier_dialog_22#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 533,
+      "string_id": "mil_dolg_soldier_dialog_22",
+      "occurrence": 1,
+      "EN": "I guess, I do.",
+      "JA_current": "いいや。",
+      "JA_new": "そうかもな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_dolg_soldier_dialog",
+          "phrase_id": "22",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_dolg_soldier_dialog_30#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 539,
+      "string_id": "mil_dolg_soldier_dialog_30",
+      "occurrence": 1,
+      "EN": "Maybe.",
+      "JA_current": "おそらくな。",
+      "JA_new": "たぶん。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_dolg_soldier_dialog",
+          "phrase_id": "30",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_dolg_soldier_dialog_4#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 542,
+      "string_id": "mil_dolg_soldier_dialog_4",
+      "occurrence": 1,
+      "EN": "Then follow us, talk to our commander.",
+      "JA_current": "ついて来い、隊長と話すんだ。",
+      "JA_new": "なら俺たちについて来い。指揮官と話せ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_dolg_soldier_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_dolg_soldier_dialog_5#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 545,
+      "string_id": "mil_dolg_soldier_dialog_5",
+      "occurrence": 1,
+      "EN": "Commander?",
+      "JA_current": "隊長？",
+      "JA_new": "指揮官？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_dolg_soldier_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_dolg_soldier_dialog_6#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 548,
+      "string_id": "mil_dolg_soldier_dialog_6",
+      "occurrence": 1,
+      "EN": "Sure. Skull will tell you everything himself.",
+      "JA_current": "ああ。Skull がお前に説明してくれるだろう。",
+      "JA_new": "ああ。スカルが全部説明してくれる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_dolg_soldier_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_dolg_soldier_dialog_7#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 551,
+      "string_id": "mil_dolg_soldier_dialog_7",
+      "occurrence": 1,
+      "EN": "OK.",
+      "JA_current": "オーケー。",
+      "JA_new": "分かった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_dolg_soldier_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "mil_dolg_soldier_dialog_0",
+      "next": [
+        "1",
+        "20"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Three assholes down, just like that! You came just in time: didn't blow our cover and came out safe and sound. By the way, I think no one has to know about this, eh?",
+      "JA_current": "おやおや、クソッタレが3人あの世へ行ったようだ。お前、来るタイミングがよかったぜ。俺たちの存在をバラしちまうこともなく、音を立てずにじっとしてたな。さて、ここで何が起きたか、誰も知らない、そうだな？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_dolg_soldier_dialog_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "mil_dolg_soldier_dialog_1",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I don't think so.",
+      "JA_current": "そうは思わない。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_dolg_soldier_dialog_1#1"
+      ]
+    },
+    {
+      "phrase_id": "20",
+      "text_id": "mil_dolg_soldier_dialog_20",
+      "next": [
+        "21"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Difficult to say.",
+      "JA_current": "なんとも言えん。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_dolg_soldier_dialog_20#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "mil_dolg_soldier_dialog_2",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "22",
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Perfect. Are you looking for a way to earn some dough, stalker?",
+      "JA_current": "それでいい。金を稼ぎたくないか、ストーカー？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_dolg_soldier_dialog_2#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "mil_dolg_soldier_dialog_21",
+      "next": [
+        "22",
+        "30"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "20"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "What, you don't feel like living anymore?",
+      "JA_current": "なんだと？ もう生きていたくないってか？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_dolg_soldier_dialog_21#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "mil_dolg_soldier_dialog_3",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Something like that.",
+      "JA_current": "そんなところだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_dolg_soldier_dialog_3#1"
+      ]
+    },
+    {
+      "phrase_id": "22",
+      "text_id": "mil_dolg_soldier_dialog_22",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I guess, I do.",
+      "JA_current": "いいや。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_dolg_soldier_dialog_22#1"
+      ]
+    },
+    {
+      "phrase_id": "30",
+      "text_id": "mil_dolg_soldier_dialog_30",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "action",
+          "value": "dialogs_military.killactor"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "21"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Maybe.",
+      "JA_current": "おそらくな。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_dolg_soldier_dialog_30#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "mil_dolg_soldier_dialog_4",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Then follow us, talk to our commander.",
+      "JA_current": "ついて来い、隊長と話すんだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_dolg_soldier_dialog_4#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "mil_dolg_soldier_dialog_5",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Commander?",
+      "JA_current": "隊長？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_dolg_soldier_dialog_5#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "mil_dolg_soldier_dialog_6",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Sure. Skull will tell you everything himself.",
+      "JA_current": "ああ。Skull がお前に説明してくれるだろう。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_dolg_soldier_dialog_6#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "mil_dolg_soldier_dialog_7",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "give_info",
+          "value": "mil_dolg_dialog_already"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "OK.",
+      "JA_current": "オーケー。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_dolg_soldier_dialog_7#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1570 @@
+{
+  "packet_id": "dialog_0295__horror_time_story",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "horror_time_story",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "escape_trader",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "horror_time"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "block_begin_dialog"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 33,
+  "entries": [
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_102#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 309,
+      "string_id": "dialogs_escape_102",
+      "occurrence": 1,
+      "EN": "I feel somewhat queer...",
+      "JA_current": "I feel somewhat queer...",
+      "JA_new": "なんだか気分が悪い……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_103#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 312,
+      "string_id": "dialogs_escape_103",
+      "occurrence": 1,
+      "EN": "What's the maytter?",
+      "JA_current": "What's the maytter?",
+      "JA_new": "どうしたんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_115#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 348,
+      "string_id": "dialogs_escape_115",
+      "occurrence": 1,
+      "EN": "You are not the only one to feel sick now. The likes of us have got a headache at the moment, all of them. Personally, during these periods I prefer to switch of my mind and just rely on the senses.",
+      "JA_current": "You are not the only one to feel sick now. The likes of us have got a headache at the moment, all of them. Personally, during these periods I prefer to switch of my mind and just rely on the senses.",
+      "JA_new": "具合が悪いのはお前だけじゃない。今は俺たちもみんな頭痛がする。こういう時は、頭を空っぽにして感覚だけに頼るようにしてる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "17",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_120#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 363,
+      "string_id": "dialogs_escape_120",
+      "occurrence": 1,
+      "EN": "Well... you know, this shit happens after the Surge. Do you happen to have some vodka with you? To survive this nightmare.",
+      "JA_current": "Well... you know, this shit happens after the Surge. Do you happen to have some vodka with you? To survive this nightmare.",
+      "JA_new": "ああ……放出の後は、こういうことが起こるんだ。ウォッカは持ってるか？ この悪夢をやり過ごすためにな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "22",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:horror_time_story_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1842,
+      "string_id": "horror_time_story_3",
+      "occurrence": 1,
+      "EN": "We call it the psi-surge. It happens quite frequently after a Blowout. The name \"psi-surge\" comes for the fact that during this period a heavy strain on the human psyche is experienced. Guys start hallucinating, raving, seeing phantoms, which may even affect one's mind permanently. They say thoughts somehow trigger these phantoms to appear. The less you think, the fewer phantoms you'll see. \\nThere's no other help for psi-surges but vodka. It is the only and the best cure. Do you happen to have a bottle to spare, by the way?",
+      "JA_current": "We call it the psi-surge. It happens quite frequently after a Blowout. The name \"psi-surge\" comes for the fact that during this period a heavy strain on the human psyche is experienced. Guys start hallucinating, raving, seeing phantoms, which may even affect one's mind permanently. They say thoughts somehow trigger these phantoms to appear. The less you think, the fewer phantoms you'll see. \\nThere's no other help for psi-surges but vodka. It is the only and the best cure. Do you happen to have a bottle to spare, by the way?",
+      "JA_new": "俺たちはこれをサイサージと呼んでる。ブロウアウトの後に、よく起きる現象だ。「サイサージ」って名前は、この間、人の精神に強い負荷がかかることから来てる。幻覚を見たり、うわごとを言ったり、幻影が見えたりする。ひどいと、心に一生残ることもある。考えが幻影を呼び出すらしい。考えなければ考えないほど、見える幻影も減る。 \\nサイサージにはウォッカ以外に効くものはない。それが唯一にして最高の薬だ。ところで、一本分けてもらえないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "32",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_104#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 315,
+      "string_id": "dialogs_escape_104",
+      "occurrence": 1,
+      "EN": "You know... Everything runs in my eyes, I see doubles... My head seems getting split in halves... Makes me sick...",
+      "JA_current": "You know... Everything runs in my eyes, I see doubles... My head seems getting split in halves... Makes me sick...",
+      "JA_new": "ほら……目の前がぐるぐるして、二重に見える……頭が割れそうだ……気分も悪い……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_110#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 333,
+      "string_id": "dialogs_escape_110",
+      "occurrence": 1,
+      "EN": "I feel damn lousy... Some kind'a voices happen, dreaming awake... Clanks in my head as if from some huge bell...",
+      "JA_current": "I feel damn lousy... Some kind'a voices happen, dreaming awake... Clanks in my head as if from some huge bell...",
+      "JA_new": "ひどく気分が悪い……何か声が聞こえる。起きたまま夢を見てるみたいだ……頭の中で、巨大な鐘が鳴ってるような音がする……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_112#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 339,
+      "string_id": "dialogs_escape_112",
+      "occurrence": 1,
+      "EN": "The mutants... I shoot at them, and they disappear. They don't fall, don't die, just vanish... into thin air...",
+      "JA_current": "The mutants... I shoot at them, and they disappear. They don't fall, don't die, just vanish... into thin air...",
+      "JA_new": "ミュータントが……撃っても消えるんだ。倒れもしないし、死にもしない。ただ、空気みたいに消えてしまう……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_114#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 345,
+      "string_id": "dialogs_escape_114",
+      "occurrence": 1,
+      "EN": "The phantoms appear, sometimes they even get in through the walls. Where do they come from?",
+      "JA_current": "The phantoms appear, sometimes they even get in through the walls. Where do they come from?",
+      "JA_new": "幻影が見える。壁を通り抜けてくることもある。いったいどこから現れるんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_116#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 351,
+      "string_id": "dialogs_escape_116",
+      "occurrence": 1,
+      "EN": "Why do you \"switch off\" your mind?",
+      "JA_current": "Why do you \"switch off\" your mind?",
+      "JA_new": "どうして頭を「空っぽ」にするんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "18",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_121#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 366,
+      "string_id": "dialogs_escape_121",
+      "occurrence": 1,
+      "EN": "Yeah, sure. Help yourself, lad. Maybe you help me out of some trouble in return one fine day.",
+      "JA_current": "Yeah, sure. Help yourself, lad. Maybe you help me out of some trouble in return one fine day.",
+      "JA_new": "ああ、いいとも。飲んでくれ。いつか俺が困ったときに、助けてもらうかもしれないからな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "23",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_122#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 369,
+      "string_id": "dialogs_escape_122",
+      "occurrence": 1,
+      "EN": "Sorry, bro - haven't got any.",
+      "JA_current": "Sorry, bro - haven't got any.",
+      "JA_new": "悪い、一本も持ってない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "24",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_105#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 318,
+      "string_id": "dialogs_escape_105",
+      "occurrence": 1,
+      "EN": "Yeah! And various creatures are springing from the bushes? And you can't tell if they are real or not?",
+      "JA_current": "Yeah! And various creatures are springing from the bushes? And you can't tell if they are real or not?",
+      "JA_new": "そうだ！ 草むらから色んな化け物が飛び出してくるのか？ それが本物かどうかも分からないって？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:horror_time_story_0#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1833,
+      "string_id": "horror_time_story_0",
+      "occurrence": 1,
+      "EN": "You are not the only one to feel like shit. Everybody's stumbling around sick right about now, some even get a kind of fever. Some call these periods \"Horror Time\", the others refer to them more appropriately as psi-surges. All people feel awful during these storms.",
+      "JA_current": "You are not the only one to feel like shit. Everybody's stumbling around sick right about now, some even get a kind of fever. Some call these periods \"Horror Time\", the others refer to them more appropriately as psi-surges. All people feel awful during these storms.",
+      "JA_new": "お前だけじゃない。今は誰もが具合悪そうにふらふらしてる。熱が出る奴もいる。「ホラータイム」と呼ぶ奴もいれば、サイサージと呼ぶ奴もいる。こういう嵐の間は、みんな気分が悪くなるんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_113#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 342,
+      "string_id": "dialogs_escape_113",
+      "occurrence": 1,
+      "EN": "It happens here from time to time. Either after the Surge, or in proximity of a psi-area. That's ok, you'll get used to getting along with it - it ain't the worst thing about these places.",
+      "JA_current": "It happens here from time to time. Either after the Surge, or in proximity of a psi-area. That's ok, you'll get used to getting along with it - it ain't the worst thing about these places.",
+      "JA_new": "ここじゃ時々あることだ。放出の後か、サイエリアの近くにいる時にな。慣れてくるさ。こういう場所じゃ、まだマシなほうだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:horror_time_story_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1839,
+      "string_id": "horror_time_story_2",
+      "occurrence": 1,
+      "EN": "Nobody knows. Some claim these phantoms to be just figments of one's imagination, or vivid hallucinations. It is known that some phantoms chase only certain stalkers without hunting the others. Eggheads from Yantar say that phantoms may appear only if other people are present nearby.",
+      "JA_current": "Nobody knows. Some claim these phantoms to be just figments of one's imagination, or vivid hallucinations. It is known that some phantoms chase only certain stalkers without hunting the others. Eggheads from Yantar say that phantoms may appear only if other people are present nearby.",
+      "JA_new": "誰にも分からない。幻影は想像の産物だとか、鮮明な幻覚だとか言う奴もいる。特定のストーカーだけを追いかけ、他の奴には手を出さない幻影もいるらしい。ヤンターの研究者たちは、近くに他の人間がいる時だけ幻影が現れることもあると言ってる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "16",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_117#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 354,
+      "string_id": "dialogs_escape_117",
+      "occurrence": 1,
+      "EN": "First - it aches damn badly, second - they say the phantoms are our brainchildren, resulting from our thoughts. So I prefer to think less.",
+      "JA_current": "First - it aches damn badly, second - they say the phantoms are our brainchildren, resulting from our thoughts. So I prefer to think less.",
+      "JA_new": "まず、ひどく頭が痛む。それに、幻影は俺たちの考えが生み出すものだって話だ。だから、なるべく考えないようにしてる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "19",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_123#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 372,
+      "string_id": "dialogs_escape_123",
+      "occurrence": 1,
+      "EN": "Oh, thank you very much. Have some tinnes meat.",
+      "JA_current": "Oh, thank you very much. Have some tinnes meat.",
+      "JA_new": "ああ、ありがとう。缶詰を持っていけ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "25",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_124#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 375,
+      "string_id": "dialogs_escape_124",
+      "occurrence": 1,
+      "EN": "You are a good fella, indeed. Here's a small present for you.",
+      "JA_current": "You are a good fella, indeed. Here's a small present for you.",
+      "JA_new": "いい奴だな。ささやかだが、礼をさせてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "26",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_125#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 378,
+      "string_id": "dialogs_escape_125",
+      "occurrence": 1,
+      "EN": "Thanks, friend.",
+      "JA_current": "Thanks, friend.",
+      "JA_new": "ありがとう、友よ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "27",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_126#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 381,
+      "string_id": "dialogs_escape_126",
+      "occurrence": 1,
+      "EN": "Well, thanks. How can I pay you back? Here you are, a \"Jellyfish\".",
+      "JA_current": "Well, thanks. How can I pay you back? Here you are, a \"Jellyfish\".",
+      "JA_new": "助かった。どう礼をしたらいい？ これを受け取ってくれ。«ジェリーフィッシュ»だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "28",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_127#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 384,
+      "string_id": "dialogs_escape_127",
+      "occurrence": 1,
+      "EN": "Damn, bro... Big thanks - you've rescued me. I will always remember you! Take this \"Stone Flower\" as my gratitude.",
+      "JA_current": "Damn, bro... Big thanks - you've rescued me. I will always remember you! Take this \"Stone Flower\" as my gratitude.",
+      "JA_new": "くそ、兄弟……本当に感謝してる。助けてくれた恩は忘れないぞ！ 感謝の印に«ストーンフラワー»を受け取ってくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "29",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_106#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 321,
+      "string_id": "dialogs_escape_106",
+      "occurrence": 1,
+      "EN": "Right, that's it!",
+      "JA_current": "Right, that's it!",
+      "JA_new": "そうだ、それだ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_111#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 336,
+      "string_id": "dialogs_escape_111",
+      "occurrence": 1,
+      "EN": "And what do you yusually do during these periods?",
+      "JA_current": "And what do you yusually do during these periods?",
+      "JA_new": "この時期は、普段どうやって過ごしてるんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_109#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 330,
+      "string_id": "dialogs_escape_109",
+      "occurrence": 1,
+      "EN": "Yes, I get it.",
+      "JA_current": "Yes, I get it.",
+      "JA_new": "ああ、分かった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_118#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 357,
+      "string_id": "dialogs_escape_118",
+      "occurrence": 1,
+      "EN": "And what about using the senses?",
+      "JA_current": "And what about using the senses?",
+      "JA_new": "感覚を使うって、どういうことだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "20",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_128#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 387,
+      "string_id": "dialogs_escape_128",
+      "occurrence": 1,
+      "EN": "Thanks to you too.",
+      "JA_current": "Thanks to you too.",
+      "JA_new": "こちらこそありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "30",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_129#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 390,
+      "string_id": "dialogs_escape_129",
+      "occurrence": 1,
+      "EN": "You are welcome.",
+      "JA_current": "You are welcome.",
+      "JA_new": "どういたしまして。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "31",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_107#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 324,
+      "string_id": "dialogs_escape_107",
+      "occurrence": 1,
+      "EN": "Heh! You seem to have dropped from the Moon directly into the Zone just yesterday.",
+      "JA_current": "Heh! You seem to have dropped from the Moon directly into the Zone just yesterday.",
+      "JA_new": "へえ！ 昨日、月からゾーンに落ちてきたばかりみたいだな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:horror_time_story_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1836,
+      "string_id": "horror_time_story_1",
+      "occurrence": 1,
+      "EN": "First of all I try to get out into the open space because it is easier to avoid the pervasive phantoms there. Secondly, I try to think as little as possible, because it helps to ease the headache and stay alert so as to shoot down the appearing phantoms and other shit.",
+      "JA_current": "First of all I try to get out into the open space because it is easier to avoid the pervasive phantoms there. Secondly, I try to think as little as possible, because it helps to ease the headache and stay alert so as to shoot down the appearing phantoms and other shit.",
+      "JA_new": "まずは開けた場所へ出る。あそこなら、どこまでも現れる幻影を避けやすいからな。次に、できるだけ考えない。頭痛を和らげられるし、幻影やほかの厄介なものが現れたらすぐ撃てるよう、警戒も保てる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_119#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 360,
+      "string_id": "dialogs_escape_119",
+      "occurrence": 1,
+      "EN": "You've got to use them to stay alive. Otherwise the phantoms treat your brain in such a manner, that you get zombified or even die.",
+      "JA_current": "You've got to use them to stay alive. Otherwise the phantoms treat your brain in such a manner, that you get zombified or even die.",
+      "JA_new": "生き延びるには感覚を頼りにするしかない。そうしないと幻影に頭をやられて、ゾンビ化するか、死ぬことになる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_108#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 327,
+      "string_id": "dialogs_escape_108",
+      "occurrence": 1,
+      "EN": "More or less, but you are quiet right.",
+      "JA_current": "More or less, but you are quiet right.",
+      "JA_new": "だいたい分かった。でも、あんたの言うとおりだな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:horror_time_story_7#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1854,
+      "string_id": "horror_time_story_7",
+      "occurrence": 1,
+      "EN": "It happens quite frequently after a Blowout. Have you noticed everybody walking around all depressed and exhausted? That's it, impossible to rest during that time. Stalkers call it \"Horror Time\". Well, some call it \"nausea\"... The deeper you push into the Zone - the worse it becomes. Poor rookies suffer greatly, but eventually every stalker learns to tolerate the symptoms. You must learn to push through it, fella! \\nWhat exactly it is and where it comes from - I really don't know. But it doesn't grant additional health or a good mood, that's for certain. The eggheads at the field lab at Yantar may know something about it. If you're eager to know more - go and ask them.",
+      "JA_current": "It happens quite frequently after a Blowout. Have you noticed everybody walking around all depressed and exhausted? That's it, impossible to rest during that time. Stalkers call it \"Horror Time\". Well, some call it \"nausea\"... The deeper you push into the Zone - the worse it becomes. Poor rookies suffer greatly, but eventually every stalker learns to tolerate the symptoms. You must learn to push through it, fella! \\nWhat exactly it is and where it comes from - I really don't know. But it doesn't grant additional health or a good mood, that's for certain. The eggheads at the field lab at Yantar may know something about it. If you're eager to know more - go and ask them.",
+      "JA_new": "ブロウアウトの後に、よく起きる現象だ。皆が落ち込んで、疲れ切ってるのに気づいたか？ あれさ。あの間は休むこともできない。ストーカーは「ホラータイム」と呼んでる。まあ、「吐き気」って呼ぶ奴もいるがな……ゾーンの奥へ進むほど、ひどくなる。新米は特につらいが、どのストーカーもいずれ症状に耐える術を身につける。お前も乗り越えろよ！ \\n何なのか、どこから来るのかは、俺にも分からない。だが体力が増えるわけでも、気分が晴れるわけでもない。それだけは確かだ。ヤンターの野外研究所なら、何か知ってるかもしれない。詳しく知りたいなら、聞きに行くといい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_story",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "dialogs_escape_102",
+      "next": [
+        "1",
+        "17",
+        "22",
+        "32"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.joke_precondition4"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I feel somewhat queer...",
+      "JA_current": "I feel somewhat queer...",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_102#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "dialogs_escape_103",
+      "next": [
+        "2",
+        "9",
+        "13",
+        "15"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc1"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.joke_precondition4"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What's the maytter?",
+      "JA_current": "What's the maytter?",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_103#1"
+      ]
+    },
+    {
+      "phrase_id": "17",
+      "text_id": "dialogs_escape_115",
+      "next": [
+        "18"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc2"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You are not the only one to feel sick now. The likes of us have got a headache at the moment, all of them. Personally, during these periods I prefer to switch of my mind and just rely on the senses.",
+      "JA_current": "You are not the only one to feel sick now. The likes of us have got a headache at the moment, all of them. Personally, during these periods I prefer to switch of my mind and just rely on the senses.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_115#1"
+      ]
+    },
+    {
+      "phrase_id": "22",
+      "text_id": "dialogs_escape_120",
+      "next": [
+        "23",
+        "24"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc3"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well... you know, this shit happens after the Surge. Do you happen to have some vodka with you? To survive this nightmare.",
+      "JA_current": "Well... you know, this shit happens after the Surge. Do you happen to have some vodka with you? To survive this nightmare.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_120#1"
+      ]
+    },
+    {
+      "phrase_id": "32",
+      "text_id": "horror_time_story_3",
+      "next": [
+        "23",
+        "24"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc4"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "We call it the psi-surge. It happens quite frequently after a Blowout. The name \"psi-surge\" comes for the fact that during this period a heavy strain on the human psyche is experienced. Guys start hallucinating, raving, seeing phantoms, which may even affect one's mind permanently. They say thoughts somehow trigger these phantoms to appear. The less you think, the fewer phantoms you'll see. \\nThere's no other help for psi-surges but vodka. It is the only and the best cure. Do you happen to have a bottle to spare, by the way?",
+      "JA_current": "We call it the psi-surge. It happens quite frequently after a Blowout. The name \"psi-surge\" comes for the fact that during this period a heavy strain on the human psyche is experienced. Guys start hallucinating, raving, seeing phantoms, which may even affect one's mind permanently. They say thoughts somehow trigger these phantoms to appear. The less you think, the fewer phantoms you'll see. \\nThere's no other help for psi-surges but vodka. It is the only and the best cure. Do you happen to have a bottle to spare, by the way?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:horror_time_story_3#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "dialogs_escape_104",
+      "next": [
+        "3"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc1"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You know... Everything runs in my eyes, I see doubles... My head seems getting split in halves... Makes me sick...",
+      "JA_current": "You know... Everything runs in my eyes, I see doubles... My head seems getting split in halves... Makes me sick...",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_104#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "dialogs_escape_110",
+      "next": [
+        "10"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc2"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I feel damn lousy... Some kind'a voices happen, dreaming awake... Clanks in my head as if from some huge bell...",
+      "JA_current": "I feel damn lousy... Some kind'a voices happen, dreaming awake... Clanks in my head as if from some huge bell...",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_110#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "dialogs_escape_112",
+      "next": [
+        "14"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc3"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The mutants... I shoot at them, and they disappear. They don't fall, don't die, just vanish... into thin air...",
+      "JA_current": "The mutants... I shoot at them, and they disappear. They don't fall, don't die, just vanish... into thin air...",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_112#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "dialogs_escape_114",
+      "next": [
+        "16"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc4"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The phantoms appear, sometimes they even get in through the walls. Where do they come from?",
+      "JA_current": "The phantoms appear, sometimes they even get in through the walls. Where do they come from?",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_114#1"
+      ]
+    },
+    {
+      "phrase_id": "18",
+      "text_id": "dialogs_escape_116",
+      "next": [
+        "19"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "17"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Why do you \"switch off\" your mind?",
+      "JA_current": "Why do you \"switch off\" your mind?",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_116#1"
+      ]
+    },
+    {
+      "phrase_id": "23",
+      "text_id": "dialogs_escape_121",
+      "next": [
+        "25",
+        "26",
+        "27",
+        "28",
+        "29"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "ogsm_quests.has_five_vodkas"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.joke_precondition5"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "22",
+        "32"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, sure. Help yourself, lad. Maybe you help me out of some trouble in return one fine day.",
+      "JA_current": "Yeah, sure. Help yourself, lad. Maybe you help me out of some trouble in return one fine day.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_121#1"
+      ]
+    },
+    {
+      "phrase_id": "24",
+      "text_id": "dialogs_escape_122",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "horror_time_has_story"
+        },
+        {
+          "type": "action",
+          "value": "megadeath_mod.reputation_down_10"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "22",
+        "32"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sorry, bro - haven't got any.",
+      "JA_current": "Sorry, bro - haven't got any.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_122#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "dialogs_escape_105",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah! And various creatures are springing from the bushes? And you can't tell if they are real or not?",
+      "JA_current": "Yeah! And various creatures are springing from the bushes? And you can't tell if they are real or not?",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_105#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "horror_time_story_0",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You are not the only one to feel like shit. Everybody's stumbling around sick right about now, some even get a kind of fever. Some call these periods \"Horror Time\", the others refer to them more appropriately as psi-surges. All people feel awful during these storms.",
+      "JA_current": "You are not the only one to feel like shit. Everybody's stumbling around sick right about now, some even get a kind of fever. Some call these periods \"Horror Time\", the others refer to them more appropriately as psi-surges. All people feel awful during these storms.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:horror_time_story_0#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "dialogs_escape_113",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It happens here from time to time. Either after the Surge, or in proximity of a psi-area. That's ok, you'll get used to getting along with it - it ain't the worst thing about these places.",
+      "JA_current": "It happens here from time to time. Either after the Surge, or in proximity of a psi-area. That's ok, you'll get used to getting along with it - it ain't the worst thing about these places.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_113#1"
+      ]
+    },
+    {
+      "phrase_id": "16",
+      "text_id": "horror_time_story_2",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "15"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Nobody knows. Some claim these phantoms to be just figments of one's imagination, or vivid hallucinations. It is known that some phantoms chase only certain stalkers without hunting the others. Eggheads from Yantar say that phantoms may appear only if other people are present nearby.",
+      "JA_current": "Nobody knows. Some claim these phantoms to be just figments of one's imagination, or vivid hallucinations. It is known that some phantoms chase only certain stalkers without hunting the others. Eggheads from Yantar say that phantoms may appear only if other people are present nearby.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:horror_time_story_2#1"
+      ]
+    },
+    {
+      "phrase_id": "19",
+      "text_id": "dialogs_escape_117",
+      "next": [
+        "20"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "18"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "First - it aches damn badly, second - they say the phantoms are our brainchildren, resulting from our thoughts. So I prefer to think less.",
+      "JA_current": "First - it aches damn badly, second - they say the phantoms are our brainchildren, resulting from our thoughts. So I prefer to think less.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_117#1"
+      ]
+    },
+    {
+      "phrase_id": "25",
+      "text_id": "dialogs_escape_123",
+      "next": [
+        "30"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc1"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "ogsm_quests.give_vodka_conserva"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.change_relation_reputation"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "23"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh, thank you very much. Have some tinnes meat.",
+      "JA_current": "Oh, thank you very much. Have some tinnes meat.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_123#1"
+      ]
+    },
+    {
+      "phrase_id": "26",
+      "text_id": "dialogs_escape_124",
+      "next": [
+        "30"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc2"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "ogsm_quests.give_vodka_myaso"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.change_relation_reputation"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "23"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You are a good fella, indeed. Here's a small present for you.",
+      "JA_current": "You are a good fella, indeed. Here's a small present for you.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_124#1"
+      ]
+    },
+    {
+      "phrase_id": "27",
+      "text_id": "dialogs_escape_125",
+      "next": [
+        "31"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc3"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "ogsm_quests.give_vodka"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.change_relation_reputation"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "23"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thanks, friend.",
+      "JA_current": "Thanks, friend.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_125#1"
+      ]
+    },
+    {
+      "phrase_id": "28",
+      "text_id": "dialogs_escape_126",
+      "next": [
+        "30"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc4"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "ogsm_quests.give_vodka_medusa"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.change_relation_reputation"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "23"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, thanks. How can I pay you back? Here you are, a \"Jellyfish\".",
+      "JA_current": "Well, thanks. How can I pay you back? Here you are, a \"Jellyfish\".",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_126#1"
+      ]
+    },
+    {
+      "phrase_id": "29",
+      "text_id": "dialogs_escape_127",
+      "next": [
+        "30"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc5"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "ogsm_quests.give_vodka_flower"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.change_relation_reputation"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "23"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Damn, bro... Big thanks - you've rescued me. I will always remember you! Take this \"Stone Flower\" as my gratitude.",
+      "JA_current": "Damn, bro... Big thanks - you've rescued me. I will always remember you! Take this \"Stone Flower\" as my gratitude.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_127#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "dialogs_escape_106",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Right, that's it!",
+      "JA_current": "Right, that's it!",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_106#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "dialogs_escape_111",
+      "next": [
+        "12"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "And what do you yusually do during these periods?",
+      "JA_current": "And what do you yusually do during these periods?",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_111#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "dialogs_escape_109",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "horror_time_has_story"
+        },
+        {
+          "type": "action",
+          "value": "joke_and_history.block_begin_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "7",
+        "12",
+        "14",
+        "16",
+        "21"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, I get it.",
+      "JA_current": "Yes, I get it.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_109#1"
+      ]
+    },
+    {
+      "phrase_id": "20",
+      "text_id": "dialogs_escape_118",
+      "next": [
+        "21"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "19"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "And what about using the senses?",
+      "JA_current": "And what about using the senses?",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_118#1"
+      ]
+    },
+    {
+      "phrase_id": "30",
+      "text_id": "dialogs_escape_128",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "horror_time_has_story"
+        },
+        {
+          "type": "action",
+          "value": "joke_and_history.block_begin_dialog3"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "25",
+        "26",
+        "28",
+        "29"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thanks to you too.",
+      "JA_current": "Thanks to you too.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_128#1"
+      ]
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "dialogs_escape_129",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "horror_time_has_story"
+        },
+        {
+          "type": "action",
+          "value": "joke_and_history.block_begin_dialog3"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "27"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You are welcome.",
+      "JA_current": "You are welcome.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_129#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "dialogs_escape_107",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Heh! You seem to have dropped from the Moon directly into the Zone just yesterday.",
+      "JA_current": "Heh! You seem to have dropped from the Moon directly into the Zone just yesterday.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_107#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "horror_time_story_1",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "First of all I try to get out into the open space because it is easier to avoid the pervasive phantoms there. Secondly, I try to think as little as possible, because it helps to ease the headache and stay alert so as to shoot down the appearing phantoms and other shit.",
+      "JA_current": "First of all I try to get out into the open space because it is easier to avoid the pervasive phantoms there. Secondly, I try to think as little as possible, because it helps to ease the headache and stay alert so as to shoot down the appearing phantoms and other shit.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:horror_time_story_1#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "dialogs_escape_119",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "20"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You've got to use them to stay alive. Otherwise the phantoms treat your brain in such a manner, that you get zombified or even die.",
+      "JA_current": "You've got to use them to stay alive. Otherwise the phantoms treat your brain in such a manner, that you get zombified or even die.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_119#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "dialogs_escape_108",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "More or less, but you are quiet right.",
+      "JA_current": "More or less, but you are quiet right.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_108#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "horror_time_story_7",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It happens quite frequently after a Blowout. Have you noticed everybody walking around all depressed and exhausted? That's it, impossible to rest during that time. Stalkers call it \"Horror Time\". Well, some call it \"nausea\"... The deeper you push into the Zone - the worse it becomes. Poor rookies suffer greatly, but eventually every stalker learns to tolerate the symptoms. You must learn to push through it, fella! \\nWhat exactly it is and where it comes from - I really don't know. But it doesn't grant additional health or a good mood, that's for certain. The eggheads at the field lab at Yantar may know something about it. If you're eager to know more - go and ask them.",
+      "JA_current": "It happens quite frequently after a Blowout. Have you noticed everybody walking around all depressed and exhausted? That's it, impossible to rest during that time. Stalkers call it \"Horror Time\". Well, some call it \"nausea\"... The deeper you push into the Zone - the worse it becomes. Poor rookies suffer greatly, but eventually every stalker learns to tolerate the symptoms. You must learn to push through it, fella! \\nWhat exactly it is and where it comes from - I really don't know. But it doesn't grant additional health or a good mood, that's for certain. The eggheads at the field lab at Yantar may know something about it. If you're eager to know more - go and ask them.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:horror_time_story_7#1"
+      ]
+    }
+  ]
+}

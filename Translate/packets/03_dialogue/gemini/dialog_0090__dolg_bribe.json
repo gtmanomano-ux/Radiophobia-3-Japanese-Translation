@@ -1,0 +1,210 @@
+{
+  "packet_id": "dialog_0090__dolg_bribe",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "dolg_bribe",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_barman",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "gar_free_pass"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 4,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bribe_dolg_0#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 158,
+      "string_id": "bribe_dolg_0",
+      "occurrence": 1,
+      "EN": "Look, Barkeep... These Duty bastards are becoming real brazen! They won't let me through to the Garbage. Is there something you can do?",
+      "JA_current": "おいバーキープ……デューティーの連中、最近ずいぶん図に乗ってないか？ ガーベジへ通してくれないんだ。あんたから何とか言ってくれないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dolg_bribe",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bribe_dolg_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 161,
+      "string_id": "bribe_dolg_1",
+      "occurrence": 1,
+      "EN": "Helping a good guy like you is a pleasure. But, even pleasure costs money, of course. Give me 40 grand to help grease the right palms - and the gates will be open for you from now on. You will be passing through like a normal man, instead of squeezing through dumps and radioactive heaps.",
+      "JA_current": "お前みたいな気前のいい奴の力になるのは吝かじゃないぜ。だが、タダってわけにはいかないのが世の常だ。然るべき連中の懐を温めるのに4万ルーブル用意しな。そうすりゃ今後は門を通れるように手配してやる。ゴミの山や放射能まみれのガラクタを這いずり回らず、堂々と通れるようになるぜ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dolg_bribe",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bribe_dolg_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 164,
+      "string_id": "bribe_dolg_2",
+      "occurrence": 1,
+      "EN": "40 grand... That's a hefty price to pay. Ok, here's the money.",
+      "JA_current": "4万か……痛い出費だが仕方ない。ほら、金だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dolg_bribe",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bribe_dolg_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 170,
+      "string_id": "bribe_dolg_3",
+      "occurrence": 1,
+      "EN": "Why should I pay that much? Forget I mentioned it, I'll find another way through.",
+      "JA_current": "なんでそんな大金を払わなきゃならないんだ？ 今の話は忘れてくれ、別の道を探すよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dolg_bribe",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bribe_dolg_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Look, Barkeep... These Duty bastards are becoming real brazen! They won't let me through to the Garbage. Is there something you can do?",
+      "JA_current": "Look, Barkeep... These Duty bastards are becoming real brazen! They won't let me through to the Garbage. Is there something you can do?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bribe_dolg_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "bribe_dolg_1",
+      "next": [
+        "2",
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Helping a good guy like you is a pleasure. But, even pleasure costs money, of course. Give me 40 grand to help grease the right palms - and the gates will be open for you from now on. You will be passing through like a normal man, instead of squeezing through dumps and radioactive heaps.",
+      "JA_current": "Helping a good guy like you is a pleasure. But, even pleasure costs money, of course. Give me 40 grand to help grease the right palms - and the gates will be open for you from now on. You will be passing through like a normal man, instead of squeezing through dumps and radioactive heaps.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bribe_dolg_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "bribe_dolg_2",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "garbage_dialogs.has_dolg_bribe1"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "garbage_dialogs.give_dolg_bribe1"
+        },
+        {
+          "type": "give_info",
+          "value": "gar_free_pass"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "40 grand... That's a hefty price to pay. Ok, here's the money.",
+      "JA_current": "40 grand... That's a hefty price to pay. Ok, here's the money.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bribe_dolg_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "bribe_dolg_3",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Why should I pay that much? Forget I mentioned it, I'll find another way through.",
+      "JA_current": "Why should I pay that much? Forget I mentioned it, I'll find another way through.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bribe_dolg_3#1"
+      ]
+    }
+  ]
+}

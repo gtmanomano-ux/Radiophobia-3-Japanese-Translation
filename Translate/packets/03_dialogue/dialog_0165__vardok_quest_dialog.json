@@ -1,0 +1,369 @@
+{
+  "packet_id": "dialog_0165__vardok_quest_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "vardok_quest_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "vardok_stalker",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "vardok_start"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "vardok_quest_start"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 8,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:vardok_quest_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1952,
+      "string_id": "vardok_quest_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "How about a job?",
+      "JA_current": "How about a job?",
+      "JA_new": "仕事を頼めるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vardok_quest_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:vardok_quest_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1955,
+      "string_id": "vardok_quest_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Yes, if it's not too much trouble for you, help me out.",
+      "JA_current": "Yes, if it's not too much trouble for you, help me out.",
+      "JA_new": "ああ。面倒でなければ、手を貸してほしい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vardok_quest_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:vardok_quest_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1958,
+      "string_id": "vardok_quest_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "What needs to be done?",
+      "JA_current": "What needs to be done?",
+      "JA_new": "何をすればいい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vardok_quest_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:vardok_quest_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1961,
+      "string_id": "vardok_quest_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "I need one artifact... Or rather, not even an artifact, but rather a creation of the Zone, that's more applicable. It's called the Fern Flower.",
+      "JA_current": "I need one artifact... Or rather, not even an artifact, but rather a creation of the Zone, that's more applicable. It's called the Fern Flower.",
+      "JA_new": "アーティファクトが一つ欲しい……いや、アーティファクトというより、ゾーンが生み出したものと言う方が正確だな。「シダの花」と呼ばれている。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vardok_quest_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:vardok_quest_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1964,
+      "string_id": "vardok_quest_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "I... think I heard about that somewhere...",
+      "JA_current": "I... think I heard about that somewhere...",
+      "JA_new": "どこかで聞いたことがある……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vardok_quest_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:vardok_quest_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1967,
+      "string_id": "vardok_quest_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "I didn't think up that name, it was made by the stalkers who found it first. They told me that it looks like a big bright flower that glows in the dark. Something like an artifact, but it is not known for sure whether it has any useful or harmful properties. What is known is that scientists are seeking it, and if I give it to them, I'll be able to trade for a vast assortment of medication and perhaps some medical equipment or tools as well. I've been talking to them and cultivating this exchange for a long time now. With all these supplies, I'll be able to give aid to the stalkers much more effectively and for even less money, perhaps I'll even get the tools I need to perform more complex surgeries. There is no treatment for appendicitis out in the Zone, you know... So, will you seek it for me?",
+      "JA_current": "I didn't think up that name, it was made by the stalkers who found it first. They told me that it looks like a big bright flower that glows in the dark. Something like an artifact, but it is not known for sure whether it has any useful or harmful properties. What is known is that scientists are seeking it, and if I give it to them, I'll be able to trade for a vast assortment of medication and perhaps some medical equipment or tools as well. I've been talking to them and cultivating this exchange for a long time now. With all these supplies, I'll be able to give aid to the stalkers much more effectively and for even less money, perhaps I'll even get the tools I need to perform more complex surgeries. There is no treatment for appendicitis out in the Zone, you know... So, will you seek it for me?",
+      "JA_new": "名前をつけたのは俺じゃない。最初に見つけたストーカーたちだ。暗闇で光る、大きくて鮮やかな花に見えるらしい。アーティファクトに似ているが、役に立つのか、害があるのかも分かっていない。科学者たちが探してるのは確かだ。渡せば、たくさんの薬や医療器具、道具と交換できるかもしれない。彼らとは長い間、取引の話を進めてきた。物資がそろえば、もっと多くのストーカーを安く助けられる。もっと複雑な手術に必要な道具も手に入るかもしれない。ゾーンじゃ虫垂炎の治療もできないんだ。探してきてくれないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vardok_quest_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:vardok_quest_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1970,
+      "string_id": "vardok_quest_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "All right, I'll try to help.",
+      "JA_current": "All right, I'll try to help.",
+      "JA_new": "分かった。探してみる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vardok_quest_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:vardok_quest_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1973,
+      "string_id": "vardok_quest_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "Good for you, I don't think you'll let me down. Here's a piece of information: Fern Flower is a single, unique specimen, no other like it in the Zone. I was told by a stalker I was treating that it was in a small forest behind a swamp at the Garbage, didn't manage to get the exact location, so those are the only tips you'll have to go on. The stalker told me that he and his associates tried to get the Flower, but some awful creature or mutant got in their way. So be careful out there. Good luck.",
+      "JA_current": "Good for you, I don't think you'll let me down. Here's a piece of information: Fern Flower is a single, unique specimen, no other like it in the Zone. I was told by a stalker I was treating that it was in a small forest behind a swamp at the Garbage, didn't manage to get the exact location, so those are the only tips you'll have to go on. The stalker told me that he and his associates tried to get the Flower, but some awful creature or mutant got in their way. So be careful out there. Good luck.",
+      "JA_new": "よかった。期待を裏切らないと思ってる。手がかりを教えよう。シダの花はゾーンに一つしかない、唯一の個体だ。治療したストーカーの話では、ガーベジの沼地の裏にある小さな森に生えていたらしい。正確な場所までは分からない。今ある手がかりはそれだけだ。そのストーカーと仲間も花を取りに行ったが、恐ろしい生き物かミュータントに邪魔されたそうだ。気をつけろよ。幸運を祈る。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vardok_quest_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "vardok_quest_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "How about a job?",
+      "JA_current": "How about a job?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:vardok_quest_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "vardok_quest_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, if it's not too much trouble for you, help me out.",
+      "JA_current": "Yes, if it's not too much trouble for you, help me out.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:vardok_quest_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "vardok_quest_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What needs to be done?",
+      "JA_current": "What needs to be done?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:vardok_quest_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "vardok_quest_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I need one artifact... Or rather, not even an artifact, but rather a creation of the Zone, that's more applicable. It's called the Fern Flower.",
+      "JA_current": "I need one artifact... Or rather, not even an artifact, but rather a creation of the Zone, that's more applicable. It's called the Fern Flower.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:vardok_quest_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "vardok_quest_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I... think I heard about that somewhere...",
+      "JA_current": "I... think I heard about that somewhere...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:vardok_quest_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "vardok_quest_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I didn't think up that name, it was made by the stalkers who found it first. They told me that it looks like a big bright flower that glows in the dark. Something like an artifact, but it is not known for sure whether it has any useful or harmful properties. What is known is that scientists are seeking it, and if I give it to them, I'll be able to trade for a vast assortment of medication and perhaps some medical equipment or tools as well. I've been talking to them and cultivating this exchange for a long time now. With all these supplies, I'll be able to give aid to the stalkers much more effectively and for even less money, perhaps I'll even get the tools I need to perform more complex surgeries. There is no treatment for appendicitis out in the Zone, you know... So, will you seek it for me?",
+      "JA_current": "I didn't think up that name, it was made by the stalkers who found it first. They told me that it looks like a big bright flower that glows in the dark. Something like an artifact, but it is not known for sure whether it has any useful or harmful properties. What is known is that scientists are seeking it, and if I give it to them, I'll be able to trade for a vast assortment of medication and perhaps some medical equipment or tools as well. I've been talking to them and cultivating this exchange for a long time now. With all these supplies, I'll be able to give aid to the stalkers much more effectively and for even less money, perhaps I'll even get the tools I need to perform more complex surgeries. There is no treatment for appendicitis out in the Zone, you know... So, will you seek it for me?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:vardok_quest_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "vardok_quest_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "ogse_spawns.spawn_cvetok_and_give_info"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All right, I'll try to help.",
+      "JA_current": "All right, I'll try to help.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:vardok_quest_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "vardok_quest_dialog_phrase_8",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Good for you, I don't think you'll let me down. Here's a piece of information: Fern Flower is a single, unique specimen, no other like it in the Zone. I was told by a stalker I was treating that it was in a small forest behind a swamp at the Garbage, didn't manage to get the exact location, so those are the only tips you'll have to go on. The stalker told me that he and his associates tried to get the Flower, but some awful creature or mutant got in their way. So be careful out there. Good luck.",
+      "JA_current": "Good for you, I don't think you'll let me down. Here's a piece of information: Fern Flower is a single, unique specimen, no other like it in the Zone. I was told by a stalker I was treating that it was in a small forest behind a swamp at the Garbage, didn't manage to get the exact location, so those are the only tips you'll have to go on. The stalker told me that he and his associates tried to get the Flower, but some awful creature or mutant got in their way. So be careful out there. Good luck.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:vardok_quest_dialog_phrase_8#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+    "packet_id":  "dialog_0379__freedom_attach_community",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "freedom_attach_community",
+    "graph_source":  "gamedata/config/gameplay/dialogs_military.xml",
+    "graph_sha256":  "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+    "character_bindings":  [
+                               {
+                                   "profile_id":  "mil_Svoboda_leader",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_military.xml"
+                               }
+                           ],
+    "dialog_conditions":  [
+                              {
+                                  "type":  "has_info",
+                                  "value":  "mil_leader_quest2_complete"
+                              },
+                              {
+                                  "type":  "dont_has_info",
+                                  "value":  "mil_leader_attach_community"
+                              }
+                          ],
+    "root_speaker_hint":  "player",
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  2,
+    "entries":  [
+                    {
+                        "key":  "stable_dialogs_military:hochu_v_svobodu#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1550,
+                        "string_id":  "hochu_v_svobodu",
+                        "occurrence":  1,
+                        "EN":  "I\u0027ve considered a thing or two... You\u0027ve got it really cool here, lads. I\u0027m eager to join Freedom!",
+                        "JA_current":  "I\u0027ve considered a thing or two... You\u0027ve got it really cool here, lads. I\u0027m eager to join Freedom!",
+                        "JA_new":  "いろいろ考えてみたんだが……あんたたちのところは本当に居心地がよさそうだ。俺もフリーダムに入りたい！",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "freedom_attach_community",
+                                               "phrase_id":  "0",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:aha_odumalsa#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1553,
+                        "string_id":  "aha_odumalsa",
+                        "occurrence":  1,
+                        "EN":  "He-he... So be it, Marked One, I\u0027m glad to have you with us. We lack good fighters like you. Now, to celebrate that, you are welcome to take a peek into our armory and take whatever you want! Talk to the security, he\u0027s gonna let you in.",
+                        "JA_current":  "He-he... So be it, Marked One, I\u0027m glad to have you with us. We lack good fighters like you. Now, to celebrate that, you are welcome to take a peek into our armory and take whatever you want! Talk to the security, he\u0027s gonna let you in.",
+                        "JA_new":  "へへ……そうか、マークドワン。仲間になってくれて嬉しいよ。お前みたいな腕利きが必要なんだ。祝いに、武器庫から好きなものを持っていっていいぞ！ 警備のところへ行けば中に入れてくれる。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "freedom_attach_community",
+                                               "phrase_id":  "1",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  "hochu_v_svobodu",
+                            "next":  [
+                                         "1"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I\u0027ve considered a thing or two... You\u0027ve got it really cool here, lads. I\u0027m eager to join Freedom!",
+                            "JA_current":  "I\u0027ve considered a thing or two... You\u0027ve got it really cool here, lads. I\u0027m eager to join Freedom!",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:hochu_v_svobodu#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "1",
+                            "text_id":  "aha_odumalsa",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "dialogs.actor_set_freedom"
+                                            },
+                                            {
+                                                "type":  "give_info",
+                                                "value":  "mil_leader_attach_community"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "He-he... So be it, Marked One, I\u0027m glad to have you with us. We lack good fighters like you. Now, to celebrate that, you are welcome to take a peek into our armory and take whatever you want! Talk to the security, he\u0027s gonna let you in.",
+                            "JA_current":  "He-he... So be it, Marked One, I\u0027m glad to have you with us. We lack good fighters like you. Now, to celebrate that, you are welcome to take a peek into our armory and take whatever you want! Talk to the security, he\u0027s gonna let you in.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:aha_odumalsa#1"
+                                                        ]
+                        }
+                    ]
+}

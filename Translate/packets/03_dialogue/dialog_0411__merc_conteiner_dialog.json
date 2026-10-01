@@ -1,0 +1,670 @@
+{
+  "packet_id": "dialog_0411__merc_conteiner_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "merc_conteiner_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml",
+  "graph_sha256": "8bb9195290d87fda40f45e7ab7e4ed73c832c18ca04c708134554149eea56b2a",
+  "character_bindings": [
+    {
+      "profile_id": "pri_merc_1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.have_konteiner"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 15,
+  "entries": [
+    {
+      "key": "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 137,
+      "string_id": "merc_conteiner_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Is there something you wanted to ask me?",
+      "JA_current": "Is there something you wanted to ask me?",
+      "JA_new": "何か聞きたいことがあるのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_conteiner_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 140,
+      "string_id": "merc_conteiner_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Yes. I'm interested in this container. Where did you find it?",
+      "JA_current": "Yes. I'm interested in this container. Where did you find it?",
+      "JA_new": "ああ。このコンテナに興味がある。どこで見つけた？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_conteiner_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 143,
+      "string_id": "merc_conteiner_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Well, I'm... I'm a messenger from Ara, I have an errand to give it to you!",
+      "JA_current": "Well, I'm... I'm a messenger from Ara, I have an errand to give it to you!",
+      "JA_new": "その……俺はアラからの使いだ。これをあんたに届けるよう頼まれた！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_conteiner_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 146,
+      "string_id": "merc_conteiner_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "I found it at the Army Depot, in the mercenary parking lot.",
+      "JA_current": "I found it at the Army Depot, in the mercenary parking lot.",
+      "JA_new": "軍事倉庫にあるマーセナリーズの駐車場で見つけた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_conteiner_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 149,
+      "string_id": "merc_conteiner_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Don't lie, tramp, I know the messenger personally. You'd better give me the container and we'll part as friends.",
+      "JA_current": "Don't lie, tramp, I know the messenger personally. You'd better give me the container and we'll part as friends.",
+      "JA_new": "うそをつくな、流れ者。使いの顔は知っている。コンテナを渡せば、互いに気持ちよく別れられるぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_conteiner_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 152,
+      "string_id": "merc_conteiner_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Give the container to me.",
+      "JA_current": "Give the container to me.",
+      "JA_new": "そのコンテナを渡せ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_conteiner_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 155,
+      "string_id": "merc_conteiner_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Wait, not so fast. What will you give me for it?",
+      "JA_current": "Wait, not so fast. What will you give me for it?",
+      "JA_new": "待てよ、そう急かすな。見返りは何だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_conteiner_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 158,
+      "string_id": "merc_conteiner_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "Except for a bullet in the heart, nothing. Just kidding. You're lucky I'm in a good mood, or I wouldn't have bargained with you. If you're so keen on getting rich, I can pay you.",
+      "JA_current": "Except for a bullet in the heart, nothing. Just kidding. You're lucky I'm in a good mood, or I wouldn't have bargained with you. If you're so keen on getting rich, I can pay you.",
+      "JA_new": "心臓に弾を一発……と言いたいところだが、冗談だ。機嫌がいいから交渉してやってる。金が欲しいなら、買い取ってやってもいい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_conteiner_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 161,
+      "string_id": "merc_conteiner_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "Deal. How much for the container?",
+      "JA_current": "Deal. How much for the container?",
+      "JA_new": "いいだろう。いくら出す？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_conteiner_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 164,
+      "string_id": "merc_conteiner_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "Would 100,000 suit you?",
+      "JA_current": "Would 100,000 suit you?",
+      "JA_new": "10万でどうだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_conteiner_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 167,
+      "string_id": "merc_conteiner_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "Of-course.",
+      "JA_current": "Of-course.",
+      "JA_new": "もちろんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_conteiner_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_12#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 170,
+      "string_id": "merc_conteiner_dialog_phrase_12",
+      "occurrence": 1,
+      "EN": "Not enough.",
+      "JA_current": "Not enough.",
+      "JA_new": "それじゃ足りない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_conteiner_dialog",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_13#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 173,
+      "string_id": "merc_conteiner_dialog_phrase_13",
+      "occurrence": 1,
+      "EN": "Tramp, don't test my patience! For the last time, take the 100,000 or you'll regret it!",
+      "JA_current": "Tramp, don't test my patience! For the last time, take the 100,000 or you'll regret it!",
+      "JA_new": "流れ者、俺の我慢を試すな！ これで最後だ。10万を受け取れ。さもないと後悔するぞ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_conteiner_dialog",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_14#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 176,
+      "string_id": "merc_conteiner_dialog_phrase_14",
+      "occurrence": 1,
+      "EN": "Okay, fine.",
+      "JA_current": "Okay, fine.",
+      "JA_new": "分かった。それでいい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_conteiner_dialog",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_15#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 179,
+      "string_id": "merc_conteiner_dialog_phrase_15",
+      "occurrence": 1,
+      "EN": "If you don't want to do it, I'll go to a mechanic I know and he'll open it for me.",
+      "JA_current": "If you don't want to do it, I'll go to a mechanic I know and he'll open it for me.",
+      "JA_new": "それが嫌なら、知り合いのメカニックに頼んで開けてもらうさ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_conteiner_dialog",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "merc_conteiner_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Is there something you wanted to ask me?",
+      "JA_current": "Is there something you wanted to ask me?",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "merc_conteiner_dialog_phrase_2",
+      "next": [
+        "2",
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes. I'm interested in this container. Where did you find it?",
+      "JA_current": "Yes. I'm interested in this container. Where did you find it?",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "merc_conteiner_dialog_phrase_3",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, I'm... I'm a messenger from Ara, I have an errand to give it to you!",
+      "JA_current": "Well, I'm... I'm a messenger from Ara, I have an errand to give it to you!",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "merc_conteiner_dialog_phrase_4",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I found it at the Army Depot, in the mercenary parking lot.",
+      "JA_current": "I found it at the Army Depot, in the mercenary parking lot.",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "merc_conteiner_dialog_phrase_5",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Don't lie, tramp, I know the messenger personally. You'd better give me the container and we'll part as friends.",
+      "JA_current": "Don't lie, tramp, I know the messenger personally. You'd better give me the container and we'll part as friends.",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "merc_conteiner_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Give the container to me.",
+      "JA_current": "Give the container to me.",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "merc_conteiner_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4",
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Wait, not so fast. What will you give me for it?",
+      "JA_current": "Wait, not so fast. What will you give me for it?",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "merc_conteiner_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Except for a bullet in the heart, nothing. Just kidding. You're lucky I'm in a good mood, or I wouldn't have bargained with you. If you're so keen on getting rich, I can pay you.",
+      "JA_current": "Except for a bullet in the heart, nothing. Just kidding. You're lucky I'm in a good mood, or I wouldn't have bargained with you. If you're so keen on getting rich, I can pay you.",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "merc_conteiner_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Deal. How much for the container?",
+      "JA_current": "Deal. How much for the container?",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "merc_conteiner_dialog_phrase_10",
+      "next": [
+        "10",
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Would 100,000 suit you?",
+      "JA_current": "Would 100,000 suit you?",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "merc_conteiner_dialog_phrase_11",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.denar_reward2"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.konteiner_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Of-course.",
+      "JA_current": "Of-course.",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "merc_conteiner_dialog_phrase_12",
+      "next": [
+        "12"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Not enough.",
+      "JA_current": "Not enough.",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_12#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "merc_conteiner_dialog_phrase_13",
+      "next": [
+        "13",
+        "14"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Tramp, don't test my patience! For the last time, take the 100,000 or you'll regret it!",
+      "JA_current": "Tramp, don't test my patience! For the last time, take the 100,000 or you'll regret it!",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_13#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "merc_conteiner_dialog_phrase_14",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.denar_reward2"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.konteiner_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Okay, fine.",
+      "JA_current": "Okay, fine.",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_14#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "merc_conteiner_dialog_phrase_15",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.set_mercs_enemy"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "If you don't want to do it, I'll go to a mechanic I know and he'll open it for me.",
+      "JA_current": "If you don't want to do it, I'll go to a mechanic I know and he'll open it for me.",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_conteiner_dialog_phrase_15#1"
+      ]
+    }
+  ]
+}

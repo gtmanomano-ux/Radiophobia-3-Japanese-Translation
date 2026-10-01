@@ -1,0 +1,368 @@
+{
+  "packet_id": "dialog_0087__talk_about_dolg",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "talk_about_dolg",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_zastava_commander_1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "talk_about_dolg"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 7,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:about_dolg_0#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 87,
+      "string_id": "about_dolg_0",
+      "occurrence": 1,
+      "EN": "Tell me about your faction.",
+      "JA_current": "Tell me about your faction.",
+      "JA_new": "デューティーについて教えてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "talk_about_dolg",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:about_dolg_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 90,
+      "string_id": "about_dolg_1",
+      "occurrence": 1,
+      "EN": "Our faction is formerly known as Duty.",
+      "JA_current": "Our faction is formerly known as Duty.",
+      "JA_new": "我々はかつて、デューティーと呼ばれていた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "talk_about_dolg",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:about_dolg_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 93,
+      "string_id": "about_dolg_2",
+      "occurrence": 1,
+      "EN": "Where did this name originate from?",
+      "JA_current": "Where did this name originate from?",
+      "JA_new": "その名前はどこから来た？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "talk_about_dolg",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:about_dolg_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 96,
+      "string_id": "about_dolg_3",
+      "occurrence": 1,
+      "EN": "Where from? It's quite obvious. \"If not us, then who\"? That used to be the motto of a special military task force responding to the Zone's emergence, back when it all started. Duty's origins descend from that task force, and the motto basically means that it is our duty to respond to the Zone's terror, because no one else will. Somebody's got to do it, and we took that duty upon ourselves. What other name is thus more fitting than \"Duty\" itself, the very same duty we are fulfilling to protect humanity?",
+      "JA_current": "Where from? It's quite obvious. \"If not us, then who\"? That used to be the motto of a special military task force responding to the Zone's emergence, back when it all started. Duty's origins descend from that task force, and the motto basically means that it is our duty to respond to the Zone's terror, because no one else will. Somebody's got to do it, and we took that duty upon ourselves. What other name is thus more fitting than \"Duty\" itself, the very same duty we are fulfilling to protect humanity?",
+      "JA_new": "どこからって？ 見れば分かるだろ。「我々でなければ、誰がやる？」。ゾーンが出現したばかりの頃、対処にあたった特殊部隊の標語だ。デューティーの前身はその部隊で、この標語は「ゾーンの脅威に立ち向かうのは我々の務めだ。他にやる者はいない」という意味だ。誰かがやらなきゃならない。だから我々が引き受けた。人類を守るという務めを果たしているんだ。これ以上ふさわしい名があるか？ その務めこそ、我々が名に掲げる「デューティー」だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "talk_about_dolg",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:about_dolg_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 99,
+      "string_id": "about_dolg_4",
+      "occurrence": 1,
+      "EN": "Go on, tell me more.",
+      "JA_current": "Go on, tell me more.",
+      "JA_new": "続けてくれ。もっと聞きたい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "talk_about_dolg",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "talk_about_dolg",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:about_dolg_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 102,
+      "string_id": "about_dolg_5",
+      "occurrence": 1,
+      "EN": "Well, what else can I say... Many of our ranks started out as ordinary stalkers with one common goal - to make some money. But after having observed the horrors that the Zone is so fond of giving, they knew at once what had to be done. Now, many of them would sooner give up their own lives before they let any filthy mutant stray beyond the cordon and into the world beyond.",
+      "JA_current": "Well, what else can I say... Many of our ranks started out as ordinary stalkers with one common goal - to make some money. But after having observed the horrors that the Zone is so fond of giving, they knew at once what had to be done. Now, many of them would sooner give up their own lives before they let any filthy mutant stray beyond the cordon and into the world beyond.",
+      "JA_new": "何を話そうか……我々の多くは、金を稼ぐという共通の目的を持った普通のストーカーだった。だが、ゾーンが見せる恐ろしさを知り、何をすべきかすぐに悟ったんだ。今では、汚らわしいミュータントを封鎖線の向こう、外の世界へ一匹たりとも逃がすくらいなら、自分の命を捨てる者も多い。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "talk_about_dolg",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:about_dolg_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 105,
+      "string_id": "about_dolg_6",
+      "occurrence": 1,
+      "EN": "It's a pity that only few think the same way. What's worse is that it's not just mutants we have to worry about, there's no shortage of idiots in the Zone who'd just love to let it expand. There's some people who believe that the Zone is a gift, a blessing that we should learn to understand, to co-exist with and to make use of to advance humanity. What bullshit, I'd love to get a hold of them and see how they manage to co-exist with the nearest anomaly!",
+      "JA_current": "It's a pity that only few think the same way. What's worse is that it's not just mutants we have to worry about, there's no shortage of idiots in the Zone who'd just love to let it expand. There's some people who believe that the Zone is a gift, a blessing that we should learn to understand, to co-exist with and to make use of to advance humanity. What bullshit, I'd love to get a hold of them and see how they manage to co-exist with the nearest anomaly!",
+      "JA_new": "同じ考えの人が少ないのは残念だ。さらに厄介なのは、ミュータントだけが脅威じゃないことだ。ゾーンを広げたがる馬鹿も大勢いる。ゾーンは贈り物だ、理解して共存し、人類の発展に役立てるべきだと考える連中がいる。ふざけるな。そんな奴らに、近くのアノマリーと共存できるか試させてやりたいよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "talk_about_dolg",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "about_dolg_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Tell me about your faction.",
+      "JA_current": "Tell me about your faction.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:about_dolg_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "about_dolg_1",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.about_dolg_1"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Our faction is formerly known as Duty.",
+      "JA_current": "Our faction is formerly known as Duty.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:about_dolg_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "about_dolg_2",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Where did this name originate from?",
+      "JA_current": "Where did this name originate from?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:about_dolg_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "about_dolg_3",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.about_dolg_2"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Where from? It's quite obvious. \"If not us, then who\"? That used to be the motto of a special military task force responding to the Zone's emergence, back when it all started. Duty's origins descend from that task force, and the motto basically means that it is our duty to respond to the Zone's terror, because no one else will. Somebody's got to do it, and we took that duty upon ourselves. What other name is thus more fitting than \"Duty\" itself, the very same duty we are fulfilling to protect humanity?",
+      "JA_current": "Where from? It's quite obvious. \"If not us, then who\"? That used to be the motto of a special military task force responding to the Zone's emergence, back when it all started. Duty's origins descend from that task force, and the motto basically means that it is our duty to respond to the Zone's terror, because no one else will. Somebody's got to do it, and we took that duty upon ourselves. What other name is thus more fitting than \"Duty\" itself, the very same duty we are fulfilling to protect humanity?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:about_dolg_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "about_dolg_4",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Go on, tell me more.",
+      "JA_current": "Go on, tell me more.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:about_dolg_4#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "about_dolg_5",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.about_dolg_3"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, what else can I say... Many of our ranks started out as ordinary stalkers with one common goal - to make some money. But after having observed the horrors that the Zone is so fond of giving, they knew at once what had to be done. Now, many of them would sooner give up their own lives before they let any filthy mutant stray beyond the cordon and into the world beyond.",
+      "JA_current": "Well, what else can I say... Many of our ranks started out as ordinary stalkers with one common goal - to make some money. But after having observed the horrors that the Zone is so fond of giving, they knew at once what had to be done. Now, many of them would sooner give up their own lives before they let any filthy mutant stray beyond the cordon and into the world beyond.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:about_dolg_5#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "about_dolg_4",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Go on, tell me more.",
+      "JA_current": "Go on, tell me more.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:about_dolg_4#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "about_dolg_6",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.about_dolg_4"
+        },
+        {
+          "type": "give_info",
+          "value": "talk_about_dolg"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It's a pity that only few think the same way. What's worse is that it's not just mutants we have to worry about, there's no shortage of idiots in the Zone who'd just love to let it expand. There's some people who believe that the Zone is a gift, a blessing that we should learn to understand, to co-exist with and to make use of to advance humanity. What bullshit, I'd love to get a hold of them and see how they manage to co-exist with the nearest anomaly!",
+      "JA_current": "It's a pity that only few think the same way. What's worse is that it's not just mutants we have to worry about, there's no shortage of idiots in the Zone who'd just love to let it expand. There's some people who believe that the Zone is a gift, a blessing that we should learn to understand, to co-exist with and to make use of to advance humanity. What bullshit, I'd love to get a hold of them and see how they manage to co-exist with the nearest anomaly!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:about_dolg_6#1"
+      ]
+    }
+  ]
+}

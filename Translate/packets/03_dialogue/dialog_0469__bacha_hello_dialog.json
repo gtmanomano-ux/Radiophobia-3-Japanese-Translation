@@ -1,0 +1,574 @@
+{
+  "packet_id": "dialog_0469__bacha_hello_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bacha_hello_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml",
+  "graph_sha256": "131d3c64c00a1023af4aaa914f345f3cfff2e581dea421160993fad100675545",
+  "character_bindings": [
+    {
+      "profile_id": "bacha",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "soldiers_done"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "bacha_goto_final_point"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 13,
+  "entries": [
+    {
+      "key": "stable_dialogs_yantar:bacha_hello_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 804,
+      "string_id": "bacha_hello_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Listen, I've been sent by Professor Sakharov. He needs a status update, what's going on with you guys?",
+      "JA_current": "Listen, I've been sent by Professor Sakharov. He needs a status update, what's going on with you guys?",
+      "JA_new": "聞いてくれ。サハロフ教授に頼まれて様子を見に来た。そっちはどうなってる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bacha_hello_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:bacha_hello_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 807,
+      "string_id": "bacha_hello_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Hello, stalker. There's been a development, things aren't going so well...",
+      "JA_current": "Hello, stalker. There's been a development, things aren't going so well...",
+      "JA_new": "よう、ストーカー。状況が変わった。あまり芳しくない……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bacha_hello_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:bacha_hello_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 810,
+      "string_id": "bacha_hello_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "What happened? Where's the rest of the security detail?",
+      "JA_current": "What happened? Where's the rest of the security detail?",
+      "JA_new": "何があった？ 護衛の残りはどこだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bacha_hello_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:bacha_hello_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 813,
+      "string_id": "bacha_hello_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "The whole operation's gone to shit, that's what happened. As you probably guessed, the eggheads wanted to explore these cursed catacombs for a long time. As soon as Sakharov found out that the psi-field was disabled, it was as if he had an owl crawl up his ass and arranged this \"expedition\" at once. It was a poorly planned, foolish excursion, but I work as the head of security at the science camp, so naturally I came along with my best guys. However, because of the urgency, we were unable to request more soldiers as HQ needs funding allocated for every operation, which usually goes through the UN, very time consuming. I tried to pull some strings with local contacts but no squads in the Zone were willing to assist. One pilot told me he'd rather do patrol missions in Afghanistan than do any more flights in the Zone for no pay. \\nSo, I had to go with the scientists myself. Me, and three of my guys...",
+      "JA_current": "The whole operation's gone to shit, that's what happened. As you probably guessed, the eggheads wanted to explore these cursed catacombs for a long time. As soon as Sakharov found out that the psi-field was disabled, it was as if he had an owl crawl up his ass and arranged this \"expedition\" at once. It was a poorly planned, foolish excursion, but I work as the head of security at the science camp, so naturally I came along with my best guys. However, because of the urgency, we were unable to request more soldiers as HQ needs funding allocated for every operation, which usually goes through the UN, very time consuming. I tried to pull some strings with local contacts but no squads in the Zone were willing to assist. One pilot told me he'd rather do patrol missions in Afghanistan than do any more flights in the Zone for no pay. \\nSo, I had to go with the scientists myself. Me, and three of my guys...",
+      "JA_new": "作戦は大失敗だ。まあ、察しはついてるだろうが、科学屋どもは前からこの呪われた地下墓地を調べたがってた。サハロフがサイフィールドの停止を知った途端、すぐに「遠征」を組みやがったんだ。計画はお粗末、判断も軽率。だが俺は科学キャンプの警備責任者だ。だから腕利きの部下を連れて同行した。急な話で、増援は頼めなかった。司令部は作戦ごとに予算を通さなきゃならん。たいてい国連の手続きが絡んで、ひどく時間がかかるからな。地元にも伝手を頼ったが、ゾーン内の部隊はどこも協力を断ってきた。ある操縦士なんて、無給でゾーンを飛ぶくらいなら、アフガニスタンで巡回任務をした方がましだと言ってたよ。 \\n結局、科学者たちには俺と部下三人で付いていくしかなかった……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bacha_hello_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:bacha_hello_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 816,
+      "string_id": "bacha_hello_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "I don't see them here.",
+      "JA_current": "I don't see them here.",
+      "JA_new": "ここに他の隊員がいないぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bacha_hello_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:bacha_hello_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 819,
+      "string_id": "bacha_hello_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "...Yeah, I sent them out to the lower hall on a reconnaissance mission, but I haven't heard from them since. Of course, the radio was with them, so we can't even contact the camp.",
+      "JA_current": "...Yeah, I sent them out to the lower hall on a reconnaissance mission, but I haven't heard from them since. Of course, the radio was with them, so we can't even contact the camp.",
+      "JA_new": "……ああ。下の通路に偵察に行かせたが、それきり連絡がない。無線機も連中が持っていったから、キャンプに連絡すらできない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bacha_hello_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:bacha_hello_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 822,
+      "string_id": "bacha_hello_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "What are you still doing here then!? Get out of here and go back for backup!",
+      "JA_current": "What are you still doing here then!? Get out of here and go back for backup!",
+      "JA_new": "それなら、あんたは何をしてる？ ここを出て、応援を呼びに戻れ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bacha_hello_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:bacha_hello_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 825,
+      "string_id": "bacha_hello_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "To flee like a coward and leave my troops down here? Major Bachinsky NEVER leaves a man behind! I went through Transnistria and Nagorno-Karabakh, so don't give me orders, civilian. I need to get my boys back before I step foot outside this hole.",
+      "JA_current": "To flee like a coward and leave my troops down here? Major Bachinsky NEVER leaves a man behind! I went through Transnistria and Nagorno-Karabakh, so don't give me orders, civilian. I need to get my boys back before I step foot outside this hole.",
+      "JA_new": "部下を置いて、臆病者みたいに逃げろって？ バチンスキー少佐は、仲間を決して見捨てない！ トランスニストリアでもナゴルノ・カラバフでも戦ってきた。民間人に指図される筋合いはない。ここを出る前に部下を連れ戻す。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bacha_hello_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:bacha_hello_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 828,
+      "string_id": "bacha_hello_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "Are you sure they're still alive?",
+      "JA_current": "Are you sure they're still alive?",
+      "JA_new": "まだ生きてると思うか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bacha_hello_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:bacha_hello_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 831,
+      "string_id": "bacha_hello_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "Yes, from time to time I hear their voices from behind that corridor over there. I'd have gone to check on them by myself, but there would be no one left to guard the scientists, and I cannot risk losing them too. Taking them with me is out of the question, too dangerous, they'd just get in the way.",
+      "JA_current": "Yes, from time to time I hear their voices from behind that corridor over there. I'd have gone to check on them by myself, but there would be no one left to guard the scientists, and I cannot risk losing them too. Taking them with me is out of the question, too dangerous, they'd just get in the way.",
+      "JA_new": "ああ。ときどき、向こうの通路から声が聞こえる。一人で見に行きたくても、科学者たちの警備が手薄になる。あいつらまで失うわけにはいかない。連れていくのも危険すぎる。足手まといになるだけだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bacha_hello_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:bacha_hello_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 834,
+      "string_id": "bacha_hello_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "Enough of this bullshit, here's what's gonna happen. You will lead me to your men and we will get them back. Let the scientists stay here - I think we'll be back in no time.",
+      "JA_current": "Enough of this bullshit, here's what's gonna happen. You will lead me to your men and we will get them back. Let the scientists stay here - I think we'll be back in no time.",
+      "JA_new": "もういい、こんな話は終わりだ。こうしよう。俺があんたの部下のところへ案内する。一緒に連れ戻すぞ。科学者はここで待たせておけ。すぐ戻れるはずだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bacha_hello_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:bacha_hello_dialog_phrase_12#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 837,
+      "string_id": "bacha_hello_dialog_phrase_12",
+      "occurrence": 1,
+      "EN": "All right, fine, screw it! But let's do this fast, before anything comes sniffing around.",
+      "JA_current": "All right, fine, screw it! But let's do this fast, before anything comes sniffing around.",
+      "JA_new": "分かった、そうしよう！ だが急ぐぞ。何かが寄ってくる前にな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bacha_hello_dialog",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:bacha_hello_dialog_phrase_13#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 840,
+      "string_id": "bacha_hello_dialog_phrase_13",
+      "occurrence": 1,
+      "EN": "Let's go!",
+      "JA_current": "Let's go!",
+      "JA_new": "行くぞ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bacha_hello_dialog",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bacha_hello_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Listen, I've been sent by Professor Sakharov. He needs a status update, what's going on with you guys?",
+      "JA_current": "Listen, I've been sent by Professor Sakharov. He needs a status update, what's going on with you guys?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:bacha_hello_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "bacha_hello_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hello, stalker. There's been a development, things aren't going so well...",
+      "JA_current": "Hello, stalker. There's been a development, things aren't going so well...",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:bacha_hello_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "bacha_hello_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What happened? Where's the rest of the security detail?",
+      "JA_current": "What happened? Where's the rest of the security detail?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:bacha_hello_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "bacha_hello_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The whole operation's gone to shit, that's what happened. As you probably guessed, the eggheads wanted to explore these cursed catacombs for a long time. As soon as Sakharov found out that the psi-field was disabled, it was as if he had an owl crawl up his ass and arranged this \"expedition\" at once. It was a poorly planned, foolish excursion, but I work as the head of security at the science camp, so naturally I came along with my best guys. However, because of the urgency, we were unable to request more soldiers as HQ needs funding allocated for every operation, which usually goes through the UN, very time consuming. I tried to pull some strings with local contacts but no squads in the Zone were willing to assist. One pilot told me he'd rather do patrol missions in Afghanistan than do any more flights in the Zone for no pay. \\nSo, I had to go with the scientists myself. Me, and three of my guys...",
+      "JA_current": "The whole operation's gone to shit, that's what happened. As you probably guessed, the eggheads wanted to explore these cursed catacombs for a long time. As soon as Sakharov found out that the psi-field was disabled, it was as if he had an owl crawl up his ass and arranged this \"expedition\" at once. It was a poorly planned, foolish excursion, but I work as the head of security at the science camp, so naturally I came along with my best guys. However, because of the urgency, we were unable to request more soldiers as HQ needs funding allocated for every operation, which usually goes through the UN, very time consuming. I tried to pull some strings with local contacts but no squads in the Zone were willing to assist. One pilot told me he'd rather do patrol missions in Afghanistan than do any more flights in the Zone for no pay. \\nSo, I had to go with the scientists myself. Me, and three of my guys...",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:bacha_hello_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "bacha_hello_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I don't see them here.",
+      "JA_current": "I don't see them here.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:bacha_hello_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "bacha_hello_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "...Yeah, I sent them out to the lower hall on a reconnaissance mission, but I haven't heard from them since. Of course, the radio was with them, so we can't even contact the camp.",
+      "JA_current": "...Yeah, I sent them out to the lower hall on a reconnaissance mission, but I haven't heard from them since. Of course, the radio was with them, so we can't even contact the camp.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:bacha_hello_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "bacha_hello_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What are you still doing here then!? Get out of here and go back for backup!",
+      "JA_current": "What are you still doing here then!? Get out of here and go back for backup!",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:bacha_hello_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "bacha_hello_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "To flee like a coward and leave my troops down here? Major Bachinsky NEVER leaves a man behind! I went through Transnistria and Nagorno-Karabakh, so don't give me orders, civilian. I need to get my boys back before I step foot outside this hole.",
+      "JA_current": "To flee like a coward and leave my troops down here? Major Bachinsky NEVER leaves a man behind! I went through Transnistria and Nagorno-Karabakh, so don't give me orders, civilian. I need to get my boys back before I step foot outside this hole.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:bacha_hello_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "bacha_hello_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Are you sure they're still alive?",
+      "JA_current": "Are you sure they're still alive?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:bacha_hello_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "bacha_hello_dialog_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, from time to time I hear their voices from behind that corridor over there. I'd have gone to check on them by myself, but there would be no one left to guard the scientists, and I cannot risk losing them too. Taking them with me is out of the question, too dangerous, they'd just get in the way.",
+      "JA_current": "Yes, from time to time I hear their voices from behind that corridor over there. I'd have gone to check on them by myself, but there would be no one left to guard the scientists, and I cannot risk losing them too. Taking them with me is out of the question, too dangerous, they'd just get in the way.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:bacha_hello_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "bacha_hello_dialog_phrase_11",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Enough of this bullshit, here's what's gonna happen. You will lead me to your men and we will get them back. Let the scientists stay here - I think we'll be back in no time.",
+      "JA_current": "Enough of this bullshit, here's what's gonna happen. You will lead me to your men and we will get them back. Let the scientists stay here - I think we'll be back in no time.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:bacha_hello_dialog_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "bacha_hello_dialog_phrase_12",
+      "next": [
+        "12"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All right, fine, screw it! But let's do this fast, before anything comes sniffing around.",
+      "JA_current": "All right, fine, screw it! But let's do this fast, before anything comes sniffing around.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:bacha_hello_dialog_phrase_12#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "bacha_hello_dialog_phrase_13",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "bacha_goto_final_point"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Let's go!",
+      "JA_current": "Let's go!",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:bacha_hello_dialog_phrase_13#1"
+      ]
+    }
+  ]
+}

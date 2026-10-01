@@ -1,0 +1,290 @@
+{
+  "packet_id": "dialog_0075__agr_krot_actor_met_seriy",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "agr_krot_actor_met_seriy",
+  "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml",
+  "graph_sha256": "0065cb49021f3d779d92b62bc9453bcaa767fa47933b73f8ecdd37c8a246e1ab",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "agr_help_krot_done"
+    },
+    {
+      "type": "has_info",
+      "value": "agr_krot_band_start"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "agr_find_gunslinger_cache_start"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 3,
+  "entries": [
+    {
+      "key": "stable_dialogs_agroprom:agr_krot_actor_met_seriy_100#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 81,
+      "string_id": "agr_krot_actor_met_seriy_100",
+      "occurrence": 1,
+      "EN": "Seriy? Well, OK, listen. They say Strelok used to sneak around here. On top of that, his stash is somewhere around here below ground. I heard his group even had its base here. We also looked for the stash but we found jack shit. I'll give you all the info about the stash that we have, maybe you'll get lucky. Here, this should be everything!",
+      "JA_current": "Seriy に？ そうか。じゃあ聞け。以前 Strelok はこの辺をうろついていたらしい。さらにこの辺りの地下に、奴が何かを隠したらしい。この辺を、奴の仲間が根城にしていたとも聞いたな。俺たちもその隠し場所を探したが、代わりに見つけたのはクソッたれだったのさ。お前さんに隠し場所について、もっと教えてやりたいところだが。これが隠し場所について知っている全てだ。",
+      "JA_new": "セリー？ ああ、分かった。よく聞け。ストレロクが昔この辺をうろついてたって話だ。それに、奴の隠し物資もこの地下のどこかにあるらしい。仲間の拠点まで、ここに置いてたって噂だ。俺たちも探したが、何も見つからなかった。隠し場所について知ってることは全部教えてやる。あんたなら見つけられるかもしれない。ほら、これで全部だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_krot_actor_met_seriy",
+          "phrase_id": "100",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        },
+        {
+          "dialog_id": "agr_factory_krot_start",
+          "phrase_id": "1002",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_krot_actor_met_seriy_2000#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 84,
+      "string_id": "agr_krot_actor_met_seriy_2000",
+      "occurrence": 1,
+      "EN": "What else do you know?",
+      "JA_current": "ほかに何か知らないか？",
+      "JA_new": "ほかに何を知ってる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_krot_actor_met_seriy",
+          "phrase_id": "2000",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        },
+        {
+          "dialog_id": "agr_factory_krot_start",
+          "phrase_id": "20002",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_krot_actor_met_seriy_250#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 87,
+      "string_id": "agr_krot_actor_met_seriy_250",
+      "occurrence": 1,
+      "EN": "I don't know anything else. I told you everything I knew and now you have to work it out on your own. Good luck to you.",
+      "JA_current": "いや、他には知らないな。俺は洗いざらい話したし、とにかくお前が1人でそれを片付けなきゃならないってことだよ。幸運を祈るぜ。",
+      "JA_new": "もう何も知らない。知ってることは全部話した。あとは自分で何とかしな。幸運を祈るよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_krot_actor_met_seriy",
+          "phrase_id": "250",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        },
+        {
+          "dialog_id": "agr_factory_krot_start",
+          "phrase_id": "2502",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": null,
+      "next": [
+        "100"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "100",
+      "text_id": "agr_krot_actor_met_seriy_100",
+      "next": [
+        "1000"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Seriy? Well, OK, listen. They say Strelok used to sneak around here. On top of that, his stash is somewhere around here below ground. I heard his group even had its base here. We also looked for the stash but we found jack shit. I'll give you all the info about the stash that we have, maybe you'll get lucky. Here, this should be everything!",
+      "JA_current": "Seriy に？ そうか。じゃあ聞け。以前 Strelok はこの辺をうろついていたらしい。さらにこの辺りの地下に、奴が何かを隠したらしい。この辺を、奴の仲間が根城にしていたとも聞いたな。俺たちもその隠し場所を探したが、代わりに見つけたのはクソッたれだったのさ。お前さんに隠し場所について、もっと教えてやりたいところだが。これが隠し場所について知っている全てだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_krot_actor_met_seriy_100#1"
+      ]
+    },
+    {
+      "phrase_id": "1000",
+      "text_id": null,
+      "next": [
+        "150"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "100"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "150",
+      "text_id": null,
+      "next": [
+        "1500"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1000"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1500",
+      "text_id": null,
+      "next": [
+        "200"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "150"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "200",
+      "text_id": null,
+      "next": [
+        "2000"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1500"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "2000",
+      "text_id": "agr_krot_actor_met_seriy_2000",
+      "next": [
+        "250"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "200"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "What else do you know?",
+      "JA_current": "ほかに何か知らないか？",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_krot_actor_met_seriy_2000#1"
+      ]
+    },
+    {
+      "phrase_id": "250",
+      "text_id": "agr_krot_actor_met_seriy_250",
+      "next": [
+        "2500"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "agroprom_dialog.krot_give_flash"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2000"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I don't know anything else. I told you everything I knew and now you have to work it out on your own. Good luck to you.",
+      "JA_current": "いや、他には知らないな。俺は洗いざらい話したし、とにかくお前が1人でそれを片付けなきゃならないってことだよ。幸運を祈るぜ。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_krot_actor_met_seriy_250#1"
+      ]
+    },
+    {
+      "phrase_id": "2500",
+      "text_id": null,
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "agr_krot_secret_info"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "250"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    }
+  ]
+}

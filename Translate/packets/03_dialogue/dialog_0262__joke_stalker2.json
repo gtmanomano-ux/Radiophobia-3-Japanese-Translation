@@ -1,0 +1,1417 @@
+{
+  "packet_id": "dialog_0262__joke_stalker2",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "joke_stalker2",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "sidr_guard",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "block_begin_dialog"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "horror_time"
+    },
+    {
+      "type": "precondition",
+      "value": "dialogs.is_not_wounded1"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 29,
+  "entries": [
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_43#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 132,
+      "string_id": "dialogs_escape_43",
+      "occurrence": 1,
+      "EN": "You are too quiet. Would you mind telling me something amusing?",
+      "JA_current": "You are too quiet. Would you mind telling me something amusing?",
+      "JA_new": "静かだな。何か笑える話でもしてくれないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke2_stalker_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 421,
+      "string_id": "joke2_stalker_1",
+      "occurrence": 1,
+      "EN": "One stalker has finally managed to reach the Monolith. So there he stands, almost glowing from the rads, half-dead, thinking out a wish. And that's what he asked for: \"I want to piss vodka!\" \\n \\nBoom! He grabs a glass, takes a leak into it and drinks - perfect vodka! So, he easily gets rid of the radiation, gets himself proper drunk and goes back to the camp. In the camp he goes directly to Sidorovich's bunker, fills another glass and hands it to the trader. \\n \\n\"Drink it!\" \\n\"Are you nuts?!\", exclaimed Sidorovich. \\n\"It's cool, man, smell it!..\" \\n \\nThe whole day everybody in the camp is as pissed as a newt with \"Stalker's vodka\". The morning after, Sidorovich wakes up suffering from a severe hangover and asks the stalker for another glass for his bad head. \\n \\nAnd the stalker tells him: \"No, Sidorovich, it's payback time. How you treated me, is the same way I will treat you! Yesterday was just a free sample, but today... for money and straight from the 'bottle', you old profiteer!\"\n        ",
+      "JA_current": "One stalker has finally managed to reach the Monolith. So there he stands, almost glowing from the rads, half-dead, thinking out a wish. And that's what he asked for: \"I want to piss vodka!\" \\n \\nBoom! He grabs a glass, takes a leak into it and drinks - perfect vodka! So, he easily gets rid of the radiation, gets himself proper drunk and goes back to the camp. In the camp he goes directly to Sidorovich's bunker, fills another glass and hands it to the trader. \\n \\n\"Drink it!\" \\n\"Are you nuts?!\", exclaimed Sidorovich. \\n\"It's cool, man, smell it!..\" \\n \\nThe whole day everybody in the camp is as pissed as a newt with \"Stalker's vodka\". The morning after, Sidorovich wakes up suffering from a severe hangover and asks the stalker for another glass for his bad head. \\n \\nAnd the stalker tells him: \"No, Sidorovich, it's payback time. How you treated me, is the same way I will treat you! Yesterday was just a free sample, but today... for money and straight from the 'bottle', you old profiteer!\"\n        ",
+      "JA_new": "ついにモノリスまでたどり着いたストーカーがいた。放射線で今にも光りそうなほどボロボロになりながら、願いを考える。そして願った。「小便がウォッカになりますように！\\n\\n」ドカン！彼はグラスをつかみ、用を足して飲んでみた。完璧なウォッカだ！これで放射能を洗い流し、酔っぱらってキャンプに戻った。キャンプに着くと、まっすぐシドロヴィッチのバンカーへ行き、もう一杯注いで商人に差し出した。「飲めよ！」\\n\\n「気でも狂ったのか！\\n？」シドロヴィッチが叫ぶ。\\n「いいから匂いを嗅いでみろよ…\\n\\n…」その日はキャンプじゅうの連中が、ストーカー印のウォッカでベロンベロンになった。翌朝、ひどい二日酔いで目を覚ましたシドロヴィッチは、頭痛を治すのにもう一杯くれと頼んだ。\\n\\nストーカーは言った。「いや、シドロヴィッチ。今日は貸しを返す番だ。昨日お前にされた仕打ちを、そのまま返してやる。昨日はタダの試飲だったが、今日は金を取る。しかも『瓶』から直接だ、この守銭奴じじい！\n」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke2_stalker_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 426,
+      "string_id": "joke2_stalker_2",
+      "occurrence": 1,
+      "EN": "Sidorovich has found some rookie stalker, and gave him an offer.\n\\n\"Listen, sonny, I was given a new suit from the Kiev Research Institute. They wanted me to test it. It is supposed to protect fully from radiation, 100%. But I am an old man, all I can manage is to sit here all day. Why don't you take it, test it for several days, and then come and report to me. I can give you a discount on this one, let's say, half the price.\"\n\\nThe rookie took the suit and went out.\nSeveral days have passed.\nOne morning, the rookie enters Sidorovich's bunker, angry as a snork, and throws the suit on the table in front of the trader. Sidorovich looks at him in surprise.\n\\n\"So?! How did it work?\"\n\\n\"I don't want this crap.\"\n\\n\"But why? Isn't it protecting?\"\n\\n\"Yes, you can bet it is.\"\n\\n\"Completely?! 100%?!\"\n\\n\"Yes, 100%.\"\n\\n\"So what's wrong then?\"\n\\n\"You know how the whole Zone treats radiation exposure with vodka? Now, because of this suit of yours, I'VE BEEN SOBER FOR 4 DAYS ALREADY!!!!!\"\n        ",
+      "JA_current": "Sidorovich has found some rookie stalker, and gave him an offer.\n\\n\"Listen, sonny, I was given a new suit from the Kiev Research Institute. They wanted me to test it. It is supposed to protect fully from radiation, 100%. But I am an old man, all I can manage is to sit here all day. Why don't you take it, test it for several days, and then come and report to me. I can give you a discount on this one, let's say, half the price.\"\n\\nThe rookie took the suit and went out.\nSeveral days have passed.\nOne morning, the rookie enters Sidorovich's bunker, angry as a snork, and throws the suit on the table in front of the trader. Sidorovich looks at him in surprise.\n\\n\"So?! How did it work?\"\n\\n\"I don't want this crap.\"\n\\n\"But why? Isn't it protecting?\"\n\\n\"Yes, you can bet it is.\"\n\\n\"Completely?! 100%?!\"\n\\n\"Yes, 100%.\"\n\\n\"So what's wrong then?\"\n\\n\"You know how the whole Zone treats radiation exposure with vodka? Now, because of this suit of yours, I'VE BEEN SOBER FOR 4 DAYS ALREADY!!!!!\"\n        ",
+      "JA_new": "シドロヴィッチが新米ストーカーを見つけて、\n\\n取引を持ちかけた。「なあ、若いの。キエフ研究所から新しいスーツが届いた。試験を頼まれたんだ。放射線を100パーセント防ぐらしい。だが俺も年でな、ここに座ってるくらいしかできん。何日か着て試して、報告に来てくれないか。半額にしてやるよ」新米はスーツを持って出ていった。数日後。ある朝、\n\\n新米がスノークみたいに怒り狂ってシドロヴィッチのバンカーに入ってきて、\n\nスーツを商人の前のテーブルに叩きつけた。シドロヴィッチは驚いて尋ねた。「どうだった？」「こんなガラクタはいらない」\n\\n「なぜだ？\n\\nちゃんと防げなかったのか？」「いや、\n\\nよく効いたさ」「完全に？\n\\n100パーセント？\n\\n」「ああ、\n\\n100パーセントだ」\n\\n「じゃあ、\n\\n何が問題なんだ？」「ゾーンじゃ放射線を浴びた時、ウォッカで治すだろ？このスーツのせいで、もう4日もシラフなんだよ！\n！！」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke2_stalker_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 443,
+      "string_id": "joke2_stalker_3",
+      "occurrence": 1,
+      "EN": "A stalker wakes up in a luxurious villa. He looks around and sees a gorgeous naked blonde sleeping beside him and a couple of gentlemen in tuxedos playing cards at a table and chattering quietly. The stalker asks them: \"Who are you guys?\" \\n\"We are zombies.\" \\n\"How come???!!!\" \\n\"Don't you remember? You and Sidorovich got drunk yesterday, reached for the Monolith and started making wishes. First, you wanted to play poker and were lacking two players. It was then that you saw us. Second, it started raining, and Sidorovich wished for a house. After that you... Eh... How do I put it...\" \\n\"What?! What the fuck did I do!? And where's Sidorovich??\" \\nImmediately the blonde opens her eyes and speaks in a husky bass: \"GOT THE LOOT?\"\n        ",
+      "JA_current": "A stalker wakes up in a luxurious villa. He looks around and sees a gorgeous naked blonde sleeping beside him and a couple of gentlemen in tuxedos playing cards at a table and chattering quietly. The stalker asks them: \"Who are you guys?\" \\n\"We are zombies.\" \\n\"How come???!!!\" \\n\"Don't you remember? You and Sidorovich got drunk yesterday, reached for the Monolith and started making wishes. First, you wanted to play poker and were lacking two players. It was then that you saw us. Second, it started raining, and Sidorovich wished for a house. After that you... Eh... How do I put it...\" \\n\"What?! What the fuck did I do!? And where's Sidorovich??\" \\nImmediately the blonde opens her eyes and speaks in a husky bass: \"GOT THE LOOT?\"\n        ",
+      "JA_new": "ストーカーが豪華な別荘で目を覚ました。辺りを見ると、裸の金髪美女が隣で眠り、タキシード姿の紳士が2人、テーブルでカードをしながら小声で話している。「あんたたちは誰だ？」ストーカーが尋ねる。「俺たちはゾンビだ」\\n「どういうことだよ！\\n？」\\nゾンビは答えた。「覚えてないのか？昨日、お前とシドロヴィッチは酔っぱらってモノリスへ行き、願いをかけた。まず、お前はポーカーをしたがったが、相手が2人足りなかった。そこで俺たちを見つけた。次に雨が降ってきて、シドロヴィッチが家を願った。それからお前は……なんと言えばいいか…\\n…」「何をしたんだ！？シドロヴィッチはどこだ！？」\\nすると金髪美女が目を開け、低いしゃがれ声で言った。「戦利品は手に入ったか？\n」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke2_stalker_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 448,
+      "string_id": "joke2_stalker_4",
+      "occurrence": 1,
+      "EN": "An advertisement on the door to Sidorovich's bunker: \n\"Don't miss the new deal! Buy 2 \"kalashnikovs\", 800 \"fivers\", 3 Makarov pistols with 6 loaded magazines for them, 12 antirads (or 16 bottles of vodka), 18 medkits and 7 grenades - and get A BANDAGE FOR FREE!!!\" \n        ",
+      "JA_current": "An advertisement on the door to Sidorovich's bunker: \n\"Don't miss the new deal! Buy 2 \"kalashnikovs\", 800 \"fivers\", 3 Makarov pistols with 6 loaded magazines for them, 12 antirads (or 16 bottles of vodka), 18 medkits and 7 grenades - and get A BANDAGE FOR FREE!!!\" \n        ",
+      "JA_new": "シドロヴィッチのバンカーの扉に貼り紙があった。\n「新しいお買い得セットをお見逃しなく！カラシニコフ2丁、5.45ミリ弾800発、マカロフ3丁と装填済みマガジン各6本、アンチラッド12個（またはウォッカ16本）、メディキット18個、手榴弾7個をまとめて買うと、包帯を1枚プレゼント！\n」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke2_stalker_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 454,
+      "string_id": "joke2_stalker_5",
+      "occurrence": 1,
+      "EN": "Two stalkers are sitting by the campfire. One of them is strumming on his guitar and singing:\n        \\n\"Damnnnn! Damnnnn!\"\n        \\nOne hour passes like that...\n        \\n\"Damnnnn! Damnnn!\"\n        \\nfor another hour... Suddenly his companion says:\n        \\n\"Man! You must write down the song! It's so heart touching!..\"\n        ",
+      "JA_current": "Two stalkers are sitting by the campfire. One of them is strumming on his guitar and singing:\n        \\n\"Damnnnn! Damnnnn!\"\n        \\nOne hour passes like that...\n        \\n\"Damnnnn! Damnnn!\"\n        \\nfor another hour... Suddenly his companion says:\n        \\n\"Man! You must write down the song! It's so heart touching!..\"\n        ",
+      "JA_new": "焚き火のそばに、2人のストーカーが座っていた。片方がギターをかき鳴らし、歌っている。\n\\n「ちくしょおお！\n\\nちくしょおお！」1時間たっても、\n\\nまだ歌っていた。\n「ちくしょおお！\\nちくしょおお！」さらに1時間。\nすると仲間が言った。\\n「なあ、その歌、書き留めとけよ！胸に響くなあ…\n…」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke2_stalker_6#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 464,
+      "string_id": "joke2_stalker_6",
+      "occurrence": 1,
+      "EN": "Late night in the Bar. A drunk stalker lifts his head from the table, staggers to another stalker by the bar and asks if he could buy him a drink. \"Why of course,\" comes the reply. \\nThe first stalker then asks: \"Where are you from?\" \\n\"I'm from Moldova\", replies the second stalker. \\nThe first guy responds: \"You don't say, I'm from Moldova too! Let's have another round to Moldova.\" \\n\"Of course,\" replies the second man. \\nCurious, the first stalker then asks: \"Where in Moldova are you from?\" \\n\"Chishinau,\" comes the reply. \\n\"I can't believe it,\" says the first man. \"I'm from Chishinau too! Let's have another drink to Chishinau.\" \\n\"Of course,\" replies the second stalker. \\nCuriosity again strikes and the first lad asks: \"What school did you go to?\" \\n\"Number #1,\" replies the second fellow, \"I graduated in '97.\" \\n\"This is unbelievable!\", the first man says. \"I went to school number #1 and I graduated in '97, too!\" \\nAbout that time in comes one of the Dutyers and sits down at the bar. \"What's been going on?\" he asks Barkeep. \\n\"Nothing much,\" replies the bartender. \"The Popescu twins are drunk again.\"\n        ",
+      "JA_current": "Late night in the Bar. A drunk stalker lifts his head from the table, staggers to another stalker by the bar and asks if he could buy him a drink. \"Why of course,\" comes the reply. \\nThe first stalker then asks: \"Where are you from?\" \\n\"I'm from Moldova\", replies the second stalker. \\nThe first guy responds: \"You don't say, I'm from Moldova too! Let's have another round to Moldova.\" \\n\"Of course,\" replies the second man. \\nCurious, the first stalker then asks: \"Where in Moldova are you from?\" \\n\"Chishinau,\" comes the reply. \\n\"I can't believe it,\" says the first man. \"I'm from Chishinau too! Let's have another drink to Chishinau.\" \\n\"Of course,\" replies the second stalker. \\nCuriosity again strikes and the first lad asks: \"What school did you go to?\" \\n\"Number #1,\" replies the second fellow, \"I graduated in '97.\" \\n\"This is unbelievable!\", the first man says. \"I went to school number #1 and I graduated in '97, too!\" \\nAbout that time in comes one of the Dutyers and sits down at the bar. \"What's been going on?\" he asks Barkeep. \\n\"Nothing much,\" replies the bartender. \"The Popescu twins are drunk again.\"\n        ",
+      "JA_new": "深夜のロストク。酔っぱらったストーカーがテーブルから頭を上げ、ふらつきながらバーの別の客に近づいて酒をおごってくれないかと聞いた。\\n「もちろんだ」と返事が来た。\\n最初のストーカーが尋ねる。「どこの出身だ？\\n」「モルドバだ」と相手。「なんだ、俺もモルドバだ！モルドバに乾杯、\\nもう一杯いこう」「いいとも」\\n相手は答えた。気になったストーカーがまた尋ねる。\\n「モルドバのどこだ？\\n」「キシナウさ」「信じられないな。俺もキシナウだ！キシナウに乾杯しよう」\\n「もちろん」相手は答えた。\\nさらに気になって、最初の男が聞く。「どこの学校に通ってた？\\n」「第1学校だ。97年に卒業した」\\n「そんな偶然あるかよ！俺も第1学校を97年に卒業したぞ！」その時、\\nデューティー兵が1人入ってきて、バーのカウンターに座った。「何があった？」バーキープに尋ねる。\\n「別に。ポペスク兄弟がまた酔っぱらってるだけさ」\n",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke2_stalker_7#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 469,
+      "string_id": "joke2_stalker_7",
+      "occurrence": 1,
+      "EN": "Sidorovich:\n\"Ah... It's you, Vasyok... What have you got this time?\"\n\\n\"Just a bit of everything...\"\n- said the bloodsucker and laid out on the table a bunch of rifles and some outfits with blood stains on them...\n        ",
+      "JA_current": "Sidorovich:\n\"Ah... It's you, Vasyok... What have you got this time?\"\n\\n\"Just a bit of everything...\"\n- said the bloodsucker and laid out on the table a bunch of rifles and some outfits with blood stains on them...\n        ",
+      "JA_new": "\nシドロヴィッチが言った。「ああ……お前か、ヴァショーク。\n\\n今日は何を持ってきた？\n」吸血鬼は「いろいろ少しずつ」と言い、ライフルや血の染みた服をテーブルに並べた…\n…",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke2_stalker_8#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 477,
+      "string_id": "joke2_stalker_8",
+      "occurrence": 1,
+      "EN": "An advertisement on the door to Sidorovich's bunker: \n\\n\"Don't miss out! The \"Burner\" competition!!! \n\\nPass through a \"Burner\", consider yourself an experienced stalker.\n\\nDiscounts for those suffering from burns are guaranteed.\"\n        ",
+      "JA_current": "An advertisement on the door to Sidorovich's bunker: \n\\n\"Don't miss out! The \"Burner\" competition!!! \n\\nPass through a \"Burner\", consider yourself an experienced stalker.\n\\nDiscounts for those suffering from burns are guaranteed.\"\n        ",
+      "JA_new": "シドロヴィッチのバンカーの扉に貼り紙があった。\n\\n「見逃すな！『バーナー』\n\\n耐久コンテスト開催！『バーナー』を通り抜ければ、\n\\n一人前のストーカーだ。火傷した人には割引を保証！\n」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke2_stalker_9#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 485,
+      "string_id": "joke2_stalker_9",
+      "occurrence": 1,
+      "EN": "A stalker was staggering to the camp from a raid to the Garbage. Bad luck for him that day! The only loot he had found was a bottle of vodka. Not even the cheapest artifact! Nothing at all, but this bottle of vodka in his backpack. Occupied with his sad thoughts he did not notice the \"Springboard\", which tossed him backwards and he fell heavily. Struggling to his feet, he felt something wet running down his leg. \"Please, God,\" he implored, \"let it be blood!\" \n        ",
+      "JA_current": "A stalker was staggering to the camp from a raid to the Garbage. Bad luck for him that day! The only loot he had found was a bottle of vodka. Not even the cheapest artifact! Nothing at all, but this bottle of vodka in his backpack. Occupied with his sad thoughts he did not notice the \"Springboard\", which tossed him backwards and he fell heavily. Struggling to his feet, he felt something wet running down his leg. \"Please, God,\" he implored, \"let it be blood!\" \n        ",
+      "JA_new": "ガーベジの襲撃からキャンプへ戻るストーカーがいた。今日はついてない。見つけた戦利品はウォッカの瓶1本だけ。安物のアーティファクトすらない。背負い袋にあるのは酒だけだ。考え込んでいた彼は、スプリングボードに気づかなかった。後ろへ吹き飛ばされ、地面に叩きつけられる。立ち上がろうとすると、脚を何かが濡らしている。「頼む、神様……血であってくれ！\n」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke2_stalker_10#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 490,
+      "string_id": "joke2_stalker_10",
+      "occurrence": 1,
+      "EN": "A zombie shambles about the Zone and sees an artifact. He grabs it and continues to stagger aimlessly. At that moment a stalker catches up with the zombie, his cheeks hollow, outfit torn, eyes red... A pitiful sight, in a nutshell. \\nSo, the stalker says: \"Zombie, be so kind, give me the artifact! I've been after it for 10 days, ran out of food and ammo... Please! Will ya?\" \\n\"Hell no! I found it! It's mine!\" \\nBut the stalker keeps begging him, so finally, the zombie thinks a while and tells him: \"Ok, lets make a test. Whoever kicks his opponent's balls harder, wins and gets the artifact. But I will be the first to kick!\" \\nThe stalker thought a while and agreed. The zombie takes a run and performs a forceful blow! The guy almost pukes his balls up and falls down! \\nFinally, he comes to himself and tells the zombie: \"Ok, now it's my turn.\" \\n\"No. You may have the artifact - I don't need it anyway.\" \n        ",
+      "JA_current": "A zombie shambles about the Zone and sees an artifact. He grabs it and continues to stagger aimlessly. At that moment a stalker catches up with the zombie, his cheeks hollow, outfit torn, eyes red... A pitiful sight, in a nutshell. \\nSo, the stalker says: \"Zombie, be so kind, give me the artifact! I've been after it for 10 days, ran out of food and ammo... Please! Will ya?\" \\n\"Hell no! I found it! It's mine!\" \\nBut the stalker keeps begging him, so finally, the zombie thinks a while and tells him: \"Ok, lets make a test. Whoever kicks his opponent's balls harder, wins and gets the artifact. But I will be the first to kick!\" \\nThe stalker thought a while and agreed. The zombie takes a run and performs a forceful blow! The guy almost pukes his balls up and falls down! \\nFinally, he comes to himself and tells the zombie: \"Ok, now it's my turn.\" \\n\"No. You may have the artifact - I don't need it anyway.\" \n        ",
+      "JA_new": "ゾンビがゾーンをふらついていると、アーティファクトを見つけた。拾って、また当てもなく歩き続ける。そこへストーカーが追いついてきた。頬はこけ、服は破れ、目は充血している……ひどい有様だ。\\n「ゾンビ、頼む。アーティファクトをくれ！10日も追いかけてて、食料も弾薬も尽きたんだ。頼むよ！」ゾンビは言った。「嫌だ。\\n俺が見つけたんだ。俺のものだ！\\n」それでもストーカーが頼み続けるので、ゾンビは少し考えてから言った。「よし、勝負しよう。相手の急所を強く蹴った方が勝ち、アーティファクトももらえる。ただし、最初に蹴るのは俺だ」\\nストーカーは考えて、承知した。ゾンビが勢いをつけて、思いきり蹴り上げる！男は玉を吐き出しそうになって倒れた。\\nようやく意識を取り戻し、ゾンビに言う。「よし、次は俺の番だ」「いや。\\nアーティファクトはお前にやるよ。俺にはもういらない」\n",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke2_stalker_11#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 495,
+      "string_id": "joke2_stalker_11",
+      "occurrence": 1,
+      "EN": "In a period of truce between Duty and Freedom, two militants of these factions get into an argument. The Dutyer keeps shouting that mutants must be exterminated, while the Freedomer says they have the right to live and some of them are even like humans. \\n \\nThe Dutyer gets pissed and tries to prove they aren't: \"Mutants can't talk!\" \\n\"Zombies can.\" \\n\"They cannot express feelings!\" \\n\"Controllers can.\" \\n\"They can not love!\" \\n\"They've got a similar feeling. They take care of others of their kind.\" \\n\"They... they... they can not stutter!\" \\nThe Freedomer thinks a while, then says: \"Sure they do! I was at the Garbage the other day to get some weed from a supplier, and there was a cat nearby. After some time a pack of blind dogs came, and the cat went \"ffffffff! ffffffffff! fffffffff!\", and before he could say \"FUCK OFF!\", the dogs ate him!\" \n        ",
+      "JA_current": "In a period of truce between Duty and Freedom, two militants of these factions get into an argument. The Dutyer keeps shouting that mutants must be exterminated, while the Freedomer says they have the right to live and some of them are even like humans. \\n \\nThe Dutyer gets pissed and tries to prove they aren't: \"Mutants can't talk!\" \\n\"Zombies can.\" \\n\"They cannot express feelings!\" \\n\"Controllers can.\" \\n\"They can not love!\" \\n\"They've got a similar feeling. They take care of others of their kind.\" \\n\"They... they... they can not stutter!\" \\nThe Freedomer thinks a while, then says: \"Sure they do! I was at the Garbage the other day to get some weed from a supplier, and there was a cat nearby. After some time a pack of blind dogs came, and the cat went \"ffffffff! ffffffffff! fffffffff!\", and before he could say \"FUCK OFF!\", the dogs ate him!\" \n        ",
+      "JA_new": "デューティーとフリーダムが休戦していた頃、両派の兵士が言い争いになった。デューティー兵はミュータントを根絶すべきだと叫び、フリーダム兵は奴らにも生きる権利があり、中には人間に近いものもいると言い返す。腹を立てたデューティー兵は、\\n\\nミュータントは人間ではないと証明しようとした。\\n「ミュータントはしゃべれない！\\n」「ゾンビはしゃべる」\\n「感情も表せない！」\\n「コントローラーは表す」\\n「愛することもできない！」「似たような感情はある。\\n同族を気遣うだろ」「そ、それに……\\nどもることもない！」フリーダム兵は少し考えてから答えた。「どもるさ！この前、ガーベジに草を仕入れに行ったら、近くにネコがいたんだ。しばらくしてブラインドドッグの群れが来た。ネコは『フーッ！フーッ！フーッ！』って威嚇してたが、『あっち行け！』と言い切る前に犬どもに食われちまった！\n」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke2_stalker_12#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 500,
+      "string_id": "joke2_stalker_12",
+      "occurrence": 1,
+      "EN": "A controller got bored of life. Playing with the minds of soldiers at Agroprom was no longer interesting - they had nothing in their heads other than thoughts of girls and demobilization. Veteran stalkers were no better - their minds were usually completely dulled with the vodka they drink to combat radiation... Rookies were too afraid to enter the tunnels - so their minds were not within reach... Life became so damn boring! So the controller went to Sidorovich to seek advice. \\n \\nSidorovich stared at him with his lackluster eyes, hiccuped, took another gulp from the bottle and said: \"You are too scary! Change your public image! Put some foolish cap on, apply some make-up, learn to smile, for example... Use your abilities for something else, stop scaring people...\"\n\\n \\nNot long after that the famous clown Yuri Kuklachev made his first debut with his band of trained cats...\n        ",
+      "JA_current": "A controller got bored of life. Playing with the minds of soldiers at Agroprom was no longer interesting - they had nothing in their heads other than thoughts of girls and demobilization. Veteran stalkers were no better - their minds were usually completely dulled with the vodka they drink to combat radiation... Rookies were too afraid to enter the tunnels - so their minds were not within reach... Life became so damn boring! So the controller went to Sidorovich to seek advice. \\n \\nSidorovich stared at him with his lackluster eyes, hiccuped, took another gulp from the bottle and said: \"You are too scary! Change your public image! Put some foolish cap on, apply some make-up, learn to smile, for example... Use your abilities for something else, stop scaring people...\"\n\\n \\nNot long after that the famous clown Yuri Kuklachev made his first debut with his band of trained cats...\n        ",
+      "JA_new": "コントローラーは生きるのに飽きていた。アフロプロムで兵士の心を操るのも、もう面白くない。頭の中は女の子と除隊のことばかりだ。古参ストーカーも同じようなもの。放射能対策に飲むウォッカで、頭がすっかり鈍っている。新米はトンネルに入るのを怖がるから、心を操ることもできない。人生は退屈で仕方がない！そこでコントローラーは、シドロヴィッチに相談しに行った。\\n\\nシドロヴィッチは生気のない目で彼を見つめ、しゃっくりをし、瓶から一口飲んで言った。「お前は見た目が怖すぎるんだ！イメージを変えろ。変な帽子をかぶって、化粧して、笑顔の練習でもしろ。能力を別のことに使って、人を怖がらせるのはやめろ……\n\\n」\\nそれから間もなく、猫の調教師団を率いるユーリ・ククラチョフが華々しくデビューした…\n…",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:joke2_stalker_13#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 506,
+      "string_id": "joke2_stalker_13",
+      "occurrence": 1,
+      "EN": "Sidorovich tells his bodyguard:\n\"I'm going to bed now, but make sure you wake me up when I want to drink some vodka.\"\n\\n\"How will I know exactly the moment you want to drink?\"\n\\n\"Just wake me up and then it will come.\" \n        ",
+      "JA_current": "Sidorovich tells his bodyguard:\n\"I'm going to bed now, but make sure you wake me up when I want to drink some vodka.\"\n\\n\"How will I know exactly the moment you want to drink?\"\n\\n\"Just wake me up and then it will come.\" \n        ",
+      "JA_new": "シドロヴィッチは護衛に言った。\n「もう寝る。ウォッカが飲みたくなったら起こしてくれ」\n\\n「いつ飲みたくなるか、どうやって分かるんです？」\n\\n「とにかく起こせ。そしたら飲みたくなる」\n",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_44#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 135,
+      "string_id": "dialogs_escape_44",
+      "occurrence": 1,
+      "EN": "Maybe some other time. Not in the mood right now.",
+      "JA_current": "Maybe some other time. Not in the mood right now.",
+      "JA_new": "また今度だ。今はそんな気分じゃない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_46#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 141,
+      "string_id": "dialogs_escape_46",
+      "occurrence": 1,
+      "EN": "Yeah, that was really something.",
+      "JA_current": "Yeah, that was really something.",
+      "JA_new": "いやあ、すごい話だった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "16",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_47#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 144,
+      "string_id": "dialogs_escape_47",
+      "occurrence": 1,
+      "EN": "Funny.",
+      "JA_current": "Funny.",
+      "JA_new": "面白いな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "17",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_48#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 147,
+      "string_id": "dialogs_escape_48",
+      "occurrence": 1,
+      "EN": "You've made me laugh!",
+      "JA_current": "You've made me laugh!",
+      "JA_new": "笑わせてくれたな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "18",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_49#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 150,
+      "string_id": "dialogs_escape_49",
+      "occurrence": 1,
+      "EN": "Yeah, that was a pretty funny one.",
+      "JA_current": "Yeah, that was a pretty funny one.",
+      "JA_new": "かなり笑える話だった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "19",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_50#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 153,
+      "string_id": "dialogs_escape_50",
+      "occurrence": 1,
+      "EN": "Good joke, good entertainment.",
+      "JA_current": "Good joke, good entertainment.",
+      "JA_new": "いい冗談だ。楽しめたよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "20",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_51#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 156,
+      "string_id": "dialogs_escape_51",
+      "occurrence": 1,
+      "EN": "You are good at this.",
+      "JA_current": "You are good at this.",
+      "JA_new": "話がうまいな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_52#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 159,
+      "string_id": "dialogs_escape_52",
+      "occurrence": 1,
+      "EN": "Nice one, man!",
+      "JA_current": "Nice one, man!",
+      "JA_new": "いいね、兄弟！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "22",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_53#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 162,
+      "string_id": "dialogs_escape_53",
+      "occurrence": 1,
+      "EN": "Good one!",
+      "JA_current": "Good one!",
+      "JA_new": "傑作だ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "23",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_54#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 165,
+      "string_id": "dialogs_escape_54",
+      "occurrence": 1,
+      "EN": "You've raised my spirits, thanks.",
+      "JA_current": "You've raised my spirits, thanks.",
+      "JA_new": "元気が出た。ありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "24",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_55#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 168,
+      "string_id": "dialogs_escape_55",
+      "occurrence": 1,
+      "EN": "How refreshing.",
+      "JA_current": "How refreshing.",
+      "JA_new": "気分がすっきりしたよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "25",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_56#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 171,
+      "string_id": "dialogs_escape_56",
+      "occurrence": 1,
+      "EN": "How funny!",
+      "JA_current": "How funny!",
+      "JA_new": "おもしろいな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "26",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_57#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 174,
+      "string_id": "dialogs_escape_57",
+      "occurrence": 1,
+      "EN": "Quite amusing.",
+      "JA_current": "Quite amusing.",
+      "JA_new": "なかなか笑える。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "27",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_58#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 177,
+      "string_id": "dialogs_escape_58",
+      "occurrence": 1,
+      "EN": "You are a real story-teller, dude!",
+      "JA_current": "You are a real story-teller, dude!",
+      "JA_new": "本当によく語るな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "28",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_45#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 138,
+      "string_id": "dialogs_escape_45",
+      "occurrence": 1,
+      "EN": "Ok. Thanks for the amusement.",
+      "JA_current": "Ok. Thanks for the amusement.",
+      "JA_new": "分かった。楽しませてくれてありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "joke_stalker2",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "dialogs_escape_43",
+      "next": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.joke_precondition"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You are too quiet. Would you mind telling me something amusing?",
+      "JA_current": "You are too quiet. Would you mind telling me something amusing?",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_43#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "joke2_stalker_1",
+      "next": [
+        "16"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc1"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "One stalker has finally managed to reach the Monolith. So there he stands, almost glowing from the rads, half-dead, thinking out a wish. And that's what he asked for: \"I want to piss vodka!\" \\n \\nBoom! He grabs a glass, takes a leak into it and drinks - perfect vodka! So, he easily gets rid of the radiation, gets himself proper drunk and goes back to the camp. In the camp he goes directly to Sidorovich's bunker, fills another glass and hands it to the trader. \\n \\n\"Drink it!\" \\n\"Are you nuts?!\", exclaimed Sidorovich. \\n\"It's cool, man, smell it!..\" \\n \\nThe whole day everybody in the camp is as pissed as a newt with \"Stalker's vodka\". The morning after, Sidorovich wakes up suffering from a severe hangover and asks the stalker for another glass for his bad head. \\n \\nAnd the stalker tells him: \"No, Sidorovich, it's payback time. How you treated me, is the same way I will treat you! Yesterday was just a free sample, but today... for money and straight from the 'bottle', you old profiteer!\"\n        ",
+      "JA_current": "One stalker has finally managed to reach the Monolith. So there he stands, almost glowing from the rads, half-dead, thinking out a wish. And that's what he asked for: \"I want to piss vodka!\" \\n \\nBoom! He grabs a glass, takes a leak into it and drinks - perfect vodka! So, he easily gets rid of the radiation, gets himself proper drunk and goes back to the camp. In the camp he goes directly to Sidorovich's bunker, fills another glass and hands it to the trader. \\n \\n\"Drink it!\" \\n\"Are you nuts?!\", exclaimed Sidorovich. \\n\"It's cool, man, smell it!..\" \\n \\nThe whole day everybody in the camp is as pissed as a newt with \"Stalker's vodka\". The morning after, Sidorovich wakes up suffering from a severe hangover and asks the stalker for another glass for his bad head. \\n \\nAnd the stalker tells him: \"No, Sidorovich, it's payback time. How you treated me, is the same way I will treat you! Yesterday was just a free sample, but today... for money and straight from the 'bottle', you old profiteer!\"\n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke2_stalker_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "joke2_stalker_2",
+      "next": [
+        "17"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc2"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sidorovich has found some rookie stalker, and gave him an offer.\n\\n\"Listen, sonny, I was given a new suit from the Kiev Research Institute. They wanted me to test it. It is supposed to protect fully from radiation, 100%. But I am an old man, all I can manage is to sit here all day. Why don't you take it, test it for several days, and then come and report to me. I can give you a discount on this one, let's say, half the price.\"\n\\nThe rookie took the suit and went out.\nSeveral days have passed.\nOne morning, the rookie enters Sidorovich's bunker, angry as a snork, and throws the suit on the table in front of the trader. Sidorovich looks at him in surprise.\n\\n\"So?! How did it work?\"\n\\n\"I don't want this crap.\"\n\\n\"But why? Isn't it protecting?\"\n\\n\"Yes, you can bet it is.\"\n\\n\"Completely?! 100%?!\"\n\\n\"Yes, 100%.\"\n\\n\"So what's wrong then?\"\n\\n\"You know how the whole Zone treats radiation exposure with vodka? Now, because of this suit of yours, I'VE BEEN SOBER FOR 4 DAYS ALREADY!!!!!\"\n        ",
+      "JA_current": "Sidorovich has found some rookie stalker, and gave him an offer.\n\\n\"Listen, sonny, I was given a new suit from the Kiev Research Institute. They wanted me to test it. It is supposed to protect fully from radiation, 100%. But I am an old man, all I can manage is to sit here all day. Why don't you take it, test it for several days, and then come and report to me. I can give you a discount on this one, let's say, half the price.\"\n\\nThe rookie took the suit and went out.\nSeveral days have passed.\nOne morning, the rookie enters Sidorovich's bunker, angry as a snork, and throws the suit on the table in front of the trader. Sidorovich looks at him in surprise.\n\\n\"So?! How did it work?\"\n\\n\"I don't want this crap.\"\n\\n\"But why? Isn't it protecting?\"\n\\n\"Yes, you can bet it is.\"\n\\n\"Completely?! 100%?!\"\n\\n\"Yes, 100%.\"\n\\n\"So what's wrong then?\"\n\\n\"You know how the whole Zone treats radiation exposure with vodka? Now, because of this suit of yours, I'VE BEEN SOBER FOR 4 DAYS ALREADY!!!!!\"\n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke2_stalker_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "joke2_stalker_3",
+      "next": [
+        "18"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc3"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A stalker wakes up in a luxurious villa. He looks around and sees a gorgeous naked blonde sleeping beside him and a couple of gentlemen in tuxedos playing cards at a table and chattering quietly. The stalker asks them: \"Who are you guys?\" \\n\"We are zombies.\" \\n\"How come???!!!\" \\n\"Don't you remember? You and Sidorovich got drunk yesterday, reached for the Monolith and started making wishes. First, you wanted to play poker and were lacking two players. It was then that you saw us. Second, it started raining, and Sidorovich wished for a house. After that you... Eh... How do I put it...\" \\n\"What?! What the fuck did I do!? And where's Sidorovich??\" \\nImmediately the blonde opens her eyes and speaks in a husky bass: \"GOT THE LOOT?\"\n        ",
+      "JA_current": "A stalker wakes up in a luxurious villa. He looks around and sees a gorgeous naked blonde sleeping beside him and a couple of gentlemen in tuxedos playing cards at a table and chattering quietly. The stalker asks them: \"Who are you guys?\" \\n\"We are zombies.\" \\n\"How come???!!!\" \\n\"Don't you remember? You and Sidorovich got drunk yesterday, reached for the Monolith and started making wishes. First, you wanted to play poker and were lacking two players. It was then that you saw us. Second, it started raining, and Sidorovich wished for a house. After that you... Eh... How do I put it...\" \\n\"What?! What the fuck did I do!? And where's Sidorovich??\" \\nImmediately the blonde opens her eyes and speaks in a husky bass: \"GOT THE LOOT?\"\n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke2_stalker_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "joke2_stalker_4",
+      "next": [
+        "19"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc4"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "An advertisement on the door to Sidorovich's bunker: \n\"Don't miss the new deal! Buy 2 \"kalashnikovs\", 800 \"fivers\", 3 Makarov pistols with 6 loaded magazines for them, 12 antirads (or 16 bottles of vodka), 18 medkits and 7 grenades - and get A BANDAGE FOR FREE!!!\" \n        ",
+      "JA_current": "An advertisement on the door to Sidorovich's bunker: \n\"Don't miss the new deal! Buy 2 \"kalashnikovs\", 800 \"fivers\", 3 Makarov pistols with 6 loaded magazines for them, 12 antirads (or 16 bottles of vodka), 18 medkits and 7 grenades - and get A BANDAGE FOR FREE!!!\" \n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke2_stalker_4#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "joke2_stalker_5",
+      "next": [
+        "20"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc5"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Two stalkers are sitting by the campfire. One of them is strumming on his guitar and singing:\n        \\n\"Damnnnn! Damnnnn!\"\n        \\nOne hour passes like that...\n        \\n\"Damnnnn! Damnnn!\"\n        \\nfor another hour... Suddenly his companion says:\n        \\n\"Man! You must write down the song! It's so heart touching!..\"\n        ",
+      "JA_current": "Two stalkers are sitting by the campfire. One of them is strumming on his guitar and singing:\n        \\n\"Damnnnn! Damnnnn!\"\n        \\nOne hour passes like that...\n        \\n\"Damnnnn! Damnnn!\"\n        \\nfor another hour... Suddenly his companion says:\n        \\n\"Man! You must write down the song! It's so heart touching!..\"\n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke2_stalker_5#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "joke2_stalker_6",
+      "next": [
+        "21"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc6"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Late night in the Bar. A drunk stalker lifts his head from the table, staggers to another stalker by the bar and asks if he could buy him a drink. \"Why of course,\" comes the reply. \\nThe first stalker then asks: \"Where are you from?\" \\n\"I'm from Moldova\", replies the second stalker. \\nThe first guy responds: \"You don't say, I'm from Moldova too! Let's have another round to Moldova.\" \\n\"Of course,\" replies the second man. \\nCurious, the first stalker then asks: \"Where in Moldova are you from?\" \\n\"Chishinau,\" comes the reply. \\n\"I can't believe it,\" says the first man. \"I'm from Chishinau too! Let's have another drink to Chishinau.\" \\n\"Of course,\" replies the second stalker. \\nCuriosity again strikes and the first lad asks: \"What school did you go to?\" \\n\"Number #1,\" replies the second fellow, \"I graduated in '97.\" \\n\"This is unbelievable!\", the first man says. \"I went to school number #1 and I graduated in '97, too!\" \\nAbout that time in comes one of the Dutyers and sits down at the bar. \"What's been going on?\" he asks Barkeep. \\n\"Nothing much,\" replies the bartender. \"The Popescu twins are drunk again.\"\n        ",
+      "JA_current": "Late night in the Bar. A drunk stalker lifts his head from the table, staggers to another stalker by the bar and asks if he could buy him a drink. \"Why of course,\" comes the reply. \\nThe first stalker then asks: \"Where are you from?\" \\n\"I'm from Moldova\", replies the second stalker. \\nThe first guy responds: \"You don't say, I'm from Moldova too! Let's have another round to Moldova.\" \\n\"Of course,\" replies the second man. \\nCurious, the first stalker then asks: \"Where in Moldova are you from?\" \\n\"Chishinau,\" comes the reply. \\n\"I can't believe it,\" says the first man. \"I'm from Chishinau too! Let's have another drink to Chishinau.\" \\n\"Of course,\" replies the second stalker. \\nCuriosity again strikes and the first lad asks: \"What school did you go to?\" \\n\"Number #1,\" replies the second fellow, \"I graduated in '97.\" \\n\"This is unbelievable!\", the first man says. \"I went to school number #1 and I graduated in '97, too!\" \\nAbout that time in comes one of the Dutyers and sits down at the bar. \"What's been going on?\" he asks Barkeep. \\n\"Nothing much,\" replies the bartender. \"The Popescu twins are drunk again.\"\n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke2_stalker_6#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "joke2_stalker_7",
+      "next": [
+        "22"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc7"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sidorovich:\n\"Ah... It's you, Vasyok... What have you got this time?\"\n\\n\"Just a bit of everything...\"\n- said the bloodsucker and laid out on the table a bunch of rifles and some outfits with blood stains on them...\n        ",
+      "JA_current": "Sidorovich:\n\"Ah... It's you, Vasyok... What have you got this time?\"\n\\n\"Just a bit of everything...\"\n- said the bloodsucker and laid out on the table a bunch of rifles and some outfits with blood stains on them...\n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke2_stalker_7#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "joke2_stalker_8",
+      "next": [
+        "23"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc8"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "An advertisement on the door to Sidorovich's bunker: \n\\n\"Don't miss out! The \"Burner\" competition!!! \n\\nPass through a \"Burner\", consider yourself an experienced stalker.\n\\nDiscounts for those suffering from burns are guaranteed.\"\n        ",
+      "JA_current": "An advertisement on the door to Sidorovich's bunker: \n\\n\"Don't miss out! The \"Burner\" competition!!! \n\\nPass through a \"Burner\", consider yourself an experienced stalker.\n\\nDiscounts for those suffering from burns are guaranteed.\"\n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke2_stalker_8#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "joke2_stalker_9",
+      "next": [
+        "24"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc9"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A stalker was staggering to the camp from a raid to the Garbage. Bad luck for him that day! The only loot he had found was a bottle of vodka. Not even the cheapest artifact! Nothing at all, but this bottle of vodka in his backpack. Occupied with his sad thoughts he did not notice the \"Springboard\", which tossed him backwards and he fell heavily. Struggling to his feet, he felt something wet running down his leg. \"Please, God,\" he implored, \"let it be blood!\" \n        ",
+      "JA_current": "A stalker was staggering to the camp from a raid to the Garbage. Bad luck for him that day! The only loot he had found was a bottle of vodka. Not even the cheapest artifact! Nothing at all, but this bottle of vodka in his backpack. Occupied with his sad thoughts he did not notice the \"Springboard\", which tossed him backwards and he fell heavily. Struggling to his feet, he felt something wet running down his leg. \"Please, God,\" he implored, \"let it be blood!\" \n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke2_stalker_9#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "joke2_stalker_10",
+      "next": [
+        "25"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc10"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A zombie shambles about the Zone and sees an artifact. He grabs it and continues to stagger aimlessly. At that moment a stalker catches up with the zombie, his cheeks hollow, outfit torn, eyes red... A pitiful sight, in a nutshell. \\nSo, the stalker says: \"Zombie, be so kind, give me the artifact! I've been after it for 10 days, ran out of food and ammo... Please! Will ya?\" \\n\"Hell no! I found it! It's mine!\" \\nBut the stalker keeps begging him, so finally, the zombie thinks a while and tells him: \"Ok, lets make a test. Whoever kicks his opponent's balls harder, wins and gets the artifact. But I will be the first to kick!\" \\nThe stalker thought a while and agreed. The zombie takes a run and performs a forceful blow! The guy almost pukes his balls up and falls down! \\nFinally, he comes to himself and tells the zombie: \"Ok, now it's my turn.\" \\n\"No. You may have the artifact - I don't need it anyway.\" \n        ",
+      "JA_current": "A zombie shambles about the Zone and sees an artifact. He grabs it and continues to stagger aimlessly. At that moment a stalker catches up with the zombie, his cheeks hollow, outfit torn, eyes red... A pitiful sight, in a nutshell. \\nSo, the stalker says: \"Zombie, be so kind, give me the artifact! I've been after it for 10 days, ran out of food and ammo... Please! Will ya?\" \\n\"Hell no! I found it! It's mine!\" \\nBut the stalker keeps begging him, so finally, the zombie thinks a while and tells him: \"Ok, lets make a test. Whoever kicks his opponent's balls harder, wins and gets the artifact. But I will be the first to kick!\" \\nThe stalker thought a while and agreed. The zombie takes a run and performs a forceful blow! The guy almost pukes his balls up and falls down! \\nFinally, he comes to himself and tells the zombie: \"Ok, now it's my turn.\" \\n\"No. You may have the artifact - I don't need it anyway.\" \n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke2_stalker_10#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "joke2_stalker_11",
+      "next": [
+        "26"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc11"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "In a period of truce between Duty and Freedom, two militants of these factions get into an argument. The Dutyer keeps shouting that mutants must be exterminated, while the Freedomer says they have the right to live and some of them are even like humans. \\n \\nThe Dutyer gets pissed and tries to prove they aren't: \"Mutants can't talk!\" \\n\"Zombies can.\" \\n\"They cannot express feelings!\" \\n\"Controllers can.\" \\n\"They can not love!\" \\n\"They've got a similar feeling. They take care of others of their kind.\" \\n\"They... they... they can not stutter!\" \\nThe Freedomer thinks a while, then says: \"Sure they do! I was at the Garbage the other day to get some weed from a supplier, and there was a cat nearby. After some time a pack of blind dogs came, and the cat went \"ffffffff! ffffffffff! fffffffff!\", and before he could say \"FUCK OFF!\", the dogs ate him!\" \n        ",
+      "JA_current": "In a period of truce between Duty and Freedom, two militants of these factions get into an argument. The Dutyer keeps shouting that mutants must be exterminated, while the Freedomer says they have the right to live and some of them are even like humans. \\n \\nThe Dutyer gets pissed and tries to prove they aren't: \"Mutants can't talk!\" \\n\"Zombies can.\" \\n\"They cannot express feelings!\" \\n\"Controllers can.\" \\n\"They can not love!\" \\n\"They've got a similar feeling. They take care of others of their kind.\" \\n\"They... they... they can not stutter!\" \\nThe Freedomer thinks a while, then says: \"Sure they do! I was at the Garbage the other day to get some weed from a supplier, and there was a cat nearby. After some time a pack of blind dogs came, and the cat went \"ffffffff! ffffffffff! fffffffff!\", and before he could say \"FUCK OFF!\", the dogs ate him!\" \n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke2_stalker_11#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "joke2_stalker_12",
+      "next": [
+        "27"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc12"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A controller got bored of life. Playing with the minds of soldiers at Agroprom was no longer interesting - they had nothing in their heads other than thoughts of girls and demobilization. Veteran stalkers were no better - their minds were usually completely dulled with the vodka they drink to combat radiation... Rookies were too afraid to enter the tunnels - so their minds were not within reach... Life became so damn boring! So the controller went to Sidorovich to seek advice. \\n \\nSidorovich stared at him with his lackluster eyes, hiccuped, took another gulp from the bottle and said: \"You are too scary! Change your public image! Put some foolish cap on, apply some make-up, learn to smile, for example... Use your abilities for something else, stop scaring people...\"\n\\n \\nNot long after that the famous clown Yuri Kuklachev made his first debut with his band of trained cats...\n        ",
+      "JA_current": "A controller got bored of life. Playing with the minds of soldiers at Agroprom was no longer interesting - they had nothing in their heads other than thoughts of girls and demobilization. Veteran stalkers were no better - their minds were usually completely dulled with the vodka they drink to combat radiation... Rookies were too afraid to enter the tunnels - so their minds were not within reach... Life became so damn boring! So the controller went to Sidorovich to seek advice. \\n \\nSidorovich stared at him with his lackluster eyes, hiccuped, took another gulp from the bottle and said: \"You are too scary! Change your public image! Put some foolish cap on, apply some make-up, learn to smile, for example... Use your abilities for something else, stop scaring people...\"\n\\n \\nNot long after that the famous clown Yuri Kuklachev made his first debut with his band of trained cats...\n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke2_stalker_12#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "joke2_stalker_13",
+      "next": [
+        "28"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc13"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sidorovich tells his bodyguard:\n\"I'm going to bed now, but make sure you wake me up when I want to drink some vodka.\"\n\\n\"How will I know exactly the moment you want to drink?\"\n\\n\"Just wake me up and then it will come.\" \n        ",
+      "JA_current": "Sidorovich tells his bodyguard:\n\"I'm going to bed now, but make sure you wake me up when I want to drink some vodka.\"\n\\n\"How will I know exactly the moment you want to drink?\"\n\\n\"Just wake me up and then it will come.\" \n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:joke2_stalker_13#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "dialogs_escape_44",
+      "next": [
+        "15"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc14"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Maybe some other time. Not in the mood right now.",
+      "JA_current": "Maybe some other time. Not in the mood right now.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_44#1"
+      ]
+    },
+    {
+      "phrase_id": "16",
+      "text_id": "dialogs_escape_46",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        },
+        {
+          "type": "action",
+          "value": "joke_and_history.block_begin_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, that was really something.",
+      "JA_current": "Yeah, that was really something.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_46#1"
+      ]
+    },
+    {
+      "phrase_id": "17",
+      "text_id": "dialogs_escape_47",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        },
+        {
+          "type": "action",
+          "value": "joke_and_history.block_begin_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Funny.",
+      "JA_current": "Funny.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_47#1"
+      ]
+    },
+    {
+      "phrase_id": "18",
+      "text_id": "dialogs_escape_48",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        },
+        {
+          "type": "action",
+          "value": "joke_and_history.block_begin_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You've made me laugh!",
+      "JA_current": "You've made me laugh!",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_48#1"
+      ]
+    },
+    {
+      "phrase_id": "19",
+      "text_id": "dialogs_escape_49",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        },
+        {
+          "type": "action",
+          "value": "joke_and_history.block_begin_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, that was a pretty funny one.",
+      "JA_current": "Yeah, that was a pretty funny one.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_49#1"
+      ]
+    },
+    {
+      "phrase_id": "20",
+      "text_id": "dialogs_escape_50",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        },
+        {
+          "type": "action",
+          "value": "joke_and_history.block_begin_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Good joke, good entertainment.",
+      "JA_current": "Good joke, good entertainment.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_50#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "dialogs_escape_51",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.block_begin_dialog"
+        },
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You are good at this.",
+      "JA_current": "You are good at this.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_51#1"
+      ]
+    },
+    {
+      "phrase_id": "22",
+      "text_id": "dialogs_escape_52",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        },
+        {
+          "type": "action",
+          "value": "joke_and_history.block_begin_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Nice one, man!",
+      "JA_current": "Nice one, man!",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_52#1"
+      ]
+    },
+    {
+      "phrase_id": "23",
+      "text_id": "dialogs_escape_53",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        },
+        {
+          "type": "action",
+          "value": "joke_and_history.block_begin_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Good one!",
+      "JA_current": "Good one!",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_53#1"
+      ]
+    },
+    {
+      "phrase_id": "24",
+      "text_id": "dialogs_escape_54",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        },
+        {
+          "type": "action",
+          "value": "joke_and_history.block_begin_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You've raised my spirits, thanks.",
+      "JA_current": "You've raised my spirits, thanks.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_54#1"
+      ]
+    },
+    {
+      "phrase_id": "25",
+      "text_id": "dialogs_escape_55",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        },
+        {
+          "type": "action",
+          "value": "joke_and_history.block_begin_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "How refreshing.",
+      "JA_current": "How refreshing.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_55#1"
+      ]
+    },
+    {
+      "phrase_id": "26",
+      "text_id": "dialogs_escape_56",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        },
+        {
+          "type": "action",
+          "value": "joke_and_history.block_begin_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "How funny!",
+      "JA_current": "How funny!",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_56#1"
+      ]
+    },
+    {
+      "phrase_id": "27",
+      "text_id": "dialogs_escape_57",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        },
+        {
+          "type": "action",
+          "value": "joke_and_history.block_begin_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Quite amusing.",
+      "JA_current": "Quite amusing.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_57#1"
+      ]
+    },
+    {
+      "phrase_id": "28",
+      "text_id": "dialogs_escape_58",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.change_r"
+        },
+        {
+          "type": "action",
+          "value": "joke_and_history.block_begin_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You are a real story-teller, dude!",
+      "JA_current": "You are a real story-teller, dude!",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_58#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "dialogs_escape_45",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.block_begin_dialog"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Ok. Thanks for the amusement.",
+      "JA_current": "Ok. Thanks for the amusement.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_45#1"
+      ]
+    }
+  ]
+}

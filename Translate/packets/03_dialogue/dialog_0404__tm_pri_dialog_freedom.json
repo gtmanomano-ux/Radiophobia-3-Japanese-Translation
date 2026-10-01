@@ -1,0 +1,213 @@
+{
+  "packet_id": "dialog_0404__tm_pri_dialog_freedom",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "tm_pri_dialog_freedom",
+  "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml",
+  "graph_sha256": "8bb9195290d87fda40f45e7ab7e4ed73c832c18ca04c708134554149eea56b2a",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "ogsm_quests.kill_freedom_precondition"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 3,
+  "entries": [
+    {
+      "key": "stable_dialogs_pripyat:pri_2_est_delicatnoe_delo#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 51,
+      "string_id": "pri_2_est_delicatnoe_delo",
+      "occurrence": 1,
+      "EN": "You may have dealt masterfully with many tasks during your \"career\"... But I have a REALLY serious assignment for a REAL pro now: to eliminate... the leaders of the \"Freedom\" faction.",
+      "JA_current": "You may have dealt masterfully with many tasks during your \"career\"... But I have a REALLY serious assignment for a REAL pro now: to eliminate... the leaders of the \"Freedom\" faction.",
+      "JA_new": "これまでの「仕事」は、そつなくこなしてきたようだな……だが今度は、腕のある本物のプロに頼みたい、極めて重大な任務だ。フリーダムの指導者たちを……始末してもらう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "tm_pri_dialog_freedom",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:pri_2_znayu#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 54,
+      "string_id": "pri_2_znayu",
+      "occurrence": 1,
+      "EN": "Heh, good luck finding someone to take this up! Those guys are holed up in a well defended base surrounded by dozens of skilled soldiers! Am I to just waltz into the base, waving my hands around and hope the leaders die of a heart attack?!",
+      "JA_current": "Heh, good luck finding someone to take this up! Those guys are holed up in a well defended base surrounded by dozens of skilled soldiers! Am I to just waltz into the base, waving my hands around and hope the leaders die of a heart attack?!",
+      "JA_new": "へっ、そんな仕事を引き受ける奴がいるかよ！ あいつらは腕利きの兵士が何十人もいる、要塞みたいな基地にこもってるんだぞ！ まさか基地に乗り込んで手を振って、指導者が心臓発作でくたばるのを待てってのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "tm_pri_dialog_freedom",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:pri_2_bereshsya#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 57,
+      "string_id": "pri_2_bereshsya",
+      "occurrence": 1,
+      "EN": "First, you don't have to deal with any of the soldiers, but with two people only - Lukash and Skinflint. Second, these anarchistic thugs should have been wasted a long time ago, they're all high as a kite, guaranteed most won't even know what happened until it's too late. You are a Pro, Strelok, aren't you? Go into their office, they'll let you in no problem. Boom, waste the leadership, then fight your way out before they manage to mobilize. Few people can handle this better than you! Will you take the job?",
+      "JA_current": "First, you don't have to deal with any of the soldiers, but with two people only - Lukash and Skinflint. Second, these anarchistic thugs should have been wasted a long time ago, they're all high as a kite, guaranteed most won't even know what happened until it's too late. You are a Pro, Strelok, aren't you? Go into their office, they'll let you in no problem. Boom, waste the leadership, then fight your way out before they manage to mobilize. Few people can handle this better than you! Will you take the job?",
+      "JA_new": "まず、兵士には手を出さなくていい。相手はルカシュとスキンフリント、二人だけだ。それに、あの無政府主義者のチンピラどもは、もっと前に始末されててよかった。全員ひどくラリってるから、手遅れになるまで何が起きたか気づかない奴も多いだろう。あんたはプロだろ、ストレロク？ 事務所に行けば、すんなり通してくれる。そこで指導者を始末して、動員される前に戦って脱出すればいい。あんた以上にうまくやれる奴はそういない。仕事を受けるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "tm_pri_dialog_freedom",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "tm_seek_new_job",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I need a job. Do you have something for me?",
+      "JA_current": "仕事が必要なんだ。何かないか？",
+      "string_entry_candidates": [
+        "stable_task_manager:tm_seek_new_job#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "pri_2_est_delicatnoe_delo",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "You may have dealt masterfully with many tasks during your \"career\"... But I have a REALLY serious assignment for a REAL pro now: to eliminate... the leaders of the \"Freedom\" faction.",
+      "JA_current": "You may have dealt masterfully with many tasks during your \"career\"... But I have a REALLY serious assignment for a REAL pro now: to eliminate... the leaders of the \"Freedom\" faction.",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:pri_2_est_delicatnoe_delo#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "pri_2_znayu",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Heh, good luck finding someone to take this up! Those guys are holed up in a well defended base surrounded by dozens of skilled soldiers! Am I to just waltz into the base, waving my hands around and hope the leaders die of a heart attack?!",
+      "JA_current": "Heh, good luck finding someone to take this up! Those guys are holed up in a well defended base surrounded by dozens of skilled soldiers! Am I to just waltz into the base, waving my hands around and hope the leaders die of a heart attack?!",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:pri_2_znayu#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "pri_2_bereshsya",
+      "next": [
+        "4",
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "First, you don't have to deal with any of the soldiers, but with two people only - Lukash and Skinflint. Second, these anarchistic thugs should have been wasted a long time ago, they're all high as a kite, guaranteed most won't even know what happened until it's too late. You are a Pro, Strelok, aren't you? Go into their office, they'll let you in no problem. Boom, waste the leadership, then fight your way out before they manage to mobilize. Few people can handle this better than you! Will you take the job?",
+      "JA_current": "First, you don't have to deal with any of the soldiers, but with two people only - Lukash and Skinflint. Second, these anarchistic thugs should have been wasted a long time ago, they're all high as a kite, guaranteed most won't even know what happened until it's too late. You are a Pro, Strelok, aren't you? Go into their office, they'll let you in no problem. Boom, waste the leadership, then fight your way out before they manage to mobilize. Few people can handle this better than you! Will you take the job?",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:pri_2_bereshsya#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "tm_seek_job_yes",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "pri_trader_freedom_task"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'm up for it.",
+      "JA_current": "やってみよう。",
+      "string_entry_candidates": [
+        "stable_task_manager:tm_seek_job_yes#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "tm_seek_job_no",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Some other time.",
+      "JA_current": "いつか、な。",
+      "string_entry_candidates": [
+        "stable_task_manager:tm_seek_job_no#1"
+      ]
+    }
+  ]
+}

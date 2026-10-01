@@ -1,0 +1,456 @@
+{
+    "packet_id":  "dialog_0394__cherep_treasure_dialog",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "cherep_treasure_dialog",
+    "graph_source":  "gamedata/config/gameplay/dialogs_military.xml",
+    "graph_sha256":  "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+    "character_bindings":  [
+                               {
+                                   "profile_id":  "mil_Dolg_specnaz_cherep",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_military.xml"
+                               }
+                           ],
+    "dialog_conditions":  [
+                              {
+                                  "type":  "dont_has_info",
+                                  "value":  "cherep_shron"
+                              }
+                          ],
+    "root_speaker_hint":  "player",
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  8,
+    "entries":  [
+                    {
+                        "key":  "stable_dialogs_military:cherep_treasure_dialog_phrase_1#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2041,
+                        "string_id":  "cherep_treasure_dialog_phrase_1",
+                        "occurrence":  1,
+                        "EN":  "Yeah, you guys are tough, like something out of a Hollywood movie. Yet you can\u0027t take down a single stoner Freedom sniper. What\u0027s the matter?",
+                        "JA_current":  "Yeah, you guys are tough, like something out of a Hollywood movie. Yet you can\u0027t take down a single stoner Freedom sniper. What\u0027s the matter?",
+                        "JA_new":  "映画に出てくる兵隊みたいに強そうだな。それなのに、ラリったフリーダムの狙撃手一人始末できないのか？ どうした？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "cherep_treasure_dialog",
+                                               "phrase_id":  "0",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:cherep_treasure_dialog_phrase_2#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2044,
+                        "string_id":  "cherep_treasure_dialog_phrase_2",
+                        "occurrence":  1,
+                        "EN":  "You know what, why don\u0027t you go... We have a serious operation ahead of us, do us a favor, don\u0027t play on our nerves! Regarding the sniper, just so you know, we thought of everything. Circumstances interfered! ",
+                        "JA_current":  "You know what, why don\u0027t you go... We have a serious operation ahead of us, do us a favor, don\u0027t play on our nerves! Regarding the sniper, just so you know, we thought of everything. Circumstances interfered! ",
+                        "JA_new":  "もういい、行ってくれ……こっちは大事な作戦を控えてる。頼むから、これ以上イライラさせないでくれ！ 狙撃手の件なら手は打ってあった。邪魔が入っただけだ！",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "cherep_treasure_dialog",
+                                               "phrase_id":  "1",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:cherep_treasure_dialog_phrase_3#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2047,
+                        "string_id":  "cherep_treasure_dialog_phrase_3",
+                        "occurrence":  1,
+                        "EN":  "What were these circumstances?",
+                        "JA_current":  "What were these circumstances?",
+                        "JA_new":  "どんな邪魔が入った？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "cherep_treasure_dialog",
+                                               "phrase_id":  "2",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:cherep_treasure_dialog_phrase_4#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2050,
+                        "string_id":  "cherep_treasure_dialog_phrase_4",
+                        "occurrence":  1,
+                        "EN":  "I ordered a sniper rifle from a technician, but could not pick up in time - we were in too much of a rush. It remained in my cache, and I spent so much money to upgrade it... Hey, you wouldn\u0027t happen to need it, would you? I could sell it. It\u0027s a powerful rifle, and even with reinforced optics - handmade, you might say! For 40,000 I\u0027ll give you information on the location of that cache. Alternatively, you can get your hands on the artifacts \"Shell\" and \"Mama\u0027s beads\" - I\u0027m heading for a fight so extra protection will be a welcome sight. So what do you think?",
+                        "JA_current":  "I ordered a sniper rifle from a technician, but could not pick up in time - we were in too much of a rush. It remained in my cache, and I spent so much money to upgrade it... Hey, you wouldn\u0027t happen to need it, would you? I could sell it. It\u0027s a powerful rifle, and even with reinforced optics - handmade, you might say! For 40,000 I\u0027ll give you information on the location of that cache. Alternatively, you can get your hands on the artifacts \"Shell\" and \"Mama\u0027s beads\" - I\u0027m heading for a fight so extra protection will be a welcome sight. So what do you think?",
+                        "JA_new":  "技師に狙撃銃を注文したんだが、急いでいて受け取りに行けなかった。俺の隠し場所に置いたままだ。改造に大金をつぎ込んだんだがな……あんた、要らないか？ 売ってやるよ。強力な銃だし、強化スコープもついてる。手作りと言ってもいいくらいだ！ 4万ルーブルで隠し場所の場所を教える。あるいは、アーティファクトの«シェル»と«ママズ・ビーズ»を持ってきてもいい。これから戦いに行くんで、防護になるものがあると助かる。どうする？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "cherep_treasure_dialog",
+                                               "phrase_id":  "3",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:cherep_treasure_dialog_phrase_5#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2053,
+                        "string_id":  "cherep_treasure_dialog_phrase_5",
+                        "occurrence":  1,
+                        "EN":  "Here\u0027s the money.",
+                        "JA_current":  "Here\u0027s the money.",
+                        "JA_new":  "金ならある。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "cherep_treasure_dialog",
+                                               "phrase_id":  "4",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:cherep_treasure_dialog_phrase_6#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2056,
+                        "string_id":  "cherep_treasure_dialog_phrase_6",
+                        "occurrence":  1,
+                        "EN":  "Take the Shell and the Beads.",
+                        "JA_current":  "Take the Shell and the Beads.",
+                        "JA_new":  "«シェル»と«ママズ・ビーズ»を渡す。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "cherep_treasure_dialog",
+                                               "phrase_id":  "5",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:cherep_treasure_dialog_phrase_7#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2059,
+                        "string_id":  "cherep_treasure_dialog_phrase_7",
+                        "occurrence":  1,
+                        "EN":  "I have neither.",
+                        "JA_current":  "I have neither.",
+                        "JA_new":  "どっちも持ってない。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "cherep_treasure_dialog",
+                                               "phrase_id":  "6",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:cherep_treasure_dialog_phrase_8#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2062,
+                        "string_id":  "cherep_treasure_dialog_phrase_8",
+                        "occurrence":  1,
+                        "EN":  "Great, here\u0027s the info on the stash: it\u0027s in a boarded-up hangar near the entrance to our base. I put it on a vertical green tank, so no one would stumble upon it by accident.",
+                        "JA_current":  "Great, here\u0027s the info on the stash: it\u0027s in a boarded-up hangar near the entrance to our base. I put it on a vertical green tank, so no one would stumble upon it by accident.",
+                        "JA_new":  "よし、隠し場所の情報だ。基地の入口近くにある、板で塞がれた格納庫の中だ。縦に置かれた緑のタンクの上に隠した。偶然見つける奴はいないだろう。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "cherep_treasure_dialog",
+                                               "phrase_id":  "7",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  "cherep_treasure_dialog_phrase_1",
+                            "next":  [
+                                         "1"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Yeah, you guys are tough, like something out of a Hollywood movie. Yet you can\u0027t take down a single stoner Freedom sniper. What\u0027s the matter?",
+                            "JA_current":  "Yeah, you guys are tough, like something out of a Hollywood movie. Yet you can\u0027t take down a single stoner Freedom sniper. What\u0027s the matter?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:cherep_treasure_dialog_phrase_1#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "1",
+                            "text_id":  "cherep_treasure_dialog_phrase_2",
+                            "next":  [
+                                         "2"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "You know what, why don\u0027t you go... We have a serious operation ahead of us, do us a favor, don\u0027t play on our nerves! Regarding the sniper, just so you know, we thought of everything. Circumstances interfered! ",
+                            "JA_current":  "You know what, why don\u0027t you go... We have a serious operation ahead of us, do us a favor, don\u0027t play on our nerves! Regarding the sniper, just so you know, we thought of everything. Circumstances interfered! ",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:cherep_treasure_dialog_phrase_2#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "2",
+                            "text_id":  "cherep_treasure_dialog_phrase_3",
+                            "next":  [
+                                         "3"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "What were these circumstances?",
+                            "JA_current":  "What were these circumstances?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:cherep_treasure_dialog_phrase_3#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "3",
+                            "text_id":  "cherep_treasure_dialog_phrase_4",
+                            "next":  [
+                                         "4",
+                                         "5",
+                                         "6"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "2"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I ordered a sniper rifle from a technician, but could not pick up in time - we were in too much of a rush. It remained in my cache, and I spent so much money to upgrade it... Hey, you wouldn\u0027t happen to need it, would you? I could sell it. It\u0027s a powerful rifle, and even with reinforced optics - handmade, you might say! For 40,000 I\u0027ll give you information on the location of that cache. Alternatively, you can get your hands on the artifacts \"Shell\" and \"Mama\u0027s beads\" - I\u0027m heading for a fight so extra protection will be a welcome sight. So what do you think?",
+                            "JA_current":  "I ordered a sniper rifle from a technician, but could not pick up in time - we were in too much of a rush. It remained in my cache, and I spent so much money to upgrade it... Hey, you wouldn\u0027t happen to need it, would you? I could sell it. It\u0027s a powerful rifle, and even with reinforced optics - handmade, you might say! For 40,000 I\u0027ll give you information on the location of that cache. Alternatively, you can get your hands on the artifacts \"Shell\" and \"Mama\u0027s beads\" - I\u0027m heading for a fight so extra protection will be a welcome sight. So what do you think?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:cherep_treasure_dialog_phrase_4#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "4",
+                            "text_id":  "cherep_treasure_dialog_phrase_5",
+                            "next":  [
+                                         "7"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "precondition",
+                                                   "value":  "addon_dialogs.have_40000"
+                                               }
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "addon_dialogs.out_40000"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "3"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Here\u0027s the money.",
+                            "JA_current":  "Here\u0027s the money.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:cherep_treasure_dialog_phrase_5#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "5",
+                            "text_id":  "cherep_treasure_dialog_phrase_6",
+                            "next":  [
+                                         "7"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "precondition",
+                                                   "value":  "addon_dialogs.have_busi_dummy"
+                                               }
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "addon_dialogs.busi_dummy_out"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "3"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Take the Shell and the Beads.",
+                            "JA_current":  "Take the Shell and the Beads.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:cherep_treasure_dialog_phrase_6#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "6",
+                            "text_id":  "cherep_treasure_dialog_phrase_7",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "3"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I have neither.",
+                            "JA_current":  "I have neither.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:cherep_treasure_dialog_phrase_7#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "7",
+                            "text_id":  "cherep_treasure_dialog_phrase_8",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "addon_dialogs.spawn_cherep_shron"
+                                            },
+                                            {
+                                                "type":  "give_info",
+                                                "value":  "cherep_shron"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "4",
+                                             "5"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Great, here\u0027s the info on the stash: it\u0027s in a boarded-up hangar near the entrance to our base. I put it on a vertical green tank, so no one would stumble upon it by accident.",
+                            "JA_current":  "Great, here\u0027s the info on the stash: it\u0027s in a boarded-up hangar near the entrance to our base. I put it on a vertical green tank, so no one would stumble upon it by accident.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:cherep_treasure_dialog_phrase_8#1"
+                                                        ]
+                        }
+                    ]
+}

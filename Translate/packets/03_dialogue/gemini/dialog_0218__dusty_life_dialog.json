@@ -1,0 +1,267 @@
+{
+  "packet_id": "dialog_0218__dusty_life_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "dusty_life_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "dusty",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 6,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:dusty_life_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3280,
+      "string_id": "dusty_life_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "I see you're imprisoned here.",
+      "JA_current": "あんた、ここに軟禁されてるように見えるが。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_life_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_life_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3283,
+      "string_id": "dusty_life_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "No, I wouldn't really call it a prison, but my freedom is severely restricted. But hey, the barkeep feeds me, clothes me, and has a roof over my head, and that's all I need. Why did I come to the Zone? Because I'm poor. Before the Crisis I worked in Izhevsk at the machine-building plant, and then there was mass redundancy and I was kicked out, despite the fact that I was one of their leading engineers.",
+      "JA_current": "いや、牢獄ってほどじゃないが、行動の自由はかなり縛られてるな。だがまあ、バーキープがメシを食わせてくれて、着るものも寝床も用意してくれる。俺にはそれで十分さ。なぜゾーンに来たかって？ 食い詰めたからだよ。あの危機の前にイジェフスクの機械工場で働いてたんだが、大規模なリストラでクビを切られた。主任技師のひとりだったってのにな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_life_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_life_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3286,
+      "string_id": "dusty_life_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "That's a strange thing to do. Why would a business get rid of an important specialist, of all people? Maybe there was a reason?",
+      "JA_current": "奇妙な話だな。会社が一番大事な専門家を追い出すなんて。何か裏があったんじゃないのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_life_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_life_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3289,
+      "string_id": "dusty_life_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Of course there was. The chief's son from the institute came to his father for work, and his father, of course, began to promote him at double speed. As a specialist, this guy was no good, he was lazy and arrogant, like many of today's youth. He was made head of the department and I refused to carry out his instructions. And so, during the next planned redundancy, I was naturally thrown out on the street.",
+      "JA_current": "もちろんだとも。研究所の所長のドラ息子が親父を頼って入社してきてな、親父のやつ、そいつを倍速で出世させやがったんだ。だが技術者としてはてんでお話にならねえ。今の若僧によくいる、怠惰で傲慢な野郎だった。そいつが部門のトップに据えられたが、俺はどうしてもそいつの指示に従えなくてな。で、次の人員整理のときに、当然のように路頭に放り出されたってわけさ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_life_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_life_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3292,
+      "string_id": "dusty_life_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Bad luck for you.",
+      "JA_current": "ついてなかったな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_life_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:dusty_life_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3295,
+      "string_id": "dusty_life_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Yeah, what can I say. My family had broken apart to avoid destitution, and I was left alone without a penny. I decided to try my luck here in the Zone, but as you can see, I got into trouble again. It was my own fault this time, though.",
+      "JA_current": "全くだよ。家族も食い詰めて離散し、俺は一文無しでひとり取り残された。それでゾーンで一旗揚げようとやって来たんだが、見ての通りまた厄介事に首を突っ込んじまった。まあ、今度のは自分の自業自得だがな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_life_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "dusty_life_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I see you're imprisoned here.",
+      "JA_current": "I see you're imprisoned here.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_life_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "dusty_life_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, I wouldn't really call it a prison, but my freedom is severely restricted. But hey, the barkeep feeds me, clothes me, and has a roof over my head, and that's all I need. Why did I come to the Zone? Because I'm poor. Before the Crisis I worked in Izhevsk at the machine-building plant, and then there was mass redundancy and I was kicked out, despite the fact that I was one of their leading engineers.",
+      "JA_current": "No, I wouldn't really call it a prison, but my freedom is severely restricted. But hey, the barkeep feeds me, clothes me, and has a roof over my head, and that's all I need. Why did I come to the Zone? Because I'm poor. Before the Crisis I worked in Izhevsk at the machine-building plant, and then there was mass redundancy and I was kicked out, despite the fact that I was one of their leading engineers.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_life_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "dusty_life_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "That's a strange thing to do. Why would a business get rid of an important specialist, of all people? Maybe there was a reason?",
+      "JA_current": "That's a strange thing to do. Why would a business get rid of an important specialist, of all people? Maybe there was a reason?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_life_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "dusty_life_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Of course there was. The chief's son from the institute came to his father for work, and his father, of course, began to promote him at double speed. As a specialist, this guy was no good, he was lazy and arrogant, like many of today's youth. He was made head of the department and I refused to carry out his instructions. And so, during the next planned redundancy, I was naturally thrown out on the street.",
+      "JA_current": "Of course there was. The chief's son from the institute came to his father for work, and his father, of course, began to promote him at double speed. As a specialist, this guy was no good, he was lazy and arrogant, like many of today's youth. He was made head of the department and I refused to carry out his instructions. And so, during the next planned redundancy, I was naturally thrown out on the street.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_life_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "dusty_life_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Bad luck for you.",
+      "JA_current": "Bad luck for you.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_life_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "dusty_life_dialog_phrase_6",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, what can I say. My family had broken apart to avoid destitution, and I was left alone without a penny. I decided to try my luck here in the Zone, but as you can see, I got into trouble again. It was my own fault this time, though.",
+      "JA_current": "Yeah, what can I say. My family had broken apart to avoid destitution, and I was left alone without a penny. I decided to try my luck here in the Zone, but as you can see, I got into trouble again. It was my own fault this time, though.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:dusty_life_dialog_phrase_6#1"
+      ]
+    }
+  ]
+}

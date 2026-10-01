@@ -1,0 +1,858 @@
+{
+  "packet_id": "dialog_0142__bar_barman_pivo",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_barman_pivo",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_barman",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "barman_pivo"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 19,
+  "entries": [
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_19#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 60,
+      "string_id": "dialogs_bar_19",
+      "occurrence": 1,
+      "EN": "Hey, Barkeep, you got anything to drink?",
+      "JA_current": "Hey, Barkeep, you got anything to drink?",
+      "JA_new": "なあ、バーキープ。何か飲ませてくれないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_pivo",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_20#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 63,
+      "string_id": "dialogs_bar_20",
+      "occurrence": 1,
+      "EN": "Yep, I have. At my expense today. But remember: the first drink is for Serene.",
+      "JA_current": "Yep, I have. At my expense today. But remember: the first drink is for Serene.",
+      "JA_new": "あるぞ。今日はおごりだ。ただし、一杯目はセリーンに捧げる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_pivo",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_27#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 84,
+      "string_id": "dialogs_bar_27",
+      "occurrence": 1,
+      "EN": "At my expense today. Thanks and blessings to Serene.",
+      "JA_current": "At my expense today. Thanks and blessings to Serene.",
+      "JA_new": "今日はおごりだ。セリーンに感謝と祝福を。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_pivo",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_barmen_call home_phr_0#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 26,
+      "string_id": "bar_barmen_call home_phr_0",
+      "occurrence": 1,
+      "EN": "Maybe you wanna give a ring as well? He-he.",
+      "JA_current": "Maybe you wanna give a ring as well? He-he.",
+      "JA_new": "あんたも電話してみるか？ へへ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_pivo",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_21#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 66,
+      "string_id": "dialogs_bar_21",
+      "occurrence": 1,
+      "EN": "For who?",
+      "JA_current": "For who?",
+      "JA_new": "誰に？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_pivo",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_28#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 87,
+      "string_id": "dialogs_bar_28",
+      "occurrence": 1,
+      "EN": "Listen, Barkeep, what's the story out there in the Big Land?",
+      "JA_current": "Listen, Barkeep, what's the story out there in the Big Land?",
+      "JA_new": "なあ、バーキープ。本土はどんな様子だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_pivo",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_barmen_call home_phr_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 29,
+      "string_id": "bar_barmen_call home_phr_1",
+      "occurrence": 1,
+      "EN": "What do you mean: \"give a ring\"? To the Main Land? That would be wonderful!",
+      "JA_current": "What do you mean: \"give a ring\"? To the Main Land? That would be wonderful!",
+      "JA_new": "「電話」って、本土にかけるのか？ それはいいな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_pivo",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_22#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 69,
+      "string_id": "dialogs_bar_22",
+      "occurrence": 1,
+      "EN": "What, have you never heard about Serene?",
+      "JA_current": "What, have you never heard about Serene?",
+      "JA_new": "何だ、セリーンを知らないのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_pivo",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_29#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 90,
+      "string_id": "dialogs_bar_29",
+      "occurrence": 1,
+      "EN": "Nothing special. Same old stories, and nothing different to expect in the future.",
+      "JA_current": "Nothing special. Same old stories, and nothing different to expect in the future.",
+      "JA_new": "特に何もない。いつもどおりさ。これから先も変わらないだろうな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_pivo",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_barmen_call home_phr_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 32,
+      "string_id": "bar_barmen_call home_phr_2",
+      "occurrence": 1,
+      "EN": "Yeah, sure. Climb up onto the roof, then use the catwalk bridge to get to the next one. After that, go up the ladder there to the tower. Just make sure you don't break the bell when you ring it, ha-ha!",
+      "JA_current": "Yeah, sure. Climb up onto the roof, then use the catwalk bridge to get to the next one. After that, go up the ladder there to the tower. Just make sure you don't break the bell when you ring it, ha-ha!",
+      "JA_new": "ああ、いいとも。屋根に上がって、渡り廊下で隣の建物へ行け。そこから階段で塔に登るんだ。鐘を鳴らす時は壊すなよ。ははっ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_pivo",
+          "phrase_id": "16",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_23#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 72,
+      "string_id": "dialogs_bar_23",
+      "occurrence": 1,
+      "EN": "No, never... Who's he?",
+      "JA_current": "No, never... Who's he?",
+      "JA_new": "いや、知らない……誰なんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_pivo",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_24#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 75,
+      "string_id": "dialogs_bar_24",
+      "occurrence": 1,
+      "EN": "I have, I have... Give me the beer!",
+      "JA_current": "I have, I have... Give me the beer!",
+      "JA_new": "知ってる、知ってる……ビールをくれ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_pivo",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_30#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 93,
+      "string_id": "dialogs_bar_30",
+      "occurrence": 1,
+      "EN": "Why? Have you had bad luck our there?",
+      "JA_current": "Why? Have you had bad luck our there?",
+      "JA_new": "どうした？ 運に見放されたのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_pivo",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_barmen_call home_phr_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 35,
+      "string_id": "bar_barmen_call home_phr_3",
+      "occurrence": 1,
+      "EN": "Hey! Screw you, man.",
+      "JA_current": "Hey! Screw you, man.",
+      "JA_new": "おい、ふざけんな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_pivo",
+          "phrase_id": "17",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_barman_pivo_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1682,
+      "string_id": "bar_barman_pivo_5",
+      "occurrence": 1,
+      "EN": "Ohh, Marked One! That was the one and only stalker in the whole Zone to selflessly take care of others! He gave his own hard earned money to those who got robbed by bandits and even bought drinks on the house for everybody here in the Bar. One day he came up to me and proclaimed that he was going to the Monolith to ask for happiness for all people in the world. He left all his money and artifacts here and told me to wait for his return, and if he didn't make it back in a week - then I was to use his belongings to treat everyone in the bar with drinks in his honor. So, this is me complying with his final will.",
+      "JA_current": "Ohh, Marked One! That was the one and only stalker in the whole Zone to selflessly take care of others! He gave his own hard earned money to those who got robbed by bandits and even bought drinks on the house for everybody here in the Bar. One day he came up to me and proclaimed that he was going to the Monolith to ask for happiness for all people in the world. He left all his money and artifacts here and told me to wait for his return, and if he didn't make it back in a week - then I was to use his belongings to treat everyone in the bar with drinks in his honor. So, this is me complying with his final will.",
+      "JA_new": "ああ、マークド・ワン！ ゾーンでただ一人、見返りも求めず人の世話を焼いたストーカーだ。バンディットに奪われた金を被害者に返し、ロストクの皆に酒までおごった。ある日、世界中の人々の幸せを願いにモノリスへ行くと言ってきた。金もアーティファクトも全部ここに預けて、「一週間たっても戻らなければ、持ち物を使って皆に酒を振る舞ってくれ」と頼んでな。だから今、遺言どおりに皆へ一杯おごってるってわけさ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_pivo",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_26#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 81,
+      "string_id": "dialogs_bar_26",
+      "occurrence": 1,
+      "EN": "Here you are.",
+      "JA_current": "Here you are.",
+      "JA_new": "ほらよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_pivo",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_barman_pivo_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1667,
+      "string_id": "bar_barman_pivo_11",
+      "occurrence": 1,
+      "EN": "You could say that. But that's none of your concern. Better have your beer and beg your fortune for a bit of luck yourself. That's how it is in the Zone: got back with the loot - that's a miracle, alive - lucky, a bullet just missed your head - good fortune, and the rest is destiny...",
+      "JA_current": "You could say that. But that's none of your concern. Better have your beer and beg your fortune for a bit of luck yourself. That's how it is in the Zone: got back with the loot - that's a miracle, alive - lucky, a bullet just missed your head - good fortune, and the rest is destiny...",
+      "JA_new": "そうとも言えるが、お前には関係ない話だ。ビールでも飲んで、自分の幸運を願いな。ゾーンじゃそういうもんだ。獲物を持って帰れたら奇跡、生きて戻れたら幸運、弾が頭をかすめて外れたら大吉。あとは運命に任せるしかない……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_pivo",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_barmen_call home_phr_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 38,
+      "string_id": "bar_barmen_call home_phr_4",
+      "occurrence": 1,
+      "EN": "Take it easy, I was just kidding. Help yourself to a beer or something.",
+      "JA_current": "Take it easy, I was just kidding. Help yourself to a beer or something.",
+      "JA_new": "落ち着け、冗談だよ。ビールでも何でも好きに飲め。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_pivo",
+          "phrase_id": "18",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_25#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 78,
+      "string_id": "dialogs_bar_25",
+      "occurrence": 1,
+      "EN": "Respect, man. Give me the beer!",
+      "JA_current": "Respect, man. Give me the beer!",
+      "JA_new": "立派だな。ビールをくれ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_barman_pivo",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "dialogs_bar_19",
+      "next": [
+        "1",
+        "9",
+        "14"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "joke_and_history.joke_precondition3"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, Barkeep, you got anything to drink?",
+      "JA_current": "Hey, Barkeep, you got anything to drink?",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_19#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "dialogs_bar_20",
+      "next": [
+        "2"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc3"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yep, I have. At my expense today. But remember: the first drink is for Serene.",
+      "JA_current": "Yep, I have. At my expense today. But remember: the first drink is for Serene.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_20#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "dialogs_bar_27",
+      "next": [
+        "10"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc1"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "At my expense today. Thanks and blessings to Serene.",
+      "JA_current": "At my expense today. Thanks and blessings to Serene.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_27#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "bar_barmen_call home_phr_0",
+      "next": [
+        "15"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "joke_and_history.pc2"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Maybe you wanna give a ring as well? He-he.",
+      "JA_current": "Maybe you wanna give a ring as well? He-he.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_barmen_call home_phr_0#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "dialogs_bar_21",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "For who?",
+      "JA_current": "For who?",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_21#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "dialogs_bar_28",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Listen, Barkeep, what's the story out there in the Big Land?",
+      "JA_current": "Listen, Barkeep, what's the story out there in the Big Land?",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_28#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "bar_barmen_call home_phr_1",
+      "next": [
+        "16"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What do you mean: \"give a ring\"? To the Main Land? That would be wonderful!",
+      "JA_current": "What do you mean: \"give a ring\"? To the Main Land? That would be wonderful!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_barmen_call home_phr_1#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "dialogs_bar_22",
+      "next": [
+        "4",
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What, have you never heard about Serene?",
+      "JA_current": "What, have you never heard about Serene?",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_22#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "dialogs_bar_29",
+      "next": [
+        "12"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Nothing special. Same old stories, and nothing different to expect in the future.",
+      "JA_current": "Nothing special. Same old stories, and nothing different to expect in the future.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_29#1"
+      ]
+    },
+    {
+      "phrase_id": "16",
+      "text_id": "bar_barmen_call home_phr_2",
+      "next": [
+        "17"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "15"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, sure. Climb up onto the roof, then use the catwalk bridge to get to the next one. After that, go up the ladder there to the tower. Just make sure you don't break the bell when you ring it, ha-ha!",
+      "JA_current": "Yeah, sure. Climb up onto the roof, then use the catwalk bridge to get to the next one. After that, go up the ladder there to the tower. Just make sure you don't break the bell when you ring it, ha-ha!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_barmen_call home_phr_2#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "dialogs_bar_23",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, never... Who's he?",
+      "JA_current": "No, never... Who's he?",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_23#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "dialogs_bar_24",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I have, I have... Give me the beer!",
+      "JA_current": "I have, I have... Give me the beer!",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_24#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "dialogs_bar_30",
+      "next": [
+        "13"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Why? Have you had bad luck our there?",
+      "JA_current": "Why? Have you had bad luck our there?",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_30#1"
+      ]
+    },
+    {
+      "phrase_id": "17",
+      "text_id": "bar_barmen_call home_phr_3",
+      "next": [
+        "18"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "16"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey! Screw you, man.",
+      "JA_current": "Hey! Screw you, man.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_barmen_call home_phr_3#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "bar_barman_pivo_5",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Ohh, Marked One! That was the one and only stalker in the whole Zone to selflessly take care of others! He gave his own hard earned money to those who got robbed by bandits and even bought drinks on the house for everybody here in the Bar. One day he came up to me and proclaimed that he was going to the Monolith to ask for happiness for all people in the world. He left all his money and artifacts here and told me to wait for his return, and if he didn't make it back in a week - then I was to use his belongings to treat everyone in the bar with drinks in his honor. So, this is me complying with his final will.",
+      "JA_current": "Ohh, Marked One! That was the one and only stalker in the whole Zone to selflessly take care of others! He gave his own hard earned money to those who got robbed by bandits and even bought drinks on the house for everybody here in the Bar. One day he came up to me and proclaimed that he was going to the Monolith to ask for happiness for all people in the world. He left all his money and artifacts here and told me to wait for his return, and if he didn't make it back in a week - then I was to use his belongings to treat everyone in the bar with drinks in his honor. So, this is me complying with his final will.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_barman_pivo_5#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "dialogs_bar_26",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "barman_pivo"
+        },
+        {
+          "type": "action",
+          "value": "bar_dialogs.pivo"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6",
+        "7"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here you are.",
+      "JA_current": "Here you are.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_26#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "bar_barman_pivo_11",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "barman_pivo"
+        },
+        {
+          "type": "action",
+          "value": "bar_dialogs.pivo"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You could say that. But that's none of your concern. Better have your beer and beg your fortune for a bit of luck yourself. That's how it is in the Zone: got back with the loot - that's a miracle, alive - lucky, a bullet just missed your head - good fortune, and the rest is destiny...",
+      "JA_current": "You could say that. But that's none of your concern. Better have your beer and beg your fortune for a bit of luck yourself. That's how it is in the Zone: got back with the loot - that's a miracle, alive - lucky, a bullet just missed your head - good fortune, and the rest is destiny...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_barman_pivo_11#1"
+      ]
+    },
+    {
+      "phrase_id": "18",
+      "text_id": "bar_barmen_call home_phr_4",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "barman_pivo"
+        },
+        {
+          "type": "action",
+          "value": "bar_dialogs.pivo"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "17"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Take it easy, I was just kidding. Help yourself to a beer or something.",
+      "JA_current": "Take it easy, I was just kidding. Help yourself to a beer or something.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_barmen_call home_phr_4#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "dialogs_bar_25",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Respect, man. Give me the beer!",
+      "JA_current": "Respect, man. Give me the beer!",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_25#1"
+      ]
+    }
+  ]
+}

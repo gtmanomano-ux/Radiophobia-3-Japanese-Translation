@@ -1,0 +1,249 @@
+{
+  "packet_id": "dialog_0421__rad_found_stalkers_dialog_1",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "rad_found_stalkers_dialog_1",
+  "graph_source": "gamedata/config/gameplay/dialogs_radar.xml",
+  "graph_sha256": "7436a3a8c823be5716e127228e116bf493cdec1d97644f3c78b6dee00a554864",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "rad_find_stalkers_found"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "rad_find_stalkers_done"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 5,
+  "entries": [
+    {
+      "key": "stable_dialogs_radar:rad_found_stalkers_dialog_1_0#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 129,
+      "string_id": "rad_found_stalkers_dialog_1_0",
+      "occurrence": 1,
+      "EN": "I found your boys. They died but here are their weapons!",
+      "JA_current": "あんたの手下を見つけたよ。…死んでたがな。これが奴らの武器だ。",
+      "JA_new": "部下を見つけた。死んでたが、武器は持ってきた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_found_stalkers_dialog_1",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_found_stalkers_dialog_1_100#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 132,
+      "string_id": "rad_found_stalkers_dialog_1_100",
+      "occurrence": 1,
+      "EN": "Thanks, they're dead then. I don't think there's any point going to Pripyat now! There's a problem though - I don't have your money. My deputy disappeared and he had all the money!",
+      "JA_current": "有難う。奴ら死んでたか… 結局 Pripyatに辿り着く方法は無いのかよ！ コイツは難題だな。ああそうだ。報酬は渡せない。金庫番が俺の金持ってトンズラしやがったんでな！",
+      "JA_new": "そうか、死んじまったか……もうプリピャチへ行く意味もなさそうだな。だが困ったことに、報酬を払う金がない。金を全部持った副官が姿を消した！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_found_stalkers_dialog_1",
+          "phrase_id": "100",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_found_stalkers_dialog_1_1001#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 135,
+      "string_id": "rad_found_stalkers_dialog_1_1001",
+      "occurrence": 1,
+      "EN": "OK, I'll find him! Tell me where to look for him. And don't even think about trying to cheat me out of my cash this time!!!",
+      "JA_current": "わかった。探してみよう。何処に行けばそいつを見つけられるか教えてくれ。ああ、今回は俺を騙そうなんて思うなよ？",
+      "JA_new": "わかった、俺が見つけてやる。どこを探せばいい？ 今回は金を払わず逃げようなんて考えるなよ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_found_stalkers_dialog_1",
+          "phrase_id": "1001",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_found_stalkers_dialog_1_200#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 138,
+      "string_id": "rad_found_stalkers_dialog_1_200",
+      "occurrence": 1,
+      "EN": "I don't think he got very far. He's probably nearby, I'll mark it on the map for you! When you find him, bring him or his PDA back here!",
+      "JA_current": "まだそう遠くには行ってない。奴は多分ここかこの辺に居ると思う。地図に印を付けておくから、奴を見つけて連れ戻すか PDA を持って帰ってきてくれ。",
+      "JA_new": "まだ遠くへは行ってないはずだ。近くにいるだろう。地図に印をつけておく。見つけたら本人かPDAをここへ連れてこい！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_found_stalkers_dialog_1",
+          "phrase_id": "200",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_found_stalkers_dialog_1_2000#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 141,
+      "string_id": "rad_found_stalkers_dialog_1_2000",
+      "occurrence": 1,
+      "EN": "OK, wait for me!!!",
+      "JA_current": "OK、待ってろ！",
+      "JA_new": "わかった。行ってくる！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_found_stalkers_dialog_1",
+          "phrase_id": "2000",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "rad_found_stalkers_dialog_1_0",
+      "next": [
+        "100"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "rad_dialogs.transfer_ak74"
+        },
+        {
+          "type": "give_info",
+          "value": "rad_find_stalkers_return_ak"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I found your boys. They died but here are their weapons!",
+      "JA_current": "あんたの手下を見つけたよ。…死んでたがな。これが奴らの武器だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_found_stalkers_dialog_1_0#1"
+      ]
+    },
+    {
+      "phrase_id": "100",
+      "text_id": "rad_found_stalkers_dialog_1_100",
+      "next": [
+        "1001"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Thanks, they're dead then. I don't think there's any point going to Pripyat now! There's a problem though - I don't have your money. My deputy disappeared and he had all the money!",
+      "JA_current": "有難う。奴ら死んでたか… 結局 Pripyatに辿り着く方法は無いのかよ！ コイツは難題だな。ああそうだ。報酬は渡せない。金庫番が俺の金持ってトンズラしやがったんでな！",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_found_stalkers_dialog_1_100#1"
+      ]
+    },
+    {
+      "phrase_id": "1001",
+      "text_id": "rad_found_stalkers_dialog_1_1001",
+      "next": [
+        "200"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "100"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "OK, I'll find him! Tell me where to look for him. And don't even think about trying to cheat me out of my cash this time!!!",
+      "JA_current": "わかった。探してみよう。何処に行けばそいつを見つけられるか教えてくれ。ああ、今回は俺を騙そうなんて思うなよ？",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_found_stalkers_dialog_1_1001#1"
+      ]
+    },
+    {
+      "phrase_id": "200",
+      "text_id": "rad_found_stalkers_dialog_1_200",
+      "next": [
+        "2000"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1001"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I don't think he got very far. He's probably nearby, I'll mark it on the map for you! When you find him, bring him or his PDA back here!",
+      "JA_current": "まだそう遠くには行ってない。奴は多分ここかこの辺に居ると思う。地図に印を付けておくから、奴を見つけて連れ戻すか PDA を持って帰ってきてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_found_stalkers_dialog_1_200#1"
+      ]
+    },
+    {
+      "phrase_id": "2000",
+      "text_id": "rad_found_stalkers_dialog_1_2000",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "rad_find_treasurer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "200"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "OK, wait for me!!!",
+      "JA_current": "OK、待ってろ！",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_found_stalkers_dialog_1_2000#1"
+      ]
+    }
+  ]
+}

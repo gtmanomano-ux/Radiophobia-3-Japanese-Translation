@@ -1,0 +1,600 @@
+{
+  "packet_id": "dialog_0229__borov_enter_bandit_2",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "borov_enter_bandit_2",
+  "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml",
+  "graph_sha256": "af90465ec3a6b7a324a6c5d72d8c5ed214013f3f66f7c85ea935c11f680b26c1",
+  "character_bindings": [
+    {
+      "profile_id": "new_mamay",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_bandit_borov",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "barman_document_done"
+    },
+    {
+      "type": "has_info",
+      "value": "barman_document_start"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "actor_set_zombied"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 12,
+  "entries": [
+    {
+      "key": "stable_dialogs_darkvalley:borov_ask_document_0#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 109,
+      "string_id": "borov_ask_document_0",
+      "occurrence": 1,
+      "EN": "You wanted to talk something over, didn't you?",
+      "JA_current": "You wanted to talk something over, didn't you?",
+      "JA_new": "話があるんだったな？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_2",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_ask_document_1#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 112,
+      "string_id": "borov_ask_document_1",
+      "occurrence": 1,
+      "EN": "Sure I did! Have you brought the documents?",
+      "JA_current": "Sure I did! Have you brought the documents?",
+      "JA_new": "そうだ。書類は持ってきたか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_2",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_ask_document_2#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 115,
+      "string_id": "borov_ask_document_2",
+      "occurrence": 1,
+      "EN": "Not yet.",
+      "JA_current": "Not yet.",
+      "JA_new": "まだだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_2",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_ask_document_5#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 124,
+      "string_id": "borov_ask_document_5",
+      "occurrence": 1,
+      "EN": "Yes, here you are.",
+      "JA_current": "Yes, here you are.",
+      "JA_new": "ああ、これだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_2",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_ask_document_3#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 118,
+      "string_id": "borov_ask_document_3",
+      "occurrence": 1,
+      "EN": "That sucks! I ain't gonna wait for ages! Get it?",
+      "JA_current": "That sucks! I ain't gonna wait for ages! Get it?",
+      "JA_new": "ふざけんな！いつまでも待ってられるか！分かったな？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_2",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_ask_document_6#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 127,
+      "string_id": "borov_ask_document_6",
+      "occurrence": 1,
+      "EN": "Not bad, Marked One. Well, I'm a man of my word. You've settled the matter alright - you get the key to the lab. You must be a real action man, if you've got the balls to go down into those catacombs. Wanna join us?",
+      "JA_current": "Not bad, Marked One. Well, I'm a man of my word. You've settled the matter alright - you get the key to the lab. You must be a real action man, if you've got the balls to go down into those catacombs. Wanna join us?",
+      "JA_new": "いい仕事だ、マークド・ワン。俺は約束を守る。これで話はついた。ラボの鍵を渡そう。地下墓地に入る度胸があるとは、大したタマだな。俺たちの仲間にならないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_2",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_ask_document_11#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 142,
+      "string_id": "borov_ask_document_11",
+      "occurrence": 1,
+      "EN": "Not bad, Marked One. Well, I'm a man of my word. You've settled the matter for us - you get the key to the lab.",
+      "JA_current": "Not bad, Marked One. Well, I'm a man of my word. You've settled the matter for us - you get the key to the lab.",
+      "JA_new": "いい仕事だ、マークド・ワン。俺は約束を守る。これでこっちの用も済んだ。ラボの鍵はあんたのものだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_2",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_ask_document_4#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 121,
+      "string_id": "borov_ask_document_4",
+      "occurrence": 1,
+      "EN": "I think I do.",
+      "JA_current": "I think I do.",
+      "JA_new": "そうだな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_2",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_ask_document_10#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 139,
+      "string_id": "borov_ask_document_10",
+      "occurrence": 1,
+      "EN": "Farewell.",
+      "JA_current": "Farewell.",
+      "JA_new": "じゃあな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_2",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_ask_document_7#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 130,
+      "string_id": "borov_ask_document_7",
+      "occurrence": 1,
+      "EN": "Hell, yeah! Why not?",
+      "JA_current": "Hell, yeah! Why not?",
+      "JA_new": "ああ、もちろんだ。入るよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_2",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        },
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "18",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_ask_document_8#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 133,
+      "string_id": "borov_ask_document_8",
+      "occurrence": 1,
+      "EN": "Thanks for the proposal, but I'll pass, got things to take care of.",
+      "JA_current": "Thanks for the proposal, but I'll pass, got things to take care of.",
+      "JA_new": "誘いはありがたいが、遠慮しておく。やることがあるんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_2",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        },
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "19",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_ask_document_9#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 136,
+      "string_id": "borov_ask_document_9",
+      "occurrence": 1,
+      "EN": "We are quits for now, then... My boys will leave you be while you exit. Don't try coming back again though, they'll be weapons free next time they see you, he-heh...",
+      "JA_current": "We are quits for now, then... My boys will leave you be while you exit. Don't try coming back again though, they'll be weapons free next time they see you, he-heh...",
+      "JA_new": "これで貸し借りなしだ。出ていく間、ウチの連中には手を出させない。だが二度と戻ってくるなよ。次に顔を見たら、遠慮なく撃たせてもらう。へへ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_2",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "borov_ask_document_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You wanted to talk something over, didn't you?",
+      "JA_current": "You wanted to talk something over, didn't you?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_ask_document_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "borov_ask_document_1",
+      "next": [
+        "2",
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sure I did! Have you brought the documents?",
+      "JA_current": "Sure I did! Have you brought the documents?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_ask_document_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "borov_ask_document_2",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Not yet.",
+      "JA_current": "Not yet.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_ask_document_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "borov_ask_document_5",
+      "next": [
+        "6",
+        "11"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs_darkvalley.barman_document_have"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, here you are.",
+      "JA_current": "Yes, here you are.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_ask_document_5#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "borov_ask_document_3",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "That sucks! I ain't gonna wait for ages! Get it?",
+      "JA_current": "That sucks! I ain't gonna wait for ages! Get it?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_ask_document_3#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "borov_ask_document_6",
+      "next": [],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "actor_set_bandit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "val_actor_has_borov_key"
+        },
+        {
+          "type": "give_info",
+          "value": "barman_document_done"
+        },
+        {
+          "type": "action",
+          "value": "dialogs_darkvalley.borov_give_document"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Not bad, Marked One. Well, I'm a man of my word. You've settled the matter alright - you get the key to the lab. You must be a real action man, if you've got the balls to go down into those catacombs. Wanna join us?",
+      "JA_current": "Not bad, Marked One. Well, I'm a man of my word. You've settled the matter alright - you get the key to the lab. You must be a real action man, if you've got the balls to go down into those catacombs. Wanna join us?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_ask_document_6#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "borov_ask_document_11",
+      "next": [
+        "10"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "actor_set_bandit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "val_actor_has_borov_key"
+        },
+        {
+          "type": "give_info",
+          "value": "barman_document_done"
+        },
+        {
+          "type": "action",
+          "value": "dialogs_darkvalley.borov_give_document"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Not bad, Marked One. Well, I'm a man of my word. You've settled the matter for us - you get the key to the lab.",
+      "JA_current": "Not bad, Marked One. Well, I'm a man of my word. You've settled the matter for us - you get the key to the lab.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_ask_document_11#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "borov_ask_document_4",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I think I do.",
+      "JA_current": "I think I do.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_ask_document_4#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "borov_ask_document_10",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9",
+        "11"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Farewell.",
+      "JA_current": "Farewell.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_ask_document_10#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "borov_ask_document_7",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.actor_set_bandit"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Hell, yeah! Why not?",
+      "JA_current": "Hell, yeah! Why not?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_ask_document_7#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "borov_ask_document_8",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Thanks for the proposal, but I'll pass, got things to take care of.",
+      "JA_current": "Thanks for the proposal, but I'll pass, got things to take care of.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_ask_document_8#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "borov_ask_document_9",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "We are quits for now, then... My boys will leave you be while you exit. Don't try coming back again though, they'll be weapons free next time they see you, he-heh...",
+      "JA_current": "We are quits for now, then... My boys will leave you be while you exit. Don't try coming back again though, they'll be weapons free next time they see you, he-heh...",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_ask_document_9#1"
+      ]
+    }
+  ]
+}

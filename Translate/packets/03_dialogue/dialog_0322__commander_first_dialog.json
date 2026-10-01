@@ -1,0 +1,496 @@
+{
+  "packet_id": "dialog_0322__commander_first_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "commander_first_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "esc_soldier_blockpost_commander",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "turrets_shoot_off"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "blokpost_commander_limons_need"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 11,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:commander_first_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2485,
+      "string_id": "commander_first_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Hello, Comrade Officer. I am here on business.",
+      "JA_current": "Hello, Comrade Officer. I am here on business.",
+      "JA_new": "こんにちは、同志将校。用件があって来た。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "commander_first_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:commander_first_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2488,
+      "string_id": "commander_first_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "At ease, scumbag. So, what the fuck do you want? You came for that snotty nosed brat? Would you like to surrender to the military for trespassing and join him in captivity?",
+      "JA_current": "At ease, scumbag. So, what the fuck do you want? You came for that snotty nosed brat? Would you like to surrender to the military for trespassing and join him in captivity?",
+      "JA_new": "楽にしろ、クズ野郎。で、何の用だ？ あの鼻垂れ小僧を迎えに来たのか？ それとも、お前も侵入罪でミリタリーに出頭して、あいつと一緒に捕虜になりたいのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "commander_first_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:commander_first_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2491,
+      "string_id": "commander_first_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Hold on, commander, don't be too hasty. I have a business proposition for you.",
+      "JA_current": "Hold on, commander, don't be too hasty. I have a business proposition for you.",
+      "JA_new": "待ってくれ、司令官。早まらないでくれ。取引を持ちかけに来たんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "commander_first_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:commander_first_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2494,
+      "string_id": "commander_first_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Well? Out with it!",
+      "JA_current": "Well? Out with it!",
+      "JA_new": "で？ さっさと言え！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "commander_first_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:commander_first_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2497,
+      "string_id": "commander_first_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "I'd like to negotiate with you for his freedom.",
+      "JA_current": "I'd like to negotiate with you for his freedom.",
+      "JA_new": "弟の解放について交渉したい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "commander_first_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:commander_first_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2500,
+      "string_id": "commander_first_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Have you lost your mind? What fucking freedom!? He wounded two of my men when we took his group! Our guys would have torn him to shreds a long time ago if I'd not given him my protection... Do you have any idea how much his freedom would be worth to you, stalker?",
+      "JA_current": "Have you lost your mind? What fucking freedom!? He wounded two of my men when we took his group! Our guys would have torn him to shreds a long time ago if I'd not given him my protection... Do you have any idea how much his freedom would be worth to you, stalker?",
+      "JA_new": "正気か？ 解放だと！？ あいつは仲間と一緒に捕まった時、俺の部下を二人も負傷させたんだ！ 俺が守ってやらなければ、とっくにうちの連中にずたずたにされてたぞ……ストーカー、お前にとってあいつの自由にいくらの価値があるのか分かってるのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "commander_first_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:commander_first_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2503,
+      "string_id": "commander_first_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Oh, I see, you're a shrewd businessman... Name your price.",
+      "JA_current": "Oh, I see, you're a shrewd businessman... Name your price.",
+      "JA_new": "なるほど、あんたは商売上手らしい……いくら欲しい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "commander_first_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:commander_first_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2506,
+      "string_id": "commander_first_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "As if a cockroach like you would be able to afford it! You think your pennies are enough to build me a summer house in the Mediterranean? Ha-ha! Give me one million rubles.",
+      "JA_current": "As if a cockroach like you would be able to afford it! You think your pennies are enough to build me a summer house in the Mediterranean? Ha-ha! Give me one million rubles.",
+      "JA_new": "お前みたいなゴキブリに払えるわけないだろ！ お前のはした金で、地中海に別荘でも建てられると思ってるのか？ ははっ！ 100万ルーブルだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "commander_first_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:commander_first_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2509,
+      "string_id": "commander_first_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "How about artifacts?",
+      "JA_current": "How about artifacts?",
+      "JA_new": "アーティファクトじゃだめか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "commander_first_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:commander_first_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2512,
+      "string_id": "commander_first_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "No, I already made a request for a specific artifact, and since you didn't bring it, I'd rather have the money. I'll give you two days! If you don't bring the cash by then, I'll issue orders for a summary execution of this terrorist.",
+      "JA_current": "No, I already made a request for a specific artifact, and since you didn't bring it, I'd rather have the money. I'll give you two days! If you don't bring the cash by then, I'll issue orders for a summary execution of this terrorist.",
+      "JA_new": "いや、特定のアーティファクトをもう指定してある。持ってこなかったんだから、今は金のほうがいい。期限は二日だ。それまでに現金を持ってこなければ、このテロリストを即決処刑するよう命令する。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "commander_first_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:commander_first_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2515,
+      "string_id": "commander_first_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "I'll get the money. Don't get too excited, commander.",
+      "JA_current": "I'll get the money. Don't get too excited, commander.",
+      "JA_new": "金は用意する。そんなに浮かれるなよ、司令官。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "commander_first_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "commander_first_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hello, Comrade Officer. I am here on business.",
+      "JA_current": "Hello, Comrade Officer. I am here on business.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:commander_first_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "commander_first_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "At ease, scumbag. So, what the fuck do you want? You came for that snotty nosed brat? Would you like to surrender to the military for trespassing and join him in captivity?",
+      "JA_current": "At ease, scumbag. So, what the fuck do you want? You came for that snotty nosed brat? Would you like to surrender to the military for trespassing and join him in captivity?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:commander_first_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "commander_first_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hold on, commander, don't be too hasty. I have a business proposition for you.",
+      "JA_current": "Hold on, commander, don't be too hasty. I have a business proposition for you.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:commander_first_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "commander_first_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well? Out with it!",
+      "JA_current": "Well? Out with it!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:commander_first_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "commander_first_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'd like to negotiate with you for his freedom.",
+      "JA_current": "I'd like to negotiate with you for his freedom.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:commander_first_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "commander_first_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Have you lost your mind? What fucking freedom!? He wounded two of my men when we took his group! Our guys would have torn him to shreds a long time ago if I'd not given him my protection... Do you have any idea how much his freedom would be worth to you, stalker?",
+      "JA_current": "Have you lost your mind? What fucking freedom!? He wounded two of my men when we took his group! Our guys would have torn him to shreds a long time ago if I'd not given him my protection... Do you have any idea how much his freedom would be worth to you, stalker?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:commander_first_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "commander_first_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh, I see, you're a shrewd businessman... Name your price.",
+      "JA_current": "Oh, I see, you're a shrewd businessman... Name your price.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:commander_first_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "commander_first_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "As if a cockroach like you would be able to afford it! You think your pennies are enough to build me a summer house in the Mediterranean? Ha-ha! Give me one million rubles.",
+      "JA_current": "As if a cockroach like you would be able to afford it! You think your pennies are enough to build me a summer house in the Mediterranean? Ha-ha! Give me one million rubles.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:commander_first_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "commander_first_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "How about artifacts?",
+      "JA_current": "How about artifacts?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:commander_first_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "commander_first_dialog_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, I already made a request for a specific artifact, and since you didn't bring it, I'd rather have the money. I'll give you two days! If you don't bring the cash by then, I'll issue orders for a summary execution of this terrorist.",
+      "JA_current": "No, I already made a request for a specific artifact, and since you didn't bring it, I'd rather have the money. I'll give you two days! If you don't bring the cash by then, I'll issue orders for a summary execution of this terrorist.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:commander_first_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "commander_first_dialog_phrase_11",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.blokpost_kommander_timer_start"
+        },
+        {
+          "type": "give_info",
+          "value": "blokpost_commander_limons_need"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'll get the money. Don't get too excited, commander.",
+      "JA_current": "I'll get the money. Don't get too excited, commander.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:commander_first_dialog_phrase_11#1"
+      ]
+    }
+  ]
+}

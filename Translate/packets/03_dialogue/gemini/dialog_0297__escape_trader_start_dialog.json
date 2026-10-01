@@ -1,0 +1,2719 @@
+{
+  "packet_id": "dialog_0297__escape_trader_start_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "escape_trader_start_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "escape_trader",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 45,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1264,
+      "string_id": "escape_trader_start_dialog_3",
+      "occurrence": 1,
+      "EN": "The choice is yours. Either I brainwash you like I usually do with all the rookies or I treat you like a real stalker and give you a mission straight away.",
+      "JA_current": "選ぶのはお前だ。新米連中みたいに一からみっちり叩き込んでやるか、一人前のストーカーとしてすぐに仕事を任せるか。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1288,
+      "string_id": "escape_trader_start_dialog_4",
+      "occurrence": 1,
+      "EN": "Hey, Marked One. Glad to see you alive.",
+      "JA_current": "よお、マークド・ワン。生きてて何よりだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1291,
+      "string_id": "escape_trader_start_dialog_5",
+      "occurrence": 1,
+      "EN": "Greetings, Marked One! Did you manage?",
+      "JA_current": "よお、マークド・ワン！ うまく片付いたか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_321#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1276,
+      "string_id": "escape_trader_start_dialog_321",
+      "occurrence": 1,
+      "EN": "Got a job for you, Marked One... I want you to find a stalker called Nimble, he was carrying some very important information. He disappeared somewhere near the bridge. Find him, dead or alive - I don't care, I need the flash drive with the info. Visit Wolf from the local camp, and ask him. He certainly knows where that guy can be.",
+      "JA_current": "仕事があるぞ、マークド・ワン……ニンブルというストーカーを探してくれ。奴は極めて重要な情報を持っていたんだが、橋のあたりで姿を消しちまった。生死は問わん、俺に必要なのは情報が入ったフラッシュドライブだ。村のキャンプにいるウルフに会って聞いてみろ。あいつなら居場所を知ってるはずだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "321",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_1991#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1860,
+      "string_id": "escape_trader_start_dialog_1991",
+      "occurrence": 1,
+      "EN": "Your first task is to obtain the \"Stone Blood\" artifact.\\n \\n\n\t\tThere's a gorge nearby with various anomalies, and the artifact is somewhere in the center of it. Local rookies are too afraid to go for it, but you aren't one, obviously. And I'm sure you will get it!\\n \\n\n\t\tHere, take this detector, you will need it. The coordinates will be sent to you together with some info on the artifact you're hunting and the anomaly you have to fish it out from...\\n \\n\n\t\tBy the way, you are NOT welcome in the village. They don't trust you... Neither do I, actually. Let your actions speak louder than any words. If you prove to be ok, I will vouch for you personally.\n        ",
+      "JA_current": "最初の仕事は«ストーンブラッド»のアーティファクトを手に入れることだ。\\n \\n\n\t\t近くにアノマリーだらけの峡谷があってな、アーティファクトはその真ん中あたりにあるはずだ。村の新米どもはビビって近づけやしないが、お前は違うだろ？ きっと取ってこられると信じてるぞ！\\n \\n\n\t\tほら、この探知機を持っていけ、役に立つ。探すアーティファクトの情報と、それを回収しなきゃならんアノマリーの情報、それに座標も送っておく……\\n \\n\n\t\tそうそう、お前は村じゃ歓迎されてないからな。連中はお前を信用してない……まあ、俺もだがね。言葉より行動で示してみせろ。まともな奴だと分かれば、俺が直々に保証してやる。\n        ",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "1991",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_171#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1240,
+      "string_id": "escape_trader_start_dialog_171",
+      "occurrence": 1,
+      "EN": "Hey Marked One, what's up?",
+      "JA_current": "よお、マークド・ワン、調子はどうだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "171",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_181#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1243,
+      "string_id": "escape_trader_start_dialog_181",
+      "occurrence": 1,
+      "EN": "Marked One, what are you doing here? I told you to find Nimble!",
+      "JA_current": "マークド・ワン、ここで何をしてる？ ニンブルを探せと言ったはずだぞ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "181",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_191#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1246,
+      "string_id": "escape_trader_start_dialog_191",
+      "occurrence": 1,
+      "EN": "So, you paid X-18 a visit? Got the documents?",
+      "JA_current": "で、ラボX18へ行ってきたのか？ 書類は手に入ったか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "191",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_200#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1261,
+      "string_id": "escape_trader_start_dialog_200",
+      "occurrence": 1,
+      "EN": "So Marked One, any progress on our mutual business?",
+      "JA_current": "で、マークド・ワン、例の仕事に進展はあったか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "200",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_300#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1267,
+      "string_id": "escape_trader_start_dialog_300",
+      "occurrence": 1,
+      "EN": "Hey, Marked One! Good timing, I've got a little job for you.",
+      "JA_current": "よお、マークド・ワン！ いいところに来た。ちょっと頼みたい仕事があるんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "300",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_661#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1342,
+      "string_id": "escape_trader_start_dialog_661",
+      "occurrence": 1,
+      "EN": "So Marked One, any news?",
+      "JA_current": "で、マークド・ワン、何か収穫はあったか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "661",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_132453#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1381,
+      "string_id": "escape_trader_start_dialog_132453",
+      "occurrence": 1,
+      "EN": "Marked One! Keep monitoring my messages next time! Here, take the medkit and go help the wounded!",
+      "JA_current": "マークド・ワン！ 次からは俺の通信に気を配っとけ！ ほら、この救急キットを持っていって、負傷者を助けてやれ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "132453",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_5432#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1349,
+      "string_id": "escape_trader_start_dialog_5432",
+      "occurrence": 1,
+      "EN": "So, have you brought the artifact?",
+      "JA_current": "で、例のアーティファクトは持ってきたか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "5432",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_6666#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1369,
+      "string_id": "escape_trader_start_dialog_6666",
+      "occurrence": 1,
+      "EN": "Why do you keep standing here?! Find out who got hit! Rush over there and check it out, and if it's our guys make sure you check for survivors!",
+      "JA_current": "いつまで突っ立ってる気だ！？ 誰がやられたのか突き止めてこい！ 現場へ急いで状況を確認するんだ。もし俺たちの仲間なら、生き残りがいないか必ず確かめろ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "6666",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_888#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1897,
+      "string_id": "escape_trader_start_dialog_888",
+      "occurrence": 1,
+      "EN": "Marked One, damn you! Why are you still here?! Haven't I told you to rush for the artifact?!",
+      "JA_current": "マークド・ワン、この野郎！ なんでまだここにいる！？ さっさとアーティファクトを取りに行けと言っただろうが！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "888",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_31#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1270,
+      "string_id": "escape_trader_start_dialog_31",
+      "occurrence": 1,
+      "EN": "Treat me like a rookie, I don't remember shit.",
+      "JA_current": "新米扱いしてくれ。何も覚えてないんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "31",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_32#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1273,
+      "string_id": "escape_trader_start_dialog_32",
+      "occurrence": 1,
+      "EN": "Just give me a mission.",
+      "JA_current": "仕事をくれればいい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "32",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_52#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1303,
+      "string_id": "escape_trader_start_dialog_52",
+      "occurrence": 1,
+      "EN": "The situation has been resolved.",
+      "JA_current": "問題なら片付いた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "52",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_56#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1327,
+      "string_id": "escape_trader_start_dialog_56",
+      "occurrence": 1,
+      "EN": "Nothing yet.",
+      "JA_current": "まだだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "56",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_3211#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1279,
+      "string_id": "escape_trader_start_dialog_3211",
+      "occurrence": 1,
+      "EN": "Go on.",
+      "JA_current": "続けてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "3211",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_144#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 435,
+      "string_id": "dialogs_escape_144",
+      "occurrence": 1,
+      "EN": "I see. Will there be any other explanations?",
+      "JA_current": "分かった。他に説明はあるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "19911",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_1911#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1249,
+      "string_id": "escape_trader_start_dialog_1911",
+      "occurrence": 1,
+      "EN": "Yeah. Here they are.",
+      "JA_current": "ああ、これだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "1911",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_147#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 444,
+      "string_id": "dialogs_escape_147",
+      "occurrence": 1,
+      "EN": "On my way.",
+      "JA_current": "分かった、行ってくる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "1012",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_7712#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1353,
+      "string_id": "escape_trader_start_dialog_7712",
+      "occurrence": 1,
+      "EN": "Yes, here it is... Damn! I almost got torn to pieces there!!!",
+      "JA_current": "ああ、持ってきたぞ……くそっ！ あやうく八つ裂きにされるところだった！！！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [
+        "duplicate_string_id_in_file"
+      ],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "7712",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_7712#2",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1882,
+      "string_id": "escape_trader_start_dialog_7712",
+      "occurrence": 2,
+      "EN": "Yes, here it is... Damn! I almost got torn to pieces there!!!",
+      "JA_current": "ああ、持ってきたぞ……くそっ！ あやうく八つ裂きにされるところだった！！！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [
+        "duplicate_string_id_in_file"
+      ],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "7712",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_7714#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1357,
+      "string_id": "escape_trader_start_dialog_7714",
+      "occurrence": 1,
+      "EN": "Yes, here it is... By the way, Sidorovich, I've spotted a helicopter nearby. It seems to have shot at somebody on the ground.",
+      "JA_current": "ああ、持ってきたぞ……そうだシドロヴィッチ、近くでヘリを見かけた。地上の誰かを撃っていたようだが。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "7714",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_7713#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1891,
+      "string_id": "escape_trader_start_dialog_7713",
+      "occurrence": 1,
+      "EN": "Not yet.",
+      "JA_current": "まだだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "7713",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        },
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "7716",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_7715#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1373,
+      "string_id": "escape_trader_start_dialog_7715",
+      "occurrence": 1,
+      "EN": "Not yet, I've been scared away by a military helicopter. It seems to have attacked somebody on the ground nearby.",
+      "JA_current": "まだだ。近くでミリタリーのヘリが地上の誰かを攻撃していて、追い払われちまった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "7715",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_32111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1282,
+      "string_id": "escape_trader_start_dialog_32111",
+      "occurrence": 1,
+      "EN": "That's all for now. Bring me the flash drive and we'll consider the fact that you've partially paid me for saving you.",
+      "JA_current": "とりあえずはそれだけだ。フラッシュドライブを持ってこい。そうすりゃ、命を助けてやった借りを少しは返したと認めてやる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "32111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_199111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1870,
+      "string_id": "escape_trader_start_dialog_199111",
+      "occurrence": 1,
+      "EN": "None. Proceed with the task!",
+      "JA_current": "何もない。とっとと仕事に取りかかれ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "199111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_19111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1252,
+      "string_id": "escape_trader_start_dialog_19111",
+      "occurrence": 1,
+      "EN": "Well, well... I see... Now that's interesting, very interesting! If I told anyone they wouldn't believe me! Hmm... Yeah... Oh! Would you just look at that! I didn't expect this... it's pretty bad, eh... Well, here take these back and give them to the Barkeep. Oh, and I owe you for your efforts.",
+      "JA_current": "ほう、ほう……なるほどな……こいつは面白い、実に興味深いぞ！ 誰かに話したって信じちゃもらえんだろうな！ ふむ……そうか……おい！ 見ろよこれ！ こんなことになってるとはな……かなりまずいぞ、おい……よし、こいつを持ってバーキープのところへ戻れ。ああ、それとお前の骨折りにはちゃんと礼を払うぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "19111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_77121#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1361,
+      "string_id": "escape_trader_start_dialog_77121",
+      "occurrence": 1,
+      "EN": "Nice job, Marked One! One more little favor and we can talk about your problem.",
+      "JA_current": "よくやったぞ、マークド・ワン！ もう一つ頼まれごとを片付けてくれたら、お前の問題について話してやろう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [
+        "duplicate_string_id_in_file"
+      ],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "77121",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_77121#2",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1885,
+      "string_id": "escape_trader_start_dialog_77121",
+      "occurrence": 2,
+      "EN": "Nice job, Marked One! One more little favor and we can discuss your situation.",
+      "JA_current": "よくやったぞ、マークド・ワン！ もう一つ頼まれごとを片付けてくれたら、お前の事情について話してやろう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [
+        "duplicate_string_id_in_file"
+      ],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "77121",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_77122#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1365,
+      "string_id": "escape_trader_start_dialog_77122",
+      "occurrence": 1,
+      "EN": "A heli, you say? Attacking?.. Look, Marked One, get back out there and see if you can find out who was targeted. Don't take any chances with that chopper! The military pilots don't give a shit who you are, to them everything in the Zone is hostile.",
+      "JA_current": "ヘリだと？ 誰かを攻撃してただと？……いいか、マークド・ワン。現場にとって返して、誰が狙われたのか確かめてこい。あのヘリには絶対に手を出すなよ！ ミリタリーの操縦士どもにとっちゃ、お前が誰だろうと関係ない。ゾーンにいるものは全部敵なんだからな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "77122",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_77131#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1894,
+      "string_id": "escape_trader_start_dialog_77131",
+      "occurrence": 1,
+      "EN": "We've got nothing to talk about until you bring the artifact. C'mon! Go get it!",
+      "JA_current": "アーティファクトを持ってくるまで、お前と話すことなんかないぞ。ほら！ とっとと取ってこい！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "77131",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_77151#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1377,
+      "string_id": "escape_trader_start_dialog_77151",
+      "occurrence": 1,
+      "EN": "A heli, you say? Attacking?.. Look, Marked One, get back out there and check out who's got targeted. Don't take chances with that chopper, though! These military pilots don't give a shit who you are, to them everything in the Zone is hostile. And don't forget to pick up the artifact on your way back! C'mon, move! Maybe someone survived!",
+      "JA_current": "ヘリだと？ 誰かを攻撃してただと？……いいか、マークド・ワン。現場にとって返して、誰が狙われたのか確かめてこい。だが、あのヘリには近づくなよ！ ミリタリーの操縦士どもにとっちゃ、お前が誰だろうと関係ない。ゾーンにいるものは全部敵なんだからな。それと、帰りにアーティファクトを拾ってくるのも忘れるな！ ほら急げ！ 生き残ってる奴がいるかもしれんぞ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "77151",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_321111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1285,
+      "string_id": "escape_trader_start_dialog_321111",
+      "occurrence": 1,
+      "EN": "OK, I'll try.",
+      "JA_current": "分かった、やってみる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "321111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_145#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 438,
+      "string_id": "dialogs_escape_145",
+      "occurrence": 1,
+      "EN": "Well, I'm on my way then.",
+      "JA_current": "なら、すぐに向かう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "1991111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_146#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 441,
+      "string_id": "dialogs_escape_146",
+      "occurrence": 1,
+      "EN": "What favour?",
+      "JA_current": "どんな頼みだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "771211",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_52111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1306,
+      "string_id": "escape_trader_start_dialog_52111",
+      "occurrence": 1,
+      "EN": "Where's the flash drive with the info?",
+      "JA_current": "情報入りのフラッシュドライブはどうした？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "52111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_19911111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1876,
+      "string_id": "escape_trader_start_dialog_19911111",
+      "occurrence": 1,
+      "EN": "C'mon! Go get the artifact!",
+      "JA_current": "何をグズグズしてる！ さっさとアーティファクトを取りに行け！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "19911111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_521111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1309,
+      "string_id": "escape_trader_start_dialog_521111",
+      "occurrence": 1,
+      "EN": "Here it is.",
+      "JA_current": "これだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "521111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_521112#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1315,
+      "string_id": "escape_trader_start_dialog_521112",
+      "occurrence": 1,
+      "EN": "I don't have it.",
+      "JA_current": "持ってない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "521112",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_5211111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1312,
+      "string_id": "escape_trader_start_dialog_5211111",
+      "occurrence": 1,
+      "EN": "Great.",
+      "JA_current": "上出来だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "5211111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_start_dialog_5211121#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1318,
+      "string_id": "escape_trader_start_dialog_5211121",
+      "occurrence": 1,
+      "EN": "That's a pity, Marked One, a real pity. We can't talk business until you bring it to me...",
+      "JA_current": "そいつは残念だ、マークド・ワン。本当に残念だよ。そいつを持ってきてくれないことには、商売の話はできんな……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_start_dialog",
+          "phrase_id": "5211121",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": null,
+      "next": [
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "30",
+        "66",
+        "77",
+        "88"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "12",
+      "text_id": null,
+      "next": [
+        "3"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "escape_dialog.is_tutorial"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "esc_return"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "esc_trader_tutorial_chosen"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "artifact_started"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "13",
+      "text_id": null,
+      "next": [
+        "4"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "escape_dialog.trader_dont_give_job"
+        },
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.hasnt_darklab_documents"
+        },
+        {
+          "type": "has_info",
+          "value": "esc_return"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "14",
+      "text_id": null,
+      "next": [
+        "5"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "escape_dialog.trader_alredy_give_job"
+        },
+        {
+          "type": "precondition",
+          "value": "escape_dialog.is_tutorial"
+        },
+        {
+          "type": "precondition",
+          "value": "PMA_escape.first_quests_ended"
+        },
+        {
+          "type": "has_info",
+          "value": "shustriy_start"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "esc_return"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "esc_trader_direct"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "agroprom_military_case"
+        },
+        {
+          "type": "has_info",
+          "value": "tutorial_wounded_give_info"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "15",
+      "text_id": null,
+      "next": [
+        "321"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "escape_dialog.is_tutorial"
+        },
+        {
+          "type": "precondition",
+          "value": "PMA_escape.first_quests_ended"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "shustriy_start"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "16",
+      "text_id": null,
+      "next": [
+        "1991"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "escape_dialog.is_tutorial"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "esc_trader_can_leave"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "esc_return"
+        },
+        {
+          "type": "has_info",
+          "value": "esc_trader_tutorial_chosen"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "17",
+      "text_id": null,
+      "next": [
+        "171"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "escape_dialog.is_not_tutorial"
+        },
+        {
+          "type": "precondition",
+          "value": "escape_dialog.trader_dont_give_job"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "esc_return"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "18",
+      "text_id": null,
+      "next": [
+        "181"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "esc_return"
+        },
+        {
+          "type": "has_info",
+          "value": "shustriy_start"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "tutorial_wounded_give_info"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "19",
+      "text_id": null,
+      "next": [
+        "191"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.have_darklab_documents"
+        },
+        {
+          "type": "precondition",
+          "value": "escape_dialog.is_not_tutorial"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "bar_darklab_document_done"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "esc_darklab_documents_read"
+        },
+        {
+          "type": "has_info",
+          "value": "esc_return"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "20",
+      "text_id": null,
+      "next": [
+        "200"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "escape_dialog.trader_give_extra_job"
+        },
+        {
+          "type": "precondition",
+          "value": "escape_dialog.is_not_tutorial"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "30",
+      "text_id": null,
+      "next": [
+        "300"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "escape_dialog.trader_need_extra_job"
+        },
+        {
+          "type": "precondition",
+          "value": "escape_dialog.is_not_tutorial"
+        },
+        {
+          "type": "has_info",
+          "value": "esc_trader_return"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "66",
+      "text_id": null,
+      "next": [
+        "661"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "esc_return"
+        },
+        {
+          "type": "has_info",
+          "value": "agroprom_military_case"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "77",
+      "text_id": null,
+      "next": [
+        "132453",
+        "5432",
+        "6666"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "escape_dialog.is_tutorial"
+        },
+        {
+          "type": "precondition",
+          "value": "PMA_escape.first_quests_not_ended"
+        },
+        {
+          "type": "has_info",
+          "value": "esc_trader_can_leave"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "88",
+      "text_id": null,
+      "next": [
+        "888"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "escape_dialog.is_tutorial"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "esc_heli_go"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "artefact_gain"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "shustriy_start"
+        },
+        {
+          "type": "has_info",
+          "value": "artifact_started"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "escape_trader_start_dialog_3",
+      "next": [
+        "31",
+        "32"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The choice is yours. Either I brainwash you like I usually do with all the rookies or I treat you like a real stalker and give you a mission straight away.",
+      "JA_current": "俺が新米連中にやってるように手取り足取り説明するか、それともベテラン連中と同じく、細かいこたぁ省いてとっとと任務をくれてやろうか？ どっちでも構わんぜ、お前さんの好きにしな。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "escape_trader_start_dialog_4",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, Marked One. Glad to see you alive.",
+      "JA_current": "やぁ、Marked One。生きて会えるとはな。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_4#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "escape_trader_start_dialog_5",
+      "next": [
+        "52",
+        "56"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Greetings, Marked One! Did you manage?",
+      "JA_current": "ご機嫌いかがかな？ Marked One！ 上手いことやれたかね？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_5#1"
+      ]
+    },
+    {
+      "phrase_id": "321",
+      "text_id": "escape_trader_start_dialog_321",
+      "next": [
+        "3211"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "15",
+        "771211"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Got a job for you, Marked One... I want you to find a stalker called Nimble, he was carrying some very important information. He disappeared somewhere near the bridge. Find him, dead or alive - I don't care, I need the flash drive with the info. Visit Wolf from the local camp, and ask him. He certainly knows where that guy can be.",
+      "JA_current": "じゃあ仕事があるぜ、Marked one。お前さんには Nimble というストーカーを探して欲しい。奴はとっても大切な情報を運んでたんだが、橋の辺りで消えちまった。生死は問わない。俺は Flash Driveに入ってる筈の情報が欲しいんだ。上のキャンプにいる Wolf って奴の所に行ってきな。そいつなら何処に Nimble がいるか知ってる筈さ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_321#1"
+      ]
+    },
+    {
+      "phrase_id": "1991",
+      "text_id": "escape_trader_start_dialog_1991",
+      "next": [
+        "19911"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "escape_dialog.give_radio_to_actor"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "32",
+        "16"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Your first task is to obtain the \"Stone Blood\" artifact.\\n \\n\n\t\tThere's a gorge nearby with various anomalies, and the artifact is somewhere in the center of it. Local rookies are too afraid to go for it, but you aren't one, obviously. And I'm sure you will get it!\\n \\n\n\t\tHere, take this detector, you will need it. The coordinates will be sent to you together with some info on the artifact you're hunting and the anomaly you have to fish it out from...\\n \\n\n\t\tBy the way, you are NOT welcome in the village. They don't trust you... Neither do I, actually. Let your actions speak louder than any words. If you prove to be ok, I will vouch for you personally.\n        ",
+      "JA_current": "Your first task is to obtain the \"Stone Blood\" artifact.\\n \\n\n\t\tThere's a gorge nearby with various anomalies, and the artifact is somewhere in the center of it. Local rookies are too afraid to go for it, but you aren't one, obviously. And I'm sure you will get it!\\n \\n\n\t\tHere, take this detector, you will need it. The coordinates will be sent to you together with some info on the artifact you're hunting and the anomaly you have to fish it out from...\\n \\n\n\t\tBy the way, you are NOT welcome in the village. They don't trust you... Neither do I, actually. Let your actions speak louder than any words. If you prove to be ok, I will vouch for you personally.\n        ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_1991#1"
+      ]
+    },
+    {
+      "phrase_id": "171",
+      "text_id": "escape_trader_start_dialog_171",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "17"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey Marked One, what's up?",
+      "JA_current": "やぁ、Marked One。調子はどうかね？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_171#1"
+      ]
+    },
+    {
+      "phrase_id": "181",
+      "text_id": "escape_trader_start_dialog_181",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "18"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Marked One, what are you doing here? I told you to find Nimble!",
+      "JA_current": "何をしている Marked One？ Nimble を探すよう言った筈だが。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_181#1"
+      ]
+    },
+    {
+      "phrase_id": "191",
+      "text_id": "escape_trader_start_dialog_191",
+      "next": [
+        "1911"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "19"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So, you paid X-18 a visit? Got the documents?",
+      "JA_current": "で、X18 に行ってみたか？ ドキュメントは手に入ったか？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_191#1"
+      ]
+    },
+    {
+      "phrase_id": "200",
+      "text_id": "escape_trader_start_dialog_200",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "20"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So Marked One, any progress on our mutual business?",
+      "JA_current": "で、Marked One、俺たち2人のビジネスに何か進展があったか？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_200#1"
+      ]
+    },
+    {
+      "phrase_id": "300",
+      "text_id": "escape_trader_start_dialog_300",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "30"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, Marked One! Good timing, I've got a little job for you.",
+      "JA_current": "やぁ、Marked One。いいタイミイングだ、お前さん用の仕事があるぞ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_300#1"
+      ]
+    },
+    {
+      "phrase_id": "661",
+      "text_id": "escape_trader_start_dialog_661",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "66"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So Marked One, any news?",
+      "JA_current": "で、Marked One、何か知らせがあるのか？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_661#1"
+      ]
+    },
+    {
+      "phrase_id": "132453",
+      "text_id": "escape_trader_start_dialog_132453",
+      "next": [
+        "1012"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "PMA_escape.is_tolik_quest_running"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "PMA_escape.give_medkit_for_tolik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "77"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Marked One! Keep monitoring my messages next time! Here, take the medkit and go help the wounded!",
+      "JA_current": "Marked One! Keep monitoring my messages next time! Here, take the medkit and go help the wounded!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_132453#1"
+      ]
+    },
+    {
+      "phrase_id": "5432",
+      "text_id": "escape_trader_start_dialog_5432",
+      "next": [
+        "7712",
+        "7714",
+        "7713",
+        "7715",
+        "7716"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "PMA_escape.not_is_tolik_quest_running"
+        },
+        {
+          "type": "has_info",
+          "value": "artifact_started"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "artefact_done"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "artefact_otdan"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "77"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So, have you brought the artifact?",
+      "JA_current": "So, have you brought the artifact?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_5432#1"
+      ]
+    },
+    {
+      "phrase_id": "6666",
+      "text_id": "escape_trader_start_dialog_6666",
+      "next": [
+        "1012"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "PMA_escape.heli_still_in_air"
+        },
+        {
+          "type": "precondition",
+          "value": "PMA_escape.not_is_tolik_quest_running"
+        },
+        {
+          "type": "has_info",
+          "value": "wolf_start_dialogs"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "77"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Why do you keep standing here?! Find out who got hit! Rush over there and check it out, and if it's our guys make sure you check for survivors!",
+      "JA_current": "Why do you keep standing here?! Find out who got hit! Rush over there and check it out, and if it's our guys make sure you check for survivors!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_6666#1"
+      ]
+    },
+    {
+      "phrase_id": "888",
+      "text_id": "escape_trader_start_dialog_888",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "88"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Marked One, damn you! Why are you still here?! Haven't I told you to rush for the artifact?!",
+      "JA_current": "Marked One, damn you! Why are you still here?! Haven't I told you to rush for the artifact?!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_888#1"
+      ]
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "escape_trader_start_dialog_31",
+      "next": [
+        "311"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "action",
+          "value": "escape_dialog.run_tutorial_pda"
+        },
+        {
+          "type": "give_info",
+          "value": "esc_trader_newbie"
+        },
+        {
+          "type": "give_info",
+          "value": "esc_trader_tutorial_chosen"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Treat me like a rookie, I don't remember shit.",
+      "JA_current": "詳しく頼む。何もかも覚えてないんだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_31#1"
+      ]
+    },
+    {
+      "phrase_id": "32",
+      "text_id": "escape_trader_start_dialog_32",
+      "next": [
+        "1991"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "esc_trader_experienced"
+        },
+        {
+          "type": "give_info",
+          "value": "esc_trader_tutorial_chosen"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Just give me a mission.",
+      "JA_current": "任務をくれればいい。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_32#1"
+      ]
+    },
+    {
+      "phrase_id": "52",
+      "text_id": "escape_trader_start_dialog_52",
+      "next": [
+        "521"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "escape_dialog.tutorial_wounded_end"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The situation has been resolved.",
+      "JA_current": "問題解決といったところさ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_52#1"
+      ]
+    },
+    {
+      "phrase_id": "56",
+      "text_id": "escape_trader_start_dialog_56",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "escape_dialog.is_not_tutorial"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Nothing yet.",
+      "JA_current": "まだ何も。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_56#1"
+      ]
+    },
+    {
+      "phrase_id": "3211",
+      "text_id": "escape_trader_start_dialog_3211",
+      "next": [
+        "32111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "321"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Go on.",
+      "JA_current": "他には？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_3211#1"
+      ]
+    },
+    {
+      "phrase_id": "19911",
+      "text_id": "dialogs_escape_144",
+      "next": [
+        "199111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1991"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I see. Will there be any other explanations?",
+      "JA_current": "I see. Will there be any other explanations?",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_144#1"
+      ]
+    },
+    {
+      "phrase_id": "1911",
+      "text_id": "escape_trader_start_dialog_1911",
+      "next": [
+        "19111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "esc_darklab_documents_read"
+        },
+        {
+          "type": "give_info",
+          "value": "esc_trader_return"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "191"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah. Here they are.",
+      "JA_current": "ああ。ここにある。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_1911#1"
+      ]
+    },
+    {
+      "phrase_id": "1012",
+      "text_id": "dialogs_escape_147",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "77122",
+        "6666",
+        "77151",
+        "132453"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "On my way.",
+      "JA_current": "On my way.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_147#1"
+      ]
+    },
+    {
+      "phrase_id": "7712",
+      "text_id": "escape_trader_start_dialog_7712",
+      "next": [
+        "77121"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "PMA_escape.have_artefact"
+        },
+        {
+          "type": "precondition",
+          "value": "PMA_escape.heli_already_done"
+        },
+        {
+          "type": "has_info",
+          "value": "artefact_gain"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "PMA_escape.give_artefact"
+        },
+        {
+          "type": "give_info",
+          "value": "artefact_otdan"
+        },
+        {
+          "type": "give_info",
+          "value": "artefact_done"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5432"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_7712#1",
+        "stable_dialogs_escape:escape_trader_start_dialog_7712#2"
+      ]
+    },
+    {
+      "phrase_id": "7714",
+      "text_id": "escape_trader_start_dialog_7714",
+      "next": [
+        "77122"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "PMA_escape.have_artefact"
+        },
+        {
+          "type": "precondition",
+          "value": "PMA_escape.heli_still_in_air"
+        },
+        {
+          "type": "has_info",
+          "value": "artefact_gain"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "PMA_escape.give_artefact"
+        },
+        {
+          "type": "give_info",
+          "value": "artefact_otdan"
+        },
+        {
+          "type": "give_info",
+          "value": "artefact_done"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5432"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, here it is... By the way, Sidorovich, I've spotted a helicopter nearby. It seems to have shot at somebody on the ground.",
+      "JA_current": "Yes, here it is... By the way, Sidorovich, I've spotted a helicopter nearby. It seems to have shot at somebody on the ground.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_7714#1"
+      ]
+    },
+    {
+      "phrase_id": "7713",
+      "text_id": "escape_trader_start_dialog_7713",
+      "next": [
+        "77131"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "PMA_escape.dont_have_artefact"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "esc_heli_go"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5432"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Not yet.",
+      "JA_current": "Not yet.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_7713#1"
+      ]
+    },
+    {
+      "phrase_id": "7715",
+      "text_id": "escape_trader_start_dialog_7715",
+      "next": [
+        "77151"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "PMA_escape.heli_still_in_air"
+        },
+        {
+          "type": "precondition",
+          "value": "PMA_escape.dont_have_artefact"
+        },
+        {
+          "type": "has_info",
+          "value": "esc_heli_go"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5432"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Not yet, I've been scared away by a military helicopter. It seems to have attacked somebody on the ground nearby.",
+      "JA_current": "Not yet, I've been scared away by a military helicopter. It seems to have attacked somebody on the ground nearby.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_7715#1"
+      ]
+    },
+    {
+      "phrase_id": "7716",
+      "text_id": "escape_trader_start_dialog_7713",
+      "next": [
+        "77131"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "PMA_escape.heli_already_done"
+        },
+        {
+          "type": "precondition",
+          "value": "PMA_escape.dont_have_artefact"
+        },
+        {
+          "type": "has_info",
+          "value": "esc_heli_go"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5432"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Not yet.",
+      "JA_current": "Not yet.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_7713#1"
+      ]
+    },
+    {
+      "phrase_id": "311",
+      "text_id": null,
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "31"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "521",
+      "text_id": null,
+      "next": [
+        "5211"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "52"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "32111",
+      "text_id": "escape_trader_start_dialog_32111",
+      "next": [
+        "321111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "escape_dialog.give_knife_to_actor"
+        },
+        {
+          "type": "give_info",
+          "value": "shustriy_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3211"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "That's all for now. Bring me the flash drive and we'll consider the fact that you've partially paid me for saving you.",
+      "JA_current": "必要なのはそれだけだ。Flash Drive を持って来い。で、それからお前さんを助けたのに見合う働きだったかどうか考えてやるさ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_32111#1"
+      ]
+    },
+    {
+      "phrase_id": "199111",
+      "text_id": "escape_trader_start_dialog_199111",
+      "next": [
+        "1991111"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "artefact_done"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "esc_trader_can_leave"
+        },
+        {
+          "type": "give_info",
+          "value": "artifact_started"
+        },
+        {
+          "type": "action",
+          "value": "escape_dialog.spawn_izgoy"
+        },
+        {
+          "type": "action",
+          "value": "escape_dialog.spawn_vardok"
+        },
+        {
+          "type": "action",
+          "value": "escape_dialog.spawn_ahmet"
+        },
+        {
+          "type": "action",
+          "value": "escape_dialog.spawn_sinyak"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.spawn_some_arts"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.spawn_strelok_taynik"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.spawn_nabors"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.spawn_kontainer"
+        },
+        {
+          "type": "action",
+          "value": "PMA_spawn.art_sp"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "19911"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "None. Proceed with the task!",
+      "JA_current": "None. Proceed with the task!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_199111#1"
+      ]
+    },
+    {
+      "phrase_id": "19111",
+      "text_id": "escape_trader_start_dialog_19111",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "escape_dialog.give_documents_reward"
+        }
+      ],
+      "other_control": [
+        {
+          "type": "disable_info",
+          "value": "esc_return"
+        }
+      ],
+      "incoming": [
+        "1911"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, well... I see... Now that's interesting, very interesting! If I told anyone they wouldn't believe me! Hmm... Yeah... Oh! Would you just look at that! I didn't expect this... it's pretty bad, eh... Well, here take these back and give them to the Barkeep. Oh, and I owe you for your efforts.",
+      "JA_current": "さてさて… 分かった… おもしろい、こりゃあ、おもしろい！ 誰に言っても信じてもらえないだろう！ ふむ… ああ… おお! ちょっとこれを見てくれるか！ これは予想しなかった… かなり不味い、えっ… よし、これを持って返って、Barkeep に渡してくれ。おお、苦労したお前には借りが出来たよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_19111#1"
+      ]
+    },
+    {
+      "phrase_id": "77121",
+      "text_id": "escape_trader_start_dialog_77121",
+      "next": [
+        "771211"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "wolf_start_dialogs"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "7712"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_77121#1",
+        "stable_dialogs_escape:escape_trader_start_dialog_77121#2"
+      ]
+    },
+    {
+      "phrase_id": "77122",
+      "text_id": "escape_trader_start_dialog_77122",
+      "next": [
+        "1012"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "wolf_start_dialogs"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "7714"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A heli, you say? Attacking?.. Look, Marked One, get back out there and see if you can find out who was targeted. Don't take any chances with that chopper! The military pilots don't give a shit who you are, to them everything in the Zone is hostile.",
+      "JA_current": "A heli, you say? Attacking?.. Look, Marked One, get back out there and see if you can find out who was targeted. Don't take any chances with that chopper! The military pilots don't give a shit who you are, to them everything in the Zone is hostile.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_77122#1"
+      ]
+    },
+    {
+      "phrase_id": "77131",
+      "text_id": "escape_trader_start_dialog_77131",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7713",
+        "7716"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "We've got nothing to talk about until you bring the artifact. C'mon! Go get it!",
+      "JA_current": "We've got nothing to talk about until you bring the artifact. C'mon! Go get it!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_77131#1"
+      ]
+    },
+    {
+      "phrase_id": "77151",
+      "text_id": "escape_trader_start_dialog_77151",
+      "next": [
+        "1012"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7715"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A heli, you say? Attacking?.. Look, Marked One, get back out there and check out who's got targeted. Don't take chances with that chopper, though! These military pilots don't give a shit who you are, to them everything in the Zone is hostile. And don't forget to pick up the artifact on your way back! C'mon, move! Maybe someone survived!",
+      "JA_current": "A heli, you say? Attacking?.. Look, Marked One, get back out there and check out who's got targeted. Don't take chances with that chopper, though! These military pilots don't give a shit who you are, to them everything in the Zone is hostile. And don't forget to pick up the artifact on your way back! C'mon, move! Maybe someone survived!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_77151#1"
+      ]
+    },
+    {
+      "phrase_id": "5211",
+      "text_id": null,
+      "next": [
+        "52111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "521"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "321111",
+      "text_id": "escape_trader_start_dialog_321111",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "32111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "OK, I'll try.",
+      "JA_current": "わかった。やってみよう。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_321111#1"
+      ]
+    },
+    {
+      "phrase_id": "1991111",
+      "text_id": "dialogs_escape_145",
+      "next": [
+        "19911111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "199111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, I'm on my way then.",
+      "JA_current": "Well, I'm on my way then.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_145#1"
+      ]
+    },
+    {
+      "phrase_id": "771211",
+      "text_id": "dialogs_escape_146",
+      "next": [
+        "321"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "77121"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What favour?",
+      "JA_current": "What favour?",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_146#1"
+      ]
+    },
+    {
+      "phrase_id": "52111",
+      "text_id": "escape_trader_start_dialog_52111",
+      "next": [
+        "521111",
+        "521112"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5211"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Where's the flash drive with the info?",
+      "JA_current": "情報入りの Flash Drive は？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_52111#1"
+      ]
+    },
+    {
+      "phrase_id": "19911111",
+      "text_id": "escape_trader_start_dialog_19911111",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1991111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "C'mon! Go get the artifact!",
+      "JA_current": "C'mon! Go get the artifact!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_19911111#1"
+      ]
+    },
+    {
+      "phrase_id": "521111",
+      "text_id": "escape_trader_start_dialog_521111",
+      "next": [
+        "5211111"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "escape_dialog.have_wounded_flash"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "escape_dialog.give_wounded_flash"
+        },
+        {
+          "type": "give_info",
+          "value": "esc_serious_talk"
+        },
+        {
+          "type": "give_info",
+          "value": "tutorial_end"
+        },
+        {
+          "type": "give_info",
+          "value": "esc_trader_hello_played"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "52111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here it is.",
+      "JA_current": "ほらよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_521111#1"
+      ]
+    },
+    {
+      "phrase_id": "521112",
+      "text_id": "escape_trader_start_dialog_521112",
+      "next": [
+        "5211121"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "escape_dialog.dont_have_wounded_flash"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "52111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I don't have it.",
+      "JA_current": "持ってない。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_521112#1"
+      ]
+    },
+    {
+      "phrase_id": "5211111",
+      "text_id": "escape_trader_start_dialog_5211111",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "521111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Great.",
+      "JA_current": "上出来だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_5211111#1"
+      ]
+    },
+    {
+      "phrase_id": "5211121",
+      "text_id": "escape_trader_start_dialog_5211121",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "521112"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "That's a pity, Marked One, a real pity. We can't talk business until you bring it to me...",
+      "JA_current": "残念だ、Marked One、本当に残念だ。お前がそれを持ってくるまで、まともな話はできん…。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_start_dialog_5211121#1"
+      ]
+    },
+    {
+      "phrase_id": "1992",
+      "text_id": "escape_trader_start_dialog_1992",
+      "next": [
+        "1993"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1993",
+      "text_id": "escape_trader_start_dialog_1993",
+      "next": [
+        "1994"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1992"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1994",
+      "text_id": "escape_trader_start_dialog_1994",
+      "next": [
+        "1995"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1993"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1995",
+      "text_id": "escape_trader_start_dialog_1995",
+      "next": [
+        "1996"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1994"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1996",
+      "text_id": "escape_trader_start_dialog_1994",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1995"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    }
+  ]
+}

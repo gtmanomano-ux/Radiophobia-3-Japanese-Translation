@@ -1,0 +1,1028 @@
+{
+  "packet_id": "dialog_0220__mamay_start_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "mamay_start_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "mamay",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "borov_dead"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "borov_dead"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "voronin_sniper_quest"
+    }
+  ],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 24,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3324,
+      "string_id": "mamay_start_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "What are you looking at? Give me something to eat.",
+      "JA_current": "What are you looking at? Give me something to eat.",
+      "JA_new": "何見てる？何か食いもんをくれよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3327,
+      "string_id": "mamay_start_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Who are you? What are you doing here?",
+      "JA_current": "Who are you? What are you doing here?",
+      "JA_new": "あんた誰だ？ここで何してる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3330,
+      "string_id": "mamay_start_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Wipe your eyes then, you'll see who I am! And what I'm doing here is pretty evident, I'm sitting down, see? This is my crib.",
+      "JA_current": "Wipe your eyes then, you'll see who I am! And what I'm doing here is pretty evident, I'm sitting down, see? This is my crib.",
+      "JA_new": "目を拭けよ、そうすりゃ誰か分かるだろ！何してるかって？見りゃ分かる。座ってるだろ？ここが俺の居場所さ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3333,
+      "string_id": "mamay_start_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "So, what, you're like a prisoner here?",
+      "JA_current": "So, what, you're like a prisoner here?",
+      "JA_new": "つまり、囚人ってことか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3336,
+      "string_id": "mamay_start_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Just like a prisoner.",
+      "JA_current": "Just like a prisoner.",
+      "JA_new": "囚人みたいなもんさ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3339,
+      "string_id": "mamay_start_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "What are you in for?",
+      "JA_current": "What are you in for?",
+      "JA_new": "何の罪で？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3342,
+      "string_id": "mamay_start_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "For crossing the road in the wrong place, at the wrong time.",
+      "JA_current": "For crossing the road in the wrong place, at the wrong time.",
+      "JA_new": "道を渡る場所と、相手を間違えたのさ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3345,
+      "string_id": "mamay_start_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "In the wrong place, or in front of the wrong person?",
+      "JA_current": "In the wrong place, or in front of the wrong person?",
+      "JA_new": "渡る場所を間違えたのか？それとも、相手を？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3348,
+      "string_id": "mamay_start_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "The latter, now that you mention it... Hmm, you don't sound like a sucker. Listen, how long have you been in the Zone?",
+      "JA_current": "The latter, now that you mention it... Hmm, you don't sound like a sucker. Listen, how long have you been in the Zone?",
+      "JA_new": "今思えば、相手の方だな……へえ、あんた間抜けじゃなさそうだ。ゾーンにはどれくらいいる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3351,
+      "string_id": "mamay_start_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "I don't know, I lost my memory recently. Why?",
+      "JA_current": "I don't know, I lost my memory recently. Why?",
+      "JA_new": "分からない。最近記憶をなくしたんだ。何で？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3354,
+      "string_id": "mamay_start_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "Are you a good shot?",
+      "JA_current": "Are you a good shot?",
+      "JA_new": "銃の腕は？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_12#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3357,
+      "string_id": "mamay_start_dialog_phrase_12",
+      "occurrence": 1,
+      "EN": "Satisfactory.",
+      "JA_current": "Satisfactory.",
+      "JA_new": "並くらいだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_13#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3360,
+      "string_id": "mamay_start_dialog_phrase_13",
+      "occurrence": 1,
+      "EN": "That'll do. You want to make some money? The kind that would last you for the rest of you life?",
+      "JA_current": "That'll do. You want to make some money? The kind that would last you for the rest of you life?",
+      "JA_new": "それで十分だ。金を稼ぎたくないか？一生困らないくらいの額だぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_14#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3363,
+      "string_id": "mamay_start_dialog_phrase_14",
+      "occurrence": 1,
+      "EN": "Let me guess.. You're about to offer me a \"goldmine of artifacts\"?",
+      "JA_current": "Let me guess.. You're about to offer me a \"goldmine of artifacts\"?",
+      "JA_new": "まさか、「アーティファクトの金脈」があるとか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_15#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3366,
+      "string_id": "mamay_start_dialog_phrase_15",
+      "occurrence": 1,
+      "EN": "Not a goldmine, but similar in wealth. A gangster group's bankroll. Get the picture?",
+      "JA_current": "Not a goldmine, but similar in wealth. A gangster group's bankroll. Get the picture?",
+      "JA_new": "金脈ほどじゃないが、同じくらいの価値はある。ギャングの資金だ。分かったか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_16#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3369,
+      "string_id": "mamay_start_dialog_phrase_16",
+      "occurrence": 1,
+      "EN": "Sure, and you know how I could get my hands on it?",
+      "JA_current": "Sure, and you know how I could get my hands on it?",
+      "JA_new": "なるほど。それで、どうすれば手に入る？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_17#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3372,
+      "string_id": "mamay_start_dialog_phrase_17",
+      "occurrence": 1,
+      "EN": "Of course I do. And I'll tell you if you do an errand for me.",
+      "JA_current": "Of course I do. And I'll tell you if you do an errand for me.",
+      "JA_new": "知ってるさ。仕事を一つ頼めば教えてやる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "16",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_18#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3375,
+      "string_id": "mamay_start_dialog_phrase_18",
+      "occurrence": 1,
+      "EN": "What kind of errand?",
+      "JA_current": "What kind of errand?",
+      "JA_new": "どんな仕事だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "17",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_19#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3378,
+      "string_id": "mamay_start_dialog_phrase_19",
+      "occurrence": 1,
+      "EN": "Naah, sounds too shady.",
+      "JA_current": "Naah, sounds too shady.",
+      "JA_new": "いや、胡散臭いな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "18",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_20#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3381,
+      "string_id": "mamay_start_dialog_phrase_20",
+      "occurrence": 1,
+      "EN": "Like I said, I'm sitting here because I crossed somebody. \"Somebody\" is a gang leader named Borov. I wanted to take over his group - I'm something of an authority figure among my brothers - but the bastard found out about my plans and sold me out to the stalkers, so now I'm stuck here. However, I still have friends on the outside, ready to help me in time of need. All I want to do is kill Borov. \"An eye for an eye\", you know? Need him to disappear like he did to me.",
+      "JA_current": "Like I said, I'm sitting here because I crossed somebody. \"Somebody\" is a gang leader named Borov. I wanted to take over his group - I'm something of an authority figure among my brothers - but the bastard found out about my plans and sold me out to the stalkers, so now I'm stuck here. However, I still have friends on the outside, ready to help me in time of need. All I want to do is kill Borov. \"An eye for an eye\", you know? Need him to disappear like he did to me.",
+      "JA_new": "言った通り、ここにいるのは俺が誰かと揉めたからだ。「誰か」ってのは、ボロフってギャングの頭だ。奴のグループを乗っ取ろうとした。仲間内じゃ俺も顔が利くからな。だがあの野郎に計画がバレて、ストーカーどもに密告された。それでここに閉じ込められてる。だが外には、いざという時に力を貸してくれる仲間がいる。俺がしたいのはボロフを殺すことだけだ。「目には目を」ってな。俺と同じように、奴にも消えてもらう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "19",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_21#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3384,
+      "string_id": "mamay_start_dialog_phrase_21",
+      "occurrence": 1,
+      "EN": "Do you want me to go and kill him?",
+      "JA_current": "Do you want me to go and kill him?",
+      "JA_new": "ボロフを殺せってことか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "20",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_22#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3387,
+      "string_id": "mamay_start_dialog_phrase_22",
+      "occurrence": 1,
+      "EN": "Yes, but it's not that simple. The point is that we have to take out Borov very carefully - so that his \"gladiators\" do not suspect me of having had anything to do with his death. In other words, you need to kill him and then immediately \"turn the tables\" on someone else, shouldn't be overly complicated. I will tell you how to do it: an old friend of mine got a hold of a high-powered rifle with a sniping scope. He hid it in a stash of sorts, not far from the bandit base, I'll text you the coordinates once you're out there. You go there, take the rifle and wait for the moment when Borov comes to the window. He has this habit, he likes to look at the scenery... That's when you'll be able to pull it off and use his brain to re-decorate the interiors. Remember, do not let any of the base's guards see you, under any circumstances! Don't go near the base and don't leave the place where you find the rifle, because it's the perfect vantage point from which to take the shot. If anybody sees you near the base, they won't give a penny for my life and I'll remain stuck here while some idiot takes charge over there; Borov's men are everywhere, even a few here at the bar, and they'll get me out. Do you understand?",
+      "JA_current": "Yes, but it's not that simple. The point is that we have to take out Borov very carefully - so that his \"gladiators\" do not suspect me of having had anything to do with his death. In other words, you need to kill him and then immediately \"turn the tables\" on someone else, shouldn't be overly complicated. I will tell you how to do it: an old friend of mine got a hold of a high-powered rifle with a sniping scope. He hid it in a stash of sorts, not far from the bandit base, I'll text you the coordinates once you're out there. You go there, take the rifle and wait for the moment when Borov comes to the window. He has this habit, he likes to look at the scenery... That's when you'll be able to pull it off and use his brain to re-decorate the interiors. Remember, do not let any of the base's guards see you, under any circumstances! Don't go near the base and don't leave the place where you find the rifle, because it's the perfect vantage point from which to take the shot. If anybody sees you near the base, they won't give a penny for my life and I'll remain stuck here while some idiot takes charge over there; Borov's men are everywhere, even a few here at the bar, and they'll get me out. Do you understand?",
+      "JA_new": "そうだ。だが簡単じゃない。ボロフを始末する時は慎重にやれ。奴の「闘士」どもに、俺が死に関わったと勘づかれたら困る。つまり、あんたが奴を殺して、すぐ別の誰かに罪をなすりつけるんだ。難しくないだろ。やり方を教える。昔馴染みが、強力なスコープ付きライフルを手に入れた。バンディットの基地からそう遠くない隠し場所に隠してある。外に出たら座標を送る。ライフルを取って、ボロフが窓辺に来るのを待て。景色を眺めるのが好きでな……狙うならその時だ。頭をぶち抜いて、部屋の模様替えでもしてやれ。基地の見張りには絶対見られるな！基地には近づくな。ライフルがある場所からも動くな。狙撃にうってつけの場所だからだ。基地の近くであんたを見られたら、俺の命はない。ここに置き去りにされて、向こうじゃ別の馬鹿が頭になる。そのうえ、ボロフの手下はあちこちにいる。バーにも何人かいるし、俺を引きずり出しに来るだろう。分かったか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_23#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3390,
+      "string_id": "mamay_start_dialog_phrase_23",
+      "occurrence": 1,
+      "EN": "Sure. Give me the coordinates of the rifle cache, and I'll be on my way.",
+      "JA_current": "Sure. Give me the coordinates of the rifle cache, and I'll be on my way.",
+      "JA_new": "分かった。ライフルの隠し場所の座標をくれ。行ってくる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "22",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:mamay_start_dialog_phrase_24#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3393,
+      "string_id": "mamay_start_dialog_phrase_24",
+      "occurrence": 1,
+      "EN": "Wait, I'm not done with the information. When you get there, you'll be contacted by one of my men inside the compound. He'll be able to give you information about the target's movements so that you know when he'll lean out for some fresh air. Easiest hit job you've ever had. Break a leg.",
+      "JA_current": "Wait, I'm not done with the information. When you get there, you'll be contacted by one of my men inside the compound. He'll be able to give you information about the target's movements so that you know when he'll lean out for some fresh air. Easiest hit job you've ever had. Break a leg.",
+      "JA_new": "待て、まだ説明は終わってない。現地に着いたら、基地の中にいる俺の部下から連絡が入る。標的の動きを教えてくれるから、外の空気を吸いに窓から顔を出す時が分かる。今までで一番楽な仕事になるぞ。幸運を祈る。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mamay_start_dialog",
+          "phrase_id": "23",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "mamay_start_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What are you looking at? Give me something to eat.",
+      "JA_current": "What are you looking at? Give me something to eat.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "mamay_start_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Who are you? What are you doing here?",
+      "JA_current": "Who are you? What are you doing here?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "mamay_start_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Wipe your eyes then, you'll see who I am! And what I'm doing here is pretty evident, I'm sitting down, see? This is my crib.",
+      "JA_current": "Wipe your eyes then, you'll see who I am! And what I'm doing here is pretty evident, I'm sitting down, see? This is my crib.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "mamay_start_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So, what, you're like a prisoner here?",
+      "JA_current": "So, what, you're like a prisoner here?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "mamay_start_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Just like a prisoner.",
+      "JA_current": "Just like a prisoner.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "mamay_start_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What are you in for?",
+      "JA_current": "What are you in for?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "mamay_start_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "For crossing the road in the wrong place, at the wrong time.",
+      "JA_current": "For crossing the road in the wrong place, at the wrong time.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "mamay_start_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "In the wrong place, or in front of the wrong person?",
+      "JA_current": "In the wrong place, or in front of the wrong person?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "mamay_start_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The latter, now that you mention it... Hmm, you don't sound like a sucker. Listen, how long have you been in the Zone?",
+      "JA_current": "The latter, now that you mention it... Hmm, you don't sound like a sucker. Listen, how long have you been in the Zone?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "mamay_start_dialog_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I don't know, I lost my memory recently. Why?",
+      "JA_current": "I don't know, I lost my memory recently. Why?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "mamay_start_dialog_phrase_11",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Are you a good shot?",
+      "JA_current": "Are you a good shot?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "mamay_start_dialog_phrase_12",
+      "next": [
+        "12"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Satisfactory.",
+      "JA_current": "Satisfactory.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_12#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "mamay_start_dialog_phrase_13",
+      "next": [
+        "13"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "That'll do. You want to make some money? The kind that would last you for the rest of you life?",
+      "JA_current": "That'll do. You want to make some money? The kind that would last you for the rest of you life?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_13#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "mamay_start_dialog_phrase_14",
+      "next": [
+        "14"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Let me guess.. You're about to offer me a \"goldmine of artifacts\"?",
+      "JA_current": "Let me guess.. You're about to offer me a \"goldmine of artifacts\"?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_14#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "mamay_start_dialog_phrase_15",
+      "next": [
+        "15"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Not a goldmine, but similar in wealth. A gangster group's bankroll. Get the picture?",
+      "JA_current": "Not a goldmine, but similar in wealth. A gangster group's bankroll. Get the picture?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_15#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "mamay_start_dialog_phrase_16",
+      "next": [
+        "16"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sure, and you know how I could get my hands on it?",
+      "JA_current": "Sure, and you know how I could get my hands on it?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_16#1"
+      ]
+    },
+    {
+      "phrase_id": "16",
+      "text_id": "mamay_start_dialog_phrase_17",
+      "next": [
+        "17",
+        "18"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "15"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Of course I do. And I'll tell you if you do an errand for me.",
+      "JA_current": "Of course I do. And I'll tell you if you do an errand for me.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_17#1"
+      ]
+    },
+    {
+      "phrase_id": "17",
+      "text_id": "mamay_start_dialog_phrase_18",
+      "next": [
+        "19"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "16"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What kind of errand?",
+      "JA_current": "What kind of errand?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_18#1"
+      ]
+    },
+    {
+      "phrase_id": "18",
+      "text_id": "mamay_start_dialog_phrase_19",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "16"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Naah, sounds too shady.",
+      "JA_current": "Naah, sounds too shady.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_19#1"
+      ]
+    },
+    {
+      "phrase_id": "19",
+      "text_id": "mamay_start_dialog_phrase_20",
+      "next": [
+        "20"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "17"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Like I said, I'm sitting here because I crossed somebody. \"Somebody\" is a gang leader named Borov. I wanted to take over his group - I'm something of an authority figure among my brothers - but the bastard found out about my plans and sold me out to the stalkers, so now I'm stuck here. However, I still have friends on the outside, ready to help me in time of need. All I want to do is kill Borov. \"An eye for an eye\", you know? Need him to disappear like he did to me.",
+      "JA_current": "Like I said, I'm sitting here because I crossed somebody. \"Somebody\" is a gang leader named Borov. I wanted to take over his group - I'm something of an authority figure among my brothers - but the bastard found out about my plans and sold me out to the stalkers, so now I'm stuck here. However, I still have friends on the outside, ready to help me in time of need. All I want to do is kill Borov. \"An eye for an eye\", you know? Need him to disappear like he did to me.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_20#1"
+      ]
+    },
+    {
+      "phrase_id": "20",
+      "text_id": "mamay_start_dialog_phrase_21",
+      "next": [
+        "21"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "19"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Do you want me to go and kill him?",
+      "JA_current": "Do you want me to go and kill him?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_21#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "mamay_start_dialog_phrase_22",
+      "next": [
+        "22"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "20"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, but it's not that simple. The point is that we have to take out Borov very carefully - so that his \"gladiators\" do not suspect me of having had anything to do with his death. In other words, you need to kill him and then immediately \"turn the tables\" on someone else, shouldn't be overly complicated. I will tell you how to do it: an old friend of mine got a hold of a high-powered rifle with a sniping scope. He hid it in a stash of sorts, not far from the bandit base, I'll text you the coordinates once you're out there. You go there, take the rifle and wait for the moment when Borov comes to the window. He has this habit, he likes to look at the scenery... That's when you'll be able to pull it off and use his brain to re-decorate the interiors. Remember, do not let any of the base's guards see you, under any circumstances! Don't go near the base and don't leave the place where you find the rifle, because it's the perfect vantage point from which to take the shot. If anybody sees you near the base, they won't give a penny for my life and I'll remain stuck here while some idiot takes charge over there; Borov's men are everywhere, even a few here at the bar, and they'll get me out. Do you understand?",
+      "JA_current": "Yes, but it's not that simple. The point is that we have to take out Borov very carefully - so that his \"gladiators\" do not suspect me of having had anything to do with his death. In other words, you need to kill him and then immediately \"turn the tables\" on someone else, shouldn't be overly complicated. I will tell you how to do it: an old friend of mine got a hold of a high-powered rifle with a sniping scope. He hid it in a stash of sorts, not far from the bandit base, I'll text you the coordinates once you're out there. You go there, take the rifle and wait for the moment when Borov comes to the window. He has this habit, he likes to look at the scenery... That's when you'll be able to pull it off and use his brain to re-decorate the interiors. Remember, do not let any of the base's guards see you, under any circumstances! Don't go near the base and don't leave the place where you find the rifle, because it's the perfect vantage point from which to take the shot. If anybody sees you near the base, they won't give a penny for my life and I'll remain stuck here while some idiot takes charge over there; Borov's men are everywhere, even a few here at the bar, and they'll get me out. Do you understand?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_22#1"
+      ]
+    },
+    {
+      "phrase_id": "22",
+      "text_id": "mamay_start_dialog_phrase_23",
+      "next": [
+        "23"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "voronin_sniper_quest"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "21"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sure. Give me the coordinates of the rifle cache, and I'll be on my way.",
+      "JA_current": "Sure. Give me the coordinates of the rifle cache, and I'll be on my way.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_23#1"
+      ]
+    },
+    {
+      "phrase_id": "23",
+      "text_id": "mamay_start_dialog_phrase_24",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "22"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Wait, I'm not done with the information. When you get there, you'll be contacted by one of my men inside the compound. He'll be able to give you information about the target's movements so that you know when he'll lean out for some fresh air. Easiest hit job you've ever had. Break a leg.",
+      "JA_current": "Wait, I'm not done with the information. When you get there, you'll be contacted by one of my men inside the compound. He'll be able to give you information about the target's movements so that you know when he'll lean out for some fresh air. Easiest hit job you've ever had. Break a leg.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:mamay_start_dialog_phrase_24#1"
+      ]
+    }
+  ]
+}

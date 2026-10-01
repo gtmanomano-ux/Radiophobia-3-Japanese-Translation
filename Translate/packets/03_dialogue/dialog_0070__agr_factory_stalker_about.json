@@ -1,0 +1,108 @@
+{
+  "packet_id": "dialog_0070__agr_factory_stalker_about",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "agr_factory_stalker_about",
+  "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml",
+  "graph_sha256": "0065cb49021f3d779d92b62bc9453bcaa767fa47933b73f8ecdd37c8a246e1ab",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "dialogs.dialog_allowed"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 2,
+  "entries": [
+    {
+      "key": "stable_dialogs_agroprom:agr_factory_stalker_about_0#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 33,
+      "string_id": "agr_factory_stalker_about_0",
+      "occurrence": 1,
+      "EN": "What's going on here?",
+      "JA_current": "ここで何をやってんだい？",
+      "JA_new": "ここで何があった？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_factory_stalker_about",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_factory_stalker_about_1#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 36,
+      "string_id": "agr_factory_stalker_about_1",
+      "occurrence": 1,
+      "EN": "We're fighting, or more specifically, camping out like sitting ducks. Talk to Mole if you want to know more - he's the leader.",
+      "JA_current": "見りゃ分かるだろ、戦ってんだよ！ じゃなきゃアヒルちゃんみたいに仲良く遊んでんのさ！ Mole がリーダーだ。何か知りたきゃヤツに聞いてくれ。",
+      "JA_new": "戦ってるところさ……正確には、座ってるだけのいい的みたいにキャンプに居座ってる。詳しい話なら、リーダーのモグラに聞きな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_factory_stalker_about",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "agr_factory_stalker_about_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "What's going on here?",
+      "JA_current": "ここで何をやってんだい？",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_factory_stalker_about_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "agr_factory_stalker_about_1",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "We're fighting, or more specifically, camping out like sitting ducks. Talk to Mole if you want to know more - he's the leader.",
+      "JA_current": "見りゃ分かるだろ、戦ってんだよ！ じゃなきゃアヒルちゃんみたいに仲良く遊んでんのさ！ Mole がリーダーだ。何か知りたきゃヤツに聞いてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_factory_stalker_about_1#1"
+      ]
+    }
+  ]
+}

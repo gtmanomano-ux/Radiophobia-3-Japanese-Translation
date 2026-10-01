@@ -1,0 +1,265 @@
+{
+    "packet_id":  "dialog_0448__tompsona_vidal",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "tompsona_vidal",
+    "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml",
+    "graph_sha256":  "131d3c64c00a1023af4aaa914f345f3cfff2e581dea421160993fad100675545",
+    "character_bindings":  [
+                               {
+                                   "profile_id":  "x16_zombsold",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_zombied_default1",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_zombied_default2",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_zombied_default3",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_zombied_default4",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_zombied_default5",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_zombied_default6",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_zombied_default7",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_zombied_veteran_default1",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_zombied_veteran_default2",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_zombied_veteran_default3",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_zombied_veteran_default4",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_zombied_veteran_default5",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_zombied_ambush_default1",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_zombied_ambush_default2",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_zombied_master_1",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_zombied_dolg",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_fresh_Zombied_stalker_1",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_fresh_Zombied_stalker_2",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_fresh_Zombied_stalker_3",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               }
+                           ],
+    "dialog_conditions":  [
+                              {
+                                  "type":  "dont_has_info",
+                                  "value":  "meet_tompson"
+                              },
+                              {
+                                  "type":  "has_info",
+                                  "value":  "find_gold_fish_start"
+                              }
+                          ],
+    "root_speaker_hint":  "player",
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  2,
+    "entries":  [
+                    {
+                        "key":  "stable_dialogs_yantar:tompsona_vidal#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  24,
+                        "string_id":  "tompsona_vidal",
+                        "occurrence":  1,
+                        "EN":  "Have you seen Tompson? I need to talk to him.",
+                        "JA_current":  "Have you seen Tompson? I need to talk to him.",
+                        "JA_new":  "トンプソンを見なかったか？ 話があるんだ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "tompsona_vidal",
+                                               "phrase_id":  "1",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:za_zavodom#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  27,
+                        "string_id":  "za_zavodom",
+                        "occurrence":  1,
+                        "EN":  "You will find him in the nook behind the factory. He\u0027s strange... Never seen him looking for food... Seeking arti... artifacts all the time, carrying them with him...",
+                        "JA_current":  "You will find him in the nook behind the factory. He\u0027s strange... Never seen him looking for food... Seeking arti... artifacts all the time, carrying them with him...",
+                        "JA_new":  "工場の裏の隅にいるよ。変わった奴でな……食べ物を探してるところは見たことがない。アーティ……アーティファクトばかり探して、持ち歩いてるんだ……。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "tompsona_vidal",
+                                               "phrase_id":  "2",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  null,
+                            "next":  [
+                                         "1"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  null,
+                            "speaker_hint_basis":  "unresolved",
+                            "EN":  null,
+                            "JA_current":  null,
+                            "string_entry_candidates":  [
+
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "1",
+                            "text_id":  "tompsona_vidal",
+                            "next":  [
+                                         "2"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Have you seen Tompson? I need to talk to him.",
+                            "JA_current":  "Have you seen Tompson? I need to talk to him.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:tompsona_vidal#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "2",
+                            "text_id":  "za_zavodom",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "You will find him in the nook behind the factory. He\u0027s strange... Never seen him looking for food... Seeking arti... artifacts all the time, carrying them with him...",
+                            "JA_current":  "You will find him in the nook behind the factory. He\u0027s strange... Never seen him looking for food... Seeking arti... artifacts all the time, carrying them with him...",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:za_zavodom#1"
+                                                        ]
+                        }
+                    ]
+}

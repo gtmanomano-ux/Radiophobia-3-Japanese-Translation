@@ -1,0 +1,627 @@
+{
+    "packet_id":  "dialog_0432__shuhart_dialog",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "shuhart_dialog",
+    "graph_source":  "gamedata/config/gameplay/dialogs_radar.xml",
+    "graph_sha256":  "7436a3a8c823be5716e127228e116bf493cdec1d97644f3c78b6dee00a554864",
+    "character_bindings":  [
+                               {
+                                   "profile_id":  "red_shuhart",
+                                   "binding_type":  "start_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_aes.xml"
+                               }
+                           ],
+    "dialog_conditions":  [
+                              {
+                                  "type":  "dont_has_info",
+                                  "value":  "shuhart_final"
+                              }
+                          ],
+    "root_speaker_hint":  "npc",
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  11,
+    "entries":  [
+                    {
+                        "key":  "stable_dialogs_radar:shuhart_dialog_phrase_1#1",
+                        "source_table":  "stable_dialogs_radar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+                        "source_xml_line":  378,
+                        "string_id":  "shuhart_dialog_phrase_1",
+                        "occurrence":  1,
+                        "EN":  "There you are, stalker. I\u0027ve been waiting for you here for a long time.",
+                        "JA_current":  "There you are, stalker. I\u0027ve been waiting for you here for a long time.",
+                        "JA_new":  "やっと来たか、ストーカー。ここでずっと待っていた。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "shuhart_dialog",
+                                               "phrase_id":  "0",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_radar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_radar:shuhart_dialog_phrase_2#1",
+                        "source_table":  "stable_dialogs_radar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+                        "source_xml_line":  381,
+                        "string_id":  "shuhart_dialog_phrase_2",
+                        "occurrence":  1,
+                        "EN":  "Who are you, anyway? A controller? Or a human being?",
+                        "JA_current":  "Who are you, anyway? A controller? Or a human being?",
+                        "JA_new":  "お前は何者だ？ コントローラーか？ それとも人間か？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "shuhart_dialog",
+                                               "phrase_id":  "1",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_radar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_radar:shuhart_dialog_phrase_3#1",
+                        "source_table":  "stable_dialogs_radar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+                        "source_xml_line":  384,
+                        "string_id":  "shuhart_dialog_phrase_3",
+                        "occurrence":  1,
+                        "EN":  "I am neither a controller nor a human, I am a ghost of the Zone. Once upon a time I wanted to become immortal, and I paid for it with the lives of my friends. For that, the Zone punished me by turning me into what you see before you now.",
+                        "JA_current":  "I am neither a controller nor a human, I am a ghost of the Zone. Once upon a time I wanted to become immortal, and I paid for it with the lives of my friends. For that, the Zone punished me by turning me into what you see before you now.",
+                        "JA_new":  "俺はコントローラーでも人間でもない。ゾーンの亡霊だ。かつて不死を求め、代償として仲間たちの命を失った。その罰として、ゾーンは今のお前の目の前にいる姿へ俺を変えた。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "shuhart_dialog",
+                                               "phrase_id":  "2",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_radar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_radar:shuhart_dialog_phrase_4#1",
+                        "source_table":  "stable_dialogs_radar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+                        "source_xml_line":  387,
+                        "string_id":  "shuhart_dialog_phrase_4",
+                        "occurrence":  1,
+                        "EN":  "So you\u0027re the stalker who was given the Golden Sphere and immortality by the Monolith?",
+                        "JA_current":  "So you\u0027re the stalker who was given the Golden Sphere and immortality by the Monolith?",
+                        "JA_new":  "モノリスから黄金の球体と不死を授けられたストーカー……お前がそうか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "shuhart_dialog",
+                                               "phrase_id":  "3",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_radar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_radar:shuhart_dialog_phrase_5#1",
+                        "source_table":  "stable_dialogs_radar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+                        "source_xml_line":  390,
+                        "string_id":  "shuhart_dialog_phrase_5",
+                        "occurrence":  1,
+                        "EN":  "Yes, but it was a huge mistake, because the Sphere is one, and there are many people who want immortality. In the struggle for eternal life they are ready to turn into beasts, like me, and destroy each other - thus the Zone got another opportunity to harm humanity, to destroy it... The third part of the artifact is in my possession, I made the leader of the Monolith bring it to me, taking advantage of his fanaticism. Stalker, if the fate of your friends, relatives, and loved ones is important to you - give your parts of the Golden Sphere to me so that I can destroy them. It\u0027s the only way we can destroy this curse created by the Zone.",
+                        "JA_current":  "Yes, but it was a huge mistake, because the Sphere is one, and there are many people who want immortality. In the struggle for eternal life they are ready to turn into beasts, like me, and destroy each other - thus the Zone got another opportunity to harm humanity, to destroy it... The third part of the artifact is in my possession, I made the leader of the Monolith bring it to me, taking advantage of his fanaticism. Stalker, if the fate of your friends, relatives, and loved ones is important to you - give your parts of the Golden Sphere to me so that I can destroy them. It\u0027s the only way we can destroy this curse created by the Zone.",
+                        "JA_new":  "ああ。だが、それは大きな間違いだった。球体はひとつしかないのに、不死を望む者は大勢いる。永遠の命を求め、俺のような獣に変わり、互いを殺し合うことも厭わない。ゾーンはまた、人類を傷つけ滅ぼす機会を得てしまった……。アーティファクトの三つ目の欠片は俺が持っている。モノリスのリーダーの狂信を利用して、ここへ運ばせた。ストーカー。友人や家族、大切な人たちの運命が大事なら、お前たちの持つ黄金の球体の欠片を俺に渡してくれ。俺が破壊する。ゾーンが生み出したこの呪いを断ち切るには、それしかない。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "shuhart_dialog",
+                                               "phrase_id":  "4",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_radar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_radar:shuhart_dialog_phrase_6#1",
+                        "source_table":  "stable_dialogs_radar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+                        "source_xml_line":  393,
+                        "string_id":  "shuhart_dialog_phrase_6",
+                        "occurrence":  1,
+                        "EN":  "Take it. I am willing to sacrifice immortality for the fate of mankind.",
+                        "JA_current":  "Take it. I am willing to sacrifice immortality for the fate of mankind.",
+                        "JA_new":  "持っていけ。不死を捨てても、人類の未来を選ぶ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "shuhart_dialog",
+                                               "phrase_id":  "5",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_radar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_radar:shuhart_dialog_phrase_7#1",
+                        "source_table":  "stable_dialogs_radar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+                        "source_xml_line":  396,
+                        "string_id":  "shuhart_dialog_phrase_7",
+                        "occurrence":  1,
+                        "EN":  "I don\u0027t believe you! Give me the third part, you don\u0027t deserve immortality, and I earned it!",
+                        "JA_current":  "I don\u0027t believe you! Give me the third part, you don\u0027t deserve immortality, and I earned it!",
+                        "JA_new":  "信じられるか！ 三つ目の欠片を渡せ。不死に値するのは俺だ。俺が勝ち取ったんだ！",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "shuhart_dialog",
+                                               "phrase_id":  "6",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_radar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_radar:shuhart_dialog_phrase_8#1",
+                        "source_table":  "stable_dialogs_radar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+                        "source_xml_line":  399,
+                        "string_id":  "shuhart_dialog_phrase_8",
+                        "occurrence":  1,
+                        "EN":  "You\u0027ve just proved that your mind is above your instincts. Not everyone can do that, remember. And now I must stay alone and do what I am destined to do- destroy the Evil I have created. I will move you away from this place so that it will not touch you again. Farewell, stalker!",
+                        "JA_current":  "You\u0027ve just proved that your mind is above your instincts. Not everyone can do that, remember. And now I must stay alone and do what I am destined to do- destroy the Evil I have created. I will move you away from this place so that it will not touch you again. Farewell, stalker!",
+                        "JA_new":  "今の言葉で、お前は本能より理性を選べると証明した。誰にでもできることじゃない。覚えておけ。さて、俺は一人残って、自分が生み出した悪を滅ぼす運命を果たさなければならない。もう二度とここに巻き込まれないよう、お前をこの場から遠ざけよう。さらばだ、ストーカー！",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "shuhart_dialog",
+                                               "phrase_id":  "7",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_radar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_radar:shuhart_dialog_phrase_10#1",
+                        "source_table":  "stable_dialogs_radar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+                        "source_xml_line":  405,
+                        "string_id":  "shuhart_dialog_phrase_10",
+                        "occurrence":  1,
+                        "EN":  "So you have a dark soul after all... Here\u0027s the third part of the Sphere for you.",
+                        "JA_current":  "So you have a dark soul after all... Here\u0027s the third part of the Sphere for you.",
+                        "JA_new":  "結局、お前の魂も闇に染まっているようだな……ほら、三つ目の球体の欠片だ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "shuhart_dialog",
+                                               "phrase_id":  "9",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_radar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_radar:shuhart_dialog_phrase_9#1",
+                        "source_table":  "stable_dialogs_radar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+                        "source_xml_line":  402,
+                        "string_id":  "shuhart_dialog_phrase_9",
+                        "occurrence":  1,
+                        "EN":  "Goodbye.",
+                        "JA_current":  "Goodbye.",
+                        "JA_new":  "さらばだ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "shuhart_dialog",
+                                               "phrase_id":  "8",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_radar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_radar:shuhart_dialog_phrase_11#1",
+                        "source_table":  "stable_dialogs_radar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+                        "source_xml_line":  408,
+                        "string_id":  "shuhart_dialog_phrase_11",
+                        "occurrence":  1,
+                        "EN":  "Get over here already, stop talking for nothing...",
+                        "JA_current":  "Get over here already, stop talking for nothing...",
+                        "JA_new":  "もうこっちへ来いよ。無駄話はやめてくれ……",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "shuhart_dialog",
+                                               "phrase_id":  "10",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_radar.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  "shuhart_dialog_phrase_1",
+                            "next":  [
+                                         "1"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "There you are, stalker. I\u0027ve been waiting for you here for a long time.",
+                            "JA_current":  "There you are, stalker. I\u0027ve been waiting for you here for a long time.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_radar:shuhart_dialog_phrase_1#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "1",
+                            "text_id":  "shuhart_dialog_phrase_2",
+                            "next":  [
+                                         "2"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Who are you, anyway? A controller? Or a human being?",
+                            "JA_current":  "Who are you, anyway? A controller? Or a human being?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_radar:shuhart_dialog_phrase_2#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "2",
+                            "text_id":  "shuhart_dialog_phrase_3",
+                            "next":  [
+                                         "3"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I am neither a controller nor a human, I am a ghost of the Zone. Once upon a time I wanted to become immortal, and I paid for it with the lives of my friends. For that, the Zone punished me by turning me into what you see before you now.",
+                            "JA_current":  "I am neither a controller nor a human, I am a ghost of the Zone. Once upon a time I wanted to become immortal, and I paid for it with the lives of my friends. For that, the Zone punished me by turning me into what you see before you now.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_radar:shuhart_dialog_phrase_3#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "3",
+                            "text_id":  "shuhart_dialog_phrase_4",
+                            "next":  [
+                                         "4"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "2"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "So you\u0027re the stalker who was given the Golden Sphere and immortality by the Monolith?",
+                            "JA_current":  "So you\u0027re the stalker who was given the Golden Sphere and immortality by the Monolith?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_radar:shuhart_dialog_phrase_4#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "4",
+                            "text_id":  "shuhart_dialog_phrase_5",
+                            "next":  [
+                                         "5",
+                                         "6"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "3"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Yes, but it was a huge mistake, because the Sphere is one, and there are many people who want immortality. In the struggle for eternal life they are ready to turn into beasts, like me, and destroy each other - thus the Zone got another opportunity to harm humanity, to destroy it... The third part of the artifact is in my possession, I made the leader of the Monolith bring it to me, taking advantage of his fanaticism. Stalker, if the fate of your friends, relatives, and loved ones is important to you - give your parts of the Golden Sphere to me so that I can destroy them. It\u0027s the only way we can destroy this curse created by the Zone.",
+                            "JA_current":  "Yes, but it was a huge mistake, because the Sphere is one, and there are many people who want immortality. In the struggle for eternal life they are ready to turn into beasts, like me, and destroy each other - thus the Zone got another opportunity to harm humanity, to destroy it... The third part of the artifact is in my possession, I made the leader of the Monolith bring it to me, taking advantage of his fanaticism. Stalker, if the fate of your friends, relatives, and loved ones is important to you - give your parts of the Golden Sphere to me so that I can destroy them. It\u0027s the only way we can destroy this curse created by the Zone.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_radar:shuhart_dialog_phrase_5#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "5",
+                            "text_id":  "shuhart_dialog_phrase_6",
+                            "next":  [
+                                         "7"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "addon_dialogs.part1_out"
+                                            },
+                                            {
+                                                "type":  "action",
+                                                "value":  "addon_dialogs.part2_out"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "4"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Take it. I am willing to sacrifice immortality for the fate of mankind.",
+                            "JA_current":  "Take it. I am willing to sacrifice immortality for the fate of mankind.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_radar:shuhart_dialog_phrase_6#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "6",
+                            "text_id":  "shuhart_dialog_phrase_7",
+                            "next":  [
+                                         "9"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "4"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I don\u0027t believe you! Give me the third part, you don\u0027t deserve immortality, and I earned it!",
+                            "JA_current":  "I don\u0027t believe you! Give me the third part, you don\u0027t deserve immortality, and I earned it!",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_radar:shuhart_dialog_phrase_7#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "7",
+                            "text_id":  "shuhart_dialog_phrase_8",
+                            "next":  [
+                                         "8"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "5"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "You\u0027ve just proved that your mind is above your instincts. Not everyone can do that, remember. And now I must stay alone and do what I am destined to do- destroy the Evil I have created. I will move you away from this place so that it will not touch you again. Farewell, stalker!",
+                            "JA_current":  "You\u0027ve just proved that your mind is above your instincts. Not everyone can do that, remember. And now I must stay alone and do what I am destined to do- destroy the Evil I have created. I will move you away from this place so that it will not touch you again. Farewell, stalker!",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_radar:shuhart_dialog_phrase_8#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "9",
+                            "text_id":  "shuhart_dialog_phrase_10",
+                            "next":  [
+                                         "10"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "6"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "So you have a dark soul after all... Here\u0027s the third part of the Sphere for you.",
+                            "JA_current":  "So you have a dark soul after all... Here\u0027s the third part of the Sphere for you.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_radar:shuhart_dialog_phrase_10#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "8",
+                            "text_id":  "shuhart_dialog_phrase_9",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "give_info",
+                                                "value":  "shuhart_final"
+                                            },
+                                            {
+                                                "type":  "action",
+                                                "value":  "addon_dialogs.actor_go_away"
+                                            },
+                                            {
+                                                "type":  "give_info",
+                                                "value":  "surge_process_stage_04"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "7"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Goodbye.",
+                            "JA_current":  "Goodbye.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_radar:shuhart_dialog_phrase_9#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "10",
+                            "text_id":  "shuhart_dialog_phrase_11",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "addon_dialogs.part1_out"
+                                            },
+                                            {
+                                                "type":  "action",
+                                                "value":  "addon_dialogs.part2_out"
+                                            },
+                                            {
+                                                "type":  "action",
+                                                "value":  "addon_dialogs.goldsphere_in"
+                                            },
+                                            {
+                                                "type":  "action",
+                                                "value":  "addon_dialogs.actor_rebirth"
+                                            },
+                                            {
+                                                "type":  "give_info",
+                                                "value":  "shuhart_final"
+                                            },
+                                            {
+                                                "type":  "give_info",
+                                                "value":  "surge_process_stage_04"
+                                            },
+                                            {
+                                                "type":  "action",
+                                                "value":  "dialogs.break_dialog"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "9"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Get over here already, stop talking for nothing...",
+                            "JA_current":  "Get over here already, stop talking for nothing...",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_radar:shuhart_dialog_phrase_11#1"
+                                                        ]
+                        }
+                    ]
+}

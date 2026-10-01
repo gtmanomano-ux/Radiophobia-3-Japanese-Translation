@@ -1,0 +1,902 @@
+{
+  "packet_id": "dialog_0257__cit_doctor_escape_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "cit_doctor_escape_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml",
+  "graph_sha256": "dd2e868a0418eeb66a0c1b47f7b24e267acb6d08ed5de71a1335884a50a88cb9",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "cit_jail_doctor_pryp_task"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 20,
+  "entries": [
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_escape_dialog_0#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 3,
+      "string_id": "cit_doctor_escape_dialog_0",
+      "occurrence": 1,
+      "EN": "I need answers to several questions.",
+      "JA_current": "いくつか聞きたいことがあるんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_escape_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_escape_dialog_1#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 6,
+      "string_id": "cit_doctor_escape_dialog_1",
+      "occurrence": 1,
+      "EN": "Ask away, I'll try to help.",
+      "JA_current": "何でも聞きなさい。力になろう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_escape_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_escape_dialog_11#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 9,
+      "string_id": "cit_doctor_escape_dialog_11",
+      "occurrence": 1,
+      "EN": "Where are my things?",
+      "JA_current": "俺の装備はどこにある？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_escape_dialog",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_escape_dialog_12#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 18,
+      "string_id": "cit_doctor_escape_dialog_12",
+      "occurrence": 1,
+      "EN": "How can I get out of here?",
+      "JA_current": "ここからどうやって脱出する？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_escape_dialog",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_escape_dialog_14#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 27,
+      "string_id": "cit_doctor_escape_dialog_14",
+      "occurrence": 1,
+      "EN": "Who captured us?",
+      "JA_current": "俺たちを捕らえたのは誰なんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_escape_dialog",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_escape_dialog_15#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 42,
+      "string_id": "cit_doctor_escape_dialog_15",
+      "occurrence": 1,
+      "EN": "What do you know about this place?",
+      "JA_current": "この場所について何か知っているか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_escape_dialog",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_escape_dialog_16#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 51,
+      "string_id": "cit_doctor_escape_dialog_16",
+      "occurrence": 1,
+      "EN": "Who's in charge here?",
+      "JA_current": "ここを仕切っているのは誰だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_escape_dialog",
+          "phrase_id": "16",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_escape_dialog_17#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 60,
+      "string_id": "cit_doctor_escape_dialog_17",
+      "occurrence": 1,
+      "EN": "Nope, nothing.",
+      "JA_current": "いや、何でもない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_escape_dialog",
+          "phrase_id": "17",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_escape_dialog_111#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 12,
+      "string_id": "cit_doctor_escape_dialog_111",
+      "occurrence": 1,
+      "EN": "The leader usually keeps all the confiscated stuff his room, up on the top floor. My things were taken there when they caught me.",
+      "JA_current": "没収した私物は、普段リーダーが最上階にある自分の部屋に保管している。私が捕まった時も、荷物はそこへ運び込まれたよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_escape_dialog",
+          "phrase_id": "111",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_escape_dialog_121#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 21,
+      "string_id": "cit_doctor_escape_dialog_121",
+      "occurrence": 1,
+      "EN": "When they were leading me around I noticed a sewer grate under the stairs on the first floor... If you managed to open the cell it would be possible to get out of here using that sewer... It's best to go West and then you can use the tunnel to get to Freedom.",
+      "JA_current": "連行された時に見かけたのだが、1階の階段の下に下水道の格子蓋があった……あの牢を開けることができれば、下水道を使って脱出できるはずだ……西へ向かい、トンネルを抜けてフリーダムの拠点を目指すのが一番安全だろう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_escape_dialog",
+          "phrase_id": "121",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_escape_dialog_141#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 30,
+      "string_id": "cit_doctor_escape_dialog_141",
+      "occurrence": 1,
+      "EN": "We're being held by the Mercs. Nobody really knows who they are but there are rumors that they work together with foreign intelligence services. The location of this base is top secret - no one knows how to get into the Dead City. Many people are very interested in this information, especially Freedom and Duty.",
+      "JA_current": "捕らえているのはマーセナリーズだ。正体を知る者はほとんどいないが、外国の諜報機関と結託しているという噂がある。この拠点の位置は最高機密で、デッドシティへの進入路を知る者はまずいない。誰もがその情報を欲しがっているよ。特にフリーダムとデューティーはな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_escape_dialog",
+          "phrase_id": "141",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_escape_dialog_151#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 45,
+      "string_id": "cit_doctor_escape_dialog_151",
+      "occurrence": 1,
+      "EN": "The city is split into two sections. We're on the merc side. To the South beyond the square is where the bandits are. They're holed up in the school building Southwest of the city. In between the bases, there is a run down five-floor building and a few relatively intact ones. If the shit hits the fan, you can sit it out there. There are also some garages and a couple of small houses around that area. There are a couple of five-floor buildings and a dozen garages on the bandits' side too. The former city council building is on the other side of the square.",
+      "JA_current": "街は二つの区画に分かれている。私たちがいるのはマーセナリーズ側だ。広場を越えた南側にはバンディットどもがいて、街の南西にある校舎に立てこもっている。二つの拠点の間には荒れ果てた5階建てビルと、比較的損壊の少ない建物が数軒ある。万一撃ち合いになったら、そこに身を潜めるといい。周辺にはガレージや民家もいくつかある。バンディット側にも5階建てが2棟とガレージが十数軒あるな。旧市議会の建物は広場の向かい側だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_escape_dialog",
+          "phrase_id": "151",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_escape_dialog_161#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 54,
+      "string_id": "cit_doctor_escape_dialog_161",
+      "occurrence": 1,
+      "EN": "A truly nasty guy named Dushman. I've seen him carrying around a folder with some documents a couple of times. I reckon there's something interesting inside.",
+      "JA_current": "ドゥシュマンという名の、実にたちの悪い男だ。書類の入ったファイルを抱えて歩き回る姿を何度か見かけた。中には面白い情報が入っているに違いない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_escape_dialog",
+          "phrase_id": "161",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_escape_dialog_1111#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 15,
+      "string_id": "cit_doctor_escape_dialog_1111",
+      "occurrence": 1,
+      "EN": "Thanks!",
+      "JA_current": "恩に着るよ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_escape_dialog",
+          "phrase_id": "1111",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_escape_dialog_1211#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 24,
+      "string_id": "cit_doctor_escape_dialog_1211",
+      "occurrence": 1,
+      "EN": "Thanks for the information.",
+      "JA_current": "貴重な情報をありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_escape_dialog",
+          "phrase_id": "1211",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_escape_dialog_1411#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 33,
+      "string_id": "cit_doctor_escape_dialog_1411",
+      "occurrence": 1,
+      "EN": "Go on.",
+      "JA_current": "続けてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_escape_dialog",
+          "phrase_id": "1411",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_escape_dialog_1511#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 48,
+      "string_id": "cit_doctor_escape_dialog_1511",
+      "occurrence": 1,
+      "EN": "Thanks for the information.",
+      "JA_current": "貴重な情報をありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_escape_dialog",
+          "phrase_id": "1511",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_escape_dialog_1611#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 57,
+      "string_id": "cit_doctor_escape_dialog_1611",
+      "occurrence": 1,
+      "EN": "Thanks for the information.",
+      "JA_current": "貴重な情報をありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_escape_dialog",
+          "phrase_id": "1611",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_escape_dialog_14111#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 36,
+      "string_id": "cit_doctor_escape_dialog_14111",
+      "occurrence": 1,
+      "EN": "If you manage to get a map of the Dead City, a successful assault will be possible. The Mercs or the bandits probably have one. You could try to get it.",
+      "JA_current": "もしデッドシティの地図を手に入れられれば、突入作戦を成功させられるだろう。マーセナリーズかバンディットが持っているはずだ。探してみるといい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_escape_dialog",
+          "phrase_id": "14111",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_escape_dialog_141111#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 39,
+      "string_id": "cit_doctor_escape_dialog_141111",
+      "occurrence": 1,
+      "EN": "Thanks for the information.",
+      "JA_current": "貴重な情報をありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_escape_dialog",
+          "phrase_id": "141111",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "cit_doctor_escape_dialog_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I need answers to several questions.",
+      "JA_current": "いくつか質問があるんだが。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_escape_dialog_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "cit_doctor_escape_dialog_1",
+      "next": [
+        "11",
+        "12",
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1111",
+        "1211",
+        "141111",
+        "1511",
+        "1611",
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Ask away, I'll try to help.",
+      "JA_current": "言ってみな。何か答えられるかもしれない。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_escape_dialog_1#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "cit_doctor_escape_dialog_11",
+      "next": [
+        "111"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "cit_jail_doctor_weapon_task"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Where are my things?",
+      "JA_current": "俺の探し物は何処にある？",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_escape_dialog_11#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "cit_doctor_escape_dialog_12",
+      "next": [
+        "121"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "cit_jail_doctor_escape_task"
+        },
+        {
+          "type": "has_info",
+          "value": "cit_jail_doctor_weapon_task"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "How can I get out of here?",
+      "JA_current": "どうすればここから脱出できる？",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_escape_dialog_12#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "cit_doctor_escape_dialog_14",
+      "next": [
+        "141"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "cit_map_need"
+        },
+        {
+          "type": "has_info",
+          "value": "cit_jail_scene_start"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Who captured us?",
+      "JA_current": "誰が俺たちを捕らえたんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_escape_dialog_14#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "cit_doctor_escape_dialog_15",
+      "next": [
+        "151"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "cit_jail_scene_start"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "What do you know about this place?",
+      "JA_current": "この場所について何を知りたいんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_escape_dialog_15#1"
+      ]
+    },
+    {
+      "phrase_id": "16",
+      "text_id": "cit_doctor_escape_dialog_16",
+      "next": [
+        "161"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "cit_jail_scene_start"
+        },
+        {
+          "type": "has_info",
+          "value": "cit_map_need"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Who's in charge here?",
+      "JA_current": "誰がここを担当しているんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_escape_dialog_16#1"
+      ]
+    },
+    {
+      "phrase_id": "17",
+      "text_id": "cit_doctor_escape_dialog_17",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Nope, nothing.",
+      "JA_current": "いや、何もない。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_escape_dialog_17#1"
+      ]
+    },
+    {
+      "phrase_id": "111",
+      "text_id": "cit_doctor_escape_dialog_111",
+      "next": [
+        "1111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "cit_jail_doctor_weapon_task"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "The leader usually keeps all the confiscated stuff his room, up on the top floor. My things were taken there when they caught me.",
+      "JA_current": "通常、リーダーが全部の押収物を持って行く。奴の部屋は最上階にある。俺が捕まったときも、俺の物はそこに持って行かれた。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_escape_dialog_111#1"
+      ]
+    },
+    {
+      "phrase_id": "121",
+      "text_id": "cit_doctor_escape_dialog_121",
+      "next": [
+        "1211"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "cit_jail_doctor_escape_task"
+        },
+        {
+          "type": "give_info",
+          "value": "cit_jail_scene_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "When they were leading me around I noticed a sewer grate under the stairs on the first floor... If you managed to open the cell it would be possible to get out of here using that sewer... It's best to go West and then you can use the tunnel to get to Freedom.",
+      "JA_current": "奴らが俺を連行したとき、周囲に気を配ってみたが、1階の階段の下に下水の鉄格子を見つけた… もし、何とか監房を開けることが出来たら、その下水を通って逃げることも可能だろうに… その場合、西に向かって、トンネルをくぐって Freedom の方に向かうのが一番だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_escape_dialog_121#1"
+      ]
+    },
+    {
+      "phrase_id": "141",
+      "text_id": "cit_doctor_escape_dialog_141",
+      "next": [
+        "1411"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "We're being held by the Mercs. Nobody really knows who they are but there are rumors that they work together with foreign intelligence services. The location of this base is top secret - no one knows how to get into the Dead City. Many people are very interested in this information, especially Freedom and Duty.",
+      "JA_current": "俺たちは Mercs に捕らえられた。真にヤツらのことを知る者は居ないが、外国の諜報機関とつるんでいるという噂がある。連中の基地の場所は最高機密だ ― 誰も Dead City に進入する方法を知らない。多くの連中がこの話に非常に興味を持った、Freedom と Duty は特にな。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_escape_dialog_141#1"
+      ]
+    },
+    {
+      "phrase_id": "151",
+      "text_id": "cit_doctor_escape_dialog_151",
+      "next": [
+        "1511"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "cit_doctor_shows_deadcity_zones"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "15"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "The city is split into two sections. We're on the merc side. To the South beyond the square is where the bandits are. They're holed up in the school building Southwest of the city. In between the bases, there is a run down five-floor building and a few relatively intact ones. If the shit hits the fan, you can sit it out there. There are also some garages and a couple of small houses around that area. There are a couple of five-floor buildings and a dozen garages on the bandits' side too. The former city council building is on the other side of the square.",
+      "JA_current": "都市は2つの地区に分かれている。我々は Merc 側に居る。広場を越えて南の方に行けば Bandit がたむろしている。彼らは都市の南西の校舎に閉じこもっている。基地との間には荒れ果てた5階建てのビルと、比較的無傷なビルが少しだがある。もしクソッタレな事態にでもなれば、そこに隠れるのもいいかもな。そのエリアの周りにはガレージがいくつかと、2～3軒の小さい家がある。Bandit の側にも5階建てのビルが2～3軒と、ガレージが1ダースある。昔の市議会所は広場の反対側だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_escape_dialog_151#1"
+      ]
+    },
+    {
+      "phrase_id": "161",
+      "text_id": "cit_doctor_escape_dialog_161",
+      "next": [
+        "1611"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "16"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "A truly nasty guy named Dushman. I've seen him carrying around a folder with some documents a couple of times. I reckon there's something interesting inside.",
+      "JA_current": "Dushman という名前の本当にいやらしい男がいる。私は彼が2回ほど若干の書類をフォルダで運びまわっているのを見た。私は中に何か面白もの入っていると思う。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_escape_dialog_161#1"
+      ]
+    },
+    {
+      "phrase_id": "1111",
+      "text_id": "cit_doctor_escape_dialog_1111",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Thanks!",
+      "JA_current": "ありがとう！",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_escape_dialog_1111#1"
+      ]
+    },
+    {
+      "phrase_id": "1211",
+      "text_id": "cit_doctor_escape_dialog_1211",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "121"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Thanks for the information.",
+      "JA_current": "情報をありがとう。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_escape_dialog_1211#1"
+      ]
+    },
+    {
+      "phrase_id": "1411",
+      "text_id": "cit_doctor_escape_dialog_1411",
+      "next": [
+        "14111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "141"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Go on.",
+      "JA_current": "続けてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_escape_dialog_1411#1"
+      ]
+    },
+    {
+      "phrase_id": "1511",
+      "text_id": "cit_doctor_escape_dialog_1511",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "151"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Thanks for the information.",
+      "JA_current": "情報をありがとう。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_escape_dialog_1511#1"
+      ]
+    },
+    {
+      "phrase_id": "1611",
+      "text_id": "cit_doctor_escape_dialog_1611",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "161"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Thanks for the information.",
+      "JA_current": "情報をありがとう。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_escape_dialog_1611#1"
+      ]
+    },
+    {
+      "phrase_id": "14111",
+      "text_id": "cit_doctor_escape_dialog_14111",
+      "next": [
+        "141111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1411"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "If you manage to get a map of the Dead City, a successful assault will be possible. The Mercs or the bandits probably have one. You could try to get it.",
+      "JA_current": "どうにかして Dead City の地図を手に入れれば、成功する強襲が可能だ。Mercs か Bandits が持っているだろう。それを手に入れるのだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_escape_dialog_14111#1"
+      ]
+    },
+    {
+      "phrase_id": "141111",
+      "text_id": "cit_doctor_escape_dialog_141111",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "cit_map_need"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "14111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Thanks for the information.",
+      "JA_current": "情報をありがとう。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_escape_dialog_141111#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,687 @@
+{
+  "packet_id": "dialog_0258__kuznetsov_about_job",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "kuznetsov_about_job",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "esc_soldier_commander",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "dialogs.is_not_wounded1"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 15,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:ogse_kuznetsov_rep_0#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1999,
+      "string_id": "ogse_kuznetsov_rep_0",
+      "occurrence": 1,
+      "EN": "You let people through for money, don't you?",
+      "JA_current": "You let people through for money, don't you?",
+      "JA_new": "金をもらって、人を通してるんだろ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kuznetsov_about_job",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:ogse_kuznetsov_phr_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1957,
+      "string_id": "ogse_kuznetsov_phr_1",
+      "occurrence": 1,
+      "EN": "So, I make a little money on the side for letting some shit leak in and out of the Zone, so what? I live and let others live too, right?",
+      "JA_current": "So, I make a little money on the side for letting some shit leak in and out of the Zone, so what? I live and let others live too, right?",
+      "JA_new": "ゾーンから物を出し入れするのを見逃して、ちょっと小遣いを稼いでる。それがどうした？　俺も人並みに暮らしたいし、他の奴らにもそうさせてやってる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kuznetsov_about_job",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:ogse_kuznetsov_rep_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1960,
+      "string_id": "ogse_kuznetsov_rep_1",
+      "occurrence": 1,
+      "EN": "Clear enough.",
+      "JA_current": "Clear enough.",
+      "JA_new": "なるほどな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kuznetsov_about_job",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:ogse_kuznetsov_phr_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1963,
+      "string_id": "ogse_kuznetsov_phr_2",
+      "occurrence": 1,
+      "EN": "Hey, wise guy, do you happen to know how much my official salary is?",
+      "JA_current": "Hey, wise guy, do you happen to know how much my official salary is?",
+      "JA_new": "なあ、物知りさんよ。俺の正規の給料がいくらか知ってるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kuznetsov_about_job",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:ogse_kuznetsov_rep_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1966,
+      "string_id": "ogse_kuznetsov_rep_2",
+      "occurrence": 1,
+      "EN": "Not much, I guess.",
+      "JA_current": "Not much, I guess.",
+      "JA_new": "たいした額じゃないんだろうな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kuznetsov_about_job",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:ogse_kuznetsov_phr_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1969,
+      "string_id": "ogse_kuznetsov_phr_3",
+      "occurrence": 1,
+      "EN": "Damn right! You come and try to make it on that small change for yourself. I bet you wouldn't last a year.",
+      "JA_current": "Damn right! You come and try to make it on that small change for yourself. I bet you wouldn't last a year.",
+      "JA_new": "そのとおりだ！　あのはした金で暮らしてみろよ。一年もたねえだろうな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kuznetsov_about_job",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:ogse_kuznetsov_rep_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1972,
+      "string_id": "ogse_kuznetsov_rep_3",
+      "occurrence": 1,
+      "EN": "It's really hard to make it, indeed.",
+      "JA_current": "It's really hard to make it, indeed.",
+      "JA_new": "確かに、やっていくのは大変だな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kuznetsov_about_job",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:ogse_kuznetsov_phr_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1975,
+      "string_id": "ogse_kuznetsov_phr_4",
+      "occurrence": 1,
+      "EN": "Just imagine it. For that pittance of a salary, I am expected to display enormous pride in my service, my State and my government! What a fucking joke...",
+      "JA_current": "Just imagine it. For that pittance of a salary, I am expected to display enormous pride in my service, my State and my government! What a fucking joke...",
+      "JA_new": "想像してみろよ。こんなはした金で、軍務や国家や政府に誇りを持てって言われるんだぜ！　笑わせるな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kuznetsov_about_job",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:ogse_kuznetsov_rep_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1978,
+      "string_id": "ogse_kuznetsov_rep_4",
+      "occurrence": 1,
+      "EN": "So you've lost all pride in your service?",
+      "JA_current": "So you've lost all pride in your service?",
+      "JA_new": "軍務に誇りを持てなくなったのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kuznetsov_about_job",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:ogse_kuznetsov_phr_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1981,
+      "string_id": "ogse_kuznetsov_phr_5",
+      "occurrence": 1,
+      "EN": "The big wigs, every single one, are up to their necks in wealth thanks to the shit they smuggle from the Zone! All this while we're stuck here, getting shot up, torn up by anomalies, irradiated to shit and eaten alive by freaks crawling out of every shrub and not seeing a single dime of those profits that the higher-ups are swimming in. You tell me, what is there to be proud of!? Why should I keep away from this kind'a business?!",
+      "JA_current": "The big wigs, every single one, are up to their necks in wealth thanks to the shit they smuggle from the Zone! All this while we're stuck here, getting shot up, torn up by anomalies, irradiated to shit and eaten alive by freaks crawling out of every shrub and not seeing a single dime of those profits that the higher-ups are swimming in. You tell me, what is there to be proud of!? Why should I keep away from this kind'a business?!",
+      "JA_new": "お偉方は全員、ゾーンから密輸した物で大金持ちだ！　その間、俺たちはここで撃たれ、アノマリーに引き裂かれ、放射能まみれになり、藪から出てくる化け物に食われかけてる。上の連中が儲けた金は、俺たちには一銭も回ってこない。何を誇れっていうんだ？　俺がこんな稼ぎ方をするなと？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kuznetsov_about_job",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:ogse_kuznetsov_rep_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1984,
+      "string_id": "ogse_kuznetsov_rep_5",
+      "occurrence": 1,
+      "EN": "Good question.",
+      "JA_current": "Good question.",
+      "JA_new": "もっともな話だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kuznetsov_about_job",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:ogse_kuznetsov_phr_6#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1987,
+      "string_id": "ogse_kuznetsov_phr_6",
+      "occurrence": 1,
+      "EN": "What is every soldier's primary objective in the Zone? To carry out orders and survive! It just so happens I am carrying out my orders, and I am surviving by any means necessary!",
+      "JA_current": "What is every soldier's primary objective in the Zone? To carry out orders and survive! It just so happens I am carrying out my orders, and I am surviving by any means necessary!",
+      "JA_new": "ゾーンにいる兵士が最優先ですべきことは何だ？　命令をこなし、生き延びることだ！　俺は命令を遂行し、どんな手を使ってでも生き延びてる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kuznetsov_about_job",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:ogse_kuznetsov_rep_6#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1990,
+      "string_id": "ogse_kuznetsov_rep_6",
+      "occurrence": 1,
+      "EN": "This is just your way to make it through.",
+      "JA_current": "This is just your way to make it through.",
+      "JA_new": "そうやって生き延びてるんだな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kuznetsov_about_job",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:ogse_kuznetsov_phr_7#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1993,
+      "string_id": "ogse_kuznetsov_phr_7",
+      "occurrence": 1,
+      "EN": "Holy crap! Everywhere I look I'm surrounded by fuckin' morons, all over the place! If I have to put up with this a little while longer, I'll either fuckin' waste everybody around me, or put a bullet through my own head!..",
+      "JA_current": "Holy crap! Everywhere I look I'm surrounded by fuckin' morons, all over the place! If I have to put up with this a little while longer, I'll either fuckin' waste everybody around me, or put a bullet through my own head!..",
+      "JA_new": "くそっ！　見渡す限り、どこもかしこも馬鹿ばっかりだ！　これ以上こんな連中に付き合ってたら、片っ端からぶっ殺すか、自分の頭を撃ち抜いちまうぞ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kuznetsov_about_job",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:ogse_kuznetsov_rep_7#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1996,
+      "string_id": "ogse_kuznetsov_rep_7",
+      "occurrence": 1,
+      "EN": "Yeah, you're absolutely right! Plenty of morons around! See you!",
+      "JA_current": "Yeah, you're absolutely right! Plenty of morons around! See you!",
+      "JA_new": "そうだな、まったくだ！　馬鹿ばっかりだ。またな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "kuznetsov_about_job",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "ogse_kuznetsov_rep_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You let people through for money, don't you?",
+      "JA_current": "You let people through for money, don't you?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:ogse_kuznetsov_rep_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "ogse_kuznetsov_phr_1",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.kuznetsov_1"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So, I make a little money on the side for letting some shit leak in and out of the Zone, so what? I live and let others live too, right?",
+      "JA_current": "So, I make a little money on the side for letting some shit leak in and out of the Zone, so what? I live and let others live too, right?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:ogse_kuznetsov_phr_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "ogse_kuznetsov_rep_1",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Clear enough.",
+      "JA_current": "Clear enough.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:ogse_kuznetsov_rep_1#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "ogse_kuznetsov_phr_2",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.kuznetsov_2"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, wise guy, do you happen to know how much my official salary is?",
+      "JA_current": "Hey, wise guy, do you happen to know how much my official salary is?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:ogse_kuznetsov_phr_2#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "ogse_kuznetsov_rep_2",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Not much, I guess.",
+      "JA_current": "Not much, I guess.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:ogse_kuznetsov_rep_2#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "ogse_kuznetsov_phr_3",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.kuznetsov_3"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Damn right! You come and try to make it on that small change for yourself. I bet you wouldn't last a year.",
+      "JA_current": "Damn right! You come and try to make it on that small change for yourself. I bet you wouldn't last a year.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:ogse_kuznetsov_phr_3#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "ogse_kuznetsov_rep_3",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It's really hard to make it, indeed.",
+      "JA_current": "It's really hard to make it, indeed.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:ogse_kuznetsov_rep_3#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "ogse_kuznetsov_phr_4",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.kuznetsov_4"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Just imagine it. For that pittance of a salary, I am expected to display enormous pride in my service, my State and my government! What a fucking joke...",
+      "JA_current": "Just imagine it. For that pittance of a salary, I am expected to display enormous pride in my service, my State and my government! What a fucking joke...",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:ogse_kuznetsov_phr_4#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "ogse_kuznetsov_rep_4",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So you've lost all pride in your service?",
+      "JA_current": "So you've lost all pride in your service?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:ogse_kuznetsov_rep_4#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "ogse_kuznetsov_phr_5",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.kuznetsov_5"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The big wigs, every single one, are up to their necks in wealth thanks to the shit they smuggle from the Zone! All this while we're stuck here, getting shot up, torn up by anomalies, irradiated to shit and eaten alive by freaks crawling out of every shrub and not seeing a single dime of those profits that the higher-ups are swimming in. You tell me, what is there to be proud of!? Why should I keep away from this kind'a business?!",
+      "JA_current": "The big wigs, every single one, are up to their necks in wealth thanks to the shit they smuggle from the Zone! All this while we're stuck here, getting shot up, torn up by anomalies, irradiated to shit and eaten alive by freaks crawling out of every shrub and not seeing a single dime of those profits that the higher-ups are swimming in. You tell me, what is there to be proud of!? Why should I keep away from this kind'a business?!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:ogse_kuznetsov_phr_5#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "ogse_kuznetsov_rep_5",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Good question.",
+      "JA_current": "Good question.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:ogse_kuznetsov_rep_5#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "ogse_kuznetsov_phr_6",
+      "next": [
+        "12"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.kuznetsov_6"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What is every soldier's primary objective in the Zone? To carry out orders and survive! It just so happens I am carrying out my orders, and I am surviving by any means necessary!",
+      "JA_current": "What is every soldier's primary objective in the Zone? To carry out orders and survive! It just so happens I am carrying out my orders, and I am surviving by any means necessary!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:ogse_kuznetsov_phr_6#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "ogse_kuznetsov_rep_6",
+      "next": [
+        "13"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "This is just your way to make it through.",
+      "JA_current": "This is just your way to make it through.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:ogse_kuznetsov_rep_6#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "ogse_kuznetsov_phr_7",
+      "next": [
+        "14"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.kuznetsov_7"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Holy crap! Everywhere I look I'm surrounded by fuckin' morons, all over the place! If I have to put up with this a little while longer, I'll either fuckin' waste everybody around me, or put a bullet through my own head!..",
+      "JA_current": "Holy crap! Everywhere I look I'm surrounded by fuckin' morons, all over the place! If I have to put up with this a little while longer, I'll either fuckin' waste everybody around me, or put a bullet through my own head!..",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:ogse_kuznetsov_phr_7#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "ogse_kuznetsov_rep_7",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, you're absolutely right! Plenty of morons around! See you!",
+      "JA_current": "Yeah, you're absolutely right! Plenty of morons around! See you!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:ogse_kuznetsov_rep_7#1"
+      ]
+    }
+  ]
+}

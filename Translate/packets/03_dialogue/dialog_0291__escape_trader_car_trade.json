@@ -1,0 +1,154 @@
+{
+  "packet_id": "dialog_0291__escape_trader_car_trade",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "escape_trader_car_trade",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "esc_find_railroad_passage_find_stalker"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 3,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:escape_trader_car_trade_0#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1621,
+      "string_id": "escape_trader_car_trade_0",
+      "occurrence": 1,
+      "EN": "I'm tired of crawling through the mud. Can you arrange some transport?",
+      "JA_current": "I'm tired of crawling through the mud. Can you arrange some transport?",
+      "JA_new": "泥まみれで歩き回るのはもううんざりだ。何か乗り物を用意してくれないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_car_trade",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_car_trade_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1625,
+      "string_id": "escape_trader_car_trade_1",
+      "occurrence": 1,
+      "EN": "Of course I can! One thing, though: don't expect it to be delivered straight to you. Payment will include me having to hire someone to bring it over to a safe location close-by, so if you're around he can take it straight to you. Otherwise he will park the car somewhere in proximity. If you agree with that, place your order. If not - get lost.",
+      "JA_current": "Of course I can! One thing, though: don't expect it to be delivered straight to you. Payment will include me having to hire someone to bring it over to a safe location close-by, so if you're around he can take it straight to you. Otherwise he will park the car somewhere in proximity. If you agree with that, place your order. If not - get lost.",
+      "JA_new": "もちろんだ！ ただ、すぐお前のところまで届けるわけにはいかない。安全な近場まで運んでくれる奴を雇う分、料金に上乗せになる。お前が近くにいればそいつが直接渡すし、いなければ近場に車を置いていく。それでいいなら注文しろ。嫌なら帰れ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_car_trade",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_90#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 273,
+      "string_id": "dialogs_escape_90",
+      "occurrence": 1,
+      "EN": "Ok, show me what you've got.",
+      "JA_current": "Ok, show me what you've got.",
+      "JA_new": "いいだろう。商品を見せてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_car_trade",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "escape_trader_car_trade_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'm tired of crawling through the mud. Can you arrange some transport?",
+      "JA_current": "I'm tired of crawling through the mud. Can you arrange some transport?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_car_trade_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "escape_trader_car_trade_1",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Of course I can! One thing, though: don't expect it to be delivered straight to you. Payment will include me having to hire someone to bring it over to a safe location close-by, so if you're around he can take it straight to you. Otherwise he will park the car somewhere in proximity. If you agree with that, place your order. If not - get lost.",
+      "JA_current": "Of course I can! One thing, though: don't expect it to be delivered straight to you. Payment will include me having to hire someone to bring it over to a safe location close-by, so if you're around he can take it straight to you. Otherwise he will park the car somewhere in proximity. If you agree with that, place your order. If not - get lost.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_car_trade_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "dialogs_escape_90",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "car_trade.open_car_trade_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Ok, show me what you've got.",
+      "JA_current": "Ok, show me what you've got.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_90#1"
+      ]
+    }
+  ]
+}

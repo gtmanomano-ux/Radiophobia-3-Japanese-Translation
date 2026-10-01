@@ -1,0 +1,308 @@
+{
+  "packet_id": "dialog_0177__sinyak_reward_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "sinyak_reward_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "stalker_sinyak",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.proverka_vodka"
+    },
+    {
+      "type": "has_info",
+      "value": "sinyak_quest"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "sinyak_quest_done"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 6,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:sinyak_reward_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2480,
+      "string_id": "sinyak_reward_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Hey, bummer.",
+      "JA_current": "よう、飲んだくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_reward_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sinyak_reward_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2483,
+      "string_id": "sinyak_reward_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Have you got the paperwork ready? Just make sure that the excise tax and GOST are in place!",
+      "JA_current": "お、おう……例のブツは揃ったか？ 納税シールと規格印がちゃんと貼ってあるやつだろうな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_reward_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sinyak_reward_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2486,
+      "string_id": "sinyak_reward_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Here are your documents, 20 of them:",
+      "JA_current": "ほらよ、あんたの「極上書類」だ。たっぷり20本あるぞ：",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_reward_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sinyak_reward_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2489,
+      "string_id": "sinyak_reward_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "B-r-r-r-r! Oh, yeah? What a favor!",
+      "JA_current": "ぶるるるっ！ マジかよ！？ 恩に着るぜ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_reward_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sinyak_reward_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2492,
+      "string_id": "sinyak_reward_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Now you're free to get drunk. Don't throw up on yourself, and try not to overdose.",
+      "JA_current": "これで心置きなく泥酔できるな。ゲロを撒き散らしたり、急性アル中でお陀仏にならんようにな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_reward_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sinyak_reward_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2495,
+      "string_id": "sinyak_reward_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Don't be afraid! I know my limits. Here's what was promised:",
+      "JA_current": "心配すんな！ 自分の許容量くらい弁えてるさ。ほら、約束の獲物だ：",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_reward_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "sinyak_reward_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, bummer.",
+      "JA_current": "Hey, bummer.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_reward_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "sinyak_reward_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.dokumenti_prigotovil"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Have you got the paperwork ready? Just make sure that the excise tax and GOST are in place!",
+      "JA_current": "Have you got the paperwork ready? Just make sure that the excise tax and GOST are in place!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_reward_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "sinyak_reward_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.otday_vodka"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here are your documents, 20 of them:",
+      "JA_current": "Here are your documents, 20 of them:",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_reward_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "sinyak_reward_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.brrr"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "B-r-r-r-r! Oh, yeah? What a favor!",
+      "JA_current": "B-r-r-r-r! Oh, yeah? What a favor!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_reward_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "sinyak_reward_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Now you're free to get drunk. Don't throw up on yourself, and try not to overdose.",
+      "JA_current": "Now you're free to get drunk. Don't throw up on yourself, and try not to overdose.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_reward_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "sinyak_reward_dialog_phrase_6",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.sinyak_nagrada"
+        },
+        {
+          "type": "give_info",
+          "value": "sinyak_quest_done"
+        },
+        {
+          "type": "give_info",
+          "value": "sinyak_reward"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Don't be afraid! I know my limits. Here's what was promised:",
+      "JA_current": "Don't be afraid! I know my limits. Here's what was promised:",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_reward_dialog_phrase_6#1"
+      ]
+    }
+  ]
+}

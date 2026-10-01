@@ -1,0 +1,200 @@
+{
+    "packet_id":  "dialog_0393__lucky_life_dialog",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "lucky_life_dialog",
+    "graph_source":  "gamedata/config/gameplay/dialogs_military.xml",
+    "graph_sha256":  "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+    "character_bindings":  [
+                               {
+                                   "profile_id":  "lucky",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_military.xml"
+                               }
+                           ],
+    "dialog_conditions":  [
+                              {
+                                  "type":  "dont_has_info",
+                                  "value":  "voron_notebook_info"
+                              },
+                              {
+                                  "type":  "has_info",
+                                  "value":  "lucky_quest_finish"
+                              },
+                              {
+                                  "type":  "has_info",
+                                  "value":  "mil_max_job_complete"
+                              }
+                          ],
+    "root_speaker_hint":  "player",
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  3,
+    "entries":  [
+                    {
+                        "key":  "stable_dialogs_military:lucky_life_dialog_phrase_1#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2065,
+                        "string_id":  "lucky_life_dialog_phrase_1",
+                        "occurrence":  1,
+                        "EN":  "Hi. Did you manage to unlock the laptop?",
+                        "JA_current":  "Hi. Did you manage to unlock the laptop?",
+                        "JA_new":  "やあ。ノートパソコンのロックは解除できた？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lucky_life_dialog",
+                                               "phrase_id":  "0",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lucky_life_dialog_phrase_2#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2068,
+                        "string_id":  "lucky_life_dialog_phrase_2",
+                        "occurrence":  1,
+                        "EN":  "Yes, of course! If you meet the owner, tell him he\u0027s in desperate need of improving his password habits. As for the contents, there are very few files on it.. \\nLet\u0027s see, there was an incomprehensible map with notes.. \\nSome documents describing something called \"Specimen #1\" - looks like some weird artifact with unknown properties, photos included.. \\nAh, there was also something like a diary; the former owner made something like a list of tasks and ticked them off as he performed them... \\nVery strange stuff - I personally understood very little, to be honest. Kinda gives the impression that the owner was a bit crazy, or some type of an eccentric personality... Anyway, I compiled every file together and will send it all over to you so you can work it out on your own.",
+                        "JA_current":  "Yes, of course! If you meet the owner, tell him he\u0027s in desperate need of improving his password habits. As for the contents, there are very few files on it.. \\nLet\u0027s see, there was an incomprehensible map with notes.. \\nSome documents describing something called \"Specimen #1\" - looks like some weird artifact with unknown properties, photos included.. \\nAh, there was also something like a diary; the former owner made something like a list of tasks and ticked them off as he performed them... \\nVery strange stuff - I personally understood very little, to be honest. Kinda gives the impression that the owner was a bit crazy, or some type of an eccentric personality... Anyway, I compiled every file together and will send it all over to you so you can work it out on your own.",
+                        "JA_new":  "もちろん！ 持ち主に会ったら、パスワードの管理を見直せって伝えてくれ。中のファイルはごくわずかだ……\\nまず、メモ書きのついた意味不明な地図……\\nそれから「標本1号」についての書類。未知の性質を持つ奇妙なアーティファクトらしい。写真付きだ……\\nあとは日記みたいなものがあった。前の持ち主が作業リストを作って、済ませるたびに印をつけていた……\\n妙なものばかりで、正直、俺にはほとんど理解できなかった。持ち主は少し頭がおかしかったか、かなりの変わり者だったんだろうな……とにかく、ファイルは全部まとめてあんたに送る。あとは自分で調べてくれ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lucky_life_dialog",
+                                               "phrase_id":  "1",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lucky_life_dialog_phrase_3#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2071,
+                        "string_id":  "lucky_life_dialog_phrase_3",
+                        "occurrence":  1,
+                        "EN":  "Thank you.",
+                        "JA_current":  "Thank you.",
+                        "JA_new":  "ありがとう。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lucky_life_dialog",
+                                               "phrase_id":  "2",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  "lucky_life_dialog_phrase_1",
+                            "next":  [
+                                         "1"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Hi. Did you manage to unlock the laptop?",
+                            "JA_current":  "Hi. Did you manage to unlock the laptop?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lucky_life_dialog_phrase_1#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "1",
+                            "text_id":  "lucky_life_dialog_phrase_2",
+                            "next":  [
+                                         "2"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Yes, of course! If you meet the owner, tell him he\u0027s in desperate need of improving his password habits. As for the contents, there are very few files on it.. \\nLet\u0027s see, there was an incomprehensible map with notes.. \\nSome documents describing something called \"Specimen #1\" - looks like some weird artifact with unknown properties, photos included.. \\nAh, there was also something like a diary; the former owner made something like a list of tasks and ticked them off as he performed them... \\nVery strange stuff - I personally understood very little, to be honest. Kinda gives the impression that the owner was a bit crazy, or some type of an eccentric personality... Anyway, I compiled every file together and will send it all over to you so you can work it out on your own.",
+                            "JA_current":  "Yes, of course! If you meet the owner, tell him he\u0027s in desperate need of improving his password habits. As for the contents, there are very few files on it.. \\nLet\u0027s see, there was an incomprehensible map with notes.. \\nSome documents describing something called \"Specimen #1\" - looks like some weird artifact with unknown properties, photos included.. \\nAh, there was also something like a diary; the former owner made something like a list of tasks and ticked them off as he performed them... \\nVery strange stuff - I personally understood very little, to be honest. Kinda gives the impression that the owner was a bit crazy, or some type of an eccentric personality... Anyway, I compiled every file together and will send it all over to you so you can work it out on your own.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lucky_life_dialog_phrase_2#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "2",
+                            "text_id":  "lucky_life_dialog_phrase_3",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "give_info",
+                                                "value":  "voron_notebook_info"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Thank you.",
+                            "JA_current":  "Thank you.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lucky_life_dialog_phrase_3#1"
+                                                        ]
+                        }
+                    ]
+}

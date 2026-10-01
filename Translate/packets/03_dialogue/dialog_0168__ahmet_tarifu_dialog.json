@@ -1,0 +1,365 @@
+{
+  "packet_id": "dialog_0168__ahmet_tarifu_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "ahmet_tarifu_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "ahmet_stalker",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "arti_na_obmen_ahmet"
+    }
+  ],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 8,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:ahmet_tarifu_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2015,
+      "string_id": "ahmet_tarifu_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Hey, man! You need ammo? Armor-piercing variant, to be precise?",
+      "JA_current": "Hey, man! You need ammo? Armor-piercing variant, to be precise?",
+      "JA_new": "よお！ 弾が要るか？ 正確には徹甲弾だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_tarifu_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_tarifu_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2018,
+      "string_id": "ahmet_tarifu_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Of course, and how much is it?",
+      "JA_current": "Of course, and how much is it?",
+      "JA_new": "ああ、いくらだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_tarifu_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_tarifu_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2021,
+      "string_id": "ahmet_tarifu_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Hide your money, I don't need it. You better give me artifacts instead. I exchange packs of armor-piercing ammo for artifacts, works out better for me.",
+      "JA_current": "Hide your money, I don't need it. You better give me artifacts instead. I exchange packs of armor-piercing ammo for artifacts, works out better for me.",
+      "JA_new": "金はしまえ。いらない。代わりにアーティファクトをよこせ。徹甲弾の束と交換してやる。そっちの方が俺には都合がいい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_tarifu_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_tarifu_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2024,
+      "string_id": "ahmet_tarifu_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Is that so? And what are your exchange rates for these artifacts? I don't want to get ripped off here!",
+      "JA_current": "Is that so? And what are your exchange rates for these artifacts? I don't want to get ripped off here!",
+      "JA_new": "そうなのか？ いくらで交換してくれる？ ぼったくりはごめんだぞ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_tarifu_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_tarifu_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2027,
+      "string_id": "ahmet_tarifu_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "It's very simple, really, the higher the value and rarity of the artifact you bring me, the better the value of the ammunition I can hand over. So, if you bring me something simple like a jellyfish, don't expect premium rounds, at most I'd probably give you something like a couple 9x18s. For a single artifact of any type, I can give you two, maybe three units. ",
+      "JA_current": "It's very simple, really, the higher the value and rarity of the artifact you bring me, the better the value of the ammunition I can hand over. So, if you bring me something simple like a jellyfish, don't expect premium rounds, at most I'd probably give you something like a couple 9x18s. For a single artifact of any type, I can give you two, maybe three units. ",
+      "JA_new": "簡単な話だ。持ってきたアーティファクトの価値が高くて珍しいほど、渡す弾の質も上がる。ジェリーフィッシュみたいなありふれた物を持ってきても、上等な弾はやれない。せいぜい9x18弾を二発ってところだ。どんなアーティファクトでも、一つにつき弾を二、三発は渡せる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_tarifu_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_tarifu_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2030,
+      "string_id": "ahmet_tarifu_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "I see. But why are you in hiding?",
+      "JA_current": "I see. But why are you in hiding?",
+      "JA_new": "分かった。だが、どうして隠れて取引してる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_tarifu_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_tarifu_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2033,
+      "string_id": "ahmet_tarifu_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Because my command does not approve. Voronin forbade Petrenko from selling armor-piercing ammunition, because we have so little of it in our reserves. Also, we don't want our enemies getting a hold of these rounds, they could be used against us and punch right through our vests. I personally don't care about all that, I realized that we pretty much have a monopoly over this market, so you bet I'm gonna capitalize on that! You've probably seen for yourself that ammunition of this type is almost impossible to find amongst the stalker traders. I sell low quantities for high profits, so it's not like I'm gonna over-saturate the market out here. These puppies are still gonna be as rare as shooting stars.",
+      "JA_current": "Because my command does not approve. Voronin forbade Petrenko from selling armor-piercing ammunition, because we have so little of it in our reserves. Also, we don't want our enemies getting a hold of these rounds, they could be used against us and punch right through our vests. I personally don't care about all that, I realized that we pretty much have a monopoly over this market, so you bet I'm gonna capitalize on that! You've probably seen for yourself that ammunition of this type is almost impossible to find amongst the stalker traders. I sell low quantities for high profits, so it's not like I'm gonna over-saturate the market out here. These puppies are still gonna be as rare as shooting stars.",
+      "JA_new": "上が認めてないからだ。ヴォロニンは、徹甲弾の備蓄が少ないからとペトレンコに販売を禁じてる。敵に渡したくもないんだろう。連中に使われたら、防弾ベストを撃ち抜かれるからな。俺はそんなこと気にしないがね。この市場をほぼ独占できると分かったんだ。もちろん、儲けさせてもらうさ！ こういう弾がストーカー相手の商人からほとんど手に入らないのは知ってるだろ。高く少しずつ売るから、市場に出回りすぎることもない。こいつらは流れ星みたいに珍しいままだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_tarifu_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:ahmet_tarifu_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2036,
+      "string_id": "ahmet_tarifu_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "I see.",
+      "JA_current": "I see.",
+      "JA_new": "なるほど。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahmet_tarifu_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "ahmet_tarifu_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, man! You need ammo? Armor-piercing variant, to be precise?",
+      "JA_current": "Hey, man! You need ammo? Armor-piercing variant, to be precise?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_tarifu_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "ahmet_tarifu_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Of course, and how much is it?",
+      "JA_current": "Of course, and how much is it?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_tarifu_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "ahmet_tarifu_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hide your money, I don't need it. You better give me artifacts instead. I exchange packs of armor-piercing ammo for artifacts, works out better for me.",
+      "JA_current": "Hide your money, I don't need it. You better give me artifacts instead. I exchange packs of armor-piercing ammo for artifacts, works out better for me.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_tarifu_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "ahmet_tarifu_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Is that so? And what are your exchange rates for these artifacts? I don't want to get ripped off here!",
+      "JA_current": "Is that so? And what are your exchange rates for these artifacts? I don't want to get ripped off here!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_tarifu_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "ahmet_tarifu_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It's very simple, really, the higher the value and rarity of the artifact you bring me, the better the value of the ammunition I can hand over. So, if you bring me something simple like a jellyfish, don't expect premium rounds, at most I'd probably give you something like a couple 9x18s. For a single artifact of any type, I can give you two, maybe three units. ",
+      "JA_current": "It's very simple, really, the higher the value and rarity of the artifact you bring me, the better the value of the ammunition I can hand over. So, if you bring me something simple like a jellyfish, don't expect premium rounds, at most I'd probably give you something like a couple 9x18s. For a single artifact of any type, I can give you two, maybe three units. ",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_tarifu_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "ahmet_tarifu_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I see. But why are you in hiding?",
+      "JA_current": "I see. But why are you in hiding?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_tarifu_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "ahmet_tarifu_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Because my command does not approve. Voronin forbade Petrenko from selling armor-piercing ammunition, because we have so little of it in our reserves. Also, we don't want our enemies getting a hold of these rounds, they could be used against us and punch right through our vests. I personally don't care about all that, I realized that we pretty much have a monopoly over this market, so you bet I'm gonna capitalize on that! You've probably seen for yourself that ammunition of this type is almost impossible to find amongst the stalker traders. I sell low quantities for high profits, so it's not like I'm gonna over-saturate the market out here. These puppies are still gonna be as rare as shooting stars.",
+      "JA_current": "Because my command does not approve. Voronin forbade Petrenko from selling armor-piercing ammunition, because we have so little of it in our reserves. Also, we don't want our enemies getting a hold of these rounds, they could be used against us and punch right through our vests. I personally don't care about all that, I realized that we pretty much have a monopoly over this market, so you bet I'm gonna capitalize on that! You've probably seen for yourself that ammunition of this type is almost impossible to find amongst the stalker traders. I sell low quantities for high profits, so it's not like I'm gonna over-saturate the market out here. These puppies are still gonna be as rare as shooting stars.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_tarifu_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "ahmet_tarifu_dialog_phrase_8",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "arti_na_obmen_ahmet"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I see.",
+      "JA_current": "I see.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:ahmet_tarifu_dialog_phrase_8#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "packet_id": "dialog_0222__trader_relation_bandit",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "trader_relation_bandit",
+  "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml",
+  "graph_sha256": "af90465ec3a6b7a324a6c5d72d8c5ed214013f3f66f7c85ea935c11f680b26c1",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "community_relation.bad_relation_bandit"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 7,
+  "entries": [
+    {
+      "key": "stable_dialogs_darkvalley:trader_relation_bandit_1#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 4,
+      "string_id": "trader_relation_bandit_1",
+      "occurrence": 1,
+      "EN": "Listen, I got into some kinda misunderstanding with the \"family\", and they've been gunning for me. I don't want to keep clashing with them. Can you fix things up for me?",
+      "JA_current": "Listen, I got into some kinda misunderstanding with the \"family\", and they've been gunning for me. I don't want to keep clashing with them. Can you fix things up for me?",
+      "JA_new": "なあ、「身内」とちょっと揉めちまってな。向こうは俺を狙ってる。これ以上やり合いたくないんだ。何とかしてくれないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trader_relation_bandit",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:trader_relation_bandit_2#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 7,
+      "string_id": "trader_relation_bandit_2",
+      "occurrence": 1,
+      "EN": "Yeah, the lads ain't feeling good about you. They bitch about you here and there that you've been acting up recently. I can shut these stool pigeons up for ya, 10 large and the boys won't be a pain in the ass anymore.",
+      "JA_current": "Yeah, the lads ain't feeling good about you. They bitch about you here and there that you've been acting up recently. I can shut these stool pigeons up for ya, 10 large and the boys won't be a pain in the ass anymore.",
+      "JA_new": "ああ、連中はお前のことを快く思ってない。最近調子に乗ってるって、あちこちで文句を言ってるよ。チクリ屋どもを黙らせてやる。1万ルーブルだ。払えば連中も手出ししてこない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trader_relation_bandit",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:trader_relation_bandit_3#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 10,
+      "string_id": "trader_relation_bandit_3",
+      "occurrence": 1,
+      "EN": "Ya've really shook them up, man, they're fixing to slice you open and hang you with your own guts! The mess can be fixed up though, we pay the right people and make things right! Gimme 30 large and I'll act on your behalf. ",
+      "JA_current": "Ya've really shook them up, man, they're fixing to slice you open and hang you with your own guts! The mess can be fixed up though, we pay the right people and make things right! Gimme 30 large and I'll act on your behalf. ",
+      "JA_new": "相当怒らせたな。腹を裂いて、自分の腸で吊るし上げてやるって息巻いてるよ！だが、金を払う相手に払えば話はつけられる。3万ルーブル出しな。俺が代わりに動いてやる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trader_relation_bandit",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:trader_relation_bandit_4#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 13,
+      "string_id": "trader_relation_bandit_4",
+      "occurrence": 1,
+      "EN": "Every major gang in the Zone is gunning for you right now! The \"family\" is pissed off and they're offering a lot of money to have you brought back to them, dead or alive. If ya don't wanna get blown up next time you're strolling around the place, ya'll have to cough up some serious cash - 50 G's!",
+      "JA_current": "Every major gang in the Zone is gunning for you right now! The \"family\" is pissed off and they're offering a lot of money to have you brought back to them, dead or alive. If ya don't wanna get blown up next time you're strolling around the place, ya'll have to cough up some serious cash - 50 G's!",
+      "JA_new": "今じゃゾーン中の大物ギャングがお前を狙ってる。「身内」もカンカンで、生死を問わず連れ戻せば大金を出すと言ってる。次に歩き回った時、吹き飛ばされたくなければ、相当払ってもらうぞ。5万ルーブルだ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trader_relation_bandit",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:trader_relation_bandit_7#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 22,
+      "string_id": "trader_relation_bandit_7",
+      "occurrence": 1,
+      "EN": "Well, Good conquers Evil once more! So does the cash, he-he... Here it is.",
+      "JA_current": "Well, Good conquers Evil once more! So does the cash, he-he... Here it is.",
+      "JA_new": "また正義が悪に勝ったな！まあ、金の力もってやつさ。へへ……ほらよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trader_relation_bandit",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        },
+        {
+          "dialog_id": "trader_relation_bandit",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:trader_relation_bandit_6#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 19,
+      "string_id": "trader_relation_bandit_6",
+      "occurrence": 1,
+      "EN": "The game ain't worth that much. To hell with these freaks.",
+      "JA_current": "The game ain't worth that much. To hell with these freaks.",
+      "JA_new": "割に合わねえ。あんな連中に付き合ってられるか。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trader_relation_bandit",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:trader_relation_bandit_5#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 16,
+      "string_id": "trader_relation_bandit_5",
+      "occurrence": 1,
+      "EN": "No more chewing the fat. Here's the money.",
+      "JA_current": "No more chewing the fat. Here's the money.",
+      "JA_new": "もう話はいい。ほら、金だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trader_relation_bandit",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "trader_relation_bandit_1",
+      "next": [
+        "1",
+        "2",
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Listen, I got into some kinda misunderstanding with the \"family\", and they've been gunning for me. I don't want to keep clashing with them. Can you fix things up for me?",
+      "JA_current": "Listen, I got into some kinda misunderstanding with the \"family\", and they've been gunning for me. I don't want to keep clashing with them. Can you fix things up for me?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:trader_relation_bandit_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "trader_relation_bandit_2",
+      "next": [
+        "4",
+        "7"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.bad_relation_bandit_10000"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Yeah, the lads ain't feeling good about you. They bitch about you here and there that you've been acting up recently. I can shut these stool pigeons up for ya, 10 large and the boys won't be a pain in the ass anymore.",
+      "JA_current": "Yeah, the lads ain't feeling good about you. They bitch about you here and there that you've been acting up recently. I can shut these stool pigeons up for ya, 10 large and the boys won't be a pain in the ass anymore.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:trader_relation_bandit_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "trader_relation_bandit_3",
+      "next": [
+        "5",
+        "7"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.bad_relation_bandit_30000"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Ya've really shook them up, man, they're fixing to slice you open and hang you with your own guts! The mess can be fixed up though, we pay the right people and make things right! Gimme 30 large and I'll act on your behalf. ",
+      "JA_current": "Ya've really shook them up, man, they're fixing to slice you open and hang you with your own guts! The mess can be fixed up though, we pay the right people and make things right! Gimme 30 large and I'll act on your behalf. ",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:trader_relation_bandit_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "trader_relation_bandit_4",
+      "next": [
+        "6",
+        "7"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.bad_relation_bandit_50000"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Every major gang in the Zone is gunning for you right now! The \"family\" is pissed off and they're offering a lot of money to have you brought back to them, dead or alive. If ya don't wanna get blown up next time you're strolling around the place, ya'll have to cough up some serious cash - 50 G's!",
+      "JA_current": "Every major gang in the Zone is gunning for you right now! The \"family\" is pissed off and they're offering a lot of money to have you brought back to them, dead or alive. If ya don't wanna get blown up next time you're strolling around the place, ya'll have to cough up some serious cash - 50 G's!",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:trader_relation_bandit_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "trader_relation_bandit_7",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.has_10000"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "community_relation.relocate_10000"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.repair_relation_bandit"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Well, Good conquers Evil once more! So does the cash, he-he... Here it is.",
+      "JA_current": "Well, Good conquers Evil once more! So does the cash, he-he... Here it is.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:trader_relation_bandit_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "trader_relation_bandit_6",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1",
+        "2",
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "The game ain't worth that much. To hell with these freaks.",
+      "JA_current": "The game ain't worth that much. To hell with these freaks.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:trader_relation_bandit_6#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "trader_relation_bandit_7",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.has_30000"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "community_relation.relocate_30000"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.repair_relation_bandit"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Well, Good conquers Evil once more! So does the cash, he-he... Here it is.",
+      "JA_current": "Well, Good conquers Evil once more! So does the cash, he-he... Here it is.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:trader_relation_bandit_7#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "trader_relation_bandit_5",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.has_50000"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "community_relation.relocate_50000"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.repair_relation_bandit"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No more chewing the fat. Here's the money.",
+      "JA_current": "No more chewing the fat. Here's the money.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:trader_relation_bandit_5#1"
+      ]
+    }
+  ]
+}

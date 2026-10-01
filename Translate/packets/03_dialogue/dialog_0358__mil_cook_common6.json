@@ -1,0 +1,209 @@
+{
+  "packet_id": "dialog_0358__mil_cook_common6",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "mil_cook_common6",
+  "graph_source": "gamedata/config/gameplay/dialogs_military.xml",
+  "graph_sha256": "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+  "character_bindings": [
+    {
+      "profile_id": "mil_Svoboda_cook",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_military.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "dialogs.dialog_allowed"
+    },
+    {
+      "type": "has_info",
+      "value": "mil_freedom_cook_rg6_4"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "mil_cook_dialog6"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 4,
+  "entries": [
+    {
+      "key": "stable_dialogs_military:mil_cook_common6_0#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 248,
+      "string_id": "mil_cook_common6_0",
+      "occurrence": 1,
+      "EN": "OK. Take care.",
+      "JA_current": "オーケー。気をつけな。",
+      "JA_new": "分かった。じゃあな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common6",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common6_601#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 251,
+      "string_id": "mil_cook_common6_601",
+      "occurrence": 1,
+      "EN": "Sure... sit down though, you're already here.",
+      "JA_current": "ああ… だが座れ、ここにいろ。",
+      "JA_new": "そうか……まあ、来たついでに座ってけよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common6",
+          "phrase_id": "601",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common6_602#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 254,
+      "string_id": "mil_cook_common6_602",
+      "occurrence": 1,
+      "EN": "I'm leaving.",
+      "JA_current": "もう行くぜ。",
+      "JA_new": "じゃあ、帰る。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common6",
+          "phrase_id": "602",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common6_603#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 257,
+      "string_id": "mil_cook_common6_603",
+      "occurrence": 1,
+      "EN": "Eh? Sure thing... relax... OK? Close the door behind me, I'm leaving... ta-da-da-da...",
+      "JA_current": "あ？ いいから… リラックスしろって… 分かったか？ 後ろのドアを閉めろよ、じゃないと俺は死ぬうう、た、だ、だ、だ…。",
+      "JA_new": "え？いいよ……ゆっくりしてけ……俺は帰るから、後ろのドアを閉めてくれ……タラララ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common6",
+          "phrase_id": "603",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "mil_cook_common6_0",
+      "next": [
+        "601"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "OK. Take care.",
+      "JA_current": "オーケー。気をつけな。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common6_0#1"
+      ]
+    },
+    {
+      "phrase_id": "601",
+      "text_id": "mil_cook_common6_601",
+      "next": [
+        "602"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sure... sit down though, you're already here.",
+      "JA_current": "ああ… だが座れ、ここにいろ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common6_601#1"
+      ]
+    },
+    {
+      "phrase_id": "602",
+      "text_id": "mil_cook_common6_602",
+      "next": [
+        "603"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "mil_cook_dialog6"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "601"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm leaving.",
+      "JA_current": "もう行くぜ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common6_602#1"
+      ]
+    },
+    {
+      "phrase_id": "603",
+      "text_id": "mil_cook_common6_603",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "602"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Eh? Sure thing... relax... OK? Close the door behind me, I'm leaving... ta-da-da-da...",
+      "JA_current": "あ？ いいから… リラックスしろって… 分かったか？ 後ろのドアを閉めろよ、じゃないと俺は死ぬうう、た、だ、だ、だ…。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common6_603#1"
+      ]
+    }
+  ]
+}

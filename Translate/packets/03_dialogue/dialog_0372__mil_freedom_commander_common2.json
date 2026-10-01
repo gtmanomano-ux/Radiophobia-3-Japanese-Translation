@@ -1,0 +1,355 @@
+{
+  "packet_id": "dialog_0372__mil_freedom_commander_common2",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "mil_freedom_commander_common2",
+  "graph_source": "gamedata/config/gameplay/dialogs_military.xml",
+  "graph_sha256": "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+  "character_bindings": [
+    {
+      "profile_id": "mil_Svoboda_blockpost_leader",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_military.xml"
+    }
+  ],
+  "dialog_conditions": [],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 8,
+  "entries": [
+    {
+      "key": "stable_dialogs_military:mil_freedom_commander_common2_0#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 623,
+      "string_id": "mil_freedom_commander_common2_0",
+      "occurrence": 1,
+      "EN": "What's this place?",
+      "JA_current": "ここは何なんだい？",
+      "JA_new": "ここは何なんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_freedom_commander_common2",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_freedom_commander_common2_1#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 626,
+      "string_id": "mil_freedom_commander_common2_1",
+      "occurrence": 1,
+      "EN": "We call it the Barrier... that's what it basically is. It's about the last normal outpost this side of the Zone's center. It's a sort of buffer, you know, between the people and the final frontier.",
+      "JA_current": "ここを防壁と呼んでいるよ… 確かに元々そうなんだがな。ゾーン中心の傍にあるたった1つのまともな基地なんだよ。まぁ、言わずもがな、人が生活している所と荒れ果てた地域との干渉地帯だな。",
+      "JA_new": "ここはバリアって呼ばれてる。名前の通りさ。ゾーンの中心部へ向かうこの側では、最後のまともな前哨基地だ。人々と最後の未開地を隔てる緩衝地帯ってところだな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_freedom_commander_common2",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_freedom_commander_common2_2#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 629,
+      "string_id": "mil_freedom_commander_common2_2",
+      "occurrence": 1,
+      "EN": "What is there beyond it?",
+      "JA_current": "向こうには何があるんだ？",
+      "JA_new": "この先には何がある？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_freedom_commander_common2",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_freedom_commander_common2_3#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 632,
+      "string_id": "mil_freedom_commander_common2_3",
+      "occurrence": 1,
+      "EN": "Only death... or serving Monolith. \"Our Monolith! In your name we...\" Damn! \\nIn short, no one can go in there, but plenty of filth crawls out of there. That's why we're based here, trying to prevent the muck from infesting the Zone. Like some kind of Jedis, hehe. We also detain the really stupid ones - or at least try not to let them creep too close to the scorcher.",
+      "JA_current": "Only death... or serving Monolith. \"Our Monolith! In your name we...\" Damn! \\nIn short, no one can go in there, but plenty of filth crawls out of there. That's why we're based here, trying to prevent the muck from infesting the Zone. Like some kind of Jedis, hehe. We also detain the really stupid ones - or at least try not to let them creep too close to the scorcher.",
+      "JA_new": "死か、モノリスに仕えるかだ……「我らがモノリスよ！御名において……」\\nくそっ！要するに、誰も中へは行けない。だが、汚らわしい連中がいくらでも這い出してくる。そいつらがゾーン中に広がらないよう、俺たちはここにいる。ジェダイみたいなもんさ、へへ。あまりに馬鹿な奴らは捕まえる。少なくとも、ブレイン・スコーチャーに近づけないようにしてる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_freedom_commander_common2",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_freedom_commander_common2_4#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 635,
+      "string_id": "mil_freedom_commander_common2_4",
+      "occurrence": 1,
+      "EN": "Why do you do that?",
+      "JA_current": "なんでそんなことを？",
+      "JA_new": "どうしてそんなことを？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_freedom_commander_common2",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_freedom_commander_common2_5#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 638,
+      "string_id": "mil_freedom_commander_common2_5",
+      "occurrence": 1,
+      "EN": "Who else but us? Duty? They are the shit when it comes to eradicating monsters and eliminating unwanted stalkers, but you should try some time to make them actually do something useful! Do you see them here? No? That's what I mean. We, on the other hand, do not aim to destroy the creatures that live here. A barrier, a normal barrier - that should be enough. As long as no side crosses the line...",
+      "JA_current": "俺らがしなきゃ誰がするんだ？ Duty か？ 奴らは、モンスターを絶滅させたり厄介もののストーカーをぶっ殺すこととなったら、すげえもんさ。だがな、奴らが本当になんかの役に立っているかちょっと考えてみろよ。ここに奴らがいるかい？ いねえだろ。そういうこった。奴らと違って、俺らはここに住んでるクリーチャーをやっつけようなんて事はしない。単なる防壁なんだ。それで十分さ。どっちかが境界線を越さない限りはな…。",
+      "JA_new": "俺たち以外に誰がやる？デューティーは怪物退治と、厄介なストーカーの排除だけは得意だ。だが、奴らに役立つことをさせようとしたら大変だぞ！ここに奴らがいるか？いないだろ？そういうことさ。俺たちは、ここに住む生き物を滅ぼそうとは思ってない。境界を守ればいい。それぞれが一線を越えないかぎりな……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_freedom_commander_common2",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_freedom_commander_common2_6#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 641,
+      "string_id": "mil_freedom_commander_common2_6",
+      "occurrence": 1,
+      "EN": "And what if someone does?",
+      "JA_current": "もし誰かが境界線を越したら？",
+      "JA_new": "もし、誰かが越えたら？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_freedom_commander_common2",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_freedom_commander_common2_7#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 644,
+      "string_id": "mil_freedom_commander_common2_7",
+      "occurrence": 1,
+      "EN": "Anything can happen. Anything. I don't want to...",
+      "JA_current": "何かが起こるだろうさ、何かが。オレは望まんが…。",
+      "JA_new": "何だって起こる。何でもだ。俺は……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_freedom_commander_common2",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "mil_freedom_commander_common2_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What's this place?",
+      "JA_current": "ここは何なんだい？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_freedom_commander_common2_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "mil_freedom_commander_common2_1",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "We call it the Barrier... that's what it basically is. It's about the last normal outpost this side of the Zone's center. It's a sort of buffer, you know, between the people and the final frontier.",
+      "JA_current": "ここを防壁と呼んでいるよ… 確かに元々そうなんだがな。ゾーン中心の傍にあるたった1つのまともな基地なんだよ。まぁ、言わずもがな、人が生活している所と荒れ果てた地域との干渉地帯だな。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_freedom_commander_common2_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "mil_freedom_commander_common2_2",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What is there beyond it?",
+      "JA_current": "向こうには何があるんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_freedom_commander_common2_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "mil_freedom_commander_common2_3",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Only death... or serving Monolith. \"Our Monolith! In your name we...\" Damn! \\nIn short, no one can go in there, but plenty of filth crawls out of there. That's why we're based here, trying to prevent the muck from infesting the Zone. Like some kind of Jedis, hehe. We also detain the really stupid ones - or at least try not to let them creep too close to the scorcher.",
+      "JA_current": "Only death... or serving Monolith. \"Our Monolith! In your name we...\" Damn! \\nIn short, no one can go in there, but plenty of filth crawls out of there. That's why we're based here, trying to prevent the muck from infesting the Zone. Like some kind of Jedis, hehe. We also detain the really stupid ones - or at least try not to let them creep too close to the scorcher.",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_freedom_commander_common2_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "mil_freedom_commander_common2_4",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Why do you do that?",
+      "JA_current": "なんでそんなことを？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_freedom_commander_common2_4#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "mil_freedom_commander_common2_5",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Who else but us? Duty? They are the shit when it comes to eradicating monsters and eliminating unwanted stalkers, but you should try some time to make them actually do something useful! Do you see them here? No? That's what I mean. We, on the other hand, do not aim to destroy the creatures that live here. A barrier, a normal barrier - that should be enough. As long as no side crosses the line...",
+      "JA_current": "俺らがしなきゃ誰がするんだ？ Duty か？ 奴らは、モンスターを絶滅させたり厄介もののストーカーをぶっ殺すこととなったら、すげえもんさ。だがな、奴らが本当になんかの役に立っているかちょっと考えてみろよ。ここに奴らがいるかい？ いねえだろ。そういうこった。奴らと違って、俺らはここに住んでるクリーチャーをやっつけようなんて事はしない。単なる防壁なんだ。それで十分さ。どっちかが境界線を越さない限りはな…。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_freedom_commander_common2_5#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "mil_freedom_commander_common2_6",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "And what if someone does?",
+      "JA_current": "もし誰かが境界線を越したら？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_freedom_commander_common2_6#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "mil_freedom_commander_common2_7",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Anything can happen. Anything. I don't want to...",
+      "JA_current": "何かが起こるだろうさ、何かが。オレは望まんが…。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_freedom_commander_common2_7#1"
+      ]
+    }
+  ]
+}

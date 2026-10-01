@@ -1,0 +1,2757 @@
+{
+  "packet_id": "dialog_0126__bar_bar_barmen_jobs",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_bar_barmen_jobs",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "agroprom_military_case_done"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "bar_kill_veteran_start"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "bar_kill_svoboda_ambush_start"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 57,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_0#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 449,
+      "string_id": "bar_bar_barmen_jobs_0",
+      "occurrence": 1,
+      "EN": "You got any special jobs?",
+      "JA_current": "特別な任務はあるか？",
+      "JA_new": "何か特別な仕事はないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_311#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 524,
+      "string_id": "bar_bar_barmen_jobs_311",
+      "occurrence": 1,
+      "EN": "No, nothing today.",
+      "JA_current": "いいや、今日は何もないな。",
+      "JA_new": "今日はないな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "311",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_321#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 527,
+      "string_id": "bar_bar_barmen_jobs_321",
+      "occurrence": 1,
+      "EN": "I've got a serious mission. A group of veteran killers has showed up in the Wild Territory again. Some Duty people came to me and asked me to deal with these veterans. Duty has solid proof that they are responsible for the deaths of solo stalkers. The problem is that these veterans and Duty have some old agreement and Duty can't break it but these guys are really pushing it. Basically, Duty wants 'em taken out, nice and quiet. It ain't gonna be easy but the job is worth a lot of dough.",
+      "JA_current": "重大な任務を持ってきた。Wild Territory に、ベテランの殺し屋どもが再び現れた。幾人か Duty が俺の元に来て、奴等ベテランを何とかするよう、俺に頼んだ奴がいる。Duty は、単独行動のストーカーの死は、奴等の仕業であるという揺るぎない証拠を持っている。問題は、奴等ベテランと Duty の間に古い協定があり、Duty は協定を破ることが出来ないが、奴等はそうではない。つまり基本的に、Duty としてはヤツらを排除するのを、隠密かつ鮮やかにやり遂げて欲しいのだ。これは簡単にはいかない仕事だが、報酬ははずもう。",
+      "JA_new": "厄介な仕事がある。殺しの手練れどもが、また荒廃領域に現れた。デューティーの連中から、そいつらを始末してくれと頼まれてな。単独行動のストーカーを殺した確かな証拠もある。問題は、そのベテランどもとデューティーには昔からの取り決めがあって、デューティー側は破れないことだ。だが連中は一線を越えた。要するに、デューティーは内密に始末してほしいんだ。簡単な仕事じゃないが、報酬は弾むぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "321",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_331#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 551,
+      "string_id": "bar_bar_barmen_jobs_331",
+      "occurrence": 1,
+      "EN": "Your mission is to kill Tyran, the leader of a Merc group. His crew made it into the Wild Territory and set up a base at the construction site. Be careful, some of their fighters have set up ambushes on the way to the site. Bring me Tyran's PDA and the reward is yours.",
+      "JA_current": "お前の任務は Mercs の親玉、Tyran を殺すことだ。彼の部下は Wild Territory に進入し、建築現場に基地を構えた。用心しろ、連中の戦士の幾人かが、途中で待ち伏せしている。Tyran の PDA を持ち帰れ。そうすれば報酬はお前の物だ。",
+      "JA_new": "マーセナリーズの一団を率いるタイランを始末しろ。部隊は荒廃領域に入り、建設現場を基地にした。現場へ向かう道には待ち伏せもある。気をつけろ。タイランのPDAを持ち帰れば報酬を払う。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "331",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_341#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 566,
+      "string_id": "bar_bar_barmen_jobs_341",
+      "occurrence": 1,
+      "EN": "No, nothing today.",
+      "JA_current": "いや、今日は何もない。",
+      "JA_new": "今日はないな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "341",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_351#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 569,
+      "string_id": "bar_bar_barmen_jobs_351",
+      "occurrence": 1,
+      "EN": "No, nothing today.",
+      "JA_current": "いや、今日は何もない。",
+      "JA_new": "今日はないな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "351",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_361#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 572,
+      "string_id": "bar_bar_barmen_jobs_361",
+      "occurrence": 1,
+      "EN": "No, nothing today.",
+      "JA_current": "いや、今日は何もない。",
+      "JA_new": "今日はないな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "361",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_3211#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 530,
+      "string_id": "bar_bar_barmen_jobs_3211",
+      "occurrence": 1,
+      "EN": "Anything else?",
+      "JA_current": "他には？",
+      "JA_new": "ほかにもあるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "3211",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_3312#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 554,
+      "string_id": "bar_bar_barmen_jobs_3312",
+      "occurrence": 1,
+      "EN": "I'll do it.",
+      "JA_current": "やってみよう。",
+      "JA_new": "やってみる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "3312",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_3313#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 560,
+      "string_id": "bar_bar_barmen_jobs_3313",
+      "occurrence": 1,
+      "EN": "No, I'm not up for it.",
+      "JA_current": "いいや、気分が乗らないな。",
+      "JA_new": "いや、気が進まない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "3313",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_32111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 533,
+      "string_id": "bar_bar_barmen_jobs_32111",
+      "occurrence": 1,
+      "EN": "Duty values its reputation, which is why they need this thing done quietly. All you gotta do is kill their leader Lucky and bring me his PDA as proof.",
+      "JA_current": "Duty は、世間の評判を気にしているからな。これが隠密に事を運ぶべき理由だ。お前がやることは、奴等のリーダー Lucky を殺し、証拠に奴の PDA を持ってくることだ。",
+      "JA_new": "デューティーは評判を大事にする。だから、この件は内密に済ませたいんだ。リーダーのラッキーを始末して、証拠にPDAを持ってこい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "32111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_33121#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 557,
+      "string_id": "bar_bar_barmen_jobs_33121",
+      "occurrence": 1,
+      "EN": "Good decision, man.",
+      "JA_current": "良い決断だ。後悔する要素は何もないぞ。",
+      "JA_new": "いい判断だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "33121",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_33131#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 563,
+      "string_id": "bar_bar_barmen_jobs_33131",
+      "occurrence": 1,
+      "EN": "As you wish.",
+      "JA_current": "お望みどおりに。",
+      "JA_new": "好きにしな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "33131",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_32112#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 536,
+      "string_id": "bar_bar_barmen_jobs_32112",
+      "occurrence": 1,
+      "EN": "I'll do it.",
+      "JA_current": "やってみよう。",
+      "JA_new": "やってみる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "32112",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_32113#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 542,
+      "string_id": "bar_bar_barmen_jobs_32113",
+      "occurrence": 1,
+      "EN": "No, I'm not up for it.",
+      "JA_current": "いいや、気分が乗らないな。",
+      "JA_new": "いや、気が進まない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "32113",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_321121#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 539,
+      "string_id": "bar_bar_barmen_jobs_321121",
+      "occurrence": 1,
+      "EN": "Good decision, man. Go for it.",
+      "JA_current": "良い決断だ。後悔する要素は何もないぞ。",
+      "JA_new": "いい判断だ。やってこい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "321121",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_321131#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 545,
+      "string_id": "bar_bar_barmen_jobs_321131",
+      "occurrence": 1,
+      "EN": "Up to you but remember that this is a good opportunity to earn Duty's gratitude.",
+      "JA_current": "お前次第だが、これが Duty への点数稼ぎの良いチャンスだってことを忘れるなよ。",
+      "JA_new": "お前次第だ。だが、デューティーに恩を売るいい機会だぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "321131",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_41#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 578,
+      "string_id": "bar_bar_barmen_jobs_41",
+      "occurrence": 1,
+      "EN": "Not yet, next time.",
+      "JA_current": "Not yet, next time.",
+      "JA_new": "まだだ。また今度にする。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "41",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_26111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 509,
+      "string_id": "bar_bar_barmen_jobs_26111",
+      "occurrence": 1,
+      "EN": "Excellent! Wish I could see the looks on their faces when you waste their boss.",
+      "JA_current": "良い決断だ。後悔する要素は何もないぞ。",
+      "JA_new": "いいぞ！ ボスを始末した時の連中の顔を見てみたいもんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "26111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_26121#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 515,
+      "string_id": "bar_bar_barmen_jobs_26121",
+      "occurrence": 1,
+      "EN": "As you wish.",
+      "JA_current": "お望みどおりに。",
+      "JA_new": "好きにしな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "26121",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_261#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 503,
+      "string_id": "bar_bar_barmen_jobs_261",
+      "occurrence": 1,
+      "EN": "Your mission is to kill Tyran, the leader of a Merc group. His crew made it into the Wild Territory and set up a base at the construction site. Be careful, some of their fighters have set up ambushes on the way to the site. Bring me Tyran's PDA and the reward is yours.",
+      "JA_current": "お前の任務は Mercs の親玉、Tyran を殺すことだ。彼の部下は Wild Territory に進入し、建築現場に基地を構えた。用心しろ、連中の戦士の幾人かが、途中で待ち伏せしている。Tyran の PDA を持ち帰れ。そうすれば報酬はお前の物だ。",
+      "JA_new": "マーセナリーズの一団を率いるタイランを始末しろ。部隊は荒廃領域に入り、建設現場を基地にした。現場へ向かう道には待ち伏せもある。気をつけろ。タイランのPDAを持ち帰れば報酬を払う。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "261",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_2611#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 506,
+      "string_id": "bar_bar_barmen_jobs_2611",
+      "occurrence": 1,
+      "EN": "I'll do it. It'll be fun to teach the mercs some respect.",
+      "JA_current": "やってみよう。後悔しちまうような事にならなきゃいいがな。",
+      "JA_new": "やってみる。マーセナリーズに身の程を教えてやるのも面白そうだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "2611",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_2612#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 512,
+      "string_id": "bar_bar_barmen_jobs_2612",
+      "occurrence": 1,
+      "EN": "No, I'm not up for it.",
+      "JA_current": "いいや、気分が乗らないな。",
+      "JA_new": "いや、気が進まない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "2612",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_62#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 614,
+      "string_id": "bar_bar_barmen_jobs_62",
+      "occurrence": 1,
+      "EN": "No, I don't have anything today.",
+      "JA_current": "いや、今日は何もないな。",
+      "JA_new": "今日は何もない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "62",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_72#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 617,
+      "string_id": "bar_bar_barmen_jobs_72",
+      "occurrence": 1,
+      "EN": "No, I don't have anything today.",
+      "JA_current": "いや、今日は何もないな。",
+      "JA_new": "今日は何もない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "72",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_441#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 581,
+      "string_id": "bar_bar_barmen_jobs_441",
+      "occurrence": 1,
+      "EN": "I got a job for a pro.",
+      "JA_current": "プロに受けてもらいたい仕事があるんだがな。",
+      "JA_new": "腕利き向けの仕事がある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "441",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_444#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 602,
+      "string_id": "bar_bar_barmen_jobs_444",
+      "occurrence": 1,
+      "EN": "No, not interested right now.",
+      "JA_current": "いや、今は興味がないな。",
+      "JA_new": "今は興味ない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "444",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_442#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 584,
+      "string_id": "bar_bar_barmen_jobs_442",
+      "occurrence": 1,
+      "EN": "Cut to the chase. What do I gotta do?",
+      "JA_current": "本題に入ってくれ。俺は何をすればいい？",
+      "JA_new": "要点だけ言ってくれ。何をすればいい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "442",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_443#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 587,
+      "string_id": "bar_bar_barmen_jobs_443",
+      "occurrence": 1,
+      "EN": "Your mission is to kill Tyran, the leader of a Merc group. His crew made it into the Wild Territory and set up a base at the construction site. Be careful, some of their fighters have set up ambushes on the way to the site. Bring me Tyran's PDA and the reward is yours.",
+      "JA_current": "お前の任務は Mercs の親玉、Tyran を殺すことだ。彼の部下は Wild Territory に進入し、建築現場に基地を構えた。用心しろ、連中の戦士の幾人かが、途中で待ち伏せしている。Tyran の PDA を持ち帰れ。そうすれば報酬はお前の物だ。",
+      "JA_new": "マーセナリーズの一団を率いるタイランを始末しろ。部隊は荒廃領域に入り、建設現場を基地にした。現場へ向かう道には待ち伏せもある。気をつけろ。タイランのPDAを持ち帰れば報酬を払う。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "443",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_4432#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 596,
+      "string_id": "bar_bar_barmen_jobs_4432",
+      "occurrence": 1,
+      "EN": "No, I'm not up for it.",
+      "JA_current": "いいや、気分が乗らないな。",
+      "JA_new": "いや、気が進まない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "4432",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_44321#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 599,
+      "string_id": "bar_bar_barmen_jobs_44321",
+      "occurrence": 1,
+      "EN": "As you wish.",
+      "JA_current": "思うがままに。",
+      "JA_new": "好きにしな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "44321",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_44311#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 593,
+      "string_id": "bar_bar_barmen_jobs_44311",
+      "occurrence": 1,
+      "EN": "Excellent! Wish I could see the looks on their faces when you waste their leader.",
+      "JA_current": "良い決断だ。後悔する要素は何もないぞ。",
+      "JA_new": "いいぞ！ リーダーを始末した時の連中の顔を見てみたいもんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "44311",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_4431#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 590,
+      "string_id": "bar_bar_barmen_jobs_4431",
+      "occurrence": 1,
+      "EN": "I'll do it. It'll be nice to teach the mercs some respect.",
+      "JA_current": "やってみよう。後悔しちまうような事にならなきゃいいがな。",
+      "JA_new": "やってみる。マーセナリーズに身の程を教えてやるのも悪くない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "4431",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_531#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 608,
+      "string_id": "bar_bar_barmen_jobs_531",
+      "occurrence": 1,
+      "EN": "No, I don't have anything today.",
+      "JA_current": "いや、今日は何もないな。",
+      "JA_new": "今日は何もない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "531",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_52#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 605,
+      "string_id": "bar_bar_barmen_jobs_52",
+      "occurrence": 1,
+      "EN": "No, I don't have anything today.",
+      "JA_current": "いや、今日は何もないな。",
+      "JA_new": "今日は何もない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "52",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_251#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 500,
+      "string_id": "bar_bar_barmen_jobs_251",
+      "occurrence": 1,
+      "EN": "No, I ain't got anything today.",
+      "JA_current": "いいや、今日は何もないな。",
+      "JA_new": "今日は何もないな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "251",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_32121#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 548,
+      "string_id": "bar_bar_barmen_jobs_32121",
+      "occurrence": 1,
+      "EN": "default text",
+      "JA_current": "default text",
+      "JA_new": "標準の文言",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "32121",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_541#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 611,
+      "string_id": "bar_bar_barmen_jobs_541",
+      "occurrence": 1,
+      "EN": "No, I don't have anything today.",
+      "JA_current": "いや、今日は何もないな。",
+      "JA_new": "今日は何もない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "541",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_266#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 518,
+      "string_id": "bar_bar_barmen_jobs_266",
+      "occurrence": 1,
+      "EN": "No, I ain't got anything today.",
+      "JA_current": "いいや、今日は何もないな。",
+      "JA_new": "今日は何もないな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "266",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_221#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 458,
+      "string_id": "bar_bar_barmen_jobs_221",
+      "occurrence": 1,
+      "EN": "No, I ain't got nothing today.",
+      "JA_current": "いいや、今日は何もないぞ。",
+      "JA_new": "今日は何もないな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "221",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_23111121#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 479,
+      "string_id": "bar_bar_barmen_jobs_23111121",
+      "occurrence": 1,
+      "EN": "Up to you but remember that this is a good opportunity to earn Duty's gratitude.",
+      "JA_current": "お前次第だが、これが Duty への点数稼ぎの良いチャンスだってことを忘れるなよ。",
+      "JA_new": "お前次第だ。だが、デューティーに恩を売るいい機会だぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "23111121",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_2311112#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 476,
+      "string_id": "bar_bar_barmen_jobs_2311112",
+      "occurrence": 1,
+      "EN": "No, I'm not up for it.",
+      "JA_current": "いいや、気分が乗らないな。",
+      "JA_new": "いや、気が進まない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "2311112",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_23111111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 473,
+      "string_id": "bar_bar_barmen_jobs_23111111",
+      "occurrence": 1,
+      "EN": "Good decision, man. There ain't nothing to regret about this one.",
+      "JA_current": "良い決断だ。後悔する要素は何もないぞ。",
+      "JA_new": "いい判断だ。後悔するような仕事じゃないぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "23111111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_2311111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 470,
+      "string_id": "bar_bar_barmen_jobs_2311111",
+      "occurrence": 1,
+      "EN": "I'll do it. I hope I don't regret taking this on though.",
+      "JA_current": "やってみよう。後悔しちまうような事にならなきゃいいがな。",
+      "JA_new": "やってみる。引き受けて後悔しないといいが。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "2311111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_231111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 467,
+      "string_id": "bar_bar_barmen_jobs_231111",
+      "occurrence": 1,
+      "EN": "Duty values its reputation, which is why they need this thing done quietly. All you gotta do is kill their leader Lucky and bring me his PDA as proof.",
+      "JA_current": "Duty は、世間の評判を気にしているからな。これが隠密に事を運ぶべき理由だ。お前がやることは、奴等のリーダー Lucky を殺し、証拠に奴の PDA を持ってくることだ。",
+      "JA_new": "デューティーは評判を大事にする。だから、この件は内密に済ませたいんだ。リーダーのラッキーを始末して、証拠にPDAを持ってこい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "231111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_23111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 464,
+      "string_id": "bar_bar_barmen_jobs_23111",
+      "occurrence": 1,
+      "EN": "Anything else? Seems strange that Duty is letting them get away with it.",
+      "JA_current": "他には？ Duty 自身でそれをやらないのは奇妙だな。",
+      "JA_new": "ほかにもあるか？ デューティーが連中を放っておくなんて妙だな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "23111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_2311#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 461,
+      "string_id": "bar_bar_barmen_jobs_2311",
+      "occurrence": 1,
+      "EN": "I've got a serious mission. A group of veteran killers has showed up in the Wild Territory again. Some Duty people came to me and asked me to deal with these veterans. Duty has solid proof that they are responsible for the deaths of solo stalkers. The problem is that these veterans and Duty have some old agreement and Duty can't break it but these guys are really pushing it. Basically, Duty wants 'em taken out, nice and quiet. It ain't gonna be easy but the job is worth a lot of dough.",
+      "JA_current": "重大な任務を持ってきた。Wild Territory に、ベテランの殺し屋どもが再び現れた。幾人か Duty が俺の元に来て、奴等ベテランを何とかするよう、俺に頼んだ奴がいる。Duty は、単独行動のストーカーの死は、奴等の仕業であるという揺るぎない証拠を持っている。問題は、奴等ベテランと Duty の間に古い協定があり、Duty は協定を破ることが出来ないが、奴等はそうではない。つまり基本的に、Duty としてはヤツらを排除するのを、隠密かつ鮮やかにやり遂げて欲しいのだ。これは簡単にはいかない仕事だが、報酬ははずもう。",
+      "JA_new": "厄介な仕事がある。殺しの手練れどもが、また荒廃領域に現れた。デューティーの連中から、そいつらを始末してくれと頼まれてな。単独行動のストーカーを殺した確かな証拠もある。問題は、そのベテランどもとデューティーには昔からの取り決めがあって、デューティー側は破れないことだ。だが連中は一線を越えた。要するに、デューティーは内密に始末してほしいんだ。簡単な仕事じゃないが、報酬は弾むぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "2311",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 452,
+      "string_id": "bar_bar_barmen_jobs_111",
+      "occurrence": 1,
+      "EN": "No, I ain't got nothing today.",
+      "JA_current": "いいや、今日は何もないぞ。",
+      "JA_new": "今日は何もないな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_2412#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 494,
+      "string_id": "bar_bar_barmen_jobs_2412",
+      "occurrence": 1,
+      "EN": "No, I'm not up for it.",
+      "JA_current": "いいや、気分が乗らないな。",
+      "JA_new": "いや、気が進まない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "2412",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_24121#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 497,
+      "string_id": "bar_bar_barmen_jobs_24121",
+      "occurrence": 1,
+      "EN": "As you wish.",
+      "JA_current": "お望みどおりに。",
+      "JA_new": "好きにしな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "24121",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_21#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 455,
+      "string_id": "bar_bar_barmen_jobs_21",
+      "occurrence": 1,
+      "EN": "Cut to the chase. What do I have to do?",
+      "JA_current": "単刀直入に頼む、俺はどうすればいい？",
+      "JA_new": "要点だけ言ってくれ。何をすればいい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_271#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 521,
+      "string_id": "bar_bar_barmen_jobs_271",
+      "occurrence": 1,
+      "EN": "Don't get carried away, Marked One. You are looking for more work but you haven't even dealt with the veterans yet...",
+      "JA_current": "我を忘れてはいけない、Marked One。お前は多くの仕事を探しているようだ、しかしお前はまだベテラン扱いされていないんだよ…。",
+      "JA_new": "気が早いぞ、マークド・ワン。次の仕事を探す前に、ベテランどもの件を片づけてないだろ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "271",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_24#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 482,
+      "string_id": "bar_bar_barmen_jobs_24",
+      "occurrence": 1,
+      "EN": "Cut to the chase. What do I gotta do?",
+      "JA_current": "単刀直入に、俺は何をすればいい？",
+      "JA_new": "要点だけ言ってくれ。何をすればいい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "24",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_241#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 485,
+      "string_id": "bar_bar_barmen_jobs_241",
+      "occurrence": 1,
+      "EN": "Your mission is to kill Tyran, the leader of a Merc group. His crew made it into the Wild Territory and set up a base at the construction site. Be careful, some of their fighters have set up ambushes on the way to the site. Bring me Tyran's PDA and the reward is yours.",
+      "JA_current": "お前の任務は Mercs の親玉、Tyran を殺すことだ。彼の部下は Wild Territory に進入し、建築現場に基地を構えた。用心しろ、連中の戦士の幾人かが、途中で待ち伏せしている。Tyran の PDA を持ち帰れ。そうすれば報酬はお前の物だ。",
+      "JA_new": "マーセナリーズの一団を率いるタイランを始末しろ。部隊は荒廃領域に入り、建設現場を基地にした。現場へ向かう道には待ち伏せもある。気をつけろ。タイランのPDAを持ち帰れば報酬を払う。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "241",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_2411#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 488,
+      "string_id": "bar_bar_barmen_jobs_2411",
+      "occurrence": 1,
+      "EN": "I'll do it. It'll be fun to teach the Mercs some respect.",
+      "JA_current": "やってみよう。後悔しちまうような事にならなきゃいいがな。",
+      "JA_new": "やってみる。マーセナリーズに身の程を教えてやるのも面白そうだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "2411",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_24111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 491,
+      "string_id": "bar_bar_barmen_jobs_24111",
+      "occurrence": 1,
+      "EN": "Excellent! Wish I could see the looks on their faces when you waste their leader.",
+      "JA_current": "良い決断だ。後悔する要素は何もないぞ。",
+      "JA_new": "いいぞ！ リーダーを始末した時の連中の顔を見てみたいもんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "24111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_jobs_371#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 575,
+      "string_id": "bar_bar_barmen_jobs_371",
+      "occurrence": 1,
+      "EN": "No, I ain't got anything today.",
+      "JA_current": "いいや、今日は何もないな。",
+      "JA_new": "今日は何もないな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_jobs",
+          "phrase_id": "371",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bar_bar_barmen_jobs_0",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "You got any special jobs?",
+      "JA_current": "特別な任務はあるか？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_0#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": null,
+      "next": [
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "31",
+      "text_id": null,
+      "next": [
+        "311"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_kill_veteran_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "32",
+      "text_id": null,
+      "next": [
+        "321"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_heli_scene_stay_online"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "bar_kill_veteran_start"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "bar_kill_veteran_done"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_rescue_research_start"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "33",
+      "text_id": null,
+      "next": [
+        "331"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_kill_svoboda_ambush_start"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_kill_veteran_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "34",
+      "text_id": null,
+      "next": [
+        "341"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "bar_heli_scene_stay_online"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "35",
+      "text_id": null,
+      "next": [
+        "351"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "bar_kill_svoboda_ambush_start"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "36",
+      "text_id": null,
+      "next": [
+        "361"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_kill_veteran_done"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "bar_kill_svoboda_ambush_start"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_heli_scene_stay_online"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "311",
+      "text_id": "bar_bar_barmen_jobs_311",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, nothing today.",
+      "JA_current": "いいや、今日は何もないな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_311#1"
+      ]
+    },
+    {
+      "phrase_id": "321",
+      "text_id": "bar_bar_barmen_jobs_321",
+      "next": [
+        "3211"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "32"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I've got a serious mission. A group of veteran killers has showed up in the Wild Territory again. Some Duty people came to me and asked me to deal with these veterans. Duty has solid proof that they are responsible for the deaths of solo stalkers. The problem is that these veterans and Duty have some old agreement and Duty can't break it but these guys are really pushing it. Basically, Duty wants 'em taken out, nice and quiet. It ain't gonna be easy but the job is worth a lot of dough.",
+      "JA_current": "重大な任務を持ってきた。Wild Territory に、ベテランの殺し屋どもが再び現れた。幾人か Duty が俺の元に来て、奴等ベテランを何とかするよう、俺に頼んだ奴がいる。Duty は、単独行動のストーカーの死は、奴等の仕業であるという揺るぎない証拠を持っている。問題は、奴等ベテランと Duty の間に古い協定があり、Duty は協定を破ることが出来ないが、奴等はそうではない。つまり基本的に、Duty としてはヤツらを排除するのを、隠密かつ鮮やかにやり遂げて欲しいのだ。これは簡単にはいかない仕事だが、報酬ははずもう。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_321#1"
+      ]
+    },
+    {
+      "phrase_id": "331",
+      "text_id": "bar_bar_barmen_jobs_331",
+      "next": [
+        "3312",
+        "3313"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "33"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Your mission is to kill Tyran, the leader of a Merc group. His crew made it into the Wild Territory and set up a base at the construction site. Be careful, some of their fighters have set up ambushes on the way to the site. Bring me Tyran's PDA and the reward is yours.",
+      "JA_current": "お前の任務は Mercs の親玉、Tyran を殺すことだ。彼の部下は Wild Territory に進入し、建築現場に基地を構えた。用心しろ、連中の戦士の幾人かが、途中で待ち伏せしている。Tyran の PDA を持ち帰れ。そうすれば報酬はお前の物だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_331#1"
+      ]
+    },
+    {
+      "phrase_id": "341",
+      "text_id": "bar_bar_barmen_jobs_341",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "34"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, nothing today.",
+      "JA_current": "いや、今日は何もない。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_341#1"
+      ]
+    },
+    {
+      "phrase_id": "351",
+      "text_id": "bar_bar_barmen_jobs_351",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "35"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, nothing today.",
+      "JA_current": "いや、今日は何もない。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_351#1"
+      ]
+    },
+    {
+      "phrase_id": "361",
+      "text_id": "bar_bar_barmen_jobs_361",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "36"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, nothing today.",
+      "JA_current": "いや、今日は何もない。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_361#1"
+      ]
+    },
+    {
+      "phrase_id": "3211",
+      "text_id": "bar_bar_barmen_jobs_3211",
+      "next": [
+        "32111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "321"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Anything else?",
+      "JA_current": "他には？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_3211#1"
+      ]
+    },
+    {
+      "phrase_id": "3312",
+      "text_id": "bar_bar_barmen_jobs_3312",
+      "next": [
+        "33121"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "bar_kill_svoboda_ambush_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "331"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'll do it.",
+      "JA_current": "やってみよう。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_3312#1"
+      ]
+    },
+    {
+      "phrase_id": "3313",
+      "text_id": "bar_bar_barmen_jobs_3313",
+      "next": [
+        "33131"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "331"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I'm not up for it.",
+      "JA_current": "いいや、気分が乗らないな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_3313#1"
+      ]
+    },
+    {
+      "phrase_id": "32111",
+      "text_id": "bar_bar_barmen_jobs_32111",
+      "next": [
+        "32112",
+        "32113"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3211"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Duty values its reputation, which is why they need this thing done quietly. All you gotta do is kill their leader Lucky and bring me his PDA as proof.",
+      "JA_current": "Duty は、世間の評判を気にしているからな。これが隠密に事を運ぶべき理由だ。お前がやることは、奴等のリーダー Lucky を殺し、証拠に奴の PDA を持ってくることだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_32111#1"
+      ]
+    },
+    {
+      "phrase_id": "33121",
+      "text_id": "bar_bar_barmen_jobs_33121",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3312"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Good decision, man.",
+      "JA_current": "良い決断だ。後悔する要素は何もないぞ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_33121#1"
+      ]
+    },
+    {
+      "phrase_id": "33131",
+      "text_id": "bar_bar_barmen_jobs_33131",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3313"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "As you wish.",
+      "JA_current": "お望みどおりに。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_33131#1"
+      ]
+    },
+    {
+      "phrase_id": "32112",
+      "text_id": "bar_bar_barmen_jobs_32112",
+      "next": [
+        "321121"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "bar_kill_veteran_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "32111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'll do it.",
+      "JA_current": "やってみよう。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_32112#1"
+      ]
+    },
+    {
+      "phrase_id": "32113",
+      "text_id": "bar_bar_barmen_jobs_32113",
+      "next": [
+        "321131"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "32111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I'm not up for it.",
+      "JA_current": "いいや、気分が乗らないな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_32113#1"
+      ]
+    },
+    {
+      "phrase_id": "321121",
+      "text_id": "bar_bar_barmen_jobs_321121",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "32112"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Good decision, man. Go for it.",
+      "JA_current": "良い決断だ。後悔する要素は何もないぞ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_321121#1"
+      ]
+    },
+    {
+      "phrase_id": "321131",
+      "text_id": "bar_bar_barmen_jobs_321131",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "32113"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Up to you but remember that this is a good opportunity to earn Duty's gratitude.",
+      "JA_current": "お前次第だが、これが Duty への点数稼ぎの良いチャンスだってことを忘れるなよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_321131#1"
+      ]
+    },
+    {
+      "phrase_id": "41",
+      "text_id": "bar_bar_barmen_jobs_41",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Not yet, next time.",
+      "JA_current": "Not yet, next time.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_41#1"
+      ]
+    },
+    {
+      "phrase_id": "26111",
+      "text_id": "bar_bar_barmen_jobs_26111",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2611"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Excellent! Wish I could see the looks on their faces when you waste their boss.",
+      "JA_current": "良い決断だ。後悔する要素は何もないぞ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_26111#1"
+      ]
+    },
+    {
+      "phrase_id": "26121",
+      "text_id": "bar_bar_barmen_jobs_26121",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2612"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "As you wish.",
+      "JA_current": "お望みどおりに。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_26121#1"
+      ]
+    },
+    {
+      "phrase_id": "261",
+      "text_id": "bar_bar_barmen_jobs_261",
+      "next": [
+        "2611",
+        "2612"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Your mission is to kill Tyran, the leader of a Merc group. His crew made it into the Wild Territory and set up a base at the construction site. Be careful, some of their fighters have set up ambushes on the way to the site. Bring me Tyran's PDA and the reward is yours.",
+      "JA_current": "お前の任務は Mercs の親玉、Tyran を殺すことだ。彼の部下は Wild Territory に進入し、建築現場に基地を構えた。用心しろ、連中の戦士の幾人かが、途中で待ち伏せしている。Tyran の PDA を持ち帰れ。そうすれば報酬はお前の物だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_261#1"
+      ]
+    },
+    {
+      "phrase_id": "2611",
+      "text_id": "bar_bar_barmen_jobs_2611",
+      "next": [
+        "26111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "bar_kill_svoboda_ambush_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "261"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'll do it. It'll be fun to teach the mercs some respect.",
+      "JA_current": "やってみよう。後悔しちまうような事にならなきゃいいがな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_2611#1"
+      ]
+    },
+    {
+      "phrase_id": "2612",
+      "text_id": "bar_bar_barmen_jobs_2612",
+      "next": [
+        "26121"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "261"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I'm not up for it.",
+      "JA_current": "いいや、気分が乗らないな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_2612#1"
+      ]
+    },
+    {
+      "phrase_id": "61",
+      "text_id": null,
+      "next": [
+        "62"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.barman_has_job"
+        },
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.barman_dont_has_room_job"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_kill_svoboda_ambush_start"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "62",
+      "text_id": "bar_bar_barmen_jobs_62",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "61"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I don't have anything today.",
+      "JA_current": "いや、今日は何もないな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_62#1"
+      ]
+    },
+    {
+      "phrase_id": "72",
+      "text_id": "bar_bar_barmen_jobs_72",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "71"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I don't have anything today.",
+      "JA_current": "いや、今日は何もないな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_72#1"
+      ]
+    },
+    {
+      "phrase_id": "71",
+      "text_id": null,
+      "next": [
+        "72"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.barman_has_job"
+        },
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.barman_dont_has_room_job"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "bar_kill_veteran_done"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "bar_kill_svoboda_ambush_start"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "44",
+      "text_id": null,
+      "next": [
+        "441"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.barman_has_job"
+        },
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.barman_dont_has_room_job"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "bar_kill_svoboda_ambush_start"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_kill_veteran_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "441",
+      "text_id": "bar_bar_barmen_jobs_441",
+      "next": [
+        "442",
+        "444"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "44"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I got a job for a pro.",
+      "JA_current": "プロに受けてもらいたい仕事があるんだがな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_441#1"
+      ]
+    },
+    {
+      "phrase_id": "444",
+      "text_id": "bar_bar_barmen_jobs_444",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "441"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, not interested right now.",
+      "JA_current": "いや、今は興味がないな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_444#1"
+      ]
+    },
+    {
+      "phrase_id": "442",
+      "text_id": "bar_bar_barmen_jobs_442",
+      "next": [
+        "443"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "441"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Cut to the chase. What do I gotta do?",
+      "JA_current": "本題に入ってくれ。俺は何をすればいい？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_442#1"
+      ]
+    },
+    {
+      "phrase_id": "443",
+      "text_id": "bar_bar_barmen_jobs_443",
+      "next": [
+        "4431",
+        "4432"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "442"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Your mission is to kill Tyran, the leader of a Merc group. His crew made it into the Wild Territory and set up a base at the construction site. Be careful, some of their fighters have set up ambushes on the way to the site. Bring me Tyran's PDA and the reward is yours.",
+      "JA_current": "お前の任務は Mercs の親玉、Tyran を殺すことだ。彼の部下は Wild Territory に進入し、建築現場に基地を構えた。用心しろ、連中の戦士の幾人かが、途中で待ち伏せしている。Tyran の PDA を持ち帰れ。そうすれば報酬はお前の物だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_443#1"
+      ]
+    },
+    {
+      "phrase_id": "4432",
+      "text_id": "bar_bar_barmen_jobs_4432",
+      "next": [
+        "44321"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "443"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I'm not up for it.",
+      "JA_current": "いいや、気分が乗らないな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_4432#1"
+      ]
+    },
+    {
+      "phrase_id": "44321",
+      "text_id": "bar_bar_barmen_jobs_44321",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4432"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "As you wish.",
+      "JA_current": "思うがままに。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_44321#1"
+      ]
+    },
+    {
+      "phrase_id": "44311",
+      "text_id": "bar_bar_barmen_jobs_44311",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4431"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Excellent! Wish I could see the looks on their faces when you waste their leader.",
+      "JA_current": "良い決断だ。後悔する要素は何もないぞ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_44311#1"
+      ]
+    },
+    {
+      "phrase_id": "4431",
+      "text_id": "bar_bar_barmen_jobs_4431",
+      "next": [
+        "44311"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "bar_kill_svoboda_ambush_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "443"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'll do it. It'll be nice to teach the mercs some respect.",
+      "JA_current": "やってみよう。後悔しちまうような事にならなきゃいいがな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_4431#1"
+      ]
+    },
+    {
+      "phrase_id": "54",
+      "text_id": null,
+      "next": [
+        "541"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_kill_veteran_done"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "bar_kill_svoboda_ambush_start"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "531",
+      "text_id": "bar_bar_barmen_jobs_531",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "53"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I don't have anything today.",
+      "JA_current": "いや、今日は何もないな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_531#1"
+      ]
+    },
+    {
+      "phrase_id": "52",
+      "text_id": "bar_bar_barmen_jobs_52",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "51"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I don't have anything today.",
+      "JA_current": "いや、今日は何もないな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_52#1"
+      ]
+    },
+    {
+      "phrase_id": "251",
+      "text_id": "bar_bar_barmen_jobs_251",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I ain't got anything today.",
+      "JA_current": "いいや、今日は何もないな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_251#1"
+      ]
+    },
+    {
+      "phrase_id": "32121",
+      "text_id": "bar_bar_barmen_jobs_32121",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "default text",
+      "JA_current": "default text",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_32121#1"
+      ]
+    },
+    {
+      "phrase_id": "541",
+      "text_id": "bar_bar_barmen_jobs_541",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "54"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I don't have anything today.",
+      "JA_current": "いや、今日は何もないな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_541#1"
+      ]
+    },
+    {
+      "phrase_id": "53",
+      "text_id": null,
+      "next": [
+        "531"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "bar_kill_svoboda_ambush_start"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "51",
+      "text_id": null,
+      "next": [
+        "52"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "bar_heli_scene_stay_online"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "266",
+      "text_id": "bar_bar_barmen_jobs_266",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I ain't got anything today.",
+      "JA_current": "いいや、今日は何もないな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_266#1"
+      ]
+    },
+    {
+      "phrase_id": "221",
+      "text_id": "bar_bar_barmen_jobs_221",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I ain't got nothing today.",
+      "JA_current": "いいや、今日は何もないぞ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_221#1"
+      ]
+    },
+    {
+      "phrase_id": "23111121",
+      "text_id": "bar_bar_barmen_jobs_23111121",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2311112"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Up to you but remember that this is a good opportunity to earn Duty's gratitude.",
+      "JA_current": "お前次第だが、これが Duty への点数稼ぎの良いチャンスだってことを忘れるなよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_23111121#1"
+      ]
+    },
+    {
+      "phrase_id": "2311112",
+      "text_id": "bar_bar_barmen_jobs_2311112",
+      "next": [
+        "23111121"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "231111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I'm not up for it.",
+      "JA_current": "いいや、気分が乗らないな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_2311112#1"
+      ]
+    },
+    {
+      "phrase_id": "23111111",
+      "text_id": "bar_bar_barmen_jobs_23111111",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2311111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Good decision, man. There ain't nothing to regret about this one.",
+      "JA_current": "良い決断だ。後悔する要素は何もないぞ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_23111111#1"
+      ]
+    },
+    {
+      "phrase_id": "2311111",
+      "text_id": "bar_bar_barmen_jobs_2311111",
+      "next": [
+        "23111111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "bar_kill_veteran_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "231111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'll do it. I hope I don't regret taking this on though.",
+      "JA_current": "やってみよう。後悔しちまうような事にならなきゃいいがな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_2311111#1"
+      ]
+    },
+    {
+      "phrase_id": "231111",
+      "text_id": "bar_bar_barmen_jobs_231111",
+      "next": [
+        "2311111",
+        "2311112"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "23111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Duty values its reputation, which is why they need this thing done quietly. All you gotta do is kill their leader Lucky and bring me his PDA as proof.",
+      "JA_current": "Duty は、世間の評判を気にしているからな。これが隠密に事を運ぶべき理由だ。お前がやることは、奴等のリーダー Lucky を殺し、証拠に奴の PDA を持ってくることだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_231111#1"
+      ]
+    },
+    {
+      "phrase_id": "23111",
+      "text_id": "bar_bar_barmen_jobs_23111",
+      "next": [
+        "231111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2311"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Anything else? Seems strange that Duty is letting them get away with it.",
+      "JA_current": "他には？ Duty 自身でそれをやらないのは奇妙だな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_23111#1"
+      ]
+    },
+    {
+      "phrase_id": "2311",
+      "text_id": "bar_bar_barmen_jobs_2311",
+      "next": [
+        "23111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I've got a serious mission. A group of veteran killers has showed up in the Wild Territory again. Some Duty people came to me and asked me to deal with these veterans. Duty has solid proof that they are responsible for the deaths of solo stalkers. The problem is that these veterans and Duty have some old agreement and Duty can't break it but these guys are really pushing it. Basically, Duty wants 'em taken out, nice and quiet. It ain't gonna be easy but the job is worth a lot of dough.",
+      "JA_current": "重大な任務を持ってきた。Wild Territory に、ベテランの殺し屋どもが再び現れた。幾人か Duty が俺の元に来て、奴等ベテランを何とかするよう、俺に頼んだ奴がいる。Duty は、単独行動のストーカーの死は、奴等の仕業であるという揺るぎない証拠を持っている。問題は、奴等ベテランと Duty の間に古い協定があり、Duty は協定を破ることが出来ないが、奴等はそうではない。つまり基本的に、Duty としてはヤツらを排除するのを、隠密かつ鮮やかにやり遂げて欲しいのだ。これは簡単にはいかない仕事だが、報酬ははずもう。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_2311#1"
+      ]
+    },
+    {
+      "phrase_id": "111",
+      "text_id": "bar_bar_barmen_jobs_111",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I ain't got nothing today.",
+      "JA_current": "いいや、今日は何もないぞ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_111#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": null,
+      "next": [
+        "111"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_kill_veteran_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "2412",
+      "text_id": "bar_bar_barmen_jobs_2412",
+      "next": [
+        "24121"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "241"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I'm not up for it.",
+      "JA_current": "いいや、気分が乗らないな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_2412#1"
+      ]
+    },
+    {
+      "phrase_id": "24121",
+      "text_id": "bar_bar_barmen_jobs_24121",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2412"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "As you wish.",
+      "JA_current": "お望みどおりに。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_24121#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "bar_bar_barmen_jobs_21",
+      "next": [
+        "23"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_heli_scene_stay_online"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Cut to the chase. What do I have to do?",
+      "JA_current": "単刀直入に頼む、俺はどうすればいい？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_21#1"
+      ]
+    },
+    {
+      "phrase_id": "23",
+      "text_id": null,
+      "next": [
+        "27"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "27",
+      "text_id": null,
+      "next": [
+        "271"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_kill_veteran_done"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_kill_veteran_start"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "23"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "271",
+      "text_id": "bar_bar_barmen_jobs_271",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "27"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Don't get carried away, Marked One. You are looking for more work but you haven't even dealt with the veterans yet...",
+      "JA_current": "我を忘れてはいけない、Marked One。お前は多くの仕事を探しているようだ、しかしお前はまだベテラン扱いされていないんだよ…。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_271#1"
+      ]
+    },
+    {
+      "phrase_id": "24",
+      "text_id": "bar_bar_barmen_jobs_24",
+      "next": [
+        "241"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_kill_svoboda_ambush_start"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_kill_veteran_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Cut to the chase. What do I gotta do?",
+      "JA_current": "単刀直入に、俺は何をすればいい？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_24#1"
+      ]
+    },
+    {
+      "phrase_id": "241",
+      "text_id": "bar_bar_barmen_jobs_241",
+      "next": [
+        "2411",
+        "2412"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "24"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Your mission is to kill Tyran, the leader of a Merc group. His crew made it into the Wild Territory and set up a base at the construction site. Be careful, some of their fighters have set up ambushes on the way to the site. Bring me Tyran's PDA and the reward is yours.",
+      "JA_current": "お前の任務は Mercs の親玉、Tyran を殺すことだ。彼の部下は Wild Territory に進入し、建築現場に基地を構えた。用心しろ、連中の戦士の幾人かが、途中で待ち伏せしている。Tyran の PDA を持ち帰れ。そうすれば報酬はお前の物だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_241#1"
+      ]
+    },
+    {
+      "phrase_id": "2411",
+      "text_id": "bar_bar_barmen_jobs_2411",
+      "next": [
+        "24111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "bar_kill_svoboda_ambush_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "241"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'll do it. It'll be fun to teach the Mercs some respect.",
+      "JA_current": "やってみよう。後悔しちまうような事にならなきゃいいがな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_2411#1"
+      ]
+    },
+    {
+      "phrase_id": "24111",
+      "text_id": "bar_bar_barmen_jobs_24111",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2411"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Excellent! Wish I could see the looks on their faces when you waste their leader.",
+      "JA_current": "良い決断だ。後悔する要素は何もないぞ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_24111#1"
+      ]
+    },
+    {
+      "phrase_id": "371",
+      "text_id": "bar_bar_barmen_jobs_371",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I ain't got anything today.",
+      "JA_current": "いいや、今日は何もないな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_jobs_371#1"
+      ]
+    }
+  ]
+}

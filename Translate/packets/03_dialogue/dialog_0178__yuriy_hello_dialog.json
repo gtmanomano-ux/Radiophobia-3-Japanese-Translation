@@ -1,0 +1,511 @@
+{
+  "packet_id": "dialog_0178__yuriy_hello_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "yuriy_hello_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "yuriy",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "task_exped_start"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "yuri_privetstvie"
+    }
+  ],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 11,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:yuriy_hello_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2190,
+      "string_id": "yuriy_hello_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Greetings, stalker.",
+      "JA_current": "Greetings, stalker.",
+      "JA_new": "よう、ストーカー。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_hello_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_hello_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2193,
+      "string_id": "yuriy_hello_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Hello, are you the leader of the Seekers?",
+      "JA_current": "Hello, are you the leader of the Seekers?",
+      "JA_new": "こんにちは。あんたがシーカーズのリーダーか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_hello_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_hello_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2196,
+      "string_id": "yuriy_hello_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Yes, what do you want?",
+      "JA_current": "Yes, what do you want?",
+      "JA_new": "そうだ。何の用だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_hello_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_hello_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2199,
+      "string_id": "yuriy_hello_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Mentor told me about you.",
+      "JA_current": "Mentor told me about you.",
+      "JA_new": "師匠からあんたのことを聞いた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_hello_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_hello_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2202,
+      "string_id": "yuriy_hello_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "A mentor, huh? Well, I guess you're a decent person of sound mind and sharp wits.. Having a mentor is an indication of good character!",
+      "JA_current": "A mentor, huh? Well, I guess you're a decent person of sound mind and sharp wits.. Having a mentor is an indication of good character!",
+      "JA_new": "師匠がいるのか。なるほどな……あんたは分別もあるし、頭の回転も速そうだ。師匠がいるってことは、見込みがある証拠だな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_hello_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_hello_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2205,
+      "string_id": "yuriy_hello_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Ha-ha, funny.. He said you were in trouble?",
+      "JA_current": "Ha-ha, funny.. He said you were in trouble?",
+      "JA_new": "ははっ、面白いな……師匠から、あんたが困ってるって聞いたよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_hello_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_hello_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2208,
+      "string_id": "yuriy_hello_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "I guess you could say that. Most of our group has completely vanished, no trace... What to do, what to do... Where to start looking..",
+      "JA_current": "I guess you could say that. Most of our group has completely vanished, no trace... What to do, what to do... Where to start looking..",
+      "JA_new": "まあ、そう言えるな。仲間のほとんどが跡形もなく消えた……どうすればいい？ どこから探せば……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_hello_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_hello_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2211,
+      "string_id": "yuriy_hello_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "I'll keep my eyes peeled for your guys, I'll let you know if I find any.",
+      "JA_current": "I'll keep my eyes peeled for your guys, I'll let you know if I find any.",
+      "JA_new": "仲間を気にかけておくよ。見つけたら知らせる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_hello_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_hello_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2214,
+      "string_id": "yuriy_hello_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "Well, thanks, man. I hope you get lucky. An extra pair of eyes is always welcome.",
+      "JA_current": "Well, thanks, man. I hope you get lucky. An extra pair of eyes is always welcome.",
+      "JA_new": "ありがとう。見つかるといいな。目が一組増えるだけでも助かる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_hello_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_hello_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2217,
+      "string_id": "yuriy_hello_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "Then I will commence my search. Goodbye.",
+      "JA_current": "Then I will commence my search. Goodbye.",
+      "JA_new": "じゃあ、捜索を始める。失礼するよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_hello_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_hello_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2220,
+      "string_id": "yuriy_hello_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "See you soon, hopefully!",
+      "JA_current": "See you soon, hopefully!",
+      "JA_new": "また会おう。そうなるといいな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_hello_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "yuriy_hello_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.zdorovo_stalker"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Greetings, stalker.",
+      "JA_current": "Greetings, stalker.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_hello_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "yuriy_hello_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hello, are you the leader of the Seekers?",
+      "JA_current": "Hello, are you the leader of the Seekers?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_hello_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "yuriy_hello_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, what do you want?",
+      "JA_current": "Yes, what do you want?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_hello_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "yuriy_hello_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Mentor told me about you.",
+      "JA_current": "Mentor told me about you.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_hello_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "yuriy_hello_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A mentor, huh? Well, I guess you're a decent person of sound mind and sharp wits.. Having a mentor is an indication of good character!",
+      "JA_current": "A mentor, huh? Well, I guess you're a decent person of sound mind and sharp wits.. Having a mentor is an indication of good character!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_hello_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "yuriy_hello_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Ha-ha, funny.. He said you were in trouble?",
+      "JA_current": "Ha-ha, funny.. He said you were in trouble?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_hello_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "yuriy_hello_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.chto_delat"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I guess you could say that. Most of our group has completely vanished, no trace... What to do, what to do... Where to start looking..",
+      "JA_current": "I guess you could say that. Most of our group has completely vanished, no trace... What to do, what to do... Where to start looking..",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_hello_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "yuriy_hello_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'll keep my eyes peeled for your guys, I'll let you know if I find any.",
+      "JA_current": "I'll keep my eyes peeled for your guys, I'll let you know if I find any.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_hello_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "yuriy_hello_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.spasibo_chuvak"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, thanks, man. I hope you get lucky. An extra pair of eyes is always welcome.",
+      "JA_current": "Well, thanks, man. I hope you get lucky. An extra pair of eyes is always welcome.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_hello_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "yuriy_hello_dialog_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Then I will commence my search. Goodbye.",
+      "JA_current": "Then I will commence my search. Goodbye.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_hello_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "yuriy_hello_dialog_phrase_11",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "yuri_privetstvie"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.do_vstrechi"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "See you soon, hopefully!",
+      "JA_current": "See you soon, hopefully!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_hello_dialog_phrase_11#1"
+      ]
+    }
+  ]
+}

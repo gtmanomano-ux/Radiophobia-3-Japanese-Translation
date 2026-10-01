@@ -1,0 +1,241 @@
+{
+  "packet_id": "dialog_0184__barman_notebook_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "barman_notebook_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_barman",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "voron_shron_nayden"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "barmen_goto_lucky"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 5,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:barman_notebook_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2331,
+      "string_id": "barman_notebook_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Hello, Barkeep. Do you know anything about computers?",
+      "JA_current": "バーキープ、あんたコンピューターについて何か知ってるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_notebook_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:barman_notebook_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2334,
+      "string_id": "barman_notebook_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "I know how to send an email, that's about it. What is it you need?",
+      "JA_current": "メールを送るくらいなら分かるが、その程度だな。一体何用だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_notebook_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:barman_notebook_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2337,
+      "string_id": "barman_notebook_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "I have a locked laptop with encrypted data. You know any computer whiz around the Zone who could decipher it or unlock it?",
+      "JA_current": "データが暗号化された、ロック付きのノートPCがあるんだ。このゾーンのどこかに、解読したりロックを解除できるような凄腕の技術者はいないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_notebook_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:barman_notebook_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2340,
+      "string_id": "barman_notebook_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Yeah, actually, I know someone. He's a Freedom fighter, lives in the Army Warehouses, goes by the nickname \"Lucky\". They say he has a talent for computers and other electronic stuff: he fixes PDAs, gadgets, detectors, stuff of that sort. Rumor has it that he once managed to build some kind of device that intercepted and decrypted radio chatter between Duty's commanders.",
+      "JA_current": "ああ、実は一人心当たりがあるぞ。フリーダムの連中で、軍事倉庫を拠点にしてる「ラッキー」って通称の男だ。コンピューターや電子機器の扱いに長けててな。PDAやガジェット、検出器なんかの修理もお手の物らしい。噂じゃ、デューティー幹部たちの無線通信を傍受して暗号を解読する装置まで自作したって話だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_notebook_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:barman_notebook_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2343,
+      "string_id": "barman_notebook_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Thanks for the information, I will go to him.",
+      "JA_current": "情報をありがとう。そいつのところへ行ってみるよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_notebook_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "barman_notebook_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hello, Barkeep. Do you know anything about computers?",
+      "JA_current": "Hello, Barkeep. Do you know anything about computers?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:barman_notebook_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "barman_notebook_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I know how to send an email, that's about it. What is it you need?",
+      "JA_current": "I know how to send an email, that's about it. What is it you need?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:barman_notebook_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "barman_notebook_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I have a locked laptop with encrypted data. You know any computer whiz around the Zone who could decipher it or unlock it?",
+      "JA_current": "I have a locked laptop with encrypted data. You know any computer whiz around the Zone who could decipher it or unlock it?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:barman_notebook_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "barman_notebook_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, actually, I know someone. He's a Freedom fighter, lives in the Army Warehouses, goes by the nickname \"Lucky\". They say he has a talent for computers and other electronic stuff: he fixes PDAs, gadgets, detectors, stuff of that sort. Rumor has it that he once managed to build some kind of device that intercepted and decrypted radio chatter between Duty's commanders.",
+      "JA_current": "Yeah, actually, I know someone. He's a Freedom fighter, lives in the Army Warehouses, goes by the nickname \"Lucky\". They say he has a talent for computers and other electronic stuff: he fixes PDAs, gadgets, detectors, stuff of that sort. Rumor has it that he once managed to build some kind of device that intercepted and decrypted radio chatter between Duty's commanders.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:barman_notebook_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "barman_notebook_dialog_phrase_5",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "barmen_goto_lucky"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thanks for the information, I will go to him.",
+      "JA_current": "Thanks for the information, I will go to him.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:barman_notebook_dialog_phrase_5#1"
+      ]
+    }
+  ]
+}

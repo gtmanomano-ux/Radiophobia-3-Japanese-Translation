@@ -1,0 +1,180 @@
+{
+  "packet_id": "dialog_0207__yuriy_krot_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "yuriy_krot_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "yuriy",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "agr_find_gunslinger_cache_start"
+    },
+    {
+      "type": "has_info",
+      "value": "agr_krot_secret_info"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "agr_krot_dead"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "agr_krot_dead"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "yuriy_about_krot"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 3,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:yuriy_krot_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3108,
+      "string_id": "yuriy_krot_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "What do you think of life here?",
+      "JA_current": "What do you think of life here?",
+      "JA_new": "ここでの暮らし、どう思う？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_krot_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_krot_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3111,
+      "string_id": "yuriy_krot_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "What's there to tell? We're surviving, as you can see. People are reaching out to each other, because it's very hard to survive here alone. For example, recently we had a stalker come to us from Agroprom. He said him and his pals almost got wiped out by a military hit squad, when some unknown young man stepped in and helped turn the tide. This stalker settled in the hangar across from ours, if you want to ask him about it - I'm sure he'll tell you a lot of interesting things.",
+      "JA_current": "What's there to tell? We're surviving, as you can see. People are reaching out to each other, because it's very hard to survive here alone. For example, recently we had a stalker come to us from Agroprom. He said him and his pals almost got wiped out by a military hit squad, when some unknown young man stepped in and helped turn the tide. This stalker settled in the hangar across from ours, if you want to ask him about it - I'm sure he'll tell you a lot of interesting things.",
+      "JA_new": "見ての通り、なんとか生きてるよ。ここじゃ一人で生き延びるのは難しいから、みんな助け合ってる。たとえばこの前、アフロプロムから来たストーカーがいた。仲間と一緒に軍の討伐隊にやられかけたところを、見知らぬ若者が助けて形勢を逆転させたそうだ。そのストーカーなら向かいの格納庫にいる。話を聞きに行けば、面白いことを教えてくれると思うよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_krot_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_krot_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3114,
+      "string_id": "yuriy_krot_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "I think I may just go and see him...",
+      "JA_current": "I think I may just go and see him...",
+      "JA_new": "会いに行ってみるか……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_krot_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "yuriy_krot_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What do you think of life here?",
+      "JA_current": "What do you think of life here?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_krot_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "yuriy_krot_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What's there to tell? We're surviving, as you can see. People are reaching out to each other, because it's very hard to survive here alone. For example, recently we had a stalker come to us from Agroprom. He said him and his pals almost got wiped out by a military hit squad, when some unknown young man stepped in and helped turn the tide. This stalker settled in the hangar across from ours, if you want to ask him about it - I'm sure he'll tell you a lot of interesting things.",
+      "JA_current": "What's there to tell? We're surviving, as you can see. People are reaching out to each other, because it's very hard to survive here alone. For example, recently we had a stalker come to us from Agroprom. He said him and his pals almost got wiped out by a military hit squad, when some unknown young man stepped in and helped turn the tide. This stalker settled in the hangar across from ours, if you want to ask him about it - I'm sure he'll tell you a lot of interesting things.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_krot_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "yuriy_krot_dialog_phrase_3",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "yuriy_about_krot"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.spawn_new_krot"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I think I may just go and see him...",
+      "JA_current": "I think I may just go and see him...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_krot_dialog_phrase_3#1"
+      ]
+    }
+  ]
+}

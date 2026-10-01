@@ -1,0 +1,420 @@
+{
+  "packet_id": "dialog_0293__trader_relation_stalker",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "trader_relation_stalker",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "bar_barman",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    },
+    {
+      "profile_id": "escape_trader",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "community_relation.bad_relation_stalker"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 8,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:trader_relation_stalker_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 625,
+      "string_id": "trader_relation_stalker_1",
+      "occurrence": 1,
+      "EN": "Listen, I've got some friction with the loners. Can you act on my behalf to work out a truce?",
+      "JA_current": "聞いてくれ、ローナーの連中と揉め事を起こしちまった。仲裁に入って手打ちにしてくれないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trader_relation_stalker",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:trader_relation_stalker_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 629,
+      "string_id": "trader_relation_stalker_2",
+      "occurrence": 1,
+      "EN": "Yeah, I heard about your little adventures out there, shouldn't be too difficult to set things right. Besides, you haven't made them too crazy about it, just a little misunderstanding, shit happens. I'm gonna need an up front fee, say, 10 thousand rubles - and I'll set it ok. I'll bring in the offended parties, give them a discount and they'll play along.",
+      "JA_current": "ああ、外でのお前の派手な暴れっぷりは耳に入ってるよ。まあ関係を修復するのはそう難しくないはずだ。向こうもそこまで血相を変えてるわけじゃない、ちょっとした行き違いさ。よくあることだ。着手金として1万ルーブルほど前払いで貰えれば、俺が話をまとめてやる。被害を受けた連中をここに呼んで、うちの品を少し値引きしてやれば話に乗ってくるだろうよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trader_relation_stalker",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:trader_relation_stalker_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 637,
+      "string_id": "trader_relation_stalker_4",
+      "occurrence": 1,
+      "EN": "Well... I was wondering when you'd come in to talk about this... Man, I don't know what you did out there, but you really pissed off the stalkers. I've heard so many stories about the fucked up shit you've been doing that I no longer know which of them is true and which of them was the result of a campfire horror story. One thing I do know, however, is that the veterans are organizing a posse of sorts to take you out. You've been bad for business, put a lot of good men into the dirt and caused a lot of instability to the area, and the veterans don't like upstarts and troublemakers of any kind. They're no doubt planning to get you alive so that they can teach you a lesson first, a little bit of torture perhaps, or maybe they'll just throw you legs first into an acid anomaly, don't know what's worse... Ok, let's cut to the chase. I'm glad you came to me, I know you can be rough around the edges but you're a skilled worker and I can't afford to throw you to the wolves just yet. Hand over 30 thousand and you let me handle those veterans, nothing cheers a man up more than free vodka and ammo, maybe we can play nice and force them to put aside their grand ideas of revenge. Don't push it though, you're gonna have to earn your place among them, don't expect them to just forget what you've done.",
+      "JA_current": "やれやれ……いつその話をしに来るかと思ってたところだ。なあ、お前が外で何をしでかしたかは知らんが、ストーカーどもを本気で怒らせちまったぞ。お前のやらかした悪行の話が山ほど耳に入ってきて、どれが真実でどれが焚き火端の怪談の尾ひれなのか見分けがつかないくらいだ。だが一つ確かなのは、古参連中がお前を仕留めるために討伐隊を組織してるってことだ。お前は商売の邪魔だし、大勢の腕利きを土に埋めちまって、この一帯の治安を滅茶苦茶にしやがった。古参どもは成り上がり者や揉め事を起こす厄介者が何よりも大嫌いだからな。連中、間違いなくお前を生け捕りにして、まずはたっぷりと痛めつけるつもりだぞ。拷問にかけるか、酸のアノマリーに足から突っ込むか……どっちがマシか分からんがな。よし、単刀直入にいこう。俺のところへ相談に来て正解だったな。お前は荒削りだが腕の立つ仕事人だ。まだ狼どものエサに差し出すわけにはいかん。3万ルーブル寄越しな。古参どもは俺が上手くなだめてやる。タダ酒のウォッカと弾薬ほど男の機嫌を直すものはないからな。うまく手打ちに持ち込んで、復讐なんて物騒な考えを忘れさせてやれるかもしれん。だが調子に乗るなよ。連中の輪の中に戻るには、お前自身の働きで信用を取り戻さなきゃならん。やったことを綺麗さっぱり忘れてもらえるなんて思うなよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trader_relation_stalker",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:trader_relation_stalker_6#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 645,
+      "string_id": "trader_relation_stalker_6",
+      "occurrence": 1,
+      "EN": "You've stirred up a regular hornets nest, I don't think we've ever had a bastard quite like you wandering around the Zone! I have half a mind to just have your throat cut and have your carcass dumped over in the anomaly pit... I won't be fishing anymore stalkers out of Death Trucks, that's for certain, you guys must be cursed or something! If you want me to try to fix up this carnage you caused, it's gonna be tough, almost impossible, in fact. These rookies out there are more afraid of you than they are of bloodsuckers, even the experienced stalkers always keep on guard and tense up at the mere mention of your name. You are a black omen, just a pure psychopath, and I for one won't really care much if some stalkers group up to have you killed. I suggest you keep your distance from any loner camps for a while... You want my help? Fine, but it's gonna cost you 50 grand as payment for the damage you caused.",
+      "JA_current": "とんでもないスズメバチの巣を突きつきやがったな！ このゾーンをほっつき歩いてる奴らの中でも、お前ほどの外道は見たことがねえぞ！ 今すぐお前の喉首を掻っ切って、死体をアノマリーの底に投げ込んでやりたいくらいだ……もう「死のトラック」からストーカーを引きずり出すのは金輪際御免だぞ、お前らは呪われてるとしか思えん！ お前が引き起こしたこの大惨事を修復してほしいってのか？ そいつは骨が折れるし、ぶっちゃけ不可能に近い。外の新米どもはブラッドサッカーよりもお前を恐れてるし、歴戦のベテランですらお前の名前を聞いただけで身構える始末だ。お前は不吉な疫病神、筋金入りのサイコパスだよ。ストーカーどもが束になってお前を始末しにかかっても、俺としちゃ知ったこっちゃねえんだ。当分の間、ローナーのキャンプには近づかねえことだな……それでも俺の仲介が欲しいってのか？ いいだろう、だがお前がもたらした損害のツケとして、5万ルーブルきっちり払ってもらうぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trader_relation_stalker",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:trader_relation_stalker_8#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 653,
+      "string_id": "trader_relation_stalker_8",
+      "occurrence": 1,
+      "EN": "I'm up for it. I can afford that.",
+      "JA_current": "受けて立つよ。それくらいなら払える。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trader_relation_stalker",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:trader_relation_stalker_13#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 672,
+      "string_id": "trader_relation_stalker_13",
+      "occurrence": 1,
+      "EN": "Screw you, greedy bastard! I'll be just fine without your intervention.",
+      "JA_current": "ふざけるな、強欲オヤジめ！ あんたの手なんか借りなくたって何とでもなる！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trader_relation_stalker",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:trader_relation_stalker_10#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 661,
+      "string_id": "trader_relation_stalker_10",
+      "occurrence": 1,
+      "EN": "Deal. Here's hoping I don't get killed on sight.",
+      "JA_current": "取引成立だ。見敵必殺で撃たれないことを祈るよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trader_relation_stalker",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:trader_relation_stalker_11#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 665,
+      "string_id": "trader_relation_stalker_11",
+      "occurrence": 1,
+      "EN": "That's a deal. Hope the conflict will be resolved.",
+      "JA_current": "よし、交渉成立だ。揉め事が綺麗に収まってくれるといいが。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "trader_relation_stalker",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "trader_relation_stalker_1",
+      "next": [
+        "1",
+        "2",
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Listen, I've got some friction with the loners. Can you act on my behalf to work out a truce?",
+      "JA_current": "Listen, I've got some friction with the loners. Can you act on my behalf to work out a truce?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:trader_relation_stalker_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "trader_relation_stalker_2",
+      "next": [
+        "4",
+        "7"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.bad_relation_stalker_10000"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, I heard about your little adventures out there, shouldn't be too difficult to set things right. Besides, you haven't made them too crazy about it, just a little misunderstanding, shit happens. I'm gonna need an up front fee, say, 10 thousand rubles - and I'll set it ok. I'll bring in the offended parties, give them a discount and they'll play along.",
+      "JA_current": "Yeah, I heard about your little adventures out there, shouldn't be too difficult to set things right. Besides, you haven't made them too crazy about it, just a little misunderstanding, shit happens. I'm gonna need an up front fee, say, 10 thousand rubles - and I'll set it ok. I'll bring in the offended parties, give them a discount and they'll play along.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:trader_relation_stalker_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "trader_relation_stalker_4",
+      "next": [
+        "5",
+        "7"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.bad_relation_stalker_30000"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well... I was wondering when you'd come in to talk about this... Man, I don't know what you did out there, but you really pissed off the stalkers. I've heard so many stories about the fucked up shit you've been doing that I no longer know which of them is true and which of them was the result of a campfire horror story. One thing I do know, however, is that the veterans are organizing a posse of sorts to take you out. You've been bad for business, put a lot of good men into the dirt and caused a lot of instability to the area, and the veterans don't like upstarts and troublemakers of any kind. They're no doubt planning to get you alive so that they can teach you a lesson first, a little bit of torture perhaps, or maybe they'll just throw you legs first into an acid anomaly, don't know what's worse... Ok, let's cut to the chase. I'm glad you came to me, I know you can be rough around the edges but you're a skilled worker and I can't afford to throw you to the wolves just yet. Hand over 30 thousand and you let me handle those veterans, nothing cheers a man up more than free vodka and ammo, maybe we can play nice and force them to put aside their grand ideas of revenge. Don't push it though, you're gonna have to earn your place among them, don't expect them to just forget what you've done.",
+      "JA_current": "Well... I was wondering when you'd come in to talk about this... Man, I don't know what you did out there, but you really pissed off the stalkers. I've heard so many stories about the fucked up shit you've been doing that I no longer know which of them is true and which of them was the result of a campfire horror story. One thing I do know, however, is that the veterans are organizing a posse of sorts to take you out. You've been bad for business, put a lot of good men into the dirt and caused a lot of instability to the area, and the veterans don't like upstarts and troublemakers of any kind. They're no doubt planning to get you alive so that they can teach you a lesson first, a little bit of torture perhaps, or maybe they'll just throw you legs first into an acid anomaly, don't know what's worse... Ok, let's cut to the chase. I'm glad you came to me, I know you can be rough around the edges but you're a skilled worker and I can't afford to throw you to the wolves just yet. Hand over 30 thousand and you let me handle those veterans, nothing cheers a man up more than free vodka and ammo, maybe we can play nice and force them to put aside their grand ideas of revenge. Don't push it though, you're gonna have to earn your place among them, don't expect them to just forget what you've done.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:trader_relation_stalker_4#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "trader_relation_stalker_6",
+      "next": [
+        "6",
+        "7"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.bad_relation_stalker_50000"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You've stirred up a regular hornets nest, I don't think we've ever had a bastard quite like you wandering around the Zone! I have half a mind to just have your throat cut and have your carcass dumped over in the anomaly pit... I won't be fishing anymore stalkers out of Death Trucks, that's for certain, you guys must be cursed or something! If you want me to try to fix up this carnage you caused, it's gonna be tough, almost impossible, in fact. These rookies out there are more afraid of you than they are of bloodsuckers, even the experienced stalkers always keep on guard and tense up at the mere mention of your name. You are a black omen, just a pure psychopath, and I for one won't really care much if some stalkers group up to have you killed. I suggest you keep your distance from any loner camps for a while... You want my help? Fine, but it's gonna cost you 50 grand as payment for the damage you caused.",
+      "JA_current": "You've stirred up a regular hornets nest, I don't think we've ever had a bastard quite like you wandering around the Zone! I have half a mind to just have your throat cut and have your carcass dumped over in the anomaly pit... I won't be fishing anymore stalkers out of Death Trucks, that's for certain, you guys must be cursed or something! If you want me to try to fix up this carnage you caused, it's gonna be tough, almost impossible, in fact. These rookies out there are more afraid of you than they are of bloodsuckers, even the experienced stalkers always keep on guard and tense up at the mere mention of your name. You are a black omen, just a pure psychopath, and I for one won't really care much if some stalkers group up to have you killed. I suggest you keep your distance from any loner camps for a while... You want my help? Fine, but it's gonna cost you 50 grand as payment for the damage you caused.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:trader_relation_stalker_6#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "trader_relation_stalker_8",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.has_10000"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "community_relation.relocate_10000"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.repair_relation_stalker"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm up for it. I can afford that.",
+      "JA_current": "I'm up for it. I can afford that.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:trader_relation_stalker_8#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "trader_relation_stalker_13",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1",
+        "2",
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Screw you, greedy bastard! I'll be just fine without your intervention.",
+      "JA_current": "Screw you, greedy bastard! I'll be just fine without your intervention.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:trader_relation_stalker_13#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "trader_relation_stalker_10",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.has_30000"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "community_relation.relocate_30000"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.repair_relation_stalker"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Deal. Here's hoping I don't get killed on sight.",
+      "JA_current": "Deal. Here's hoping I don't get killed on sight.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:trader_relation_stalker_10#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "trader_relation_stalker_11",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.has_50000"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "community_relation.relocate_50000"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.repair_relation_stalker"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "That's a deal. Hope the conflict will be resolved.",
+      "JA_current": "That's a deal. Hope the conflict will be resolved.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:trader_relation_stalker_11#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,542 @@
+{
+  "packet_id": "dialog_0305__izgoy_quest_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "izgoy_quest_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "esc_stalker_izgoy",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "izgoy_about_robbery_dialog"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "izgoy_quest_dialog"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 12,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:izgoy_quest_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2093,
+      "string_id": "izgoy_quest_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "If you're telling the truth, then you were especially unlucky. But you yourself are to blame for what happened.",
+      "JA_current": "If you're telling the truth, then you were especially unlucky. But you yourself are to blame for what happened.",
+      "JA_new": "本当のことを言ってるなら、運が悪すぎるな。だが、自分の行いが招いた結果でもある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_quest_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_quest_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2096,
+      "string_id": "izgoy_quest_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "I know... Stalker, I see that you are not like the others, please help me!",
+      "JA_current": "I know... Stalker, I see that you are not like the others, please help me!",
+      "JA_new": "分かってる……ストーカー、あんたは他の連中とは違う。頼む、助けてくれ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_quest_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_quest_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2099,
+      "string_id": "izgoy_quest_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "What can I do for you?",
+      "JA_current": "What can I do for you?",
+      "JA_new": "何をすればいい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_quest_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_quest_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2102,
+      "string_id": "izgoy_quest_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "I can't make it out here like this for much longer. I've noticed mutants prowling about at night, each night straying closer and closer to this shack, they can see I'm apart from everyone else and they are hungry. Won't be long before one of them gets brave enough to attack me in my sleep and drag me off into the wilderness, I can't really put up much of a fight with one mag of ammo... Hunger is an issue as well, sometimes someone will leave something for me, god bless them, but it isn't enough and I can't scrounge anything up by myself - to put bluntly, won't be long before I end up dead!",
+      "JA_current": "I can't make it out here like this for much longer. I've noticed mutants prowling about at night, each night straying closer and closer to this shack, they can see I'm apart from everyone else and they are hungry. Won't be long before one of them gets brave enough to attack me in my sleep and drag me off into the wilderness, I can't really put up much of a fight with one mag of ammo... Hunger is an issue as well, sometimes someone will leave something for me, god bless them, but it isn't enough and I can't scrounge anything up by myself - to put bluntly, won't be long before I end up dead!",
+      "JA_new": "このままじゃ、ここで暮らし続けるのも限界だ。夜になるとミュータントがうろついてる。小屋にいる俺が皆から離されてるのも、向こうには分かってる。日に日に近づいてきてる……腹も減ってるだろう。俺が眠ってる間に襲いかかって、荒野へ引きずっていくのも時間の問題だ。弾倉一つ分しか残ってないから、大して抵抗もできない……食べ物にも困ってる。誰かが時々置いていってくれるが、足りないし、自分じゃ何も見つけられない。はっきり言うと、もうすぐ死ぬ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_quest_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_quest_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2105,
+      "string_id": "izgoy_quest_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Do you want me to give you food or ammo?",
+      "JA_current": "Do you want me to give you food or ammo?",
+      "JA_new": "食べ物か弾薬を渡せばいいのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_quest_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_quest_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2108,
+      "string_id": "izgoy_quest_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "No, don't do that. It might cause others to lose confidence in you. I need you to help me in another way.",
+      "JA_current": "No, don't do that. It might cause others to lose confidence in you. I need you to help me in another way.",
+      "JA_new": "いや、それはやめてくれ。お前への信頼を失う奴が出るかもしれない。別の形で力を貸してほしいんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_quest_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_quest_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2111,
+      "string_id": "izgoy_quest_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "How?",
+      "JA_current": "How?",
+      "JA_new": "どうすればいい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_quest_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_quest_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2114,
+      "string_id": "izgoy_quest_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "If I had hard evidence that I didn't want to rob Sidorovich, I think that Wolf and the others would believe me and let me back into the camp. To get this evidence, you need to find my former friend Fedka, who set me up. If you could find him, or at least prove that it was solely his intention... I myself cannot do it, I'm too weak from hunger, and I'm not equipped to survive out there, I'd be dead before the day's over. Please, help me! Find Fedka!",
+      "JA_current": "If I had hard evidence that I didn't want to rob Sidorovich, I think that Wolf and the others would believe me and let me back into the camp. To get this evidence, you need to find my former friend Fedka, who set me up. If you could find him, or at least prove that it was solely his intention... I myself cannot do it, I'm too weak from hunger, and I'm not equipped to survive out there, I'd be dead before the day's over. Please, help me! Find Fedka!",
+      "JA_new": "もし、俺がシドロヴィッチから盗もうとしてなかった証拠があれば、ウルフたちも信じて、キャンプに戻してくれると思う。証拠を見つけるには、俺を罠にはめた昔の仲間、フェドカを探さなきゃならない。あいつを見つけるか、全部あいつの企みだったと証明してくれ……俺には無理だ。腹が減って弱ってるし、外で生き延びる装備もない。一日も持たずに死ぬ。頼む、助けてくれ！ フェドカを探してくれ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_quest_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_quest_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2117,
+      "string_id": "izgoy_quest_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "I would help you, but where can I find this guy? You said he disappeared!",
+      "JA_current": "I would help you, but where can I find this guy? You said he disappeared!",
+      "JA_new": "手伝ってもいいが、そいつをどこで探せばいい？ 消えたんだろ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_quest_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_quest_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2120,
+      "string_id": "izgoy_quest_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "If I'm correct in my guess, there may be a way. I've heard of a few cases where stalkers simply vanished without a trace in the Zone, only to have their bodies turn up many kilometers away from the place where they disappeared. I thought it was bullshit long ago, but now I'm not so sure. Perhaps this is the same thing that happened to Fedka? If it was some kind of new anomaly, then perhaps his body did not surface very far away? You see, here in Cordon, anomalies are usually pretty weak, so the effect may apply to whatever this is. So, can you help me?",
+      "JA_current": "If I'm correct in my guess, there may be a way. I've heard of a few cases where stalkers simply vanished without a trace in the Zone, only to have their bodies turn up many kilometers away from the place where they disappeared. I thought it was bullshit long ago, but now I'm not so sure. Perhaps this is the same thing that happened to Fedka? If it was some kind of new anomaly, then perhaps his body did not surface very far away? You see, here in Cordon, anomalies are usually pretty weak, so the effect may apply to whatever this is. So, can you help me?",
+      "JA_new": "俺の考えが合ってれば、方法はあるかもしれない。ゾーンでストーカーが跡形もなく消えて、何キロも離れた場所で遺体が見つかった例をいくつか聞いた。昔はでたらめだと思ってたが、今はそうとも言い切れない。フェドカにも同じことが起きたのか？ 新しいアノマリーの仕業なら、そう遠くない場所に遺体が現れた可能性もある。ほら、ここコルドンのアノマリーは弱いものが多い。今回の現象にも同じことが言えるかもしれない。手伝ってくれるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_quest_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_quest_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2123,
+      "string_id": "izgoy_quest_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "All right, I'll look for your Fedka. Just tell me the location of the place where he disappeared.",
+      "JA_current": "All right, I'll look for your Fedka. Just tell me the location of the place where he disappeared.",
+      "JA_new": "分かった。フェドカを探してみる。あいつが消えた場所を教えてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_quest_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_quest_dialog_phrase_12#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2126,
+      "string_id": "izgoy_quest_dialog_phrase_12",
+      "occurrence": 1,
+      "EN": "Thank you, kind stalker, you're a good man! This place is near the garbage dump north of the village. It seems to be under one of the big trees and out of sight. Good luck with the search, be careful out there!",
+      "JA_current": "Thank you, kind stalker, you're a good man! This place is near the garbage dump north of the village. It seems to be under one of the big trees and out of sight. Good luck with the search, be careful out there!",
+      "JA_new": "ありがとう、親切なストーカー。あんたはいい人だ！ 村の北にあるごみ捨て場の近くだ。大きな木の下で、人目につかない場所だったと思う。探す時は気をつけてくれ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_quest_dialog",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "izgoy_quest_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "If you're telling the truth, then you were especially unlucky. But you yourself are to blame for what happened.",
+      "JA_current": "If you're telling the truth, then you were especially unlucky. But you yourself are to blame for what happened.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_quest_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "izgoy_quest_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I know... Stalker, I see that you are not like the others, please help me!",
+      "JA_current": "I know... Stalker, I see that you are not like the others, please help me!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_quest_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "izgoy_quest_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What can I do for you?",
+      "JA_current": "What can I do for you?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_quest_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "izgoy_quest_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I can't make it out here like this for much longer. I've noticed mutants prowling about at night, each night straying closer and closer to this shack, they can see I'm apart from everyone else and they are hungry. Won't be long before one of them gets brave enough to attack me in my sleep and drag me off into the wilderness, I can't really put up much of a fight with one mag of ammo... Hunger is an issue as well, sometimes someone will leave something for me, god bless them, but it isn't enough and I can't scrounge anything up by myself - to put bluntly, won't be long before I end up dead!",
+      "JA_current": "I can't make it out here like this for much longer. I've noticed mutants prowling about at night, each night straying closer and closer to this shack, they can see I'm apart from everyone else and they are hungry. Won't be long before one of them gets brave enough to attack me in my sleep and drag me off into the wilderness, I can't really put up much of a fight with one mag of ammo... Hunger is an issue as well, sometimes someone will leave something for me, god bless them, but it isn't enough and I can't scrounge anything up by myself - to put bluntly, won't be long before I end up dead!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_quest_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "izgoy_quest_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Do you want me to give you food or ammo?",
+      "JA_current": "Do you want me to give you food or ammo?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_quest_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "izgoy_quest_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, don't do that. It might cause others to lose confidence in you. I need you to help me in another way.",
+      "JA_current": "No, don't do that. It might cause others to lose confidence in you. I need you to help me in another way.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_quest_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "izgoy_quest_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "How?",
+      "JA_current": "How?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_quest_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "izgoy_quest_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "If I had hard evidence that I didn't want to rob Sidorovich, I think that Wolf and the others would believe me and let me back into the camp. To get this evidence, you need to find my former friend Fedka, who set me up. If you could find him, or at least prove that it was solely his intention... I myself cannot do it, I'm too weak from hunger, and I'm not equipped to survive out there, I'd be dead before the day's over. Please, help me! Find Fedka!",
+      "JA_current": "If I had hard evidence that I didn't want to rob Sidorovich, I think that Wolf and the others would believe me and let me back into the camp. To get this evidence, you need to find my former friend Fedka, who set me up. If you could find him, or at least prove that it was solely his intention... I myself cannot do it, I'm too weak from hunger, and I'm not equipped to survive out there, I'd be dead before the day's over. Please, help me! Find Fedka!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_quest_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "izgoy_quest_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I would help you, but where can I find this guy? You said he disappeared!",
+      "JA_current": "I would help you, but where can I find this guy? You said he disappeared!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_quest_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "izgoy_quest_dialog_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "If I'm correct in my guess, there may be a way. I've heard of a few cases where stalkers simply vanished without a trace in the Zone, only to have their bodies turn up many kilometers away from the place where they disappeared. I thought it was bullshit long ago, but now I'm not so sure. Perhaps this is the same thing that happened to Fedka? If it was some kind of new anomaly, then perhaps his body did not surface very far away? You see, here in Cordon, anomalies are usually pretty weak, so the effect may apply to whatever this is. So, can you help me?",
+      "JA_current": "If I'm correct in my guess, there may be a way. I've heard of a few cases where stalkers simply vanished without a trace in the Zone, only to have their bodies turn up many kilometers away from the place where they disappeared. I thought it was bullshit long ago, but now I'm not so sure. Perhaps this is the same thing that happened to Fedka? If it was some kind of new anomaly, then perhaps his body did not surface very far away? You see, here in Cordon, anomalies are usually pretty weak, so the effect may apply to whatever this is. So, can you help me?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_quest_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "izgoy_quest_dialog_phrase_11",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "escape_dialog.spawn_teleport"
+        },
+        {
+          "type": "give_info",
+          "value": "izgoy_quest_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All right, I'll look for your Fedka. Just tell me the location of the place where he disappeared.",
+      "JA_current": "All right, I'll look for your Fedka. Just tell me the location of the place where he disappeared.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_quest_dialog_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "izgoy_quest_dialog_phrase_12",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "izgoy_quest_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you, kind stalker, you're a good man! This place is near the garbage dump north of the village. It seems to be under one of the big trees and out of sight. Good luck with the search, be careful out there!",
+      "JA_current": "Thank you, kind stalker, you're a good man! This place is near the garbage dump north of the village. It seems to be under one of the big trees and out of sight. Good luck with the search, be careful out there!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_quest_dialog_phrase_12#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "packet_id": "dialog_0199__voronin_quest_dialog_2",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "voronin_quest_dialog_2",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_dolg_leader",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "terakt_net"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "voronin_spasibo"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 6,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_2_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3089,
+      "string_id": "voronin_quest_dialog_2_phrase_1",
+      "occurrence": 1,
+      "EN": "I found your Terrorist, he coughed up the locations of all the charges, I already disarmed each one.",
+      "JA_current": "I found your Terrorist, he coughed up the locations of all the charges, I already disarmed each one.",
+      "JA_new": "テロリストを見つけた。爆弾の場所を全部吐かせて、俺が解除しておいた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_2",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_2_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3092,
+      "string_id": "voronin_quest_dialog_2_phrase_2",
+      "occurrence": 1,
+      "EN": "Well, holy shit, Marked One, you just impressed the hell out of me! I think you missed your calling, I can see a career in detective work for you! You have saved the lives of countless good men today, you've spared Duty the indignity of a hasty evacuation and saved our little oasis here from destruction. I have half a mind to take you on as Duty's personal problem solver, we could use a guy with your skills to take care of the mess out there. What should I reward you with? What do you want: artifacts? Money? Weapons or Armor?? No price can match what you've done, but I think we can come pretty close!",
+      "JA_current": "Well, holy shit, Marked One, you just impressed the hell out of me! I think you missed your calling, I can see a career in detective work for you! You have saved the lives of countless good men today, you've spared Duty the indignity of a hasty evacuation and saved our little oasis here from destruction. I have half a mind to take you on as Duty's personal problem solver, we could use a guy with your skills to take care of the mess out there. What should I reward you with? What do you want: artifacts? Money? Weapons or Armor?? No price can match what you've done, but I think we can come pretty close!",
+      "JA_new": "いや、すごいな、マークド・ワン！ 惚れ惚れする腕前だ。天職を間違えたんじゃないか？ 探偵として食っていけるぞ！ 今日、お前は大勢の仲間の命を救った。デューティーが慌てて避難する羽目になるのも防ぎ、この小さなオアシスを破壊から守った。デューティー専属の問題解決役として雇いたくなったよ。外の厄介事を片づけるのに、お前の腕が必要だ。報酬は何がいい？ アーティファクトか、金か？ 武器や防具もあるぞ。お前の功績に釣り合う値段はつけられないが、かなり近づけるはずだ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_2",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_2_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3095,
+      "string_id": "voronin_quest_dialog_2_phrase_3",
+      "occurrence": 1,
+      "EN": "I wish I had some money. I like money...",
+      "JA_current": "I wish I had some money. I like money...",
+      "JA_new": "金が欲しい。金が大好きなんだ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_2",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_2_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3098,
+      "string_id": "voronin_quest_dialog_2_phrase_4",
+      "occurrence": 1,
+      "EN": "I want rare artifacts, and many of them.",
+      "JA_current": "I want rare artifacts, and many of them.",
+      "JA_new": "珍しいアーティファクトを、たくさんくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_2",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_2_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3101,
+      "string_id": "voronin_quest_dialog_2_phrase_5",
+      "occurrence": 1,
+      "EN": "Weapons AND armor? Sounds good to me!",
+      "JA_current": "Weapons AND armor? Sounds good to me!",
+      "JA_new": "武器と防具、両方か？ いいな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_2",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_2_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3104,
+      "string_id": "voronin_quest_dialog_2_phrase_6",
+      "occurrence": 1,
+      "EN": "What do I want? Just to live another day...",
+      "JA_current": "What do I want? Just to live another day...",
+      "JA_new": "欲しい物？ ただ、明日も生きていたい……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_2",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "voronin_quest_dialog_2_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I found your Terrorist, he coughed up the locations of all the charges, I already disarmed each one.",
+      "JA_current": "I found your Terrorist, he coughed up the locations of all the charges, I already disarmed each one.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_2_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "voronin_quest_dialog_2_phrase_2",
+      "next": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, holy shit, Marked One, you just impressed the hell out of me! I think you missed your calling, I can see a career in detective work for you! You have saved the lives of countless good men today, you've spared Duty the indignity of a hasty evacuation and saved our little oasis here from destruction. I have half a mind to take you on as Duty's personal problem solver, we could use a guy with your skills to take care of the mess out there. What should I reward you with? What do you want: artifacts? Money? Weapons or Armor?? No price can match what you've done, but I think we can come pretty close!",
+      "JA_current": "Well, holy shit, Marked One, you just impressed the hell out of me! I think you missed your calling, I can see a career in detective work for you! You have saved the lives of countless good men today, you've spared Duty the indignity of a hasty evacuation and saved our little oasis here from destruction. I have half a mind to take you on as Duty's personal problem solver, we could use a guy with your skills to take care of the mess out there. What should I reward you with? What do you want: artifacts? Money? Weapons or Armor?? No price can match what you've done, but I think we can come pretty close!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_2_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "voronin_quest_dialog_2_phrase_3",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.voronin_nagrada_1"
+        },
+        {
+          "type": "give_info",
+          "value": "voronin_spasibo"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I wish I had some money. I like money...",
+      "JA_current": "I wish I had some money. I like money...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_2_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "voronin_quest_dialog_2_phrase_4",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.voronin_nagrada_2"
+        },
+        {
+          "type": "give_info",
+          "value": "voronin_spasibo"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I want rare artifacts, and many of them.",
+      "JA_current": "I want rare artifacts, and many of them.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_2_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "voronin_quest_dialog_2_phrase_5",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.voronin_nagrada_3"
+        },
+        {
+          "type": "give_info",
+          "value": "voronin_spasibo"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Weapons AND armor? Sounds good to me!",
+      "JA_current": "Weapons AND armor? Sounds good to me!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_2_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "voronin_quest_dialog_2_phrase_6",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.voronin_nagrada_1"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.voronin_nagrada_2"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.voronin_nagrada_3"
+        },
+        {
+          "type": "give_info",
+          "value": "voronin_spasibo"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What do I want? Just to live another day...",
+      "JA_current": "What do I want? Just to live another day...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_2_phrase_6#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "packet_id": "dialog_0083__rujjo_vatnik_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "rujjo_vatnik_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml",
+  "graph_sha256": "0065cb49021f3d779d92b62bc9453bcaa767fa47933b73f8ecdd37c8a246e1ab",
+  "character_bindings": [
+    {
+      "profile_id": "military_trader",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_trader.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "mahno_quest_start"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "rujjo_vatnik_naydeni"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 10,
+  "entries": [
+    {
+      "key": "stable_dialogs_agroprom:rujjo_vatnik_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 453,
+      "string_id": "rujjo_vatnik_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Hey, Zadov. I have a question for you.",
+      "JA_current": "Hey, Zadov. I have a question for you.",
+      "JA_new": "なあ、ザドフ。聞きたいことがある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rujjo_vatnik_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:rujjo_vatnik_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 456,
+      "string_id": "rujjo_vatnik_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "What do you want?",
+      "JA_current": "What do you want?",
+      "JA_new": "何の用だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rujjo_vatnik_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:rujjo_vatnik_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 459,
+      "string_id": "rujjo_vatnik_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Some of your guys may have brought you a rifle and coat recently. If you have them, I want to take them from you.",
+      "JA_current": "Some of your guys may have brought you a rifle and coat recently. If you have them, I want to take them from you.",
+      "JA_new": "お前の部下が最近、ライフルと上着を持ち込まなかったか？ 持ってるなら、こっちに渡してほしい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rujjo_vatnik_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:rujjo_vatnik_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 462,
+      "string_id": "rujjo_vatnik_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Sharp as a fucking cue ball, aren't you?! What do you mean by \"take it\"? Think you'll get lucky with me? Try it!",
+      "JA_current": "Sharp as a fucking cue ball, aren't you?! What do you mean by \"take it\"? Think you'll get lucky with me? Try it!",
+      "JA_new": "お前、ビリヤードの球みたいに頭が回らないな？ 「渡せ」ってどういう意味だ？ 俺から奪えると思ってるのか？ やってみろ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rujjo_vatnik_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:rujjo_vatnik_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 465,
+      "string_id": "rujjo_vatnik_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Relax, soldier. It was a test to see if the things I needed were truly in your possession.",
+      "JA_current": "Relax, soldier. It was a test to see if the things I needed were truly in your possession.",
+      "JA_new": "落ち着け、兵士。必要な品を本当に持ってるか、確かめただけだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rujjo_vatnik_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:rujjo_vatnik_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 468,
+      "string_id": "rujjo_vatnik_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "What!?",
+      "JA_current": "What!?",
+      "JA_new": "何だと！？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rujjo_vatnik_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:rujjo_vatnik_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 471,
+      "string_id": "rujjo_vatnik_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "If you didn't have them, the first thing you'd say is that you don't have them. And if you started arguing right away, that means you do have them. Name your price.",
+      "JA_current": "If you didn't have them, the first thing you'd say is that you don't have them. And if you started arguing right away, that means you do have them. Name your price.",
+      "JA_new": "持ってなかったなら、まず「持ってない」と答えてたはずだ。いきなり言い返してきたってことは、持ってるんだろ。いくらだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rujjo_vatnik_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:rujjo_vatnik_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 474,
+      "string_id": "rujjo_vatnik_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "Huh, you're a sly one... All right, forget it. Pay the money for the stuff, it's worth it. Ten grand!",
+      "JA_current": "Huh, you're a sly one... All right, forget it. Pay the money for the stuff, it's worth it. Ten grand!",
+      "JA_new": "へえ、食えない奴だな……いいだろう。だったら買え。品物の値打ちはあるぞ。1万だ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rujjo_vatnik_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:rujjo_vatnik_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 477,
+      "string_id": "rujjo_vatnik_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "Come on, Zadov. They're worth a grand and a half, at best! An old, threadbare jacket and a rusty sawed-off shotgun? Who could possibly need them here? This is the best offer you're gonna get, take the grand and a half, hotshot.",
+      "JA_current": "Come on, Zadov. They're worth a grand and a half, at best! An old, threadbare jacket and a rusty sawed-off shotgun? Who could possibly need them here? This is the best offer you're gonna get, take the grand and a half, hotshot.",
+      "JA_new": "おい、ザドフ。せいぜい1500ルーブルってところだろ！ くたびれた古い上着と、錆びた短銃身の散弾銃だぞ？ こんな場所で誰が欲しがるんだ？ これ以上の条件は出ないぞ。1500受け取っておけ、偉そうな野郎。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rujjo_vatnik_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:rujjo_vatnik_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 480,
+      "string_id": "rujjo_vatnik_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "On second thought, I'm going to save the money.",
+      "JA_current": "On second thought, I'm going to save the money.",
+      "JA_new": "やっぱりやめた。金は取っておく。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rujjo_vatnik_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "rujjo_vatnik_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, Zadov. I have a question for you.",
+      "JA_current": "Hey, Zadov. I have a question for you.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:rujjo_vatnik_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "rujjo_vatnik_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What do you want?",
+      "JA_current": "What do you want?",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:rujjo_vatnik_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "rujjo_vatnik_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Some of your guys may have brought you a rifle and coat recently. If you have them, I want to take them from you.",
+      "JA_current": "Some of your guys may have brought you a rifle and coat recently. If you have them, I want to take them from you.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:rujjo_vatnik_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "rujjo_vatnik_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sharp as a fucking cue ball, aren't you?! What do you mean by \"take it\"? Think you'll get lucky with me? Try it!",
+      "JA_current": "Sharp as a fucking cue ball, aren't you?! What do you mean by \"take it\"? Think you'll get lucky with me? Try it!",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:rujjo_vatnik_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "rujjo_vatnik_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Relax, soldier. It was a test to see if the things I needed were truly in your possession.",
+      "JA_current": "Relax, soldier. It was a test to see if the things I needed were truly in your possession.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:rujjo_vatnik_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "rujjo_vatnik_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What!?",
+      "JA_current": "What!?",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:rujjo_vatnik_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "rujjo_vatnik_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "If you didn't have them, the first thing you'd say is that you don't have them. And if you started arguing right away, that means you do have them. Name your price.",
+      "JA_current": "If you didn't have them, the first thing you'd say is that you don't have them. And if you started arguing right away, that means you do have them. Name your price.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:rujjo_vatnik_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "rujjo_vatnik_dialog_phrase_8",
+      "next": [
+        "8",
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Huh, you're a sly one... All right, forget it. Pay the money for the stuff, it's worth it. Ten grand!",
+      "JA_current": "Huh, you're a sly one... All right, forget it. Pay the money for the stuff, it's worth it. Ten grand!",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:rujjo_vatnik_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "rujjo_vatnik_dialog_phrase_9",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_1500"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.rujjo_vatnik_give"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.out_1500"
+        },
+        {
+          "type": "give_info",
+          "value": "rujjo_vatnik_naydeni"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Come on, Zadov. They're worth a grand and a half, at best! An old, threadbare jacket and a rusty sawed-off shotgun? Who could possibly need them here? This is the best offer you're gonna get, take the grand and a half, hotshot.",
+      "JA_current": "Come on, Zadov. They're worth a grand and a half, at best! An old, threadbare jacket and a rusty sawed-off shotgun? Who could possibly need them here? This is the best offer you're gonna get, take the grand and a half, hotshot.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:rujjo_vatnik_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "rujjo_vatnik_dialog_phrase_10",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "On second thought, I'm going to save the money.",
+      "JA_current": "On second thought, I'm going to save the money.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:rujjo_vatnik_dialog_phrase_10#1"
+      ]
+    }
+  ]
+}

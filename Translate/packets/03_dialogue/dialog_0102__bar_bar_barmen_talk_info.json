@@ -1,0 +1,1068 @@
+{
+  "packet_id": "dialog_0102__bar_bar_barmen_talk_info",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_bar_barmen_talk_info",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_barman",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "bar_barman_stay_room"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 24,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_0#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 764,
+      "string_id": "bar_bar_barmen_talk_info_0",
+      "occurrence": 1,
+      "EN": "I want to know something.",
+      "JA_current": "何か知ってることはないか？",
+      "JA_new": "ちょっと聞きたいことがある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 767,
+      "string_id": "bar_bar_barmen_talk_info_1",
+      "occurrence": 1,
+      "EN": "What is it?",
+      "JA_current": "何をかな？",
+      "JA_new": "何だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 773,
+      "string_id": "bar_bar_barmen_talk_info_3",
+      "occurrence": 1,
+      "EN": "What do you know about Strelok?",
+      "JA_current": "Strelok については？",
+      "JA_new": "ストレロクについて何か知らないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 779,
+      "string_id": "bar_bar_barmen_talk_info_4",
+      "occurrence": 1,
+      "EN": "What do you know about a stalker they call Ghost?",
+      "JA_current": "Ghost と呼ばれるストーカーについては？",
+      "JA_new": "ゴーストって呼ばれてるストーカーについて、何か知らないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 788,
+      "string_id": "bar_bar_barmen_talk_info_6",
+      "occurrence": 1,
+      "EN": "What do you know about a stalker called Fang?",
+      "JA_current": "Fang っていうストーカーについては何か？",
+      "JA_new": "ファングってストーカーについて、何か知らないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 794,
+      "string_id": "bar_bar_barmen_talk_info_7",
+      "occurrence": 1,
+      "EN": "Tell me about the mobile science labs.",
+      "JA_current": "移動科学研究所について教えてくれ。",
+      "JA_new": "移動研究所について教えてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 800,
+      "string_id": "bar_bar_barmen_talk_info_8",
+      "occurrence": 1,
+      "EN": "What is the wish granter?",
+      "JA_current": "「望みを叶えるモノ」についてはどうだ？",
+      "JA_new": "願望機って何だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_10#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 770,
+      "string_id": "bar_bar_barmen_talk_info_10",
+      "occurrence": 1,
+      "EN": "Thank you.",
+      "JA_current": "ありがとう。",
+      "JA_new": "ありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_31#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 776,
+      "string_id": "bar_bar_barmen_talk_info_31",
+      "occurrence": 1,
+      "EN": "An experienced stalker as far as I know. He used to \"work\" through the northern exits from the Zone. He was hardly ever seen here but there are rumors that he took his group right into the center of the Zone.",
+      "JA_current": "知ってる限りじゃ、腕の立つストーカーってとこだ。奴さんゾーンから北の出口までで「仕事」をしていたようだ。ここいらじゃほとんど見掛けなかったが、奴のグループはゾーンの中心でたむろしていたという噂があるな。",
+      "JA_new": "腕の立つストーカーらしい。以前はゾーン北部の出口を使って仕事をしてた。ここで見かけることは滅多になかったが、仲間を率いてゾーンの中心まで行ったって噂だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "31",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_41#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 782,
+      "string_id": "bar_bar_barmen_talk_info_41",
+      "occurrence": 1,
+      "EN": "He's one of Strelok's men. They say he can sneak in anywhere without being noticed. I heard that he took out the leader of some crazy group... What was their name? Ah, 'Final Day', that's the one. They were pretty wild, those boys... Oh, by the way, I heard that Ghost is doing some work for the scientists, so if you're looking for him try by Lake Yantar at the mobile lab.",
+      "JA_current": "奴は Strelok の部下の1人だ。気づかれずにどこにでも侵入できるらしい。あるおかしな集団のリーダーだったと聞いている… 名前は何てったっけ？ ええと、「最後の日」だ、間違いない。まったく荒くれ連中だったよ… ところで、Ghost は科学者のためにある仕事をしていると耳に挟んだ。奴を探してるんなら、移動研究所のある Yantar 湖を調べてみるといい。",
+      "JA_new": "ストレロクの仲間の一人だ。気づかれずにどこへでも忍び込めるらしい。頭のおかしな連中のリーダーを始末したとも聞いたな……何て名前だったか？ ああ、「ファイナル・デイ」だ。かなり荒っぽい連中だったよ。そうそう、ゴーストは科学者の仕事を手伝ってるらしい。探してるなら、ヤンター湖の移動研究所へ行ってみな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "41",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_61#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 791,
+      "string_id": "bar_bar_barmen_talk_info_61",
+      "occurrence": 1,
+      "EN": "There was a man that went by that name, spoke with a lisp... He was a bit weird, that's for sure - talked to himself and stuff... But he seemed like an okay guy. I haven't seen him at the Bar for ages.",
+      "JA_current": "その名前で呼ばれていた、舌足らずの男がいたな… 奴はちょっと風変わりで、自分自身や持ち物に偏執的に語りかけてたよ… まぁ、とはいえ見る限りはまともな奴だった。長い間バーで見てないがな。",
+      "JA_new": "ファングって男がいたよ。少し舌足らずな喋り方で……確かにちょっと変わってたな。独り言を言ったりしてさ。でも悪い奴じゃなかった。もう何年もロストクじゃ見かけてないな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "61",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_71#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 797,
+      "string_id": "bar_bar_barmen_talk_info_71",
+      "occurrence": 1,
+      "EN": "Scientists set them up from time to time. Isolated metal bunkers with everything you need to live. We're in contact with one of these labs in Yantar. Scientists are good guys - they tell us a lot of interesting things and we help them out when we can... An exchange of sorts...",
+      "JA_current": "ときどき科学者たちが設置するんだよ。生きるために必要な全てを備えた、独立したメタル製のバンカーだ。このラボのうちの1つが、Yantar にある。科学者はいいヤツらだ ― 多くの興味ある事柄を教えてくれるし、出来る限り俺たちも支援している… ある種の取引だな…。",
+      "JA_new": "科学者たちは時々、移動研究所を設置するんだ。生活に必要なものがそろった、独立した金属製の施設だよ。ヤンターの研究所とは連絡を取ってる。科学者はいい人たちさ。面白い話を聞かせてくれるし、こっちもできる範囲で手を貸す……持ちつ持たれつってところだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "71",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_81#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 803,
+      "string_id": "bar_bar_barmen_talk_info_81",
+      "occurrence": 1,
+      "EN": "Oh! That's an interesting question... I wish I knew the answer. I can tell you the legend about the Granter if you want but you make up your own mind how much truth there's in it. Wanna hear it?",
+      "JA_current": "ほう！ いい質問だ… ホントのところを知らないのが残念だ。「望みを叶えるモノ」の伝説について聞きたいなら教えてやるが、どこまで本当かわかりゃしないのは覚悟しとけよ。聞きたいか？",
+      "JA_new": "へえ、面白い話だな……答えは俺にも分からん。よければ願望機の伝説なら話せるが、どこまで本当かは自分で判断しな。聞くか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "81",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_811#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 806,
+      "string_id": "bar_bar_barmen_talk_info_811",
+      "occurrence": 1,
+      "EN": "Sounds interesting, sure!",
+      "JA_current": "ああ、興味深いな。",
+      "JA_new": "面白そうだ。聞かせてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "811",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_812#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 830,
+      "string_id": "bar_bar_barmen_talk_info_812",
+      "occurrence": 1,
+      "EN": "I am more interested in other things at the moment.",
+      "JA_current": "俺は今は別のことに興味があるんだよ。",
+      "JA_new": "今はほかのことを聞きたい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "812",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_8111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 809,
+      "string_id": "bar_bar_barmen_talk_info_8111",
+      "occurrence": 1,
+      "EN": "This legend is about the Monolith, which may be what caused the Zone to appear. When the Zone exploded in 2006, they evacuated people living near it and the Zone itself was cordoned off by the Army. Everyone was panicking, nobody knew what was going on, the Zone was expanding and the field labs couldn't do anything! Loads of people died there. Everyone was afraid of the radiation which could affect half of Europe. After a few years had passed, some reckless guys like you appeared. They called themselves stalkers. They started to sneak past army cordons believing that there are things in the Zone that would make them rich. Bit by bit, they brought out weird things, artifacts and which eventually turned out a race for them. Scientists went after them like crazy. They paid fantastic money for just one trinket back then, not like now.",
+      "JA_current": "この伝説はモノリスに関するもので、そのモノリスがゾーンを発生させたのかもしれないという話だ。2006年にゾーンが爆発したとき、付近住民は避難させられ、軍はゾーンに非常線を張った。みんなパニックになったが、何が起こってるかを知ってる奴はいやしなかった。その上ゾーンはどんどん拡がって、国土研究所も手をこまねいてるだけだ。たくさんの人間がそこで死んだよ。みんな、ヨーロッパの半分を襲いかねない放射能にびくびくしてた。ところが2～3年も経つと、お前さんみたいな向こう見ずな連中が現れた。自らををストーカーと名乗ってな。奴ら軍の非常線を通って進入し始めたんだ。ゾーンには大金持ちになれる何かがあると信じて。少しずつ、奴らは奇妙なものを持ち帰った。つまりアーティファクトだな。そうなると当然、持ち帰ることが競争になった。科学者は狂ったようにストーカーの後に付いて行ったさ。今とは違って、科学者は屑みたいなもんにも大金を支払ったからな。",
+      "JA_new": "ゾーンを生み出したのはモノリスかもしれない、という伝説だ。2006年にゾーンが爆発した時、周辺の住民は避難させられ、ゾーンは軍に封鎖された。誰もが混乱して、何が起きたのか分からなかった。ゾーンは広がり続けるのに、現地の研究所には何もできなかったんだ！ 大勢が死んだ。放射能がヨーロッパの半分にまで影響するんじゃないかと、皆おびえてたよ。数年たつと、お前みたいな命知らずが現れた。自分たちをストーカーと呼び、ゾーンには大金になる物があると信じて、軍の封鎖線をかいくぐり始めたんだ。少しずつ奇妙な物やアーティファクトを持ち出すようになり、それを巡る争奪戦が始まった。科学者たちは必死になって追いかけたよ。当時は小さなガラクタ一つに、今じゃ考えられないほどの金を払ってた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "8111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_8121#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 833,
+      "string_id": "bar_bar_barmen_talk_info_8121",
+      "occurrence": 1,
+      "EN": "It's your business, man. What exactly do you want to know?",
+      "JA_current": "俺には関係ない。本当に知りたいのは何だ？",
+      "JA_new": "決めるのはお前だ。何を知りたい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "8121",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_81111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 812,
+      "string_id": "bar_bar_barmen_talk_info_81111",
+      "occurrence": 1,
+      "EN": "Go on...",
+      "JA_current": "ほう、それで？",
+      "JA_new": "続けてくれ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "81111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_811111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 815,
+      "string_id": "bar_bar_barmen_talk_info_811111",
+      "occurrence": 1,
+      "EN": "After a while, the first tales and legends about what's deep inside the Zone by the tumbledown nuclear power plant started to circulate. It was also then that one of the veterans told us the story of a Monolith that allegedly grants your wishes. You should have seen the hysteria: experienced, level-headed men started trying to break through to the center - everyone wanted something from the Monolith. We got some morbid details about the first stalker who made it through to the Monolith...",
+      "JA_current": "しばらくして、最初の物語と伝説が広まり始めた。荒れ果てた原子力発電所の傍、ゾーンの奥深くに何があるかっていうことだ。そんな頃ちょうど、ベテランの一人がこんなことも教えてくれた。「聞くところよると、モノリスは『望み』を叶えてくれるらしい」とな。そうなると、腕の立つ奴らや、集団のリーダーたちが、中心になんとか突入しようと試みはじめた。誰もがモノリスから何かを欲しがったからな。もしその場にいたら、ヒステリーみたいに病的な興奮を見物できただろうよ。そして、モノリスに辿り着いた最初のストーカーについての、身の毛もよだつ詳しい話を、俺たちは聞くことになった。",
+      "JA_new": "やがて、崩れた原子力発電所の奥深くに何があるのか、噂や伝説が広まり始めた。その頃、ベテランの一人が、願いを叶えるというモノリスの話をしてくれたんだ。あの騒ぎはすごかったよ。経験豊富で冷静な男たちまで、皆モノリスに何か願おうと、ゾーンの中心へ突破しようとしたんだ。最初にモノリスへたどり着いたストーカーについても、ぞっとするような話が伝わってきてな……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "811111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_8111111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 818,
+      "string_id": "bar_bar_barmen_talk_info_8111111",
+      "occurrence": 1,
+      "EN": "Go on... tell me more.",
+      "JA_current": "続けてくれ… もっと教えてくれ。",
+      "JA_new": "続けてくれ。もっと聞きたい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "8111111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_81111111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 821,
+      "string_id": "bar_bar_barmen_talk_info_81111111",
+      "occurrence": 1,
+      "EN": "When the Zone had just appeared many people were trapped inside and cut off from the outside world. Most of them died pretty quickly but there were a few lucky survivors who tried to do something about it. One of these survivors found himself by the station and noticed some strange light inside. With no way back he decided to try to get closer. He saw the broken roof of the sarcophagus and the light coming out through it. He climbed up the wall and looked inside. Among the debris of molten metal and crushed concrete there lay a massive black rock. It was the Monolith. The stalker managed to shake off the \"spell\" and realized that he had climbed very close to the sarcophagus, which was highly radioactive. He was scared to death but through the fear he could sense the Monolith calling to him. The Monolith called to him and he came to see strange, unbelievable things about the Monolith inside his head...",
+      "JA_current": "ゾーンが出来てすぐは、多くの人が中に閉じ込められ、外界から切り離されていた。多くのものはあっという間に死んだが、何とかしようとする幸運な生き残りも少しはいたんだ。そんな生き残りのひとりが気づいたら発電所の傍にいて、中に何か奇妙な光があるのを見つけた。帰り道もなかったから、彼は近づいてみることにした。石棺の破れた屋根とそこからあふれだす光を見つけた。壁を登り、中を覗き込むと、金属の破片と溶けたコンクリートの中に巨大な黒い岩が横たわっていた。それがモノリスだったんだよ。なんとかもっと傍に行ってみたいという欲求を断ち切った。すると、高放射線汚染されている石棺に、あまりに近いところまで登っていることに気がついた。彼は死を恐れたが、より恐ろしいのはモノリスが彼に呼びかけているような気がすることだった。そして、モノリスは彼に話し掛けた。モノリスに関する奇妙で信じられないことが、理解できるようになったというんだ、彼には…。",
+      "JA_new": "ゾーンが現れたばかりの頃、外の世界から切り離されて中に閉じ込められた人が大勢いた。ほとんどはすぐに死んだが、何とかしようとした幸運な生き残りもいた。その一人が発電所のそばにたどり着き、建物の中に妙な光を見つけた。戻る道もない。男は近づいてみることにした。石棺の壊れた屋根と、そこから漏れる光が見えた。壁をよじ登って中をのぞくと、溶けた金属や砕けたコンクリートの山の中に、巨大な黒い岩が横たわっていた。それがモノリスだった。ストーカーは「幻惑」から抜け出し、自分が放射能の強い石棺のすぐ近くまで登っていたことに気づいた。死ぬほど怖かったが、その恐怖の中でもモノリスに呼ばれている気がした。モノリスの声に導かれ、頭の中に奇妙で信じがたい光景が浮かんできた……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "81111111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_811111111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 824,
+      "string_id": "bar_bar_barmen_talk_info_811111111",
+      "occurrence": 1,
+      "EN": "Cool...",
+      "JA_current": "すごいな…。",
+      "JA_new": "すごいな……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "811111111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_811111112#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 827,
+      "string_id": "bar_bar_barmen_talk_info_811111112",
+      "occurrence": 1,
+      "EN": "I don't know what's true in this story and what's not but the point is the guy made a wish which came true, while the Zone grew by 5 kilometers. It seems the Zone gobbles up more land for every wish that is granted... But that ain't gonna stop hotshots like you. They keep trying to break through with their precious little wishes in their hearts...",
+      "JA_current": "無論、俺には何が本当で何がそうじゃないのかなんて知らない。だが重要なのは、ゾーンが5kmの大きさになった一方で、奴の「望み」が本当に叶ったことさ。すべての願いを叶えるために、ゾーンはより多くの土地を食い尽くすらしい… こんなこと言ってから何なんだが、お前さんみたいに有能な奴を止めるつもりはねぇよ。ちっぽけだが大切な「望み」をもって成功しようとチャレンジしてんだからな。",
+      "JA_new": "この話のどこまでが本当かは分からない。肝心なのは、その男が願いを口にすると現実になり、その一方でゾーンが5キロ広がったってことだ。願いが一つ叶うたびに、ゾーンが土地を飲み込んでいくように見える……それでも、お前みたいな向こう見ずは止まらない。胸に願いを抱いて、中心へ行こうとするんだよ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "811111112",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_barmen_talk_info_51#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 785,
+      "string_id": "bar_bar_barmen_talk_info_51",
+      "occurrence": 1,
+      "EN": "He's an old stalker in retirement. He lives in the marshes, I'll mark it on the map for you. He used to be in Strelok's group back in the day.",
+      "JA_current": "奴は引退した古参ストーカーだ。沼地に住んでいるから、位置をマップにマークしておこう。あの当時は Strelok のグループにいたよ。",
+      "JA_new": "年を取って引退したストーカーだ。今は沼地に住んでる。地図に印をつけてやるよ。昔はストレロクの一団にいた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_barmen_talk_info",
+          "phrase_id": "51",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bar_bar_barmen_talk_info_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I want to know something.",
+      "JA_current": "何か知ってることはないか？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "bar_bar_barmen_talk_info_1",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What is it?",
+      "JA_current": "何をかな？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_1#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": null,
+      "next": [
+        "111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "51",
+        "61",
+        "8121",
+        "811111112",
+        "71",
+        "1",
+        "31",
+        "41"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "111",
+      "text_id": null,
+      "next": [
+        "3",
+        "4",
+        "6",
+        "7",
+        "8",
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "bar_bar_barmen_talk_info_3",
+      "next": [
+        "31"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What do you know about Strelok?",
+      "JA_current": "Strelok については？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "bar_bar_barmen_talk_info_4",
+      "next": [
+        "41"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What do you know about a stalker they call Ghost?",
+      "JA_current": "Ghost と呼ばれるストーカーについては？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_4#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "bar_bar_barmen_talk_info_6",
+      "next": [
+        "61"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What do you know about a stalker called Fang?",
+      "JA_current": "Fang っていうストーカーについては何か？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_6#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "bar_bar_barmen_talk_info_7",
+      "next": [
+        "71"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "bar_decoding_start"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Tell me about the mobile science labs.",
+      "JA_current": "移動科学研究所について教えてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_7#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "bar_bar_barmen_talk_info_8",
+      "next": [
+        "81"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What is the wish granter?",
+      "JA_current": "「望みを叶えるモノ」についてはどうだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_8#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "bar_bar_barmen_talk_info_10",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you.",
+      "JA_current": "ありがとう。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_10#1"
+      ]
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "bar_bar_barmen_talk_info_31",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "An experienced stalker as far as I know. He used to \"work\" through the northern exits from the Zone. He was hardly ever seen here but there are rumors that he took his group right into the center of the Zone.",
+      "JA_current": "知ってる限りじゃ、腕の立つストーカーってとこだ。奴さんゾーンから北の出口までで「仕事」をしていたようだ。ここいらじゃほとんど見掛けなかったが、奴のグループはゾーンの中心でたむろしていたという噂があるな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_31#1"
+      ]
+    },
+    {
+      "phrase_id": "41",
+      "text_id": "bar_bar_barmen_talk_info_41",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "He's one of Strelok's men. They say he can sneak in anywhere without being noticed. I heard that he took out the leader of some crazy group... What was their name? Ah, 'Final Day', that's the one. They were pretty wild, those boys... Oh, by the way, I heard that Ghost is doing some work for the scientists, so if you're looking for him try by Lake Yantar at the mobile lab.",
+      "JA_current": "奴は Strelok の部下の1人だ。気づかれずにどこにでも侵入できるらしい。あるおかしな集団のリーダーだったと聞いている… 名前は何てったっけ？ ええと、「最後の日」だ、間違いない。まったく荒くれ連中だったよ… ところで、Ghost は科学者のためにある仕事をしていると耳に挟んだ。奴を探してるんなら、移動研究所のある Yantar 湖を調べてみるといい。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_41#1"
+      ]
+    },
+    {
+      "phrase_id": "61",
+      "text_id": "bar_bar_barmen_talk_info_61",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "There was a man that went by that name, spoke with a lisp... He was a bit weird, that's for sure - talked to himself and stuff... But he seemed like an okay guy. I haven't seen him at the Bar for ages.",
+      "JA_current": "その名前で呼ばれていた、舌足らずの男がいたな… 奴はちょっと風変わりで、自分自身や持ち物に偏執的に語りかけてたよ… まぁ、とはいえ見る限りはまともな奴だった。長い間バーで見てないがな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_61#1"
+      ]
+    },
+    {
+      "phrase_id": "71",
+      "text_id": "bar_bar_barmen_talk_info_71",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Scientists set them up from time to time. Isolated metal bunkers with everything you need to live. We're in contact with one of these labs in Yantar. Scientists are good guys - they tell us a lot of interesting things and we help them out when we can... An exchange of sorts...",
+      "JA_current": "ときどき科学者たちが設置するんだよ。生きるために必要な全てを備えた、独立したメタル製のバンカーだ。このラボのうちの1つが、Yantar にある。科学者はいいヤツらだ ― 多くの興味ある事柄を教えてくれるし、出来る限り俺たちも支援している… ある種の取引だな…。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_71#1"
+      ]
+    },
+    {
+      "phrase_id": "81",
+      "text_id": "bar_bar_barmen_talk_info_81",
+      "next": [
+        "811",
+        "812"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh! That's an interesting question... I wish I knew the answer. I can tell you the legend about the Granter if you want but you make up your own mind how much truth there's in it. Wanna hear it?",
+      "JA_current": "ほう！ いい質問だ… ホントのところを知らないのが残念だ。「望みを叶えるモノ」の伝説について聞きたいなら教えてやるが、どこまで本当かわかりゃしないのは覚悟しとけよ。聞きたいか？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_81#1"
+      ]
+    },
+    {
+      "phrase_id": "811",
+      "text_id": "bar_bar_barmen_talk_info_811",
+      "next": [
+        "8111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "81"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sounds interesting, sure!",
+      "JA_current": "ああ、興味深いな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_811#1"
+      ]
+    },
+    {
+      "phrase_id": "812",
+      "text_id": "bar_bar_barmen_talk_info_812",
+      "next": [
+        "8121"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "81"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I am more interested in other things at the moment.",
+      "JA_current": "俺は今は別のことに興味があるんだよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_812#1"
+      ]
+    },
+    {
+      "phrase_id": "8111",
+      "text_id": "bar_bar_barmen_talk_info_8111",
+      "next": [
+        "81111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "811"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "This legend is about the Monolith, which may be what caused the Zone to appear. When the Zone exploded in 2006, they evacuated people living near it and the Zone itself was cordoned off by the Army. Everyone was panicking, nobody knew what was going on, the Zone was expanding and the field labs couldn't do anything! Loads of people died there. Everyone was afraid of the radiation which could affect half of Europe. After a few years had passed, some reckless guys like you appeared. They called themselves stalkers. They started to sneak past army cordons believing that there are things in the Zone that would make them rich. Bit by bit, they brought out weird things, artifacts and which eventually turned out a race for them. Scientists went after them like crazy. They paid fantastic money for just one trinket back then, not like now.",
+      "JA_current": "この伝説はモノリスに関するもので、そのモノリスがゾーンを発生させたのかもしれないという話だ。2006年にゾーンが爆発したとき、付近住民は避難させられ、軍はゾーンに非常線を張った。みんなパニックになったが、何が起こってるかを知ってる奴はいやしなかった。その上ゾーンはどんどん拡がって、国土研究所も手をこまねいてるだけだ。たくさんの人間がそこで死んだよ。みんな、ヨーロッパの半分を襲いかねない放射能にびくびくしてた。ところが2～3年も経つと、お前さんみたいな向こう見ずな連中が現れた。自らををストーカーと名乗ってな。奴ら軍の非常線を通って進入し始めたんだ。ゾーンには大金持ちになれる何かがあると信じて。少しずつ、奴らは奇妙なものを持ち帰った。つまりアーティファクトだな。そうなると当然、持ち帰ることが競争になった。科学者は狂ったようにストーカーの後に付いて行ったさ。今とは違って、科学者は屑みたいなもんにも大金を支払ったからな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_8111#1"
+      ]
+    },
+    {
+      "phrase_id": "8121",
+      "text_id": "bar_bar_barmen_talk_info_8121",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "812"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It's your business, man. What exactly do you want to know?",
+      "JA_current": "俺には関係ない。本当に知りたいのは何だ？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_8121#1"
+      ]
+    },
+    {
+      "phrase_id": "81111",
+      "text_id": "bar_bar_barmen_talk_info_81111",
+      "next": [
+        "811111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Go on...",
+      "JA_current": "ほう、それで？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_81111#1"
+      ]
+    },
+    {
+      "phrase_id": "811111",
+      "text_id": "bar_bar_barmen_talk_info_811111",
+      "next": [
+        "8111111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "81111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "After a while, the first tales and legends about what's deep inside the Zone by the tumbledown nuclear power plant started to circulate. It was also then that one of the veterans told us the story of a Monolith that allegedly grants your wishes. You should have seen the hysteria: experienced, level-headed men started trying to break through to the center - everyone wanted something from the Monolith. We got some morbid details about the first stalker who made it through to the Monolith...",
+      "JA_current": "しばらくして、最初の物語と伝説が広まり始めた。荒れ果てた原子力発電所の傍、ゾーンの奥深くに何があるかっていうことだ。そんな頃ちょうど、ベテランの一人がこんなことも教えてくれた。「聞くところよると、モノリスは『望み』を叶えてくれるらしい」とな。そうなると、腕の立つ奴らや、集団のリーダーたちが、中心になんとか突入しようと試みはじめた。誰もがモノリスから何かを欲しがったからな。もしその場にいたら、ヒステリーみたいに病的な興奮を見物できただろうよ。そして、モノリスに辿り着いた最初のストーカーについての、身の毛もよだつ詳しい話を、俺たちは聞くことになった。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_811111#1"
+      ]
+    },
+    {
+      "phrase_id": "8111111",
+      "text_id": "bar_bar_barmen_talk_info_8111111",
+      "next": [
+        "81111111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "811111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Go on... tell me more.",
+      "JA_current": "続けてくれ… もっと教えてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_8111111#1"
+      ]
+    },
+    {
+      "phrase_id": "81111111",
+      "text_id": "bar_bar_barmen_talk_info_81111111",
+      "next": [
+        "811111111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8111111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "When the Zone had just appeared many people were trapped inside and cut off from the outside world. Most of them died pretty quickly but there were a few lucky survivors who tried to do something about it. One of these survivors found himself by the station and noticed some strange light inside. With no way back he decided to try to get closer. He saw the broken roof of the sarcophagus and the light coming out through it. He climbed up the wall and looked inside. Among the debris of molten metal and crushed concrete there lay a massive black rock. It was the Monolith. The stalker managed to shake off the \"spell\" and realized that he had climbed very close to the sarcophagus, which was highly radioactive. He was scared to death but through the fear he could sense the Monolith calling to him. The Monolith called to him and he came to see strange, unbelievable things about the Monolith inside his head...",
+      "JA_current": "ゾーンが出来てすぐは、多くの人が中に閉じ込められ、外界から切り離されていた。多くのものはあっという間に死んだが、何とかしようとする幸運な生き残りも少しはいたんだ。そんな生き残りのひとりが気づいたら発電所の傍にいて、中に何か奇妙な光があるのを見つけた。帰り道もなかったから、彼は近づいてみることにした。石棺の破れた屋根とそこからあふれだす光を見つけた。壁を登り、中を覗き込むと、金属の破片と溶けたコンクリートの中に巨大な黒い岩が横たわっていた。それがモノリスだったんだよ。なんとかもっと傍に行ってみたいという欲求を断ち切った。すると、高放射線汚染されている石棺に、あまりに近いところまで登っていることに気がついた。彼は死を恐れたが、より恐ろしいのはモノリスが彼に呼びかけているような気がすることだった。そして、モノリスは彼に話し掛けた。モノリスに関する奇妙で信じられないことが、理解できるようになったというんだ、彼には…。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_81111111#1"
+      ]
+    },
+    {
+      "phrase_id": "811111111",
+      "text_id": "bar_bar_barmen_talk_info_811111111",
+      "next": [
+        "811111112"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "81111111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Cool...",
+      "JA_current": "すごいな…。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_811111111#1"
+      ]
+    },
+    {
+      "phrase_id": "811111112",
+      "text_id": "bar_bar_barmen_talk_info_811111112",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "811111111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I don't know what's true in this story and what's not but the point is the guy made a wish which came true, while the Zone grew by 5 kilometers. It seems the Zone gobbles up more land for every wish that is granted... But that ain't gonna stop hotshots like you. They keep trying to break through with their precious little wishes in their hearts...",
+      "JA_current": "無論、俺には何が本当で何がそうじゃないのかなんて知らない。だが重要なのは、ゾーンが5kmの大きさになった一方で、奴の「望み」が本当に叶ったことさ。すべての願いを叶えるために、ゾーンはより多くの土地を食い尽くすらしい… こんなこと言ってから何なんだが、お前さんみたいに有能な奴を止めるつもりはねぇよ。ちっぽけだが大切な「望み」をもって成功しようとチャレンジしてんだからな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_811111112#1"
+      ]
+    },
+    {
+      "phrase_id": "51",
+      "text_id": "bar_bar_barmen_talk_info_51",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "He's an old stalker in retirement. He lives in the marshes, I'll mark it on the map for you. He used to be in Strelok's group back in the day.",
+      "JA_current": "奴は引退した古参ストーカーだ。沼地に住んでいるから、位置をマップにマークしておこう。あの当時は Strelok のグループにいたよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_barmen_talk_info_51#1"
+      ]
+    }
+  ]
+}

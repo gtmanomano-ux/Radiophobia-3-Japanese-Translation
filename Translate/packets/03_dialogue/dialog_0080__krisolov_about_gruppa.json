@@ -1,0 +1,661 @@
+{
+  "packet_id": "dialog_0080__krisolov_about_gruppa",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "krisolov_about_gruppa",
+  "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml",
+  "graph_sha256": "0065cb49021f3d779d92b62bc9453bcaa767fa47933b73f8ecdd37c8a246e1ab",
+  "character_bindings": [
+    {
+      "profile_id": "agr_stalker_krisolov",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_agroprom.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "infa_ot_diggera"
+    },
+    {
+      "type": "has_info",
+      "value": "razgovor_s_krotom"
+    }
+  ],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 15,
+  "entries": [
+    {
+      "key": "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_1#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 335,
+      "string_id": "krisolov_about_gruppa_phrase_1",
+      "occurrence": 1,
+      "EN": "Whew, man, thank you so much for coming down here! I'm not sure I would have made it if you didn't distract that fucker..",
+      "JA_current": "Whew, man, thank you so much for coming down here! I'm not sure I would have made it if you didn't distract that fucker..",
+      "JA_new": "助かったよ。ここまで降りてきてくれて本当にありがとう！ あんたがあの化け物を引きつけてくれなかったら、どうなってたか……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "krisolov_about_gruppa",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_2#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 338,
+      "string_id": "krisolov_about_gruppa_phrase_2",
+      "occurrence": 1,
+      "EN": "You're welcome. Greetings to you from Makhnovec.",
+      "JA_current": "You're welcome. Greetings to you from Makhnovec.",
+      "JA_new": "どういたしまして。マフノヴェツからの挨拶を預かってる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "krisolov_about_gruppa",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_3#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 341,
+      "string_id": "krisolov_about_gruppa_phrase_3",
+      "occurrence": 1,
+      "EN": "Ah, Makhno sent you? Guess I owe him. So, what did you want?",
+      "JA_current": "Ah, Makhno sent you? Guess I owe him. So, what did you want?",
+      "JA_new": "ああ、マフノがあんたを寄こしたのか。借りができたな。それで、何の用だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "krisolov_about_gruppa",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_4#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 344,
+      "string_id": "krisolov_about_gruppa_phrase_4",
+      "occurrence": 1,
+      "EN": "My name is Marked One, and I'm looking for information about a man, or rather a group of men. Apparently they came to you a few days ago and asked you to guide them around the underground here. They were looking for a stalker named Strelok.",
+      "JA_current": "My name is Marked One, and I'm looking for information about a man, or rather a group of men. Apparently they came to you a few days ago and asked you to guide them around the underground here. They were looking for a stalker named Strelok.",
+      "JA_new": "俺はマークド・ワンだ。ある男……というより、何人かについて情報を探してる。数日前、あんたのところへ来て、地下道を案内してくれと頼んだらしい。ストレロクというストーカーを探してた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "krisolov_about_gruppa",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_5#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 347,
+      "string_id": "krisolov_about_gruppa_phrase_5",
+      "occurrence": 1,
+      "EN": "Oh yeah, I remember those guys... Although I sincerely wish I had never met them!",
+      "JA_current": "Oh yeah, I remember those guys... Although I sincerely wish I had never met them!",
+      "JA_new": "ああ、あの連中なら覚えてる……できれば会いたくなかったがな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "krisolov_about_gruppa",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_6#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 350,
+      "string_id": "krisolov_about_gruppa_phrase_6",
+      "occurrence": 1,
+      "EN": "What's wrong with them?",
+      "JA_current": "What's wrong with them?",
+      "JA_new": "何があった？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "krisolov_about_gruppa",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_7#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 353,
+      "string_id": "krisolov_about_gruppa_phrase_7",
+      "occurrence": 1,
+      "EN": "They are the reason I'm squatting down here in this dead end. Man, how I regret taking on that job.",
+      "JA_current": "They are the reason I'm squatting down here in this dead end. Man, how I regret taking on that job.",
+      "JA_new": "あいつらのせいで、俺はこの行き止まりに身を潜める羽目になった。あの仕事を引き受けたのを、どれだけ後悔してるか……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "krisolov_about_gruppa",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_8#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 356,
+      "string_id": "krisolov_about_gruppa_phrase_8",
+      "occurrence": 1,
+      "EN": "What happened?",
+      "JA_current": "What happened?",
+      "JA_new": "何が起きた？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "krisolov_about_gruppa",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_9#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 359,
+      "string_id": "krisolov_about_gruppa_phrase_9",
+      "occurrence": 1,
+      "EN": "Well, it's like this. Got approached at camp to act as a guide for this group of loners, looked like newbies to me but they were paying really well. The other stalkers overheard and wanted in on the job, but those \"rookies\" scared them off with warning shots, real ice cold... In the end I went down solo with two of these guys. I hadn't seen them around before, nobody has. They called each other by code, something like First, Third or Fifth - I don't remember. It turned out that those guys wanted Strelok's stash. They were also looking for Strelok himself, they even asked me if I'd seen him. They showed me a description of him. Kinda reminds me of you a little bit... Anyway, we searched the basements for a while and ran into all sorts of nasty things. All that gunfire drew some attention from above, we heard some voices and heavy boots in the tunnels ahead. Soon turned out it was a squad of soldiers, they often send patrols down to make sure no one creeps up under their base, and our gunfire drew them in. We decided then to call it a day and retreat the way we came, only to get jumped by bandits! They must have followed us in thinking we'd be easy prey. To put simply, we were pinned down from both sides.",
+      "JA_current": "Well, it's like this. Got approached at camp to act as a guide for this group of loners, looked like newbies to me but they were paying really well. The other stalkers overheard and wanted in on the job, but those \"rookies\" scared them off with warning shots, real ice cold... In the end I went down solo with two of these guys. I hadn't seen them around before, nobody has. They called each other by code, something like First, Third or Fifth - I don't remember. It turned out that those guys wanted Strelok's stash. They were also looking for Strelok himself, they even asked me if I'd seen him. They showed me a description of him. Kinda reminds me of you a little bit... Anyway, we searched the basements for a while and ran into all sorts of nasty things. All that gunfire drew some attention from above, we heard some voices and heavy boots in the tunnels ahead. Soon turned out it was a squad of soldiers, they often send patrols down to make sure no one creeps up under their base, and our gunfire drew them in. We decided then to call it a day and retreat the way we came, only to get jumped by bandits! They must have followed us in thinking we'd be easy prey. To put simply, we were pinned down from both sides.",
+      "JA_new": "こういうことだ。キャンプで、ローナーの一団を案内してくれと頼まれた。新人に見えたが、報酬はかなりよかった。他のストーカーたちも話を聞きつけて仕事に加わろうとしたが、あの「新人」たちは警告射撃で追い払った。冷徹な連中だったよ。結局、俺はそのうち二人と、ひとりで地下へ降りた。見たことのない顔だったし、周りの奴らも知らなかった。互いをコードネームで呼んでたな。ファースト、サード、フィフス……だったか、もう覚えてない。あいつらの目的はストレロクの隠し物資だった。本人も探していて、俺に見かけなかったかと聞いてきた。顔の特徴まで見せられたよ。あんたに少し似てたな……。それからしばらく地下室を探し回って、厄介なものにいくつも出くわした。銃声を聞きつけたのか、上のほうから声と、トンネルの先を歩く重い足音が聞こえた。すぐに軍の部隊だと分かったよ。基地の下に誰かが忍び込まないよう、連中はよく地下を巡回してる。俺たちの銃声で気づかれたんだ。そこで切り上げて、来た道を戻ることにした。ところが今度はバンディットに襲われた。簡単な獲物だと思って、後をつけてきたんだろう。つまり、前後から挟まれたってわけだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "krisolov_about_gruppa",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_10#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 362,
+      "string_id": "krisolov_about_gruppa_phrase_10",
+      "occurrence": 1,
+      "EN": "Interesting situation!",
+      "JA_current": "Interesting situation!",
+      "JA_new": "話を聞くぶんには面白い状況だな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "krisolov_about_gruppa",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_11#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 365,
+      "string_id": "krisolov_about_gruppa_phrase_11",
+      "occurrence": 1,
+      "EN": "Of course, it's interesting to you as a listener, but can you imagine what it was really like? Anyway, we traded fire and ran into one of the side corridors, when those two guys decided to break away on their own. They mentioned to each other retreating and going to see some sort of \"agent\", seeing as how the underground would be swarming with the army soon. I knew what was coming so I found this little alcove here and decided to bunker down until things quiet down. So, here I sat, for a long time, until you came and caused more chaos.",
+      "JA_current": "Of course, it's interesting to you as a listener, but can you imagine what it was really like? Anyway, we traded fire and ran into one of the side corridors, when those two guys decided to break away on their own. They mentioned to each other retreating and going to see some sort of \"agent\", seeing as how the underground would be swarming with the army soon. I knew what was coming so I found this little alcove here and decided to bunker down until things quiet down. So, here I sat, for a long time, until you came and caused more chaos.",
+      "JA_new": "聞いてる側にはな。実際どんな目に遭ったか想像できるか？ 銃撃戦になって脇道へ逃げ込んだところで、あの二人が別行動を始めた。互いに、引き返して「工作員」に会うと言ってたよ。地下道はすぐに軍でいっぱいになるからってな。俺はこの先どうなるか分かってた。そこで、ここの小さな横穴に身を潜めて、騒ぎが収まるのを待つことにした。長いことここにいたよ。あんたが来て、また騒ぎを起こすまではな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "krisolov_about_gruppa",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_12#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 368,
+      "string_id": "krisolov_about_gruppa_phrase_12",
+      "occurrence": 1,
+      "EN": "I see, so they said they were going to see an agent. Did they say where the agent was?",
+      "JA_current": "I see, so they said they were going to see an agent. Did they say where the agent was?",
+      "JA_new": "なるほど、それで工作員に会うと言ってたのか。どこにいるか聞かなかったのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "krisolov_about_gruppa",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_13#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 371,
+      "string_id": "krisolov_about_gruppa_phrase_13",
+      "occurrence": 1,
+      "EN": "No, they didn't.",
+      "JA_current": "No, they didn't.",
+      "JA_new": "いや、聞いてない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "krisolov_about_gruppa",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_14#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 374,
+      "string_id": "krisolov_about_gruppa_phrase_14",
+      "occurrence": 1,
+      "EN": "Doesn't matter, I think I know where to look.",
+      "JA_current": "Doesn't matter, I think I know where to look.",
+      "JA_new": "まあいい。どこを探せばいいか、見当はついてる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "krisolov_about_gruppa",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_15#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 377,
+      "string_id": "krisolov_about_gruppa_phrase_15",
+      "occurrence": 1,
+      "EN": "Thank you again, Marked One! I owe you. I'm short on ammo so I'll sit tight for a while and let you clear a path for me, if you don't mind?",
+      "JA_current": "Thank you again, Marked One! I owe you. I'm short on ammo so I'll sit tight for a while and let you clear a path for me, if you don't mind?",
+      "JA_new": "改めて礼を言うよ、マークド・ワン！ 借りができたな。弾が少ないから、しばらくここで待たせてくれ。あんたに先の道を片づけてもらいたいんだ。いいか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "krisolov_about_gruppa",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "krisolov_about_gruppa_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.krisolov_scare"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Whew, man, thank you so much for coming down here! I'm not sure I would have made it if you didn't distract that fucker..",
+      "JA_current": "Whew, man, thank you so much for coming down here! I'm not sure I would have made it if you didn't distract that fucker..",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "krisolov_about_gruppa_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You're welcome. Greetings to you from Makhnovec.",
+      "JA_current": "You're welcome. Greetings to you from Makhnovec.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "krisolov_about_gruppa_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Ah, Makhno sent you? Guess I owe him. So, what did you want?",
+      "JA_current": "Ah, Makhno sent you? Guess I owe him. So, what did you want?",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "krisolov_about_gruppa_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "My name is Marked One, and I'm looking for information about a man, or rather a group of men. Apparently they came to you a few days ago and asked you to guide them around the underground here. They were looking for a stalker named Strelok.",
+      "JA_current": "My name is Marked One, and I'm looking for information about a man, or rather a group of men. Apparently they came to you a few days ago and asked you to guide them around the underground here. They were looking for a stalker named Strelok.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "krisolov_about_gruppa_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh yeah, I remember those guys... Although I sincerely wish I had never met them!",
+      "JA_current": "Oh yeah, I remember those guys... Although I sincerely wish I had never met them!",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "krisolov_about_gruppa_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What's wrong with them?",
+      "JA_current": "What's wrong with them?",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "krisolov_about_gruppa_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "They are the reason I'm squatting down here in this dead end. Man, how I regret taking on that job.",
+      "JA_current": "They are the reason I'm squatting down here in this dead end. Man, how I regret taking on that job.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "krisolov_about_gruppa_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What happened?",
+      "JA_current": "What happened?",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "krisolov_about_gruppa_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, it's like this. Got approached at camp to act as a guide for this group of loners, looked like newbies to me but they were paying really well. The other stalkers overheard and wanted in on the job, but those \"rookies\" scared them off with warning shots, real ice cold... In the end I went down solo with two of these guys. I hadn't seen them around before, nobody has. They called each other by code, something like First, Third or Fifth - I don't remember. It turned out that those guys wanted Strelok's stash. They were also looking for Strelok himself, they even asked me if I'd seen him. They showed me a description of him. Kinda reminds me of you a little bit... Anyway, we searched the basements for a while and ran into all sorts of nasty things. All that gunfire drew some attention from above, we heard some voices and heavy boots in the tunnels ahead. Soon turned out it was a squad of soldiers, they often send patrols down to make sure no one creeps up under their base, and our gunfire drew them in. We decided then to call it a day and retreat the way we came, only to get jumped by bandits! They must have followed us in thinking we'd be easy prey. To put simply, we were pinned down from both sides.",
+      "JA_current": "Well, it's like this. Got approached at camp to act as a guide for this group of loners, looked like newbies to me but they were paying really well. The other stalkers overheard and wanted in on the job, but those \"rookies\" scared them off with warning shots, real ice cold... In the end I went down solo with two of these guys. I hadn't seen them around before, nobody has. They called each other by code, something like First, Third or Fifth - I don't remember. It turned out that those guys wanted Strelok's stash. They were also looking for Strelok himself, they even asked me if I'd seen him. They showed me a description of him. Kinda reminds me of you a little bit... Anyway, we searched the basements for a while and ran into all sorts of nasty things. All that gunfire drew some attention from above, we heard some voices and heavy boots in the tunnels ahead. Soon turned out it was a squad of soldiers, they often send patrols down to make sure no one creeps up under their base, and our gunfire drew them in. We decided then to call it a day and retreat the way we came, only to get jumped by bandits! They must have followed us in thinking we'd be easy prey. To put simply, we were pinned down from both sides.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "krisolov_about_gruppa_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Interesting situation!",
+      "JA_current": "Interesting situation!",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "krisolov_about_gruppa_phrase_11",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Of course, it's interesting to you as a listener, but can you imagine what it was really like? Anyway, we traded fire and ran into one of the side corridors, when those two guys decided to break away on their own. They mentioned to each other retreating and going to see some sort of \"agent\", seeing as how the underground would be swarming with the army soon. I knew what was coming so I found this little alcove here and decided to bunker down until things quiet down. So, here I sat, for a long time, until you came and caused more chaos.",
+      "JA_current": "Of course, it's interesting to you as a listener, but can you imagine what it was really like? Anyway, we traded fire and ran into one of the side corridors, when those two guys decided to break away on their own. They mentioned to each other retreating and going to see some sort of \"agent\", seeing as how the underground would be swarming with the army soon. I knew what was coming so I found this little alcove here and decided to bunker down until things quiet down. So, here I sat, for a long time, until you came and caused more chaos.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "krisolov_about_gruppa_phrase_12",
+      "next": [
+        "12"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I see, so they said they were going to see an agent. Did they say where the agent was?",
+      "JA_current": "I see, so they said they were going to see an agent. Did they say where the agent was?",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_12#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "krisolov_about_gruppa_phrase_13",
+      "next": [
+        "13"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, they didn't.",
+      "JA_current": "No, they didn't.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_13#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "krisolov_about_gruppa_phrase_14",
+      "next": [
+        "14"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Doesn't matter, I think I know where to look.",
+      "JA_current": "Doesn't matter, I think I know where to look.",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_14#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "krisolov_about_gruppa_phrase_15",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "infa_ot_diggera"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you again, Marked One! I owe you. I'm short on ammo so I'll sit tight for a while and let you clear a path for me, if you don't mind?",
+      "JA_current": "Thank you again, Marked One! I owe you. I'm short on ammo so I'll sit tight for a while and let you clear a path for me, if you don't mind?",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:krisolov_about_gruppa_phrase_15#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "packet_id": "dialog_0283__escape_trader_actor_set_zombied",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "escape_trader_actor_set_zombied",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "escape_trader",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "actor_set_zombied"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 7,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:escape_trader_actor_set_zombied_0#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1783,
+      "string_id": "escape_trader_actor_set_zombied_0",
+      "occurrence": 1,
+      "EN": "Sid... Sid..oooo...rich, heeeelp...",
+      "JA_current": "Sid... Sid..oooo...rich, heeeelp...",
+      "JA_new": "シド……シドォ……リッチ、たすけて……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_actor_set_zombied",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_actor_set_zombied_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1786,
+      "string_id": "escape_trader_actor_set_zombied_1",
+      "occurrence": 1,
+      "EN": "Marked one? What the fuck?! GUARD!!! WHAT AM I PAYING YOU FOR!?",
+      "JA_current": "Marked one? What the fuck?! GUARD!!! WHAT AM I PAYING YOU FOR!?",
+      "JA_new": "印付き？ なんだそりゃ！？ 警備！ 何のために雇ってると思ってるんだ！？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_actor_set_zombied",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_actor_set_zombied_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1789,
+      "string_id": "escape_trader_actor_set_zombied_2",
+      "occurrence": 1,
+      "EN": "Heeeeelp...",
+      "JA_current": "Heeeeelp...",
+      "JA_new": "たすけてぇ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_actor_set_zombied",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_actor_set_zombied_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1792,
+      "string_id": "escape_trader_actor_set_zombied_3",
+      "occurrence": 1,
+      "EN": "Wait.. You can speak?? Do you... Do you still recognize me?",
+      "JA_current": "Wait.. You can speak?? Do you... Do you still recognize me?",
+      "JA_new": "待て……喋れるのか？ お前……まだ俺が誰だか分かるのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_actor_set_zombied",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_actor_set_zombied_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1795,
+      "string_id": "escape_trader_actor_set_zombied_4",
+      "occurrence": 1,
+      "EN": "Yoooou... Siiid..rich...",
+      "JA_current": "Yoooou... Siiid..rich...",
+      "JA_new": "おまえ……シド……リッチ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_actor_set_zombied",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_actor_set_zombied_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1798,
+      "string_id": "escape_trader_actor_set_zombied_5",
+      "occurrence": 1,
+      "EN": "Now I've just about seen everything. Look, head to the eggheads at Yantar. Find Sakharov. He may be of help to you. You hear me? YANTAR! SAKHAROV! HELP YOU!! Now, get out of here before someone drops you... OUTSIDE, GO!",
+      "JA_current": "Now I've just about seen everything. Look, head to the eggheads at Yantar. Find Sakharov. He may be of help to you. You hear me? YANTAR! SAKHAROV! HELP YOU!! Now, get out of here before someone drops you... OUTSIDE, GO!",
+      "JA_new": "もう驚くこともないと思ってたがな。いいか、ヤンターの研究者のところへ行け。サハロフを訪ねろ。助けになってくれるかもしれん。聞こえたか？ ヤンターだ！ サハロフがお前を助ける！ さあ、誰かに撃たれる前に出ていけ……外だ、行け！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_actor_set_zombied",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_actor_set_zombied_6#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1801,
+      "string_id": "escape_trader_actor_set_zombied_6",
+      "occurrence": 1,
+      "EN": "I... tryyyy..",
+      "JA_current": "I... tryyyy..",
+      "JA_new": "やって……みる……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_actor_set_zombied",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "escape_trader_actor_set_zombied_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sid... Sid..oooo...rich, heeeelp...",
+      "JA_current": "Sid... Sid..oooo...rich, heeeelp...",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_actor_set_zombied_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "escape_trader_actor_set_zombied_1",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.trader_kakogo"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Marked one? What the fuck?! GUARD!!! WHAT AM I PAYING YOU FOR!?",
+      "JA_current": "Marked one? What the fuck?! GUARD!!! WHAT AM I PAYING YOU FOR!?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_actor_set_zombied_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "escape_trader_actor_set_zombied_2",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Heeeeelp...",
+      "JA_current": "Heeeeelp...",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_actor_set_zombied_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "escape_trader_actor_set_zombied_3",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.ti_zombie"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Wait.. You can speak?? Do you... Do you still recognize me?",
+      "JA_current": "Wait.. You can speak?? Do you... Do you still recognize me?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_actor_set_zombied_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "escape_trader_actor_set_zombied_4",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yoooou... Siiid..rich...",
+      "JA_current": "Yoooou... Siiid..rich...",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_actor_set_zombied_4#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "escape_trader_actor_set_zombied_5",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Now I've just about seen everything. Look, head to the eggheads at Yantar. Find Sakharov. He may be of help to you. You hear me? YANTAR! SAKHAROV! HELP YOU!! Now, get out of here before someone drops you... OUTSIDE, GO!",
+      "JA_current": "Now I've just about seen everything. Look, head to the eggheads at Yantar. Find Sakharov. He may be of help to you. You hear me? YANTAR! SAKHAROV! HELP YOU!! Now, get out of here before someone drops you... OUTSIDE, GO!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_actor_set_zombied_5#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "escape_trader_actor_set_zombied_6",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.otchajanie"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I... tryyyy..",
+      "JA_current": "I... tryyyy..",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_actor_set_zombied_6#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+{
+  "packet_id": "dialog_0045__companion_hire_dialog_bandit",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "companion_hire_dialog_bandit",
+  "graph_source": "gamedata/config/gameplay/dialogs.xml",
+  "graph_sha256": "87109fb1ac4d045582ddab436da3571319106a69b21b6c21a4451cbb5f3afbbf",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "dialogs.not_is_companion"
+    },
+    {
+      "type": "precondition",
+      "value": "dialogs.is_bandit_companion"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 10,
+  "entries": [
+    {
+      "key": "stable_dialogs:companion_hire_dialog_bandit_0#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 365,
+      "string_id": "companion_hire_dialog_bandit_0",
+      "occurrence": 1,
+      "EN": "Hey, bro, let's arrange a gang?",
+      "JA_current": "Hey, bro, let's arrange a gang?",
+      "JA_new": "なあ兄弟、つるむ仲間を組まないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_bandit",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_bandit_1#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 368,
+      "string_id": "companion_hire_dialog_bandit_1",
+      "occurrence": 1,
+      "EN": "Good thinking.",
+      "JA_current": "Good thinking.",
+      "JA_new": "いい考えだな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_bandit",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_bandit_2#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 371,
+      "string_id": "companion_hire_dialog_bandit_2",
+      "occurrence": 1,
+      "EN": "No, I'm a gang myself.",
+      "JA_current": "No, I'm a gang myself.",
+      "JA_new": "いや、俺自身がギャングみたいなもんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_bandit",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_bandit_3#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 374,
+      "string_id": "companion_hire_dialog_bandit_3",
+      "occurrence": 1,
+      "EN": "No way, only goofs walks with you.",
+      "JA_current": "No way, only goofs walks with you.",
+      "JA_new": "無理だな。あんたと歩くのは間抜けだけだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_bandit",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_bandit_4#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 377,
+      "string_id": "companion_hire_dialog_bandit_4",
+      "occurrence": 1,
+      "EN": "Go **ck yourself, moron! You set up bros in deep mess.",
+      "JA_current": "Go **ck yourself, moron! You set up bros in deep mess.",
+      "JA_new": "くたばれ、間抜け！ 仲間をヤバい目に遭わせやがって。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_bandit",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_bandit_5#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 380,
+      "string_id": "companion_hire_dialog_bandit_5",
+      "occurrence": 1,
+      "EN": "No, I'm tired already.",
+      "JA_current": "No, I'm tired already.",
+      "JA_new": "いや、もうくたびれた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_bandit",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_bandit_6#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 383,
+      "string_id": "companion_hire_dialog_bandit_6",
+      "occurrence": 1,
+      "EN": "You're a thin guts, goofy. Go gain experience first.",
+      "JA_current": "You're a thin guts, goofy. Go gain experience first.",
+      "JA_new": "お前、度胸がないな。まずは経験を積んでこい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_bandit",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_bandit_7#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 386,
+      "string_id": "companion_hire_dialog_bandit_7",
+      "occurrence": 1,
+      "EN": "No, you're too tough, serious business. I'm not so cool, can only be on lookout.",
+      "JA_current": "No, you're too tough, serious business. I'm not so cool, can only be on lookout.",
+      "JA_new": "いや、お前は手強そうだ。大仕事になりそうだしな。俺はそこまでイケてない。見張りくらいならできるが。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_bandit",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_bandit_8#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 389,
+      "string_id": "companion_hire_dialog_bandit_8",
+      "occurrence": 1,
+      "EN": "No, bro, you already have some goof.",
+      "JA_current": "No, bro, you already have some goof.",
+      "JA_new": "いや、兄弟。もう連れがいるだろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_bandit",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_bandit_9#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 392,
+      "string_id": "companion_hire_dialog_bandit_9",
+      "occurrence": 1,
+      "EN": "You not from our band. Get lost.",
+      "JA_current": "You not from our band. Get lost.",
+      "JA_new": "お前は俺たちの仲間じゃねえ。失せな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog_bandit",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "companion_hire_dialog_bandit_0",
+      "next": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Hey, bro, let's arrange a gang?",
+      "JA_current": "Hey, bro, let's arrange a gang?",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_bandit_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "companion_hire_dialog_bandit_1",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_will_follow"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_start_following"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Good thinking.",
+      "JA_current": "Good thinking.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_bandit_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "companion_hire_dialog_bandit_2",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I'm a gang myself.",
+      "JA_current": "No, I'm a gang myself.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_bandit_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "companion_hire_dialog_bandit_3",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_bad"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No way, only goofs walks with you.",
+      "JA_current": "No way, only goofs walks with you.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_bandit_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "companion_hire_dialog_bandit_4",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_deadly"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Go **ck yourself, moron! You set up bros in deep mess.",
+      "JA_current": "Go **ck yourself, moron! You set up bros in deep mess.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_bandit_4#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "companion_hire_dialog_bandit_5",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_tired"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I'm tired already.",
+      "JA_current": "No, I'm tired already.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_bandit_5#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "companion_hire_dialog_bandit_6",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_lowrank"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "You're a thin guts, goofy. Go gain experience first.",
+      "JA_current": "You're a thin guts, goofy. Go gain experience first.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_bandit_6#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "companion_hire_dialog_bandit_7",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_highrank"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, you're too tough, serious business. I'm not so cool, can only be on lookout.",
+      "JA_current": "No, you're too tough, serious business. I'm not so cool, can only be on lookout.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_bandit_7#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "companion_hire_dialog_bandit_8",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_toomuch"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, bro, you already have some goof.",
+      "JA_current": "No, bro, you already have some goof.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_bandit_8#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "companion_hire_dialog_bandit_9",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_other_community"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "You not from our band. Get lost.",
+      "JA_current": "You not from our band. Get lost.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_bandit_9#1"
+      ]
+    }
+  ]
+}

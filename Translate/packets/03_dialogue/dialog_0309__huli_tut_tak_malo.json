@@ -1,0 +1,205 @@
+{
+  "packet_id": "dialog_0309__huli_tut_tak_malo",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "huli_tut_tak_malo",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "escape_trader",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "volk_about_izgoy"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "huli_tut_tak_malo"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 4,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:huli_tut_tak_malo_phrase_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2168,
+      "string_id": "huli_tut_tak_malo_phrase_1",
+      "occurrence": 1,
+      "EN": "Sidorovich, why is your assortment so sparse? I thought I could buy equipment and even guns from you, but all you have is food and bandages. What do you supply the stalkers with?",
+      "JA_current": "Sidorovich, why is your assortment so sparse? I thought I could buy equipment and even guns from you, but all you have is food and bandages. What do you supply the stalkers with?",
+      "JA_new": "シドロヴィッチ、どうして品揃えがこんなに少ないんだ？ 装備や銃も買えると思ってたのに、食料と包帯しかない。ストーカーたちには何を売ってるんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "huli_tut_tak_malo",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:huli_tut_tak_malo_phrase_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2171,
+      "string_id": "huli_tut_tak_malo_phrase_2",
+      "occurrence": 1,
+      "EN": "Eh, Marked One... What can I tell you? I used to have a lot of interesting things, and not so long ago. And now I don't. Don't ask me why, I don't want to talk about it. If you're so interested, you can ask that creature over there in the cabin at the edge of the village.",
+      "JA_current": "Eh, Marked One... What can I tell you? I used to have a lot of interesting things, and not so long ago. And now I don't. Don't ask me why, I don't want to talk about it. If you're so interested, you can ask that creature over there in the cabin at the edge of the village.",
+      "JA_new": "ああ、印付き……何と言えばいいか。少し前までは面白い品をたくさん持ってたんだが、今はもうない。なぜかは聞くな。話したくないんだ。そんなに気になるなら、村はずれの小屋にいるあの化け物に聞いてみろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "huli_tut_tak_malo",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:huli_tut_tak_malo_phrase_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2174,
+      "string_id": "huli_tut_tak_malo_phrase_3",
+      "occurrence": 1,
+      "EN": "\"Creature\"?",
+      "JA_current": "\"Creature\"?",
+      "JA_new": "「化け物」？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "huli_tut_tak_malo",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:huli_tut_tak_malo_phrase_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2177,
+      "string_id": "huli_tut_tak_malo_phrase_4",
+      "occurrence": 1,
+      "EN": "I can't call him a stalker, and I can't call him a human. Anyway, enough about that.",
+      "JA_current": "I can't call him a stalker, and I can't call him a human. Anyway, enough about that.",
+      "JA_new": "あいつはストーカーとも呼べないし、人間とも呼べない。まあ、あの話はもういい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "huli_tut_tak_malo",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "huli_tut_tak_malo_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sidorovich, why is your assortment so sparse? I thought I could buy equipment and even guns from you, but all you have is food and bandages. What do you supply the stalkers with?",
+      "JA_current": "Sidorovich, why is your assortment so sparse? I thought I could buy equipment and even guns from you, but all you have is food and bandages. What do you supply the stalkers with?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:huli_tut_tak_malo_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "huli_tut_tak_malo_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Eh, Marked One... What can I tell you? I used to have a lot of interesting things, and not so long ago. And now I don't. Don't ask me why, I don't want to talk about it. If you're so interested, you can ask that creature over there in the cabin at the edge of the village.",
+      "JA_current": "Eh, Marked One... What can I tell you? I used to have a lot of interesting things, and not so long ago. And now I don't. Don't ask me why, I don't want to talk about it. If you're so interested, you can ask that creature over there in the cabin at the edge of the village.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:huli_tut_tak_malo_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "huli_tut_tak_malo_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Creature\"?",
+      "JA_current": "\"Creature\"?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:huli_tut_tak_malo_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "huli_tut_tak_malo_phrase_4",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "huli_tut_tak_malo"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I can't call him a stalker, and I can't call him a human. Anyway, enough about that.",
+      "JA_current": "I can't call him a stalker, and I can't call him a human. Anyway, enough about that.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:huli_tut_tak_malo_phrase_4#1"
+      ]
+    }
+  ]
+}

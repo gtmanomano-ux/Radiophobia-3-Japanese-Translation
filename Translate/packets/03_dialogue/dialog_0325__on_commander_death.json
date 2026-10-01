@@ -1,0 +1,190 @@
+{
+  "packet_id": "dialog_0325__on_commander_death",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "on_commander_death",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "blockpost_commander_dead"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 4,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:on_commander_death_phrase_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2595,
+      "string_id": "on_commander_death_phrase_1",
+      "occurrence": 1,
+      "EN": "What's the matter, Sid? Why are you looking at me like that, did I do something wrong??",
+      "JA_current": "What's the matter, Sid? Why are you looking at me like that, did I do something wrong??",
+      "JA_new": "どうしたんだ、シド？ そんな目で見て。俺、何かまずいことでもしたか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "on_commander_death",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:on_commander_death_phrase_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2598,
+      "string_id": "on_commander_death_phrase_2",
+      "occurrence": 1,
+      "EN": "What's.. What's the matter!? You're asking me what you did wrong!?!? Are you taking the piss out of me!??? Oh, let's see, how about wasting a fucking MILITARY CHECKPOINT COMMANDER?!? Now the military are going to kick up such an ungodly shitstorm of retribution around here that I won't be able to do business for MONTHS, if at all!!! Years of careful planning and cooperation, GONE! An agreeable contact within the military to facilitate smuggling and trafficking operations, DEAD! Entire platoons of pissed off Spetsnaz and jarheads patrolling all the roads and roughing up at gunpoint every lousy, flea ridden loner they come across, GUARANTEED! We're all fucked here, all because of you and your lack of trigger discipline!!! The military will leave no stone unturned!! They will waste anyone and everyone just for fun, and torture those who survive... Not to mention that I've been completely cut off from my influx of imported goods, guns, services, and my capability of getting artifacts and people out through the border is at an end...",
+      "JA_current": "What's.. What's the matter!? You're asking me what you did wrong!?!? Are you taking the piss out of me!??? Oh, let's see, how about wasting a fucking MILITARY CHECKPOINT COMMANDER?!? Now the military are going to kick up such an ungodly shitstorm of retribution around here that I won't be able to do business for MONTHS, if at all!!! Years of careful planning and cooperation, GONE! An agreeable contact within the military to facilitate smuggling and trafficking operations, DEAD! Entire platoons of pissed off Spetsnaz and jarheads patrolling all the roads and roughing up at gunpoint every lousy, flea ridden loner they come across, GUARANTEED! We're all fucked here, all because of you and your lack of trigger discipline!!! The military will leave no stone unturned!! They will waste anyone and everyone just for fun, and torture those who survive... Not to mention that I've been completely cut off from my influx of imported goods, guns, services, and my capability of getting artifacts and people out through the border is at an end...",
+      "JA_new": "何が問題かって？ 自分が何をしたか分からないっていうのか！？ 俺をからかってるのか！？ そうだな、ミリタリーの検問所の司令官をぶっ殺したことはどうだ！？ これで軍は、何か月も商売にならないほどの、とんでもない報復を始めるぞ！ 何年もかけて進めた計画と協力関係が台無しだ！ 密輸や闇取引を手伝ってくれてた、軍の話が分かる相手は死んだ！ 腹を立てたスペツナズと兵士の小隊が道路を全部巡回して、出くわしたノミだらけのローナーを片っ端から銃で脅して痛めつけることになる。間違いなくな！ こっちは全員おしまいだ。お前が引き金を引く前に考えなかったせいでな！ 軍は隅々まで捜索する！ 面白半分で見境なく撃ち殺し、生き残った奴は拷問する……それだけじゃない。海外からの物資、銃、サービスの仕入れが完全に止まった。国境越しにアーティファクトや人を運び出すルートも、もう使えない……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "on_commander_death",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:on_commander_death_phrase_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2601,
+      "string_id": "on_commander_death_phrase_3",
+      "occurrence": 1,
+      "EN": "Look, I...",
+      "JA_current": "Look, I...",
+      "JA_new": "いや、俺は……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "on_commander_death",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:on_commander_death_phrase_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2604,
+      "string_id": "on_commander_death_phrase_4",
+      "occurrence": 1,
+      "EN": "That's it, Marked One, I'm not going to waste my time on you, I have a business to salvage here. Get out of my face. You can go and rot out in the Zone, for all I care. You better pray this blows over soon. I wouldn't recommend coming down here for a while. What a fucking joke...",
+      "JA_current": "That's it, Marked One, I'm not going to waste my time on you, I have a business to salvage here. Get out of my face. You can go and rot out in the Zone, for all I care. You better pray this blows over soon. I wouldn't recommend coming down here for a while. What a fucking joke...",
+      "JA_new": "もういい、印付き。お前に構ってる暇はない。こっちは商売を立て直さなきゃならん。目の前から消えろ。ゾーンで野垂れ死のうが、俺の知ったことじゃない。早く騒ぎが収まるよう祈っておけ。しばらくここには来ないほうがいい。まったく、冗談じゃない……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "on_commander_death",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "on_commander_death_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "What's the matter, Sid? Why are you looking at me like that, did I do something wrong??",
+      "JA_current": "What's the matter, Sid? Why are you looking at me like that, did I do something wrong??",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:on_commander_death_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "on_commander_death_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "What's.. What's the matter!? You're asking me what you did wrong!?!? Are you taking the piss out of me!??? Oh, let's see, how about wasting a fucking MILITARY CHECKPOINT COMMANDER?!? Now the military are going to kick up such an ungodly shitstorm of retribution around here that I won't be able to do business for MONTHS, if at all!!! Years of careful planning and cooperation, GONE! An agreeable contact within the military to facilitate smuggling and trafficking operations, DEAD! Entire platoons of pissed off Spetsnaz and jarheads patrolling all the roads and roughing up at gunpoint every lousy, flea ridden loner they come across, GUARANTEED! We're all fucked here, all because of you and your lack of trigger discipline!!! The military will leave no stone unturned!! They will waste anyone and everyone just for fun, and torture those who survive... Not to mention that I've been completely cut off from my influx of imported goods, guns, services, and my capability of getting artifacts and people out through the border is at an end...",
+      "JA_current": "What's.. What's the matter!? You're asking me what you did wrong!?!? Are you taking the piss out of me!??? Oh, let's see, how about wasting a fucking MILITARY CHECKPOINT COMMANDER?!? Now the military are going to kick up such an ungodly shitstorm of retribution around here that I won't be able to do business for MONTHS, if at all!!! Years of careful planning and cooperation, GONE! An agreeable contact within the military to facilitate smuggling and trafficking operations, DEAD! Entire platoons of pissed off Spetsnaz and jarheads patrolling all the roads and roughing up at gunpoint every lousy, flea ridden loner they come across, GUARANTEED! We're all fucked here, all because of you and your lack of trigger discipline!!! The military will leave no stone unturned!! They will waste anyone and everyone just for fun, and torture those who survive... Not to mention that I've been completely cut off from my influx of imported goods, guns, services, and my capability of getting artifacts and people out through the border is at an end...",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:on_commander_death_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "on_commander_death_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Look, I...",
+      "JA_current": "Look, I...",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:on_commander_death_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "on_commander_death_phrase_4",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "That's it, Marked One, I'm not going to waste my time on you, I have a business to salvage here. Get out of my face. You can go and rot out in the Zone, for all I care. You better pray this blows over soon. I wouldn't recommend coming down here for a while. What a fucking joke...",
+      "JA_current": "That's it, Marked One, I'm not going to waste my time on you, I have a business to salvage here. Get out of my face. You can go and rot out in the Zone, for all I care. You better pray this blows over soon. I wouldn't recommend coming down here for a while. What a fucking joke...",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:on_commander_death_phrase_4#1"
+      ]
+    }
+  ]
+}

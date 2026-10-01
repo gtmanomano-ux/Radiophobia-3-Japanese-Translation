@@ -1,0 +1,185 @@
+{
+  "packet_id": "dialog_0416__rad_find_stalkers_dialog_2",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "rad_find_stalkers_dialog_2",
+  "graph_source": "gamedata/config/gameplay/dialogs_radar.xml",
+  "graph_sha256": "7436a3a8c823be5716e127228e116bf493cdec1d97644f3c78b6dee00a554864",
+  "character_bindings": [],
+  "dialog_conditions": [],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 4,
+  "entries": [
+    {
+      "key": "stable_dialogs_radar:rad_find_stalkers_dialog_2_0#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 30,
+      "string_id": "rad_find_stalkers_dialog_2_0",
+      "occurrence": 1,
+      "EN": "What do you know about Pripyat?",
+      "JA_current": "Pripyat について何か知らないか？",
+      "JA_new": "プリピャチについて、何か知ってるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_find_stalkers_dialog_2",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_find_stalkers_dialog_2_10#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 33,
+      "string_id": "rad_find_stalkers_dialog_2_10",
+      "occurrence": 1,
+      "EN": "It's an old abandoned city from the communist era! From history! I reckon it's full of monsters and hordes of Monolith fighters now! No one who has gone there before ever returned!",
+      "JA_current": "共産主義時代からある見捨てられた古い都市って事になってるぜ！ だが今では Monolith 兵の群れと怪物どもでいっぱいだろうな。あそこから生きて帰ってきた奴はまだ居ないぜ！",
+      "JA_new": "共産主義時代に築かれた、歴史に残る古い廃墟の街さ！ 今じゃ怪物とモノリス兵の大群で埋め尽くされてるだろうな！ あそこへ行ったきり、戻ってきた奴は誰もいない！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_find_stalkers_dialog_2",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_find_stalkers_dialog_2_100#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 36,
+      "string_id": "rad_find_stalkers_dialog_2_100",
+      "occurrence": 1,
+      "EN": "You think it's dangerous?",
+      "JA_current": "あんたも危ない所だと思うか？",
+      "JA_new": "そんなに危険だと思うか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_find_stalkers_dialog_2",
+          "phrase_id": "100",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_find_stalkers_dialog_2_20#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 39,
+      "string_id": "rad_find_stalkers_dialog_2_20",
+      "occurrence": 1,
+      "EN": "No doubt about it - nobody has ever come back from there.",
+      "JA_current": "疑問をさし挟む余地はないな… まだ誰もあそこから生きて帰って来ちゃいないって事にな。",
+      "JA_new": "間違いない。あそこから戻ってきた奴は一人もいない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_find_stalkers_dialog_2",
+          "phrase_id": "20",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "rad_find_stalkers_dialog_2_0",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "What do you know about Pripyat?",
+      "JA_current": "Pripyat について何か知らないか？",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_find_stalkers_dialog_2_0#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "rad_find_stalkers_dialog_2_10",
+      "next": [
+        "100"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "It's an old abandoned city from the communist era! From history! I reckon it's full of monsters and hordes of Monolith fighters now! No one who has gone there before ever returned!",
+      "JA_current": "共産主義時代からある見捨てられた古い都市って事になってるぜ！ だが今では Monolith 兵の群れと怪物どもでいっぱいだろうな。あそこから生きて帰ってきた奴はまだ居ないぜ！",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_find_stalkers_dialog_2_10#1"
+      ]
+    },
+    {
+      "phrase_id": "100",
+      "text_id": "rad_find_stalkers_dialog_2_100",
+      "next": [
+        "20"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "You think it's dangerous?",
+      "JA_current": "あんたも危ない所だと思うか？",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_find_stalkers_dialog_2_100#1"
+      ]
+    },
+    {
+      "phrase_id": "20",
+      "text_id": "rad_find_stalkers_dialog_2_20",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "100"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No doubt about it - nobody has ever come back from there.",
+      "JA_current": "疑問をさし挟む余地はないな… まだ誰もあそこから生きて帰って来ちゃいないって事にな。",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_find_stalkers_dialog_2_20#1"
+      ]
+    }
+  ]
+}

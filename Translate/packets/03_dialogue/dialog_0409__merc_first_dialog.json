@@ -1,0 +1,488 @@
+{
+  "packet_id": "dialog_0409__merc_first_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "merc_first_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml",
+  "graph_sha256": "8bb9195290d87fda40f45e7ab7e4ed73c832c18ca04c708134554149eea56b2a",
+  "character_bindings": [
+    {
+      "profile_id": "pri_merc_1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "pri_mercs_task"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 11,
+  "entries": [
+    {
+      "key": "stable_dialogs_pripyat:merc_first_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 93,
+      "string_id": "merc_first_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Don't shoot, I come in peace.",
+      "JA_current": "Don't shoot, I come in peace.",
+      "JA_new": "撃つな、敵じゃない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_first_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_first_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 96,
+      "string_id": "merc_first_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "We won't. Just don't make too much noise, or the trash will come running. What are you looking for, vagabond?",
+      "JA_current": "We won't. Just don't make too much noise, or the trash will come running. What are you looking for, vagabond?",
+      "JA_new": "撃たないさ。ただ、あまり騒ぐな。ゴミどもが寄ってくる。何を探してる、流れ者？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_first_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_first_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 99,
+      "string_id": "merc_first_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "I'm looking for an adventure, mainly, but I don't scoff at any loot I come across either.",
+      "JA_current": "I'm looking for an adventure, mainly, but I don't scoff at any loot I come across either.",
+      "JA_new": "探検が目的だが、見つけた戦利品もありがたくもらうさ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_first_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_first_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 102,
+      "string_id": "merc_first_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "And we are working. What kind of work - don't ask - can't tell ya. If you get in our way, you'll die. It's not a threat, don't think of it like that, I never kill without good reason. Usually only in case of emergency.",
+      "JA_current": "And we are working. What kind of work - don't ask - can't tell ya. If you get in our way, you'll die. It's not a threat, don't think of it like that, I never kill without good reason. Usually only in case of emergency.",
+      "JA_new": "こっちは仕事中だ。内容は聞くな、話せない。邪魔したら死ぬぞ。脅しじゃない、そう受け取るな。理由もなく人は殺さない。たいていは、よほどの非常事態だけだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_first_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_first_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 105,
+      "string_id": "merc_first_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "I don't think you'll have a problem with me.",
+      "JA_current": "I don't think you'll have a problem with me.",
+      "JA_new": "俺が邪魔することはない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_first_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_first_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 108,
+      "string_id": "merc_first_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "You're not going to get in the way, are you? So why don't you help me, since you're not going to get in the way?",
+      "JA_current": "You're not going to get in the way, are you? So why don't you help me, since you're not going to get in the way?",
+      "JA_new": "本当に邪魔する気はないんだな？ なら、手を貸してくれないか？ 邪魔しないならいいだろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_first_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_first_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 111,
+      "string_id": "merc_first_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "What do you need?",
+      "JA_current": "What do you need?",
+      "JA_new": "何をすればいい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_first_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_first_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 114,
+      "string_id": "merc_first_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "It's a simple matter of going to one place and checking if one of ours is all right. It's not far.",
+      "JA_current": "It's a simple matter of going to one place and checking if one of ours is all right. It's not far.",
+      "JA_new": "近くの場所へ行って、仲間が無事か確認するだけだ。遠くない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_first_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_first_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 117,
+      "string_id": "merc_first_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "Why not, sounds ok to me.",
+      "JA_current": "Why not, sounds ok to me.",
+      "JA_new": "いいぜ。やってみよう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_first_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_first_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 120,
+      "string_id": "merc_first_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "Okay, then listen: we had a sniper on an over-watch position nearby to monitor the Monolith base. He hasn't been in contact for hours. I'll text you his coordinates on the PDA, go and check what's wrong with him. Once you get near, shout a password to indicate you are friendly, the phrase is \"Lightning,\" his countersign will be \"Light\".",
+      "JA_current": "Okay, then listen: we had a sniper on an over-watch position nearby to monitor the Monolith base. He hasn't been in contact for hours. I'll text you his coordinates on the PDA, go and check what's wrong with him. Once you get near, shout a password to indicate you are friendly, the phrase is \"Lightning,\" his countersign will be \"Light\".",
+      "JA_new": "じゃあ聞いてくれ。近くの監視地点に狙撃手を配置して、モノリスの基地を見張らせていた。何時間も連絡がない。PDAに座標を送るから、様子を見てきてくれ。近づいたら、味方だと知らせるために合言葉を叫べ。こっちからは「ライトニング」、返事は「ライト」だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_first_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:merc_first_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 123,
+      "string_id": "merc_first_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "I'll be right there.",
+      "JA_current": "I'll be right there.",
+      "JA_new": "すぐ向かう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "merc_first_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "merc_first_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Don't shoot, I come in peace.",
+      "JA_current": "Don't shoot, I come in peace.",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_first_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "merc_first_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "We won't. Just don't make too much noise, or the trash will come running. What are you looking for, vagabond?",
+      "JA_current": "We won't. Just don't make too much noise, or the trash will come running. What are you looking for, vagabond?",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_first_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "merc_first_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm looking for an adventure, mainly, but I don't scoff at any loot I come across either.",
+      "JA_current": "I'm looking for an adventure, mainly, but I don't scoff at any loot I come across either.",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_first_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "merc_first_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "And we are working. What kind of work - don't ask - can't tell ya. If you get in our way, you'll die. It's not a threat, don't think of it like that, I never kill without good reason. Usually only in case of emergency.",
+      "JA_current": "And we are working. What kind of work - don't ask - can't tell ya. If you get in our way, you'll die. It's not a threat, don't think of it like that, I never kill without good reason. Usually only in case of emergency.",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_first_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "merc_first_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I don't think you'll have a problem with me.",
+      "JA_current": "I don't think you'll have a problem with me.",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_first_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "merc_first_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You're not going to get in the way, are you? So why don't you help me, since you're not going to get in the way?",
+      "JA_current": "You're not going to get in the way, are you? So why don't you help me, since you're not going to get in the way?",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_first_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "merc_first_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What do you need?",
+      "JA_current": "What do you need?",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_first_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "merc_first_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It's a simple matter of going to one place and checking if one of ours is all right. It's not far.",
+      "JA_current": "It's a simple matter of going to one place and checking if one of ours is all right. It's not far.",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_first_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "merc_first_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Why not, sounds ok to me.",
+      "JA_current": "Why not, sounds ok to me.",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_first_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "merc_first_dialog_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Okay, then listen: we had a sniper on an over-watch position nearby to monitor the Monolith base. He hasn't been in contact for hours. I'll text you his coordinates on the PDA, go and check what's wrong with him. Once you get near, shout a password to indicate you are friendly, the phrase is \"Lightning,\" his countersign will be \"Light\".",
+      "JA_current": "Okay, then listen: we had a sniper on an over-watch position nearby to monitor the Monolith base. He hasn't been in contact for hours. I'll text you his coordinates on the PDA, go and check what's wrong with him. Once you get near, shout a password to indicate you are friendly, the phrase is \"Lightning,\" his countersign will be \"Light\".",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_first_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "merc_first_dialog_phrase_11",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "pri_mercs_task"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'll be right there.",
+      "JA_current": "I'll be right there.",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:merc_first_dialog_phrase_11#1"
+      ]
+    }
+  ]
+}

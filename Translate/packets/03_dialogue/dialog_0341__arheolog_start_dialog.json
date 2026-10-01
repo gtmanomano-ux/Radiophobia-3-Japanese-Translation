@@ -1,0 +1,455 @@
+{
+  "packet_id": "dialog_0341__arheolog_start_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "arheolog_start_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml",
+  "graph_sha256": "a2f5a0932a2d77c3600e24d5b337f12ef7ed4b48e06af7ae7ab65d1d649f0ac4",
+  "character_bindings": [
+    {
+      "profile_id": "arheolog",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_garbage.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "arheolog_dialog"
+    }
+  ],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 10,
+  "entries": [
+    {
+      "key": "stable_dialogs_garbage:arheolog_start_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 259,
+      "string_id": "arheolog_start_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Are you after my soul?",
+      "JA_current": "Are you after my soul?",
+      "JA_new": "俺の魂でも取りに来たのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arheolog_start_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:arheolog_start_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 262,
+      "string_id": "arheolog_start_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Well, sort of.",
+      "JA_current": "Well, sort of.",
+      "JA_new": "まあ、そんなところだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arheolog_start_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:arheolog_start_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 265,
+      "string_id": "arheolog_start_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Can we make a deal?",
+      "JA_current": "Can we make a deal?",
+      "JA_new": "取引しないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arheolog_start_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:arheolog_start_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 268,
+      "string_id": "arheolog_start_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "What do you mean?",
+      "JA_current": "What do you mean?",
+      "JA_new": "どういうことだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arheolog_start_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:arheolog_start_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 271,
+      "string_id": "arheolog_start_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "If you don't hurt me, I'll pay you back. I'll give you the coordinates of my best cache of old military weapons: There are rifles of various calibers, pistols and ammunition there. You won't find this kind of stuff at the dealers.",
+      "JA_current": "If you don't hurt me, I'll pay you back. I'll give you the coordinates of my best cache of old military weapons: There are rifles of various calibers, pistols and ammunition there. You won't find this kind of stuff at the dealers.",
+      "JA_new": "俺を見逃してくれるなら、礼をする。最高の旧軍用武器を隠した場所を教えるよ。さまざまな口径のライフルに、拳銃、弾薬もある。こんな品は商人じゃ手に入らない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arheolog_start_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:arheolog_start_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 274,
+      "string_id": "arheolog_start_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Yeah, and there's a centimeter thick layer of rust all over it too, right?",
+      "JA_current": "Yeah, and there's a centimeter thick layer of rust all over it too, right?",
+      "JA_new": "どうせ、全部に1センチくらい錆が浮いてるんだろ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arheolog_start_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:arheolog_start_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 277,
+      "string_id": "arheolog_start_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Not at all, I personally restore, lubricate, and check every gun I find... Stalker, don't do anything stupid. Why do you need all this squabbling between factions? If you kill me, it won't change anything, believe me. And this way you'll also get a profit.",
+      "JA_current": "Not at all, I personally restore, lubricate, and check every gun I find... Stalker, don't do anything stupid. Why do you need all this squabbling between factions? If you kill me, it won't change anything, believe me. And this way you'll also get a profit.",
+      "JA_new": "そんなことはない。見つけた銃は全部、俺が修復して油を差し、動作を確かめてる。ストーカー、馬鹿な真似はするな。派閥同士の争いに、そこまで首を突っ込む必要があるか？俺を殺しても何も変わらない。信じてくれ。見逃せば、あんたにも得がある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arheolog_start_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:arheolog_start_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 280,
+      "string_id": "arheolog_start_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "Stop trying to talk me out of it. Die, you bastard!",
+      "JA_current": "Stop trying to talk me out of it. Die, you bastard!",
+      "JA_new": "口を挟むな。死ね、この野郎！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arheolog_start_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:arheolog_start_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 283,
+      "string_id": "arheolog_start_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "Fuck it, tell me where your hiding place is.",
+      "JA_current": "Fuck it, tell me where your hiding place is.",
+      "JA_new": "くそっ、隠し場所を教えろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arheolog_start_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:arheolog_start_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 286,
+      "string_id": "arheolog_start_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "I knew you were a decent stalker, and not some contract killer scumbag! Listen to me carefully: the cache is in that booth over there with the two tanks and the grid across from these ruins.",
+      "JA_current": "I knew you were a decent stalker, and not some contract killer scumbag! Listen to me carefully: the cache is in that booth over there with the two tanks and the grid across from these ruins.",
+      "JA_new": "まともなストーカーでよかったよ。雇われの殺し屋みたいなクズじゃなくてな！よく聞け。隠し場所は、廃墟の向かいにある、タンクが2つと格子の付いた小屋だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arheolog_start_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "arheolog_start_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Are you after my soul?",
+      "JA_current": "Are you after my soul?",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:arheolog_start_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "arheolog_start_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, sort of.",
+      "JA_current": "Well, sort of.",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:arheolog_start_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "arheolog_start_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Can we make a deal?",
+      "JA_current": "Can we make a deal?",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:arheolog_start_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "arheolog_start_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What do you mean?",
+      "JA_current": "What do you mean?",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:arheolog_start_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "arheolog_start_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "If you don't hurt me, I'll pay you back. I'll give you the coordinates of my best cache of old military weapons: There are rifles of various calibers, pistols and ammunition there. You won't find this kind of stuff at the dealers.",
+      "JA_current": "If you don't hurt me, I'll pay you back. I'll give you the coordinates of my best cache of old military weapons: There are rifles of various calibers, pistols and ammunition there. You won't find this kind of stuff at the dealers.",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:arheolog_start_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "arheolog_start_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, and there's a centimeter thick layer of rust all over it too, right?",
+      "JA_current": "Yeah, and there's a centimeter thick layer of rust all over it too, right?",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:arheolog_start_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "arheolog_start_dialog_phrase_7",
+      "next": [
+        "7",
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Not at all, I personally restore, lubricate, and check every gun I find... Stalker, don't do anything stupid. Why do you need all this squabbling between factions? If you kill me, it won't change anything, believe me. And this way you'll also get a profit.",
+      "JA_current": "Not at all, I personally restore, lubricate, and check every gun I find... Stalker, don't do anything stupid. Why do you need all this squabbling between factions? If you kill me, it won't change anything, believe me. And this way you'll also get a profit.",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:arheolog_start_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "arheolog_start_dialog_phrase_8",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.arheolog_set_enemy"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Stop trying to talk me out of it. Die, you bastard!",
+      "JA_current": "Stop trying to talk me out of it. Die, you bastard!",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:arheolog_start_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "arheolog_start_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.spawn_arheolog_shron"
+        },
+        {
+          "type": "give_info",
+          "value": "arheolog_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Fuck it, tell me where your hiding place is.",
+      "JA_current": "Fuck it, tell me where your hiding place is.",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:arheolog_start_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "arheolog_start_dialog_phrase_10",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I knew you were a decent stalker, and not some contract killer scumbag! Listen to me carefully: the cache is in that booth over there with the two tanks and the grid across from these ruins.",
+      "JA_current": "I knew you were a decent stalker, and not some contract killer scumbag! Listen to me carefully: the cache is in that booth over there with the two tanks and the grid across from these ruins.",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:arheolog_start_dialog_phrase_10#1"
+      ]
+    }
+  ]
+}

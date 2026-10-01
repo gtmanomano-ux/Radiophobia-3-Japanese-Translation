@@ -1,0 +1,525 @@
+{
+    "packet_id":  "dialog_0443__yantar_trader_transmut_2",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "yantar_trader_transmut_2",
+    "graph_source":  "gamedata/config/gameplay/dialogs_transmut.xml",
+    "graph_sha256":  "cc2a692bec90e49ec8557a216a3db76b608ca9f9530c06b6354a37da70cd6fcd",
+    "character_bindings":  [
+                               {
+                                   "profile_id":  "yan_general_ecolog",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               }
+                           ],
+    "dialog_conditions":  [
+                              {
+                                  "type":  "precondition",
+                                  "value":  "dialogs_yantar_transmut.trader_transmut_precond"
+                              },
+                              {
+                                  "type":  "has_info",
+                                  "value":  "transmut"
+                              },
+                              {
+                                  "type":  "dont_has_info",
+                                  "value":  "actor_set_zombied"
+                              }
+                          ],
+    "root_speaker_hint":  "player",
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+                                                      "11"
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  2,
+    "entries":  [
+                    {
+                        "key":  "stable_transmut_dialogs:yantar_trader_transmut_01#1",
+                        "source_table":  "stable_transmut_dialogs",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_transmut_dialogs.xml",
+                        "source_xml_line":  14,
+                        "string_id":  "yantar_trader_transmut_01",
+                        "occurrence":  1,
+                        "EN":  "Professor, may I request more transmutes from you, please?",
+                        "JA_current":  "Professor, may I request more transmutes from you, please?",
+                        "JA_new":  "教授、もう少し合成アーティファクトをお願いできますか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_trader_transmut_2",
+                                               "phrase_id":  "0",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_transmut.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_transmut_dialogs:yantar_trader_transmut_02#1",
+                        "source_table":  "stable_transmut_dialogs",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_transmut_dialogs.xml",
+                        "source_xml_line":  17,
+                        "string_id":  "yantar_trader_transmut_02",
+                        "occurrence":  1,
+                        "EN":  "Of course, young man, you are always welcome! What exactly are you interested in?",
+                        "JA_current":  "Of course, young man, you are always welcome! What exactly are you interested in?",
+                        "JA_new":  "もちろんですよ。いつでも歓迎です！ 今度は何をお求めですか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_trader_transmut_2",
+                                               "phrase_id":  "1",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_transmut.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  "yantar_trader_transmut_01",
+                            "next":  [
+                                         "1"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Professor, may I request more transmutes from you, please?",
+                            "JA_current":  "Professor, may I request more transmutes from you, please?",
+                            "string_entry_candidates":  [
+                                                            "stable_transmut_dialogs:yantar_trader_transmut_01#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "1",
+                            "text_id":  "yantar_trader_transmut_02",
+                            "next":  [
+                                         "11",
+                                         "12",
+                                         "13",
+                                         "14",
+                                         "15",
+                                         "16",
+                                         "17",
+                                         "18",
+                                         "19"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0",
+                                             "10"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Of course, young man, you are always welcome! What exactly are you interested in?",
+                            "JA_current":  "Of course, young man, you are always welcome! What exactly are you interested in?",
+                            "string_entry_candidates":  [
+                                                            "stable_transmut_dialogs:yantar_trader_transmut_02#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "11",
+                            "text_id":  "yantar_trader_trans_1",
+                            "next":  [
+                                         "6"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "precondition",
+                                                   "value":  "dialogs_yantar_transmut.trader_check_cond_s1"
+                                               }
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "dialogs_yantar_transmut.trader_make_airfact_s1"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "The \"Sky\". Let\u0027s see those dogs try and bite me now!",
+                            "JA_current":  "The \"Sky\". Let\u0027s see those dogs try and bite me now!",
+                            "string_entry_candidates":  [
+                                                            "stable_transmut_dialogs:yantar_trader_trans_1#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "12",
+                            "text_id":  "yantar_trader_trans_2",
+                            "next":  [
+                                         "6"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "precondition",
+                                                   "value":  "dialogs_yantar_transmut.trader_check_cond_s2"
+                                               }
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "dialogs_yantar_transmut.trader_make_airfact_s2"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "The \"TdW\", if you don\u0027t mind. I\u0027m tired of all the hallucinations..",
+                            "JA_current":  "The \"TdW\", if you don\u0027t mind. I\u0027m tired of all the hallucinations..",
+                            "string_entry_candidates":  [
+                                                            "stable_transmut_dialogs:yantar_trader_trans_2#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "13",
+                            "text_id":  "yantar_trader_trans_3",
+                            "next":  [
+                                         "6"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "precondition",
+                                                   "value":  "dialogs_yantar_transmut.trader_check_cond_s3"
+                                               }
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "dialogs_yantar_transmut.trader_make_airfact_s3"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "The \"Capricorn Horn\", please. This better make me bulletproof!",
+                            "JA_current":  "The \"Capricorn Horn\", please. This better make me bulletproof!",
+                            "string_entry_candidates":  [
+                                                            "stable_transmut_dialogs:yantar_trader_trans_3#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "14",
+                            "text_id":  "yantar_trader_trans_4",
+                            "next":  [
+                                         "6"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "precondition",
+                                                   "value":  "dialogs_yantar_transmut.trader_check_cond_s4"
+                                               }
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "dialogs_yantar_transmut.trader_make_airfact_s4"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "The \"Hermes\". I\u0027m sick and tired of running out of breath while lugging all my kit around the Zone.",
+                            "JA_current":  "The \"Hermes\". I\u0027m sick and tired of running out of breath while lugging all my kit around the Zone.",
+                            "string_entry_candidates":  [
+                                                            "stable_transmut_dialogs:yantar_trader_trans_4#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "15",
+                            "text_id":  "yantar_trader_trans_5",
+                            "next":  [
+                                         "6"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "precondition",
+                                                   "value":  "dialogs_yantar_transmut.trader_check_cond_s5"
+                                               }
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "dialogs_yantar_transmut.trader_make_airfact_s5"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "The \"Sponge\". Otherwise I\u0027ll either start glowing or become an alcoholic.",
+                            "JA_current":  "The \"Sponge\". Otherwise I\u0027ll either start glowing or become an alcoholic.",
+                            "string_entry_candidates":  [
+                                                            "stable_transmut_dialogs:yantar_trader_trans_5#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "16",
+                            "text_id":  "yantar_trader_trans_6",
+                            "next":  [
+                                         "6"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "precondition",
+                                                   "value":  "dialogs_yantar_transmut.trader_check_cond_s6"
+                                               }
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "dialogs_yantar_transmut.trader_make_airfact_s6"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "The \"Honeycomb\". I hope it will also help me deal with the toxic food I\u0027m forced to eat around here.",
+                            "JA_current":  "The \"Honeycomb\". I hope it will also help me deal with the toxic food I\u0027m forced to eat around here.",
+                            "string_entry_candidates":  [
+                                                            "stable_transmut_dialogs:yantar_trader_trans_6#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "17",
+                            "text_id":  "yantar_trader_trans_7",
+                            "next":  [
+                                         "6"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "precondition",
+                                                   "value":  "dialogs_yantar_transmut.trader_check_cond_s7"
+                                               }
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "dialogs_yantar_transmut.trader_make_airfact_s7"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "The \"Red Star\". If I have to apply any more bandages, I\u0027ll mummify myself.",
+                            "JA_current":  "The \"Red Star\". If I have to apply any more bandages, I\u0027ll mummify myself.",
+                            "string_entry_candidates":  [
+                                                            "stable_transmut_dialogs:yantar_trader_trans_7#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "18",
+                            "text_id":  "yantar_trader_trans_8",
+                            "next":  [
+                                         "6"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "precondition",
+                                                   "value":  "dialogs_yantar_transmut.trader_check_cond_s8"
+                                               }
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "dialogs_yantar_transmut.trader_make_airfact_s8"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "The \"Eye\". If this actually repels snorks and burers, I\u0027ll be a very happy stalker!",
+                            "JA_current":  "The \"Eye\". If this actually repels snorks and burers, I\u0027ll be a very happy stalker!",
+                            "string_entry_candidates":  [
+                                                            "stable_transmut_dialogs:yantar_trader_trans_8#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "19",
+                            "text_id":  "yantar_trader_transmut_5",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Whoops, I haven\u0027t got enough money. See you later, Professor.",
+                            "JA_current":  "Whoops, I haven\u0027t got enough money. See you later, Professor.",
+                            "string_entry_candidates":  [
+                                                            "stable_transmut_dialogs:yantar_trader_transmut_5#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "6",
+                            "text_id":  "yantar_trader_transmut_6",
+                            "next":  [
+                                         "8",
+                                         "10"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "11",
+                                             "12",
+                                             "13",
+                                             "14",
+                                             "15",
+                                             "16",
+                                             "17",
+                                             "18"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Here you are, young man, the requested transmute is ready!",
+                            "JA_current":  "Here you are, young man, the requested transmute is ready!",
+                            "string_entry_candidates":  [
+                                                            "stable_transmut_dialogs:yantar_trader_transmut_6#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "8",
+                            "text_id":  "yantar_trader_transmut_8",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "6"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Wow! I hope it\u0027s worth the money!",
+                            "JA_current":  "Wow! I hope it\u0027s worth the money!",
+                            "string_entry_candidates":  [
+                                                            "stable_transmut_dialogs:yantar_trader_transmut_8#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "10",
+                            "text_id":  "yantar_trader_transmut_10",
+                            "next":  [
+                                         "1"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "6"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Can you make more, please?",
+                            "JA_current":  "Can you make more, please?",
+                            "string_entry_candidates":  [
+                                                            "stable_transmut_dialogs:yantar_trader_transmut_10#1"
+                                                        ]
+                        }
+                    ]
+}

@@ -1,0 +1,661 @@
+{
+  "packet_id": "dialog_0181__yuriy_voron_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "yuriy_voron_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "yuriy",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "iskatel_18_nayden"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "yuri_goto_taynik"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 15,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:yuriy_voron_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2259,
+      "string_id": "yuriy_voron_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Got some unpleasant news, Yuri. That guy in Yantar was indeed Trofim, but he got fried by the psi-field there, so...",
+      "JA_current": "Got some unpleasant news, Yuri. That guy in Yantar was indeed Trofim, but he got fried by the psi-field there, so...",
+      "JA_new": "いい知らせじゃない、ユーリ。ヤンターの男はやはりトロフィムだった。だが、あそこでサイ放射にやられた……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_voron_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_voron_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2262,
+      "string_id": "yuriy_voron_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Yeah, I get it.. Damn, what a grand shame... How could he have gotten into that mess, he was such an experienced stalker... I don't suppose you could get anything out of him?",
+      "JA_current": "Yeah, I get it.. Damn, what a grand shame... How could he have gotten into that mess, he was such an experienced stalker... I don't suppose you could get anything out of him?",
+      "JA_new": "そうか……なんて残念なんだ。あんなに経験豊富なストーカーが、どうしてそんな目に？ 何か手がかりは得られなかったか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_voron_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_voron_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2265,
+      "string_id": "yuriy_voron_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "All I could get from him was a medallion with some kind of emblem on it. Here, take a look.",
+      "JA_current": "All I could get from him was a medallion with some kind of emblem on it. Here, take a look.",
+      "JA_new": "手に入ったのは、紋章のようなものが刻まれたメダリオンだけだ。ほら、見てくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_voron_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_voron_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2268,
+      "string_id": "yuriy_voron_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "It looks familiar, I've seen it somewhere before... Let me think, let me think... I seem to remember seeing the same mark on a man. I think he was a local hunter, calling himself Raven or something like that, yeah. Perhaps he was the guy who offered to be a guide for Captain, I remember him mentioning a marked hunter. He had volunteered to accompany the advance party with the Captain, the Medicine Man, and the Indian to the edge of the Army Warehouses. Could he have had something to do with the group's disappearance? In any case, it is necessary to find him.",
+      "JA_current": "It looks familiar, I've seen it somewhere before... Let me think, let me think... I seem to remember seeing the same mark on a man. I think he was a local hunter, calling himself Raven or something like that, yeah. Perhaps he was the guy who offered to be a guide for Captain, I remember him mentioning a marked hunter. He had volunteered to accompany the advance party with the Captain, the Medicine Man, and the Indian to the edge of the Army Warehouses. Could he have had something to do with the group's disappearance? In any case, it is necessary to find him.",
+      "JA_new": "見覚えがある……どこで見たんだったか……考えさせてくれ……同じ印をつけた男を見た気がする。地元のハンターで、レイヴンとか名乗ってた。そうだ、キャプテンの案内役を申し出た男かもしれない。キャプテン、メディスンマン、インディアンと一緒に先遣隊に加わって、軍事倉庫の端まで同行すると言っていた。あいつが仲間の失踪に関わってるのか？ とにかく、見つけないと。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_voron_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_voron_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2271,
+      "string_id": "yuriy_voron_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Is this Raven missing, too?",
+      "JA_current": "Is this Raven missing, too?",
+      "JA_new": "レイヴンも行方不明なのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_voron_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_voron_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2274,
+      "string_id": "yuriy_voron_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Most likely yes, because I haven't received any communications from him. Although to tell you the truth, he only communicated with the Captain himself, I barely had any contact with him whatsoever.",
+      "JA_current": "Most likely yes, because I haven't received any communications from him. Although to tell you the truth, he only communicated with the Captain himself, I barely had any contact with him whatsoever.",
+      "JA_new": "たぶんな。連絡がない。ただ、正直に言えば、あいつはキャプテンとしか話していなかった。俺はほとんど接点がなかったよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_voron_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_voron_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2277,
+      "string_id": "yuriy_voron_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "What kind of stalker is this Raven? What is your impression of him?",
+      "JA_current": "What kind of stalker is this Raven? What is your impression of him?",
+      "JA_new": "レイヴンはどんなストーカーだ？ どんな印象だった？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_voron_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_voron_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2280,
+      "string_id": "yuriy_voron_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "He seems experienced, and he catches the eye. You wouldn't mistake him for a common pickpocket. There was something about him, even though he had the most ordinary appearance: average height, black hair, and a sturdy build. He claimed he belonged to the Hunters.",
+      "JA_current": "He seems experienced, and he catches the eye. You wouldn't mistake him for a common pickpocket. There was something about him, even though he had the most ordinary appearance: average height, black hair, and a sturdy build. He claimed he belonged to the Hunters.",
+      "JA_new": "経験豊富で、目を引く男だった。ありふれたスリと間違えるような奴じゃない。背丈は普通で黒髪、がっしりした体つき。見た目はどこにでもいそうだったが、何か違った。自分はハンターの一員だと言っていた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_voron_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_voron_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2283,
+      "string_id": "yuriy_voron_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "What kind of Hunters are we talking about?",
+      "JA_current": "What kind of Hunters are we talking about?",
+      "JA_new": "ハンターって、どういう連中だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_voron_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_voron_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2286,
+      "string_id": "yuriy_voron_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "I don't know, I haven't heard much about this group. From what I know it's not really even a group, but something like a clan or a society. The hunters are very few in number, but they're all professionals, and they make a living by catching mutants alive for the scientists.",
+      "JA_current": "I don't know, I haven't heard much about this group. From what I know it's not really even a group, but something like a clan or a society. The hunters are very few in number, but they're all professionals, and they make a living by catching mutants alive for the scientists.",
+      "JA_new": "よく知らない。そもそも集団というより、一族か同業者の集まりみたいなものらしい。人数は少ないが、全員が腕利きで、科学者のためにミュータントを生け捕りにして暮らしている。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_voron_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_voron_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2289,
+      "string_id": "yuriy_voron_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "So what's the plan now?",
+      "JA_current": "So what's the plan now?",
+      "JA_new": "これからどうする？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_voron_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_voron_dialog_phrase_12#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2292,
+      "string_id": "yuriy_voron_dialog_phrase_12",
+      "occurrence": 1,
+      "EN": "As I said, we need to find this Raven. Most likely he's probably dead along with the expedition, but if he isn't then he could very well be a solution to this mystery. Help us find Raven, please. Dead or alive, I'll make it worth your while.",
+      "JA_current": "As I said, we need to find this Raven. Most likely he's probably dead along with the expedition, but if he isn't then he could very well be a solution to this mystery. Help us find Raven, please. Dead or alive, I'll make it worth your while.",
+      "JA_new": "言ったとおり、レイヴンを探す。遠征隊と一緒に死んでいる可能性が高いが、生きていれば、この謎を解く鍵になるかもしれない。頼む、レイヴンを見つけてくれ。生死は問わない。報酬は払う。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_voron_dialog",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_voron_dialog_phrase_13#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2295,
+      "string_id": "yuriy_voron_dialog_phrase_13",
+      "occurrence": 1,
+      "EN": "Okay, but where do I start looking?",
+      "JA_current": "Okay, but where do I start looking?",
+      "JA_new": "分かった。どこから探せばいい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_voron_dialog",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_voron_dialog_phrase_14#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2298,
+      "string_id": "yuriy_voron_dialog_phrase_14",
+      "occurrence": 1,
+      "EN": "I know for a fact that Raven had a shelter or hiding place here on the outskirts of the Bar. Check it out, maybe there is some information or clue that could point us in the right direction. In any case, this is our only lead. I've been told Raven took shelter inside of an old Kamaz - there is one like that around, under the wall of the factory by the road to the Army Warehouses.",
+      "JA_current": "I know for a fact that Raven had a shelter or hiding place here on the outskirts of the Bar. Check it out, maybe there is some information or clue that could point us in the right direction. In any case, this is our only lead. I've been told Raven took shelter inside of an old Kamaz - there is one like that around, under the wall of the factory by the road to the Army Warehouses.",
+      "JA_new": "レイヴンはロストクの外れに隠れ家を持っていた。それを調べてくれ。何か手がかりがあるかもしれない。今のところ、そこが唯一の頼りだ。古いカマズのトラックに身を隠していたと聞いた。軍事倉庫へ続く道のそば、工場の壁際に一台ある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_voron_dialog",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_voron_dialog_phrase_15#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2301,
+      "string_id": "yuriy_voron_dialog_phrase_15",
+      "occurrence": 1,
+      "EN": "Okay, I'll take a look.",
+      "JA_current": "Okay, I'll take a look.",
+      "JA_new": "分かった。調べてみる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_voron_dialog",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "yuriy_voron_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Got some unpleasant news, Yuri. That guy in Yantar was indeed Trofim, but he got fried by the psi-field there, so...",
+      "JA_current": "Got some unpleasant news, Yuri. That guy in Yantar was indeed Trofim, but he got fried by the psi-field there, so...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_voron_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "yuriy_voron_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, I get it.. Damn, what a grand shame... How could he have gotten into that mess, he was such an experienced stalker... I don't suppose you could get anything out of him?",
+      "JA_current": "Yeah, I get it.. Damn, what a grand shame... How could he have gotten into that mess, he was such an experienced stalker... I don't suppose you could get anything out of him?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_voron_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "yuriy_voron_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.shevron_out"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All I could get from him was a medallion with some kind of emblem on it. Here, take a look.",
+      "JA_current": "All I could get from him was a medallion with some kind of emblem on it. Here, take a look.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_voron_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "yuriy_voron_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It looks familiar, I've seen it somewhere before... Let me think, let me think... I seem to remember seeing the same mark on a man. I think he was a local hunter, calling himself Raven or something like that, yeah. Perhaps he was the guy who offered to be a guide for Captain, I remember him mentioning a marked hunter. He had volunteered to accompany the advance party with the Captain, the Medicine Man, and the Indian to the edge of the Army Warehouses. Could he have had something to do with the group's disappearance? In any case, it is necessary to find him.",
+      "JA_current": "It looks familiar, I've seen it somewhere before... Let me think, let me think... I seem to remember seeing the same mark on a man. I think he was a local hunter, calling himself Raven or something like that, yeah. Perhaps he was the guy who offered to be a guide for Captain, I remember him mentioning a marked hunter. He had volunteered to accompany the advance party with the Captain, the Medicine Man, and the Indian to the edge of the Army Warehouses. Could he have had something to do with the group's disappearance? In any case, it is necessary to find him.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_voron_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "yuriy_voron_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Is this Raven missing, too?",
+      "JA_current": "Is this Raven missing, too?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_voron_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "yuriy_voron_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Most likely yes, because I haven't received any communications from him. Although to tell you the truth, he only communicated with the Captain himself, I barely had any contact with him whatsoever.",
+      "JA_current": "Most likely yes, because I haven't received any communications from him. Although to tell you the truth, he only communicated with the Captain himself, I barely had any contact with him whatsoever.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_voron_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "yuriy_voron_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What kind of stalker is this Raven? What is your impression of him?",
+      "JA_current": "What kind of stalker is this Raven? What is your impression of him?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_voron_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "yuriy_voron_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "He seems experienced, and he catches the eye. You wouldn't mistake him for a common pickpocket. There was something about him, even though he had the most ordinary appearance: average height, black hair, and a sturdy build. He claimed he belonged to the Hunters.",
+      "JA_current": "He seems experienced, and he catches the eye. You wouldn't mistake him for a common pickpocket. There was something about him, even though he had the most ordinary appearance: average height, black hair, and a sturdy build. He claimed he belonged to the Hunters.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_voron_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "yuriy_voron_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What kind of Hunters are we talking about?",
+      "JA_current": "What kind of Hunters are we talking about?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_voron_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "yuriy_voron_dialog_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I don't know, I haven't heard much about this group. From what I know it's not really even a group, but something like a clan or a society. The hunters are very few in number, but they're all professionals, and they make a living by catching mutants alive for the scientists.",
+      "JA_current": "I don't know, I haven't heard much about this group. From what I know it's not really even a group, but something like a clan or a society. The hunters are very few in number, but they're all professionals, and they make a living by catching mutants alive for the scientists.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_voron_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "yuriy_voron_dialog_phrase_11",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So what's the plan now?",
+      "JA_current": "So what's the plan now?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_voron_dialog_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "yuriy_voron_dialog_phrase_12",
+      "next": [
+        "12"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "As I said, we need to find this Raven. Most likely he's probably dead along with the expedition, but if he isn't then he could very well be a solution to this mystery. Help us find Raven, please. Dead or alive, I'll make it worth your while.",
+      "JA_current": "As I said, we need to find this Raven. Most likely he's probably dead along with the expedition, but if he isn't then he could very well be a solution to this mystery. Help us find Raven, please. Dead or alive, I'll make it worth your while.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_voron_dialog_phrase_12#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "yuriy_voron_dialog_phrase_13",
+      "next": [
+        "13"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Okay, but where do I start looking?",
+      "JA_current": "Okay, but where do I start looking?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_voron_dialog_phrase_13#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "yuriy_voron_dialog_phrase_14",
+      "next": [
+        "14"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I know for a fact that Raven had a shelter or hiding place here on the outskirts of the Bar. Check it out, maybe there is some information or clue that could point us in the right direction. In any case, this is our only lead. I've been told Raven took shelter inside of an old Kamaz - there is one like that around, under the wall of the factory by the road to the Army Warehouses.",
+      "JA_current": "I know for a fact that Raven had a shelter or hiding place here on the outskirts of the Bar. Check it out, maybe there is some information or clue that could point us in the right direction. In any case, this is our only lead. I've been told Raven took shelter inside of an old Kamaz - there is one like that around, under the wall of the factory by the road to the Army Warehouses.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_voron_dialog_phrase_14#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "yuriy_voron_dialog_phrase_15",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.spawn_voron_shron_and_give_info"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Okay, I'll take a look.",
+      "JA_current": "Okay, I'll take a look.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_voron_dialog_phrase_15#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "packet_id": "ui_sleep_dialog__001",
+  "category": "ui_system",
+  "packet_type": "text_table",
+  "directive": "画面上で操作と結果がすぐ分かる短い日本語にする。キー名、数値、変数を保つ。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "source_table": "ui_sleep_dialog",
+  "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\ui_sleep_dialog.xml",
+  "source_sha256": "4a5e32fb82f7bfcfeb507d7bfcd0eb704559e8516360bf75ae4e821b3bae6c13",
+  "english_reference_member": "gamedata/config/text/eng/ui_sleep_dialog.xml",
+  "english_reference_sha256": "4a5e32fb82f7bfcfeb507d7bfcd0eb704559e8516360bf75ae4e821b3bae6c13",
+  "entry_count": 15,
+  "entries": [
+    {
+      "key": "ui_sleep_dialog:sleep_title_1#1",
+      "source_table": "ui_sleep_dialog",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\ui_sleep_dialog.xml",
+      "source_xml_line": 5,
+      "string_id": "sleep_title_1",
+      "occurrence": 1,
+      "EN": "Sleep until...",
+      "JA_current": "Sleep until...",
+      "JA_new": "何時まで眠る？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": []
+    },
+    {
+      "key": "ui_sleep_dialog:sleep_warning_radiation#1",
+      "source_table": "ui_sleep_dialog",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\ui_sleep_dialog.xml",
+      "source_xml_line": 8,
+      "string_id": "sleep_warning_radiation",
+      "occurrence": 1,
+      "EN": "Cannot sleep when irradiated.",
+      "JA_current": "Cannot sleep when irradiated.",
+      "JA_new": "放射線を浴びている間は眠れない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": []
+    },
+    {
+      "key": "ui_sleep_dialog:sleep_warning_surge#1",
+      "source_table": "ui_sleep_dialog",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\ui_sleep_dialog.xml",
+      "source_xml_line": 11,
+      "string_id": "sleep_warning_surge",
+      "occurrence": 1,
+      "EN": "Cannot sleep during a blowout.",
+      "JA_current": "Cannot sleep during a blowout.",
+      "JA_new": "ブロウアウト中は眠れない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": []
+    },
+    {
+      "key": "ui_sleep_dialog:sleep_warning_enemy#1",
+      "source_table": "ui_sleep_dialog",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\ui_sleep_dialog.xml",
+      "source_xml_line": 14,
+      "string_id": "sleep_warning_enemy",
+      "occurrence": 1,
+      "EN": "Cannot sleep with enemies around.",
+      "JA_current": "Cannot sleep with enemies around.",
+      "JA_new": "敵が近くにいると眠れない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": []
+    },
+    {
+      "key": "ui_sleep_dialog:sleep_warning_satiety_or_bleeding#1",
+      "source_table": "ui_sleep_dialog",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\ui_sleep_dialog.xml",
+      "source_xml_line": 17,
+      "string_id": "sleep_warning_satiety_or_bleeding",
+      "occurrence": 1,
+      "EN": "Cannot sleep when famished or bleeding heavily.",
+      "JA_current": "Cannot sleep when famished or bleeding heavily.",
+      "JA_new": "空腹状態、またはひどく出血している間は眠れない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": []
+    },
+    {
+      "key": "ui_sleep_dialog:st_sleep_hours#1",
+      "source_table": "ui_sleep_dialog",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\ui_sleep_dialog.xml",
+      "source_xml_line": 20,
+      "string_id": "st_sleep_hours",
+      "occurrence": 1,
+      "EN": "h",
+      "JA_current": "h",
+      "JA_new": "時間",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": []
+    },
+    {
+      "key": "ui_sleep_dialog:barman_sleep_dialog_1#1",
+      "source_table": "ui_sleep_dialog",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\ui_sleep_dialog.xml",
+      "source_xml_line": 23,
+      "string_id": "barman_sleep_dialog_1",
+      "occurrence": 1,
+      "EN": "Do you have a bed to spare for me?",
+      "JA_current": "Do you have a bed to spare for me?",
+      "JA_new": "寝床を借りられますか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_sleep_dialog_start",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "ui_sleep_dialog:barman_sleep_dialog_2#1",
+      "source_table": "ui_sleep_dialog",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\ui_sleep_dialog.xml",
+      "source_xml_line": 26,
+      "string_id": "barman_sleep_dialog_2",
+      "occurrence": 1,
+      "EN": "Well, there's a place to sleep in the back. Tell the guard that I gave you permission. You can use it anytime you want.",
+      "JA_current": "Well, there's a place to sleep in the back. Tell the guard that I gave you permission. You can use it anytime you want.",
+      "JA_new": "裏に寝る場所がある。警備には俺が許可したって伝えろ。いつでも使っていい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_sleep_dialog_start",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "ui_sleep_dialog:barman_sleep_dialog_3#1",
+      "source_table": "ui_sleep_dialog",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\ui_sleep_dialog.xml",
+      "source_xml_line": 29,
+      "string_id": "barman_sleep_dialog_3",
+      "occurrence": 1,
+      "EN": "Thanks.",
+      "JA_current": "Thanks.",
+      "JA_new": "ありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_sleep_dialog_start",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "ui_sleep_dialog:guard_sleep_dialog_1_1#1",
+      "source_table": "ui_sleep_dialog",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\ui_sleep_dialog.xml",
+      "source_xml_line": 32,
+      "string_id": "guard_sleep_dialog_1_1",
+      "occurrence": 1,
+      "EN": "Hello, Barkeep gave me permission to enter.",
+      "JA_current": "Hello, Barkeep gave me permission to enter.",
+      "JA_new": "こんにちは。バーキープに入っていいと言われました。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "guard_sleep_dialog_1",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "ui_sleep_dialog:guard_sleep_dialog_1_2#1",
+      "source_table": "ui_sleep_dialog",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\ui_sleep_dialog.xml",
+      "source_xml_line": 35,
+      "string_id": "guard_sleep_dialog_1_2",
+      "occurrence": 1,
+      "EN": "I don't care. No one is going to get in there. End of discussion.",
+      "JA_current": "I don't care. No one is going to get in there. End of discussion.",
+      "JA_new": "知らん。誰も中には入れない。それだけだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "guard_sleep_dialog_1",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "ui_sleep_dialog:guard_sleep_dialog_1_3#1",
+      "source_table": "ui_sleep_dialog",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\ui_sleep_dialog.xml",
+      "source_xml_line": 38,
+      "string_id": "guard_sleep_dialog_1_3",
+      "occurrence": 1,
+      "EN": "You're kidding, right?",
+      "JA_current": "You're kidding, right?",
+      "JA_new": "冗談だろ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "guard_sleep_dialog_1",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "ui_sleep_dialog:guard_sleep_dialog_2_1#1",
+      "source_table": "ui_sleep_dialog",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\ui_sleep_dialog.xml",
+      "source_xml_line": 41,
+      "string_id": "guard_sleep_dialog_2_1",
+      "occurrence": 1,
+      "EN": "Let me in.",
+      "JA_current": "Let me in.",
+      "JA_new": "入れてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "guard_sleep_dialog_2",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "ui_sleep_dialog:guard_sleep_dialog_2_2#1",
+      "source_table": "ui_sleep_dialog",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\ui_sleep_dialog.xml",
+      "source_xml_line": 44,
+      "string_id": "guard_sleep_dialog_2_2",
+      "occurrence": 1,
+      "EN": "You again?",
+      "JA_current": "You again?",
+      "JA_new": "またお前か？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "guard_sleep_dialog_2",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "ui_sleep_dialog:guard_sleep_dialog_2_3#1",
+      "source_table": "ui_sleep_dialog",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\ui_sleep_dialog.xml",
+      "source_xml_line": 47,
+      "string_id": "guard_sleep_dialog_2_3",
+      "occurrence": 1,
+      "EN": "Yup...",
+      "JA_current": "Yup...",
+      "JA_new": "そうだ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "guard_sleep_dialog_2",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ]
+}

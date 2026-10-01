@@ -1,0 +1,242 @@
+{
+  "packet_id": "dialog_0164__vardok_start_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "vardok_start_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "vardok_stalker",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "vardok_start"
+    }
+  ],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 5,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:vardok_start_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1937,
+      "string_id": "vardok_start_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Hello, stalker! Are you here for treatment?",
+      "JA_current": "ようこそ、ストーカー。治療かい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vardok_start_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:vardok_start_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1940,
+      "string_id": "vardok_start_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Who are you?",
+      "JA_current": "あんたは一体？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vardok_start_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:vardok_start_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1943,
+      "string_id": "vardok_start_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "I'm a local doctor, nurse, paramedic, whatever you want to call it. Here in the Bar, I help stalkers who have suffered from various injuries and illnesses common in the Zone. I treat the sick, help the downtrodden and lift the severely wounded up from death's door. I mend torn wounds, stitch and clean gunshot wounds, and prepare medicines from what's available. I'm also very often called upon by Duty to patch up their guys after they come back from patrol.",
+      "JA_current": "この界隈の医者さ。看護師でも衛生兵でも、好きに呼んでくれ。ここロストクで、ゾーン特有の怪我や病気に苦しむストーカーたちを手当てしている。病人を診て、困窮者を助け、瀕死の重傷者を死神の手から引き戻すのが私の役目だ。引き裂かれた傷口を塞ぎ、銃創を洗浄して縫合し、手に入る材料で薬を調合する。デューティーの連中が巡回から戻った後、手当てを頼まれることも多い。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vardok_start_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:vardok_start_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1946,
+      "string_id": "vardok_start_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "You have a priceless profession around here. Does it pay a lot?",
+      "JA_current": "この辺りじゃ得難い職業だな。ずいぶん稼げるんじゃないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vardok_start_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:vardok_start_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1949,
+      "string_id": "vardok_start_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "I help stalkers and don't actually take money for it. Here, in the Zone, I redeem myself to those who suffered because of me on the mainland. The only thing I charge is a small fee for the prices of medical equipment and first-aid kits, sadly I'm unable to create those out of nothing. I have a limited number of them, many of which I have to prepare myself with raw materials. However, my prices for medicines are very low compared to imported pharmaceuticals.",
+      "JA_current": "私はストーカーを助けているだけで、診察代を受け取るつもりはないよ。ゾーンでこうしているのは、本土で私のせいで苦しんだ人々への罪滅ぼしなんだ。受け取るのは医療器具や救急キットの実費程度さ。無から生み出すわけにはいかないからね。手持ちの数には限りがあるし、原料から自分で作らねばならないものも多い。それでも、外から持ち込まれる薬品に比べれば破格の安さのはずだよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "vardok_start_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "vardok_start_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.zdorovo_brat"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hello, stalker! Are you here for treatment?",
+      "JA_current": "Hello, stalker! Are you here for treatment?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:vardok_start_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "vardok_start_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Who are you?",
+      "JA_current": "Who are you?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:vardok_start_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "vardok_start_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm a local doctor, nurse, paramedic, whatever you want to call it. Here in the Bar, I help stalkers who have suffered from various injuries and illnesses common in the Zone. I treat the sick, help the downtrodden and lift the severely wounded up from death's door. I mend torn wounds, stitch and clean gunshot wounds, and prepare medicines from what's available. I'm also very often called upon by Duty to patch up their guys after they come back from patrol.",
+      "JA_current": "I'm a local doctor, nurse, paramedic, whatever you want to call it. Here in the Bar, I help stalkers who have suffered from various injuries and illnesses common in the Zone. I treat the sick, help the downtrodden and lift the severely wounded up from death's door. I mend torn wounds, stitch and clean gunshot wounds, and prepare medicines from what's available. I'm also very often called upon by Duty to patch up their guys after they come back from patrol.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:vardok_start_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "vardok_start_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You have a priceless profession around here. Does it pay a lot?",
+      "JA_current": "You have a priceless profession around here. Does it pay a lot?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:vardok_start_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "vardok_start_dialog_phrase_5",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "vardok_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I help stalkers and don't actually take money for it. Here, in the Zone, I redeem myself to those who suffered because of me on the mainland. The only thing I charge is a small fee for the prices of medical equipment and first-aid kits, sadly I'm unable to create those out of nothing. I have a limited number of them, many of which I have to prepare myself with raw materials. However, my prices for medicines are very low compared to imported pharmaceuticals.",
+      "JA_current": "I help stalkers and don't actually take money for it. Here, in the Zone, I redeem myself to those who suffered because of me on the mainland. The only thing I charge is a small fee for the prices of medical equipment and first-aid kits, sadly I'm unable to create those out of nothing. I have a limited number of them, many of which I have to prepare myself with raw materials. However, my prices for medicines are very low compared to imported pharmaceuticals.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:vardok_start_dialog_phrase_5#1"
+      ]
+    }
+  ]
+}

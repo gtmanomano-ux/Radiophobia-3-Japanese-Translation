@@ -1,0 +1,1392 @@
+{
+  "packet_id": "dialog_0114__bar_arena_man_start",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_arena_man_start",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_arena_manager",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 4,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_start_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 388,
+      "string_id": "bar_arena_man_start_11",
+      "occurrence": 1,
+      "EN": "Hello, man! There's a new fight for you.",
+      "JA_current": "やぁ！ アンタに新たなファイトがあるぜ？",
+      "JA_new": "やあ！ 新しい試合が決まったぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_start",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_start_21#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 391,
+      "string_id": "bar_arena_man_start_21",
+      "occurrence": 1,
+      "EN": "Take a walk around here for an hour or two, the Arena is not yet open.",
+      "JA_current": "一杯飲っててくれんか？ Arena はまだ準備中なんだ。",
+      "JA_new": "ここで1、2時間時間をつぶしてくれ。アリーナはまだ始まらない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_start",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_start_51#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 413,
+      "string_id": "bar_arena_man_start_51",
+      "occurrence": 1,
+      "EN": "You're not experienced enough for this fight.",
+      "JA_current": "このファイトには経験が充分じゃないな。",
+      "JA_new": "この試合には、まだお前じゃ早いな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_start",
+          "phrase_id": "51",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_arena_man_start_41#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 397,
+      "string_id": "bar_arena_man_start_41",
+      "occurrence": 1,
+      "EN": "Here, take your reward.",
+      "JA_current": "アンタの勝利だ！ これが報酬だ。",
+      "JA_new": "ほら、報酬だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_arena_man_start",
+          "phrase_id": "41",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "bar_arena_man_start",
+          "phrase_id": "42",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": null,
+      "next": [
+        "1",
+        "2",
+        "5",
+        "4",
+        "3",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1",
+      "text_id": null,
+      "next": [
+        "11"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "aem_startup"
+        },
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.arena_hasnt_reward"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "bar_arena_pause"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "bar_arena_fight_8_done"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "bar_arena_rank_false"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "2",
+      "text_id": null,
+      "next": [
+        "21"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "aem_startup"
+        },
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.arena_hasnt_reward"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "bar_arena_rank_false"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_arena_pause"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "5",
+      "text_id": null,
+      "next": [
+        "51"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "aem_startup"
+        },
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.arena_hasnt_reward"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_arena_rank_false"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "4",
+      "text_id": null,
+      "next": [
+        "41",
+        "42"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "aem_startup"
+        },
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.arena_has_reward"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.arena_give_reward"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "3",
+      "text_id": null,
+      "next": [
+        "31"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "aem_startup"
+        },
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.arena_hasnt_reward"
+        },
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.arena_rank_check_false"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "bar_arena_rank_false"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_arena_fight_8_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "6",
+      "text_id": null,
+      "next": [
+        "60"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "aem_startup"
+        },
+        {
+          "type": "has_info",
+          "value": "aem_fight_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "7",
+      "text_id": null,
+      "next": [
+        "70"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "aem_startup"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "aem_fight_done"
+        },
+        {
+          "type": "has_info",
+          "value": "aem_open"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "aem_ready"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "8",
+      "text_id": null,
+      "next": [
+        "81"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "aem_startup"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "aem_fight_done"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "aem_open"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "9",
+      "text_id": null,
+      "next": [
+        "91"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "aem_startup"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "aem_fight_done"
+        },
+        {
+          "type": "has_info",
+          "value": "aem_open"
+        },
+        {
+          "type": "has_info",
+          "value": "aem_ready"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "bar_arena_man_start_11",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hello, man! There's a new fight for you.",
+      "JA_current": "やぁ！ アンタに新たなファイトがあるぜ？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_start_11#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "bar_arena_man_start_21",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Take a walk around here for an hour or two, the Arena is not yet open.",
+      "JA_current": "一杯飲っててくれんか？ Arena はまだ準備中なんだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_start_21#1"
+      ]
+    },
+    {
+      "phrase_id": "51",
+      "text_id": "bar_arena_man_start_51",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You're not experienced enough for this fight.",
+      "JA_current": "このファイトには経験が充分じゃないな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_start_51#1"
+      ]
+    },
+    {
+      "phrase_id": "41",
+      "text_id": "bar_arena_man_start_41",
+      "next": [],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_arena_fight_8_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here, take your reward.",
+      "JA_current": "アンタの勝利だ！ これが報酬だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_start_41#1"
+      ]
+    },
+    {
+      "phrase_id": "42",
+      "text_id": "bar_arena_man_start_41",
+      "next": [
+        "421"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "bar_arena_fight_8_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here, take your reward.",
+      "JA_current": "アンタの勝利だ！ これが報酬だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_arena_man_start_41#1"
+      ]
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "aem_start_31",
+      "next": [
+        "311"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hi, Champ!",
+      "JA_current": "Hi, Champ!",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_31#1"
+      ]
+    },
+    {
+      "phrase_id": "60",
+      "text_id": null,
+      "next": [
+        "61",
+        "62",
+        "63",
+        "64",
+        "65",
+        "66"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "70",
+      "text_id": null,
+      "next": [
+        "71",
+        "72",
+        "73",
+        "74"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "81",
+      "text_id": "aem_start_81",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Greetings, stalker!",
+      "JA_current": "Greetings, stalker!",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_81#1"
+      ]
+    },
+    {
+      "phrase_id": "91",
+      "text_id": "aem_start_91",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hello, Marked One.",
+      "JA_current": "Hello, Marked One.",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_91#1"
+      ]
+    },
+    {
+      "phrase_id": "421",
+      "text_id": "aem_start_421",
+      "next": [
+        "4211"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "bar_arena_fight_8_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "42"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So, what are you going to do now? No more fighting in the Arena, close your small business and search for a better life in distant lands, or what?",
+      "JA_current": "So, what are you going to do now? No more fighting in the Arena, close your small business and search for a better life in distant lands, or what?",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_421#1"
+      ]
+    },
+    {
+      "phrase_id": "311",
+      "text_id": "aem_start_311",
+      "next": [
+        "3111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hello. What's up?",
+      "JA_current": "Hello. What's up?",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_311#1"
+      ]
+    },
+    {
+      "phrase_id": "61",
+      "text_id": null,
+      "next": [
+        "611"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "aem_manager.is_reward_stake_win"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "60"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "62",
+      "text_id": null,
+      "next": [
+        "621"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "aem_manager.is_reward_stake_fail"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "60"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "63",
+      "text_id": null,
+      "next": [
+        "631"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "aem_manager.is_reward_nostake_unlimit"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "60"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "64",
+      "text_id": null,
+      "next": [
+        "641"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "aem_manager.is_reward_nostake_bonus"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "60"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "65",
+      "text_id": null,
+      "next": [
+        "651"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "aem_manager.is_reward_nostake_timeover"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "60"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "66",
+      "text_id": null,
+      "next": [
+        "661"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "aem_manager.is_reward_nostake_foul"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "60"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "71",
+      "text_id": null,
+      "next": [
+        "711"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "aem_manager.is_init_first"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "70"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "72",
+      "text_id": null,
+      "next": [
+        "721"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "aem_manager.is_init_not_first"
+        },
+        {
+          "type": "precondition",
+          "value": "aem_manager.is_init_stalkers"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "70"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "73",
+      "text_id": null,
+      "next": [
+        "731"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "aem_manager.is_init_not_first"
+        },
+        {
+          "type": "precondition",
+          "value": "aem_manager.is_init_not_stalkers"
+        },
+        {
+          "type": "precondition",
+          "value": "aem_manager.is_init_mutants"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "70"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "74",
+      "text_id": null,
+      "next": [
+        "741"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "aem_manager.is_init_not_first"
+        },
+        {
+          "type": "precondition",
+          "value": "aem_manager.is_init_not_stalkers"
+        },
+        {
+          "type": "precondition",
+          "value": "aem_manager.is_init_not_mutants"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "70"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "4211",
+      "text_id": "aem_start_4211",
+      "next": [
+        "42111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "421"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Don't be too quick with making decisions, Marked One. That was just one tournament out of many.",
+      "JA_current": "Don't be too quick with making decisions, Marked One. That was just one tournament out of many.",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_4211#1"
+      ]
+    },
+    {
+      "phrase_id": "3111",
+      "text_id": "aem_start_3111",
+      "next": [
+        "31111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "aem_manager.startup"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "311"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Wow... Such enthusiasm... You'll have to wait - very few competitors yet. Come back later.",
+      "JA_current": "Wow... Such enthusiasm... You'll have to wait - very few competitors yet. Come back later.",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_3111#1"
+      ]
+    },
+    {
+      "phrase_id": "611",
+      "text_id": "aem_start_611",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "aem_manager.close_fight"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "61"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Bingo! My congratulations!",
+      "JA_current": "Bingo! My congratulations!",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_611#1"
+      ]
+    },
+    {
+      "phrase_id": "621",
+      "text_id": "aem_start_621",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "aem_manager.close_fight"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "62"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No luck... Maybe some other time.",
+      "JA_current": "No luck... Maybe some other time.",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_621#1"
+      ]
+    },
+    {
+      "phrase_id": "631",
+      "text_id": "aem_start_631",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "aem_manager.close_fight"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "63"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Take the earnings.",
+      "JA_current": "Take the earnings.",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_631#1"
+      ]
+    },
+    {
+      "phrase_id": "641",
+      "text_id": "aem_start_641",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "aem_manager.close_fight"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "64"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Wonderful fight! You've won the bounty and the bonus.",
+      "JA_current": "Wonderful fight! You've won the bounty and the bonus.",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_641#1"
+      ]
+    },
+    {
+      "phrase_id": "651",
+      "text_id": "aem_start_651",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "aem_manager.close_fight"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "65"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The victory is not reckoned.",
+      "JA_current": "The victory is not reckoned.",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_651#1"
+      ]
+    },
+    {
+      "phrase_id": "661",
+      "text_id": "aem_start_661",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "aem_manager.close_fight"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "66"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Penalty for violating the rules.",
+      "JA_current": "Penalty for violating the rules.",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_661#1"
+      ]
+    },
+    {
+      "phrase_id": "711",
+      "text_id": "aem_start_711",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "aem_manager.reinit"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "71"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hi, Champ! You've decided to pay a visit to the Arena? I haven't had any noteworthy challengers for your title yet, but that doesn't mean you can't put on a show for us, help us bring in some cash! How about eliminating a couple of mutants? We've had a good number captured recently.",
+      "JA_current": "Hi, Champ! You've decided to pay a visit to the Arena? I haven't had any noteworthy challengers for your title yet, but that doesn't mean you can't put on a show for us, help us bring in some cash! How about eliminating a couple of mutants? We've had a good number captured recently.",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_711#1"
+      ]
+    },
+    {
+      "phrase_id": "721",
+      "text_id": "aem_start_721",
+      "next": [
+        "7211"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "aem_manager.reinit"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "72"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Look, Marked One, I have a bit of a problem for you here. Hostile factions decided to temporarily put their differences aside to crush their common enemy.",
+      "JA_current": "Look, Marked One, I have a bit of a problem for you here. Hostile factions decided to temporarily put their differences aside to crush their common enemy.",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_721#1"
+      ]
+    },
+    {
+      "phrase_id": "731",
+      "text_id": "aem_start_731",
+      "next": [
+        "7311"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "aem_manager.reinit"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "73"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hello, Marked One. Look, we've had so many mutants delivered recently, that there's barely any room to keep them. Of-course, as ill luck would have it, no one's volunteered to fight them. How about you go for it?",
+      "JA_current": "Hello, Marked One. Look, we've had so many mutants delivered recently, that there's barely any room to keep them. Of-course, as ill luck would have it, no one's volunteered to fight them. How about you go for it?",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_731#1"
+      ]
+    },
+    {
+      "phrase_id": "741",
+      "text_id": "aem_start_741",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "aem_manager.reinit"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "74"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hi, Marked One. The Arena is open again. C'mon, choose the fight quickly. We have a tight schedule today.",
+      "JA_current": "Hi, Marked One. The Arena is open again. C'mon, choose the fight quickly. We have a tight schedule today.",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_741#1"
+      ]
+    },
+    {
+      "phrase_id": "42111",
+      "text_id": "aem_start_42111",
+      "next": [
+        "421111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4211"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It may sound strange, but I suspected that from the very start. Come on, lay your cards on the table.",
+      "JA_current": "It may sound strange, but I suspected that from the very start. Come on, lay your cards on the table.",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_42111#1"
+      ]
+    },
+    {
+      "phrase_id": "31111",
+      "text_id": "aem_start_31111",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Ok. Agreed.",
+      "JA_current": "Ok. Agreed.",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_31111#1"
+      ]
+    },
+    {
+      "phrase_id": "7211",
+      "text_id": "aem_start_7211",
+      "next": [
+        "72111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "721"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "How's that a problem for me?",
+      "JA_current": "How's that a problem for me?",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_7211#1"
+      ]
+    },
+    {
+      "phrase_id": "7311",
+      "text_id": "aem_start_7311",
+      "next": [
+        "73111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "731"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "We'll see.",
+      "JA_current": "We'll see.",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_7311#1"
+      ]
+    },
+    {
+      "phrase_id": "421111",
+      "text_id": "aem_start_421111",
+      "next": [
+        "4211111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "aem_manager.startup"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "42111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So, you made it to the top and became the Champion of our Arena. Well, that's just a challenge title - nobody can be sure you aren't going to kick the bucket next time. The fights are held more or less regularly - once or twice a day, from 22:00 to 06:00. I'll be posting the arena fight times on the public network anyway so you'll get a heads up if you're interested. As long as you are the Champion, you are welcome to choose any of the announced fights. To put simply, it is up to you to decide who and what to fight with and when. But there are certain limitations about weapons and ammo: it is prohibited to use any kind of explosive ordnance, whether it's grenades or munitions, and especially not heavy weaponry. No grenade launchers, RPGs or those fancy Gauss-rifles, otherwise you're likely to demolish the whole compound and scare off competition, and we don't want that, right? That's it in a nutshell. Now, I have to get the cleaners to mop up the mess you made in there, so you are free to go to the Bar and get totally drunk. But don't be late for the opening! See you!",
+      "JA_current": "So, you made it to the top and became the Champion of our Arena. Well, that's just a challenge title - nobody can be sure you aren't going to kick the bucket next time. The fights are held more or less regularly - once or twice a day, from 22:00 to 06:00. I'll be posting the arena fight times on the public network anyway so you'll get a heads up if you're interested. As long as you are the Champion, you are welcome to choose any of the announced fights. To put simply, it is up to you to decide who and what to fight with and when. But there are certain limitations about weapons and ammo: it is prohibited to use any kind of explosive ordnance, whether it's grenades or munitions, and especially not heavy weaponry. No grenade launchers, RPGs or those fancy Gauss-rifles, otherwise you're likely to demolish the whole compound and scare off competition, and we don't want that, right? That's it in a nutshell. Now, I have to get the cleaners to mop up the mess you made in there, so you are free to go to the Bar and get totally drunk. But don't be late for the opening! See you!",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_421111#1"
+      ]
+    },
+    {
+      "phrase_id": "72111",
+      "text_id": "aem_start_72111",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7211"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "For you?.. Well, their \"common enemy\" is you. Just think about it, how many guys have you sent off to the heavens? Well, their pals who are still alive have began to refuse to fight alongside you... one at a time.",
+      "JA_current": "For you?.. Well, their \"common enemy\" is you. Just think about it, how many guys have you sent off to the heavens? Well, their pals who are still alive have began to refuse to fight alongside you... one at a time.",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_72111#1"
+      ]
+    },
+    {
+      "phrase_id": "73111",
+      "text_id": "aem_start_73111",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7311"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Think it over, it would be a good deal. Earn a bit and help us out at the same time.",
+      "JA_current": "Think it over, it would be a good deal. Earn a bit and help us out at the same time.",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_73111#1"
+      ]
+    },
+    {
+      "phrase_id": "4211111",
+      "text_id": "aem_start_4211111",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "421111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sounds good. Bye.",
+      "JA_current": "Sounds good. Bye.",
+      "string_entry_candidates": [
+        "aem_strings:aem_start_4211111#1"
+      ]
+    }
+  ]
+}

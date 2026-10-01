@@ -1,0 +1,374 @@
+{
+  "packet_id": "dialog_0351__mil_zoneguard_common1",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "mil_zoneguard_common1",
+  "graph_source": "gamedata/config/gameplay/dialogs_military.xml",
+  "graph_sha256": "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+  "character_bindings": [
+    {
+      "profile_id": "mil_Svoboda_zoneguard",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_military.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "mil_freedom_rg6_task"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "mil_cook_question_already"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 8,
+  "entries": [
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_common1_0#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1323,
+      "string_id": "mil_zoneguard_common1_0",
+      "occurrence": 1,
+      "EN": "Is there a cook around here?",
+      "JA_current": "ここにコックはいるか？",
+      "JA_new": "この辺にコックはいるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_common1",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_common1_1#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1326,
+      "string_id": "mil_zoneguard_common1_1",
+      "occurrence": 1,
+      "EN": "Sure is, how could we do without one! What the heck do you need him for, anyway?",
+      "JA_current": "ああもちろん、いなけりゃどうにもならんよ！ いったいなんだ？ 何で彼を？",
+      "JA_new": "いるさ。いなきゃ困るだろ！そいつに何の用だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_common1",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_common1_2#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1329,
+      "string_id": "mil_zoneguard_common1_2",
+      "occurrence": 1,
+      "EN": "Well, I need a little bit of food.",
+      "JA_current": "いやあ、少し食い物が欲しくてな。",
+      "JA_new": "ちょっと食い物が欲しいんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_common1",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_common1_3#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1332,
+      "string_id": "mil_zoneguard_common1_3",
+      "occurrence": 1,
+      "EN": "He's in his kitchen. Usually, he sits there and mutters.",
+      "JA_current": "奴はキッチンにいるぜ。大抵、そこに座ってブツブツ言ってんだ。",
+      "JA_new": "厨房にいるよ。いつも座って、ぶつぶつ言ってる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_common1",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_common1_4#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1335,
+      "string_id": "mil_zoneguard_common1_4",
+      "occurrence": 1,
+      "EN": "Mutters?",
+      "JA_current": "ブツブツ？",
+      "JA_new": "ぶつぶつ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_common1",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_common1_5#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1338,
+      "string_id": "mil_zoneguard_common1_5",
+      "occurrence": 1,
+      "EN": "What did you expect? A drunk is a drunk. If he couldn't cook, we'd have gotten rid of him a long time ago. He's in the kitchen. I'll tell you how to get there.",
+      "JA_current": "何を想像する？ 飲んで飲みまくりさ。もしあいつがコックじゃなかったら、とっくの昔に叩き出してる。あいつは厨房にいるよ。そこへの道筋を教えよう。",
+      "JA_new": "何を期待してたんだ？酔っぱらいは酔っぱらいさ。料理ができなきゃ、とっくに追い出してる。厨房にいる。道を教えてやるよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_common1",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_common1_6#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1341,
+      "string_id": "mil_zoneguard_common1_6",
+      "occurrence": 1,
+      "EN": "Thanks for the information.",
+      "JA_current": "情報をありがとよ。",
+      "JA_new": "教えてくれてありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_common1",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_zoneguard_common1_7#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1344,
+      "string_id": "mil_zoneguard_common1_7",
+      "occurrence": 1,
+      "EN": "No problem.",
+      "JA_current": "問題ない。",
+      "JA_new": "どういたしまして。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_zoneguard_common1",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "mil_zoneguard_common1_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Is there a cook around here?",
+      "JA_current": "ここにコックはいるか？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_common1_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "mil_zoneguard_common1_1",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs_military.mil_remove_base_spot"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sure is, how could we do without one! What the heck do you need him for, anyway?",
+      "JA_current": "ああもちろん、いなけりゃどうにもならんよ！ いったいなんだ？ 何で彼を？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_common1_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "mil_zoneguard_common1_2",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, I need a little bit of food.",
+      "JA_current": "いやあ、少し食い物が欲しくてな。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_common1_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "mil_zoneguard_common1_3",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "He's in his kitchen. Usually, he sits there and mutters.",
+      "JA_current": "奴はキッチンにいるぜ。大抵、そこに座ってブツブツ言ってんだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_common1_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "mil_zoneguard_common1_4",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Mutters?",
+      "JA_current": "ブツブツ？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_common1_4#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "mil_zoneguard_common1_5",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What did you expect? A drunk is a drunk. If he couldn't cook, we'd have gotten rid of him a long time ago. He's in the kitchen. I'll tell you how to get there.",
+      "JA_current": "何を想像する？ 飲んで飲みまくりさ。もしあいつがコックじゃなかったら、とっくの昔に叩き出してる。あいつは厨房にいるよ。そこへの道筋を教えよう。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_common1_5#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "mil_zoneguard_common1_6",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "mil_cook_question_already"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thanks for the information.",
+      "JA_current": "情報をありがとよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_common1_6#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "mil_zoneguard_common1_7",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No problem.",
+      "JA_current": "問題ない。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_zoneguard_common1_7#1"
+      ]
+    }
+  ]
+}

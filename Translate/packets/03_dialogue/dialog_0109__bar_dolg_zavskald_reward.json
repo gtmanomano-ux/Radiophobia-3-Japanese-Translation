@@ -1,0 +1,529 @@
+{
+  "packet_id": "dialog_0109__bar_dolg_zavskald_reward",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_dolg_zavskald_reward",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "bar_dialogs.actor_need_reward"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 11,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zavskald_reward_0#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1496,
+      "string_id": "bar_dolg_zavskald_reward_0",
+      "occurrence": 1,
+      "EN": "I'm here on business.",
+      "JA_current": "仕事で来た。",
+      "JA_new": "仕事の話で来た。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zavskald_reward",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zavskald_reward_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1499,
+      "string_id": "bar_dolg_zavskald_reward_1",
+      "occurrence": 1,
+      "EN": "I take it you want something from me.",
+      "JA_current": "俺からの何かを望んでるようだが。",
+      "JA_new": "俺に何か頼みがあるんだろう？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zavskald_reward",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zavskald_reward_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1502,
+      "string_id": "bar_dolg_zavskald_reward_11",
+      "occurrence": 1,
+      "EN": "I shot down a pig on my way here. They say it's a valuable one.",
+      "JA_current": "ここに来る途中、1匹のブタを撃ち殺した。価値あることだと言ってたが。",
+      "JA_new": "ここへ来る途中、ボアを仕留めた。価値があるらしい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zavskald_reward",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zavskald_reward_12#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1511,
+      "string_id": "bar_dolg_zavskald_reward_12",
+      "occurrence": 1,
+      "EN": "I had a little \"chat\" with Tyran of Freedom. Basically, he understood his mistake and promised to behave in the future. I'm pretty sure he won't be breaking his word - the dead don't lie.",
+      "JA_current": "Freedom の Tyran とちょっくら「チャット」した。基本的に、ヤツは自分のミスを理解し、今後は行儀よくすると約束した。かなり信用しているよ、ヤツは約束を破らない ― 死人は嘘をつかないからな。",
+      "JA_new": "フリーダムのタイランと少し「話」をしてきた。奴は自分の間違いを認めて、今後は大人しくするって約束したよ。死人は嘘をつかないから、約束を破る心配もない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zavskald_reward",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zavskald_reward_13#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1520,
+      "string_id": "bar_dolg_zavskald_reward_13",
+      "occurrence": 1,
+      "EN": "Didn't Voronin tell you anything?",
+      "JA_current": "Voronin が何か言ってなかったか？",
+      "JA_new": "ヴォロニンから何も聞いてないのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zavskald_reward",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zavskald_reward_111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1505,
+      "string_id": "bar_dolg_zavskald_reward_111",
+      "occurrence": 1,
+      "EN": "I heard you shot Borov. You deserve to get some cash and a decent gun for that. Do your new weapon justice!",
+      "JA_current": "Borov を撃ったことは聞いている。いくらかの現金とそれなりの銃を得るのに値するよ。新しい武器をしっかり評価してくれよな！",
+      "JA_new": "ボロフを撃ち殺したそうだな。その腕前なら、金とまともな銃をもらう資格がある。新しい銃を使いこなしてみせろ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zavskald_reward",
+          "phrase_id": "111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zavskald_reward_121#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1514,
+      "string_id": "bar_dolg_zavskald_reward_121",
+      "occurrence": 1,
+      "EN": "Tyran was a real pain in the ass for us! I'm glad you terminated him. Here is your reward - I think you'll appreciate this.",
+      "JA_current": "俺たちにとって、Tyran は本当に悩みの種だった！ お前がヤツの問題を終わらせてくれて、うれしいよ。そら、報酬だ ― S14 Thunder、俺たちのトレードマークの武器だぜ。",
+      "JA_new": "タイランには手を焼かされてた！ 始末してくれて助かったよ。報酬だ。気に入ると思うぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zavskald_reward",
+          "phrase_id": "121",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zavskald_reward_131#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1523,
+      "string_id": "bar_dolg_zavskald_reward_131",
+      "occurrence": 1,
+      "EN": "Wow, congratulations! It's quite an achievement to kill Freedom's leader. Man, I wish I was as tough as you.",
+      "JA_current": "わお、おめでとう！ Freedom のリーダーを殺すことは、相当な手柄だ。なあ、お前みたいにタフになりたいんだが。",
+      "JA_new": "すごいな、おめでとう！ フリーダムのリーダーを倒すなんて、大したもんだ。俺もお前くらい強ければな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zavskald_reward",
+          "phrase_id": "131",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zavskald_reward_1111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1508,
+      "string_id": "bar_dolg_zavskald_reward_1111",
+      "occurrence": 1,
+      "EN": "Don't you worry about that.",
+      "JA_current": "それは心配するな。",
+      "JA_new": "心配するな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zavskald_reward",
+          "phrase_id": "1111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zavskald_reward_1211#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1517,
+      "string_id": "bar_dolg_zavskald_reward_1211",
+      "occurrence": 1,
+      "EN": "Not bad. I'm off to do more of the same. See you.",
+      "JA_current": "悪くない。似たようなことするために、行くよ。あばよ。",
+      "JA_new": "悪くないな。じゃあ次も同じ調子でやってくる。またな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zavskald_reward",
+          "phrase_id": "1211",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_zavskald_reward_1311#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1526,
+      "string_id": "bar_dolg_zavskald_reward_1311",
+      "occurrence": 1,
+      "EN": "Get plenty of exercise, eat your veggies, and listen to your mother. Thanks for the new equipment. I'm off.",
+      "JA_current": "たくさん運動して、野菜を食べて、ママの言うことを聞くことだ。新しい装備をありがとう。俺は行くよ。",
+      "JA_new": "毎日運動して、野菜も食べて、お母さんの言うことを聞くんだな。新しい装備をありがとう。じゃあ行くよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_zavskald_reward",
+          "phrase_id": "1311",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bar_dolg_zavskald_reward_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'm here on business.",
+      "JA_current": "仕事で来た。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zavskald_reward_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "bar_dolg_zavskald_reward_1",
+      "next": [
+        "11",
+        "12",
+        "13"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I take it you want something from me.",
+      "JA_current": "俺からの何かを望んでるようだが。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zavskald_reward_1#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "bar_dolg_zavskald_reward_11",
+      "next": [
+        "111"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_kill_borov_reward"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_kill_borov_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I shot down a pig on my way here. They say it's a valuable one.",
+      "JA_current": "ここに来る途中、1匹のブタを撃ち殺した。価値あることだと言ってたが。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zavskald_reward_11#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "bar_dolg_zavskald_reward_12",
+      "next": [
+        "121"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_kill_svoboda_reward"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_kill_svoboda_ambush_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I had a little \"chat\" with Tyran of Freedom. Basically, he understood his mistake and promised to behave in the future. I'm pretty sure he won't be breaking his word - the dead don't lie.",
+      "JA_current": "Freedom の Tyran とちょっくら「チャット」した。基本的に、ヤツは自分のミスを理解し、今後は行儀よくすると約束した。かなり信用しているよ、ヤツは約束を破らない ― 死人は嘘をつかないからな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zavskald_reward_12#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "bar_dolg_zavskald_reward_13",
+      "next": [
+        "131"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_kill_svoboda_leader_reward"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_kill_svoboda_leader_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Didn't Voronin tell you anything?",
+      "JA_current": "Voronin が何か言ってなかったか？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zavskald_reward_13#1"
+      ]
+    },
+    {
+      "phrase_id": "111",
+      "text_id": "bar_dolg_zavskald_reward_111",
+      "next": [
+        "1111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I heard you shot Borov. You deserve to get some cash and a decent gun for that. Do your new weapon justice!",
+      "JA_current": "Borov を撃ったことは聞いている。いくらかの現金とそれなりの銃を得るのに値するよ。新しい武器をしっかり評価してくれよな！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zavskald_reward_111#1"
+      ]
+    },
+    {
+      "phrase_id": "121",
+      "text_id": "bar_dolg_zavskald_reward_121",
+      "next": [
+        "1211"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Tyran was a real pain in the ass for us! I'm glad you terminated him. Here is your reward - I think you'll appreciate this.",
+      "JA_current": "俺たちにとって、Tyran は本当に悩みの種だった！ お前がヤツの問題を終わらせてくれて、うれしいよ。そら、報酬だ ― S14 Thunder、俺たちのトレードマークの武器だぜ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zavskald_reward_121#1"
+      ]
+    },
+    {
+      "phrase_id": "131",
+      "text_id": "bar_dolg_zavskald_reward_131",
+      "next": [
+        "1311"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Wow, congratulations! It's quite an achievement to kill Freedom's leader. Man, I wish I was as tough as you.",
+      "JA_current": "わお、おめでとう！ Freedom のリーダーを殺すことは、相当な手柄だ。なあ、お前みたいにタフになりたいんだが。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zavskald_reward_131#1"
+      ]
+    },
+    {
+      "phrase_id": "1111",
+      "text_id": "bar_dolg_zavskald_reward_1111",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.have_borov_reward"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_kill_borov_reward"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Don't you worry about that.",
+      "JA_current": "それは心配するな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zavskald_reward_1111#1"
+      ]
+    },
+    {
+      "phrase_id": "1211",
+      "text_id": "bar_dolg_zavskald_reward_1211",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.have_tiran_reward"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_kill_svoboda_reward"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "121"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Not bad. I'm off to do more of the same. See you.",
+      "JA_current": "悪くない。似たようなことするために、行くよ。あばよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zavskald_reward_1211#1"
+      ]
+    },
+    {
+      "phrase_id": "1311",
+      "text_id": "bar_dolg_zavskald_reward_1311",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.have_svoboda_leader_reward"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_kill_svoboda_leader_reward"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "131"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Get plenty of exercise, eat your veggies, and listen to your mother. Thanks for the new equipment. I'm off.",
+      "JA_current": "たくさん運動して、野菜を食べて、ママの言うことを聞くことだ。新しい装備をありがとう。俺は行くよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_zavskald_reward_1311#1"
+      ]
+    }
+  ]
+}

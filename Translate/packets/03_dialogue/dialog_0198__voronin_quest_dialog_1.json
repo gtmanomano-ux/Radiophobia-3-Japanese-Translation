@@ -1,0 +1,787 @@
+{
+  "packet_id": "dialog_0198__voronin_quest_dialog_1",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "voronin_quest_dialog_1",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_dolg_leader",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "yuriy_goto_voronin"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "voronin_terrorist_quest"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 18,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_1_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2909,
+      "string_id": "voronin_quest_dialog_1_phrase_1",
+      "occurrence": 1,
+      "EN": "Yuri from the Seekers sent me, said you had a matter to discuss.",
+      "JA_current": "Yuri from the Seekers sent me, said you had a matter to discuss.",
+      "JA_new": "シーカーズのユーリから聞いた。相談があるそうだな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_1",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_1_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2912,
+      "string_id": "voronin_quest_dialog_1_phrase_2",
+      "occurrence": 1,
+      "EN": "Yeah, I heard all about what you did for that group. Excellent work. Were you a professional investigator of some sort or what?",
+      "JA_current": "Yeah, I heard all about what you did for that group. Excellent work. Were you a professional investigator of some sort or what?",
+      "JA_new": "ああ、あの集団のために何をしたか聞いてる。見事な仕事だったな。プロの調査員でもやってたのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_1",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_1_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2915,
+      "string_id": "voronin_quest_dialog_1_phrase_3",
+      "occurrence": 1,
+      "EN": "You mean before the Zone? Wish I could tell you... Right now, I'm just a regular stalker.",
+      "JA_current": "You mean before the Zone? Wish I could tell you... Right now, I'm just a regular stalker.",
+      "JA_new": "ゾーンに来る前の話か？ 話せたらいいんだが……今はただのストーカーだよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_1",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_1_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2918,
+      "string_id": "voronin_quest_dialog_1_phrase_4",
+      "occurrence": 1,
+      "EN": "You speak very cryptically, Marked One, what are you hiding? Actually, never mind, don't answer that.. I don't really want to know. All that matters, is that you've turned out to be a regular Sherlock, so I'd like to ask you to do a job for us. You found the dead Seekers, maybe you can find our Terrorist, too.",
+      "JA_current": "You speak very cryptically, Marked One, what are you hiding? Actually, never mind, don't answer that.. I don't really want to know. All that matters, is that you've turned out to be a regular Sherlock, so I'd like to ask you to do a job for us. You found the dead Seekers, maybe you can find our Terrorist, too.",
+      "JA_new": "ずいぶん謎めいた話し方だな、マークド・ワン。何を隠してる？ ……いや、いい。答えなくていい。俺も知りたくない。重要なのは、お前がシャーロック並みの名探偵だってことだ。仕事を頼みたい。死んだシーカーズを見つけたなら、テロリストも探し出せるかもしれない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_1",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_1_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2921,
+      "string_id": "voronin_quest_dialog_1_phrase_5",
+      "occurrence": 1,
+      "EN": "Who?",
+      "JA_current": "Who?",
+      "JA_new": "誰だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_1",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_1_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2924,
+      "string_id": "voronin_quest_dialog_1_phrase_6",
+      "occurrence": 1,
+      "EN": "A terrorist. Don't worry, I'll explain all the details so don't get ahead of yourself. Just keep in mind that this information I'm about to give you... It's not exactly classified, but it can cause a panic, so keep your mouth zipped, understand?",
+      "JA_current": "A terrorist. Don't worry, I'll explain all the details so don't get ahead of yourself. Just keep in mind that this information I'm about to give you... It's not exactly classified, but it can cause a panic, so keep your mouth zipped, understand?",
+      "JA_new": "テロリストだ。心配するな、詳しく話すから先走るな。これから教える情報は……機密扱いじゃないが、外に漏れればパニックになる。口外するな、いいな？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_1",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_1_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2927,
+      "string_id": "voronin_quest_dialog_1_phrase_7",
+      "occurrence": 1,
+      "EN": "Crystal clear.",
+      "JA_current": "Crystal clear.",
+      "JA_new": "分かった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_1",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_1_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2930,
+      "string_id": "voronin_quest_dialog_1_phrase_8",
+      "occurrence": 1,
+      "EN": "So here's the deal: as you know, we like to keep order here and we're all basically like a big, happy family here at the bar, right? Well, apparently some bastard took offense to that state of affairs and decided to shit all over it. Long story short, a week ago, someone slipped me, Barkeep and Arnie notes that read; \\n\"If you don't repent of your sins, you'll all die in the name of Justice. I have hidden bombs in various places around the Bar and will detonate them remotely. I give you one week to beg for forgiveness before your evil is purged.\"",
+      "JA_current": "So here's the deal: as you know, we like to keep order here and we're all basically like a big, happy family here at the bar, right? Well, apparently some bastard took offense to that state of affairs and decided to shit all over it. Long story short, a week ago, someone slipped me, Barkeep and Arnie notes that read; \\n\"If you don't repent of your sins, you'll all die in the name of Justice. I have hidden bombs in various places around the Bar and will detonate them remotely. I give you one week to beg for forgiveness before your evil is purged.\"",
+      "JA_new": "話をしよう。知っての通り、俺たちはここで秩序を守ってる。バーにいる連中は、みんな家族みたいなもんだろ？ ところが、気に食わない奴がいたらしい。全部ぶち壊してやろうってな。要するに、一週間前、誰かが俺とバーキープとアーニーに手紙を滑り込ませた。こう書いてあった： \\n「罪を悔い改めなければ、正義の名のもとに皆殺しにする。バーのあちこちに爆弾を仕掛けた。遠隔操作で爆破する。お前らの悪が粛清される前に、許しを請う時間を一週間やる。」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_1",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_1_phrase_9#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2933,
+      "string_id": "voronin_quest_dialog_1_phrase_9",
+      "occurrence": 1,
+      "EN": "Holy shit, quite the statement!",
+      "JA_current": "Holy shit, quite the statement!",
+      "JA_new": "なんてこった……ずいぶん大きく出たな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_1",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_1_phrase_10#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2936,
+      "string_id": "voronin_quest_dialog_1_phrase_10",
+      "occurrence": 1,
+      "EN": "Yes, stalker, this is a good way to sow panic and chaos here at the bar if this gets out to the public.",
+      "JA_current": "Yes, stalker, this is a good way to sow panic and chaos here at the bar if this gets out to the public.",
+      "JA_new": "ああ。外に知られれば、バーにパニックと混乱を招くには十分だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_1",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_1_phrase_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2939,
+      "string_id": "voronin_quest_dialog_1_phrase_11",
+      "occurrence": 1,
+      "EN": "Isn't this just a prank though? Any loon can write something like that and slip it through a door, could be a hoax...",
+      "JA_current": "Isn't this just a prank though? Any loon can write something like that and slip it through a door, could be a hoax...",
+      "JA_new": "ただのいたずらじゃないのか？ 変人なら誰でも書いてドアに挟める。脅し文句かもしれない……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_1",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_1_phrase_12#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2942,
+      "string_id": "voronin_quest_dialog_1_phrase_12",
+      "occurrence": 1,
+      "EN": "Not a hoax. The note also said that in order to prove the seriousness of his intentions, he would detonate one of the charges laid on the outskirts within 24 hours. And true enough: the next day there was a pretty big bang - we all heard it. Took out an entire barn. So we're not taking any chances and consider these remaining explosives as a credible threat.",
+      "JA_current": "Not a hoax. The note also said that in order to prove the seriousness of his intentions, he would detonate one of the charges laid on the outskirts within 24 hours. And true enough: the next day there was a pretty big bang - we all heard it. Took out an entire barn. So we're not taking any chances and consider these remaining explosives as a credible threat.",
+      "JA_new": "いたずらじゃない。手紙には、脅しが本気だと証明するため、郊外に仕掛けた爆弾の一つを24時間以内に爆発させるとも書いてあった。実際、翌日大きな爆発があった。皆聞いてる。納屋が丸ごと吹き飛んだんだ。だから残りの爆弾も本物の脅威として扱ってる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_1",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_1_phrase_13#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2945,
+      "string_id": "voronin_quest_dialog_1_phrase_13",
+      "occurrence": 1,
+      "EN": "Have you done a search of the area? How about evacuating the people?",
+      "JA_current": "Have you done a search of the area? How about evacuating the people?",
+      "JA_new": "周辺は捜索したのか？ 人を避難させたらどうだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_1",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_1_phrase_14#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2948,
+      "string_id": "voronin_quest_dialog_1_phrase_14",
+      "occurrence": 1,
+      "EN": "Where the hell do we evacuate to? This is the Zone, not a national park! This base of ours is kind of like an oasis. To the west - we have the Wild Territory, to the south - radioactive dumps, to the north - fucking anarchists. We do not have a lot of options, so we just have to take this problem head on. My men have been searching every nook and cranny, but they haven't found anything that looks like a bomb. Mind you, we don't want panic so we've had to do it low key, only small groups searching exclusively at night time. Imagine a bunch of Duty guards running around frantically with bomb detectors in hand, digging through rubble and poking around corners, that would set off quite the stories at the campfires! This is why I wanted you in on this, as an independent you will have more freedom to poke around without raising questions. Besides, since you're such a detective, how about you just try to find this bastard? Don't bother looking for the bombs, even if you find them all and disarm them, we're not really solving the source of the problem. The son of a bitch is free to plant more, next time he won't be so generous with the countdown.",
+      "JA_current": "Where the hell do we evacuate to? This is the Zone, not a national park! This base of ours is kind of like an oasis. To the west - we have the Wild Territory, to the south - radioactive dumps, to the north - fucking anarchists. We do not have a lot of options, so we just have to take this problem head on. My men have been searching every nook and cranny, but they haven't found anything that looks like a bomb. Mind you, we don't want panic so we've had to do it low key, only small groups searching exclusively at night time. Imagine a bunch of Duty guards running around frantically with bomb detectors in hand, digging through rubble and poking around corners, that would set off quite the stories at the campfires! This is why I wanted you in on this, as an independent you will have more freedom to poke around without raising questions. Besides, since you're such a detective, how about you just try to find this bastard? Don't bother looking for the bombs, even if you find them all and disarm them, we're not really solving the source of the problem. The son of a bitch is free to plant more, next time he won't be so generous with the countdown.",
+      "JA_new": "どこへ避難する？ ここは国立公園じゃない、ゾーンだぞ！ 俺たちの基地はオアシスみたいなもんだ。西は荒廃領域、南は放射能まみれの廃棄場、北にはクソったれのフリーダムがいる。選択肢はほとんどない。正面からこの問題に向き合うしかない。部下が隅から隅まで探したが、爆弾らしき物は見つからなかった。パニックを避けるため、少人数で夜だけ、目立たないように捜索してる。デューティーの警備兵が爆弾探知機を持って走り回り、瓦礫を掘り返して隅々をのぞいてるところを想像してみろ。キャンプファイヤーでどんな噂になるか分かるだろ！ だからお前を頼った。部外者なら、余計な騒ぎを起こさず自由に動ける。それに探偵の腕を見込んで、犯人を探してみないか？ 爆弾を探す必要はない。全部見つけて解除しても、根本の問題は解決しない。あの野郎はまた仕掛ける。次は、こんなに長い猶予をくれないだろう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_1",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_1_phrase_15#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2951,
+      "string_id": "voronin_quest_dialog_1_phrase_15",
+      "occurrence": 1,
+      "EN": "All right. I'll try to find this psycho.",
+      "JA_current": "All right. I'll try to find this psycho.",
+      "JA_new": "分かった。あの狂人を探してみる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_1",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_1_phrase_16#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2954,
+      "string_id": "voronin_quest_dialog_1_phrase_16",
+      "occurrence": 1,
+      "EN": "It's all bullshit, there are no bombs. Somebody is just crazy, so they do this kind of shit just to watch the ants scramble around the nest.",
+      "JA_current": "It's all bullshit, there are no bombs. Somebody is just crazy, so they do this kind of shit just to watch the ants scramble around the nest.",
+      "JA_new": "全部でたらめだ。爆弾なんてない。誰かが頭がおかしくなって、蟻塚をつついた時に中の蟻が大騒ぎするのを見てるだけだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_1",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_1_phrase_17#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2957,
+      "string_id": "voronin_quest_dialog_1_phrase_17",
+      "occurrence": 1,
+      "EN": "Then a word of advice: start asking around at the bar, maybe someone has seen a stalker who doesn't come often or perhaps someone who dug up a large consignment of explosives lately. The Barkeep has been briefed on the situation and advised not to spread panic, I'd advise you to follow suit. I have a hunch that this nutcase is out there somewhere, closer than we would like. And don't forget, we've only got three days left. I also advise you to talk to the guard commander, Ivantsov, I was told he may have found something related to the case.",
+      "JA_current": "Then a word of advice: start asking around at the bar, maybe someone has seen a stalker who doesn't come often or perhaps someone who dug up a large consignment of explosives lately. The Barkeep has been briefed on the situation and advised not to spread panic, I'd advise you to follow suit. I have a hunch that this nutcase is out there somewhere, closer than we would like. And don't forget, we've only got three days left. I also advise you to talk to the guard commander, Ivantsov, I was told he may have found something related to the case.",
+      "JA_new": "それなら、まずバーで聞き込みをしろ。滅多に来ないストーカーを見た奴や、最近大量の爆発物を手に入れた奴がいないか探すんだ。バーキープには事情を話し、騒ぎを広めないよう頼んである。お前も同じようにしろ。この変人は、近くに潜んでる気がする。思ってるより近くにな。残り三日しかないことも忘れるな。警備隊長のイヴァンツォフにも話してみろ。事件につながる物を見つけたかもしれない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_1",
+          "phrase_id": "16",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:voronin_quest_dialog_1_phrase_18#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2960,
+      "string_id": "voronin_quest_dialog_1_phrase_18",
+      "occurrence": 1,
+      "EN": "Okay.",
+      "JA_current": "Okay.",
+      "JA_new": "分かった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voronin_quest_dialog_1",
+          "phrase_id": "17",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "voronin_quest_dialog_1_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yuri from the Seekers sent me, said you had a matter to discuss.",
+      "JA_current": "Yuri from the Seekers sent me, said you had a matter to discuss.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_1_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "voronin_quest_dialog_1_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, I heard all about what you did for that group. Excellent work. Were you a professional investigator of some sort or what?",
+      "JA_current": "Yeah, I heard all about what you did for that group. Excellent work. Were you a professional investigator of some sort or what?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_1_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "voronin_quest_dialog_1_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You mean before the Zone? Wish I could tell you... Right now, I'm just a regular stalker.",
+      "JA_current": "You mean before the Zone? Wish I could tell you... Right now, I'm just a regular stalker.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_1_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "voronin_quest_dialog_1_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You speak very cryptically, Marked One, what are you hiding? Actually, never mind, don't answer that.. I don't really want to know. All that matters, is that you've turned out to be a regular Sherlock, so I'd like to ask you to do a job for us. You found the dead Seekers, maybe you can find our Terrorist, too.",
+      "JA_current": "You speak very cryptically, Marked One, what are you hiding? Actually, never mind, don't answer that.. I don't really want to know. All that matters, is that you've turned out to be a regular Sherlock, so I'd like to ask you to do a job for us. You found the dead Seekers, maybe you can find our Terrorist, too.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_1_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "voronin_quest_dialog_1_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Who?",
+      "JA_current": "Who?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_1_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "voronin_quest_dialog_1_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A terrorist. Don't worry, I'll explain all the details so don't get ahead of yourself. Just keep in mind that this information I'm about to give you... It's not exactly classified, but it can cause a panic, so keep your mouth zipped, understand?",
+      "JA_current": "A terrorist. Don't worry, I'll explain all the details so don't get ahead of yourself. Just keep in mind that this information I'm about to give you... It's not exactly classified, but it can cause a panic, so keep your mouth zipped, understand?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_1_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "voronin_quest_dialog_1_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Crystal clear.",
+      "JA_current": "Crystal clear.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_1_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "voronin_quest_dialog_1_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So here's the deal: as you know, we like to keep order here and we're all basically like a big, happy family here at the bar, right? Well, apparently some bastard took offense to that state of affairs and decided to shit all over it. Long story short, a week ago, someone slipped me, Barkeep and Arnie notes that read; \\n\"If you don't repent of your sins, you'll all die in the name of Justice. I have hidden bombs in various places around the Bar and will detonate them remotely. I give you one week to beg for forgiveness before your evil is purged.\"",
+      "JA_current": "So here's the deal: as you know, we like to keep order here and we're all basically like a big, happy family here at the bar, right? Well, apparently some bastard took offense to that state of affairs and decided to shit all over it. Long story short, a week ago, someone slipped me, Barkeep and Arnie notes that read; \\n\"If you don't repent of your sins, you'll all die in the name of Justice. I have hidden bombs in various places around the Bar and will detonate them remotely. I give you one week to beg for forgiveness before your evil is purged.\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_1_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "voronin_quest_dialog_1_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Holy shit, quite the statement!",
+      "JA_current": "Holy shit, quite the statement!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_1_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "voronin_quest_dialog_1_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, stalker, this is a good way to sow panic and chaos here at the bar if this gets out to the public.",
+      "JA_current": "Yes, stalker, this is a good way to sow panic and chaos here at the bar if this gets out to the public.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_1_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "voronin_quest_dialog_1_phrase_11",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Isn't this just a prank though? Any loon can write something like that and slip it through a door, could be a hoax...",
+      "JA_current": "Isn't this just a prank though? Any loon can write something like that and slip it through a door, could be a hoax...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_1_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "voronin_quest_dialog_1_phrase_12",
+      "next": [
+        "12"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Not a hoax. The note also said that in order to prove the seriousness of his intentions, he would detonate one of the charges laid on the outskirts within 24 hours. And true enough: the next day there was a pretty big bang - we all heard it. Took out an entire barn. So we're not taking any chances and consider these remaining explosives as a credible threat.",
+      "JA_current": "Not a hoax. The note also said that in order to prove the seriousness of his intentions, he would detonate one of the charges laid on the outskirts within 24 hours. And true enough: the next day there was a pretty big bang - we all heard it. Took out an entire barn. So we're not taking any chances and consider these remaining explosives as a credible threat.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_1_phrase_12#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "voronin_quest_dialog_1_phrase_13",
+      "next": [
+        "13"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Have you done a search of the area? How about evacuating the people?",
+      "JA_current": "Have you done a search of the area? How about evacuating the people?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_1_phrase_13#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "voronin_quest_dialog_1_phrase_14",
+      "next": [
+        "14",
+        "15"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Where the hell do we evacuate to? This is the Zone, not a national park! This base of ours is kind of like an oasis. To the west - we have the Wild Territory, to the south - radioactive dumps, to the north - fucking anarchists. We do not have a lot of options, so we just have to take this problem head on. My men have been searching every nook and cranny, but they haven't found anything that looks like a bomb. Mind you, we don't want panic so we've had to do it low key, only small groups searching exclusively at night time. Imagine a bunch of Duty guards running around frantically with bomb detectors in hand, digging through rubble and poking around corners, that would set off quite the stories at the campfires! This is why I wanted you in on this, as an independent you will have more freedom to poke around without raising questions. Besides, since you're such a detective, how about you just try to find this bastard? Don't bother looking for the bombs, even if you find them all and disarm them, we're not really solving the source of the problem. The son of a bitch is free to plant more, next time he won't be so generous with the countdown.",
+      "JA_current": "Where the hell do we evacuate to? This is the Zone, not a national park! This base of ours is kind of like an oasis. To the west - we have the Wild Territory, to the south - radioactive dumps, to the north - fucking anarchists. We do not have a lot of options, so we just have to take this problem head on. My men have been searching every nook and cranny, but they haven't found anything that looks like a bomb. Mind you, we don't want panic so we've had to do it low key, only small groups searching exclusively at night time. Imagine a bunch of Duty guards running around frantically with bomb detectors in hand, digging through rubble and poking around corners, that would set off quite the stories at the campfires! This is why I wanted you in on this, as an independent you will have more freedom to poke around without raising questions. Besides, since you're such a detective, how about you just try to find this bastard? Don't bother looking for the bombs, even if you find them all and disarm them, we're not really solving the source of the problem. The son of a bitch is free to plant more, next time he won't be so generous with the countdown.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_1_phrase_14#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "voronin_quest_dialog_1_phrase_15",
+      "next": [
+        "16"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "voronin_terrorist_quest"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.terror_timer_on"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All right. I'll try to find this psycho.",
+      "JA_current": "All right. I'll try to find this psycho.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_1_phrase_15#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "voronin_quest_dialog_1_phrase_16",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.terror_timer_on"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It's all bullshit, there are no bombs. Somebody is just crazy, so they do this kind of shit just to watch the ants scramble around the nest.",
+      "JA_current": "It's all bullshit, there are no bombs. Somebody is just crazy, so they do this kind of shit just to watch the ants scramble around the nest.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_1_phrase_16#1"
+      ]
+    },
+    {
+      "phrase_id": "16",
+      "text_id": "voronin_quest_dialog_1_phrase_17",
+      "next": [
+        "17"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Then a word of advice: start asking around at the bar, maybe someone has seen a stalker who doesn't come often or perhaps someone who dug up a large consignment of explosives lately. The Barkeep has been briefed on the situation and advised not to spread panic, I'd advise you to follow suit. I have a hunch that this nutcase is out there somewhere, closer than we would like. And don't forget, we've only got three days left. I also advise you to talk to the guard commander, Ivantsov, I was told he may have found something related to the case.",
+      "JA_current": "Then a word of advice: start asking around at the bar, maybe someone has seen a stalker who doesn't come often or perhaps someone who dug up a large consignment of explosives lately. The Barkeep has been briefed on the situation and advised not to spread panic, I'd advise you to follow suit. I have a hunch that this nutcase is out there somewhere, closer than we would like. And don't forget, we've only got three days left. I also advise you to talk to the guard commander, Ivantsov, I was told he may have found something related to the case.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_1_phrase_17#1"
+      ]
+    },
+    {
+      "phrase_id": "17",
+      "text_id": "voronin_quest_dialog_1_phrase_18",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "16"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Okay.",
+      "JA_current": "Okay.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:voronin_quest_dialog_1_phrase_18#1"
+      ]
+    }
+  ]
+}

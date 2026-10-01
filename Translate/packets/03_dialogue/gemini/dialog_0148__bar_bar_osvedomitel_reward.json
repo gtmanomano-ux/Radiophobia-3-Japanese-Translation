@@ -1,0 +1,199 @@
+{
+  "packet_id": "dialog_0148__bar_bar_osvedomitel_reward",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_bar_osvedomitel_reward",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "bar_get_research_done"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "bar_volkodav_have_reward"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 4,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_reward_0#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 887,
+      "string_id": "bar_bar_osvedomitel_reward_0",
+      "occurrence": 1,
+      "EN": "Wolfhound said you've got something for me.",
+      "JA_current": "ウルフハウンドから、あんたが俺に渡すものがあると聞いた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_reward",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_reward_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 890,
+      "string_id": "bar_bar_osvedomitel_reward_1",
+      "occurrence": 1,
+      "EN": "Sure. Here is a grenade launcher for helping him with Kruglov, and 1000 cash on top. I'll give you some useful info for free to sweeten the deal too.",
+      "JA_current": "ああ、聞いてるぜ。クルグロフの件で奴に手を貸してくれた礼に、こいつをやるよ――グレネードランチャーだ。それに現ナマ1,000ルーブルも上乗せしてやる。ついでに取引の景気づけとして、耳寄りな情報をタダで教えてやるよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_reward",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_reward_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 893,
+      "string_id": "bar_bar_osvedomitel_reward_2",
+      "occurrence": 1,
+      "EN": "Thank you.",
+      "JA_current": "恩に着るよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_reward",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_reward_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 896,
+      "string_id": "bar_bar_osvedomitel_reward_3",
+      "occurrence": 1,
+      "EN": "Here's what I got to say. You helped Freedom and made the right choice. Your fate is now tied with that of Freedom, and Duty has you in its sights. I'd say you oughta go to the abandoned military base and join the ranks of Freedom - they need good fighters. There will be shootouts between the groups soon and whoever chooses the right side won't regret it.",
+      "JA_current": "いいか、よく聞けよ。お前はフリーダムに加担して、正しい選択をした。今やお前の命運はフリーダムと固く結ばれ、デューティーの連中はお前を仕留めようと照準を合わせてる。放棄された軍事基地へ行って、フリーダムの隊列に加わるんだな――あそこなら腕利きを欲しがってるぜ。近いうちに勢力同士の激しいドンパチが始まる。正しい側に立っていた奴だけが、後悔せずに済むのさ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_reward",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bar_bar_osvedomitel_reward_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.have_volkodav_reward"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_volkodav_have_reward"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Wolfhound said you've got something for me.",
+      "JA_current": "Wolfhound が、アンタが俺に何かくれるって言ってたんだが。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_reward_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "bar_bar_osvedomitel_reward_1",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Sure. Here is a grenade launcher for helping him with Kruglov, and 1000 cash on top. I'll give you some useful info for free to sweeten the deal too.",
+      "JA_current": "確かに言った。ほら、グレネードランチャーだ。Kruglov とともに彼を助けるために使え、それに前金としてキャッシュで1000だ。取引を楽にするイイ情報を、いくつかタダで教えてやろう。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_reward_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "bar_bar_osvedomitel_reward_2",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Thank you.",
+      "JA_current": "ありがとう。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_reward_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "bar_bar_osvedomitel_reward_3",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Here's what I got to say. You helped Freedom and made the right choice. Your fate is now tied with that of Freedom, and Duty has you in its sights. I'd say you oughta go to the abandoned military base and join the ranks of Freedom - they need good fighters. There will be shootouts between the groups soon and whoever chooses the right side won't regret it.",
+      "JA_current": "言わなけきゃならないことはだ。お前は Freedom を助けた、それは正しい選択だ。今やお前は Freedom と運命を共にしている、だが一方、Duty は銃の照準をお前に合わせた。お前は放棄された軍事基地に行き、Freedom と歩調を合わせるべきだと進言するよ ― 奴らは良いファイターを必要としている。間もなく連中の間で撃ち合いがある、正しい陣営を選べば誰も後悔しないということだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_reward_3#1"
+      ]
+    }
+  ]
+}

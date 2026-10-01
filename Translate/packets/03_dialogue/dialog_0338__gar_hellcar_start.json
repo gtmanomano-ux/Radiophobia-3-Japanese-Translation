@@ -1,0 +1,1555 @@
+{
+  "packet_id": "dialog_0338__gar_hellcar_start",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "gar_hellcar_start",
+  "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml",
+  "graph_sha256": "a2f5a0932a2d77c3600e24d5b337f12ef7ed4b48e06af7ae7ab65d1d649f0ac4",
+  "character_bindings": [
+    {
+      "profile_id": "gar_hellcar",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_garbage.xml"
+    }
+  ],
+  "dialog_conditions": [],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 30,
+  "entries": [
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_11#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 114,
+      "string_id": "gar_hellcar_start_11",
+      "occurrence": 1,
+      "EN": "Hey stalker, you're just in time! We could really use your help. Those bandit bastards are trying to take control of the Garbage. We had a shootout here half an hour ago and managed to take down three of the dogs. The others retreated, but I'm dead certain they are going to come back with reinforcements any minute now. There aren't too many of us left and another man wouldn't hurt.",
+      "JA_current": "丁度良い時に来てくれたな！ もし手助けしてくれるなら大歓迎だ。あのクソッタレ Bandit 連中は Garbage を自分たちの勢力下に納めたいみたいでな。30分前にここでドンパチをやって、3人ほど始末したが残りはズラかりやがった。が、どう考えても直ぐにまた集団でお戻りになるのは間違いなさそうなんだ。こっちの人数は少ないし、これ以上怪我人を増やしたくない。",
+      "JA_new": "おいストーカー、いいところに来た！あんたの助けが要る。バンディットどもがガーベジを乗っ取ろうとしてるんだ。30分前にここで撃ち合いになって、3人は倒した。残りは引いたが、すぐ増援を連れて戻ってくるに決まってる。こっちは人数が減ってる。あんたが一人加わってくれたら助かる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_21#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 141,
+      "string_id": "gar_hellcar_start_21",
+      "occurrence": 1,
+      "EN": "We have nothing to talk about.",
+      "JA_current": "話すことは何もないぜ。",
+      "JA_new": "話すことはない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_41#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 195,
+      "string_id": "gar_hellcar_start_41",
+      "occurrence": 1,
+      "EN": "The job ain't done. Let's finish it and talk later.",
+      "JA_current": "話は後だ。まだ仕事が済んでねぇ。",
+      "JA_new": "まだ仕事が終わってない。片付けてから話そう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "41",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_51#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 198,
+      "string_id": "gar_hellcar_start_51",
+      "occurrence": 1,
+      "EN": "Hey, Marked One.",
+      "JA_current": "ヨォ、Marked One。",
+      "JA_new": "よお、マークドワン。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "51",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_111#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 117,
+      "string_id": "gar_hellcar_start_111",
+      "occurrence": 1,
+      "EN": "Go on.",
+      "JA_current": "続けてくれ。",
+      "JA_new": "それで？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "111",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_1111#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 120,
+      "string_id": "gar_hellcar_start_1111",
+      "occurrence": 1,
+      "EN": "We've set up an ambush for them here. They'll be coming from the West, from the Agroprom Research Institute. Help us destroy their reinforcements and you won't regret it!",
+      "JA_current": "俺達は連中にここで待ち伏せを仕掛ける。恐らく奴らは西の Agroprom 研究所からやってくるだろう。連中に鉛玉くれてやるのを手伝って欲しい。悪いようにはせんさ！",
+      "JA_new": "ここで待ち伏せを仕掛けてる。西のアフロプロム研究所から来るはずだ。増援を叩くのを手伝ってくれ。後悔はさせない！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "1111",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_3111#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 144,
+      "string_id": "gar_hellcar_start_3111",
+      "occurrence": 1,
+      "EN": "Thanks man, you really helped us out there. Will you accept some cash? A small token of our gratitude.",
+      "JA_current": "ありがとよ。本当に助かった。少しばかりだが感謝の印だ。金を受け取って貰えないか？",
+      "JA_new": "助かったよ。礼に金を受け取ってくれないか？ほんの気持ちだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "3111",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_3112#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 192,
+      "string_id": "gar_hellcar_start_3112",
+      "occurrence": 1,
+      "EN": "I know quite a lot, I could share some information with you.",
+      "JA_current": "この辺りのことならよく知ってる。いくらかなら教えられるぞ。",
+      "JA_new": "知ってることなら結構ある。情報を分けてやろうか。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "3112",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_11111#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 123,
+      "string_id": "gar_hellcar_start_11111",
+      "occurrence": 1,
+      "EN": "OK, I'll help you.",
+      "JA_current": "わかった、手をかそう。",
+      "JA_new": "分かった、手を貸す。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "11111",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_11112#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 129,
+      "string_id": "gar_hellcar_start_11112",
+      "occurrence": 1,
+      "EN": "It's none of my business and I don't want to get involved.",
+      "JA_current": "俺には関係の無い話だな。",
+      "JA_new": "俺には関係ない。巻き込まれる気もない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "11112",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_11113#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 135,
+      "string_id": "gar_hellcar_start_11113",
+      "occurrence": 1,
+      "EN": "I've killed them all.",
+      "JA_current": "皆殺しにしてやったぜ。",
+      "JA_new": "全員片付けた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "11113",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_31111#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 147,
+      "string_id": "gar_hellcar_start_31111",
+      "occurrence": 1,
+      "EN": "Sure.",
+      "JA_current": "もちろんさ。",
+      "JA_new": "ああ、もらおう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "31111",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_31113#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 156,
+      "string_id": "gar_hellcar_start_31113",
+      "occurrence": 1,
+      "EN": "Tell me about yourself.",
+      "JA_current": "お前のことを聞かせてくれ。",
+      "JA_new": "あんたのことを聞かせてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "31113",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_31114#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 171,
+      "string_id": "gar_hellcar_start_31114",
+      "occurrence": 1,
+      "EN": "What's this place?",
+      "JA_current": "ここはどんなところだ？",
+      "JA_new": "ここはどんな場所だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "31114",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_31115#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 189,
+      "string_id": "gar_hellcar_start_31115",
+      "occurrence": 1,
+      "EN": "Thanks, I don't need anything from you.",
+      "JA_current": "ありがとう。もういいよ。",
+      "JA_new": "ありがとう。だが、今は何もいらない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "31115",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_111111#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 126,
+      "string_id": "gar_hellcar_start_111111",
+      "occurrence": 1,
+      "EN": "Great.",
+      "JA_current": "助かるよ。",
+      "JA_new": "よし。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "111111",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_111121#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 132,
+      "string_id": "gar_hellcar_start_111121",
+      "occurrence": 1,
+      "EN": "As you wish. You'll be cursing your stupidity every time you pay those boneheads for passage into the Zone.",
+      "JA_current": "いいのか？ お前さんがゾーンに行く度に、あのボンクラどもに通行料を払うハメになるぞ。",
+      "JA_new": "好きにしろ。ゾーンに入るためにあんな間抜けどもへ金を払うたび、自分の愚かさを呪うことになるぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "111121",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_111131#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 138,
+      "string_id": "gar_hellcar_start_111131",
+      "occurrence": 1,
+      "EN": "You're the man! But I'll play it safe just in case.",
+      "JA_current": "お前は真の男だ！ だが、念のために大事を取ろう。",
+      "JA_new": "さすがだ！念のため、こっちも警戒は続ける。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "111131",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_311111#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 150,
+      "string_id": "gar_hellcar_start_311111",
+      "occurrence": 1,
+      "EN": "Here, this should pay for the medical treatment to recover your health.",
+      "JA_current": "ほら、少なくとも薬代くらいにはなるはずだ。",
+      "JA_new": "ほら、これで治療を受けて体力を戻せるはずだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "311111",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_311131#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 159,
+      "string_id": "gar_hellcar_start_311131",
+      "occurrence": 1,
+      "EN": "Bes's my name. I came to these parts three years ago. Like many of the guys in the Zone I'm a fugitive, wanted for two murders and GBH. A few years ago a friend of mine got battered pretty bad - they had to literally stitch him back together at the hospital. So I paid the bastards who did it a little \"visit\". When the coppers showed up I had to shoot one of them and jump out of a third-floor window - I've been here since. I've done well in this place but the list of my crimes has got a little longer too. I try to fight the lawless just as I did on the outside. I train up rookies and teach them to survive in the Zone.",
+      "JA_current": "俺の名は Bes。ここに来たのは3年前だ。ゾーンに居る他の奴らと同じで、俺も2件の殺人と凶悪事件で指名手配中のお尋ね者さ。数年前、俺のダチが全く酷い仕打ちを受けた。奴は病院で背中を文字通り「縫い合わせ」なきゃならなかった。で、俺はそのクソどもにちょっとばかり借りを返したと言う訳だ。その「お礼参り」の最中にサツが乗り込んで来やがって、俺はその内の1人を撃ち、3階の窓から飛び降りた。― それ以来ここに居る。俺はここでよろしくやってるが、そのお陰で俺の前科リストはまたちょっと長くなっちまった。外でやってきたように、ここでも俺は無法と戦い、ゾーンの中で生き残る術を新米どもに教えてる。",
+      "JA_new": "俺はベス。この辺に来て3年だ。ゾーンにいる連中と同じで、俺もお尋ね者さ。殺人2件と重傷害で指名手配中だ。何年か前、友達がひどく殴られてな。病院で縫い合わせなきゃならないほどだった。それで、やった奴らのところへ乗り込んだ。警官が来た時には、1人撃って、3階の窓から飛び降りるしかなかった。それからずっとここにいる。ここでもうまくやってるが、罪状も増えちまった。外にいた頃と同じように、無法者と戦ってる。新米を鍛えて、ゾーンで生き延びる術を教えてるんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "311131",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_311141#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 174,
+      "string_id": "gar_hellcar_start_311141",
+      "occurrence": 1,
+      "EN": "The Garbage. We are right at home here. You see the heaps of crap? You don't want to go there, trust me. So full of radioactive waste, the Geiger counters go off the scale. This is the only decent way into the Zone and bandits have been increasingly active here lately. They're shit scared of going deeper into the Zone, into Duty territory, like experienced stalkers. But those hyenas just love robbing the rookies here. So, if nobody else cares, we have to stand our ground and fight ourselves.",
+      "JA_current": "Garbage（ゴミ溜め）だ。俺たちの真の家さ。そのクソの山が見えるかい？ お前はあそこには入れない。俺を信用しな。あそこは放射性廃棄物で溢れ返ってて、ガイガーカウンターの針はすぐ振り切れちまう。この道はゾーンで唯一マトモな道路で、ここんとこ Bandits がよく出没する。あのクズどもはこの先にあるゾーンの奥地や Duty の縄張りに入る事を恐れるタマ無しさ。その代わりここで新米ストーカーにタカッてるってわけだ。で、ここじゃ誰も助けちゃくれないから、自分で自分を守るために戦ってるのさ。",
+      "JA_new": "ここがガーベジだ。俺たちの家みたいなもんさ。あのガラクタの山が見えるだろ？近寄るなよ、マジで。放射性廃棄物だらけで、ガイガーカウンターの針が振り切れる。ゾーンへ入るまともな道はここだけだが、最近バンディットがやたら活発になってる。奴らは熟練のストーカーみたいにゾーンの奥、デューティーの縄張りへ入るのを怖がってる。だが、あのハイエナどもはここで新米を襲って奪うのが大好きだ。誰も気にかけないなら、俺たちが踏みとどまって戦うしかない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "311141",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_3111111#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 153,
+      "string_id": "gar_hellcar_start_3111111",
+      "occurrence": 1,
+      "EN": "Thank you.",
+      "JA_current": "ありがとよ。",
+      "JA_new": "ありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "3111111",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_3111311#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 162,
+      "string_id": "gar_hellcar_start_3111311",
+      "occurrence": 1,
+      "EN": "So why don't you join Duty if you feel that way?",
+      "JA_current": "そう思ったんなら、どうして Duty に入らなかったんだ?",
+      "JA_new": "そこまで言うなら、デューティーに入ればいいんじゃないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "3111311",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_3111411#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 177,
+      "string_id": "gar_hellcar_start_3111411",
+      "occurrence": 1,
+      "EN": "Go on.",
+      "JA_current": "続けてくれ。",
+      "JA_new": "それで？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "3111411",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_31113111#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 165,
+      "string_id": "gar_hellcar_start_31113111",
+      "occurrence": 1,
+      "EN": "Duty fights against the Zone, I fight for the people. Besides, they're too closely linked with the government and the army. I don't want to wake up in a cold cell one day.",
+      "JA_current": "Duty はゾーンと戦うが、俺は人のために戦うんだ。それに奴らは軍隊や政府に近すぎる。…寝覚めの悪い思いはしたくないんでね。",
+      "JA_new": "デューティーはゾーンと戦ってる。俺は人のために戦う。それに、あいつらは政府や軍との結びつきが強すぎる。いつか冷たい留置場で目を覚ますなんて御免だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "31113111",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_31114111#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 180,
+      "string_id": "gar_hellcar_start_31114111",
+      "occurrence": 1,
+      "EN": "Everywhere, and especially here, you gotta act like a human being, not like some greed-driven animal. That's my outlook on life.",
+      "JA_current": "どこでも、いや特にここでは、お前は、欲望で満たされた動物のように振る舞うのではなく、人間としての態度をとれ。これは俺の人生観だ。",
+      "JA_new": "どこにいたって、特にここじゃ、欲にまみれた獣じゃなく人間らしく振る舞わなきゃならない。それが俺の生き方だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "31114111",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_311131111#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 168,
+      "string_id": "gar_hellcar_start_311131111",
+      "occurrence": 1,
+      "EN": "Good luck to you.",
+      "JA_current": "幸運を。",
+      "JA_new": "元気でな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "311131111",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_311141112#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 183,
+      "string_id": "gar_hellcar_start_311141112",
+      "occurrence": 1,
+      "EN": "Are there any large buildings in the Garbage?",
+      "JA_current": "Garbage には大きな建物もいくつかあるのか？",
+      "JA_new": "ガーベジに大きな建物はあるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "311141112",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_3111411121#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 255,
+      "string_id": "gar_hellcar_start_3111411121",
+      "occurrence": 1,
+      "EN": "In the center there's a large hangar, usually it's pretty quiet there. Worst comes to worst, you can spend the night there. If you go west, in the direction of the Agroprom, there's a bandit camp there, and that's where those freaks that we killed off a while ago were coming from. But I have a feeling that there's more of them there.",
+      "JA_current": "中心には大きな鉄道の車庫がある。いつもそこではちょっと一服できる。最悪の場合そこで一晩明かす事もできるぞ。もし Agroprom のある西のほうへ行くなら、途中に Bandits のキャンプがある。さっき俺たちが片付けたケダモノ共は、そこから来たようだ。多分、そこにはまだ奴らの残りが居ると思う。",
+      "JA_new": "中央に大きな格納庫がある。たいてい静かな場所だ。どうにもならなきゃ一晩過ごせる。西、アフロプロムの方へ行くとバンディットのキャンプがある。さっき片付けた連中もそこから来た。まだ仲間が残ってる気がする。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "31114921",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_hellcar_start_31114111211#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 186,
+      "string_id": "gar_hellcar_start_31114111211",
+      "occurrence": 1,
+      "EN": "Thank you.",
+      "JA_current": "ありがとう。",
+      "JA_new": "ありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_hellcar_start",
+          "phrase_id": "311149211",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": null,
+      "next": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1",
+      "text_id": null,
+      "next": [
+        "11"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "gar_bandits_raid"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "gar_bandits_damaged"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "2",
+      "text_id": null,
+      "next": [
+        "21"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "gar_hellcar_help"
+        },
+        {
+          "type": "has_info",
+          "value": "gar_bandits_raid"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "3",
+      "text_id": null,
+      "next": [
+        "31"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "gar_hellcar_help"
+        },
+        {
+          "type": "has_info",
+          "value": "gar_bandits_killed"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "4",
+      "text_id": null,
+      "next": [
+        "41"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "gar_after_battle"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "gar_bandits_killed"
+        },
+        {
+          "type": "has_info",
+          "value": "gar_hellcar_help"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "5",
+      "text_id": null,
+      "next": [
+        "51"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "gar_bandits_damaged"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "gar_hellcar_start_11",
+      "next": [
+        "111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey stalker, you're just in time! We could really use your help. Those bandit bastards are trying to take control of the Garbage. We had a shootout here half an hour ago and managed to take down three of the dogs. The others retreated, but I'm dead certain they are going to come back with reinforcements any minute now. There aren't too many of us left and another man wouldn't hurt.",
+      "JA_current": "丁度良い時に来てくれたな！ もし手助けしてくれるなら大歓迎だ。あのクソッタレ Bandit 連中は Garbage を自分たちの勢力下に納めたいみたいでな。30分前にここでドンパチをやって、3人ほど始末したが残りはズラかりやがった。が、どう考えても直ぐにまた集団でお戻りになるのは間違いなさそうなんだ。こっちの人数は少ないし、これ以上怪我人を増やしたくない。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_11#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "gar_hellcar_start_21",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "We have nothing to talk about.",
+      "JA_current": "話すことは何もないぜ。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_21#1"
+      ]
+    },
+    {
+      "phrase_id": "31",
+      "text_id": null,
+      "next": [
+        "311"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "311149211",
+        "311131111",
+        "3",
+        "3111111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "41",
+      "text_id": "gar_hellcar_start_41",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The job ain't done. Let's finish it and talk later.",
+      "JA_current": "話は後だ。まだ仕事が済んでねぇ。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_41#1"
+      ]
+    },
+    {
+      "phrase_id": "51",
+      "text_id": "gar_hellcar_start_51",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, Marked One.",
+      "JA_current": "ヨォ、Marked One。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_51#1"
+      ]
+    },
+    {
+      "phrase_id": "111",
+      "text_id": "gar_hellcar_start_111",
+      "next": [
+        "1111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Go on.",
+      "JA_current": "続けてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_111#1"
+      ]
+    },
+    {
+      "phrase_id": "311",
+      "text_id": null,
+      "next": [
+        "3111",
+        "3112"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1111",
+      "text_id": "gar_hellcar_start_1111",
+      "next": [
+        "11111",
+        "11112",
+        "11113"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "We've set up an ambush for them here. They'll be coming from the West, from the Agroprom Research Institute. Help us destroy their reinforcements and you won't regret it!",
+      "JA_current": "俺達は連中にここで待ち伏せを仕掛ける。恐らく奴らは西の Agroprom 研究所からやってくるだろう。連中に鉛玉くれてやるのを手伝って欲しい。悪いようにはせんさ！",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_1111#1"
+      ]
+    },
+    {
+      "phrase_id": "3111",
+      "text_id": "gar_hellcar_start_3111",
+      "next": [
+        "31111"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "gar_hellcar_thanks"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "311"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thanks man, you really helped us out there. Will you accept some cash? A small token of our gratitude.",
+      "JA_current": "ありがとよ。本当に助かった。少しばかりだが感謝の印だ。金を受け取って貰えないか？",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_3111#1"
+      ]
+    },
+    {
+      "phrase_id": "3112",
+      "text_id": "gar_hellcar_start_3112",
+      "next": [
+        "31113",
+        "31114",
+        "31115"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "gar_hellcar_thanks"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "311"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I know quite a lot, I could share some information with you.",
+      "JA_current": "この辺りのことならよく知ってる。いくらかなら教えられるぞ。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_3112#1"
+      ]
+    },
+    {
+      "phrase_id": "11111",
+      "text_id": "gar_hellcar_start_11111",
+      "next": [
+        "111111"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "xr_conditions.gar_not_damaged_bandits"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "gar_hellcar_help"
+        },
+        {
+          "type": "give_info",
+          "value": "gar_bandits_raid"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "OK, I'll help you.",
+      "JA_current": "わかった、手をかそう。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_11111#1"
+      ]
+    },
+    {
+      "phrase_id": "11112",
+      "text_id": "gar_hellcar_start_11112",
+      "next": [
+        "111121"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "xr_conditions.gar_not_damaged_bandits"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "gar_hellcar_reject"
+        },
+        {
+          "type": "give_info",
+          "value": "gar_bandits_raid"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It's none of my business and I don't want to get involved.",
+      "JA_current": "俺には関係の無い話だな。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_11112#1"
+      ]
+    },
+    {
+      "phrase_id": "11113",
+      "text_id": "gar_hellcar_start_11113",
+      "next": [
+        "111131"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "xr_conditions.gar_damaged_bandits"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "gar_bandits_damaged"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I've killed them all.",
+      "JA_current": "皆殺しにしてやったぜ。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_11113#1"
+      ]
+    },
+    {
+      "phrase_id": "31111",
+      "text_id": "gar_hellcar_start_31111",
+      "next": [
+        "311111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "gar_hellcar_dialog_end"
+        },
+        {
+          "type": "give_info",
+          "value": "gar_hellcar_thanks"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sure.",
+      "JA_current": "もちろんさ。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_31111#1"
+      ]
+    },
+    {
+      "phrase_id": "31113",
+      "text_id": "gar_hellcar_start_31113",
+      "next": [
+        "311131"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "gar_hellcar_thanks"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "gar_hellcar_dialog_end"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3112"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Tell me about yourself.",
+      "JA_current": "お前のことを聞かせてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_31113#1"
+      ]
+    },
+    {
+      "phrase_id": "31114",
+      "text_id": "gar_hellcar_start_31114",
+      "next": [
+        "311141"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "gar_hellcar_thanks"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "gar_hellcar_dialog_end"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3112"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What's this place?",
+      "JA_current": "ここはどんなところだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_31114#1"
+      ]
+    },
+    {
+      "phrase_id": "31115",
+      "text_id": "gar_hellcar_start_31115",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "gar_hellcar_dialog_end"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3112"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thanks, I don't need anything from you.",
+      "JA_current": "ありがとう。もういいよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_31115#1"
+      ]
+    },
+    {
+      "phrase_id": "111111",
+      "text_id": "gar_hellcar_start_111111",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Great.",
+      "JA_current": "助かるよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_111111#1"
+      ]
+    },
+    {
+      "phrase_id": "111121",
+      "text_id": "gar_hellcar_start_111121",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11112"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "As you wish. You'll be cursing your stupidity every time you pay those boneheads for passage into the Zone.",
+      "JA_current": "いいのか？ お前さんがゾーンに行く度に、あのボンクラどもに通行料を払うハメになるぞ。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_111121#1"
+      ]
+    },
+    {
+      "phrase_id": "111131",
+      "text_id": "gar_hellcar_start_111131",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11113"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You're the man! But I'll play it safe just in case.",
+      "JA_current": "お前は真の男だ！ だが、念のために大事を取ろう。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_111131#1"
+      ]
+    },
+    {
+      "phrase_id": "311111",
+      "text_id": "gar_hellcar_start_311111",
+      "next": [
+        "3111111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "garbage_dialogs.hellcar_payment"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "31111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here, this should pay for the medical treatment to recover your health.",
+      "JA_current": "ほら、少なくとも薬代くらいにはなるはずだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_311111#1"
+      ]
+    },
+    {
+      "phrase_id": "311131",
+      "text_id": "gar_hellcar_start_311131",
+      "next": [
+        "3111311"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31113"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Bes's my name. I came to these parts three years ago. Like many of the guys in the Zone I'm a fugitive, wanted for two murders and GBH. A few years ago a friend of mine got battered pretty bad - they had to literally stitch him back together at the hospital. So I paid the bastards who did it a little \"visit\". When the coppers showed up I had to shoot one of them and jump out of a third-floor window - I've been here since. I've done well in this place but the list of my crimes has got a little longer too. I try to fight the lawless just as I did on the outside. I train up rookies and teach them to survive in the Zone.",
+      "JA_current": "俺の名は Bes。ここに来たのは3年前だ。ゾーンに居る他の奴らと同じで、俺も2件の殺人と凶悪事件で指名手配中のお尋ね者さ。数年前、俺のダチが全く酷い仕打ちを受けた。奴は病院で背中を文字通り「縫い合わせ」なきゃならなかった。で、俺はそのクソどもにちょっとばかり借りを返したと言う訳だ。その「お礼参り」の最中にサツが乗り込んで来やがって、俺はその内の1人を撃ち、3階の窓から飛び降りた。― それ以来ここに居る。俺はここでよろしくやってるが、そのお陰で俺の前科リストはまたちょっと長くなっちまった。外でやってきたように、ここでも俺は無法と戦い、ゾーンの中で生き残る術を新米どもに教えてる。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_311131#1"
+      ]
+    },
+    {
+      "phrase_id": "311141",
+      "text_id": "gar_hellcar_start_311141",
+      "next": [
+        "3111411"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31114"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The Garbage. We are right at home here. You see the heaps of crap? You don't want to go there, trust me. So full of radioactive waste, the Geiger counters go off the scale. This is the only decent way into the Zone and bandits have been increasingly active here lately. They're shit scared of going deeper into the Zone, into Duty territory, like experienced stalkers. But those hyenas just love robbing the rookies here. So, if nobody else cares, we have to stand our ground and fight ourselves.",
+      "JA_current": "Garbage（ゴミ溜め）だ。俺たちの真の家さ。そのクソの山が見えるかい？ お前はあそこには入れない。俺を信用しな。あそこは放射性廃棄物で溢れ返ってて、ガイガーカウンターの針はすぐ振り切れちまう。この道はゾーンで唯一マトモな道路で、ここんとこ Bandits がよく出没する。あのクズどもはこの先にあるゾーンの奥地や Duty の縄張りに入る事を恐れるタマ無しさ。その代わりここで新米ストーカーにタカッてるってわけだ。で、ここじゃ誰も助けちゃくれないから、自分で自分を守るために戦ってるのさ。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_311141#1"
+      ]
+    },
+    {
+      "phrase_id": "3111111",
+      "text_id": "gar_hellcar_start_3111111",
+      "next": [
+        "31"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "311111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you.",
+      "JA_current": "ありがとよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_3111111#1"
+      ]
+    },
+    {
+      "phrase_id": "3111311",
+      "text_id": "gar_hellcar_start_3111311",
+      "next": [
+        "31113111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "311131"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So why don't you join Duty if you feel that way?",
+      "JA_current": "そう思ったんなら、どうして Duty に入らなかったんだ?",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_3111311#1"
+      ]
+    },
+    {
+      "phrase_id": "3111411",
+      "text_id": "gar_hellcar_start_3111411",
+      "next": [
+        "31114111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "gar_add_fake_spot9"
+        },
+        {
+          "type": "give_info",
+          "value": "gar_add_fake_spot10"
+        },
+        {
+          "type": "give_info",
+          "value": "gar_add_fake_spot11"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "311141"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Go on.",
+      "JA_current": "続けてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_3111411#1"
+      ]
+    },
+    {
+      "phrase_id": "31113111",
+      "text_id": "gar_hellcar_start_31113111",
+      "next": [
+        "311131111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3111311"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Duty fights against the Zone, I fight for the people. Besides, they're too closely linked with the government and the army. I don't want to wake up in a cold cell one day.",
+      "JA_current": "Duty はゾーンと戦うが、俺は人のために戦うんだ。それに奴らは軍隊や政府に近すぎる。…寝覚めの悪い思いはしたくないんでね。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_31113111#1"
+      ]
+    },
+    {
+      "phrase_id": "31114111",
+      "text_id": "gar_hellcar_start_31114111",
+      "next": [
+        "311141112"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3111411"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Everywhere, and especially here, you gotta act like a human being, not like some greed-driven animal. That's my outlook on life.",
+      "JA_current": "どこでも、いや特にここでは、お前は、欲望で満たされた動物のように振る舞うのではなく、人間としての態度をとれ。これは俺の人生観だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_31114111#1"
+      ]
+    },
+    {
+      "phrase_id": "311131111",
+      "text_id": "gar_hellcar_start_311131111",
+      "next": [
+        "31"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31113111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Good luck to you.",
+      "JA_current": "幸運を。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_311131111#1"
+      ]
+    },
+    {
+      "phrase_id": "311141112",
+      "text_id": "gar_hellcar_start_311141112",
+      "next": [
+        "31114921"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31114111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Are there any large buildings in the Garbage?",
+      "JA_current": "Garbage には大きな建物もいくつかあるのか？",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_311141112#1"
+      ]
+    },
+    {
+      "phrase_id": "31114921",
+      "text_id": "gar_hellcar_start_3111411121",
+      "next": [
+        "311149211"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "311141112"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "In the center there's a large hangar, usually it's pretty quiet there. Worst comes to worst, you can spend the night there. If you go west, in the direction of the Agroprom, there's a bandit camp there, and that's where those freaks that we killed off a while ago were coming from. But I have a feeling that there's more of them there.",
+      "JA_current": "中心には大きな鉄道の車庫がある。いつもそこではちょっと一服できる。最悪の場合そこで一晩明かす事もできるぞ。もし Agroprom のある西のほうへ行くなら、途中に Bandits のキャンプがある。さっき俺たちが片付けたケダモノ共は、そこから来たようだ。多分、そこにはまだ奴らの残りが居ると思う。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_3111411121#1"
+      ]
+    },
+    {
+      "phrase_id": "311149211",
+      "text_id": "gar_hellcar_start_31114111211",
+      "next": [
+        "31"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "gar_add_fake_spot5"
+        },
+        {
+          "type": "give_info",
+          "value": "gar_add_fake_spot6"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "31114921"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you.",
+      "JA_current": "ありがとう。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_hellcar_start_31114111211#1"
+      ]
+    }
+  ]
+}

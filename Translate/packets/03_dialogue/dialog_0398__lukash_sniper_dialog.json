@@ -1,0 +1,740 @@
+{
+    "packet_id":  "dialog_0398__lukash_sniper_dialog",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "lukash_sniper_dialog",
+    "graph_source":  "gamedata/config/gameplay/dialogs_military.xml",
+    "graph_sha256":  "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+    "character_bindings":  [
+                               {
+                                   "profile_id":  "mil_Svoboda_leader",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_military.xml"
+                               }
+                           ],
+    "dialog_conditions":  [
+                              {
+                                  "type":  "has_info",
+                                  "value":  "lucky_quest_finish"
+                              },
+                              {
+                                  "type":  "dont_has_info",
+                                  "value":  "mil_max_job"
+                              }
+                          ],
+    "root_speaker_hint":  "player",
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  14,
+    "entries":  [
+                    {
+                        "key":  "stable_dialogs_military:lukash_sniper_dialog_phrase_1#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2116,
+                        "string_id":  "lukash_sniper_dialog_phrase_1",
+                        "occurrence":  1,
+                        "EN":  "Greetings. Lucky mentioned something about the \"sniper\" situation?",
+                        "JA_current":  "Greetings. Lucky mentioned something about the \"sniper\" situation?",
+                        "JA_new":  "よう。ラッキーから「狙撃手」の件を聞いたが？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lukash_sniper_dialog",
+                                               "phrase_id":  "0",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lukash_sniper_dialog_phrase_2#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2119,
+                        "string_id":  "lukash_sniper_dialog_phrase_2",
+                        "occurrence":  1,
+                        "EN":  "Lucky told you about that? I should have a word with him about talking too much... Alas, he is right. We do have an uncomfortable situation which I had hoped to keep \"in-house\", but nevermind that now.. How\u0027s your marksmanship?",
+                        "JA_current":  "Lucky told you about that? I should have a word with him about talking too much... Alas, he is right. We do have an uncomfortable situation which I had hoped to keep \"in-house\", but nevermind that now.. How\u0027s your marksmanship?",
+                        "JA_new":  "ラッキーが話したのか？ 口が軽いって、あとで言っておかないとな……。まあ、あいつの言う通りだ。厄介な問題が起きてる。本当は身内だけで片付けたかったんだが、今さら仕方ない。射撃の腕はどうだ？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lukash_sniper_dialog",
+                                               "phrase_id":  "1",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lukash_sniper_dialog_phrase_3#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2122,
+                        "string_id":  "lukash_sniper_dialog_phrase_3",
+                        "occurrence":  1,
+                        "EN":  "I\u0027m not complaining, why?",
+                        "JA_current":  "I\u0027m not complaining, why?",
+                        "JA_new":  "悪くはないが、それがどうした？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lukash_sniper_dialog",
+                                               "phrase_id":  "2",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lukash_sniper_dialog_phrase_4#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2125,
+                        "string_id":  "lukash_sniper_dialog_phrase_4",
+                        "occurrence":  1,
+                        "EN":  "Well, let\u0027s just say I wouldn\u0027t want to be in your shoes if you are lying... Here\u0027s the deal: we have to neutralize a sniper.",
+                        "JA_current":  "Well, let\u0027s just say I wouldn\u0027t want to be in your shoes if you are lying... Here\u0027s the deal: we have to neutralize a sniper.",
+                        "JA_new":  "まあ、嘘だったらどうなるか、想像したくもないだろうな。頼みはひとつだ。狙撃手を始末してほしい。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lukash_sniper_dialog",
+                                               "phrase_id":  "3",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lukash_sniper_dialog_phrase_5#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2128,
+                        "string_id":  "lukash_sniper_dialog_phrase_5",
+                        "occurrence":  1,
+                        "EN":  "Great, I can do that for you. Where\u0027s he holed up?",
+                        "JA_current":  "Great, I can do that for you. Where\u0027s he holed up?",
+                        "JA_new":  "いいぜ、引き受けよう。そいつはどこにいる？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lukash_sniper_dialog",
+                                               "phrase_id":  "4",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lukash_sniper_dialog_phrase_6#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2131,
+                        "string_id":  "lukash_sniper_dialog_phrase_6",
+                        "occurrence":  1,
+                        "EN":  "Well, now that you mention it, my marksmanship isn\u0027t so great after all...",
+                        "JA_current":  "Well, now that you mention it, my marksmanship isn\u0027t so great after all...",
+                        "JA_new":  "そう言われると、やっぱり俺の腕は大したことないな……。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lukash_sniper_dialog",
+                                               "phrase_id":  "5",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lukash_sniper_dialog_phrase_8#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2137,
+                        "string_id":  "lukash_sniper_dialog_phrase_8",
+                        "occurrence":  1,
+                        "EN":  "In the swamp just North of the base. It won\u0027t be so simple, though... You see, he\u0027s one of us, a Freedom guy... Or rather, he WAS. The man was solid, a real anarchist and a legend with that rifle of his, let me tell you.. Used to be a hotshot sniper in the Ukrainian Special Forces way back in the day, before some nasty business forced him to seek refuge in the Zone. Since then, he had a problem with the army and authority in general, hated Duty the moment he saw them, so naturally he ended up with us. Once saw him take out a whole Monolith strike force from a kilometer away, did some sniper magic of his where they calculate for wind speed, distance, precipitation and the like... Anyway, he was one of our best, when all of a sudden he went off the rails, literally flipped in an instant. He became a total psycho, screaming like a zombie and firing his rifle at everything that moved, including us. Fucked up, isn\u0027t it?",
+                        "JA_current":  "In the swamp just North of the base. It won\u0027t be so simple, though... You see, he\u0027s one of us, a Freedom guy... Or rather, he WAS. The man was solid, a real anarchist and a legend with that rifle of his, let me tell you.. Used to be a hotshot sniper in the Ukrainian Special Forces way back in the day, before some nasty business forced him to seek refuge in the Zone. Since then, he had a problem with the army and authority in general, hated Duty the moment he saw them, so naturally he ended up with us. Once saw him take out a whole Monolith strike force from a kilometer away, did some sniper magic of his where they calculate for wind speed, distance, precipitation and the like... Anyway, he was one of our best, when all of a sudden he went off the rails, literally flipped in an instant. He became a total psycho, screaming like a zombie and firing his rifle at everything that moved, including us. Fucked up, isn\u0027t it?",
+                        "JA_new":  "基地のすぐ北にある沼地だ。だが、そう簡単じゃない。あいつも元は仲間のフリーダムだった……いや、だったんだ。芯のある男で、本物のアナーキスト。あのライフルを持たせたら伝説級だった。昔はウクライナ特殊部隊の凄腕狙撃手だったが、厄介事に巻き込まれてゾーンへ逃げ込んだ。それ以来、軍隊や権力が大嫌いで、デューティーを見た途端に敵視した。だから自然と俺たちの仲間になったんだ。1キロ先からモノリスの部隊を全滅させたこともある。風速、距離、降水量なんかを計算する、狙撃の妙技を見せてな……。それが突然、おかしくなった。まるで別人みたいに、ゾンビみたいな声で叫びながら、動くもの全部にライフルをぶっ放すようになった。俺たちにまでな。ひどい話だろ？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lukash_sniper_dialog",
+                                               "phrase_id":  "7",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lukash_sniper_dialog_phrase_7#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2134,
+                        "string_id":  "lukash_sniper_dialog_phrase_7",
+                        "occurrence":  1,
+                        "EN":  "Hehehe, what\u0027s the matter, your hands trembling all of a sudden? You may want to wash your underpants, I have a feeling this isn\u0027t the first time you shat yourself instead of fighting. Come back when you decide to grow a pair, and in the meantime, keep this story to yourself.",
+                        "JA_current":  "Hehehe, what\u0027s the matter, your hands trembling all of a sudden? You may want to wash your underpants, I have a feeling this isn\u0027t the first time you shat yourself instead of fighting. Come back when you decide to grow a pair, and in the meantime, keep this story to yourself.",
+                        "JA_new":  "へへっ、どうした？ 急に手が震えだしたか？ 今すぐパンツを洗ってこい。戦うより漏らすのは初めてじゃないんだろ。覚悟が決まったら戻ってこい。それまでこの話は誰にもするな。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lukash_sniper_dialog",
+                                               "phrase_id":  "6",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lukash_sniper_dialog_phrase_9#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2140,
+                        "string_id":  "lukash_sniper_dialog_phrase_9",
+                        "occurrence":  1,
+                        "EN":  "True, although the Zone can have that effect on people.",
+                        "JA_current":  "True, although the Zone can have that effect on people.",
+                        "JA_new":  "そうだな。ゾーンには、人をそう変えてしまう力がある。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lukash_sniper_dialog",
+                                               "phrase_id":  "8",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lukash_sniper_dialog_phrase_10#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2143,
+                        "string_id":  "lukash_sniper_dialog_phrase_10",
+                        "occurrence":  1,
+                        "EN":  "Ain\u0027t that the truth... Anyway, our guys don\u0027t really want to take him down, because he was a friend to all of us here. For this reason, I can\u0027t rely on our boys to do this.. That being said, someone needs to take that psycho down - he\u0027s been harassing our patrols and teams walking the road between the base and the Barrier. Lost a few guys to him already. So I am reaching out to you, an outsider. You have no attachment to this guy, and no one here is gonna get back at you for this, I\u0027ll see to it. The boys will understand, they know it needs to happen, they just can\u0027t bring themselves to do it, for them it\u0027s like putting down a beloved family pet.",
+                        "JA_current":  "Ain\u0027t that the truth... Anyway, our guys don\u0027t really want to take him down, because he was a friend to all of us here. For this reason, I can\u0027t rely on our boys to do this.. That being said, someone needs to take that psycho down - he\u0027s been harassing our patrols and teams walking the road between the base and the Barrier. Lost a few guys to him already. So I am reaching out to you, an outsider. You have no attachment to this guy, and no one here is gonna get back at you for this, I\u0027ll see to it. The boys will understand, they know it needs to happen, they just can\u0027t bring themselves to do it, for them it\u0027s like putting down a beloved family pet.",
+                        "JA_new":  "まったくだ……。だが、ここにいる連中は誰もあいつを始末したくない。みんなの友人だったからな。だから部下には頼めない。それでも、あの狂人を止めなきゃならん。基地とバリアを結ぶ道で、巡回や部隊を襲ってる。もう何人もやられた。だから、よそ者のお前に頼んでる。お前にはあいつへのしがらみがないし、誰も仕返しに来ない。後のことは俺が引き受ける。部下たちも必要なことだとは分かってる。ただ、自分たちの手で始末できないんだ。家族同然のペットを手にかけるようなもんだからな。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lukash_sniper_dialog",
+                                               "phrase_id":  "9",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lukash_sniper_dialog_phrase_11#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2146,
+                        "string_id":  "lukash_sniper_dialog_phrase_11",
+                        "occurrence":  1,
+                        "EN":  "Got it. Listen, buddy, I was thinking: only a sniper can kill a sniper, right?",
+                        "JA_current":  "Got it. Listen, buddy, I was thinking: only a sniper can kill a sniper, right?",
+                        "JA_new":  "分かった。なあ、狙撃手を倒せるのは狙撃手だけだろ？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lukash_sniper_dialog",
+                                               "phrase_id":  "10",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lukash_sniper_dialog_phrase_12#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2149,
+                        "string_id":  "lukash_sniper_dialog_phrase_12",
+                        "occurrence":  1,
+                        "EN":  "So? You said you were a good shot.",
+                        "JA_current":  "So? You said you were a good shot.",
+                        "JA_new":  "それで？ 腕には自信があるって言っただろ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lukash_sniper_dialog",
+                                               "phrase_id":  "11",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lukash_sniper_dialog_phrase_13#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2152,
+                        "string_id":  "lukash_sniper_dialog_phrase_13",
+                        "occurrence":  1,
+                        "EN":  "That\u0027s right. However, just as a master surgeon needs a scalpel, so does a marksman require a precision rifle with high magnification optics. As luck would have it, I have no such tool.",
+                        "JA_current":  "That\u0027s right. However, just as a master surgeon needs a scalpel, so does a marksman require a precision rifle with high magnification optics. As luck would have it, I have no such tool.",
+                        "JA_new":  "そうだな。でも名医にメスが要るように、狙撃手には高倍率スコープ付きの精密ライフルがいる。ところが、俺はそんな道具を持ってない。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lukash_sniper_dialog",
+                                               "phrase_id":  "12",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:lukash_sniper_dialog_phrase_14#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2155,
+                        "string_id":  "lukash_sniper_dialog_phrase_14",
+                        "occurrence":  1,
+                        "EN":  "I see where you\u0027re going with this. Here\u0027s a sniper scope for you, and you can find a rifle for it yourself. Oh, couple more things; the swamp is in the middle of a mine field, so watch your approach. Secondly, if you find anything on him which could explain why he descended into utter madness, please bring it to me.",
+                        "JA_current":  "I see where you\u0027re going with this. Here\u0027s a sniper scope for you, and you can find a rifle for it yourself. Oh, couple more things; the swamp is in the middle of a mine field, so watch your approach. Secondly, if you find anything on him which could explain why he descended into utter madness, please bring it to me.",
+                        "JA_new":  "言いたいことは分かった。これを使え、狙撃用スコープだ。ライフルは自分で見つけてくれ。あと二つ。沼地は地雷原の真ん中にある。近づく時は気をつけろ。それから、あいつがどうしてあそこまで狂ったのか分かるものがあれば、持ってきてくれ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "lukash_sniper_dialog",
+                                               "phrase_id":  "13",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  "lukash_sniper_dialog_phrase_1",
+                            "next":  [
+                                         "1"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Greetings. Lucky mentioned something about the \"sniper\" situation?",
+                            "JA_current":  "Greetings. Lucky mentioned something about the \"sniper\" situation?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lukash_sniper_dialog_phrase_1#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "1",
+                            "text_id":  "lukash_sniper_dialog_phrase_2",
+                            "next":  [
+                                         "2"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Lucky told you about that? I should have a word with him about talking too much... Alas, he is right. We do have an uncomfortable situation which I had hoped to keep \"in-house\", but nevermind that now.. How\u0027s your marksmanship?",
+                            "JA_current":  "Lucky told you about that? I should have a word with him about talking too much... Alas, he is right. We do have an uncomfortable situation which I had hoped to keep \"in-house\", but nevermind that now.. How\u0027s your marksmanship?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lukash_sniper_dialog_phrase_2#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "2",
+                            "text_id":  "lukash_sniper_dialog_phrase_3",
+                            "next":  [
+                                         "3"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I\u0027m not complaining, why?",
+                            "JA_current":  "I\u0027m not complaining, why?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lukash_sniper_dialog_phrase_3#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "3",
+                            "text_id":  "lukash_sniper_dialog_phrase_4",
+                            "next":  [
+                                         "4",
+                                         "5"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "2"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Well, let\u0027s just say I wouldn\u0027t want to be in your shoes if you are lying... Here\u0027s the deal: we have to neutralize a sniper.",
+                            "JA_current":  "Well, let\u0027s just say I wouldn\u0027t want to be in your shoes if you are lying... Here\u0027s the deal: we have to neutralize a sniper.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lukash_sniper_dialog_phrase_4#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "4",
+                            "text_id":  "lukash_sniper_dialog_phrase_5",
+                            "next":  [
+                                         "7"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "3"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Great, I can do that for you. Where\u0027s he holed up?",
+                            "JA_current":  "Great, I can do that for you. Where\u0027s he holed up?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lukash_sniper_dialog_phrase_5#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "5",
+                            "text_id":  "lukash_sniper_dialog_phrase_6",
+                            "next":  [
+                                         "6"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "3"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Well, now that you mention it, my marksmanship isn\u0027t so great after all...",
+                            "JA_current":  "Well, now that you mention it, my marksmanship isn\u0027t so great after all...",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lukash_sniper_dialog_phrase_6#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "7",
+                            "text_id":  "lukash_sniper_dialog_phrase_8",
+                            "next":  [
+                                         "8"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "4"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "In the swamp just North of the base. It won\u0027t be so simple, though... You see, he\u0027s one of us, a Freedom guy... Or rather, he WAS. The man was solid, a real anarchist and a legend with that rifle of his, let me tell you.. Used to be a hotshot sniper in the Ukrainian Special Forces way back in the day, before some nasty business forced him to seek refuge in the Zone. Since then, he had a problem with the army and authority in general, hated Duty the moment he saw them, so naturally he ended up with us. Once saw him take out a whole Monolith strike force from a kilometer away, did some sniper magic of his where they calculate for wind speed, distance, precipitation and the like... Anyway, he was one of our best, when all of a sudden he went off the rails, literally flipped in an instant. He became a total psycho, screaming like a zombie and firing his rifle at everything that moved, including us. Fucked up, isn\u0027t it?",
+                            "JA_current":  "In the swamp just North of the base. It won\u0027t be so simple, though... You see, he\u0027s one of us, a Freedom guy... Or rather, he WAS. The man was solid, a real anarchist and a legend with that rifle of his, let me tell you.. Used to be a hotshot sniper in the Ukrainian Special Forces way back in the day, before some nasty business forced him to seek refuge in the Zone. Since then, he had a problem with the army and authority in general, hated Duty the moment he saw them, so naturally he ended up with us. Once saw him take out a whole Monolith strike force from a kilometer away, did some sniper magic of his where they calculate for wind speed, distance, precipitation and the like... Anyway, he was one of our best, when all of a sudden he went off the rails, literally flipped in an instant. He became a total psycho, screaming like a zombie and firing his rifle at everything that moved, including us. Fucked up, isn\u0027t it?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lukash_sniper_dialog_phrase_8#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "6",
+                            "text_id":  "lukash_sniper_dialog_phrase_7",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "5"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Hehehe, what\u0027s the matter, your hands trembling all of a sudden? You may want to wash your underpants, I have a feeling this isn\u0027t the first time you shat yourself instead of fighting. Come back when you decide to grow a pair, and in the meantime, keep this story to yourself.",
+                            "JA_current":  "Hehehe, what\u0027s the matter, your hands trembling all of a sudden? You may want to wash your underpants, I have a feeling this isn\u0027t the first time you shat yourself instead of fighting. Come back when you decide to grow a pair, and in the meantime, keep this story to yourself.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lukash_sniper_dialog_phrase_7#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "8",
+                            "text_id":  "lukash_sniper_dialog_phrase_9",
+                            "next":  [
+                                         "9"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "7"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "True, although the Zone can have that effect on people.",
+                            "JA_current":  "True, although the Zone can have that effect on people.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lukash_sniper_dialog_phrase_9#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "9",
+                            "text_id":  "lukash_sniper_dialog_phrase_10",
+                            "next":  [
+                                         "10"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "8"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Ain\u0027t that the truth... Anyway, our guys don\u0027t really want to take him down, because he was a friend to all of us here. For this reason, I can\u0027t rely on our boys to do this.. That being said, someone needs to take that psycho down - he\u0027s been harassing our patrols and teams walking the road between the base and the Barrier. Lost a few guys to him already. So I am reaching out to you, an outsider. You have no attachment to this guy, and no one here is gonna get back at you for this, I\u0027ll see to it. The boys will understand, they know it needs to happen, they just can\u0027t bring themselves to do it, for them it\u0027s like putting down a beloved family pet.",
+                            "JA_current":  "Ain\u0027t that the truth... Anyway, our guys don\u0027t really want to take him down, because he was a friend to all of us here. For this reason, I can\u0027t rely on our boys to do this.. That being said, someone needs to take that psycho down - he\u0027s been harassing our patrols and teams walking the road between the base and the Barrier. Lost a few guys to him already. So I am reaching out to you, an outsider. You have no attachment to this guy, and no one here is gonna get back at you for this, I\u0027ll see to it. The boys will understand, they know it needs to happen, they just can\u0027t bring themselves to do it, for them it\u0027s like putting down a beloved family pet.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lukash_sniper_dialog_phrase_10#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "10",
+                            "text_id":  "lukash_sniper_dialog_phrase_11",
+                            "next":  [
+                                         "11"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "9"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Got it. Listen, buddy, I was thinking: only a sniper can kill a sniper, right?",
+                            "JA_current":  "Got it. Listen, buddy, I was thinking: only a sniper can kill a sniper, right?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lukash_sniper_dialog_phrase_11#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "11",
+                            "text_id":  "lukash_sniper_dialog_phrase_12",
+                            "next":  [
+                                         "12"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "10"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "So? You said you were a good shot.",
+                            "JA_current":  "So? You said you were a good shot.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lukash_sniper_dialog_phrase_12#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "12",
+                            "text_id":  "lukash_sniper_dialog_phrase_13",
+                            "next":  [
+                                         "13"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "11"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "That\u0027s right. However, just as a master surgeon needs a scalpel, so does a marksman require a precision rifle with high magnification optics. As luck would have it, I have no such tool.",
+                            "JA_current":  "That\u0027s right. However, just as a master surgeon needs a scalpel, so does a marksman require a precision rifle with high magnification optics. As luck would have it, I have no such tool.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lukash_sniper_dialog_phrase_13#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "13",
+                            "text_id":  "lukash_sniper_dialog_phrase_14",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "addon_dialogs.lukash_give_scope"
+                                            },
+                                            {
+                                                "type":  "give_info",
+                                                "value":  "mil_max_job"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "12"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I see where you\u0027re going with this. Here\u0027s a sniper scope for you, and you can find a rifle for it yourself. Oh, couple more things; the swamp is in the middle of a mine field, so watch your approach. Secondly, if you find anything on him which could explain why he descended into utter madness, please bring it to me.",
+                            "JA_current":  "I see where you\u0027re going with this. Here\u0027s a sniper scope for you, and you can find a rifle for it yourself. Oh, couple more things; the swamp is in the middle of a mine field, so watch your approach. Secondly, if you find anything on him which could explain why he descended into utter madness, please bring it to me.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:lukash_sniper_dialog_phrase_14#1"
+                                                        ]
+                        }
+                    ]
+}

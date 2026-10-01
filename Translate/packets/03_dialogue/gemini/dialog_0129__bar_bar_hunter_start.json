@@ -1,0 +1,240 @@
+{
+  "packet_id": "dialog_0129__bar_bar_hunter_start",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_bar_hunter_start",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_bar_hunter",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 3,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_bar_hunter_start_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 878,
+      "string_id": "bar_bar_hunter_start_11",
+      "occurrence": 1,
+      "EN": "I've got a big problem man! I... I lost my family rifle in the Wild Territory. I wanted to shoot some bloodsuckers but I barely got away. Damn! Listen, bro... if you get it back I'll pay you. I've made a little cash here and I'll give you all of it, just get my rifle back. It's a family rifle, you know, passed down from father to son... And I lost it! I've grown attached to it, it's like an extension of my arm now...",
+      "JA_current": "大変なんだよ！ 俺……家宝のライフルを荒廃領域でなくしちまった。ブラッドサッカーを撃とうとしたんだが、逃げるのが精一杯だった。くそっ！ なあ、頼むよ……見つけてくれたら金を払う。少し貯めた金がある。全部やるから、あのライフルを取り戻してくれ。父から息子へ受け継がれてきた大切な銃なんだ……それをなくしちまった！ もう体の一部みたいなもんでさ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_hunter_start",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_hunter_start_21#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 881,
+      "string_id": "bar_bar_hunter_start_21",
+      "occurrence": 1,
+      "EN": "Hey! Any news? Did you find it?!",
+      "JA_current": "おい！ 何か分かったか？ 見つかったのか！？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_hunter_start",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_hunter_start_31#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 884,
+      "string_id": "bar_bar_hunter_start_31",
+      "occurrence": 1,
+      "EN": "Thanks bro! I'll never forget that you helped me!",
+      "JA_current": "ありがとう！ 助けてくれたことは絶対忘れないよ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_hunter_start",
+          "phrase_id": "31",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": null,
+      "next": [
+        "1",
+        "2",
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1",
+      "text_id": null,
+      "next": [
+        "11"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_bar_hunter_quest_start"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "bar_bar_hunter_quest_finish"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "2",
+      "text_id": null,
+      "next": [
+        "21"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_bar_hunter_quest_finish"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_bar_hunter_quest_start"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "3",
+      "text_id": null,
+      "next": [
+        "31"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "bar_bar_hunter_quest_finish"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "bar_bar_hunter_start_11",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I've got a big problem man! I... I lost my family rifle in the Wild Territory. I wanted to shoot some bloodsuckers but I barely got away. Damn! Listen, bro... if you get it back I'll pay you. I've made a little cash here and I'll give you all of it, just get my rifle back. It's a family rifle, you know, passed down from father to son... And I lost it! I've grown attached to it, it's like an extension of my arm now...",
+      "JA_current": "どうしたらいいんだ！ 一家に伝わるライフルを Wild Territory で失くしちまった。Bloodsucker を撃ちたかったんだが、殆ど逃げ出しちまった。くそ！ 聞いてくれ、兄弟… もし取り返してくれたなら報酬を渡そう。少しだが金も工面した… ライフルを取り戻してくれれば全部アンタにやるよ。父から子へ… 一家に伝わるライフルなんだぜ？ …なのに失くちまった！ ガキの頃から使ってきたんだ、もう身体の一部の様なものなんだよ…。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_hunter_start_11#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "bar_bar_hunter_start_21",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey! Any news? Did you find it?!",
+      "JA_current": "おい！ 何かニュースがあるのか？ あれを見つけたのか？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_hunter_start_21#1"
+      ]
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "bar_bar_hunter_start_31",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thanks bro! I'll never forget that you helped me!",
+      "JA_current": "ありがとう兄弟よ！ この恩は一生忘れないぜ！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_hunter_start_31#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+{
+  "packet_id": "dialog_0036__companion_hire_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "companion_hire_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs.xml",
+  "graph_sha256": "87109fb1ac4d045582ddab436da3571319106a69b21b6c21a4451cbb5f3afbbf",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "dialogs.not_is_companion"
+    },
+    {
+      "type": "precondition",
+      "value": "dialogs.is_stalker_companion"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 10,
+  "entries": [
+    {
+      "key": "stable_dialogs:companion_hire_dialog_0#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 47,
+      "string_id": "companion_hire_dialog_0",
+      "occurrence": 1,
+      "EN": "Would you like to accompany me?",
+      "JA_current": "Would you like to accompany me?",
+      "JA_new": "一緒に来てくれないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_1#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 50,
+      "string_id": "companion_hire_dialog_1",
+      "occurrence": 1,
+      "EN": "Why not. I agree.",
+      "JA_current": "Why not. I agree.",
+      "JA_new": "いいとも。行くよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_2#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 53,
+      "string_id": "companion_hire_dialog_2",
+      "occurrence": 1,
+      "EN": "Sorry, I've got other plans.",
+      "JA_current": "Sorry, I've got other plans.",
+      "JA_new": "悪い、先約があるんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_3#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 57,
+      "string_id": "companion_hire_dialog_3",
+      "occurrence": 1,
+      "EN": "No, I'm afraid to go with you.",
+      "JA_current": "No, I'm afraid to go with you.",
+      "JA_new": "いや、あんたと行くのは怖い。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_4#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 61,
+      "string_id": "companion_hire_dialog_4",
+      "occurrence": 1,
+      "EN": "Go to hell, Marked One, no one ever returned from your journeys. Find a fool for yourself in some other places.",
+      "JA_current": "Go to hell, Marked One, no one ever returned from your journeys. Find a fool for yourself in some other places.",
+      "JA_new": "ふざけるな、マークド・ワン。あんたと出かけて帰ってきた奴はいない。よそで別の馬鹿を探しな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_5#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 65,
+      "string_id": "companion_hire_dialog_5",
+      "occurrence": 1,
+      "EN": "Sorry, I can't. Just tired of wandering about the Zone, need to get some rest.",
+      "JA_current": "Sorry, I can't. Just tired of wandering about the Zone, need to get some rest.",
+      "JA_new": "悪いが無理だ。ゾーンを歩き回るのにも疲れた。少し休ませてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_6#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 69,
+      "string_id": "companion_hire_dialog_6",
+      "occurrence": 1,
+      "EN": "No, man, you're too green. Sorry, but you're not able to handle it.",
+      "JA_current": "No, man, you're too green. Sorry, but you're not able to handle it.",
+      "JA_new": "いや、あんたじゃまだ経験不足だ。悪いが、任せられない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_7#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 73,
+      "string_id": "companion_hire_dialog_7",
+      "occurrence": 1,
+      "EN": "No, Marked One, I'm afraid to go with you. You're exploring such places, where I won't last even an hour. Don't want to die... I'd better just hang around here for a while, just to be safe.",
+      "JA_current": "No, Marked One, I'm afraid to go with you. You're exploring such places, where I won't last even an hour. Don't want to die... I'd better just hang around here for a while, just to be safe.",
+      "JA_new": "いや、マークド・ワン。あんたと行くのは怖い。あんな場所じゃ、一時間も持たないよ。死にたくない……しばらくここで大人しくしてる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_8#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 76,
+      "string_id": "companion_hire_dialog_8",
+      "occurrence": 1,
+      "EN": "You have big company already. It's no good to wander in the Zone in crowds.",
+      "JA_current": "You have big company already. It's no good to wander in the Zone in crowds.",
+      "JA_new": "もう仲間が大勢いるだろ。ゾーンをぞろぞろ歩くのは得策じゃない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs:companion_hire_dialog_9#1",
+      "source_table": "stable_dialogs",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs.xml",
+      "source_xml_line": 79,
+      "string_id": "companion_hire_dialog_9",
+      "occurrence": 1,
+      "EN": "Marked One, I can't have business with you while you're not one of us. No offence.",
+      "JA_current": "Marked One, I can't have business with you while you're not one of us. No offence.",
+      "JA_new": "マークド・ワン、あんたが俺たちの仲間じゃない以上、仕事は一緒にできない。悪く思うな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "companion_hire_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "companion_hire_dialog_0",
+      "next": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Would you like to accompany me?",
+      "JA_current": "Would you like to accompany me?",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "companion_hire_dialog_1",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_will_follow"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.companion_start_following"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Why not. I agree.",
+      "JA_current": "Why not. I agree.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "companion_hire_dialog_2",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Sorry, I've got other plans.",
+      "JA_current": "Sorry, I've got other plans.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "companion_hire_dialog_3",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_bad"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I'm afraid to go with you.",
+      "JA_current": "No, I'm afraid to go with you.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "companion_hire_dialog_4",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_deadly"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Go to hell, Marked One, no one ever returned from your journeys. Find a fool for yourself in some other places.",
+      "JA_current": "Go to hell, Marked One, no one ever returned from your journeys. Find a fool for yourself in some other places.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_4#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "companion_hire_dialog_5",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_tired"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Sorry, I can't. Just tired of wandering about the Zone, need to get some rest.",
+      "JA_current": "Sorry, I can't. Just tired of wandering about the Zone, need to get some rest.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_5#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "companion_hire_dialog_6",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_lowrank"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, man, you're too green. Sorry, but you're not able to handle it.",
+      "JA_current": "No, man, you're too green. Sorry, but you're not able to handle it.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_6#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "companion_hire_dialog_7",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_highrank"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, Marked One, I'm afraid to go with you. You're exploring such places, where I won't last even an hour. Don't want to die... I'd better just hang around here for a while, just to be safe.",
+      "JA_current": "No, Marked One, I'm afraid to go with you. You're exploring such places, where I won't last even an hour. Don't want to die... I'd better just hang around here for a while, just to be safe.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_7#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "companion_hire_dialog_8",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_toomuch"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "You have big company already. It's no good to wander in the Zone in crowds.",
+      "JA_current": "You have big company already. It's no good to wander in the Zone in crowds.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_8#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "companion_hire_dialog_9",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.companion_not_follow_other_community"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Marked One, I can't have business with you while you're not one of us. No offence.",
+      "JA_current": "Marked One, I can't have business with you while you're not one of us. No offence.",
+      "string_entry_candidates": [
+        "stable_dialogs:companion_hire_dialog_9#1"
+      ]
+    }
+  ]
+}

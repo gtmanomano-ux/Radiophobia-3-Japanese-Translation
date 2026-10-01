@@ -1,0 +1,415 @@
+{
+  "packet_id": "dialog_0159__osvedomitel_about_agent",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "osvedomitel_about_agent",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_bar_osvedomitel",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "ubit_bastu"
+    },
+    {
+      "type": "has_info",
+      "value": "infa_ot_diggera"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 9,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:osvedomitel_about_agent_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1808,
+      "string_id": "osvedomitel_about_agent_phrase_1",
+      "occurrence": 1,
+      "EN": "I have a case for you about one person.",
+      "JA_current": "I have a case for you about one person.",
+      "JA_new": "ある人物について頼みがある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_about_agent",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:osvedomitel_about_agent_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1811,
+      "string_id": "osvedomitel_about_agent_phrase_2",
+      "occurrence": 1,
+      "EN": "Well, let's ponder our sorrows.",
+      "JA_current": "Well, let's ponder our sorrows.",
+      "JA_new": "そうか、どんな厄介事だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_about_agent",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:osvedomitel_about_agent_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1814,
+      "string_id": "osvedomitel_about_agent_phrase_3",
+      "occurrence": 1,
+      "EN": "The situation is as follows: some people are looking for a stalker named Strelok, along with me. I don't know who these people are, but I really want to find out. I know for a fact that they have a man of theirs here in the bar, known only as \"The Agent\". I do not know his real name, maybe you can tell me?",
+      "JA_current": "The situation is as follows: some people are looking for a stalker named Strelok, along with me. I don't know who these people are, but I really want to find out. I know for a fact that they have a man of theirs here in the bar, known only as \"The Agent\". I do not know his real name, maybe you can tell me?",
+      "JA_new": "こういう状況だ。ストレロクというストーカーを、俺と一緒に探している連中がいる。誰なのか分からないが、正体を知りたい。確かなのは、そいつらの仲間がバーにいることだ。「エージェント」としか呼ばれてない。名前も知らない。あんたなら誰か分かるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_about_agent",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:osvedomitel_about_agent_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1817,
+      "string_id": "osvedomitel_about_agent_phrase_4",
+      "occurrence": 1,
+      "EN": "Yeah, that's what it means... To the catcher, as they say... Heh-heh! I wasn't talking to you. As for your question, yes, I think I know who you're talking about. I can tell you, but not for nothing, because nowadays information is of great value. So, if you want to know who this agent is, you can do a job for me.",
+      "JA_current": "Yeah, that's what it means... To the catcher, as they say... Heh-heh! I wasn't talking to you. As for your question, yes, I think I know who you're talking about. I can tell you, but not for nothing, because nowadays information is of great value. So, if you want to know who this agent is, you can do a job for me.",
+      "JA_new": "そういうことか……獲物が網にかかった、ってやつだな。へへっ、あんたに言ったんじゃない。質問の答えだが、誰のことか分かると思う。教えてやってもいいが、ただじゃない。今じゃ情報は高く売れるからな。エージェントの正体を知りたいなら、俺の仕事を引き受けろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_about_agent",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:osvedomitel_about_agent_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1820,
+      "string_id": "osvedomitel_about_agent_phrase_5",
+      "occurrence": 1,
+      "EN": "What are the details?",
+      "JA_current": "What are the details?",
+      "JA_new": "どんな仕事だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_about_agent",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:osvedomitel_about_agent_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1823,
+      "string_id": "osvedomitel_about_agent_phrase_6",
+      "occurrence": 1,
+      "EN": "Kill a stalker. Neutral. Wanna know why? I'll explain: he witnessed some events that he should not have seen.",
+      "JA_current": "Kill a stalker. Neutral. Wanna know why? I'll explain: he witnessed some events that he should not have seen.",
+      "JA_new": "ストーカーを一人始末しろ。ローナーの奴だ。理由を知りたいか？ 説明してやる。そいつは、見てはいけない出来事を目撃した。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_about_agent",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:osvedomitel_about_agent_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1826,
+      "string_id": "osvedomitel_about_agent_phrase_7",
+      "occurrence": 1,
+      "EN": "Sounds like a dirty job!",
+      "JA_current": "Sounds like a dirty job!",
+      "JA_new": "汚れ仕事みたいだな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_about_agent",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:osvedomitel_about_agent_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1829,
+      "string_id": "osvedomitel_about_agent_phrase_8",
+      "occurrence": 1,
+      "EN": "Don't worry, you can put your moral principles aside. Just to put your sensitive conscience at ease, I happen to know that this stalker is a scumbag, and many would like him dead, so killing him can be considered a good deed around here. And one more thing: be sure to bring me proof of his death: some personal thing, for example. Otherwise, no deal.",
+      "JA_current": "Don't worry, you can put your moral principles aside. Just to put your sensitive conscience at ease, I happen to know that this stalker is a scumbag, and many would like him dead, so killing him can be considered a good deed around here. And one more thing: be sure to bring me proof of his death: some personal thing, for example. Otherwise, no deal.",
+      "JA_new": "心配するな。良心だの道徳だのは脇に置いておけ。罪悪感を軽くしてやるために言っておくが、そいつは最低な野郎だ。死んでほしいと思ってる奴も大勢いる。始末すれば、ここじゃ善行扱いだ。もう一つ、死んだ証拠を持ってこい。身につけていた物でいい。そうでなきゃ取引は成立しない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_about_agent",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:osvedomitel_about_agent_phrase_9#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1832,
+      "string_id": "osvedomitel_about_agent_phrase_9",
+      "occurrence": 1,
+      "EN": "So be it, I agree.",
+      "JA_current": "So be it, I agree.",
+      "JA_new": "分かった。引き受ける。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_about_agent",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "osvedomitel_about_agent_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I have a case for you about one person.",
+      "JA_current": "I have a case for you about one person.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_about_agent_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "osvedomitel_about_agent_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.pokumekaem"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, let's ponder our sorrows.",
+      "JA_current": "Well, let's ponder our sorrows.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_about_agent_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "osvedomitel_about_agent_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The situation is as follows: some people are looking for a stalker named Strelok, along with me. I don't know who these people are, but I really want to find out. I know for a fact that they have a man of theirs here in the bar, known only as \"The Agent\". I do not know his real name, maybe you can tell me?",
+      "JA_current": "The situation is as follows: some people are looking for a stalker named Strelok, along with me. I don't know who these people are, but I really want to find out. I know for a fact that they have a man of theirs here in the bar, known only as \"The Agent\". I do not know his real name, maybe you can tell me?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_about_agent_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "osvedomitel_about_agent_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, that's what it means... To the catcher, as they say... Heh-heh! I wasn't talking to you. As for your question, yes, I think I know who you're talking about. I can tell you, but not for nothing, because nowadays information is of great value. So, if you want to know who this agent is, you can do a job for me.",
+      "JA_current": "Yeah, that's what it means... To the catcher, as they say... Heh-heh! I wasn't talking to you. As for your question, yes, I think I know who you're talking about. I can tell you, but not for nothing, because nowadays information is of great value. So, if you want to know who this agent is, you can do a job for me.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_about_agent_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "osvedomitel_about_agent_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What are the details?",
+      "JA_current": "What are the details?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_about_agent_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "osvedomitel_about_agent_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Kill a stalker. Neutral. Wanna know why? I'll explain: he witnessed some events that he should not have seen.",
+      "JA_current": "Kill a stalker. Neutral. Wanna know why? I'll explain: he witnessed some events that he should not have seen.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_about_agent_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "osvedomitel_about_agent_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sounds like a dirty job!",
+      "JA_current": "Sounds like a dirty job!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_about_agent_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "osvedomitel_about_agent_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Don't worry, you can put your moral principles aside. Just to put your sensitive conscience at ease, I happen to know that this stalker is a scumbag, and many would like him dead, so killing him can be considered a good deed around here. And one more thing: be sure to bring me proof of his death: some personal thing, for example. Otherwise, no deal.",
+      "JA_current": "Don't worry, you can put your moral principles aside. Just to put your sensitive conscience at ease, I happen to know that this stalker is a scumbag, and many would like him dead, so killing him can be considered a good deed around here. And one more thing: be sure to bring me proof of his death: some personal thing, for example. Otherwise, no deal.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_about_agent_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "osvedomitel_about_agent_phrase_9",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "ubit_bastu"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So be it, I agree.",
+      "JA_current": "So be it, I agree.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_about_agent_phrase_9#1"
+      ]
+    }
+  ]
+}

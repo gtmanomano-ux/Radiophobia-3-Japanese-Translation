@@ -1,0 +1,328 @@
+{
+  "packet_id": "dialog_0471__petrov_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "petrov_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml",
+  "graph_sha256": "131d3c64c00a1023af4aaa914f345f3cfff2e581dea421160993fad100675545",
+  "character_bindings": [
+    {
+      "profile_id": "prof_petrov",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "labx16_kontroller_svita"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "petrov_spasibo"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 7,
+  "entries": [
+    {
+      "key": "stable_dialogs_yantar:petrov_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 854,
+      "string_id": "petrov_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Are you all right, doctor?",
+      "JA_current": "Are you all right, doctor?",
+      "JA_new": "博士、無事か？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "petrov_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:petrov_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 857,
+      "string_id": "petrov_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Yes, I'm.. I'm fine... God.. Why did I volunteer for this!?",
+      "JA_current": "Yes, I'm.. I'm fine... God.. Why did I volunteer for this!?",
+      "JA_new": "ああ……大丈夫だ……神よ……どうして志願なんかしたんだ！？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "petrov_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:petrov_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 860,
+      "string_id": "petrov_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "I don't know but you really shouldn't stick around without protection.",
+      "JA_current": "I don't know but you really shouldn't stick around without protection.",
+      "JA_new": "分からないが、護衛もなしにここに残るのはやめた方がいい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "petrov_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:petrov_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 863,
+      "string_id": "petrov_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Yes, naturally.. Let me come to my senses and we'll get out of here, my head is spinning... My assistant... I... What happened to the soldiers?",
+      "JA_current": "Yes, naturally.. Let me come to my senses and we'll get out of here, my head is spinning... My assistant... I... What happened to the soldiers?",
+      "JA_new": "そうだな……少し落ち着かせてくれ。頭がぐるぐるする……助手は……私は……兵士たちはどうなった？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "petrov_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:petrov_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 866,
+      "string_id": "petrov_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "You guys walked right into a controller. He zombified the soldiers, wanted to lure you in deeper.",
+      "JA_current": "You guys walked right into a controller. He zombified the soldiers, wanted to lure you in deeper.",
+      "JA_new": "あんたたちはコントローラーの罠にかかったんだ。兵士をゾンビにして、もっと奥へおびき寄せようとしてた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "petrov_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:petrov_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 869,
+      "string_id": "petrov_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "What a shame about those guys, they were good men... Well, at least that controller is destroyed, fewer creatures to deal with now.. We will have to do this properly, get funding and a full detachment allocated, and we will be able to organize a proper expedition! Please, would you be so kind as to tell Professor Sakharov that I am alright, and will be heading topside shortly..",
+      "JA_current": "What a shame about those guys, they were good men... Well, at least that controller is destroyed, fewer creatures to deal with now.. We will have to do this properly, get funding and a full detachment allocated, and we will be able to organize a proper expedition! Please, would you be so kind as to tell Professor Sakharov that I am alright, and will be heading topside shortly..",
+      "JA_new": "みんなが気の毒だ。いい連中だったのに……だが、コントローラーは倒した。これで対処する相手が減ったな……きちんと予算を取り、十分な人数の部隊を配属してもらえれば、本格的な遠征ができる！ 頼みがある。サハロフ教授に、私は無事で、もうすぐ地上へ戻ると伝えてくれないか……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "petrov_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:petrov_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 872,
+      "string_id": "petrov_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "I hope so..",
+      "JA_current": "I hope so..",
+      "JA_new": "そうなるといいな……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "petrov_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "petrov_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Are you all right, doctor?",
+      "JA_current": "Are you all right, doctor?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:petrov_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "petrov_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, I'm.. I'm fine... God.. Why did I volunteer for this!?",
+      "JA_current": "Yes, I'm.. I'm fine... God.. Why did I volunteer for this!?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:petrov_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "petrov_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I don't know but you really shouldn't stick around without protection.",
+      "JA_current": "I don't know but you really shouldn't stick around without protection.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:petrov_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "petrov_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, naturally.. Let me come to my senses and we'll get out of here, my head is spinning... My assistant... I... What happened to the soldiers?",
+      "JA_current": "Yes, naturally.. Let me come to my senses and we'll get out of here, my head is spinning... My assistant... I... What happened to the soldiers?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:petrov_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "petrov_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You guys walked right into a controller. He zombified the soldiers, wanted to lure you in deeper.",
+      "JA_current": "You guys walked right into a controller. He zombified the soldiers, wanted to lure you in deeper.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:petrov_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "petrov_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What a shame about those guys, they were good men... Well, at least that controller is destroyed, fewer creatures to deal with now.. We will have to do this properly, get funding and a full detachment allocated, and we will be able to organize a proper expedition! Please, would you be so kind as to tell Professor Sakharov that I am alright, and will be heading topside shortly..",
+      "JA_current": "What a shame about those guys, they were good men... Well, at least that controller is destroyed, fewer creatures to deal with now.. We will have to do this properly, get funding and a full detachment allocated, and we will be able to organize a proper expedition! Please, would you be so kind as to tell Professor Sakharov that I am alright, and will be heading topside shortly..",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:petrov_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "petrov_dialog_phrase_7",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "petrov_spasibo"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I hope so..",
+      "JA_current": "I hope so..",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:petrov_dialog_phrase_7#1"
+      ]
+    }
+  ]
+}

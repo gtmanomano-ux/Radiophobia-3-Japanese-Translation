@@ -1,0 +1,509 @@
+{
+  "packet_id": "dialog_0069__agr_krot_actor_hasnot_met_seriy",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "agr_krot_actor_hasnot_met_seriy",
+  "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml",
+  "graph_sha256": "0065cb49021f3d779d92b62bc9453bcaa767fa47933b73f8ecdd37c8a246e1ab",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "agr_help_krot_done"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "agr_krot_band_start"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "agr_find_gunslinger_cache_start"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 8,
+  "entries": [
+    {
+      "key": "stable_dialogs_agroprom:agr_krot_actor_hasnot_met_seriy_0#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 57,
+      "string_id": "agr_krot_actor_hasnot_met_seriy_0",
+      "occurrence": 1,
+      "EN": "What's going on?",
+      "JA_current": "ここで何をやってんだい？",
+      "JA_new": "何があった？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_krot_actor_hasnot_met_seriy",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        },
+        {
+          "dialog_id": "agr_factory_krot_start",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_krot_actor_hasnot_met_seriy_100#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 60,
+      "string_id": "agr_krot_actor_hasnot_met_seriy_100",
+      "occurrence": 1,
+      "EN": "Me and my boys found a nice little area full of artifacts but those army bastards attacked us for some reason. I don't know what the hell they wanted from us...",
+      "JA_current": "俺たちはアーティファクトで一杯のイカした場所を見つけたんだが、Army のクソ野郎どもが、なぜか攻撃してきやがるんだ。あいつら俺たちに何か恨みでもあんのか…。",
+      "JA_new": "俺たちでアーティファクトが山ほどある場所を見つけたんだが、軍のクソ野郎どもに襲われた。何が狙いだったのかさっぱりだ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_krot_actor_hasnot_met_seriy",
+          "phrase_id": "100",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        },
+        {
+          "dialog_id": "agr_factory_krot_start",
+          "phrase_id": "1001",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_krot_actor_hasnot_met_seriy_3500#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 75,
+      "string_id": "agr_krot_actor_hasnot_met_seriy_3500",
+      "occurrence": 1,
+      "EN": "If you lied to me, I'll find you and finish what the soldiers couldn't!",
+      "JA_current": "もしデタラメだったら、アンタに Army どもが出来なかったことをやってやるぜ？",
+      "JA_new": "嘘だったら、俺が見つけ出して、兵隊ができなかったことをやってやる！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_krot_actor_hasnot_met_seriy",
+          "phrase_id": "3500",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        },
+        {
+          "dialog_id": "agr_factory_krot_start",
+          "phrase_id": "35001",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_krot_actor_hasnot_met_seriy_400#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 78,
+      "string_id": "agr_krot_actor_hasnot_met_seriy_400",
+      "occurrence": 1,
+      "EN": "I'm not lying. I know that nobody trusts anyone here so you have little choice.",
+      "JA_current": "嘘なんかじゃないさ。だがここじゃ誰も信じられないからな… まぁお前の好きにすればいいさ。やるべきことは分かってんだろ？",
+      "JA_new": "嘘じゃない。この辺じゃ誰も誰も信用しないのは分かってる。あんたには信じるしかないだろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_krot_actor_hasnot_met_seriy",
+          "phrase_id": "400",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        },
+        {
+          "dialog_id": "agr_factory_krot_start",
+          "phrase_id": "4001",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_krot_actor_hasnot_met_seriy_200#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 63,
+      "string_id": "agr_krot_actor_hasnot_met_seriy_200",
+      "occurrence": 1,
+      "EN": "Yeah, I've heard about him. I think he used to \"make his living\" in this area - it's quite a good place, actually. He left a long time ago; I don't know when it was exactly and I've got no clue where he was headed. That's everything I can tell you.",
+      "JA_current": "ああ、名前は聞いたことがあるぜ。ここいらを根城にしていたらしい。確かに悪くねぇ場所さ。だがヤツはだいぶ前に、ここを離れた。それがいつか、どこへ行ったか、俺は見当もつかん。知ってるのはそれだけだ。",
+      "JA_new": "ああ、そいつの話は聞いたことがある。この辺で「稼いで」たらしい。なかなかいい場所だったよ。ずいぶん前にいなくなったが、いつだったかも、どこへ向かったかも分からない。話せるのはそれだけだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_krot_actor_hasnot_met_seriy",
+          "phrase_id": "200",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        },
+        {
+          "dialog_id": "agr_factory_krot_start",
+          "phrase_id": "2001",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_krot_actor_hasnot_met_seriy_2000#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 66,
+      "string_id": "agr_krot_actor_hasnot_met_seriy_2000",
+      "occurrence": 1,
+      "EN": "You weren't waiting here for no reason, were you? Otherwise why would the Spetsnaz show up here?",
+      "JA_current": "スペツナズが湧いて出て来るのに、なぜここで待ってなかったんだい？",
+      "JA_new": "こんな所で待ち伏せしてたのには、理由があるんだろ？ そうでなきゃ、スペツナズが来るわけない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_krot_actor_hasnot_met_seriy",
+          "phrase_id": "2000",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        },
+        {
+          "dialog_id": "agr_factory_krot_start",
+          "phrase_id": "20001",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_krot_actor_hasnot_met_seriy_250#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 69,
+      "string_id": "agr_krot_actor_hasnot_met_seriy_250",
+      "occurrence": 1,
+      "EN": "OK, I know something about Strelok.",
+      "JA_current": "ああ、Strelok のことは知ってるよ。",
+      "JA_new": "よし、ストレロクのことなら知ってる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_krot_actor_hasnot_met_seriy",
+          "phrase_id": "250",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        },
+        {
+          "dialog_id": "agr_factory_krot_start",
+          "phrase_id": "2501",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_krot_actor_hasnot_met_seriy_2500#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 72,
+      "string_id": "agr_krot_actor_hasnot_met_seriy_2500",
+      "occurrence": 1,
+      "EN": "Yeah? I really need to know that!",
+      "JA_current": "本当か？ 教えてくれ！",
+      "JA_new": "本当か？ そいつのことを知りたいんだ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_krot_actor_hasnot_met_seriy",
+          "phrase_id": "2500",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        },
+        {
+          "dialog_id": "agr_factory_krot_start",
+          "phrase_id": "25001",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "agr_krot_actor_hasnot_met_seriy_0",
+      "next": [
+        "100"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "What's going on?",
+      "JA_current": "ここで何をやってんだい？",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_krot_actor_hasnot_met_seriy_0#1"
+      ]
+    },
+    {
+      "phrase_id": "100",
+      "text_id": "agr_krot_actor_hasnot_met_seriy_100",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Me and my boys found a nice little area full of artifacts but those army bastards attacked us for some reason. I don't know what the hell they wanted from us...",
+      "JA_current": "俺たちはアーティファクトで一杯のイカした場所を見つけたんだが、Army のクソ野郎どもが、なぜか攻撃してきやがるんだ。あいつら俺たちに何か恨みでもあんのか…。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_krot_actor_hasnot_met_seriy_100#1"
+      ]
+    },
+    {
+      "phrase_id": "3500",
+      "text_id": "agr_krot_actor_hasnot_met_seriy_3500",
+      "next": [
+        "400"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "If you lied to me, I'll find you and finish what the soldiers couldn't!",
+      "JA_current": "もしデタラメだったら、アンタに Army どもが出来なかったことをやってやるぜ？",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_krot_actor_hasnot_met_seriy_3500#1"
+      ]
+    },
+    {
+      "phrase_id": "400",
+      "text_id": "agr_krot_actor_hasnot_met_seriy_400",
+      "next": [
+        "4000"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "agroprom_dialog.krot_give_flash"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3500"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'm not lying. I know that nobody trusts anyone here so you have little choice.",
+      "JA_current": "嘘なんかじゃないさ。だがここじゃ誰も信じられないからな… まぁお前の好きにすればいいさ。やるべきことは分かってんだろ？",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_krot_actor_hasnot_met_seriy_400#1"
+      ]
+    },
+    {
+      "phrase_id": "200",
+      "text_id": "agr_krot_actor_hasnot_met_seriy_200",
+      "next": [
+        "2000"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Yeah, I've heard about him. I think he used to \"make his living\" in this area - it's quite a good place, actually. He left a long time ago; I don't know when it was exactly and I've got no clue where he was headed. That's everything I can tell you.",
+      "JA_current": "ああ、名前は聞いたことがあるぜ。ここいらを根城にしていたらしい。確かに悪くねぇ場所さ。だがヤツはだいぶ前に、ここを離れた。それがいつか、どこへ行ったか、俺は見当もつかん。知ってるのはそれだけだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_krot_actor_hasnot_met_seriy_200#1"
+      ]
+    },
+    {
+      "phrase_id": "2000",
+      "text_id": "agr_krot_actor_hasnot_met_seriy_2000",
+      "next": [
+        "250"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "200"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "You weren't waiting here for no reason, were you? Otherwise why would the Spetsnaz show up here?",
+      "JA_current": "スペツナズが湧いて出て来るのに、なぜここで待ってなかったんだい？",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_krot_actor_hasnot_met_seriy_2000#1"
+      ]
+    },
+    {
+      "phrase_id": "250",
+      "text_id": "agr_krot_actor_hasnot_met_seriy_250",
+      "next": [
+        "2500"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2000"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "OK, I know something about Strelok.",
+      "JA_current": "ああ、Strelok のことは知ってるよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_krot_actor_hasnot_met_seriy_250#1"
+      ]
+    },
+    {
+      "phrase_id": "2500",
+      "text_id": "agr_krot_actor_hasnot_met_seriy_2500",
+      "next": [
+        "300"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "250"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Yeah? I really need to know that!",
+      "JA_current": "本当か？ 教えてくれ！",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_krot_actor_hasnot_met_seriy_2500#1"
+      ]
+    },
+    {
+      "phrase_id": "150",
+      "text_id": null,
+      "next": [
+        "1500"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1500",
+      "text_id": null,
+      "next": [
+        "300"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "150"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "300",
+      "text_id": null,
+      "next": [
+        "3000"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2500",
+        "1500"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "3000",
+      "text_id": null,
+      "next": [
+        "350"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "300"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "350",
+      "text_id": null,
+      "next": [
+        "4000"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3000"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "4000",
+      "text_id": null,
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "400",
+        "350"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    }
+  ]
+}

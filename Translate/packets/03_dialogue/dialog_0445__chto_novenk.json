@@ -1,0 +1,198 @@
+{
+    "packet_id":  "dialog_0445__chto_novenk",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "chto_novenk",
+    "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml",
+    "graph_sha256":  "131d3c64c00a1023af4aaa914f345f3cfff2e581dea421160993fad100675545",
+    "character_bindings":  [
+                               {
+                                   "profile_id":  "yan_zombied_default3",
+                                   "binding_type":  "start_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_zombied_veteran_default4",
+                                   "binding_type":  "start_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_zombied_veteran_default5",
+                                   "binding_type":  "start_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_zombied_ambush_default1",
+                                   "binding_type":  "start_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_zombied_ambush_default2",
+                                   "binding_type":  "start_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_zombied_dolg",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_fresh_Zombied_stalker_1",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               },
+                               {
+                                   "profile_id":  "yan_fresh_Zombied_stalker_2",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               }
+                           ],
+    "dialog_conditions":  [
+
+                          ],
+    "root_speaker_hint":  null,
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  2,
+    "entries":  [
+                    {
+                        "key":  "stable_dialogs_yantar:chto_novenk#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  51,
+                        "string_id":  "chto_novenk",
+                        "occurrence":  1,
+                        "EN":  "Hi! Is there any news?",
+                        "JA_current":  "Hi! Is there any news?",
+                        "JA_new":  "やあ！ 何か新しい話はある？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "chto_novenk",
+                                               "phrase_id":  "1",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:kontroller_poselilsja#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  54,
+                        "string_id":  "kontroller_poselilsja",
+                        "occurrence":  1,
+                        "EN":  "A controller has settled down nearby recently...",
+                        "JA_current":  "A controller has settled down nearby recently...",
+                        "JA_new":  "最近、この近くにコントローラーが住み着いたらしい……。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "chto_novenk",
+                                               "phrase_id":  "2",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  null,
+                            "next":  [
+                                         "1"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  null,
+                            "speaker_hint_basis":  "unresolved",
+                            "EN":  null,
+                            "JA_current":  null,
+                            "string_entry_candidates":  [
+
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "1",
+                            "text_id":  "chto_novenk",
+                            "next":  [
+                                         "2"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  null,
+                            "speaker_hint_basis":  "unresolved",
+                            "EN":  "Hi! Is there any news?",
+                            "JA_current":  "Hi! Is there any news?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:chto_novenk#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "2",
+                            "text_id":  "kontroller_poselilsja",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  null,
+                            "speaker_hint_basis":  "unresolved",
+                            "EN":  "A controller has settled down nearby recently...",
+                            "JA_current":  "A controller has settled down nearby recently...",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:kontroller_poselilsja#1"
+                                                        ]
+                        }
+                    ]
+}

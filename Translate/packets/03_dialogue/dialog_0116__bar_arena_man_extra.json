@@ -1,0 +1,374 @@
+{
+  "packet_id": "dialog_0116__bar_arena_man_extra",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_arena_man_extra",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_arena_manager",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "aem_startup"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 0,
+  "entries": [],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "aem_extra_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I have a request for you.",
+      "JA_current": "I have a request for you.",
+      "string_entry_candidates": [
+        "aem_strings:aem_extra_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "aem_extra_1",
+      "next": [
+        "2",
+        "3",
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What's it about?",
+      "JA_current": "What's it about?",
+      "string_entry_candidates": [
+        "aem_strings:aem_extra_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "aem_extra_2",
+      "next": [
+        "21"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "aem_spam"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Include me in your notification list.",
+      "JA_current": "Include me in your notification list.",
+      "string_entry_candidates": [
+        "aem_strings:aem_extra_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "aem_extra_3",
+      "next": [
+        "31"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "aem_spam"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Can you stop sending me your messages?",
+      "JA_current": "Can you stop sending me your messages?",
+      "string_entry_candidates": [
+        "aem_strings:aem_extra_3#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "aem_extra_9",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Forget it.",
+      "JA_current": "Forget it.",
+      "string_entry_candidates": [
+        "aem_strings:aem_extra_9#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "aem_extra_21",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "aem_spam"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "As you wish.",
+      "JA_current": "As you wish.",
+      "string_entry_candidates": [
+        "aem_strings:aem_extra_21#1"
+      ]
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "aem_extra_31",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [
+        {
+          "type": "disable_info",
+          "value": "aem_spam"
+        }
+      ],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sure, I'll delete your PDA from the notification list.",
+      "JA_current": "Sure, I'll delete your PDA from the notification list.",
+      "string_entry_candidates": [
+        "aem_strings:aem_extra_31#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "aem_extra_4",
+      "next": [
+        "41"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "aem_lights"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Can you turn on some more lights on the Arena?",
+      "JA_current": "Can you turn on some more lights on the Arena?",
+      "string_entry_candidates": [
+        "aem_strings:aem_extra_4#1"
+      ]
+    },
+    {
+      "phrase_id": "41",
+      "text_id": "aem_extra_41",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "aem_manager.lights_on"
+        },
+        {
+          "type": "give_info",
+          "value": "aem_lights"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'll see what I can do.",
+      "JA_current": "I'll see what I can do.",
+      "string_entry_candidates": [
+        "aem_strings:aem_extra_41#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "aem_extra_5",
+      "next": [
+        "51"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "aem_lights"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Switch the lights back to normal.",
+      "JA_current": "Switch the lights back to normal.",
+      "string_entry_candidates": [
+        "aem_strings:aem_extra_5#1"
+      ]
+    },
+    {
+      "phrase_id": "51",
+      "text_id": "aem_extra_51",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "aem_manager.lights_off"
+        }
+      ],
+      "other_control": [
+        {
+          "type": "disable_info",
+          "value": "aem_lights"
+        }
+      ],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Turn on... Switch off... Make a decision, man!",
+      "JA_current": "Turn on... Switch off... Make a decision, man!",
+      "string_entry_candidates": [
+        "aem_strings:aem_extra_51#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "aem_extra_6",
+      "next": [
+        "61"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "DELETE MOD",
+      "JA_current": "DELETE MOD",
+      "string_entry_candidates": [
+        "aem_strings:aem_extra_6#1"
+      ]
+    },
+    {
+      "phrase_id": "61",
+      "text_id": "aem_extra_61",
+      "next": [
+        "611",
+        "612"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Are you sure?",
+      "JA_current": "Are you sure?",
+      "string_entry_candidates": [
+        "aem_strings:aem_extra_61#1"
+      ]
+    },
+    {
+      "phrase_id": "611",
+      "text_id": "aem_extra_611",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "aem_manager.cleanup"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "61"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Yes.",
+      "JA_current": "Yes.",
+      "string_entry_candidates": [
+        "aem_strings:aem_extra_611#1"
+      ]
+    },
+    {
+      "phrase_id": "612",
+      "text_id": "aem_extra_612",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "61"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No.",
+      "JA_current": "No.",
+      "string_entry_candidates": [
+        "aem_strings:aem_extra_612#1"
+      ]
+    }
+  ]
+}

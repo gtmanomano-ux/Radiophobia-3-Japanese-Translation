@@ -1,0 +1,414 @@
+{
+  "packet_id": "dialog_0475__sahar_magnetto_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "sahar_magnetto_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml",
+  "graph_sha256": "131d3c64c00a1023af4aaa914f345f3cfff2e581dea421160993fad100675545",
+  "character_bindings": [
+    {
+      "profile_id": "yan_general_ecolog",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.have_magnetto"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "saharov_about_magnetto"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 9,
+  "entries": [
+    {
+      "key": "stable_dialogs_yantar:sahar_magnetto_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 930,
+      "string_id": "sahar_magnetto_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Professor, help me. Some crap is stuck onto me, it's affecting my strength, and I don't know how to get rid of it!",
+      "JA_current": "Professor, help me. Some crap is stuck onto me, it's affecting my strength, and I don't know how to get rid of it!",
+      "JA_new": "教授、助けてくれ。何かが体に張り付いて、力が出ないんだ。どうやって取り除けばいい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sahar_magnetto_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:sahar_magnetto_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 933,
+      "string_id": "sahar_magnetto_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Oh, what a lovely specimen of Magnetos Lymphophagus! Where did you find it?",
+      "JA_current": "Oh, what a lovely specimen of Magnetos Lymphophagus! Where did you find it?",
+      "JA_new": "おお、なんと見事なマグネトス・リンフォファガスだ！ どこで見つけたんだね？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sahar_magnetto_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:sahar_magnetto_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 936,
+      "string_id": "sahar_magnetto_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "I'm not up for scientific terms right now! Just tell me what to do to get rid of it.",
+      "JA_current": "I'm not up for scientific terms right now! Just tell me what to do to get rid of it.",
+      "JA_new": "今は科学用語なんか聞いてる場合じゃない！ どうすれば取れるのかだけ教えてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sahar_magnetto_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:sahar_magnetto_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 939,
+      "string_id": "sahar_magnetto_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "To get rid of this parasite, you need to irradiate it with infrared radiation of a special wavelength. For this purpose, a special device called the Sokolov Model 17-B Infrared Radiator, or IIRS-17B for short, has been developed.",
+      "JA_current": "To get rid of this parasite, you need to irradiate it with infrared radiation of a special wavelength. For this purpose, a special device called the Sokolov Model 17-B Infrared Radiator, or IIRS-17B for short, has been developed.",
+      "JA_new": "この寄生生物を取り除くには、特定の波長の赤外線を当てる必要がある。そのために、ソコロフ式17-B赤外線照射器という装置が開発された。略称はIIRS-17Bだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sahar_magnetto_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:sahar_magnetto_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 942,
+      "string_id": "sahar_magnetto_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Get that device over here, quick, and let's go!",
+      "JA_current": "Get that device over here, quick, and let's go!",
+      "JA_new": "それをすぐ持ってきてくれ。急いでくれ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sahar_magnetto_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:sahar_magnetto_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 945,
+      "string_id": "sahar_magnetto_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "The thing is... I hate to break it to you, but...",
+      "JA_current": "The thing is... I hate to break it to you, but...",
+      "JA_new": "実は……こう言うのは心苦しいんだが……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sahar_magnetto_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:sahar_magnetto_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 948,
+      "string_id": "sahar_magnetto_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Don't yank the cat by the tail! Just tell me what's wrong!",
+      "JA_current": "Don't yank the cat by the tail! Just tell me what's wrong!",
+      "JA_new": "回りくどい言い方はやめてくれ！ 何が問題なんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sahar_magnetto_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:sahar_magnetto_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 951,
+      "string_id": "sahar_magnetto_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "Quite recently, this valuable device was lost... A helicopter carrying scientific personnel and scientific equipment crashed in a region known locally as the Army Warehouses.",
+      "JA_current": "Quite recently, this valuable device was lost... A helicopter carrying scientific personnel and scientific equipment crashed in a region known locally as the Army Warehouses.",
+      "JA_new": "つい最近、大切な装置を失くしてしまってね……科学者たちと機材を乗せたヘリが、地元で軍事倉庫と呼ばれている地域に墜落したんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sahar_magnetto_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:sahar_magnetto_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 954,
+      "string_id": "sahar_magnetto_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "We should check to see if there's anything left.",
+      "JA_current": "We should check to see if there's anything left.",
+      "JA_new": "残っている物がないか、調べに行こう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sahar_magnetto_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "sahar_magnetto_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Professor, help me. Some crap is stuck onto me, it's affecting my strength, and I don't know how to get rid of it!",
+      "JA_current": "Professor, help me. Some crap is stuck onto me, it's affecting my strength, and I don't know how to get rid of it!",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:sahar_magnetto_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "sahar_magnetto_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh, what a lovely specimen of Magnetos Lymphophagus! Where did you find it?",
+      "JA_current": "Oh, what a lovely specimen of Magnetos Lymphophagus! Where did you find it?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:sahar_magnetto_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "sahar_magnetto_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm not up for scientific terms right now! Just tell me what to do to get rid of it.",
+      "JA_current": "I'm not up for scientific terms right now! Just tell me what to do to get rid of it.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:sahar_magnetto_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "sahar_magnetto_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "To get rid of this parasite, you need to irradiate it with infrared radiation of a special wavelength. For this purpose, a special device called the Sokolov Model 17-B Infrared Radiator, or IIRS-17B for short, has been developed.",
+      "JA_current": "To get rid of this parasite, you need to irradiate it with infrared radiation of a special wavelength. For this purpose, a special device called the Sokolov Model 17-B Infrared Radiator, or IIRS-17B for short, has been developed.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:sahar_magnetto_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "sahar_magnetto_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Get that device over here, quick, and let's go!",
+      "JA_current": "Get that device over here, quick, and let's go!",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:sahar_magnetto_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "sahar_magnetto_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The thing is... I hate to break it to you, but...",
+      "JA_current": "The thing is... I hate to break it to you, but...",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:sahar_magnetto_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "sahar_magnetto_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Don't yank the cat by the tail! Just tell me what's wrong!",
+      "JA_current": "Don't yank the cat by the tail! Just tell me what's wrong!",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:sahar_magnetto_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "sahar_magnetto_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Quite recently, this valuable device was lost... A helicopter carrying scientific personnel and scientific equipment crashed in a region known locally as the Army Warehouses.",
+      "JA_current": "Quite recently, this valuable device was lost... A helicopter carrying scientific personnel and scientific equipment crashed in a region known locally as the Army Warehouses.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:sahar_magnetto_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "sahar_magnetto_dialog_phrase_9",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.spawn_pribor"
+        },
+        {
+          "type": "give_info",
+          "value": "saharov_about_magnetto"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "We should check to see if there's anything left.",
+      "JA_current": "We should check to see if there's anything left.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:sahar_magnetto_dialog_phrase_9#1"
+      ]
+    }
+  ]
+}

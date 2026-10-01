@@ -1,0 +1,106 @@
+{
+  "packet_id": "dialog_0147__bar_dolg_leader_job",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_dolg_leader_job",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "bar_dolg_community_leader_done"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 2,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_job_0#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1298,
+      "string_id": "bar_dolg_leader_job_0",
+      "occurrence": 1,
+      "EN": "What can I do for Duty?",
+      "JA_current": "デューティーのために何かできる仕事はあるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_job",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_job_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1301,
+      "string_id": "bar_dolg_leader_job_1",
+      "occurrence": 1,
+      "EN": "That's a good question, Marked One, and there's an equally good answer to it - kill Freedom anarchists. You'll get a reward for every PDA of theirs you bring and you might get promoted too. Take all the PDAs you get to Petrenko - he gives out the rewards.",
+      "JA_current": "いい質問だ、マークド・ワン。答えも実に明快だ――フリーダムのアナーキストどもを血祭りにあげろ。奴らのPDAを持ち帰るたびに報奨金を出すし、昇進の機会も与えよう。手に入れたPDAはすべてペトレンコに持っていけ。あいつが報酬の支払いを担当している。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_job",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bar_dolg_leader_job_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "What can I do for Duty?",
+      "JA_current": "Duty のために何かできることは？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_job_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "bar_dolg_leader_job_1",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "That's a good question, Marked One, and there's an equally good answer to it - kill Freedom anarchists. You'll get a reward for every PDA of theirs you bring and you might get promoted too. Take all the PDAs you get to Petrenko - he gives out the rewards.",
+      "JA_current": "いい質問だ、Marked One。同時におあつらえむきの答えがある ― Freedom のアナーキスト野郎どもを殺せ。ヤツラの PDA と引き換えに報酬が得られ、位も上がる。PDA は全部 Petrenko のところに持って行け ― ヤツが報酬を出す。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_job_1#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "packet_id": "dialog_0357__mil_cook_drunk_question_about_rg6_3",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "mil_cook_drunk_question_about_rg6_3",
+  "graph_source": "gamedata/config/gameplay/dialogs_military.xml",
+  "graph_sha256": "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+  "character_bindings": [
+    {
+      "profile_id": "mil_Svoboda_cook",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_military.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "mil_freedom_cook_drink_3"
+    },
+    {
+      "type": "has_info",
+      "value": "mil_freedom_rg6_task"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "mil_freedom_cook_rg6_3"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "mil_freedom_cook_rg6_4"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "bar_svoboda_rg6_done"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 3,
+  "entries": [
+    {
+      "key": "stable_dialogs_military:mil_cook_drunk_question_about_rg6_3_0#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 353,
+      "string_id": "mil_cook_drunk_question_about_rg6_3_0",
+      "occurrence": 1,
+      "EN": "Hic! Argh... Grenade launcher, huh?",
+      "JA_current": "ヒック！ Bulldog 6 だって？",
+      "JA_new": "ひっく！うっ……グレネードランチャーだって？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_drunk_question_about_rg6_3",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_drunk_question_about_rg6_3_1#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 356,
+      "string_id": "mil_cook_drunk_question_about_rg6_3_1",
+      "occurrence": 1,
+      "EN": "W-what?.. Oh! Well, it... it's in the village! We actually had... two of 'em... but those... r-retards! They lost it... wasted it!",
+      "JA_current": "な、何…？ ああ！ そうか、そいつは… そいつはあの村にある！ 俺たちは本当に持ってたんだ… 村の2人が… だがヤツらは… ちょっとアレだった！ ヤツらが使い切った… 無駄使いしたんだ！",
+      "JA_new": "な、何だって？ああ、あれか……村にあるぞ！実は2つあったんだが……あの……まぬけどもが！失くしちまった……無駄にしやがった！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_drunk_question_about_rg6_3",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_drunk_question_about_rg6_3_2#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 359,
+      "string_id": "mil_cook_drunk_question_about_rg6_3_2",
+      "occurrence": 1,
+      "EN": "Re-really? Wow, those... m-morons...",
+      "JA_current": "ほ、本当なのか？ なんと、ヤツら… バ、バカが…。",
+      "JA_new": "ほ、本当か？あいつら……ば、馬鹿だな……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_drunk_question_about_rg6_3",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "mil_cook_drunk_question_about_rg6_3_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hic! Argh... Grenade launcher, huh?",
+      "JA_current": "ヒック！ Bulldog 6 だって？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_drunk_question_about_rg6_3_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "mil_cook_drunk_question_about_rg6_3_1",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "W-what?.. Oh! Well, it... it's in the village! We actually had... two of 'em... but those... r-retards! They lost it... wasted it!",
+      "JA_current": "な、何…？ ああ！ そうか、そいつは… そいつはあの村にある！ 俺たちは本当に持ってたんだ… 村の2人が… だがヤツらは… ちょっとアレだった！ ヤツらが使い切った… 無駄使いしたんだ！",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_drunk_question_about_rg6_3_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "mil_cook_drunk_question_about_rg6_3_2",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "mil_freedom_cook_rg6_1"
+        },
+        {
+          "type": "give_info",
+          "value": "mil_freedom_cook_rg6_4"
+        },
+        {
+          "type": "give_info",
+          "value": "mil_freedom_cook_rg6_ask"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Re-really? Wow, those... m-morons...",
+      "JA_current": "ほ、本当なのか？ なんと、ヤツら… バ、バカが…。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_drunk_question_about_rg6_3_2#1"
+      ]
+    }
+  ]
+}

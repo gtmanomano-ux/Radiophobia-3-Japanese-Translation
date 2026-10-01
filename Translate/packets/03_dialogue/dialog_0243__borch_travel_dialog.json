@@ -1,0 +1,252 @@
+{
+  "packet_id": "dialog_0243__borch_travel_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "borch_travel_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml",
+  "graph_sha256": "af90465ec3a6b7a324a6c5d72d8c5ed214013f3f66f7c85ea935c11f680b26c1",
+  "character_bindings": [],
+  "dialog_conditions": [],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 5,
+  "entries": [
+    {
+      "key": "stable_dialogs_darkvalley:borch_travel_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 479,
+      "string_id": "borch_travel_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Take me to the bandit base.",
+      "JA_current": "Take me to the bandit base.",
+      "JA_new": "バンディットの拠点まで乗せてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borch_travel_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borch_travel_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 482,
+      "string_id": "borch_travel_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "No, I'm not taking anyone over to the bandits; we're on thin ice with them. How about I take you to the abandoned gas station? You got a couple of boar hooves? I'm a little short on trophies and I can take payment that way. And if not, then give me four and a half thousand rubles - then I'll drive you.",
+      "JA_current": "No, I'm not taking anyone over to the bandits; we're on thin ice with them. How about I take you to the abandoned gas station? You got a couple of boar hooves? I'm a little short on trophies and I can take payment that way. And if not, then give me four and a half thousand rubles - then I'll drive you.",
+      "JA_new": "バンディットのところへは連れていけない。連中とは揉めてるんだ。代わりに廃ガソリンスタンドまでならどうだ？　ボアの蹄を二つ持ってるか？　獲物の戦利品が足りなくてな。蹄で払ってもらってもいい。なければ4,500ルーブルだ。払うなら乗せてやる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borch_travel_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borch_travel_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 485,
+      "string_id": "borch_travel_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Take the hooves.",
+      "JA_current": "Take the hooves.",
+      "JA_new": "蹄を渡す。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borch_travel_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borch_travel_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 488,
+      "string_id": "borch_travel_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "I'll pay.",
+      "JA_current": "I'll pay.",
+      "JA_new": "金を払う。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borch_travel_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borch_travel_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 491,
+      "string_id": "borch_travel_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "No, I've changed my mind.",
+      "JA_current": "No, I've changed my mind.",
+      "JA_new": "いや、気が変わった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borch_travel_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "borch_travel_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Take me to the bandit base.",
+      "JA_current": "Take me to the bandit base.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borch_travel_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "borch_travel_dialog_phrase_2",
+      "next": [
+        "2",
+        "3",
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I'm not taking anyone over to the bandits; we're on thin ice with them. How about I take you to the abandoned gas station? You got a couple of boar hooves? I'm a little short on trophies and I can take payment that way. And if not, then give me four and a half thousand rubles - then I'll drive you.",
+      "JA_current": "No, I'm not taking anyone over to the bandits; we're on thin ice with them. How about I take you to the abandoned gas station? You got a couple of boar hooves? I'm a little short on trophies and I can take payment that way. And if not, then give me four and a half thousand rubles - then I'll drive you.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borch_travel_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "borch_travel_dialog_phrase_3",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_boarleg"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.boarleg_out"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.borch_travel"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Take the hooves.",
+      "JA_current": "Take the hooves.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borch_travel_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "borch_travel_dialog_phrase_4",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.has_4500"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.relocate_4500"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.borch_travel"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'll pay.",
+      "JA_current": "I'll pay.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borch_travel_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "borch_travel_dialog_phrase_5",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I've changed my mind.",
+      "JA_current": "No, I've changed my mind.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borch_travel_dialog_phrase_5#1"
+      ]
+    }
+  ]
+}

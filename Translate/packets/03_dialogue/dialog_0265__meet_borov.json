@@ -1,0 +1,370 @@
+{
+  "packet_id": "dialog_0265__meet_borov",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "meet_borov",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "bar_crazy_veterans_lucky",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    },
+    {
+      "profile_id": "bar_crazy_veterans_lucky_0",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    },
+    {
+      "profile_id": "bar_crazy_veterans_1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    },
+    {
+      "profile_id": "bar_crazy_veterans_2",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    },
+    {
+      "profile_id": "val_bandit_bodyguard",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_bandit_novice_default1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_bandit_novice_default2",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_bandit_novice_default3",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_bandit_novice_default4",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_bandit_general_defaul1t",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_bandit_general_default2",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_bandit_general_default3",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_bandit_general_default4",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_bandit_veteran_default1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_bandit_veteran_default2",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_bandit_veteran_default3",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_watchtower_bandit_guard1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_watchtower_bandit_sniper1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "esc_bandit_novice_default1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_bandit_novice_default2",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "esc_bandit_novice_default3",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    },
+    {
+      "profile_id": "gar_bandit_novice_wounded",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_garbage.xml"
+    },
+    {
+      "profile_id": "gar_bandit_leader",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_garbage.xml"
+    },
+    {
+      "profile_id": "gar_bandit_novice_default1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_garbage.xml"
+    },
+    {
+      "profile_id": "gar_bandit_novice_default2",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_garbage.xml"
+    },
+    {
+      "profile_id": "gar_bandit_novice_default3",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_garbage.xml"
+    },
+    {
+      "profile_id": "gar_bandit_general_default1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_garbage.xml"
+    },
+    {
+      "profile_id": "gar_bandit_general_default2",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_garbage.xml"
+    },
+    {
+      "profile_id": "gar_bandit_general_default3",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_garbage.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "actor_prebandit"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "actor_set_bandit"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "actor_set_zombied"
+    },
+    {
+      "type": "precondition",
+      "value": "dialogs.is_not_wounded1"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 4,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:meet_borov_0#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 593,
+      "string_id": "meet_borov_0",
+      "occurrence": 1,
+      "EN": "Can you help me get in touch with the Dark Valley crew?",
+      "JA_current": "Can you help me get in touch with the Dark Valley crew?",
+      "JA_new": "ダークバレーの連中と連絡を取りたい。手を貸してくれないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "meet_borov",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:meet_borov_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 597,
+      "string_id": "meet_borov_1",
+      "occurrence": 1,
+      "EN": "No problem. You helped me out - So I'll help you. I'm gonna need one grand to grease some palms. I'll make a deal with the family so that they know to let you through, don't take too long though or they'll just forget about it.",
+      "JA_current": "No problem. You helped me out - So I'll help you. I'm gonna need one grand to grease some palms. I'll make a deal with the family so that they know to let you through, don't take too long though or they'll just forget about it.",
+      "JA_new": "いいとも。助けてもらった礼だ。仲介に1,000ルーブル要る。ファミリーに話をつけて、あんたを通すよう伝えておく。あまり時間をかけるなよ。すぐに忘れられるからな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "meet_borov",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:meet_borov_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 601,
+      "string_id": "meet_borov_2",
+      "occurrence": 1,
+      "EN": "Alright. Here's the money.",
+      "JA_current": "Alright. Here's the money.",
+      "JA_new": "分かった。ほら、金だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "meet_borov",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:meet_borov_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 605,
+      "string_id": "meet_borov_3",
+      "occurrence": 1,
+      "EN": "I've changed my mind.",
+      "JA_current": "I've changed my mind.",
+      "JA_new": "いや、気が変わった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "meet_borov",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "meet_borov_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Can you help me get in touch with the Dark Valley crew?",
+      "JA_current": "Can you help me get in touch with the Dark Valley crew?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:meet_borov_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "meet_borov_1",
+      "next": [
+        "2",
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No problem. You helped me out - So I'll help you. I'm gonna need one grand to grease some palms. I'll make a deal with the family so that they know to let you through, don't take too long though or they'll just forget about it.",
+      "JA_current": "No problem. You helped me out - So I'll help you. I'm gonna need one grand to grease some palms. I'll make a deal with the family so that they know to let you through, don't take too long though or they'll just forget about it.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:meet_borov_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "meet_borov_2",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.has_1000"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "community_relation.relocate_1000"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.set_actor_prebandit"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Alright. Here's the money.",
+      "JA_current": "Alright. Here's the money.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:meet_borov_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "meet_borov_3",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I've changed my mind.",
+      "JA_current": "I've changed my mind.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:meet_borov_3#1"
+      ]
+    }
+  ]
+}

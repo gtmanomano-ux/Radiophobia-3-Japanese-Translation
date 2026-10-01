@@ -1,0 +1,524 @@
+{
+  "packet_id": "dialog_0320__leha_slon_second_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "leha_slon_second_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "leha_slon",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "blokpost_commander_limons_need"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "leha_slon_dead"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "stas_chujoi_dead"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "find_1700000"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 11,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:leha_slon_second_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2519,
+      "string_id": "leha_slon_second_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Listen, I went to the military at the roadblock... Their commander wants a whole million rubles for the release of your brother. He gave me a limit of two days, after which he says he'll have him executed.",
+      "JA_current": "Listen, I went to the military at the roadblock... Their commander wants a whole million rubles for the release of your brother. He gave me a limit of two days, after which he says he'll have him executed.",
+      "JA_new": "聞いてくれ。検問所の軍に会ってきた。弟を解放するのに、司令官は100万ルーブルを要求してる。期限は二日だ。それまでに払わなければ、弟を処刑すると言ってた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_second_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_second_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2522,
+      "string_id": "leha_slon_second_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Where the hell am I going to get so much? This is fucked! Listen, help me out, will you? Lend me at least half a mil, and I'll somehow pick up the rest myself. A man is gonna get killed here, help me out!",
+      "JA_current": "Where the hell am I going to get so much? This is fucked! Listen, help me out, will you? Lend me at least half a mil, and I'll somehow pick up the rest myself. A man is gonna get killed here, help me out!",
+      "JA_new": "そんな大金、どこで用意しろってんだ？ くそっ！ 頼む、助けてくれ。せめて50万貸してくれ。残りは何とか自分で工面する。弟が殺されちまうんだ。助けてくれ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_second_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_second_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2525,
+      "string_id": "leha_slon_second_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Okay, I'll try to raise the necessary amount of money. How much money do you have now?",
+      "JA_current": "Okay, I'll try to raise the necessary amount of money. How much money do you have now?",
+      "JA_new": "分かった。必要な金を工面してみる。今いくら持ってる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_second_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_second_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2528,
+      "string_id": "leha_slon_second_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "This is too much. This is your problem, you deal with it yourself.",
+      "JA_current": "This is too much. This is your problem, you deal with it yourself.",
+      "JA_new": "高すぎる。自分の問題だろ。自分で何とかしろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_second_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_second_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2531,
+      "string_id": "leha_slon_second_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Well, thank you, man! Here, I have three hundred thousand, there you go. Now all that's left to do is raise another seven hundred grand. I'll pull all my connections and acquaintances, and in the meantime, try to raise at least half a million, okay?",
+      "JA_current": "Well, thank you, man! Here, I have three hundred thousand, there you go. Now all that's left to do is raise another seven hundred grand. I'll pull all my connections and acquaintances, and in the meantime, try to raise at least half a million, okay?",
+      "JA_new": "助かるよ！ ほら、俺の手元には30万ある。残りは70万だ。俺も伝手をたどって金を集める。その間に、せめて50万は用意してくれ。頼む。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_second_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_second_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2537,
+      "string_id": "leha_slon_second_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Jeez, man, that's really ice cold, leaving someone to die like that! I thought you were an honest guy...",
+      "JA_current": "Jeez, man, that's really ice cold, leaving someone to die like that! I thought you were an honest guy...",
+      "JA_new": "ああ、冷たい奴だな。人が死ぬのを見捨てるなんて！ 誠実な人間だと思ってたのに……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_second_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_second_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2534,
+      "string_id": "leha_slon_second_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Okay.",
+      "JA_current": "Okay.",
+      "JA_new": "分かった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_second_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_second_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2540,
+      "string_id": "leha_slon_second_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "Don't talk to me about honesty here, and give me the artifact you stole!",
+      "JA_current": "Don't talk to me about honesty here, and give me the artifact you stole!",
+      "JA_new": "誠実さなんて持ち出すな。盗んだアーティファクトを返せ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_second_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_second_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2543,
+      "string_id": "leha_slon_second_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "Oh, I don't have Jumper anymore. I sold it to get money for the bribe, I just didn't know he would ask for that much. Don't be pissed, it's a noble cause.",
+      "JA_current": "Oh, I don't have Jumper anymore. I sold it to get money for the bribe, I just didn't know he would ask for that much. Don't be pissed, it's a noble cause.",
+      "JA_new": "ああ、ジャンパーはもう持ってない。賄賂の金を作るために売っちまった。あんな大金を要求されるとは思わなかったんだ。怒るなよ。立派な目的のためなんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_second_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_second_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2546,
+      "string_id": "leha_slon_second_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "Okay, what the hell...",
+      "JA_current": "Okay, what the hell...",
+      "JA_new": "分かったよ。くそ、どうすりゃいいんだ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_second_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_second_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2549,
+      "string_id": "leha_slon_second_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "You bastard!",
+      "JA_current": "You bastard!",
+      "JA_new": "この野郎！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_second_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "leha_slon_second_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Listen, I went to the military at the roadblock... Their commander wants a whole million rubles for the release of your brother. He gave me a limit of two days, after which he says he'll have him executed.",
+      "JA_current": "Listen, I went to the military at the roadblock... Their commander wants a whole million rubles for the release of your brother. He gave me a limit of two days, after which he says he'll have him executed.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_second_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "leha_slon_second_dialog_phrase_2",
+      "next": [
+        "2",
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Where the hell am I going to get so much? This is fucked! Listen, help me out, will you? Lend me at least half a mil, and I'll somehow pick up the rest myself. A man is gonna get killed here, help me out!",
+      "JA_current": "Where the hell am I going to get so much? This is fucked! Listen, help me out, will you? Lend me at least half a mil, and I'll somehow pick up the rest myself. A man is gonna get killed here, help me out!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_second_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "leha_slon_second_dialog_phrase_3",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Okay, I'll try to raise the necessary amount of money. How much money do you have now?",
+      "JA_current": "Okay, I'll try to raise the necessary amount of money. How much money do you have now?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_second_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "leha_slon_second_dialog_phrase_4",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "This is too much. This is your problem, you deal with it yourself.",
+      "JA_current": "This is too much. This is your problem, you deal with it yourself.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_second_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "leha_slon_second_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.in_300000"
+        },
+        {
+          "type": "give_info",
+          "value": "find_1700000"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, thank you, man! Here, I have three hundred thousand, there you go. Now all that's left to do is raise another seven hundred grand. I'll pull all my connections and acquaintances, and in the meantime, try to raise at least half a million, okay?",
+      "JA_current": "Well, thank you, man! Here, I have three hundred thousand, there you go. Now all that's left to do is raise another seven hundred grand. I'll pull all my connections and acquaintances, and in the meantime, try to raise at least half a million, okay?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_second_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "leha_slon_second_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.eli_pali"
+        },
+        {
+          "type": "give_info",
+          "value": "find_1700000"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Jeez, man, that's really ice cold, leaving someone to die like that! I thought you were an honest guy...",
+      "JA_current": "Jeez, man, that's really ice cold, leaving someone to die like that! I thought you were an honest guy...",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_second_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "leha_slon_second_dialog_phrase_6",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Okay.",
+      "JA_current": "Okay.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_second_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "leha_slon_second_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Don't talk to me about honesty here, and give me the artifact you stole!",
+      "JA_current": "Don't talk to me about honesty here, and give me the artifact you stole!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_second_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "leha_slon_second_dialog_phrase_9",
+      "next": [
+        "9",
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh, I don't have Jumper anymore. I sold it to get money for the bribe, I just didn't know he would ask for that much. Don't be pissed, it's a noble cause.",
+      "JA_current": "Oh, I don't have Jumper anymore. I sold it to get money for the bribe, I just didn't know he would ask for that much. Don't be pissed, it's a noble cause.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_second_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "leha_slon_second_dialog_phrase_10",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Okay, what the hell...",
+      "JA_current": "Okay, what the hell...",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_second_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "leha_slon_second_dialog_phrase_11",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "yantar_dialog.basta_set_enemy"
+        },
+        {
+          "type": "give_info",
+          "value": "leha_slon_dead"
+        },
+        {
+          "type": "give_info",
+          "value": "stas_chujoi_dead"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You bastard!",
+      "JA_current": "You bastard!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_second_dialog_phrase_11#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2967 @@
+{
+  "packet_id": "dialog_0192__play_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "play_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_stalker_white_novice_1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    },
+    {
+      "profile_id": "bar_stalker_white_novice_2",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    },
+    {
+      "profile_id": "bar_stalker_brown_novice_1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    },
+    {
+      "profile_id": "bar_stalker_brown_novice_2",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    },
+    {
+      "profile_id": "bar_stalker_bandit_1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    },
+    {
+      "profile_id": "bar_stalker_killer_1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    },
+    {
+      "profile_id": "bar_bar_osvedomitel",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    },
+    {
+      "profile_id": "bar_bar_hunter",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    },
+    {
+      "profile_id": "bar_bar_lisiy",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 34,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2628,
+      "string_id": "play_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Shall we roll some dice?",
+      "JA_current": "Shall we roll some dice?",
+      "JA_new": "サイコロで勝負するか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2631,
+      "string_id": "play_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Come on, them. A little bit, so it's a quick game. What are we betting on?",
+      "JA_current": "Come on, them. A little bit, so it's a quick game. What are we betting on?",
+      "JA_new": "いいぜ。軽く、すぐ終わる勝負にしよう。何を賭ける？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2634,
+      "string_id": "play_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "For 200 rubles.",
+      "JA_current": "For 200 rubles.",
+      "JA_new": "200ルーブルだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2637,
+      "string_id": "play_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "For 500 rubles",
+      "JA_current": "For 500 rubles",
+      "JA_new": "500ルーブル。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2640,
+      "string_id": "play_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "For 1000 rubles.",
+      "JA_current": "For 1000 rubles.",
+      "JA_new": "1,000ルーブルだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2643,
+      "string_id": "play_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "For a drink.",
+      "JA_current": "For a drink.",
+      "JA_new": "酒を一杯。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2646,
+      "string_id": "play_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "On artifacts.",
+      "JA_current": "On artifacts.",
+      "JA_new": "アーティファクトを賭ける。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_38#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 117,
+      "string_id": "dialogs_bar_38",
+      "occurrence": 1,
+      "EN": "I changed my mind.",
+      "JA_current": "I changed my mind.",
+      "JA_new": "気が変わった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "6_1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2649,
+      "string_id": "play_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "All right, let's go! Roll the dice.",
+      "JA_current": "All right, let's go! Roll the dice.",
+      "JA_new": "よし、始めよう！ サイコロを振れ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "8_1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "9_1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "10_1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2655,
+      "string_id": "play_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "What artifact are you putting up?",
+      "JA_current": "What artifact are you putting up?",
+      "JA_new": "どのアーティファクトを賭ける？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2652,
+      "string_id": "play_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "~THROW THE DICE~",
+      "JA_current": "~THROW THE DICE~",
+      "JA_new": "~サイコロを振る~",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2658,
+      "string_id": "play_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "\"Stone Blood\"",
+      "JA_current": "\"Stone Blood\"",
+      "JA_new": "ストーンブラッド",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "10_2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_12#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2661,
+      "string_id": "play_dialog_phrase_12",
+      "occurrence": 1,
+      "EN": "\"Meat Chunk\"",
+      "JA_current": "\"Meat Chunk\"",
+      "JA_new": "ミートチャンク",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "11_1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_13#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2664,
+      "string_id": "play_dialog_phrase_13",
+      "occurrence": 1,
+      "EN": "\"Soul\"",
+      "JA_current": "\"Soul\"",
+      "JA_new": "ソウル",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "12_1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_14#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2667,
+      "string_id": "play_dialog_phrase_14",
+      "occurrence": 1,
+      "EN": "\"Slug\"",
+      "JA_current": "\"Slug\"",
+      "JA_new": "スラッグ",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "13_1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_15#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2670,
+      "string_id": "play_dialog_phrase_15",
+      "occurrence": 1,
+      "EN": "\"Slime\"",
+      "JA_current": "\"Slime\"",
+      "JA_new": "スライム",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_16#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2673,
+      "string_id": "play_dialog_phrase_16",
+      "occurrence": 1,
+      "EN": "\"Mica\"",
+      "JA_current": "\"Mica\"",
+      "JA_new": "マイカ",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_17#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2676,
+      "string_id": "play_dialog_phrase_17",
+      "occurrence": 1,
+      "EN": "\"Jellyfish\"",
+      "JA_current": "\"Jellyfish\"",
+      "JA_new": "ジェリーフィッシュ",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "16",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_18#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2679,
+      "string_id": "play_dialog_phrase_18",
+      "occurrence": 1,
+      "EN": "\"Stone Flower\"",
+      "JA_current": "\"Stone Flower\"",
+      "JA_new": "ストーンフラワー",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "17",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_19#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2682,
+      "string_id": "play_dialog_phrase_19",
+      "occurrence": 1,
+      "EN": "\"Night Star\"",
+      "JA_current": "\"Night Star\"",
+      "JA_new": "ナイトスター",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "18",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_20#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2685,
+      "string_id": "play_dialog_phrase_20",
+      "occurrence": 1,
+      "EN": "\"Bengal Fire\"",
+      "JA_current": "\"Bengal Fire\"",
+      "JA_new": "ベンガルファイア",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "19",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_21#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2688,
+      "string_id": "play_dialog_phrase_21",
+      "occurrence": 1,
+      "EN": "\"Flash\"",
+      "JA_current": "\"Flash\"",
+      "JA_new": "フラッシュ",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "20",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_22#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2691,
+      "string_id": "play_dialog_phrase_22",
+      "occurrence": 1,
+      "EN": "\"Moonlight\"",
+      "JA_current": "\"Moonlight\"",
+      "JA_new": "ムーンライト",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_23#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2694,
+      "string_id": "play_dialog_phrase_23",
+      "occurrence": 1,
+      "EN": "\"The Turnaround\"",
+      "JA_current": "\"The Turnaround\"",
+      "JA_new": "ターンアラウンド",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "22",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_24#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2697,
+      "string_id": "play_dialog_phrase_24",
+      "occurrence": 1,
+      "EN": "\"Gravi\"",
+      "JA_current": "\"Gravi\"",
+      "JA_new": "グラビ",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "23",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_25#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2700,
+      "string_id": "play_dialog_phrase_25",
+      "occurrence": 1,
+      "EN": "\"Goldfish\"",
+      "JA_current": "\"Goldfish\"",
+      "JA_new": "ゴールドフィッシュ",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "24",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_26#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2703,
+      "string_id": "play_dialog_phrase_26",
+      "occurrence": 1,
+      "EN": "\"Spike\"",
+      "JA_current": "\"Spike\"",
+      "JA_new": "スパイク",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "25",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_27#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2706,
+      "string_id": "play_dialog_phrase_27",
+      "occurrence": 1,
+      "EN": "\"Crystal Thorn\"",
+      "JA_current": "\"Crystal Thorn\"",
+      "JA_new": "クリスタルソーン",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "26",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_28#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2709,
+      "string_id": "play_dialog_phrase_28",
+      "occurrence": 1,
+      "EN": "\"Urchin\"",
+      "JA_current": "\"Urchin\"",
+      "JA_new": "アーチン",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "27",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_29#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2712,
+      "string_id": "play_dialog_phrase_29",
+      "occurrence": 1,
+      "EN": "\"Drops\"",
+      "JA_current": "\"Drops\"",
+      "JA_new": "ドロップレット",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "28",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_30#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2715,
+      "string_id": "play_dialog_phrase_30",
+      "occurrence": 1,
+      "EN": "\"Fireball\"",
+      "JA_current": "\"Fireball\"",
+      "JA_new": "ファイアボール",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "29",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_31#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2718,
+      "string_id": "play_dialog_phrase_31",
+      "occurrence": 1,
+      "EN": "\"Crystal\"",
+      "JA_current": "\"Crystal\"",
+      "JA_new": "クリスタル",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "30",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_32#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2721,
+      "string_id": "play_dialog_phrase_32",
+      "occurrence": 1,
+      "EN": "Roll the dice!",
+      "JA_current": "Roll the dice!",
+      "JA_new": "サイコロを振れ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "31",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "32",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "33",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "34",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "35",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "36",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "37",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "38",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "39",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "40",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "41",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "42",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "43",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "44",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "45",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "46",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "47",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "48",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "49",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "50",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "51",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:play_dialog_phrase_33#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2724,
+      "string_id": "play_dialog_phrase_33",
+      "occurrence": 1,
+      "EN": "~THROW_THE_DICE~",
+      "JA_current": "~THROW_THE_DICE~",
+      "JA_new": "~サイコロを振る~",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "52",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "53",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "54",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "55",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "56",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "57",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "58",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "59",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "60",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "61",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "62",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "63",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "64",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "65",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "66",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "67",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "68",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "69",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "70",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "71",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "play_dialog",
+          "phrase_id": "72",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "play_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Shall we roll some dice?",
+      "JA_current": "Shall we roll some dice?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "play_dialog_phrase_2",
+      "next": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "6_1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Come on, them. A little bit, so it's a quick game. What are we betting on?",
+      "JA_current": "Come on, them. A little bit, so it's a quick game. What are we betting on?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "play_dialog_phrase_3",
+      "next": [
+        "7"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.has_200"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "For 200 rubles.",
+      "JA_current": "For 200 rubles.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "play_dialog_phrase_4",
+      "next": [
+        "8_1"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.has_500"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "For 500 rubles",
+      "JA_current": "For 500 rubles",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "play_dialog_phrase_5",
+      "next": [
+        "9_1"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.has_1000"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "For 1000 rubles.",
+      "JA_current": "For 1000 rubles.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "play_dialog_phrase_6",
+      "next": [
+        "10_1"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_some_vodka"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "For a drink.",
+      "JA_current": "For a drink.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "play_dialog_phrase_7",
+      "next": [
+        "13"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_some_artefacts"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "On artifacts.",
+      "JA_current": "On artifacts.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "6_1",
+      "text_id": "dialogs_bar_38",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I changed my mind.",
+      "JA_current": "I changed my mind.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_38#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "play_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All right, let's go! Roll the dice.",
+      "JA_current": "All right, let's go! Roll the dice.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8_1",
+      "text_id": "play_dialog_phrase_8",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All right, let's go! Roll the dice.",
+      "JA_current": "All right, let's go! Roll the dice.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "9_1",
+      "text_id": "play_dialog_phrase_8",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All right, let's go! Roll the dice.",
+      "JA_current": "All right, let's go! Roll the dice.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "10_1",
+      "text_id": "play_dialog_phrase_8",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All right, let's go! Roll the dice.",
+      "JA_current": "All right, let's go! Roll the dice.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "play_dialog_phrase_10",
+      "next": [
+        "10_2",
+        "11_1",
+        "12_1",
+        "13_1",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What artifact are you putting up?",
+      "JA_current": "What artifact are you putting up?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "play_dialog_phrase_9",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_200"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW THE DICE~",
+      "JA_current": "~THROW THE DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "play_dialog_phrase_9",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_500"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "8_1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW THE DICE~",
+      "JA_current": "~THROW THE DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "play_dialog_phrase_9",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_1000"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9_1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW THE DICE~",
+      "JA_current": "~THROW THE DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "play_dialog_phrase_9",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_vodku"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "10_1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW THE DICE~",
+      "JA_current": "~THROW THE DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "10_2",
+      "text_id": "play_dialog_phrase_11",
+      "next": [
+        "31"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_af_blood"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Stone Blood\"",
+      "JA_current": "\"Stone Blood\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "11_1",
+      "text_id": "play_dialog_phrase_12",
+      "next": [
+        "32"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_af_mincer_meat"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Meat Chunk\"",
+      "JA_current": "\"Meat Chunk\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_12#1"
+      ]
+    },
+    {
+      "phrase_id": "12_1",
+      "text_id": "play_dialog_phrase_13",
+      "next": [
+        "33"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_af_soul"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Soul\"",
+      "JA_current": "\"Soul\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_13#1"
+      ]
+    },
+    {
+      "phrase_id": "13_1",
+      "text_id": "play_dialog_phrase_14",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_af_ameba_slug"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Slug\"",
+      "JA_current": "\"Slug\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_14#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "play_dialog_phrase_15",
+      "next": [
+        "35"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_af_ameba_slime"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Slime\"",
+      "JA_current": "\"Slime\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_15#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "play_dialog_phrase_16",
+      "next": [
+        "36"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_af_ameba_mica"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Mica\"",
+      "JA_current": "\"Mica\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_16#1"
+      ]
+    },
+    {
+      "phrase_id": "16",
+      "text_id": "play_dialog_phrase_17",
+      "next": [
+        "37"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_af_medusa"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Jellyfish\"",
+      "JA_current": "\"Jellyfish\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_17#1"
+      ]
+    },
+    {
+      "phrase_id": "17",
+      "text_id": "play_dialog_phrase_18",
+      "next": [
+        "38"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_af_cristall_flower"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Stone Flower\"",
+      "JA_current": "\"Stone Flower\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_18#1"
+      ]
+    },
+    {
+      "phrase_id": "18",
+      "text_id": "play_dialog_phrase_19",
+      "next": [
+        "39"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_af_night_star"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Night Star\"",
+      "JA_current": "\"Night Star\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_19#1"
+      ]
+    },
+    {
+      "phrase_id": "19",
+      "text_id": "play_dialog_phrase_20",
+      "next": [
+        "40"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_af_electra_sparkler"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Bengal Fire\"",
+      "JA_current": "\"Bengal Fire\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_20#1"
+      ]
+    },
+    {
+      "phrase_id": "20",
+      "text_id": "play_dialog_phrase_21",
+      "next": [
+        "41"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_af_electra_flash"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Flash\"",
+      "JA_current": "\"Flash\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_21#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "play_dialog_phrase_22",
+      "next": [
+        "42"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_af_electra_moonlight"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Moonlight\"",
+      "JA_current": "\"Moonlight\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_22#1"
+      ]
+    },
+    {
+      "phrase_id": "22",
+      "text_id": "play_dialog_phrase_23",
+      "next": [
+        "43"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_af_vyvert"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"The Turnaround\"",
+      "JA_current": "\"The Turnaround\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_23#1"
+      ]
+    },
+    {
+      "phrase_id": "23",
+      "text_id": "play_dialog_phrase_24",
+      "next": [
+        "44"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_af_gravi"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Gravi\"",
+      "JA_current": "\"Gravi\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_24#1"
+      ]
+    },
+    {
+      "phrase_id": "24",
+      "text_id": "play_dialog_phrase_25",
+      "next": [
+        "45"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_af_gold_fish"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Goldfish\"",
+      "JA_current": "\"Goldfish\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_25#1"
+      ]
+    },
+    {
+      "phrase_id": "25",
+      "text_id": "play_dialog_phrase_26",
+      "next": [
+        "46"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_af_rusty_thorn"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Spike\"",
+      "JA_current": "\"Spike\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_26#1"
+      ]
+    },
+    {
+      "phrase_id": "26",
+      "text_id": "play_dialog_phrase_27",
+      "next": [
+        "47"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_af_rusty_kristall"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Crystal Thorn\"",
+      "JA_current": "\"Crystal Thorn\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_27#1"
+      ]
+    },
+    {
+      "phrase_id": "27",
+      "text_id": "play_dialog_phrase_28",
+      "next": [
+        "48"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_af_rusty_sea_urchin"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Urchin\"",
+      "JA_current": "\"Urchin\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_28#1"
+      ]
+    },
+    {
+      "phrase_id": "28",
+      "text_id": "play_dialog_phrase_29",
+      "next": [
+        "49"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_af_drops"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Drops\"",
+      "JA_current": "\"Drops\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_29#1"
+      ]
+    },
+    {
+      "phrase_id": "29",
+      "text_id": "play_dialog_phrase_30",
+      "next": [
+        "50"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_af_fireball"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Fireball\"",
+      "JA_current": "\"Fireball\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_30#1"
+      ]
+    },
+    {
+      "phrase_id": "30",
+      "text_id": "play_dialog_phrase_31",
+      "next": [
+        "51"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_af_cristall"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Crystal\"",
+      "JA_current": "\"Crystal\"",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_31#1"
+      ]
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "play_dialog_phrase_32",
+      "next": [
+        "52"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "10_2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Roll the dice!",
+      "JA_current": "Roll the dice!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_32#1"
+      ]
+    },
+    {
+      "phrase_id": "32",
+      "text_id": "play_dialog_phrase_32",
+      "next": [
+        "53"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11_1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Roll the dice!",
+      "JA_current": "Roll the dice!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_32#1"
+      ]
+    },
+    {
+      "phrase_id": "33",
+      "text_id": "play_dialog_phrase_32",
+      "next": [
+        "54"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "12_1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Roll the dice!",
+      "JA_current": "Roll the dice!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_32#1"
+      ]
+    },
+    {
+      "phrase_id": "34",
+      "text_id": "play_dialog_phrase_32",
+      "next": [
+        "55"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13_1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Roll the dice!",
+      "JA_current": "Roll the dice!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_32#1"
+      ]
+    },
+    {
+      "phrase_id": "35",
+      "text_id": "play_dialog_phrase_32",
+      "next": [
+        "56"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Roll the dice!",
+      "JA_current": "Roll the dice!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_32#1"
+      ]
+    },
+    {
+      "phrase_id": "36",
+      "text_id": "play_dialog_phrase_32",
+      "next": [
+        "57"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "15"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Roll the dice!",
+      "JA_current": "Roll the dice!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_32#1"
+      ]
+    },
+    {
+      "phrase_id": "37",
+      "text_id": "play_dialog_phrase_32",
+      "next": [
+        "58"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "16"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Roll the dice!",
+      "JA_current": "Roll the dice!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_32#1"
+      ]
+    },
+    {
+      "phrase_id": "38",
+      "text_id": "play_dialog_phrase_32",
+      "next": [
+        "59"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "17"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Roll the dice!",
+      "JA_current": "Roll the dice!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_32#1"
+      ]
+    },
+    {
+      "phrase_id": "39",
+      "text_id": "play_dialog_phrase_32",
+      "next": [
+        "60"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "18"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Roll the dice!",
+      "JA_current": "Roll the dice!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_32#1"
+      ]
+    },
+    {
+      "phrase_id": "40",
+      "text_id": "play_dialog_phrase_32",
+      "next": [
+        "61"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "19"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Roll the dice!",
+      "JA_current": "Roll the dice!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_32#1"
+      ]
+    },
+    {
+      "phrase_id": "41",
+      "text_id": "play_dialog_phrase_32",
+      "next": [
+        "62"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "20"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Roll the dice!",
+      "JA_current": "Roll the dice!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_32#1"
+      ]
+    },
+    {
+      "phrase_id": "42",
+      "text_id": "play_dialog_phrase_32",
+      "next": [
+        "63"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Roll the dice!",
+      "JA_current": "Roll the dice!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_32#1"
+      ]
+    },
+    {
+      "phrase_id": "43",
+      "text_id": "play_dialog_phrase_32",
+      "next": [
+        "64"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "22"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Roll the dice!",
+      "JA_current": "Roll the dice!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_32#1"
+      ]
+    },
+    {
+      "phrase_id": "44",
+      "text_id": "play_dialog_phrase_32",
+      "next": [
+        "65"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "23"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Roll the dice!",
+      "JA_current": "Roll the dice!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_32#1"
+      ]
+    },
+    {
+      "phrase_id": "45",
+      "text_id": "play_dialog_phrase_32",
+      "next": [
+        "66"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "24"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Roll the dice!",
+      "JA_current": "Roll the dice!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_32#1"
+      ]
+    },
+    {
+      "phrase_id": "46",
+      "text_id": "play_dialog_phrase_32",
+      "next": [
+        "67"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "25"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Roll the dice!",
+      "JA_current": "Roll the dice!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_32#1"
+      ]
+    },
+    {
+      "phrase_id": "47",
+      "text_id": "play_dialog_phrase_32",
+      "next": [
+        "68"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "26"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Roll the dice!",
+      "JA_current": "Roll the dice!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_32#1"
+      ]
+    },
+    {
+      "phrase_id": "48",
+      "text_id": "play_dialog_phrase_32",
+      "next": [
+        "69"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "27"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Roll the dice!",
+      "JA_current": "Roll the dice!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_32#1"
+      ]
+    },
+    {
+      "phrase_id": "49",
+      "text_id": "play_dialog_phrase_32",
+      "next": [
+        "70"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "28"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Roll the dice!",
+      "JA_current": "Roll the dice!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_32#1"
+      ]
+    },
+    {
+      "phrase_id": "50",
+      "text_id": "play_dialog_phrase_32",
+      "next": [
+        "71"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "29"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Roll the dice!",
+      "JA_current": "Roll the dice!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_32#1"
+      ]
+    },
+    {
+      "phrase_id": "51",
+      "text_id": "play_dialog_phrase_32",
+      "next": [
+        "72"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "30"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Roll the dice!",
+      "JA_current": "Roll the dice!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_32#1"
+      ]
+    },
+    {
+      "phrase_id": "52",
+      "text_id": "play_dialog_phrase_33",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_blood"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "31"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW_THE_DICE~",
+      "JA_current": "~THROW_THE_DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_33#1"
+      ]
+    },
+    {
+      "phrase_id": "53",
+      "text_id": "play_dialog_phrase_33",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_kusok"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "32"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW_THE_DICE~",
+      "JA_current": "~THROW_THE_DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_33#1"
+      ]
+    },
+    {
+      "phrase_id": "54",
+      "text_id": "play_dialog_phrase_33",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_soul"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "33"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW_THE_DICE~",
+      "JA_current": "~THROW_THE_DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_33#1"
+      ]
+    },
+    {
+      "phrase_id": "55",
+      "text_id": "play_dialog_phrase_33",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_slug"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "34"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW_THE_DICE~",
+      "JA_current": "~THROW_THE_DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_33#1"
+      ]
+    },
+    {
+      "phrase_id": "56",
+      "text_id": "play_dialog_phrase_33",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_slime"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "35"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW_THE_DICE~",
+      "JA_current": "~THROW_THE_DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_33#1"
+      ]
+    },
+    {
+      "phrase_id": "57",
+      "text_id": "play_dialog_phrase_33",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_sludu"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "36"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW_THE_DICE~",
+      "JA_current": "~THROW_THE_DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_33#1"
+      ]
+    },
+    {
+      "phrase_id": "58",
+      "text_id": "play_dialog_phrase_33",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_meduzu"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "37"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW_THE_DICE~",
+      "JA_current": "~THROW_THE_DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_33#1"
+      ]
+    },
+    {
+      "phrase_id": "59",
+      "text_id": "play_dialog_phrase_33",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_kristalflower"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "38"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW_THE_DICE~",
+      "JA_current": "~THROW_THE_DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_33#1"
+      ]
+    },
+    {
+      "phrase_id": "60",
+      "text_id": "play_dialog_phrase_33",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_nightstar"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "39"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW_THE_DICE~",
+      "JA_current": "~THROW_THE_DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_33#1"
+      ]
+    },
+    {
+      "phrase_id": "61",
+      "text_id": "play_dialog_phrase_33",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_sparkler"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "40"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW_THE_DICE~",
+      "JA_current": "~THROW_THE_DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_33#1"
+      ]
+    },
+    {
+      "phrase_id": "62",
+      "text_id": "play_dialog_phrase_33",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_flash"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "41"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW_THE_DICE~",
+      "JA_current": "~THROW_THE_DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_33#1"
+      ]
+    },
+    {
+      "phrase_id": "63",
+      "text_id": "play_dialog_phrase_33",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_moonlight"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "42"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW_THE_DICE~",
+      "JA_current": "~THROW_THE_DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_33#1"
+      ]
+    },
+    {
+      "phrase_id": "64",
+      "text_id": "play_dialog_phrase_33",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_vivert"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "43"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW_THE_DICE~",
+      "JA_current": "~THROW_THE_DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_33#1"
+      ]
+    },
+    {
+      "phrase_id": "65",
+      "text_id": "play_dialog_phrase_33",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_gravi"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "44"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW_THE_DICE~",
+      "JA_current": "~THROW_THE_DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_33#1"
+      ]
+    },
+    {
+      "phrase_id": "66",
+      "text_id": "play_dialog_phrase_33",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_fish"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "45"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW_THE_DICE~",
+      "JA_current": "~THROW_THE_DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_33#1"
+      ]
+    },
+    {
+      "phrase_id": "67",
+      "text_id": "play_dialog_phrase_33",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_thorn"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "46"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW_THE_DICE~",
+      "JA_current": "~THROW_THE_DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_33#1"
+      ]
+    },
+    {
+      "phrase_id": "68",
+      "text_id": "play_dialog_phrase_33",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_kristallthorn"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "47"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW_THE_DICE~",
+      "JA_current": "~THROW_THE_DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_33#1"
+      ]
+    },
+    {
+      "phrase_id": "69",
+      "text_id": "play_dialog_phrase_33",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_urshin"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "48"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW_THE_DICE~",
+      "JA_current": "~THROW_THE_DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_33#1"
+      ]
+    },
+    {
+      "phrase_id": "70",
+      "text_id": "play_dialog_phrase_33",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_drops"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "49"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW_THE_DICE~",
+      "JA_current": "~THROW_THE_DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_33#1"
+      ]
+    },
+    {
+      "phrase_id": "71",
+      "text_id": "play_dialog_phrase_33",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_fireball"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "50"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW_THE_DICE~",
+      "JA_current": "~THROW_THE_DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_33#1"
+      ]
+    },
+    {
+      "phrase_id": "72",
+      "text_id": "play_dialog_phrase_33",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_kristall"
+        },
+        {
+          "type": "action",
+          "value": "soundtrack.kubik"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "51"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "~THROW_THE_DICE~",
+      "JA_current": "~THROW_THE_DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_33#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "play_dialog_phrase_9",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.igra_na_arti"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "~THROW THE DICE~",
+      "JA_current": "~THROW THE DICE~",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:play_dialog_phrase_9#1"
+      ]
+    }
+  ]
+}

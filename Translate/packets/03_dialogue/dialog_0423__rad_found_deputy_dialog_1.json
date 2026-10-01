@@ -1,0 +1,393 @@
+{
+  "packet_id": "dialog_0423__rad_found_deputy_dialog_1",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "rad_found_deputy_dialog_1",
+  "graph_source": "gamedata/config/gameplay/dialogs_radar.xml",
+  "graph_sha256": "7436a3a8c823be5716e127228e116bf493cdec1d97644f3c78b6dee00a554864",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "rad_find_treasurer_start"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 9,
+  "entries": [
+    {
+      "key": "stable_dialogs_radar:rad_found_deputy_dialog_1_0#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 96,
+      "string_id": "rad_found_deputy_dialog_1_0",
+      "occurrence": 1,
+      "EN": "Mission accomplished!",
+      "JA_current": "仕事は片付けたぜ！",
+      "JA_new": "任務完了だ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_found_deputy_dialog_1",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_found_deputy_dialog_1_100#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 99,
+      "string_id": "rad_found_deputy_dialog_1_100",
+      "occurrence": 1,
+      "EN": "Great, give me his PDA!",
+      "JA_current": "でかした！ ヤツのPDAをくれ。",
+      "JA_new": "よくやった！ そのPDAを渡せ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_found_deputy_dialog_1",
+          "phrase_id": "100",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_found_deputy_dialog_1_1000#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 102,
+      "string_id": "rad_found_deputy_dialog_1_1000",
+      "occurrence": 1,
+      "EN": "Here. Now the money!",
+      "JA_current": "これだ。約束の金をくれ。",
+      "JA_new": "ほら。さあ、報酬をくれ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_found_deputy_dialog_1",
+          "phrase_id": "1000",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_found_deputy_dialog_1_200#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 117,
+      "string_id": "rad_found_deputy_dialog_1_200",
+      "occurrence": 1,
+      "EN": "I can't give you anything, I don't have any money. You can keep his stuff if you want.",
+      "JA_current": "金が無くて報酬が出せないんだ。もし欲しいならアンタが取って来た奴らの持ち物をやるよ。",
+      "JA_new": "何も渡せない。金がないんだ。よければ、そいつの持ち物は持っていっていい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_found_deputy_dialog_1",
+          "phrase_id": "200",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_found_deputy_dialog_1_1100#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 105,
+      "string_id": "rad_found_deputy_dialog_1_1100",
+      "occurrence": 1,
+      "EN": "You're trying to pull a fast one on me. He didn't have anything!",
+      "JA_current": "何も入ってないじゃねえか！ お前、イカサマしようとしたな？",
+      "JA_new": "ふざけるな、俺をだます気か？ こいつのPDA、空っぽじゃねえか！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_found_deputy_dialog_1",
+          "phrase_id": "1100",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_found_deputy_dialog_1_300#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 120,
+      "string_id": "rad_found_deputy_dialog_1_300",
+      "occurrence": 1,
+      "EN": "I don't have any money! Go away!",
+      "JA_current": "金なんてねえよ！ 帰ってくれ！",
+      "JA_new": "金はない！ さっさと失せろ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_found_deputy_dialog_1",
+          "phrase_id": "300",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_found_deputy_dialog_1_1200#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 108,
+      "string_id": "rad_found_deputy_dialog_1_1200",
+      "occurrence": 1,
+      "EN": "I'm gonna waste you right now!",
+      "JA_current": "今ここでぶっ殺してやる！",
+      "JA_new": "今ここでぶっ殺してやる！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_found_deputy_dialog_1",
+          "phrase_id": "1200",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_found_deputy_dialog_1_1300#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 111,
+      "string_id": "rad_found_deputy_dialog_1_1300",
+      "occurrence": 1,
+      "EN": "If I see you again you're a dead man!",
+      "JA_current": "もし次に合う時は、お前は死体になってるぜ！",
+      "JA_new": "次に会ったら命はないと思え！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_found_deputy_dialog_1",
+          "phrase_id": "1300",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_found_deputy_dialog_1_1400#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 114,
+      "string_id": "rad_found_deputy_dialog_1_1400",
+      "occurrence": 1,
+      "EN": "OK, I understand. Good luck!",
+      "JA_current": "OK。わかった。じゃあまたな！",
+      "JA_new": "わかったよ。達者でな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_found_deputy_dialog_1",
+          "phrase_id": "1400",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "rad_found_deputy_dialog_1_0",
+      "next": [
+        "100"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Mission accomplished!",
+      "JA_current": "仕事は片付けたぜ！",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_found_deputy_dialog_1_0#1"
+      ]
+    },
+    {
+      "phrase_id": "100",
+      "text_id": "rad_found_deputy_dialog_1_100",
+      "next": [
+        "1000"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Great, give me his PDA!",
+      "JA_current": "でかした！ ヤツのPDAをくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_found_deputy_dialog_1_100#1"
+      ]
+    },
+    {
+      "phrase_id": "1000",
+      "text_id": "rad_found_deputy_dialog_1_1000",
+      "next": [
+        "200"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "100"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Here. Now the money!",
+      "JA_current": "これだ。約束の金をくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_found_deputy_dialog_1_1000#1"
+      ]
+    },
+    {
+      "phrase_id": "200",
+      "text_id": "rad_found_deputy_dialog_1_200",
+      "next": [
+        "1100"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1000"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I can't give you anything, I don't have any money. You can keep his stuff if you want.",
+      "JA_current": "金が無くて報酬が出せないんだ。もし欲しいならアンタが取って来た奴らの持ち物をやるよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_found_deputy_dialog_1_200#1"
+      ]
+    },
+    {
+      "phrase_id": "1100",
+      "text_id": "rad_found_deputy_dialog_1_1100",
+      "next": [
+        "300"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "200"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "You're trying to pull a fast one on me. He didn't have anything!",
+      "JA_current": "何も入ってないじゃねえか！ お前、イカサマしようとしたな？",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_found_deputy_dialog_1_1100#1"
+      ]
+    },
+    {
+      "phrase_id": "300",
+      "text_id": "rad_found_deputy_dialog_1_300",
+      "next": [
+        "1200",
+        "1300",
+        "1400"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1100"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I don't have any money! Go away!",
+      "JA_current": "金なんてねえよ！ 帰ってくれ！",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_found_deputy_dialog_1_300#1"
+      ]
+    },
+    {
+      "phrase_id": "1200",
+      "text_id": "rad_found_deputy_dialog_1_1200",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "300"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'm gonna waste you right now!",
+      "JA_current": "今ここでぶっ殺してやる！",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_found_deputy_dialog_1_1200#1"
+      ]
+    },
+    {
+      "phrase_id": "1300",
+      "text_id": "rad_found_deputy_dialog_1_1300",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "300"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "If I see you again you're a dead man!",
+      "JA_current": "もし次に合う時は、お前は死体になってるぜ！",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_found_deputy_dialog_1_1300#1"
+      ]
+    },
+    {
+      "phrase_id": "1400",
+      "text_id": "rad_found_deputy_dialog_1_1400",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "300"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "OK, I understand. Good luck!",
+      "JA_current": "OK。わかった。じゃあまたな！",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_found_deputy_dialog_1_1400#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+{
+    "packet_id":  "dialog_0395__shurup_conteiner_dialog",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "shurup_conteiner_dialog",
+    "graph_source":  "gamedata/config/gameplay/dialogs_military.xml",
+    "graph_sha256":  "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+    "character_bindings":  [
+
+                           ],
+    "dialog_conditions":  [
+                              {
+                                  "type":  "precondition",
+                                  "value":  "addon_dialogs.have_konteiner"
+                              }
+                          ],
+    "root_speaker_hint":  null,
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  8,
+    "entries":  [
+                    {
+                        "key":  "stable_dialogs_military:shurup_conteiner_dialog_phrase_1#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2075,
+                        "string_id":  "shurup_conteiner_dialog_phrase_1",
+                        "occurrence":  1,
+                        "EN":  "Hello, self-made man. I brought a job for you.",
+                        "JA_current":  "Hello, self-made man. I brought a job for you.",
+                        "JA_new":  "よう、腕利きの修理屋。仕事を頼みたい。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "shurup_conteiner_dialog",
+                                               "phrase_id":  "0",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:shurup_conteiner_dialog_phrase_2#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2078,
+                        "string_id":  "shurup_conteiner_dialog_phrase_2",
+                        "occurrence":  1,
+                        "EN":  "Eh, I wouldn\u0027t go that far but I get by! Well, what have you got there, show me.",
+                        "JA_current":  "Eh, I wouldn\u0027t go that far but I get by! Well, what have you got there, show me.",
+                        "JA_new":  "腕利きってほどじゃないが、何とかやってるよ。で、何を持ってきた？ 見せてみろ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "shurup_conteiner_dialog",
+                                               "phrase_id":  "1",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:shurup_conteiner_dialog_phrase_3#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2081,
+                        "string_id":  "shurup_conteiner_dialog_phrase_3",
+                        "occurrence":  1,
+                        "EN":  "I found some locked box, and I have no idea how to open it. I need access. Would you be able to crack it open?",
+                        "JA_current":  "I found some locked box, and I have no idea how to open it. I need access. Would you be able to crack it open?",
+                        "JA_new":  "鍵のかかった箱を見つけたんだが、開け方が分からない。中身を取り出したい。開けられるか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "shurup_conteiner_dialog",
+                                               "phrase_id":  "2",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:shurup_conteiner_dialog_phrase_4#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2084,
+                        "string_id":  "shurup_conteiner_dialog_phrase_4",
+                        "occurrence":  1,
+                        "EN":  "Well, let me see... Holy shit, that\u0027s a military grade reinforced hard case! Where\u0027d you dig it up?",
+                        "JA_current":  "Well, let me see... Holy shit, that\u0027s a military grade reinforced hard case! Where\u0027d you dig it up?",
+                        "JA_new":  "どれどれ……なんてこった、軍用の強化ハードケースじゃないか！ どこで見つけた？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "shurup_conteiner_dialog",
+                                               "phrase_id":  "3",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:shurup_conteiner_dialog_phrase_5#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2087,
+                        "string_id":  "shurup_conteiner_dialog_phrase_5",
+                        "occurrence":  1,
+                        "EN":  "Heh, you don\u0027t wanna know, anyway it is irrelevant... So, can you open it or not?",
+                        "JA_current":  "Heh, you don\u0027t wanna know, anyway it is irrelevant... So, can you open it or not?",
+                        "JA_new":  "はは、知らないほうがいい。それより、開けられるのか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "shurup_conteiner_dialog",
+                                               "phrase_id":  "4",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:shurup_conteiner_dialog_phrase_6#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2090,
+                        "string_id":  "shurup_conteiner_dialog_phrase_6",
+                        "occurrence":  1,
+                        "EN":  "I can open it, but it will take time. In the meantime, prepare an artifact called Mica, and I\u0027ll take it as payment. Because it\u0027s going to take me a lot of sweat, so I want you to sweat a little yourself.",
+                        "JA_current":  "I can open it, but it will take time. In the meantime, prepare an artifact called Mica, and I\u0027ll take it as payment. Because it\u0027s going to take me a lot of sweat, so I want you to sweat a little yourself.",
+                        "JA_new":  "開けられるが、時間がかかる。その間に«マイカ»ってアーティファクトを用意してくれ。報酬としてもらう。こっちはかなり骨が折れるから、あんたにも少しは苦労してもらわないとな。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "shurup_conteiner_dialog",
+                                               "phrase_id":  "5",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:shurup_conteiner_dialog_phrase_7#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2093,
+                        "string_id":  "shurup_conteiner_dialog_phrase_7",
+                        "occurrence":  1,
+                        "EN":  "No, forget about it.",
+                        "JA_current":  "No, forget about it.",
+                        "JA_new":  "いや、やめておく。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "shurup_conteiner_dialog",
+                                               "phrase_id":  "6",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:shurup_conteiner_dialog_phrase_8#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2096,
+                        "string_id":  "shurup_conteiner_dialog_phrase_8",
+                        "occurrence":  1,
+                        "EN":  "Great, I agree.",
+                        "JA_current":  "Great, I agree.",
+                        "JA_new":  "よし、決まりだ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "shurup_conteiner_dialog",
+                                               "phrase_id":  "7",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  "shurup_conteiner_dialog_phrase_1",
+                            "next":  [
+                                         "1"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  null,
+                            "speaker_hint_basis":  "unresolved",
+                            "EN":  "Hello, self-made man. I brought a job for you.",
+                            "JA_current":  "Hello, self-made man. I brought a job for you.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:shurup_conteiner_dialog_phrase_1#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "1",
+                            "text_id":  "shurup_conteiner_dialog_phrase_2",
+                            "next":  [
+                                         "2"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  null,
+                            "speaker_hint_basis":  "unresolved",
+                            "EN":  "Eh, I wouldn\u0027t go that far but I get by! Well, what have you got there, show me.",
+                            "JA_current":  "Eh, I wouldn\u0027t go that far but I get by! Well, what have you got there, show me.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:shurup_conteiner_dialog_phrase_2#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "2",
+                            "text_id":  "shurup_conteiner_dialog_phrase_3",
+                            "next":  [
+                                         "3"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  null,
+                            "speaker_hint_basis":  "unresolved",
+                            "EN":  "I found some locked box, and I have no idea how to open it. I need access. Would you be able to crack it open?",
+                            "JA_current":  "I found some locked box, and I have no idea how to open it. I need access. Would you be able to crack it open?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:shurup_conteiner_dialog_phrase_3#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "3",
+                            "text_id":  "shurup_conteiner_dialog_phrase_4",
+                            "next":  [
+                                         "4"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "2"
+                                         ],
+                            "speaker_hint":  null,
+                            "speaker_hint_basis":  "unresolved",
+                            "EN":  "Well, let me see... Holy shit, that\u0027s a military grade reinforced hard case! Where\u0027d you dig it up?",
+                            "JA_current":  "Well, let me see... Holy shit, that\u0027s a military grade reinforced hard case! Where\u0027d you dig it up?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:shurup_conteiner_dialog_phrase_4#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "4",
+                            "text_id":  "shurup_conteiner_dialog_phrase_5",
+                            "next":  [
+                                         "5"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "3"
+                                         ],
+                            "speaker_hint":  null,
+                            "speaker_hint_basis":  "unresolved",
+                            "EN":  "Heh, you don\u0027t wanna know, anyway it is irrelevant... So, can you open it or not?",
+                            "JA_current":  "Heh, you don\u0027t wanna know, anyway it is irrelevant... So, can you open it or not?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:shurup_conteiner_dialog_phrase_5#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "5",
+                            "text_id":  "shurup_conteiner_dialog_phrase_6",
+                            "next":  [
+                                         "6",
+                                         "7"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "4"
+                                         ],
+                            "speaker_hint":  null,
+                            "speaker_hint_basis":  "unresolved",
+                            "EN":  "I can open it, but it will take time. In the meantime, prepare an artifact called Mica, and I\u0027ll take it as payment. Because it\u0027s going to take me a lot of sweat, so I want you to sweat a little yourself.",
+                            "JA_current":  "I can open it, but it will take time. In the meantime, prepare an artifact called Mica, and I\u0027ll take it as payment. Because it\u0027s going to take me a lot of sweat, so I want you to sweat a little yourself.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:shurup_conteiner_dialog_phrase_6#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "6",
+                            "text_id":  "shurup_conteiner_dialog_phrase_7",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "5"
+                                         ],
+                            "speaker_hint":  null,
+                            "speaker_hint_basis":  "unresolved",
+                            "EN":  "No, forget about it.",
+                            "JA_current":  "No, forget about it.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:shurup_conteiner_dialog_phrase_7#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "7",
+                            "text_id":  "shurup_conteiner_dialog_phrase_8",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "addon_dialogs.konteiner_out"
+                                            },
+                                            {
+                                                "type":  "action",
+                                                "value":  "addon_dialogs.konteiner_timer_on"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "5"
+                                         ],
+                            "speaker_hint":  null,
+                            "speaker_hint_basis":  "unresolved",
+                            "EN":  "Great, I agree.",
+                            "JA_current":  "Great, I agree.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:shurup_conteiner_dialog_phrase_8#1"
+                                                        ]
+                        }
+                    ]
+}

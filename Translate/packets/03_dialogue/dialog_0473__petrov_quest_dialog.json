@@ -1,0 +1,444 @@
+{
+  "packet_id": "dialog_0473__petrov_quest_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "petrov_quest_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml",
+  "graph_sha256": "131d3c64c00a1023af4aaa914f345f3cfff2e581dea421160993fad100675545",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "petrov_spasibo"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "petrov_quest"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 10,
+  "entries": [
+    {
+      "key": "stable_dialogs_yantar:petrov_quest_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 889,
+      "string_id": "petrov_quest_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Is there anything else you need help with? I see you look a little puzzled.",
+      "JA_current": "Is there anything else you need help with? I see you look a little puzzled.",
+      "JA_new": "ほかに手伝えることは？ 何か気がかりな様子だが。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "petrov_quest_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:petrov_quest_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 892,
+      "string_id": "petrov_quest_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "How can I put this... The thing is, not long ago I was the victim of a robbery.",
+      "JA_current": "How can I put this... The thing is, not long ago I was the victim of a robbery.",
+      "JA_new": "どう話したものか……実は少し前、強盗に遭いましてね。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "petrov_quest_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:petrov_quest_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 895,
+      "string_id": "petrov_quest_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Tell me more, doctor.",
+      "JA_current": "Tell me more, doctor.",
+      "JA_new": "詳しく聞かせてくれ、博士。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "petrov_quest_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:petrov_quest_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 898,
+      "string_id": "petrov_quest_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "I was participating in a research experiment not far from our base when a stalker approached me. That in itself was not unusual, since stalkers often come by our bunker, bringing artifacts and mutant parts. Usually they do not talk to us, but go straight to the professor - he deals with the trading, but this vagabond came right up to me. It is now apparent to me that he was attracted by the sight of a very rare artifact, which was in my hands, a tempting target considering I had no one around me... But at the time I did not suspect anything nefarious. The stranger greeted me warmly and asked for a cigarette. Now, I do not partake in this petty addictive habit, which I of-course explained to him at once. So he frowned, drew his pistol from his pocket, and ordered me to give him the artifact at gunpoint. I tried in vain to explain to him that the specimen was very valuable for research and development and the progression of science, but it seems I greatly overestimated the basic man's wit, or lack thereof. All in all, such an unpleasant encounter.",
+      "JA_current": "I was participating in a research experiment not far from our base when a stalker approached me. That in itself was not unusual, since stalkers often come by our bunker, bringing artifacts and mutant parts. Usually they do not talk to us, but go straight to the professor - he deals with the trading, but this vagabond came right up to me. It is now apparent to me that he was attracted by the sight of a very rare artifact, which was in my hands, a tempting target considering I had no one around me... But at the time I did not suspect anything nefarious. The stranger greeted me warmly and asked for a cigarette. Now, I do not partake in this petty addictive habit, which I of-course explained to him at once. So he frowned, drew his pistol from his pocket, and ordered me to give him the artifact at gunpoint. I tried in vain to explain to him that the specimen was very valuable for research and development and the progression of science, but it seems I greatly overestimated the basic man's wit, or lack thereof. All in all, such an unpleasant encounter.",
+      "JA_new": "基地の近くで調査実験に参加していた時、ストーカーが近づいてきました。ストーカーがよく基地の地下壕に立ち寄り、アーティファクトやミュータントの部位を持ち込むのは珍しいことではありません。たいていは私たちには声もかけず、取引を担当する教授のところへ直行します。しかし、その流れ者は私のところへ来た。今になって思えば、私の手にあった非常に珍しいアーティファクトに目をつけたのでしょう。周りに誰もいないとなれば、格好の獲物です。ですが、その時は悪意を疑いもしませんでした。見知らぬ男は愛想よく挨拶して、タバコをくれと言いました。私はそうした些細な習慣は持ち合わせていないので、すぐにそう伝えたのです。すると彼は顔をしかめ、ポケットからピストルを抜いて、銃を突きつけながらアーティファクトを渡せと命じました。私はその標本が研究や技術開発、科学の進歩にとってどれほど貴重か、必死に説明しました。しかし、凡人の理解力を買いかぶっていたようです。とにかく、ひどい出来事でした。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "petrov_quest_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:petrov_quest_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 901,
+      "string_id": "petrov_quest_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Do you remember his appearance?",
+      "JA_current": "Do you remember his appearance?",
+      "JA_new": "見た目は覚えているか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "petrov_quest_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:petrov_quest_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 904,
+      "string_id": "petrov_quest_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "He had an ordinary appearance, tall and thin, but his speech was not very good: he kept repeating the word \"eee-wee\".",
+      "JA_current": "He had an ordinary appearance, tall and thin, but his speech was not very good: he kept repeating the word \"eee-wee\".",
+      "JA_new": "ごく普通の外見でした。背が高く痩せていて、口調は妙でしたね。「イーウィー」と何度も繰り返していました。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "petrov_quest_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:petrov_quest_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 907,
+      "string_id": "petrov_quest_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Every third person here repeats that. What kind of artifact was it?",
+      "JA_current": "Every third person here repeats that. What kind of artifact was it?",
+      "JA_new": "この辺じゃ、三人に一人は同じことを言うな。それで、盗まれたのは何のアーティファクトだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "petrov_quest_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:petrov_quest_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 910,
+      "string_id": "petrov_quest_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "I can't remember much else about the man. I think he was wearing a protective cloak with a hood. About the artifact: it was the rarest specimen of the so-called \"Spotted Vegetal Mesomorph\", or locally known as \"Jumping\" or \"Jumper\", something of the sort. It is a plant based artifact, shaped like a green ball with spikes and radiating with the green portion of the visible spectrum. An extremely rare item!",
+      "JA_current": "I can't remember much else about the man. I think he was wearing a protective cloak with a hood. About the artifact: it was the rarest specimen of the so-called \"Spotted Vegetal Mesomorph\", or locally known as \"Jumping\" or \"Jumper\", something of the sort. It is a plant based artifact, shaped like a green ball with spikes and radiating with the green portion of the visible spectrum. An extremely rare item!",
+      "JA_new": "男のことはあまり覚えていません。フード付きの防護マントを着ていたと思います。アーティファクトは、「斑点状植物メソモルフ」と呼ばれる非常に珍しいもので、地元では「ジャンピング」や「ジャンパー」と呼ばれていました。植物由来で、緑色の可視光を放つ、棘のある緑色の球体です。まず見つからないほど貴重な品ですよ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "petrov_quest_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:petrov_quest_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 913,
+      "string_id": "petrov_quest_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "I'll try to find that stalker and return the artifact to you.",
+      "JA_current": "I'll try to find that stalker and return the artifact to you.",
+      "JA_new": "そのストーカーを探して、アーティファクトを取り戻してみる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "petrov_quest_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:petrov_quest_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 916,
+      "string_id": "petrov_quest_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "No, there's nothing I can do to help. Too little information, it could be anyone.",
+      "JA_current": "No, there's nothing I can do to help. Too little information, it could be anyone.",
+      "JA_new": "いや、手は貸せない。情報が少なすぎる。誰だか特定もできない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "petrov_quest_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "petrov_quest_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Is there anything else you need help with? I see you look a little puzzled.",
+      "JA_current": "Is there anything else you need help with? I see you look a little puzzled.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:petrov_quest_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "petrov_quest_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "How can I put this... The thing is, not long ago I was the victim of a robbery.",
+      "JA_current": "How can I put this... The thing is, not long ago I was the victim of a robbery.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:petrov_quest_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "petrov_quest_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Tell me more, doctor.",
+      "JA_current": "Tell me more, doctor.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:petrov_quest_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "petrov_quest_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I was participating in a research experiment not far from our base when a stalker approached me. That in itself was not unusual, since stalkers often come by our bunker, bringing artifacts and mutant parts. Usually they do not talk to us, but go straight to the professor - he deals with the trading, but this vagabond came right up to me. It is now apparent to me that he was attracted by the sight of a very rare artifact, which was in my hands, a tempting target considering I had no one around me... But at the time I did not suspect anything nefarious. The stranger greeted me warmly and asked for a cigarette. Now, I do not partake in this petty addictive habit, which I of-course explained to him at once. So he frowned, drew his pistol from his pocket, and ordered me to give him the artifact at gunpoint. I tried in vain to explain to him that the specimen was very valuable for research and development and the progression of science, but it seems I greatly overestimated the basic man's wit, or lack thereof. All in all, such an unpleasant encounter.",
+      "JA_current": "I was participating in a research experiment not far from our base when a stalker approached me. That in itself was not unusual, since stalkers often come by our bunker, bringing artifacts and mutant parts. Usually they do not talk to us, but go straight to the professor - he deals with the trading, but this vagabond came right up to me. It is now apparent to me that he was attracted by the sight of a very rare artifact, which was in my hands, a tempting target considering I had no one around me... But at the time I did not suspect anything nefarious. The stranger greeted me warmly and asked for a cigarette. Now, I do not partake in this petty addictive habit, which I of-course explained to him at once. So he frowned, drew his pistol from his pocket, and ordered me to give him the artifact at gunpoint. I tried in vain to explain to him that the specimen was very valuable for research and development and the progression of science, but it seems I greatly overestimated the basic man's wit, or lack thereof. All in all, such an unpleasant encounter.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:petrov_quest_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "petrov_quest_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Do you remember his appearance?",
+      "JA_current": "Do you remember his appearance?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:petrov_quest_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "petrov_quest_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "He had an ordinary appearance, tall and thin, but his speech was not very good: he kept repeating the word \"eee-wee\".",
+      "JA_current": "He had an ordinary appearance, tall and thin, but his speech was not very good: he kept repeating the word \"eee-wee\".",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:petrov_quest_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "petrov_quest_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Every third person here repeats that. What kind of artifact was it?",
+      "JA_current": "Every third person here repeats that. What kind of artifact was it?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:petrov_quest_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "petrov_quest_dialog_phrase_8",
+      "next": [
+        "8",
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I can't remember much else about the man. I think he was wearing a protective cloak with a hood. About the artifact: it was the rarest specimen of the so-called \"Spotted Vegetal Mesomorph\", or locally known as \"Jumping\" or \"Jumper\", something of the sort. It is a plant based artifact, shaped like a green ball with spikes and radiating with the green portion of the visible spectrum. An extremely rare item!",
+      "JA_current": "I can't remember much else about the man. I think he was wearing a protective cloak with a hood. About the artifact: it was the rarest specimen of the so-called \"Spotted Vegetal Mesomorph\", or locally known as \"Jumping\" or \"Jumper\", something of the sort. It is a plant based artifact, shaped like a green ball with spikes and radiating with the green portion of the visible spectrum. An extremely rare item!",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:petrov_quest_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "petrov_quest_dialog_phrase_9",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "petrov_quest"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'll try to find that stalker and return the artifact to you.",
+      "JA_current": "I'll try to find that stalker and return the artifact to you.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:petrov_quest_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "petrov_quest_dialog_phrase_10",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, there's nothing I can do to help. Too little information, it could be anyone.",
+      "JA_current": "No, there's nothing I can do to help. Too little information, it could be anyone.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:petrov_quest_dialog_phrase_10#1"
+      ]
+    }
+  ]
+}

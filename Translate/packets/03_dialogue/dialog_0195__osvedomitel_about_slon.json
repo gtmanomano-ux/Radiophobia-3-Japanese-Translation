@@ -1,0 +1,362 @@
+{
+  "packet_id": "dialog_0195__osvedomitel_about_slon",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "osvedomitel_about_slon",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "petrov_quest"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "informator_arts_task"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 8,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:osvedomitel_about_slon_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2800,
+      "string_id": "osvedomitel_about_slon_phrase_1",
+      "occurrence": 1,
+      "EN": "I'm looking for someone, can you help? I'll send you the details.",
+      "JA_current": "I'm looking for someone, can you help? I'll send you the details.",
+      "JA_new": "人を探してる。手を貸してくれないか？ 詳しい特徴を送るよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_about_slon",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:osvedomitel_about_slon_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2803,
+      "string_id": "osvedomitel_about_slon_phrase_2",
+      "occurrence": 1,
+      "EN": "Any news?",
+      "JA_current": "Any news?",
+      "JA_new": "何か分かったか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_about_slon",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:osvedomitel_about_slon_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2806,
+      "string_id": "osvedomitel_about_slon_phrase_3",
+      "occurrence": 1,
+      "EN": "Some stalker robbed a scientist and took a valuable artifact from him. I need to find the thief. His features: he is tall, wears a protective cloak and often repeats the phrase \"oh, for crying out loud\".",
+      "JA_current": "Some stalker robbed a scientist and took a valuable artifact from him. I need to find the thief. His features: he is tall, wears a protective cloak and often repeats the phrase \"oh, for crying out loud\".",
+      "JA_new": "科学者から貴重なアーティファクトを奪ったストーカーがいる。そいつを探してほしい。背が高く、防護マントを着ていて、「ああ、もう！」とよく口にするらしい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_about_slon",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:osvedomitel_about_slon_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2809,
+      "string_id": "osvedomitel_about_slon_phrase_4",
+      "occurrence": 1,
+      "EN": "I see... Maybe I can help you out... Oh, yeah, that's it! I can help you with your problem, but only if you bring me three artifacts: the Urchin, the Crystal, and the Soul.",
+      "JA_current": "I see... Maybe I can help you out... Oh, yeah, that's it! I can help you with your problem, but only if you bring me three artifacts: the Urchin, the Crystal, and the Soul.",
+      "JA_new": "なるほど……力になれるかもしれない……そうだ！ ただし、アーチン、クリスタル、ソウルの三つを持ってきてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_about_slon",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:osvedomitel_about_slon_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2812,
+      "string_id": "osvedomitel_about_slon_phrase_5",
+      "occurrence": 1,
+      "EN": "How about money?",
+      "JA_current": "How about money?",
+      "JA_new": "金じゃ駄目か？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_about_slon",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:osvedomitel_about_slon_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2815,
+      "string_id": "osvedomitel_about_slon_phrase_6",
+      "occurrence": 1,
+      "EN": "Money is evil, hehe. The Zone's currency is artifacts, remember?",
+      "JA_current": "Money is evil, hehe. The Zone's currency is artifacts, remember?",
+      "JA_new": "金は悪だ、へへ。ゾーンの通貨はアーティファクトだろ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_about_slon",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:osvedomitel_about_slon_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2818,
+      "string_id": "osvedomitel_about_slon_phrase_7",
+      "occurrence": 1,
+      "EN": "I'm going to look for these artifacts.",
+      "JA_current": "I'm going to look for these artifacts.",
+      "JA_new": "そのアーティファクトを探してくる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_about_slon",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:osvedomitel_about_slon_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2821,
+      "string_id": "osvedomitel_about_slon_phrase_8",
+      "occurrence": 1,
+      "EN": "Fuck it, I don't play that way.",
+      "JA_current": "Fuck it, I don't play that way.",
+      "JA_new": "くそっ、そういうやり方なら乗らない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "osvedomitel_about_slon",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "osvedomitel_about_slon_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'm looking for someone, can you help? I'll send you the details.",
+      "JA_current": "I'm looking for someone, can you help? I'll send you the details.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_about_slon_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "osvedomitel_about_slon_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Any news?",
+      "JA_current": "Any news?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_about_slon_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "osvedomitel_about_slon_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Some stalker robbed a scientist and took a valuable artifact from him. I need to find the thief. His features: he is tall, wears a protective cloak and often repeats the phrase \"oh, for crying out loud\".",
+      "JA_current": "Some stalker robbed a scientist and took a valuable artifact from him. I need to find the thief. His features: he is tall, wears a protective cloak and often repeats the phrase \"oh, for crying out loud\".",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_about_slon_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "osvedomitel_about_slon_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I see... Maybe I can help you out... Oh, yeah, that's it! I can help you with your problem, but only if you bring me three artifacts: the Urchin, the Crystal, and the Soul.",
+      "JA_current": "I see... Maybe I can help you out... Oh, yeah, that's it! I can help you with your problem, but only if you bring me three artifacts: the Urchin, the Crystal, and the Soul.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_about_slon_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "osvedomitel_about_slon_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "How about money?",
+      "JA_current": "How about money?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_about_slon_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "osvedomitel_about_slon_phrase_6",
+      "next": [
+        "6",
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Money is evil, hehe. The Zone's currency is artifacts, remember?",
+      "JA_current": "Money is evil, hehe. The Zone's currency is artifacts, remember?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_about_slon_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "osvedomitel_about_slon_phrase_7",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "informator_arts_task"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'm going to look for these artifacts.",
+      "JA_current": "I'm going to look for these artifacts.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_about_slon_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "osvedomitel_about_slon_phrase_8",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Fuck it, I don't play that way.",
+      "JA_current": "Fuck it, I don't play that way.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:osvedomitel_about_slon_phrase_8#1"
+      ]
+    }
+  ]
+}

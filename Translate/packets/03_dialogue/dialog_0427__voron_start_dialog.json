@@ -1,0 +1,1187 @@
+{
+  "packet_id": "dialog_0427__voron_start_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "voron_start_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_radar.xml",
+  "graph_sha256": "7436a3a8c823be5716e127228e116bf493cdec1d97644f3c78b6dee00a554864",
+  "character_bindings": [
+    {
+      "profile_id": "voron",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "kill_sila"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [
+      "7"
+    ],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 28,
+  "entries": [
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 172,
+      "string_id": "voron_start_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "That's the meeting.",
+      "JA_current": "That's the meeting.",
+      "JA_new": "ここが待ち合わせ場所か。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 175,
+      "string_id": "voron_start_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "What are you doing here? Are you in league with these fanatics?",
+      "JA_current": "What are you doing here? Are you in league with these fanatics?",
+      "JA_new": "ここで何をしてる？ あの狂信者どもの仲間か？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 178,
+      "string_id": "voron_start_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "No, I'm on my own. But I have a lot of questions for you.",
+      "JA_current": "No, I'm on my own. But I have a lot of questions for you.",
+      "JA_new": "違う、俺は一人だ。あんたに聞きたいことが山ほどある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 181,
+      "string_id": "voron_start_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Ask me anything you want, I'm screwed anyway. Either way, I'm a lost cause.",
+      "JA_current": "Ask me anything you want, I'm screwed anyway. Either way, I'm a lost cause.",
+      "JA_new": "聞きたいことは何でも聞け。どうせ俺はもうおしまいだ。今さら何をしても無駄さ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 184,
+      "string_id": "voron_start_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "What happened to the Seekers, who killed them? Is this the work of the Monolith?",
+      "JA_current": "What happened to the Seekers, who killed them? Is this the work of the Monolith?",
+      "JA_new": "シーカーたちはどうなった？ 誰が殺したんだ？ モノリスの仕業か？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 187,
+      "string_id": "voron_start_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "No, that's my job. What, you don't believe me? You shouldn't...",
+      "JA_current": "No, that's my job. What, you don't believe me? You shouldn't...",
+      "JA_new": "違う、やったのは俺だ。信じられないか？ その方がいい……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 190,
+      "string_id": "voron_start_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "...I don't understand - why? Is this some kind of revenge? Or are you just a maniac?",
+      "JA_current": "...I don't understand - why? Is this some kind of revenge? Or are you just a maniac?",
+      "JA_new": "……分からない。どうしてだ？ 復讐か？ それとも、ただの狂人か？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 193,
+      "string_id": "voron_start_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "It's more complicated than you think. I would never tell you what I'm telling you now, but since the fanatics will shoot me anyway, I have to tell someone... To make it at least a little easier before I die...",
+      "JA_current": "It's more complicated than you think. I would never tell you what I'm telling you now, but since the fanatics will shoot me anyway, I have to tell someone... To make it at least a little easier before I die...",
+      "JA_new": "話はあんたが思うほど単純じゃない。こんなこと、本当なら誰にも話す気はなかった。だが、どのみち狂信者どもに撃ち殺される……死ぬ前に誰かに話して、少しでも胸のつかえを下ろしたいんだ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 196,
+      "string_id": "voron_start_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "Tell us everything.",
+      "JA_current": "Tell us everything.",
+      "JA_new": "全部聞かせてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 199,
+      "string_id": "voron_start_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "It all started when a legend leaked out of the Zone about a unique artifact called the Golden Orb, which can grant immortality. A secret society called \"Eternal Life\" learned about this and decided to check the legend, because its main goal for many years was the search for the \"Elixir of Youth\" and the \"Philosopher's Stone\". The members of the society studied various historical documents, for example, the diaries of Count Cagliostro. Have you ever heard of him? Well, of course... They didn't shy away from sciences - chemistry, history. They even managed to get their own man into one of the science laboratories...",
+      "JA_current": "It all started when a legend leaked out of the Zone about a unique artifact called the Golden Orb, which can grant immortality. A secret society called \"Eternal Life\" learned about this and decided to check the legend, because its main goal for many years was the search for the \"Elixir of Youth\" and the \"Philosopher's Stone\". The members of the society studied various historical documents, for example, the diaries of Count Cagliostro. Have you ever heard of him? Well, of course... They didn't shy away from sciences - chemistry, history. They even managed to get their own man into one of the science laboratories...",
+      "JA_new": "始まりは、不老不死を与えるという唯一無二のアーティファクト「黄金の球」の伝説がゾーンから流れ出たことだった。「永遠の命」と名乗る秘密結社がその話を知り、真偽を確かめようとした。長年「若返りの霊薬」と「賢者の石」を探し求めていた連中だ。会員たちはさまざまな歴史資料を調べた。カリオストロ伯爵の日記もその一つだ。知ってるか？ ……もちろんだろうな。化学や歴史の研究にも手を出し、とうとう科学研究所に仲間を潜り込ませた……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 203,
+      "string_id": "voron_start_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "As far as I know, the Philosopher's Stone is just a fairy tale.",
+      "JA_current": "As far as I know, the Philosopher's Stone is just a fairy tale.",
+      "JA_new": "俺の知る限り、賢者の石なんてただのおとぎ話だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_12#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 206,
+      "string_id": "voron_start_dialog_phrase_12",
+      "occurrence": 1,
+      "EN": "Maybe so, but is the Zone not in essence a fairy-tale world? Anomalies, artifacts, mutants, emissions, the society has taken a real interest in any phenomena which are able to prolong life. When the Eternal Life Society learned about the Golden Orb, it realized that their primary goal is really achievable and closer than ever. Where man has failed to synthesize the formula for eternal youth, perhaps the Zone held all the answers. Either way it had to be investigated. The Master - the head of the society - decided to get hold of this artifact. He soon got very lucky and managed to acquire one of three parts of this \"orb\" from a collector, and for a pretty small price too, as it had no useful properties. The collector got this part from some stalker. The members of the society conducted research on this piece but found nothing of substantial value. However, the Master wasted no time in beginning a search for the remaining parts, as he now had definite and tangible proof about the legitimacy of this legend. No expenses were spared in the expedition that followed, I was among those chosen.",
+      "JA_current": "Maybe so, but is the Zone not in essence a fairy-tale world? Anomalies, artifacts, mutants, emissions, the society has taken a real interest in any phenomena which are able to prolong life. When the Eternal Life Society learned about the Golden Orb, it realized that their primary goal is really achievable and closer than ever. Where man has failed to synthesize the formula for eternal youth, perhaps the Zone held all the answers. Either way it had to be investigated. The Master - the head of the society - decided to get hold of this artifact. He soon got very lucky and managed to acquire one of three parts of this \"orb\" from a collector, and for a pretty small price too, as it had no useful properties. The collector got this part from some stalker. The members of the society conducted research on this piece but found nothing of substantial value. However, the Master wasted no time in beginning a search for the remaining parts, as he now had definite and tangible proof about the legitimacy of this legend. No expenses were spared in the expedition that followed, I was among those chosen.",
+      "JA_new": "そうかもしれない。だが、ゾーンそのものがまさにおとぎ話の世界じゃないか？ 異常、アーティファクト、ミュータント、エミッション。結社は命を延ばす現象なら何にでも興味を示した。「永遠の命」の連中が黄金の球の噂を知ったとき、長年追い求めたものが現実になり、かつてなく手の届くところにあると気づいたんだ。人類には永遠の若さの秘法を作れなかった。なら、答えはゾーンにあるかもしれない。調べずにはいられなかった。結社の長、マスターはそのアーティファクトを手に入れようとした。運よく、三つある「球」の欠片の一つを収集家から買い取った。かなり安かったよ。何の役にも立たないと思われていたからな。収集家は、あるストーカーから手に入れたらしい。結社の連中が調べても、これといった価値は見つからなかった。だが、この伝説が本物だという確かな証拠を得たマスターは、残る欠片の捜索をすぐに始めた。次の遠征には金を惜しまなかった。俺も選ばれた一人だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_13#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 209,
+      "string_id": "voron_start_dialog_phrase_13",
+      "occurrence": 1,
+      "EN": "Were you also a member of \"Eternal Life\"?",
+      "JA_current": "Were you also a member of \"Eternal Life\"?",
+      "JA_new": "あんたも「永遠の命」の会員だったのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_14#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 212,
+      "string_id": "voron_start_dialog_phrase_14",
+      "occurrence": 1,
+      "EN": "Yes, I was the youngest of all the members, but I was not at all inexperienced, because I had a stalker career under my belt at the time, albeit not a very successful one. I was thus the natural choice, having been acclimatized to the Zone's conditions already. They gave me all the information they could gather about the Golden Sphere, and I re-entered the Zone. There was one problem, though. The thing is that, at the time, I blindly believed in the legend of the Orb and cherished the idea of personally obtaining immortality.",
+      "JA_current": "Yes, I was the youngest of all the members, but I was not at all inexperienced, because I had a stalker career under my belt at the time, albeit not a very successful one. I was thus the natural choice, having been acclimatized to the Zone's conditions already. They gave me all the information they could gather about the Golden Sphere, and I re-entered the Zone. There was one problem, though. The thing is that, at the time, I blindly believed in the legend of the Orb and cherished the idea of personally obtaining immortality.",
+      "JA_new": "そうだ。会員の中では一番若かったが、経験がなかったわけじゃない。その頃にはストーカーとして活動していた。ただ、さほど成功してなかったがな。すでにゾーンの環境に慣れていた俺が選ばれたのは当然だった。連中から黄金の球について集められるだけの情報を受け取り、俺は再びゾーンに入った。問題が一つあった。当時の俺は球の伝説を疑いもせず信じ、自分の手で不老不死を手に入れることに執着していたんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_15#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 215,
+      "string_id": "voron_start_dialog_phrase_15",
+      "occurrence": 1,
+      "EN": "Have you decided to get a hold of the Golden Sphere for yourself?",
+      "JA_current": "Have you decided to get a hold of the Golden Sphere for yourself?",
+      "JA_new": "自分のために黄金の球を手に入れるつもりだったのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_16#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 218,
+      "string_id": "voron_start_dialog_phrase_16",
+      "occurrence": 1,
+      "EN": "Yes. I had all the conditions for that: if I managed to get hold of all three of its segments, I could, for example, fake my death and sneak out of the Zone. Having the first segment of the Orb, I quickly found information about the location of the second: one of the leaders behind the Seekers expedition had a map marking the place where he was.",
+      "JA_current": "Yes. I had all the conditions for that: if I managed to get hold of all three of its segments, I could, for example, fake my death and sneak out of the Zone. Having the first segment of the Orb, I quickly found information about the location of the second: one of the leaders behind the Seekers expedition had a map marking the place where he was.",
+      "JA_new": "そうだ。条件は揃っていた。三つの欠片を手に入れれば、例えば死んだことにしてゾーンから抜け出せた。球の最初の欠片を持っていた俺は、二つ目の在処を示す情報をすぐに掴んだ。シーカー遠征隊の幹部の一人が、その場所を記した地図を持っていたんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_17#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 221,
+      "string_id": "voron_start_dialog_phrase_17",
+      "occurrence": 1,
+      "EN": "And you joined the expedition under the guise of a volunteer...",
+      "JA_current": "And you joined the expedition under the guise of a volunteer...",
+      "JA_new": "それで志願者を装って遠征に加わったのか……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "16",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_18#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 224,
+      "string_id": "voron_start_dialog_phrase_18",
+      "occurrence": 1,
+      "EN": "That's right. Besides, I helped them with their equipment, because they were having a rough time at that moment.",
+      "JA_current": "That's right. Besides, I helped them with their equipment, because they were having a rough time at that moment.",
+      "JA_new": "そのとおりだ。それに、あいつらが苦境にあったから装備も手伝った。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "17",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_19#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 227,
+      "string_id": "voron_start_dialog_phrase_19",
+      "occurrence": 1,
+      "EN": "What was the purpose of destroying them all? You could have just stolen the Captain's map and found the second segment yourself.",
+      "JA_current": "What was the purpose of destroying them all? You could have just stolen the Captain's map and found the second segment yourself.",
+      "JA_new": "全員殺す必要があったのか？ 隊長から地図を盗んで、自分で二つ目の欠片を探せばよかっただろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "18",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_20#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 230,
+      "string_id": "voron_start_dialog_phrase_20",
+      "occurrence": 1,
+      "EN": "Heh heh. If you remember the legend of the Orb, you must also remember the condition under which its owner is granted immortality - he must sacrifice as many people not wishing him harm as the number of lives he wants to live beyond his own. I decided to kill two birds with one stone: first, to sacrifice the Seekers to the Orb, and second, to ensure a true legend of his death: went with an expedition to the North and did not return - I could not think of a better one! All that remained was to take care of the Seekers. To do this, I came up with a plan: just before the departure, I suggested to the Captain that the expedition should attempt to split up to avoid attracting attention of Monolith agents and encouraged him to disperse people across different locations and sit tight for a while as I scouted ahead. After the Captain had divided his whole group into two-man squads, it was no longer difficult to deal with them and was only a matter of time before I was successful.",
+      "JA_current": "Heh heh. If you remember the legend of the Orb, you must also remember the condition under which its owner is granted immortality - he must sacrifice as many people not wishing him harm as the number of lives he wants to live beyond his own. I decided to kill two birds with one stone: first, to sacrifice the Seekers to the Orb, and second, to ensure a true legend of his death: went with an expedition to the North and did not return - I could not think of a better one! All that remained was to take care of the Seekers. To do this, I came up with a plan: just before the departure, I suggested to the Captain that the expedition should attempt to split up to avoid attracting attention of Monolith agents and encouraged him to disperse people across different locations and sit tight for a while as I scouted ahead. After the Captain had divided his whole group into two-man squads, it was no longer difficult to deal with them and was only a matter of time before I was successful.",
+      "JA_new": "ははっ。球の伝説を覚えてるなら、不老不死を授かる条件も知ってるだろう。自分の寿命を超えて生きたい年数と同じ数だけ、自分に害意のない人間を生贄にするんだ。俺は一石二鳥を狙った。シーカーたちを球への生贄にし、そのうえ「北へ遠征に出て帰らなかった男」という本物の死の伝説まで作る。これ以上の筋書きは思いつかなかったよ。あとはシーカーたちを始末するだけだった。出発直前、モノリスの連中に目をつけられないよう、隊を分けて行動しようと隊長に提案した。俺が先行偵察している間、隊員を別々の場所でしばらく待機させるよう勧めたんだ。隊長が全員を二人一組に分けたあとは、始末するのも難しくなかった。成功は時間の問題だったよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "19",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_21#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 233,
+      "string_id": "voron_start_dialog_phrase_21",
+      "occurrence": 1,
+      "EN": "What happened to Trofim, the messenger?",
+      "JA_current": "What happened to Trofim, the messenger?",
+      "JA_new": "伝令のトロフィムはどうした？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "20",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_22#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 236,
+      "string_id": "voron_start_dialog_phrase_22",
+      "occurrence": 1,
+      "EN": "I had to misinform the troops, giving them false messages ordering them to stay in their positions as long as possible, so that I could kill everyone in turn. To do this, I planted the Eye artifact in Trofim's backpack, which I used to partially zombify him and force him to do my bidding. By the way, I did the same thing to that Freedom sniper. I needed to put the first segment of the Orb in good hands for the duration of my trip to the Scorcher, so I made him think he should guard it and take out anyone who came close. Though I see that didn't stop you, and you took the first segment from him. By the way, that's the reason the Monolithians don't touch you - they can feel the Golden Orb pieces on your person - They don't want to risk destroying a \"holy relic\".",
+      "JA_current": "I had to misinform the troops, giving them false messages ordering them to stay in their positions as long as possible, so that I could kill everyone in turn. To do this, I planted the Eye artifact in Trofim's backpack, which I used to partially zombify him and force him to do my bidding. By the way, I did the same thing to that Freedom sniper. I needed to put the first segment of the Orb in good hands for the duration of my trip to the Scorcher, so I made him think he should guard it and take out anyone who came close. Though I see that didn't stop you, and you took the first segment from him. By the way, that's the reason the Monolithians don't touch you - they can feel the Golden Orb pieces on your person - They don't want to risk destroying a \"holy relic\".",
+      "JA_new": "部隊を誤情報で操るしかなかった。各組に嘘の伝令を送り、できるだけ長く持ち場を離れるなと命じた。そうやって一人ずつ始末したんだ。トロフィムのリュックにはアーティファクト「アイ」を忍ばせた。それで奴を半ゾンビ状態にして、俺の言いなりにした。フリーダムの狙撃手にも同じことをした。スコーチャーへ行っている間、最初の球の欠片を預けておく必要があった。だから、そいつに欠片を守らせ、近づく奴は誰であろうと始末するよう思い込ませたんだ。だが、あんたはそいつから最初の欠片を奪った。止められなかったようだな。そうそう、モノリスの連中があんたに手を出さないのもそのせいだ。黄金の球の欠片を持っているのが分かるんだろう。あいつらは「聖遺物」を壊す危険を冒したくないのさ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_23#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 239,
+      "string_id": "voron_start_dialog_phrase_23",
+      "occurrence": 1,
+      "EN": "It all makes sense now... I'll tell you, you're a maniac!",
+      "JA_current": "It all makes sense now... I'll tell you, you're a maniac!",
+      "JA_new": "なるほど……全部つながった。あんた、完全にイカれてるよ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "22",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_24#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 242,
+      "string_id": "voron_start_dialog_phrase_24",
+      "occurrence": 1,
+      "EN": "If you knew how much I don't want to die! If someone gave me a chance to stay alive, I would devote the rest of my life only to good deeds! How about you? Maybe you can help me, huh? I swear I'll never lay a finger on anyone again.",
+      "JA_current": "If you knew how much I don't want to die! If someone gave me a chance to stay alive, I would devote the rest of my life only to good deeds! How about you? Maybe you can help me, huh? I swear I'll never lay a finger on anyone again.",
+      "JA_new": "俺がどれだけ死にたくないか、分かるか！ 生き延びる機会をもらえるなら、残りの人生は善いことだけに使う！ あんたはどうだ？ 助けてくれないか？ もう二度と誰にも手を出さないと誓う！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "23",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_25#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 245,
+      "string_id": "voron_start_dialog_phrase_25",
+      "occurrence": 1,
+      "EN": "I can hardly believe a monster who murdered seventeen people in cold blood.",
+      "JA_current": "I can hardly believe a monster who murdered seventeen people in cold blood.",
+      "JA_new": "冷酷に17人も殺した怪物の言うことなんか、信じられるかよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "24",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_26#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 248,
+      "string_id": "voron_start_dialog_phrase_26",
+      "occurrence": 1,
+      "EN": "Please help me! Help me out of captivity, let me escape! I'll repay you generously: I managed to overhear where the leader of the Monolithians keeps his collection of artifacts! If not out of mercy, then at least out of self-interest - help me!",
+      "JA_current": "Please help me! Help me out of captivity, let me escape! I'll repay you generously: I managed to overhear where the leader of the Monolithians keeps his collection of artifacts! If not out of mercy, then at least out of self-interest - help me!",
+      "JA_new": "頼む、助けてくれ！ ここから逃がしてくれ！ 礼は弾む。モノリスの指導者がアーティファクトを集めている場所を聞きつけたんだ！ 情けじゃなくていい。得のためだと思って助けてくれ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "25",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_27#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 251,
+      "string_id": "voron_start_dialog_phrase_27",
+      "occurrence": 1,
+      "EN": "I'll think about it.",
+      "JA_current": "I'll think about it.",
+      "JA_new": "考えさせてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "26",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_start_dialog_phrase_28#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 254,
+      "string_id": "voron_start_dialog_phrase_28",
+      "occurrence": 1,
+      "EN": "All right, but don't move, it's going to get hot.",
+      "JA_current": "All right, but don't move, it's going to get hot.",
+      "JA_new": "わかった。だが動くな。ここから先は荒れるぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_start_dialog",
+          "phrase_id": "27",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "voron_start_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "That's the meeting.",
+      "JA_current": "That's the meeting.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "voron_start_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What are you doing here? Are you in league with these fanatics?",
+      "JA_current": "What are you doing here? Are you in league with these fanatics?",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "voron_start_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, I'm on my own. But I have a lot of questions for you.",
+      "JA_current": "No, I'm on my own. But I have a lot of questions for you.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "voron_start_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Ask me anything you want, I'm screwed anyway. Either way, I'm a lost cause.",
+      "JA_current": "Ask me anything you want, I'm screwed anyway. Either way, I'm a lost cause.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "voron_start_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What happened to the Seekers, who killed them? Is this the work of the Monolith?",
+      "JA_current": "What happened to the Seekers, who killed them? Is this the work of the Monolith?",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "voron_start_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, that's my job. What, you don't believe me? You shouldn't...",
+      "JA_current": "No, that's my job. What, you don't believe me? You shouldn't...",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "voron_start_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "...I don't understand - why? Is this some kind of revenge? Or are you just a maniac?",
+      "JA_current": "...I don't understand - why? Is this some kind of revenge? Or are you just a maniac?",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "voron_start_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It's more complicated than you think. I would never tell you what I'm telling you now, but since the fanatics will shoot me anyway, I have to tell someone... To make it at least a little easier before I die...",
+      "JA_current": "It's more complicated than you think. I would never tell you what I'm telling you now, but since the fanatics will shoot me anyway, I have to tell someone... To make it at least a little easier before I die...",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "voron_start_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7",
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Tell us everything.",
+      "JA_current": "Tell us everything.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "voron_start_dialog_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It all started when a legend leaked out of the Zone about a unique artifact called the Golden Orb, which can grant immortality. A secret society called \"Eternal Life\" learned about this and decided to check the legend, because its main goal for many years was the search for the \"Elixir of Youth\" and the \"Philosopher's Stone\". The members of the society studied various historical documents, for example, the diaries of Count Cagliostro. Have you ever heard of him? Well, of course... They didn't shy away from sciences - chemistry, history. They even managed to get their own man into one of the science laboratories...",
+      "JA_current": "It all started when a legend leaked out of the Zone about a unique artifact called the Golden Orb, which can grant immortality. A secret society called \"Eternal Life\" learned about this and decided to check the legend, because its main goal for many years was the search for the \"Elixir of Youth\" and the \"Philosopher's Stone\". The members of the society studied various historical documents, for example, the diaries of Count Cagliostro. Have you ever heard of him? Well, of course... They didn't shy away from sciences - chemistry, history. They even managed to get their own man into one of the science laboratories...",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "voron_start_dialog_phrase_11",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "As far as I know, the Philosopher's Stone is just a fairy tale.",
+      "JA_current": "As far as I know, the Philosopher's Stone is just a fairy tale.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "voron_start_dialog_phrase_12",
+      "next": [
+        "12"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Maybe so, but is the Zone not in essence a fairy-tale world? Anomalies, artifacts, mutants, emissions, the society has taken a real interest in any phenomena which are able to prolong life. When the Eternal Life Society learned about the Golden Orb, it realized that their primary goal is really achievable and closer than ever. Where man has failed to synthesize the formula for eternal youth, perhaps the Zone held all the answers. Either way it had to be investigated. The Master - the head of the society - decided to get hold of this artifact. He soon got very lucky and managed to acquire one of three parts of this \"orb\" from a collector, and for a pretty small price too, as it had no useful properties. The collector got this part from some stalker. The members of the society conducted research on this piece but found nothing of substantial value. However, the Master wasted no time in beginning a search for the remaining parts, as he now had definite and tangible proof about the legitimacy of this legend. No expenses were spared in the expedition that followed, I was among those chosen.",
+      "JA_current": "Maybe so, but is the Zone not in essence a fairy-tale world? Anomalies, artifacts, mutants, emissions, the society has taken a real interest in any phenomena which are able to prolong life. When the Eternal Life Society learned about the Golden Orb, it realized that their primary goal is really achievable and closer than ever. Where man has failed to synthesize the formula for eternal youth, perhaps the Zone held all the answers. Either way it had to be investigated. The Master - the head of the society - decided to get hold of this artifact. He soon got very lucky and managed to acquire one of three parts of this \"orb\" from a collector, and for a pretty small price too, as it had no useful properties. The collector got this part from some stalker. The members of the society conducted research on this piece but found nothing of substantial value. However, the Master wasted no time in beginning a search for the remaining parts, as he now had definite and tangible proof about the legitimacy of this legend. No expenses were spared in the expedition that followed, I was among those chosen.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_12#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "voron_start_dialog_phrase_13",
+      "next": [
+        "13"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Were you also a member of \"Eternal Life\"?",
+      "JA_current": "Were you also a member of \"Eternal Life\"?",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_13#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "voron_start_dialog_phrase_14",
+      "next": [
+        "14"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, I was the youngest of all the members, but I was not at all inexperienced, because I had a stalker career under my belt at the time, albeit not a very successful one. I was thus the natural choice, having been acclimatized to the Zone's conditions already. They gave me all the information they could gather about the Golden Sphere, and I re-entered the Zone. There was one problem, though. The thing is that, at the time, I blindly believed in the legend of the Orb and cherished the idea of personally obtaining immortality.",
+      "JA_current": "Yes, I was the youngest of all the members, but I was not at all inexperienced, because I had a stalker career under my belt at the time, albeit not a very successful one. I was thus the natural choice, having been acclimatized to the Zone's conditions already. They gave me all the information they could gather about the Golden Sphere, and I re-entered the Zone. There was one problem, though. The thing is that, at the time, I blindly believed in the legend of the Orb and cherished the idea of personally obtaining immortality.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_14#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "voron_start_dialog_phrase_15",
+      "next": [
+        "15"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Have you decided to get a hold of the Golden Sphere for yourself?",
+      "JA_current": "Have you decided to get a hold of the Golden Sphere for yourself?",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_15#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "voron_start_dialog_phrase_16",
+      "next": [
+        "16"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes. I had all the conditions for that: if I managed to get hold of all three of its segments, I could, for example, fake my death and sneak out of the Zone. Having the first segment of the Orb, I quickly found information about the location of the second: one of the leaders behind the Seekers expedition had a map marking the place where he was.",
+      "JA_current": "Yes. I had all the conditions for that: if I managed to get hold of all three of its segments, I could, for example, fake my death and sneak out of the Zone. Having the first segment of the Orb, I quickly found information about the location of the second: one of the leaders behind the Seekers expedition had a map marking the place where he was.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_16#1"
+      ]
+    },
+    {
+      "phrase_id": "16",
+      "text_id": "voron_start_dialog_phrase_17",
+      "next": [
+        "17"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "15"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "And you joined the expedition under the guise of a volunteer...",
+      "JA_current": "And you joined the expedition under the guise of a volunteer...",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_17#1"
+      ]
+    },
+    {
+      "phrase_id": "17",
+      "text_id": "voron_start_dialog_phrase_18",
+      "next": [
+        "18"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "16"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "That's right. Besides, I helped them with their equipment, because they were having a rough time at that moment.",
+      "JA_current": "That's right. Besides, I helped them with their equipment, because they were having a rough time at that moment.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_18#1"
+      ]
+    },
+    {
+      "phrase_id": "18",
+      "text_id": "voron_start_dialog_phrase_19",
+      "next": [
+        "19"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "17"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What was the purpose of destroying them all? You could have just stolen the Captain's map and found the second segment yourself.",
+      "JA_current": "What was the purpose of destroying them all? You could have just stolen the Captain's map and found the second segment yourself.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_19#1"
+      ]
+    },
+    {
+      "phrase_id": "19",
+      "text_id": "voron_start_dialog_phrase_20",
+      "next": [
+        "20"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "18"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Heh heh. If you remember the legend of the Orb, you must also remember the condition under which its owner is granted immortality - he must sacrifice as many people not wishing him harm as the number of lives he wants to live beyond his own. I decided to kill two birds with one stone: first, to sacrifice the Seekers to the Orb, and second, to ensure a true legend of his death: went with an expedition to the North and did not return - I could not think of a better one! All that remained was to take care of the Seekers. To do this, I came up with a plan: just before the departure, I suggested to the Captain that the expedition should attempt to split up to avoid attracting attention of Monolith agents and encouraged him to disperse people across different locations and sit tight for a while as I scouted ahead. After the Captain had divided his whole group into two-man squads, it was no longer difficult to deal with them and was only a matter of time before I was successful.",
+      "JA_current": "Heh heh. If you remember the legend of the Orb, you must also remember the condition under which its owner is granted immortality - he must sacrifice as many people not wishing him harm as the number of lives he wants to live beyond his own. I decided to kill two birds with one stone: first, to sacrifice the Seekers to the Orb, and second, to ensure a true legend of his death: went with an expedition to the North and did not return - I could not think of a better one! All that remained was to take care of the Seekers. To do this, I came up with a plan: just before the departure, I suggested to the Captain that the expedition should attempt to split up to avoid attracting attention of Monolith agents and encouraged him to disperse people across different locations and sit tight for a while as I scouted ahead. After the Captain had divided his whole group into two-man squads, it was no longer difficult to deal with them and was only a matter of time before I was successful.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_20#1"
+      ]
+    },
+    {
+      "phrase_id": "20",
+      "text_id": "voron_start_dialog_phrase_21",
+      "next": [
+        "21"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "19"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What happened to Trofim, the messenger?",
+      "JA_current": "What happened to Trofim, the messenger?",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_21#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "voron_start_dialog_phrase_22",
+      "next": [
+        "22"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "20"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I had to misinform the troops, giving them false messages ordering them to stay in their positions as long as possible, so that I could kill everyone in turn. To do this, I planted the Eye artifact in Trofim's backpack, which I used to partially zombify him and force him to do my bidding. By the way, I did the same thing to that Freedom sniper. I needed to put the first segment of the Orb in good hands for the duration of my trip to the Scorcher, so I made him think he should guard it and take out anyone who came close. Though I see that didn't stop you, and you took the first segment from him. By the way, that's the reason the Monolithians don't touch you - they can feel the Golden Orb pieces on your person - They don't want to risk destroying a \"holy relic\".",
+      "JA_current": "I had to misinform the troops, giving them false messages ordering them to stay in their positions as long as possible, so that I could kill everyone in turn. To do this, I planted the Eye artifact in Trofim's backpack, which I used to partially zombify him and force him to do my bidding. By the way, I did the same thing to that Freedom sniper. I needed to put the first segment of the Orb in good hands for the duration of my trip to the Scorcher, so I made him think he should guard it and take out anyone who came close. Though I see that didn't stop you, and you took the first segment from him. By the way, that's the reason the Monolithians don't touch you - they can feel the Golden Orb pieces on your person - They don't want to risk destroying a \"holy relic\".",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_22#1"
+      ]
+    },
+    {
+      "phrase_id": "22",
+      "text_id": "voron_start_dialog_phrase_23",
+      "next": [
+        "23"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It all makes sense now... I'll tell you, you're a maniac!",
+      "JA_current": "It all makes sense now... I'll tell you, you're a maniac!",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_23#1"
+      ]
+    },
+    {
+      "phrase_id": "23",
+      "text_id": "voron_start_dialog_phrase_24",
+      "next": [
+        "24"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "22"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "If you knew how much I don't want to die! If someone gave me a chance to stay alive, I would devote the rest of my life only to good deeds! How about you? Maybe you can help me, huh? I swear I'll never lay a finger on anyone again.",
+      "JA_current": "If you knew how much I don't want to die! If someone gave me a chance to stay alive, I would devote the rest of my life only to good deeds! How about you? Maybe you can help me, huh? I swear I'll never lay a finger on anyone again.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_24#1"
+      ]
+    },
+    {
+      "phrase_id": "24",
+      "text_id": "voron_start_dialog_phrase_25",
+      "next": [
+        "25"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "23"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I can hardly believe a monster who murdered seventeen people in cold blood.",
+      "JA_current": "I can hardly believe a monster who murdered seventeen people in cold blood.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_25#1"
+      ]
+    },
+    {
+      "phrase_id": "25",
+      "text_id": "voron_start_dialog_phrase_26",
+      "next": [
+        "26",
+        "27"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "24"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Please help me! Help me out of captivity, let me escape! I'll repay you generously: I managed to overhear where the leader of the Monolithians keeps his collection of artifacts! If not out of mercy, then at least out of self-interest - help me!",
+      "JA_current": "Please help me! Help me out of captivity, let me escape! I'll repay you generously: I managed to overhear where the leader of the Monolithians keeps his collection of artifacts! If not out of mercy, then at least out of self-interest - help me!",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_26#1"
+      ]
+    },
+    {
+      "phrase_id": "26",
+      "text_id": "voron_start_dialog_phrase_27",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "25"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'll think about it.",
+      "JA_current": "I'll think about it.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_27#1"
+      ]
+    },
+    {
+      "phrase_id": "27",
+      "text_id": "voron_start_dialog_phrase_28",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "kill_sila"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "25"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All right, but don't move, it's going to get hot.",
+      "JA_current": "All right, but don't move, it's going to get hot.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_start_dialog_phrase_28#1"
+      ]
+    }
+  ]
+}

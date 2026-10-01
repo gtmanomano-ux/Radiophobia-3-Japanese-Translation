@@ -1,0 +1,1260 @@
+{
+    "packet_id":  "dialog_0259__history_bar",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "history_bar",
+    "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml",
+    "graph_sha256":  "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+    "character_bindings":  [
+                               {
+                                   "profile_id":  "bar_bar_drunk_dolg",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_bar.xml"
+                               }
+                           ],
+    "dialog_conditions":  [
+                              {
+                                  "type":  "dont_has_info",
+                                  "value":  "block_begin_dialog"
+                              },
+                              {
+                                  "type":  "dont_has_info",
+                                  "value":  "horror_time"
+                              },
+                              {
+                                  "type":  "precondition",
+                                  "value":  "dialogs.is_not_wounded1"
+                              }
+                          ],
+    "root_speaker_hint":  "player",
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  23,
+    "entries":  [
+                    {
+                        "key":  "stable_dialogs_escape:ogse_jokes_start_0#1",
+                        "source_table":  "stable_dialogs_escape",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+                        "source_xml_line":  2005,
+                        "string_id":  "ogse_jokes_start_0",
+                        "occurrence":  1,
+                        "EN":  "Why\u0027s everyone so gloomy here? How about a funny story?",
+                        "JA_current":  "Why\u0027s everyone so gloomy here? How about a funny story?",
+                        "JA_new":  "みんな暗い顔してるな。何か面白い話でもしようか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "0",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_escape:history_novice_1#1",
+                        "source_table":  "stable_dialogs_escape",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+                        "source_xml_line":  514,
+                        "string_id":  "history_novice_1",
+                        "occurrence":  1,
+                        "EN":  "Have you heard how the guys taught Mitka Squint-eyed a good lesson? You haven\u0027t?! Listen, then. That\u0027s the best story ever! Even Wolf himself was among them. Nothing too brutal, don\u0027t worry.\n        \\n \\nOk, I\u0027ll try to make it short. So, when he was still a newbie, Mitka was carrying himself in a very haughty manner. Kept wrangling with the veterans, like he knew everything and was a master of all skills. And there was another bad habit about him - he was fond of playing jokes on fellow stalkers. Tying a knot on shoelaces while someone is asleep and all that schoolboy crap. They even thought of giving him the nickname \"King\", but had enough sense to give up the idea - the guy would\u0027ve become even more arrogant. \\n \\nWhat was I was coming to?.. Ah, got it. So, everybody became tired of him and they decided to give him a good lesson. They solicited some sticky tape from Sidorovich, found a bucket and a stick. The bucket was placed on Mitka\u0027s head, and the stick was placed in his hands and fixed with the tape. When everything was ready, Wolf started drumming on the bucket and screaming:\n        \"King Arthur! Wake up! We\u0027ve been attacked!\"\n        \\n \\nThat was something, you know! Half-awake Mitka jumped up on his double bed and hit the ceiling with his head in the bucket! When he tried to take the bucket off, he got it hit a couple of times again with the stick in his hands!.. Uff... What happened after that? Well, they untied him, of course... He was in a huff with the guys for a couple of days, but later on he became mild as a lamb. He\u0027s now one of the veterans... That\u0027s it...\n        ",
+                        "JA_current":  "Have you heard how the guys taught Mitka Squint-eyed a good lesson? You haven\u0027t?! Listen, then. That\u0027s the best story ever! Even Wolf himself was among them. Nothing too brutal, don\u0027t worry.\n        \\n \\nOk, I\u0027ll try to make it short. So, when he was still a newbie, Mitka was carrying himself in a very haughty manner. Kept wrangling with the veterans, like he knew everything and was a master of all skills. And there was another bad habit about him - he was fond of playing jokes on fellow stalkers. Tying a knot on shoelaces while someone is asleep and all that schoolboy crap. They even thought of giving him the nickname \"King\", but had enough sense to give up the idea - the guy would\u0027ve become even more arrogant. \\n \\nWhat was I was coming to?.. Ah, got it. So, everybody became tired of him and they decided to give him a good lesson. They solicited some sticky tape from Sidorovich, found a bucket and a stick. The bucket was placed on Mitka\u0027s head, and the stick was placed in his hands and fixed with the tape. When everything was ready, Wolf started drumming on the bucket and screaming:\n        \"King Arthur! Wake up! We\u0027ve been attacked!\"\n        \\n \\nThat was something, you know! Half-awake Mitka jumped up on his double bed and hit the ceiling with his head in the bucket! When he tried to take the bucket off, he got it hit a couple of times again with the stick in his hands!.. Uff... What happened after that? Well, they untied him, of course... He was in a huff with the guys for a couple of days, but later on he became mild as a lamb. He\u0027s now one of the veterans... That\u0027s it...\n        ",
+                        "JA_new":  "聞いたか？　仲間が細目のミトカにきついお灸を据えた話。まだ聞いてない？\\n　よし、聞けよ。最高の話だ。ウルフまで一枚かんでたんだ。\\nそんなにひどいことはしてないから安心しろ。 短く話すぞ。ミトカが新人だった頃、やたら偉そうに振る舞ってた。何でも知ってる、\\n一人前の腕利きだって顔で、ベテラン相手にも口答えする。それに、仲間をからかう悪い癖もあった。\\n誰かが寝てる間に靴ひもを結んだり、そんな子どもじみた悪ふざけだ。みんな「王様」ってあだ名をつけようかとも考えたが、やめた。\\nこれ以上調子に乗られたら困るからな。 何の話をしてたっけ……そうだ。みんなミトカにうんざりして、思い知らせてやることにした。\\nシドロヴィッチからガムテープをもらい、バケツと棒を用意した。ミトカの頭にバケツをかぶせ、手には棒を持たせてテープで固定。準備ができると、\nウルフがバケツを叩きながら叫んだ： 「アーサー王！　起きろ！　襲撃だ！」 そしたらどうなったと思う？\n　寝ぼけたミトカが二段ベッドから飛び起きて、バケツをかぶったまま天井に頭をぶつけた！　バケツを外そうとして、手に持たされた棒で何度も頭を叩く羽目になったんだ！　はあ……その後か？\n　もちろん、みんなでほどいてやったさ。二、三日は仲間に腹を立ててたが、\nその後は借りてきた猫みたいにおとなしくなった。今じゃ立派なベテランだよ。そんな話さ……",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "1",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_escape:history_novice_2#1",
+                        "source_table":  "stable_dialogs_escape",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+                        "source_xml_line":  522,
+                        "string_id":  "history_novice_2",
+                        "occurrence":  1,
+                        "EN":  "Have you heard the story of what happened to Chef recently? You know, The Chef! The one from the Freedom, at the Army Warehouses. So, listen. That\u0027s how he told it:\n        \"One nice evening I went out of our base to take a look around for some artifacts or whatever, just to get myself enough for a drink. So, I keep walking, touching nothing and there I see it! A cat with a cigarette in its mouth! Looking like it was about to light up and have a smoke!\"\n        \\n \\n\"The first thought was that I have finally drank my mind into oblivion! Besides, the Brain Scorcher is not far from there, so you know... Ok, so I rubbed my eyes for a bit, hoping that the hallucination would disappear. Nothing of the sort! And the cat started approaching me! I couldn\u0027t think of anything better than to take to my heels and run back to the base. Now, I\u0027m no rookie, seen plenty in the Zone, but that was just too fucked up even for me!\"\n        \\n \\n\"The guys from our lot didn\u0027t believe me at first. But later on one of our groups came back from the Barrier. They finally shed some light on the incident. It turned out that there was a vial with valerian drops among the ordinary medicine, and one of the lads found it and went off to the Barrier with his group. When on his way, he spilt a few drops and saw local cats gathering in that place. The damn humorist decided to make a joke and spilt some more drops on a cigarette... And the cat got it...\"\n        \\n \\nThat\u0027s it, Marked one. There\u0027s something familiar that still remains in these Zone cats, something reminiscent of our ordinary house cats... \n        ",
+                        "JA_current":  "Have you heard the story of what happened to Chef recently? You know, The Chef! The one from the Freedom, at the Army Warehouses. So, listen. That\u0027s how he told it:\n        \"One nice evening I went out of our base to take a look around for some artifacts or whatever, just to get myself enough for a drink. So, I keep walking, touching nothing and there I see it! A cat with a cigarette in its mouth! Looking like it was about to light up and have a smoke!\"\n        \\n \\n\"The first thought was that I have finally drank my mind into oblivion! Besides, the Brain Scorcher is not far from there, so you know... Ok, so I rubbed my eyes for a bit, hoping that the hallucination would disappear. Nothing of the sort! And the cat started approaching me! I couldn\u0027t think of anything better than to take to my heels and run back to the base. Now, I\u0027m no rookie, seen plenty in the Zone, but that was just too fucked up even for me!\"\n        \\n \\n\"The guys from our lot didn\u0027t believe me at first. But later on one of our groups came back from the Barrier. They finally shed some light on the incident. It turned out that there was a vial with valerian drops among the ordinary medicine, and one of the lads found it and went off to the Barrier with his group. When on his way, he spilt a few drops and saw local cats gathering in that place. The damn humorist decided to make a joke and spilt some more drops on a cigarette... And the cat got it...\"\n        \\n \\nThat\u0027s it, Marked one. There\u0027s something familiar that still remains in these Zone cats, something reminiscent of our ordinary house cats... \n        ",
+                        "JA_new":  "最近シェフに何があったか聞いたか？　ほら、\\n軍事倉庫にいるフリーダムのシェフだ。本人から聞いた話だ： 「ある晩、酒代でも稼ごうと拠点を出て、\\nアーティファクトか何かを探しに歩いてた。余計なものには触らず、あちこち見てたら、なんとタバコをくわえた猫がいたんだ！\\n　火をつけて吸い始めそうな顔でな！」 「最初は、ついに酒で頭がおかしくなったと思ったよ。\\n近くにブレイン・スコーチャーもあるしな……目をこすって、幻が消えるのを待った。だが消えない。\\nしかも猫がこっちに近づいてくる！　逃げて拠点に戻る以外、思いつかなかったよ。俺だって新人じゃない。\\nゾーンではいろいろ見てきたが、あれはさすがにひどすぎる！」 「最初、\n仲間は誰も信じなかった。だが後日、バリアから戻ってきた連中が一部始終を明かしてくれた。\n普通の薬の中に、バレリアンの滴剤が入った小瓶があったらしい。仲間の一人がそれを持ってバリアへ行き、\n途中で何滴かこぼした。すると、その場所に猫が集まってきたそうだ。そこで悪ふざけ好きの奴が、\nタバコにもっと滴剤を垂らして猫にやった……そしたら猫がくわえたんだと……」 そんな話さ、印付き。\nゾーンの猫にも、どこか普通の飼い猫みたいなところが残ってるのかもしれないな……",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "2",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_escape:history_novice_3#1",
+                        "source_table":  "stable_dialogs_escape",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+                        "source_xml_line":  531,
+                        "string_id":  "history_novice_3",
+                        "occurrence":  1,
+                        "EN":  "Well, how about a real story. \\n \\nA group of scientists was out for some field research at Yantar, and they had a squad of Duty as their security. Bad luck for them - they came across a horde of zombies and had to seek cover in some tunnel or something. So, the Duty guards were holding ground on both sides. The eggheads were good for nothing, except for one young assistant, a newbie in the Zone. Although pale and trembling with fear, he started reloading magazines for the Duty soldiers. \\n \\nJust to cheer the lad up, the squad sergeant asked him: \"Scared, know-it-all?\". \\n\"No\", he replied, \"just a bit apprehensive.\" \\n\"What\u0027s the difference??!\", the commander wondered. \\n \\nGuess what was his answer? \\n\"That means I\u0027m scared with a university education.\" \\nJust imagine! This is the lad\u0027s first time out of his home town, He\u0027s been weaned from his mother and sent straight into the Zone, and now attacked by zombies! And yet he\u0027s just \"apprehensive\"! Attaboy! \n        ",
+                        "JA_current":  "Well, how about a real story. \\n \\nA group of scientists was out for some field research at Yantar, and they had a squad of Duty as their security. Bad luck for them - they came across a horde of zombies and had to seek cover in some tunnel or something. So, the Duty guards were holding ground on both sides. The eggheads were good for nothing, except for one young assistant, a newbie in the Zone. Although pale and trembling with fear, he started reloading magazines for the Duty soldiers. \\n \\nJust to cheer the lad up, the squad sergeant asked him: \"Scared, know-it-all?\". \\n\"No\", he replied, \"just a bit apprehensive.\" \\n\"What\u0027s the difference??!\", the commander wondered. \\n \\nGuess what was his answer? \\n\"That means I\u0027m scared with a university education.\" \\nJust imagine! This is the lad\u0027s first time out of his home town, He\u0027s been weaned from his mother and sent straight into the Zone, and now attacked by zombies! And yet he\u0027s just \"apprehensive\"! Attaboy! \n        ",
+                        "JA_new":  "今度は本当の話をしよう。 ヤンターで科学者たちが野外調査をしていて、\\n護衛にはデューティーの部隊がついてた。運悪くゾンビの大群に出くわし、どこかのトンネルへ逃げ込んだ。\\nデューティーの兵士は両側で持ちこたえていた。科学者たちは役に立たなかったが、\\n一人だけ若い助手がいた。ゾーンに来たばかりの新人だ。顔を青ざめさせて震えながらも、\\nデューティーの兵士たちの弾倉に弾を詰め始めた。 若者を元気づけようと、部隊の軍曹が聞いた。\\n「怖いのか、物知り君？」 「いいえ」\\nと彼は答えた。「少し不安なだけです」\\n 「何が違うんだ？」と指揮官が尋ねた。 返事はこうだ。\\n 「大学で学んだ分だけ、怖がっているんです」 想像してみろよ！\\n　故郷を出るのも初めての若者が、母親のもとを離れていきなりゾーンに放り込まれた。\\nそのうえゾンビに襲われてるのに、「少し不安なだけ」だとさ！\n　大したもんだ！",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "3",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_escape:history_novice_4#1",
+                        "source_table":  "stable_dialogs_escape",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+                        "source_xml_line":  536,
+                        "string_id":  "history_novice_4",
+                        "occurrence":  1,
+                        "EN":  "Wait a minute, how about a warning story. One day I got some artifacts at the Garbage and went back to Cordon to sell them to Sidorovich and get myself some equipment for deeper raids. That\u0027s not the point, though. So, while walking on the road from Garbage to Cordon, I suddenly got a feeling that something was wrong. Something was holding me back from making a step forward! It was like an indicator flicking in my head: \"Attention! Attention! Danger!\", my hairs stood on end, never felt anything like this before.\n\t\t\\n \\nWhile I was standing there all freaked out, a stalker, probably a rookie, was coming towards me along the road. As he came nearer, a few meters away, he took a step over some invisible field or barrier and something happened to him... He got... How can I describe it adequately... It\u0027s like he got torn inside out!!! Without a single sound, not a noise or a peep or a scream! Just the ribcage splitting open like a venus fly trap, internal organs and blood flying all over the place, limbs broken and deformed... I- I kept drowning out that memory in drink for about a week straight after that...\n        \\n \\nI guess what I\u0027m getting at here, is... Just take care of yourself, Marked One. Learn to trust your senses...\n        ",
+                        "JA_current":  "Wait a minute, how about a warning story. One day I got some artifacts at the Garbage and went back to Cordon to sell them to Sidorovich and get myself some equipment for deeper raids. That\u0027s not the point, though. So, while walking on the road from Garbage to Cordon, I suddenly got a feeling that something was wrong. Something was holding me back from making a step forward! It was like an indicator flicking in my head: \"Attention! Attention! Danger!\", my hairs stood on end, never felt anything like this before.\n\t\t\\n \\nWhile I was standing there all freaked out, a stalker, probably a rookie, was coming towards me along the road. As he came nearer, a few meters away, he took a step over some invisible field or barrier and something happened to him... He got... How can I describe it adequately... It\u0027s like he got torn inside out!!! Without a single sound, not a noise or a peep or a scream! Just the ribcage splitting open like a venus fly trap, internal organs and blood flying all over the place, limbs broken and deformed... I- I kept drowning out that memory in drink for about a week straight after that...\n        \\n \\nI guess what I\u0027m getting at here, is... Just take care of yourself, Marked One. Learn to trust your senses...\n        ",
+                        "JA_new":  "待てよ、今度は警告になる話だ。ある日、\\nガーベジでアーティファクトを見つけて、もっと奥へ行く装備を買うためコルドンへ戻り、シドロヴィッチに売ることにした。まあ、それは本題じゃない。\\nガーベジからコルドンへの道を歩いていたら、急に何かおかしいと感じた。前へ進めない。頭の中で警報が鳴るみたいだった。「警告！\\n　危険！」ってな。髪の毛が逆立ったよ。あんな感覚は初めてだった。 俺がその場でびくびくしていたら、\\nストーカーが一人、たぶん新人だろう、道の向こうから歩いてきた。数メートル先まで近づくと、見えない何かをまたいだ。\n\t\tそしたら、そいつに異変が起きた……いや、どう説明すればいい……体の中から引き裂かれたんだ！　音ひとつしなかった。物音も、\nうめき声も、叫び声もない！　ハエトリグサみたいに胸が裂けて、内臓と血が飛び散り、手足が折れ曲がって……あの記憶を消そうと、\n一週間は酒浸りだった…… 言いたいのはな……気をつけろ、印付き。自分の感覚を信じるんだ……",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "4",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_escape:history_novice_5#1",
+                        "source_table":  "stable_dialogs_escape",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+                        "source_xml_line":  543,
+                        "string_id":  "history_novice_5",
+                        "occurrence":  1,
+                        "EN":  "Well, I\u0027ve got a remarkable story! One evening, my buddies and myself were sitting by a campfire out in the Zone. Just trying to have some fun, you know; - vodka, jokes, snacks, trying to unwind from the stress. Once we got a few drinks in, one of the lads went off a distance to take a shit. Then suddenly out of nowhere... Screaming, shooting, chaos! \\n \\nWithin seconds the guy made it back to us, trembling in fear and with his trousers still down by his knees. \\n\"What happened?!\" we asked him. \\n\"I sat down by some bush to shit, and suddenly something hit me on the ass!! So, I took to my feet, shooting back and shitting all over the place...\" \\n \\nMan, we almost laughed our heads off! Anyway, we decided to go and check out the place, see what kind of pervert attacked our friend. The moment we approached these bushes and lit them up with the flashlights... Only that dumbass shitter remained standing, the rest of us were on the floor, pissing ourselves laughing: laying down beneath the bush was a zombie with shit all over his face!!! \\n \\nThe poor creature was just laying there while our buddy was taking a dump on his face! Obviously, as the zombie had been trying to wave away the stinky bastard, it slapped our buddy on the ass... \\nOnce we composed ourselves, we went and put the bastard out of his misery, not even a zombie deserves a \"shitty\" fate like that! Ha-ha... Man, this story has stayed with me since then, probably the best thing I\u0027ve seen out here! Everytime I feel down, I just remember that zombie\u0027s shit stained expression and I start chuckling to myself!\n        ",
+                        "JA_current":  "Well, I\u0027ve got a remarkable story! One evening, my buddies and myself were sitting by a campfire out in the Zone. Just trying to have some fun, you know; - vodka, jokes, snacks, trying to unwind from the stress. Once we got a few drinks in, one of the lads went off a distance to take a shit. Then suddenly out of nowhere... Screaming, shooting, chaos! \\n \\nWithin seconds the guy made it back to us, trembling in fear and with his trousers still down by his knees. \\n\"What happened?!\" we asked him. \\n\"I sat down by some bush to shit, and suddenly something hit me on the ass!! So, I took to my feet, shooting back and shitting all over the place...\" \\n \\nMan, we almost laughed our heads off! Anyway, we decided to go and check out the place, see what kind of pervert attacked our friend. The moment we approached these bushes and lit them up with the flashlights... Only that dumbass shitter remained standing, the rest of us were on the floor, pissing ourselves laughing: laying down beneath the bush was a zombie with shit all over his face!!! \\n \\nThe poor creature was just laying there while our buddy was taking a dump on his face! Obviously, as the zombie had been trying to wave away the stinky bastard, it slapped our buddy on the ass... \\nOnce we composed ourselves, we went and put the bastard out of his misery, not even a zombie deserves a \"shitty\" fate like that! Ha-ha... Man, this story has stayed with me since then, probably the best thing I\u0027ve seen out here! Everytime I feel down, I just remember that zombie\u0027s shit stained expression and I start chuckling to myself!\n        ",
+                        "JA_new":  "とっておきの話がある！　ある晩、仲間とゾーンで焚き火を囲んでた。\\nウォッカに冗談、つまみを楽しみながら、緊張をほぐしてたんだ。何杯か飲んだ頃、\\n一人が少し離れて用を足しに行った。すると突然……叫び声に銃声、もう大騒ぎだ！ そいつは数秒で戻ってきた。\\nズボンを膝まで下ろしたまま、震え上がってな。 「何があった！？」\\nと俺たちが聞くと、そいつは言った。 「茂みのそばでしゃがんだら、急にケツを叩かれたんだ！\\n　慌てて飛び上がって撃ち返したら、あたりにクソをまき散らしちまった……」 俺たちは腹がよじれるほど笑ったよ。それから、\\nどこの変態が仲間を襲ったのか見に行くことにした。茂みに近づいて懐中電灯で照らしたら……立っていたのは、クソを漏らした間抜け一人。俺たちはみんな地面に転がって笑い転げた。\\n茂みの下に、顔じゅうクソまみれのゾンビが寝てたんだ！ かわいそうなゾンビは、仲間が顔の上に用を足してる間、\\nそこに横たわってた。臭い奴を追い払おうとして、仲間のケツを叩いたらしい…… 落ち着いてから、そいつを苦しみから解放してやった。\\nゾンビだって、あんなクソみたいな最期はごめんだろ！　ははは……あの顔は忘れられない。落ち込むたびに思い出して、\nつい笑っちまうんだ！",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "5",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_escape:history_novice_6#1",
+                        "source_table":  "stable_dialogs_escape",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+                        "source_xml_line":  548,
+                        "string_id":  "history_novice_6",
+                        "occurrence":  1,
+                        "EN":  "Have you heard what happened to Chef recently? That one stalker, the one from the Freedom, at the Army Warehouses. So, listen, this is how it went. One evening he went out on a raid for some artifacts, just on his lonesome to earn some drinking cash. As he kept pushing deeper into the wilderness, he saw something that made him stop and rub his eyes! There was a mutant cat sitting around with a fucking cigarette in his mouth! The cat was just chilling out in the weeds, smoking a fag!\n        \\n \\nThe guy thought that maybe he was going nuts or that he walked too close to the barrier and his brain was slowly frying... No matter how hard he tried, he could not make it go away, the cat was real, not just a figment of his imagination. Then, the fucking cat gets up and starts approaching him, all casual like! The guy freaks out and starts legging it full speed ahead back to the Freedom base. Stop laughing, this is a serious story! You may think he was probably high since the Freedom guys like to dabble in that stuff but listen to the rest, it gets better!\n        \\n \\nThe fellas back at the Freedom base did not believe a word he said. They all thought he was tripping on some bad \u0027shrooms until a squad came back from the Scorcher. Upon hearing the story, they roared in laughter and explained the whole thing. Turns out, one of those guys had some LSD in liquid form that he liked to take from time to time, for the experience, and he spilled some on the ground closer to the barrier. Later on he saw a few local cats gathering in that place, lapping that shit right off the ground. The damn bastard decided to have some fun and spilt some more drops on a cigarette, then he threw it at the cats... And one of the bastard cats caught it...\n        \\n \\nSo, the hero of our story wasn\u0027t hallucinating at all, strange things really do happen in the Zone! Just imagine what that cat must have been seeing, though, tripped up on acid like that! This whole story is just beyond bizarre, hanging out with Freedom is a real trip! \n        ",
+                        "JA_current":  "Have you heard what happened to Chef recently? That one stalker, the one from the Freedom, at the Army Warehouses. So, listen, this is how it went. One evening he went out on a raid for some artifacts, just on his lonesome to earn some drinking cash. As he kept pushing deeper into the wilderness, he saw something that made him stop and rub his eyes! There was a mutant cat sitting around with a fucking cigarette in his mouth! The cat was just chilling out in the weeds, smoking a fag!\n        \\n \\nThe guy thought that maybe he was going nuts or that he walked too close to the barrier and his brain was slowly frying... No matter how hard he tried, he could not make it go away, the cat was real, not just a figment of his imagination. Then, the fucking cat gets up and starts approaching him, all casual like! The guy freaks out and starts legging it full speed ahead back to the Freedom base. Stop laughing, this is a serious story! You may think he was probably high since the Freedom guys like to dabble in that stuff but listen to the rest, it gets better!\n        \\n \\nThe fellas back at the Freedom base did not believe a word he said. They all thought he was tripping on some bad \u0027shrooms until a squad came back from the Scorcher. Upon hearing the story, they roared in laughter and explained the whole thing. Turns out, one of those guys had some LSD in liquid form that he liked to take from time to time, for the experience, and he spilled some on the ground closer to the barrier. Later on he saw a few local cats gathering in that place, lapping that shit right off the ground. The damn bastard decided to have some fun and spilt some more drops on a cigarette, then he threw it at the cats... And one of the bastard cats caught it...\n        \\n \\nSo, the hero of our story wasn\u0027t hallucinating at all, strange things really do happen in the Zone! Just imagine what that cat must have been seeing, though, tripped up on acid like that! This whole story is just beyond bizarre, hanging out with Freedom is a real trip! \n        ",
+                        "JA_new":  "最近、シェフに何があったか聞いたか？　軍事倉庫にいるフリーダムのストーカーだよ。\\n話を聞いてくれ。ある晩、一人でアーティファクトを探しに出た。酒代を稼ぐためにな。荒野の奥へ進んでいたら、\\n目を疑うものがいた！　タバコをくわえたミュータントの猫だ！　草むらでのんびり、タバコを吸ってやがった！ そいつは、\\n頭がおかしくなったのか、バリアに近づきすぎて脳みそが焼けたのかと思ったらしい。どうしても消えない。幻じゃなくて、本当に猫がいたんだ。\\nしかも、その猫が立ち上がって、何事もないように近づいてくる！　そいつは大慌てでフリーダムの拠点まで全速力で逃げ帰った。笑うなよ、\\n真面目な話なんだ！　フリーダムの連中は薬に手を出すから、そいつもキマってたんだろうと思うかもしれないが、続きを聞け。\\nもっと面白いぞ！ 拠点に戻った仲間は、誰も信じなかった。変なキノコでも食べて幻覚を見たんだろうと思ってた。だが、\nブレイン・スコーチャーから部隊が戻ってきて、話を聞くなり大笑いして一部始終を説明した。そいつらの一人が、体験のために時々使う液体のLSDを持っていて、バリアの近くにこぼしたんだ。\n後で猫が何匹か集まり、地面を舐めてるのを見つけた。そこで悪ふざけのつもりで、タバコにもう少し垂らして猫に投げた……そのうち一匹が、まんまとくわえたってわけだ…… つまり、\nあの男は幻を見たんじゃない。ゾーンじゃ本当に妙なことが起きるんだ。LSDでキマった猫には、いったい何が見えてたんだろうな！　まったく奇妙な話だ。\nフリーダムの連中といると、こっちまでトリップしそうだぜ！",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "6",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_escape:history_novice_7#1",
+                        "source_table":  "stable_dialogs_escape",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+                        "source_xml_line":  556,
+                        "string_id":  "history_novice_7",
+                        "occurrence":  1,
+                        "EN":  "Some time ago, some young assistant got assigned to that field lab at Yantar. This kid was different from the others, usually the eggheads over there are smart and prefer to listen attentively before talking, but this dick had read so many science papers back at the institute that he thought himself wiser than all the other professors. He believed he was the smartest brainiac in the whole lab, started throwing his weight around, giving commands to the others... \\n \\nThey mostly shrugged it off and ignored him, let the fool get it out of his system... But the guy would not relent, he was really eager to prove himself and get recognized! So, he tried to impress everybody with his knowledge of the Zone, the mutants, the stalkers and their traditions, everything! Even Sakharov got tired of the upstart! \\n \\nOne day, a group of experienced stalkers dropped by at the lab to trade in some goods, and this prick got right in the middle of them and started proclaiming wise scientific terms and theories on how to tell a Chernobyl dog from its phantom, how to catch a controller alive, bla-bla-bla. At that moment Sakharov entered the chamber and stopped for a while to listen. \\n \\nThen he addressed himself to the pipsqueak: \"You have been revealing remarkable things to us about the Zone\u0027s mysteries and elusive mutant behavioral patterns. I have got a question I need help with. A flesh, a rodent and a pseudodog all eat the same meat. Yet a rodent excretes it in little pellets, while a flesh\u0027s excretion is a flat patty and a pseudodog produces thick clumps of fecal mass. Why is that so?\" \\n\"Well... I don\u0027t know\", the assistant answered. \\nSo, Sakharov continued: \"How is it, then, that you, young man, feel qualified to teach experienced stalkers survival in the Zone when YOU DON\u0027T KNOW SHIT?!!\"\n        ",
+                        "JA_current":  "Some time ago, some young assistant got assigned to that field lab at Yantar. This kid was different from the others, usually the eggheads over there are smart and prefer to listen attentively before talking, but this dick had read so many science papers back at the institute that he thought himself wiser than all the other professors. He believed he was the smartest brainiac in the whole lab, started throwing his weight around, giving commands to the others... \\n \\nThey mostly shrugged it off and ignored him, let the fool get it out of his system... But the guy would not relent, he was really eager to prove himself and get recognized! So, he tried to impress everybody with his knowledge of the Zone, the mutants, the stalkers and their traditions, everything! Even Sakharov got tired of the upstart! \\n \\nOne day, a group of experienced stalkers dropped by at the lab to trade in some goods, and this prick got right in the middle of them and started proclaiming wise scientific terms and theories on how to tell a Chernobyl dog from its phantom, how to catch a controller alive, bla-bla-bla. At that moment Sakharov entered the chamber and stopped for a while to listen. \\n \\nThen he addressed himself to the pipsqueak: \"You have been revealing remarkable things to us about the Zone\u0027s mysteries and elusive mutant behavioral patterns. I have got a question I need help with. A flesh, a rodent and a pseudodog all eat the same meat. Yet a rodent excretes it in little pellets, while a flesh\u0027s excretion is a flat patty and a pseudodog produces thick clumps of fecal mass. Why is that so?\" \\n\"Well... I don\u0027t know\", the assistant answered. \\nSo, Sakharov continued: \"How is it, then, that you, young man, feel qualified to teach experienced stalkers survival in the Zone when YOU DON\u0027T KNOW SHIT?!!\"\n        ",
+                        "JA_new":  "少し前、若い助手がヤンターの野外研究所に配属された。そいつはほかの研究者と違ってた。\\nあそこにいる学者は、話す前によく聞く賢い連中だ。だがその野郎は、研究所にいた頃に論文を読みあさったせいで、教授たちより自分の方が賢いと思い込んでた。研究所で一番頭がいいのは自分だと信じて、\\n偉そうに命令し始めた…… ほかの連中は相手にせず、放っておいた。馬鹿もそのうち満足するだろうと思ってな……だが、そいつはやめなかった。自分の知識を見せつけ、\\n認められたくて必死だったんだ！　ゾーンやミュータント、ストーカーやその習慣について、何でも知ってると皆に吹聴した。サハロフまで、\\nそいつにうんざりしてた！ ある日、ベテランのストーカーたちが物資の取引に研究所へ来た。するとその若造が割って入り、チェルノブイリ犬と幻影の見分け方や、コントローラーを生け捕りにする方法だの、\\n科学用語を並べ立てた。そのときサハロフが部屋に入ってきて、しばらく聞いていた。 それから、若造にこう尋ねた。\\n「ゾーンの謎や、捉えどころのないミュータントの行動について、実に見事な解説をしてくれた。ぜひ教えてほしいことがある。フレッシュも齧歯類もシュードドッグも、\\n同じ肉を食べる。それなのに、齧歯類の糞は小さな粒、フレッシュの糞は平たい塊、シュードドッグの糞は大きく固まっている。なぜだろう？」\\n 「それは……分かりません」と助手は答えた。 サハロフは続けた。「なら、君はなぜ、\nゾーンでの生き延び方をベテランのストーカーに教えられると思ったんだ？　何も分かっていないくせに！」",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "7",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_escape:history_novice_8#1",
+                        "source_table":  "stable_dialogs_escape",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+                        "source_xml_line":  561,
+                        "string_id":  "history_novice_8",
+                        "occurrence":  1,
+                        "EN":  "This one Duty squad happened to find out about a secret ammo storehouse used by mercenaries in the vicinity of the \"Rostok\" factory. So, they decided to raid this storehouse, taking all the gear for themselves and depriving the mercs of valuable supplies, with the intention of thinning their presence in the area. The next day General Voronin was woken up by some commotion taking place out on the front yard. He went out and saw Petrenko giving two Duty men a dressing-down. \n\\n \\n\"Colonel, it\u0027s early morning! Why do you shout at these soldiers? They took part in yesterday\u0027s operation, they are tired and exhausted. One was even wounded, as far as I see... Why do you lecture them?\" \\n\"Greetings, General! Better ask these two idiots yourself, if you please.\" \\n\"Well, boys, spit it out, what happened?\" \\n\"Nothing much... Our squad got to the objective yesterday just as ordered. When the signal to attack was issued, we approached the hangar in which the ammo storehouse was supposed to be located... There we noticed some mercs, but their behavior was abnormal - they were somewhat doltish. It was obviously a controller\u0027s influence. We managed to annihilate the mercs silently and started scanning the area to locate the mutant. Both of us entered the hangar and noticed a shadow slip through one of the rooms. We looked inside, but it was too dark. Once we turned on our flashlights, we saw that the room was filled with containers and crates and whatever was in there had plenty of cover. So Fedka suggested we throw a grenade in there! Either it would kill the bastard outright or it would destroy the crates to expose the mutant. And so we did... \\n\"And what happened next? Did you manage to see it?\" \\nAt this moment Petrenko couldn\u0027t restrain himself anymore, and shouted, \"Half of the Zone managed to see it!!! These damned saboteurs went and detonated the entire ammo storehouse!!!\"\n        ",
+                        "JA_current":  "This one Duty squad happened to find out about a secret ammo storehouse used by mercenaries in the vicinity of the \"Rostok\" factory. So, they decided to raid this storehouse, taking all the gear for themselves and depriving the mercs of valuable supplies, with the intention of thinning their presence in the area. The next day General Voronin was woken up by some commotion taking place out on the front yard. He went out and saw Petrenko giving two Duty men a dressing-down. \n\\n \\n\"Colonel, it\u0027s early morning! Why do you shout at these soldiers? They took part in yesterday\u0027s operation, they are tired and exhausted. One was even wounded, as far as I see... Why do you lecture them?\" \\n\"Greetings, General! Better ask these two idiots yourself, if you please.\" \\n\"Well, boys, spit it out, what happened?\" \\n\"Nothing much... Our squad got to the objective yesterday just as ordered. When the signal to attack was issued, we approached the hangar in which the ammo storehouse was supposed to be located... There we noticed some mercs, but their behavior was abnormal - they were somewhat doltish. It was obviously a controller\u0027s influence. We managed to annihilate the mercs silently and started scanning the area to locate the mutant. Both of us entered the hangar and noticed a shadow slip through one of the rooms. We looked inside, but it was too dark. Once we turned on our flashlights, we saw that the room was filled with containers and crates and whatever was in there had plenty of cover. So Fedka suggested we throw a grenade in there! Either it would kill the bastard outright or it would destroy the crates to expose the mutant. And so we did... \\n\"And what happened next? Did you manage to see it?\" \\nAt this moment Petrenko couldn\u0027t restrain himself anymore, and shouted, \"Half of the Zone managed to see it!!! These damned saboteurs went and detonated the entire ammo storehouse!!!\"\n        ",
+                        "JA_new":  "デューティーの部隊が、ロストク工場の近くにマーセナリーズの秘密弾薬庫があると突き止めた。連中はそこを襲い、物資を奪ってマーセナリーズの戦力を削ぐことにした。\\n翌日、前庭の騒ぎでヴォロニン将軍が目を覚ました。外へ出ると、ペトレンコがデューティーの兵士二人を叱りつけていた。 「大佐、まだ朝早いのに、\\nなぜ兵士たちを怒鳴っている？　昨日の作戦に参加して疲れ切っているんだぞ。一人は負傷しているようだ……なぜ叱責する？」 「おはようございます、将軍。この二人に直接聞いてください」\\n 「よし、話してみろ。何があった？」 「大したことでは……昨日、命令どおりに目標へ向かいました。攻撃の合図が出て、\\n弾薬庫があるはずの格納庫に近づくと、マーセナリーズがいました。でも様子がおかしくて、ぼんやりしていたんです。コントローラーの影響だと思いました。気づかれないように始末して、\\nミュータントを探し始めました。二人で格納庫に入ると、部屋の一つに何かの影が滑り込むのが見えました。中を覗きましたが、暗くて分かりません。懐中電灯をつけると、\\nコンテナや箱が部屋じゅうに積まれていました。何かが隠れるには十分です。そこでフェドカが、手榴弾を投げ込もうと言いました！　相手を殺すか、箱を壊して姿を見せるか、\\nどちらかだと。それで投げたんです……」 「それで、どうなった？　姿は見えたのか？」 ペトレンコはとうとう我慢できず、\n怒鳴った。「ゾーン中に知れ渡ったよ！！！　この間抜けな破壊工作員どもが、弾薬庫ごと爆破しやがったんだ！\n！！」",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "8",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_escape:history_novice_9#1",
+                        "source_table":  "stable_dialogs_escape",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+                        "source_xml_line":  567,
+                        "string_id":  "history_novice_9",
+                        "occurrence":  1,
+                        "EN":  "Lukash stands by a mirror and keeps murmuring something to himself with his hands covering his shoulder straps:\n\\n\"Now - a stupid bastard...\" \n\\nUncovering the straps:\n\\n\"and now - a senior lieutenant...\" \n        ",
+                        "JA_current":  "Lukash stands by a mirror and keeps murmuring something to himself with his hands covering his shoulder straps:\n\\n\"Now - a stupid bastard...\" \n\\nUncovering the straps:\n\\n\"and now - a senior lieutenant...\" \n        ",
+                        "JA_new":  "ルカシュが鏡の前に立ち、\\n肩章を両手で隠しながら何かつぶやいている。\\n「さて、\\nここにいるのはただの馬鹿野郎……」\n肩章を見せて、\n「そして今は、\n中尉だ……」\n",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "9",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_escape:history_novice_10#1",
+                        "source_table":  "stable_dialogs_escape",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+                        "source_xml_line":  575,
+                        "string_id":  "history_novice_10",
+                        "occurrence":  1,
+                        "EN":  "Barkeep tells a stalker:\n\"Here, take this brick and bring down a military helicopter.\"\n\\n\"With a BRICK?!?!?!\"\n\\n\"You are a stalker, are you not?\"\n\\n\"I am a REAL stalker!!! I\u0027ll bring down two helicopters!!!!!\"\n\\nAnd he proceeds to break the brick in two halves.\n        ",
+                        "JA_current":  "Barkeep tells a stalker:\n\"Here, take this brick and bring down a military helicopter.\"\n\\n\"With a BRICK?!?!?!\"\n\\n\"You are a stalker, are you not?\"\n\\n\"I am a REAL stalker!!! I\u0027ll bring down two helicopters!!!!!\"\n\\nAnd he proceeds to break the brick in two halves.\n        ",
+                        "JA_new":  "バーキープがストーカーに言った。\\n「ほら、\\nこのレンガを持って、\\n軍のヘリを撃ち落としてこい」\\n「レンガで！\n？」「お前はストーカーだろ？」\n「俺は本物のストーカーだ！\n　ヘリを二機落としてやる！」\nそう言って、\nそいつはレンガを二つに割った。\n",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "10",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_escape:ogse_jokes_pc14_0#1",
+                        "source_table":  "stable_dialogs_escape",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+                        "source_xml_line":  2008,
+                        "string_id":  "ogse_jokes_pc14_0",
+                        "occurrence":  1,
+                        "EN":  "Wait, man, let me catch my breath. Some more stories are to follow.",
+                        "JA_current":  "Wait, man, let me catch my breath. Some more stories are to follow.",
+                        "JA_new":  "待てよ、息を整えさせてくれ。まだまだ話はあるぞ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "11",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "dialogs_escape_gameplay_text:dialogs_escape_1#1",
+                        "source_table":  "dialogs_escape_gameplay_text",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+                        "source_xml_line":  6,
+                        "string_id":  "dialogs_escape_1",
+                        "occurrence":  1,
+                        "EN":  "The Zone is just full of jokers, man...",
+                        "JA_current":  "The Zone is just full of jokers, man...",
+                        "JA_new":  "ゾーンは冗談好きばかりだな……",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "16",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "dialogs_escape_gameplay_text:dialogs_escape_2#1",
+                        "source_table":  "dialogs_escape_gameplay_text",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+                        "source_xml_line":  9,
+                        "string_id":  "dialogs_escape_2",
+                        "occurrence":  1,
+                        "EN":  "Funny.",
+                        "JA_current":  "Funny.",
+                        "JA_new":  "面白いな。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "17",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "dialogs_escape_gameplay_text:dialogs_escape_3#1",
+                        "source_table":  "dialogs_escape_gameplay_text",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+                        "source_xml_line":  12,
+                        "string_id":  "dialogs_escape_3",
+                        "occurrence":  1,
+                        "EN":  "That was good, ha!",
+                        "JA_current":  "That was good, ha!",
+                        "JA_new":  "笑ったよ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "18",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "dialogs_escape_gameplay_text:dialogs_escape_4#1",
+                        "source_table":  "dialogs_escape_gameplay_text",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+                        "source_xml_line":  15,
+                        "string_id":  "dialogs_escape_4",
+                        "occurrence":  1,
+                        "EN":  "A stalker credo: whatever the haste, first - the test; so that the haste does not turn to waste.",
+                        "JA_current":  "A stalker credo: whatever the haste, first - the test; so that the haste does not turn to waste.",
+                        "JA_new":  "ストーカーの心得。急ぐときこそ、まずは確かめろ。急いては事を仕損じるからな。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "19",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "dialogs_escape_gameplay_text:dialogs_escape_5#1",
+                        "source_table":  "dialogs_escape_gameplay_text",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+                        "source_xml_line":  18,
+                        "string_id":  "dialogs_escape_5",
+                        "occurrence":  1,
+                        "EN":  "Why do I feel like you\u0027ve had too much to drink?",
+                        "JA_current":  "Why do I feel like you\u0027ve had too much to drink?",
+                        "JA_new":  "ずいぶん飲んでるんじゃないか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "20",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "dialogs_escape_gameplay_text:dialogs_escape_6#1",
+                        "source_table":  "dialogs_escape_gameplay_text",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+                        "source_xml_line":  21,
+                        "string_id":  "dialogs_escape_6",
+                        "occurrence":  1,
+                        "EN":  "Man, you are damn good at telling stories!",
+                        "JA_current":  "Man, you are damn good at telling stories!",
+                        "JA_new":  "話がうまいな！",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "21",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "dialogs_escape_gameplay_text:dialogs_escape_7#1",
+                        "source_table":  "dialogs_escape_gameplay_text",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+                        "source_xml_line":  24,
+                        "string_id":  "dialogs_escape_7",
+                        "occurrence":  1,
+                        "EN":  "I\u0027ve heard this story already.",
+                        "JA_current":  "I\u0027ve heard this story already.",
+                        "JA_new":  "その話は前にも聞いた。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "22",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "dialogs_escape_gameplay_text:dialogs_escape_8#1",
+                        "source_table":  "dialogs_escape_gameplay_text",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+                        "source_xml_line":  27,
+                        "string_id":  "dialogs_escape_8",
+                        "occurrence":  1,
+                        "EN":  "That\u0027s an old story.",
+                        "JA_current":  "That\u0027s an old story.",
+                        "JA_new":  "古い話だな。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "23",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "dialogs_escape_gameplay_text:dialogs_escape_9#1",
+                        "source_table":  "dialogs_escape_gameplay_text",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+                        "source_xml_line":  30,
+                        "string_id":  "dialogs_escape_9",
+                        "occurrence":  1,
+                        "EN":  "Did he serve in the Military?",
+                        "JA_current":  "Did he serve in the Military?",
+                        "JA_new":  "そいつ、ミリタリーにいたのか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "24",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "dialogs_escape_gameplay_text:dialogs_escape_10#1",
+                        "source_table":  "dialogs_escape_gameplay_text",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+                        "source_xml_line":  33,
+                        "string_id":  "dialogs_escape_10",
+                        "occurrence":  1,
+                        "EN":  "Heh, swig another vodka and you\u0027re gonna slay everything and everyone in the Zone.",
+                        "JA_current":  "Heh, swig another vodka and you\u0027re gonna slay everything and everyone in the Zone.",
+                        "JA_new":  "へえ。ウォッカをもう一杯あおれば、ゾーン中の何でも誰でも倒せそうだな。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "25",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "dialogs_escape_gameplay_text:dialogs_escape_0#1",
+                        "source_table":  "dialogs_escape_gameplay_text",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+                        "source_xml_line":  3,
+                        "string_id":  "dialogs_escape_0",
+                        "occurrence":  1,
+                        "EN":  "See you, man. Thanks for making me laugh.",
+                        "JA_current":  "See you, man. Thanks for making me laugh.",
+                        "JA_new":  "じゃあな。笑わせてくれてありがとう。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "history_bar",
+                                               "phrase_id":  "15",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_escape.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  "ogse_jokes_start_0",
+                            "next":  [
+                                         "1",
+                                         "2",
+                                         "3",
+                                         "4",
+                                         "5",
+                                         "6",
+                                         "7",
+                                         "8",
+                                         "9",
+                                         "10",
+                                         "11"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "joke_and_history.joke_precondition10"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Why\u0027s everyone so gloomy here? How about a funny story?",
+                            "JA_current":  "Why\u0027s everyone so gloomy here? How about a funny story?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_escape:ogse_jokes_start_0#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "1",
+                            "text_id":  "history_novice_1",
+                            "next":  [
+                                         "16"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "precondition",
+                                                   "value":  "joke_and_history.pc1"
+                                               }
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Have you heard how the guys taught Mitka Squint-eyed a good lesson? You haven\u0027t?! Listen, then. That\u0027s the best story ever! Even Wolf himself was among them. Nothing too brutal, don\u0027t worry.\n        \\n \\nOk, I\u0027ll try to make it short. So, when he was still a newbie, Mitka was carrying himself in a very haughty manner. Kept wrangling with the veterans, like he knew everything and was a master of all skills. And there was another bad habit about him - he was fond of playing jokes on fellow stalkers. Tying a knot on shoelaces while someone is asleep and all that schoolboy crap. They even thought of giving him the nickname \"King\", but had enough sense to give up the idea - the guy would\u0027ve become even more arrogant. \\n \\nWhat was I was coming to?.. Ah, got it. So, everybody became tired of him and they decided to give him a good lesson. They solicited some sticky tape from Sidorovich, found a bucket and a stick. The bucket was placed on Mitka\u0027s head, and the stick was placed in his hands and fixed with the tape. When everything was ready, Wolf started drumming on the bucket and screaming:\n        \"King Arthur! Wake up! We\u0027ve been attacked!\"\n        \\n \\nThat was something, you know! Half-awake Mitka jumped up on his double bed and hit the ceiling with his head in the bucket! When he tried to take the bucket off, he got it hit a couple of times again with the stick in his hands!.. Uff... What happened after that? Well, they untied him, of course... He was in a huff with the guys for a couple of days, but later on he became mild as a lamb. He\u0027s now one of the veterans... That\u0027s it...\n        ",
+                            "JA_current":  "Have you heard how the guys taught Mitka Squint-eyed a good lesson? You haven\u0027t?! Listen, then. That\u0027s the best story ever! Even Wolf himself was among them. Nothing too brutal, don\u0027t worry.\n        \\n \\nOk, I\u0027ll try to make it short. So, when he was still a newbie, Mitka was carrying himself in a very haughty manner. Kept wrangling with the veterans, like he knew everything and was a master of all skills. And there was another bad habit about him - he was fond of playing jokes on fellow stalkers. Tying a knot on shoelaces while someone is asleep and all that schoolboy crap. They even thought of giving him the nickname \"King\", but had enough sense to give up the idea - the guy would\u0027ve become even more arrogant. \\n \\nWhat was I was coming to?.. Ah, got it. So, everybody became tired of him and they decided to give him a good lesson. They solicited some sticky tape from Sidorovich, found a bucket and a stick. The bucket was placed on Mitka\u0027s head, and the stick was placed in his hands and fixed with the tape. When everything was ready, Wolf started drumming on the bucket and screaming:\n        \"King Arthur! Wake up! We\u0027ve been attacked!\"\n        \\n \\nThat was something, you know! Half-awake Mitka jumped up on his double bed and hit the ceiling with his head in the bucket! When he tried to take the bucket off, he got it hit a couple of times again with the stick in his hands!.. Uff... What happened after that? Well, they untied him, of course... He was in a huff with the guys for a couple of days, but later on he became mild as a lamb. He\u0027s now one of the veterans... That\u0027s it...\n        ",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_escape:history_novice_1#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "2",
+                            "text_id":  "history_novice_2",
+                            "next":  [
+                                         "17"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "precondition",
+                                                   "value":  "joke_and_history.pc2"
+                                               }
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Have you heard the story of what happened to Chef recently? You know, The Chef! The one from the Freedom, at the Army Warehouses. So, listen. That\u0027s how he told it:\n        \"One nice evening I went out of our base to take a look around for some artifacts or whatever, just to get myself enough for a drink. So, I keep walking, touching nothing and there I see it! A cat with a cigarette in its mouth! Looking like it was about to light up and have a smoke!\"\n        \\n \\n\"The first thought was that I have finally drank my mind into oblivion! Besides, the Brain Scorcher is not far from there, so you know... Ok, so I rubbed my eyes for a bit, hoping that the hallucination would disappear. Nothing of the sort! And the cat started approaching me! I couldn\u0027t think of anything better than to take to my heels and run back to the base. Now, I\u0027m no rookie, seen plenty in the Zone, but that was just too fucked up even for me!\"\n        \\n \\n\"The guys from our lot didn\u0027t believe me at first. But later on one of our groups came back from the Barrier. They finally shed some light on the incident. It turned out that there was a vial with valerian drops among the ordinary medicine, and one of the lads found it and went off to the Barrier with his group. When on his way, he spilt a few drops and saw local cats gathering in that place. The damn humorist decided to make a joke and spilt some more drops on a cigarette... And the cat got it...\"\n        \\n \\nThat\u0027s it, Marked one. There\u0027s something familiar that still remains in these Zone cats, something reminiscent of our ordinary house cats... \n        ",
+                            "JA_current":  "Have you heard the story of what happened to Chef recently? You know, The Chef! The one from the Freedom, at the Army Warehouses. So, listen. That\u0027s how he told it:\n        \"One nice evening I went out of our base to take a look around for some artifacts or whatever, just to get myself enough for a drink. So, I keep walking, touching nothing and there I see it! A cat with a cigarette in its mouth! Looking like it was about to light up and have a smoke!\"\n        \\n \\n\"The first thought was that I have finally drank my mind into oblivion! Besides, the Brain Scorcher is not far from there, so you know... Ok, so I rubbed my eyes for a bit, hoping that the hallucination would disappear. Nothing of the sort! And the cat started approaching me! I couldn\u0027t think of anything better than to take to my heels and run back to the base. Now, I\u0027m no rookie, seen plenty in the Zone, but that was just too fucked up even for me!\"\n        \\n \\n\"The guys from our lot didn\u0027t believe me at first. But later on one of our groups came back from the Barrier. They finally shed some light on the incident. It turned out that there was a vial with valerian drops among the ordinary medicine, and one of the lads found it and went off to the Barrier with his group. When on his way, he spilt a few drops and saw local cats gathering in that place. The damn humorist decided to make a joke and spilt some more drops on a cigarette... And the cat got it...\"\n        \\n \\nThat\u0027s it, Marked one. There\u0027s something familiar that still remains in these Zone cats, something reminiscent of our ordinary house cats... \n        ",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_escape:history_novice_2#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "3",
+                            "text_id":  "history_novice_3",
+                            "next":  [
+                                         "18"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "precondition",
+                                                   "value":  "joke_and_history.pc3"
+                                               }
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Well, how about a real story. \\n \\nA group of scientists was out for some field research at Yantar, and they had a squad of Duty as their security. Bad luck for them - they came across a horde of zombies and had to seek cover in some tunnel or something. So, the Duty guards were holding ground on both sides. The eggheads were good for nothing, except for one young assistant, a newbie in the Zone. Although pale and trembling with fear, he started reloading magazines for the Duty soldiers. \\n \\nJust to cheer the lad up, the squad sergeant asked him: \"Scared, know-it-all?\". \\n\"No\", he replied, \"just a bit apprehensive.\" \\n\"What\u0027s the difference??!\", the commander wondered. \\n \\nGuess what was his answer? \\n\"That means I\u0027m scared with a university education.\" \\nJust imagine! This is the lad\u0027s first time out of his home town, He\u0027s been weaned from his mother and sent straight into the Zone, and now attacked by zombies! And yet he\u0027s just \"apprehensive\"! Attaboy! \n        ",
+                            "JA_current":  "Well, how about a real story. \\n \\nA group of scientists was out for some field research at Yantar, and they had a squad of Duty as their security. Bad luck for them - they came across a horde of zombies and had to seek cover in some tunnel or something. So, the Duty guards were holding ground on both sides. The eggheads were good for nothing, except for one young assistant, a newbie in the Zone. Although pale and trembling with fear, he started reloading magazines for the Duty soldiers. \\n \\nJust to cheer the lad up, the squad sergeant asked him: \"Scared, know-it-all?\". \\n\"No\", he replied, \"just a bit apprehensive.\" \\n\"What\u0027s the difference??!\", the commander wondered. \\n \\nGuess what was his answer? \\n\"That means I\u0027m scared with a university education.\" \\nJust imagine! This is the lad\u0027s first time out of his home town, He\u0027s been weaned from his mother and sent straight into the Zone, and now attacked by zombies! And yet he\u0027s just \"apprehensive\"! Attaboy! \n        ",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_escape:history_novice_3#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "4",
+                            "text_id":  "history_novice_4",
+                            "next":  [
+                                         "19"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "precondition",
+                                                   "value":  "joke_and_history.pc4"
+                                               }
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Wait a minute, how about a warning story. One day I got some artifacts at the Garbage and went back to Cordon to sell them to Sidorovich and get myself some equipment for deeper raids. That\u0027s not the point, though. So, while walking on the road from Garbage to Cordon, I suddenly got a feeling that something was wrong. Something was holding me back from making a step forward! It was like an indicator flicking in my head: \"Attention! Attention! Danger!\", my hairs stood on end, never felt anything like this before.\n\t\t\\n \\nWhile I was standing there all freaked out, a stalker, probably a rookie, was coming towards me along the road. As he came nearer, a few meters away, he took a step over some invisible field or barrier and something happened to him... He got... How can I describe it adequately... It\u0027s like he got torn inside out!!! Without a single sound, not a noise or a peep or a scream! Just the ribcage splitting open like a venus fly trap, internal organs and blood flying all over the place, limbs broken and deformed... I- I kept drowning out that memory in drink for about a week straight after that...\n        \\n \\nI guess what I\u0027m getting at here, is... Just take care of yourself, Marked One. Learn to trust your senses...\n        ",
+                            "JA_current":  "Wait a minute, how about a warning story. One day I got some artifacts at the Garbage and went back to Cordon to sell them to Sidorovich and get myself some equipment for deeper raids. That\u0027s not the point, though. So, while walking on the road from Garbage to Cordon, I suddenly got a feeling that something was wrong. Something was holding me back from making a step forward! It was like an indicator flicking in my head: \"Attention! Attention! Danger!\", my hairs stood on end, never felt anything like this before.\n\t\t\\n \\nWhile I was standing there all freaked out, a stalker, probably a rookie, was coming towards me along the road. As he came nearer, a few meters away, he took a step over some invisible field or barrier and something happened to him... He got... How can I describe it adequately... It\u0027s like he got torn inside out!!! Without a single sound, not a noise or a peep or a scream! Just the ribcage splitting open like a venus fly trap, internal organs and blood flying all over the place, limbs broken and deformed... I- I kept drowning out that memory in drink for about a week straight after that...\n        \\n \\nI guess what I\u0027m getting at here, is... Just take care of yourself, Marked One. Learn to trust your senses...\n        ",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_escape:history_novice_4#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "5",
+                            "text_id":  "history_novice_5",
+                            "next":  [
+                                         "20"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "precondition",
+                                                   "value":  "joke_and_history.pc5"
+                                               }
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Well, I\u0027ve got a remarkable story! One evening, my buddies and myself were sitting by a campfire out in the Zone. Just trying to have some fun, you know; - vodka, jokes, snacks, trying to unwind from the stress. Once we got a few drinks in, one of the lads went off a distance to take a shit. Then suddenly out of nowhere... Screaming, shooting, chaos! \\n \\nWithin seconds the guy made it back to us, trembling in fear and with his trousers still down by his knees. \\n\"What happened?!\" we asked him. \\n\"I sat down by some bush to shit, and suddenly something hit me on the ass!! So, I took to my feet, shooting back and shitting all over the place...\" \\n \\nMan, we almost laughed our heads off! Anyway, we decided to go and check out the place, see what kind of pervert attacked our friend. The moment we approached these bushes and lit them up with the flashlights... Only that dumbass shitter remained standing, the rest of us were on the floor, pissing ourselves laughing: laying down beneath the bush was a zombie with shit all over his face!!! \\n \\nThe poor creature was just laying there while our buddy was taking a dump on his face! Obviously, as the zombie had been trying to wave away the stinky bastard, it slapped our buddy on the ass... \\nOnce we composed ourselves, we went and put the bastard out of his misery, not even a zombie deserves a \"shitty\" fate like that! Ha-ha... Man, this story has stayed with me since then, probably the best thing I\u0027ve seen out here! Everytime I feel down, I just remember that zombie\u0027s shit stained expression and I start chuckling to myself!\n        ",
+                            "JA_current":  "Well, I\u0027ve got a remarkable story! One evening, my buddies and myself were sitting by a campfire out in the Zone. Just trying to have some fun, you know; - vodka, jokes, snacks, trying to unwind from the stress. Once we got a few drinks in, one of the lads went off a distance to take a shit. Then suddenly out of nowhere... Screaming, shooting, chaos! \\n \\nWithin seconds the guy made it back to us, trembling in fear and with his trousers still down by his knees. \\n\"What happened?!\" we asked him. \\n\"I sat down by some bush to shit, and suddenly something hit me on the ass!! So, I took to my feet, shooting back and shitting all over the place...\" \\n \\nMan, we almost laughed our heads off! Anyway, we decided to go and check out the place, see what kind of pervert attacked our friend. The moment we approached these bushes and lit them up with the flashlights... Only that dumbass shitter remained standing, the rest of us were on the floor, pissing ourselves laughing: laying down beneath the bush was a zombie with shit all over his face!!! \\n \\nThe poor creature was just laying there while our buddy was taking a dump on his face! Obviously, as the zombie had been trying to wave away the stinky bastard, it slapped our buddy on the ass... \\nOnce we composed ourselves, we went and put the bastard out of his misery, not even a zombie deserves a \"shitty\" fate like that! Ha-ha... Man, this story has stayed with me since then, probably the best thing I\u0027ve seen out here! Everytime I feel down, I just remember that zombie\u0027s shit stained expression and I start chuckling to myself!\n        ",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_escape:history_novice_5#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "6",
+                            "text_id":  "history_novice_6",
+                            "next":  [
+                                         "21"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "precondition",
+                                                   "value":  "joke_and_history.pc6"
+                                               }
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Have you heard what happened to Chef recently? That one stalker, the one from the Freedom, at the Army Warehouses. So, listen, this is how it went. One evening he went out on a raid for some artifacts, just on his lonesome to earn some drinking cash. As he kept pushing deeper into the wilderness, he saw something that made him stop and rub his eyes! There was a mutant cat sitting around with a fucking cigarette in his mouth! The cat was just chilling out in the weeds, smoking a fag!\n        \\n \\nThe guy thought that maybe he was going nuts or that he walked too close to the barrier and his brain was slowly frying... No matter how hard he tried, he could not make it go away, the cat was real, not just a figment of his imagination. Then, the fucking cat gets up and starts approaching him, all casual like! The guy freaks out and starts legging it full speed ahead back to the Freedom base. Stop laughing, this is a serious story! You may think he was probably high since the Freedom guys like to dabble in that stuff but listen to the rest, it gets better!\n        \\n \\nThe fellas back at the Freedom base did not believe a word he said. They all thought he was tripping on some bad \u0027shrooms until a squad came back from the Scorcher. Upon hearing the story, they roared in laughter and explained the whole thing. Turns out, one of those guys had some LSD in liquid form that he liked to take from time to time, for the experience, and he spilled some on the ground closer to the barrier. Later on he saw a few local cats gathering in that place, lapping that shit right off the ground. The damn bastard decided to have some fun and spilt some more drops on a cigarette, then he threw it at the cats... And one of the bastard cats caught it...\n        \\n \\nSo, the hero of our story wasn\u0027t hallucinating at all, strange things really do happen in the Zone! Just imagine what that cat must have been seeing, though, tripped up on acid like that! This whole story is just beyond bizarre, hanging out with Freedom is a real trip! \n        ",
+                            "JA_current":  "Have you heard what happened to Chef recently? That one stalker, the one from the Freedom, at the Army Warehouses. So, listen, this is how it went. One evening he went out on a raid for some artifacts, just on his lonesome to earn some drinking cash. As he kept pushing deeper into the wilderness, he saw something that made him stop and rub his eyes! There was a mutant cat sitting around with a fucking cigarette in his mouth! The cat was just chilling out in the weeds, smoking a fag!\n        \\n \\nThe guy thought that maybe he was going nuts or that he walked too close to the barrier and his brain was slowly frying... No matter how hard he tried, he could not make it go away, the cat was real, not just a figment of his imagination. Then, the fucking cat gets up and starts approaching him, all casual like! The guy freaks out and starts legging it full speed ahead back to the Freedom base. Stop laughing, this is a serious story! You may think he was probably high since the Freedom guys like to dabble in that stuff but listen to the rest, it gets better!\n        \\n \\nThe fellas back at the Freedom base did not believe a word he said. They all thought he was tripping on some bad \u0027shrooms until a squad came back from the Scorcher. Upon hearing the story, they roared in laughter and explained the whole thing. Turns out, one of those guys had some LSD in liquid form that he liked to take from time to time, for the experience, and he spilled some on the ground closer to the barrier. Later on he saw a few local cats gathering in that place, lapping that shit right off the ground. The damn bastard decided to have some fun and spilt some more drops on a cigarette, then he threw it at the cats... And one of the bastard cats caught it...\n        \\n \\nSo, the hero of our story wasn\u0027t hallucinating at all, strange things really do happen in the Zone! Just imagine what that cat must have been seeing, though, tripped up on acid like that! This whole story is just beyond bizarre, hanging out with Freedom is a real trip! \n        ",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_escape:history_novice_6#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "7",
+                            "text_id":  "history_novice_7",
+                            "next":  [
+                                         "22"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "precondition",
+                                                   "value":  "joke_and_history.pc7"
+                                               }
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Some time ago, some young assistant got assigned to that field lab at Yantar. This kid was different from the others, usually the eggheads over there are smart and prefer to listen attentively before talking, but this dick had read so many science papers back at the institute that he thought himself wiser than all the other professors. He believed he was the smartest brainiac in the whole lab, started throwing his weight around, giving commands to the others... \\n \\nThey mostly shrugged it off and ignored him, let the fool get it out of his system... But the guy would not relent, he was really eager to prove himself and get recognized! So, he tried to impress everybody with his knowledge of the Zone, the mutants, the stalkers and their traditions, everything! Even Sakharov got tired of the upstart! \\n \\nOne day, a group of experienced stalkers dropped by at the lab to trade in some goods, and this prick got right in the middle of them and started proclaiming wise scientific terms and theories on how to tell a Chernobyl dog from its phantom, how to catch a controller alive, bla-bla-bla. At that moment Sakharov entered the chamber and stopped for a while to listen. \\n \\nThen he addressed himself to the pipsqueak: \"You have been revealing remarkable things to us about the Zone\u0027s mysteries and elusive mutant behavioral patterns. I have got a question I need help with. A flesh, a rodent and a pseudodog all eat the same meat. Yet a rodent excretes it in little pellets, while a flesh\u0027s excretion is a flat patty and a pseudodog produces thick clumps of fecal mass. Why is that so?\" \\n\"Well... I don\u0027t know\", the assistant answered. \\nSo, Sakharov continued: \"How is it, then, that you, young man, feel qualified to teach experienced stalkers survival in the Zone when YOU DON\u0027T KNOW SHIT?!!\"\n        ",
+                            "JA_current":  "Some time ago, some young assistant got assigned to that field lab at Yantar. This kid was different from the others, usually the eggheads over there are smart and prefer to listen attentively before talking, but this dick had read so many science papers back at the institute that he thought himself wiser than all the other professors. He believed he was the smartest brainiac in the whole lab, started throwing his weight around, giving commands to the others... \\n \\nThey mostly shrugged it off and ignored him, let the fool get it out of his system... But the guy would not relent, he was really eager to prove himself and get recognized! So, he tried to impress everybody with his knowledge of the Zone, the mutants, the stalkers and their traditions, everything! Even Sakharov got tired of the upstart! \\n \\nOne day, a group of experienced stalkers dropped by at the lab to trade in some goods, and this prick got right in the middle of them and started proclaiming wise scientific terms and theories on how to tell a Chernobyl dog from its phantom, how to catch a controller alive, bla-bla-bla. At that moment Sakharov entered the chamber and stopped for a while to listen. \\n \\nThen he addressed himself to the pipsqueak: \"You have been revealing remarkable things to us about the Zone\u0027s mysteries and elusive mutant behavioral patterns. I have got a question I need help with. A flesh, a rodent and a pseudodog all eat the same meat. Yet a rodent excretes it in little pellets, while a flesh\u0027s excretion is a flat patty and a pseudodog produces thick clumps of fecal mass. Why is that so?\" \\n\"Well... I don\u0027t know\", the assistant answered. \\nSo, Sakharov continued: \"How is it, then, that you, young man, feel qualified to teach experienced stalkers survival in the Zone when YOU DON\u0027T KNOW SHIT?!!\"\n        ",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_escape:history_novice_7#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "8",
+                            "text_id":  "history_novice_8",
+                            "next":  [
+                                         "23"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "precondition",
+                                                   "value":  "joke_and_history.pc8"
+                                               }
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "This one Duty squad happened to find out about a secret ammo storehouse used by mercenaries in the vicinity of the \"Rostok\" factory. So, they decided to raid this storehouse, taking all the gear for themselves and depriving the mercs of valuable supplies, with the intention of thinning their presence in the area. The next day General Voronin was woken up by some commotion taking place out on the front yard. He went out and saw Petrenko giving two Duty men a dressing-down. \n\\n \\n\"Colonel, it\u0027s early morning! Why do you shout at these soldiers? They took part in yesterday\u0027s operation, they are tired and exhausted. One was even wounded, as far as I see... Why do you lecture them?\" \\n\"Greetings, General! Better ask these two idiots yourself, if you please.\" \\n\"Well, boys, spit it out, what happened?\" \\n\"Nothing much... Our squad got to the objective yesterday just as ordered. When the signal to attack was issued, we approached the hangar in which the ammo storehouse was supposed to be located... There we noticed some mercs, but their behavior was abnormal - they were somewhat doltish. It was obviously a controller\u0027s influence. We managed to annihilate the mercs silently and started scanning the area to locate the mutant. Both of us entered the hangar and noticed a shadow slip through one of the rooms. We looked inside, but it was too dark. Once we turned on our flashlights, we saw that the room was filled with containers and crates and whatever was in there had plenty of cover. So Fedka suggested we throw a grenade in there! Either it would kill the bastard outright or it would destroy the crates to expose the mutant. And so we did... \\n\"And what happened next? Did you manage to see it?\" \\nAt this moment Petrenko couldn\u0027t restrain himself anymore, and shouted, \"Half of the Zone managed to see it!!! These damned saboteurs went and detonated the entire ammo storehouse!!!\"\n        ",
+                            "JA_current":  "This one Duty squad happened to find out about a secret ammo storehouse used by mercenaries in the vicinity of the \"Rostok\" factory. So, they decided to raid this storehouse, taking all the gear for themselves and depriving the mercs of valuable supplies, with the intention of thinning their presence in the area. The next day General Voronin was woken up by some commotion taking place out on the front yard. He went out and saw Petrenko giving two Duty men a dressing-down. \n\\n \\n\"Colonel, it\u0027s early morning! Why do you shout at these soldiers? They took part in yesterday\u0027s operation, they are tired and exhausted. One was even wounded, as far as I see... Why do you lecture them?\" \\n\"Greetings, General! Better ask these two idiots yourself, if you please.\" \\n\"Well, boys, spit it out, what happened?\" \\n\"Nothing much... Our squad got to the objective yesterday just as ordered. When the signal to attack was issued, we approached the hangar in which the ammo storehouse was supposed to be located... There we noticed some mercs, but their behavior was abnormal - they were somewhat doltish. It was obviously a controller\u0027s influence. We managed to annihilate the mercs silently and started scanning the area to locate the mutant. Both of us entered the hangar and noticed a shadow slip through one of the rooms. We looked inside, but it was too dark. Once we turned on our flashlights, we saw that the room was filled with containers and crates and whatever was in there had plenty of cover. So Fedka suggested we throw a grenade in there! Either it would kill the bastard outright or it would destroy the crates to expose the mutant. And so we did... \\n\"And what happened next? Did you manage to see it?\" \\nAt this moment Petrenko couldn\u0027t restrain himself anymore, and shouted, \"Half of the Zone managed to see it!!! These damned saboteurs went and detonated the entire ammo storehouse!!!\"\n        ",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_escape:history_novice_8#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "9",
+                            "text_id":  "history_novice_9",
+                            "next":  [
+                                         "24"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "precondition",
+                                                   "value":  "joke_and_history.pc9"
+                                               }
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Lukash stands by a mirror and keeps murmuring something to himself with his hands covering his shoulder straps:\n\\n\"Now - a stupid bastard...\" \n\\nUncovering the straps:\n\\n\"and now - a senior lieutenant...\" \n        ",
+                            "JA_current":  "Lukash stands by a mirror and keeps murmuring something to himself with his hands covering his shoulder straps:\n\\n\"Now - a stupid bastard...\" \n\\nUncovering the straps:\n\\n\"and now - a senior lieutenant...\" \n        ",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_escape:history_novice_9#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "10",
+                            "text_id":  "history_novice_10",
+                            "next":  [
+                                         "25"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "precondition",
+                                                   "value":  "joke_and_history.pc10"
+                                               }
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Barkeep tells a stalker:\n\"Here, take this brick and bring down a military helicopter.\"\n\\n\"With a BRICK?!?!?!\"\n\\n\"You are a stalker, are you not?\"\n\\n\"I am a REAL stalker!!! I\u0027ll bring down two helicopters!!!!!\"\n\\nAnd he proceeds to break the brick in two halves.\n        ",
+                            "JA_current":  "Barkeep tells a stalker:\n\"Here, take this brick and bring down a military helicopter.\"\n\\n\"With a BRICK?!?!?!\"\n\\n\"You are a stalker, are you not?\"\n\\n\"I am a REAL stalker!!! I\u0027ll bring down two helicopters!!!!!\"\n\\nAnd he proceeds to break the brick in two halves.\n        ",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_escape:history_novice_10#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "11",
+                            "text_id":  "ogse_jokes_pc14_0",
+                            "next":  [
+                                         "15"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "precondition",
+                                                   "value":  "joke_and_history.pc14"
+                                               }
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Wait, man, let me catch my breath. Some more stories are to follow.",
+                            "JA_current":  "Wait, man, let me catch my breath. Some more stories are to follow.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_escape:ogse_jokes_pc14_0#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "16",
+                            "text_id":  "dialogs_escape_1",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "joke_and_history.change_r"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "The Zone is just full of jokers, man...",
+                            "JA_current":  "The Zone is just full of jokers, man...",
+                            "string_entry_candidates":  [
+                                                            "dialogs_escape_gameplay_text:dialogs_escape_1#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "17",
+                            "text_id":  "dialogs_escape_2",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "joke_and_history.change_r"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "2"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Funny.",
+                            "JA_current":  "Funny.",
+                            "string_entry_candidates":  [
+                                                            "dialogs_escape_gameplay_text:dialogs_escape_2#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "18",
+                            "text_id":  "dialogs_escape_3",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "joke_and_history.change_r"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "3"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "That was good, ha!",
+                            "JA_current":  "That was good, ha!",
+                            "string_entry_candidates":  [
+                                                            "dialogs_escape_gameplay_text:dialogs_escape_3#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "19",
+                            "text_id":  "dialogs_escape_4",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "joke_and_history.change_r"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "4"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "A stalker credo: whatever the haste, first - the test; so that the haste does not turn to waste.",
+                            "JA_current":  "A stalker credo: whatever the haste, first - the test; so that the haste does not turn to waste.",
+                            "string_entry_candidates":  [
+                                                            "dialogs_escape_gameplay_text:dialogs_escape_4#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "20",
+                            "text_id":  "dialogs_escape_5",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "joke_and_history.change_r"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "5"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Why do I feel like you\u0027ve had too much to drink?",
+                            "JA_current":  "Why do I feel like you\u0027ve had too much to drink?",
+                            "string_entry_candidates":  [
+                                                            "dialogs_escape_gameplay_text:dialogs_escape_5#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "21",
+                            "text_id":  "dialogs_escape_6",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "joke_and_history.change_r"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "6"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Man, you are damn good at telling stories!",
+                            "JA_current":  "Man, you are damn good at telling stories!",
+                            "string_entry_candidates":  [
+                                                            "dialogs_escape_gameplay_text:dialogs_escape_6#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "22",
+                            "text_id":  "dialogs_escape_7",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "joke_and_history.change_r"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "7"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I\u0027ve heard this story already.",
+                            "JA_current":  "I\u0027ve heard this story already.",
+                            "string_entry_candidates":  [
+                                                            "dialogs_escape_gameplay_text:dialogs_escape_7#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "23",
+                            "text_id":  "dialogs_escape_8",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "joke_and_history.change_r"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "8"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "That\u0027s an old story.",
+                            "JA_current":  "That\u0027s an old story.",
+                            "string_entry_candidates":  [
+                                                            "dialogs_escape_gameplay_text:dialogs_escape_8#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "24",
+                            "text_id":  "dialogs_escape_9",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "joke_and_history.change_r"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "9"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Did he serve in the Military?",
+                            "JA_current":  "Did he serve in the Military?",
+                            "string_entry_candidates":  [
+                                                            "dialogs_escape_gameplay_text:dialogs_escape_9#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "25",
+                            "text_id":  "dialogs_escape_10",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "joke_and_history.change_r"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "10"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Heh, swig another vodka and you\u0027re gonna slay everything and everyone in the Zone.",
+                            "JA_current":  "Heh, swig another vodka and you\u0027re gonna slay everything and everyone in the Zone.",
+                            "string_entry_candidates":  [
+                                                            "dialogs_escape_gameplay_text:dialogs_escape_10#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "15",
+                            "text_id":  "dialogs_escape_0",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "dialogs.break_dialog"
+                                            },
+                                            {
+                                                "type":  "action",
+                                                "value":  "joke_and_history.block_begin_dialog1"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "11"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "See you, man. Thanks for making me laugh.",
+                            "JA_current":  "See you, man. Thanks for making me laugh.",
+                            "string_entry_candidates":  [
+                                                            "dialogs_escape_gameplay_text:dialogs_escape_0#1"
+                                                        ]
+                        }
+                    ]
+}

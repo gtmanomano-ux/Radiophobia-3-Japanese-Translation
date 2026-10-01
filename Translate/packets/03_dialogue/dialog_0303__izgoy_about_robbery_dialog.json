@@ -1,0 +1,574 @@
+{
+  "packet_id": "dialog_0303__izgoy_about_robbery_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "izgoy_about_robbery_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "esc_stalker_izgoy",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "volk_about_izgoy"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "izgoy_about_robbery_dialog"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 13,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2048,
+      "string_id": "izgoy_about_robbery_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Why did you steal from the merchant?",
+      "JA_current": "Why did you steal from the merchant?",
+      "JA_new": "どうして商人から盗んだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_about_robbery_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2051,
+      "string_id": "izgoy_about_robbery_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "I didn't steal anything, how many times have I told you!!! It was all Fedka, because of him I'm totally screwed now!",
+      "JA_current": "I didn't steal anything, how many times have I told you!!! It was all Fedka, because of him I'm totally screwed now!",
+      "JA_new": "俺は何も盗んでない！ 何度言えば分かるんだ！ 全部フェドカのせいだ。あいつのせいで、俺はこんな目に遭ってる！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_about_robbery_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2054,
+      "string_id": "izgoy_about_robbery_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Are you blaming it on a friend?",
+      "JA_current": "Are you blaming it on a friend?",
+      "JA_new": "友達のせいにするのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_about_robbery_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2057,
+      "string_id": "izgoy_about_robbery_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "No, it's not that simple! At least hear me out, please. Maybe you'll believe me.",
+      "JA_current": "No, it's not that simple! At least hear me out, please. Maybe you'll believe me.",
+      "JA_new": "いや、そんな簡単な話じゃない！ せめて最後まで聞いてくれ。信じてくれるかもしれない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_about_robbery_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2060,
+      "string_id": "izgoy_about_robbery_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Go ahead, tell me your version of what happened.",
+      "JA_current": "Go ahead, tell me your version of what happened.",
+      "JA_new": "いいだろう。何があったのか、お前の話を聞かせてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_about_robbery_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2063,
+      "string_id": "izgoy_about_robbery_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "My former buddy Fedka, may the Zone eat him up, once suggested that I play a joke on the local merchant Sidorovich. Life here in the village is quiet, there are few dangers, the soldiers have not bothered us lately, so we just wanted to have some fun. But Fedka was up to no good, and under the guise of a joke decided to commit a crime. Unfortunately, I realized it too late... ",
+      "JA_current": "My former buddy Fedka, may the Zone eat him up, once suggested that I play a joke on the local merchant Sidorovich. Life here in the village is quiet, there are few dangers, the soldiers have not bothered us lately, so we just wanted to have some fun. But Fedka was up to no good, and under the guise of a joke decided to commit a crime. Unfortunately, I realized it too late... ",
+      "JA_new": "昔の相棒だったフェドカめ、ゾーンに喰われちまえばよかったんだ。あいつが、地元の商人シドロヴィッチにいたずらをしようと言い出した。村の暮らしは静かで危険も少ないし、兵士たちも最近はちょっかいを出してこなかった。だから、ちょっと遊びたかったんだ。だがフェドカは最初から悪だくみをしてた。いたずらに見せかけて、本当に盗みを働くつもりだったんだ。気づいた時には遅すぎた……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_about_robbery_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2066,
+      "string_id": "izgoy_about_robbery_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Go on.",
+      "JA_current": "Go on.",
+      "JA_new": "続けてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_about_robbery_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2069,
+      "string_id": "izgoy_about_robbery_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "He suggested that we simulate a fire in Sidorovich's hiding place and, while he was running for help, wreak a little havoc in his closet. So we did just that: we threw a lighted skein of oil-soaked rags down the chimney, and when the frightened salesman jumped out, we put on gas masks and ran in. Well, we fooled around a bit, and turned over a table and a couple of cabinets, but I didn't get anything out of there. Fedka, on the other hand, managed to fill his sack with the merchant's goods and when we jumped out of the bunker, he rushed off in the direction of the bridge. I don't know why, but instead of hiding, I ran after him.",
+      "JA_current": "He suggested that we simulate a fire in Sidorovich's hiding place and, while he was running for help, wreak a little havoc in his closet. So we did just that: we threw a lighted skein of oil-soaked rags down the chimney, and when the frightened salesman jumped out, we put on gas masks and ran in. Well, we fooled around a bit, and turned over a table and a couple of cabinets, but I didn't get anything out of there. Fedka, on the other hand, managed to fill his sack with the merchant's goods and when we jumped out of the bunker, he rushed off in the direction of the bridge. I don't know why, but instead of hiding, I ran after him.",
+      "JA_new": "シドロヴィッチの隠れ家を火事に見せかけて、助けを呼びに飛び出した隙に、戸棚を荒らそうと言ったんだ。それで、油を染み込ませた布束に火をつけ、煙突に投げ込んだ。驚いて商人が飛び出してきたら、ガスマスクを着けて中へ入った。俺たちは少し中を荒らして、テーブルと戸棚をいくつかひっくり返しただけだ。俺は何も持ち出してない。ところがフェドカは商人の品を袋いっぱいに詰めて、地下壕から飛び出すなり橋のほうへ走っていった。なぜか俺は、隠れずにあいつを追いかけちまった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_about_robbery_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2072,
+      "string_id": "izgoy_about_robbery_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "Yes, that's what you signed your sentence with.",
+      "JA_current": "Yes, that's what you signed your sentence with.",
+      "JA_new": "そうか。それで自分の首を絞めたんだな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_about_robbery_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2075,
+      "string_id": "izgoy_about_robbery_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "Most likely, yes... Serves me right for acting before stopping to think. Wolf and his associates caught up to me very quickly, I didn't even manage to get very far. But Fedka... I still can't understand what happened to him.",
+      "JA_current": "Most likely, yes... Serves me right for acting before stopping to think. Wolf and his associates caught up to me very quickly, I didn't even manage to get very far. But Fedka... I still can't understand what happened to him.",
+      "JA_new": "たぶん、そうだ……考えずに動いた報いだ。ウルフたちはすぐに俺を捕まえた。ほとんど逃げられなかった。でもフェドカは……あいつに何が起きたのか、今も分からない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_about_robbery_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2078,
+      "string_id": "izgoy_about_robbery_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "Something out of the ordinary?",
+      "JA_current": "Something out of the ordinary?",
+      "JA_new": "何か普通じゃないことが起きたのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_about_robbery_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_12#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2081,
+      "string_id": "izgoy_about_robbery_dialog_phrase_12",
+      "occurrence": 1,
+      "EN": "Exactly... How can I explain it? I saw it ten meters away from me. The weather was clear, visibility was good, and there were no anomalies or beasts nearby. I turned away just for a fraction of a second, and when I looked again, he was nowhere to be seen! What the hell. I certainly understand that it sounds like a fairy tale, but this is the Zone, strange shit happens here all the time. Anyway, I don't know what to say...",
+      "JA_current": "Exactly... How can I explain it? I saw it ten meters away from me. The weather was clear, visibility was good, and there were no anomalies or beasts nearby. I turned away just for a fraction of a second, and when I looked again, he was nowhere to be seen! What the hell. I certainly understand that it sounds like a fairy tale, but this is the Zone, strange shit happens here all the time. Anyway, I don't know what to say...",
+      "JA_new": "そうなんだ……どう説明すればいい？ あいつは10メートル先にいた。天気は晴れていて、見通しもよかった。近くにアノマリーも獣もいなかった。それなのに、一瞬だけ目をそらして、もう一度見たらあいつの姿がどこにもなかった！ 何なんだよ。作り話みたいに聞こえるのは分かってる。だが、ここはゾーンだ。妙なことなんて、いくらでも起きる。とにかく、俺にも分からない……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_about_robbery_dialog",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_13#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2084,
+      "string_id": "izgoy_about_robbery_dialog_phrase_13",
+      "occurrence": 1,
+      "EN": "Yeah, that's interesting.",
+      "JA_current": "Yeah, that's interesting.",
+      "JA_new": "ああ、それは興味深いな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "izgoy_about_robbery_dialog",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "izgoy_about_robbery_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Why did you steal from the merchant?",
+      "JA_current": "Why did you steal from the merchant?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "izgoy_about_robbery_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I didn't steal anything, how many times have I told you!!! It was all Fedka, because of him I'm totally screwed now!",
+      "JA_current": "I didn't steal anything, how many times have I told you!!! It was all Fedka, because of him I'm totally screwed now!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "izgoy_about_robbery_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Are you blaming it on a friend?",
+      "JA_current": "Are you blaming it on a friend?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "izgoy_about_robbery_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, it's not that simple! At least hear me out, please. Maybe you'll believe me.",
+      "JA_current": "No, it's not that simple! At least hear me out, please. Maybe you'll believe me.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "izgoy_about_robbery_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Go ahead, tell me your version of what happened.",
+      "JA_current": "Go ahead, tell me your version of what happened.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "izgoy_about_robbery_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "My former buddy Fedka, may the Zone eat him up, once suggested that I play a joke on the local merchant Sidorovich. Life here in the village is quiet, there are few dangers, the soldiers have not bothered us lately, so we just wanted to have some fun. But Fedka was up to no good, and under the guise of a joke decided to commit a crime. Unfortunately, I realized it too late... ",
+      "JA_current": "My former buddy Fedka, may the Zone eat him up, once suggested that I play a joke on the local merchant Sidorovich. Life here in the village is quiet, there are few dangers, the soldiers have not bothered us lately, so we just wanted to have some fun. But Fedka was up to no good, and under the guise of a joke decided to commit a crime. Unfortunately, I realized it too late... ",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "izgoy_about_robbery_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Go on.",
+      "JA_current": "Go on.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "izgoy_about_robbery_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "He suggested that we simulate a fire in Sidorovich's hiding place and, while he was running for help, wreak a little havoc in his closet. So we did just that: we threw a lighted skein of oil-soaked rags down the chimney, and when the frightened salesman jumped out, we put on gas masks and ran in. Well, we fooled around a bit, and turned over a table and a couple of cabinets, but I didn't get anything out of there. Fedka, on the other hand, managed to fill his sack with the merchant's goods and when we jumped out of the bunker, he rushed off in the direction of the bridge. I don't know why, but instead of hiding, I ran after him.",
+      "JA_current": "He suggested that we simulate a fire in Sidorovich's hiding place and, while he was running for help, wreak a little havoc in his closet. So we did just that: we threw a lighted skein of oil-soaked rags down the chimney, and when the frightened salesman jumped out, we put on gas masks and ran in. Well, we fooled around a bit, and turned over a table and a couple of cabinets, but I didn't get anything out of there. Fedka, on the other hand, managed to fill his sack with the merchant's goods and when we jumped out of the bunker, he rushed off in the direction of the bridge. I don't know why, but instead of hiding, I ran after him.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "izgoy_about_robbery_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, that's what you signed your sentence with.",
+      "JA_current": "Yes, that's what you signed your sentence with.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "izgoy_about_robbery_dialog_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Most likely, yes... Serves me right for acting before stopping to think. Wolf and his associates caught up to me very quickly, I didn't even manage to get very far. But Fedka... I still can't understand what happened to him.",
+      "JA_current": "Most likely, yes... Serves me right for acting before stopping to think. Wolf and his associates caught up to me very quickly, I didn't even manage to get very far. But Fedka... I still can't understand what happened to him.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "izgoy_about_robbery_dialog_phrase_11",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Something out of the ordinary?",
+      "JA_current": "Something out of the ordinary?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "izgoy_about_robbery_dialog_phrase_12",
+      "next": [
+        "12"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Exactly... How can I explain it? I saw it ten meters away from me. The weather was clear, visibility was good, and there were no anomalies or beasts nearby. I turned away just for a fraction of a second, and when I looked again, he was nowhere to be seen! What the hell. I certainly understand that it sounds like a fairy tale, but this is the Zone, strange shit happens here all the time. Anyway, I don't know what to say...",
+      "JA_current": "Exactly... How can I explain it? I saw it ten meters away from me. The weather was clear, visibility was good, and there were no anomalies or beasts nearby. I turned away just for a fraction of a second, and when I looked again, he was nowhere to be seen! What the hell. I certainly understand that it sounds like a fairy tale, but this is the Zone, strange shit happens here all the time. Anyway, I don't know what to say...",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_12#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "izgoy_about_robbery_dialog_phrase_13",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "izgoy_about_robbery_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, that's interesting.",
+      "JA_current": "Yeah, that's interesting.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:izgoy_about_robbery_dialog_phrase_13#1"
+      ]
+    }
+  ]
+}

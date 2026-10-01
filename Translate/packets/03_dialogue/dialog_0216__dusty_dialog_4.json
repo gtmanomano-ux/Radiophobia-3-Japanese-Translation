@@ -1,0 +1,2453 @@
+{
+  "packet_id": "dialog_0216__dusty_dialog_4",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "dusty_dialog_4",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "bar_barman_need_room"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "abakan_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "ak74_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "ak47_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "sayga12k_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "vsk_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "rpk_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "ak107_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "vihr_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "bizon_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "groza_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "aksu_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "toz34_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "sayga12c_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "pkm_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "svu_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "winchester_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "mp5_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "xm8_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "m249_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "fn2000_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "g36_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "remington_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "spas_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "l85_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "scorpion_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "g36c_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "uzi_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "g3_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "sig550_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "lr300_otdan"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "vintorez_otdan"
+    },
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.have_some_weapons"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 38,
+  "entries": [
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_72#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 219,
+      "string_id": "dialogs_bar_72",
+      "occurrence": 1,
+      "EN": "I want to improve a weapon.",
+      "JA_current": "I want to improve a weapon.",
+      "JA_new": "武器を改造したい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_73#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 222,
+      "string_id": "dialogs_bar_73",
+      "occurrence": 1,
+      "EN": "Which one?",
+      "JA_current": "Which one?",
+      "JA_new": "どれを？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "0_1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_74#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 225,
+      "string_id": "dialogs_bar_74",
+      "occurrence": 1,
+      "EN": "I've got this piece here...",
+      "JA_current": "I've got this piece here...",
+      "JA_new": "これを見てくれ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_75#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 228,
+      "string_id": "dialogs_bar_75",
+      "occurrence": 1,
+      "EN": "Show me.",
+      "JA_current": "Show me.",
+      "JA_new": "見せてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_76#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 231,
+      "string_id": "dialogs_bar_76",
+      "occurrence": 1,
+      "EN": "AN-94 \"Abakan\"",
+      "JA_current": "AN-94 \"Abakan\"",
+      "JA_new": "AN-94「アバカン」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_77#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 234,
+      "string_id": "dialogs_bar_77",
+      "occurrence": 1,
+      "EN": "AK-74",
+      "JA_current": "AK-74",
+      "JA_new": "AK-74",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_78#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 237,
+      "string_id": "dialogs_bar_78",
+      "occurrence": 1,
+      "EN": "AK-47",
+      "JA_current": "AK-47",
+      "JA_new": "AK-47",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_79#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 240,
+      "string_id": "dialogs_bar_79",
+      "occurrence": 1,
+      "EN": "Saiga-12K carbine",
+      "JA_current": "Saiga-12K carbine",
+      "JA_new": "Saiga-12K カービン銃",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_80#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 243,
+      "string_id": "dialogs_bar_80",
+      "occurrence": 1,
+      "EN": "AS VAL",
+      "JA_current": "AS VAL",
+      "JA_new": "AS VAL",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_81#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 246,
+      "string_id": "dialogs_bar_81",
+      "occurrence": 1,
+      "EN": "RPK-74",
+      "JA_current": "RPK-74",
+      "JA_new": "RPK-74",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_82#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 249,
+      "string_id": "dialogs_bar_82",
+      "occurrence": 1,
+      "EN": "AK-107",
+      "JA_current": "AK-107",
+      "JA_new": "AK-107",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_83#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 252,
+      "string_id": "dialogs_bar_83",
+      "occurrence": 1,
+      "EN": "SR-3 \"Vortex\"",
+      "JA_current": "SR-3 \"Vortex\"",
+      "JA_new": "SR-3「ヴィーフリ」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_84#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 255,
+      "string_id": "dialogs_bar_84",
+      "occurrence": 1,
+      "EN": "PP \"Bison\"",
+      "JA_current": "PP \"Bison\"",
+      "JA_new": "PP「ビゾン」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_85#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 258,
+      "string_id": "dialogs_bar_85",
+      "occurrence": 1,
+      "EN": "AGC Thunderstorm",
+      "JA_current": "AGC Thunderstorm",
+      "JA_new": "AGC「グローザ」",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_86#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 261,
+      "string_id": "dialogs_bar_86",
+      "occurrence": 1,
+      "EN": "AKSU",
+      "JA_current": "AKSU",
+      "JA_new": "AKSU",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_87#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 264,
+      "string_id": "dialogs_bar_87",
+      "occurrence": 1,
+      "EN": "TOZ-34",
+      "JA_current": "TOZ-34",
+      "JA_new": "TOZ-34",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_88#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 267,
+      "string_id": "dialogs_bar_88",
+      "occurrence": 1,
+      "EN": "Saiga-12S carbine",
+      "JA_current": "Saiga-12S carbine",
+      "JA_new": "Saiga-12S カービン銃",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_89#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 270,
+      "string_id": "dialogs_bar_89",
+      "occurrence": 1,
+      "EN": "PKM machine gun",
+      "JA_current": "PKM machine gun",
+      "JA_new": "PKM 機関銃",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "16",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_90#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 273,
+      "string_id": "dialogs_bar_90",
+      "occurrence": 1,
+      "EN": "IED",
+      "JA_current": "IED",
+      "JA_new": "SVU",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "17",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_91#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 276,
+      "string_id": "dialogs_bar_91",
+      "occurrence": 1,
+      "EN": "Winchester-1300",
+      "JA_current": "Winchester-1300",
+      "JA_new": "Winchester-1300",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "18",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_92#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 279,
+      "string_id": "dialogs_bar_92",
+      "occurrence": 1,
+      "EN": "МР-5",
+      "JA_current": "��-5",
+      "JA_new": "MP-5",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "19",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_93#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 282,
+      "string_id": "dialogs_bar_93",
+      "occurrence": 1,
+      "EN": "XM-8 rifle",
+      "JA_current": "XM-8 rifle",
+      "JA_new": "XM-8 ライフル",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "20",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_94#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 285,
+      "string_id": "dialogs_bar_94",
+      "occurrence": 1,
+      "EN": "M-249 machine gun",
+      "JA_current": "M-249 machine gun",
+      "JA_new": "M-249 機関銃",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_95#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 288,
+      "string_id": "dialogs_bar_95",
+      "occurrence": 1,
+      "EN": "FN-2000",
+      "JA_current": "FN-2000",
+      "JA_new": "FN-2000",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "22",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_96#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 291,
+      "string_id": "dialogs_bar_96",
+      "occurrence": 1,
+      "EN": "G-36 rifle",
+      "JA_current": "G-36 rifle",
+      "JA_new": "G-36 ライフル",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "23",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_97#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 294,
+      "string_id": "dialogs_bar_97",
+      "occurrence": 1,
+      "EN": "Remington shotgun",
+      "JA_current": "Remington shotgun",
+      "JA_new": "Remington ショットガン",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "24",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_98#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 297,
+      "string_id": "dialogs_bar_98",
+      "occurrence": 1,
+      "EN": "SPAS-12 shotgun",
+      "JA_current": "SPAS-12 shotgun",
+      "JA_new": "SPAS-12 ショットガン",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "25",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_99#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 300,
+      "string_id": "dialogs_bar_99",
+      "occurrence": 1,
+      "EN": "L-85 rifle",
+      "JA_current": "L-85 rifle",
+      "JA_new": "L-85 ライフル",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "26",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_100#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 303,
+      "string_id": "dialogs_bar_100",
+      "occurrence": 1,
+      "EN": "ПП Scorpion",
+      "JA_current": "�� Scorpion",
+      "JA_new": "PP スコーピオン",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "27",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_101#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 306,
+      "string_id": "dialogs_bar_101",
+      "occurrence": 1,
+      "EN": "G-36C rifle",
+      "JA_current": "G-36C rifle",
+      "JA_new": "G-36C ライフル",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "28",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_102#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 309,
+      "string_id": "dialogs_bar_102",
+      "occurrence": 1,
+      "EN": "UZI machine",
+      "JA_current": "UZI machine",
+      "JA_new": "UZI サブマシンガン",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "29",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_103#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 312,
+      "string_id": "dialogs_bar_103",
+      "occurrence": 1,
+      "EN": "G-3 rifle",
+      "JA_current": "G-3 rifle",
+      "JA_new": "G-3 ライフル",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "30",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_104#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 315,
+      "string_id": "dialogs_bar_104",
+      "occurrence": 1,
+      "EN": "SIG-550 rifle",
+      "JA_current": "SIG-550 rifle",
+      "JA_new": "SIG-550 ライフル",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "31",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_105#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 318,
+      "string_id": "dialogs_bar_105",
+      "occurrence": 1,
+      "EN": "LR-300 rifle",
+      "JA_current": "LR-300 rifle",
+      "JA_new": "LR-300 ライフル",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "32",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_106#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 321,
+      "string_id": "dialogs_bar_106",
+      "occurrence": 1,
+      "EN": "VSS Vintorez",
+      "JA_current": "VSS Vintorez",
+      "JA_new": "VSS Vintorez",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "33",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_109#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 330,
+      "string_id": "dialogs_bar_109",
+      "occurrence": 1,
+      "EN": "Not yet.",
+      "JA_current": "Not yet.",
+      "JA_new": "今はやめておく。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "36",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_107#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 324,
+      "string_id": "dialogs_bar_107",
+      "occurrence": 1,
+      "EN": "Okay, now wait a few hours for me to make it.",
+      "JA_current": "Okay, now wait a few hours for me to make it.",
+      "JA_new": "分かった。仕上がるまで数時間待ってくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "34",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_bar_gameplay_text:dialogs_bar_108#1",
+      "source_table": "dialogs_bar_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_bar_gameplay_text.xml",
+      "source_xml_line": 327,
+      "string_id": "dialogs_bar_108",
+      "occurrence": 1,
+      "EN": "Okay.",
+      "JA_current": "Okay.",
+      "JA_new": "分かった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dusty_dialog_4",
+          "phrase_id": "35",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "dialogs_bar_72",
+      "next": [
+        "0_1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I want to improve a weapon.",
+      "JA_current": "I want to improve a weapon.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_72#1"
+      ]
+    },
+    {
+      "phrase_id": "0_1",
+      "text_id": "dialogs_bar_73",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Which one?",
+      "JA_current": "Which one?",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_73#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "dialogs_bar_74",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0_1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I've got this piece here...",
+      "JA_current": "I've got this piece here...",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_74#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "dialogs_bar_75",
+      "next": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "36"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Show me.",
+      "JA_current": "Show me.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_75#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "dialogs_bar_76",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_abakan"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments1_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.abakan_out"
+        },
+        {
+          "type": "give_info",
+          "value": "abakan_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "AN-94 \"Abakan\"",
+      "JA_current": "AN-94 \"Abakan\"",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_76#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "dialogs_bar_77",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_ak74"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments1_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.ak74_out"
+        },
+        {
+          "type": "give_info",
+          "value": "ak74_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "AK-74",
+      "JA_current": "AK-74",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_77#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "dialogs_bar_78",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_ak47"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments1_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.ak47_out"
+        },
+        {
+          "type": "give_info",
+          "value": "ak47_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "AK-47",
+      "JA_current": "AK-47",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_78#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "dialogs_bar_79",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_sayga12k"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments1_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.sayga12k_out"
+        },
+        {
+          "type": "give_info",
+          "value": "sayga12k_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Saiga-12K carbine",
+      "JA_current": "Saiga-12K carbine",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_79#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "dialogs_bar_80",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_val"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments1_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.val_out"
+        },
+        {
+          "type": "give_info",
+          "value": "vsk_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "AS VAL",
+      "JA_current": "AS VAL",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_80#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "dialogs_bar_81",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_rpk"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments1_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.rpk_out"
+        },
+        {
+          "type": "give_info",
+          "value": "rpk_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "RPK-74",
+      "JA_current": "RPK-74",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_81#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "dialogs_bar_82",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_ak107"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments1_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.ak107_out"
+        },
+        {
+          "type": "give_info",
+          "value": "ak107_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "AK-107",
+      "JA_current": "AK-107",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_82#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "dialogs_bar_83",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_vihr"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments1_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.vihr_out"
+        },
+        {
+          "type": "give_info",
+          "value": "vihr_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "SR-3 \"Vortex\"",
+      "JA_current": "SR-3 \"Vortex\"",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_83#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "dialogs_bar_84",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_bizon"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments1_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.bizon_out"
+        },
+        {
+          "type": "give_info",
+          "value": "bizon_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "PP \"Bison\"",
+      "JA_current": "PP \"Bison\"",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_84#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "dialogs_bar_85",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_groza"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments1_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.groza_out"
+        },
+        {
+          "type": "give_info",
+          "value": "groza_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "AGC Thunderstorm",
+      "JA_current": "AGC Thunderstorm",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_85#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "dialogs_bar_86",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_aksu"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments1_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.aksu_out"
+        },
+        {
+          "type": "give_info",
+          "value": "aksu_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "AKSU",
+      "JA_current": "AKSU",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_86#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "dialogs_bar_87",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_toz34"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments1_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.toz34_out"
+        },
+        {
+          "type": "give_info",
+          "value": "toz34_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "TOZ-34",
+      "JA_current": "TOZ-34",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_87#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "dialogs_bar_88",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_sayga12c"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments1_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.sayga12c_out"
+        },
+        {
+          "type": "give_info",
+          "value": "sayga12c_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Saiga-12S carbine",
+      "JA_current": "Saiga-12S carbine",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_88#1"
+      ]
+    },
+    {
+      "phrase_id": "16",
+      "text_id": "dialogs_bar_89",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_pkm"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments1_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.pkm_out"
+        },
+        {
+          "type": "give_info",
+          "value": "pkm_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "PKM machine gun",
+      "JA_current": "PKM machine gun",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_89#1"
+      ]
+    },
+    {
+      "phrase_id": "17",
+      "text_id": "dialogs_bar_90",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_svu"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments1_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.svu_out"
+        },
+        {
+          "type": "give_info",
+          "value": "svu_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "IED",
+      "JA_current": "IED",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_90#1"
+      ]
+    },
+    {
+      "phrase_id": "18",
+      "text_id": "dialogs_bar_91",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_wincheaster"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments2_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.wincheaster_out"
+        },
+        {
+          "type": "give_info",
+          "value": "winchester_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Winchester-1300",
+      "JA_current": "Winchester-1300",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_91#1"
+      ]
+    },
+    {
+      "phrase_id": "19",
+      "text_id": "dialogs_bar_92",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_mp5"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments2_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.mp5_out"
+        },
+        {
+          "type": "give_info",
+          "value": "mp5_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "МР-5",
+      "JA_current": "��-5",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_92#1"
+      ]
+    },
+    {
+      "phrase_id": "20",
+      "text_id": "dialogs_bar_93",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_xm8"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments2_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.xm8_out"
+        },
+        {
+          "type": "give_info",
+          "value": "xm8_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "XM-8 rifle",
+      "JA_current": "XM-8 rifle",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_93#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "dialogs_bar_94",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_m249"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments2_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.m249_out"
+        },
+        {
+          "type": "give_info",
+          "value": "m249_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "M-249 machine gun",
+      "JA_current": "M-249 machine gun",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_94#1"
+      ]
+    },
+    {
+      "phrase_id": "22",
+      "text_id": "dialogs_bar_95",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_fn2000"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments2_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.fn2000_out"
+        },
+        {
+          "type": "give_info",
+          "value": "fn2000_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "FN-2000",
+      "JA_current": "FN-2000",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_95#1"
+      ]
+    },
+    {
+      "phrase_id": "23",
+      "text_id": "dialogs_bar_96",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_g36"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments2_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.g36_out"
+        },
+        {
+          "type": "give_info",
+          "value": "g36_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "G-36 rifle",
+      "JA_current": "G-36 rifle",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_96#1"
+      ]
+    },
+    {
+      "phrase_id": "24",
+      "text_id": "dialogs_bar_97",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_remington"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments2_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.remington_out"
+        },
+        {
+          "type": "give_info",
+          "value": "remington_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Remington shotgun",
+      "JA_current": "Remington shotgun",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_97#1"
+      ]
+    },
+    {
+      "phrase_id": "25",
+      "text_id": "dialogs_bar_98",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_spas"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments2_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.spas_out"
+        },
+        {
+          "type": "give_info",
+          "value": "spas_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "SPAS-12 shotgun",
+      "JA_current": "SPAS-12 shotgun",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_98#1"
+      ]
+    },
+    {
+      "phrase_id": "26",
+      "text_id": "dialogs_bar_99",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_l85"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments2_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.l85_out"
+        },
+        {
+          "type": "give_info",
+          "value": "l85_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "L-85 rifle",
+      "JA_current": "L-85 rifle",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_99#1"
+      ]
+    },
+    {
+      "phrase_id": "27",
+      "text_id": "dialogs_bar_100",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_scorpion"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments2_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.scorpion_out"
+        },
+        {
+          "type": "give_info",
+          "value": "scorpion_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "ПП Scorpion",
+      "JA_current": "�� Scorpion",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_100#1"
+      ]
+    },
+    {
+      "phrase_id": "28",
+      "text_id": "dialogs_bar_101",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_g36c"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments2_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.g36c_out"
+        },
+        {
+          "type": "give_info",
+          "value": "g36c_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "G-36C rifle",
+      "JA_current": "G-36C rifle",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_101#1"
+      ]
+    },
+    {
+      "phrase_id": "29",
+      "text_id": "dialogs_bar_102",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_uzi"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments2_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.uzi_out"
+        },
+        {
+          "type": "give_info",
+          "value": "uzi_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "UZI machine",
+      "JA_current": "UZI machine",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_102#1"
+      ]
+    },
+    {
+      "phrase_id": "30",
+      "text_id": "dialogs_bar_103",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_g3"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments2_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.g3_out"
+        },
+        {
+          "type": "give_info",
+          "value": "g3_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "G-3 rifle",
+      "JA_current": "G-3 rifle",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_103#1"
+      ]
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "dialogs_bar_104",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_sig550"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments2_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.sig550_out"
+        },
+        {
+          "type": "give_info",
+          "value": "sig550_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "SIG-550 rifle",
+      "JA_current": "SIG-550 rifle",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_104#1"
+      ]
+    },
+    {
+      "phrase_id": "32",
+      "text_id": "dialogs_bar_105",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_lr300"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments2_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.lr300_out"
+        },
+        {
+          "type": "give_info",
+          "value": "lr300_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "LR-300 rifle",
+      "JA_current": "LR-300 rifle",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_105#1"
+      ]
+    },
+    {
+      "phrase_id": "33",
+      "text_id": "dialogs_bar_106",
+      "next": [
+        "34"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "addon_dialogs.have_vintorez"
+        },
+        {
+          "type": "has_info",
+          "value": "instruments1_otdan"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.vintorez_out"
+        },
+        {
+          "type": "give_info",
+          "value": "vintorez_otdan"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.gun_timer_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "VSS Vintorez",
+      "JA_current": "VSS Vintorez",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_106#1"
+      ]
+    },
+    {
+      "phrase_id": "36",
+      "text_id": "dialogs_bar_109",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Not yet.",
+      "JA_current": "Not yet.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_109#1"
+      ]
+    },
+    {
+      "phrase_id": "34",
+      "text_id": "dialogs_bar_107",
+      "next": [
+        "35"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Okay, now wait a few hours for me to make it.",
+      "JA_current": "Okay, now wait a few hours for me to make it.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_107#1"
+      ]
+    },
+    {
+      "phrase_id": "35",
+      "text_id": "dialogs_bar_108",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "34"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Okay.",
+      "JA_current": "Okay.",
+      "string_entry_candidates": [
+        "dialogs_bar_gameplay_text:dialogs_bar_108#1"
+      ]
+    }
+  ]
+}

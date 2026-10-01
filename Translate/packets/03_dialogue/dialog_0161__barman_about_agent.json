@@ -1,0 +1,291 @@
+{
+  "packet_id": "dialog_0161__barman_about_agent",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "barman_about_agent",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_barman",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "barman_about_agent"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "ubit_bastu"
+    },
+    {
+      "type": "has_info",
+      "value": "infa_ot_diggera"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 6,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:barman_about_agent_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1790,
+      "string_id": "barman_about_agent_phrase_1",
+      "occurrence": 1,
+      "EN": "Bartender, I need some information.",
+      "JA_current": "Bartender, I need some information.",
+      "JA_new": "バーテンダー、情報が欲しい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_about_agent",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:barman_about_agent_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1793,
+      "string_id": "barman_about_agent_phrase_2",
+      "occurrence": 1,
+      "EN": "What about?",
+      "JA_current": "What about?",
+      "JA_new": "何についてだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_about_agent",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:barman_about_agent_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1796,
+      "string_id": "barman_about_agent_phrase_3",
+      "occurrence": 1,
+      "EN": "Tell me, has there been a group of two unfamiliar stalkers around here lately?",
+      "JA_current": "Tell me, has there been a group of two unfamiliar stalkers around here lately?",
+      "JA_new": "最近、見慣れないストーカーが二人組で来なかったか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_about_agent",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:barman_about_agent_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1799,
+      "string_id": "barman_about_agent_phrase_4",
+      "occurrence": 1,
+      "EN": "A lot of groups have been popping up here lately, and not just two, but three, five or more - I can't remember them all.",
+      "JA_current": "A lot of groups have been popping up here lately, and not just two, but three, five or more - I can't remember them all.",
+      "JA_new": "最近は色んな連中が来てる。二人どころか、三人組、五人組、それ以上もな。全部は覚えてないよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_about_agent",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:barman_about_agent_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1802,
+      "string_id": "barman_about_agent_phrase_5",
+      "occurrence": 1,
+      "EN": "Do you know anyone here in the Bar who could possibly be an agent capable of sending information on request to anyone, even outside the Zone?",
+      "JA_current": "Do you know anyone here in the Bar who could possibly be an agent capable of sending information on request to anyone, even outside the Zone?",
+      "JA_new": "依頼されれば、ゾーンの外にも情報を送れるようなエージェントが、このバーにいると思うか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_about_agent",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:barman_about_agent_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1805,
+      "string_id": "barman_about_agent_phrase_6",
+      "occurrence": 1,
+      "EN": "What agent, Marked One? What are you, a child playing at James Bond or something? Did you fall on your head or did you wander too close to the scorcher? There's only one guy like that here who could get a message out, but he doesn't really like dealing with strangers unless you've got plenty of dough, I know that much. He's standing right over there by the counter. He's called the snitch. Go ask him.",
+      "JA_current": "What agent, Marked One? What are you, a child playing at James Bond or something? Did you fall on your head or did you wander too close to the scorcher? There's only one guy like that here who could get a message out, but he doesn't really like dealing with strangers unless you've got plenty of dough, I know that much. He's standing right over there by the counter. He's called the snitch. Go ask him.",
+      "JA_new": "エージェントだと？ マークド・ワン、ジェームズ・ボンドごっこをしてる子供か？ 頭を打ったのか、それともブレイン・スコーチャーに近づきすぎたか？ ここで情報を外へ送れる奴なら一人だけいるが、金を積まないとよそ者とは取引しない。カウンターのそばに立ってるだろ。情報屋って呼ばれてる。本人に聞いてみな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_about_agent",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "barman_about_agent_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Bartender, I need some information.",
+      "JA_current": "Bartender, I need some information.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:barman_about_agent_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "barman_about_agent_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What about?",
+      "JA_current": "What about?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:barman_about_agent_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "barman_about_agent_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Tell me, has there been a group of two unfamiliar stalkers around here lately?",
+      "JA_current": "Tell me, has there been a group of two unfamiliar stalkers around here lately?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:barman_about_agent_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "barman_about_agent_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A lot of groups have been popping up here lately, and not just two, but three, five or more - I can't remember them all.",
+      "JA_current": "A lot of groups have been popping up here lately, and not just two, but three, five or more - I can't remember them all.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:barman_about_agent_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "barman_about_agent_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Do you know anyone here in the Bar who could possibly be an agent capable of sending information on request to anyone, even outside the Zone?",
+      "JA_current": "Do you know anyone here in the Bar who could possibly be an agent capable of sending information on request to anyone, even outside the Zone?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:barman_about_agent_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "barman_about_agent_phrase_6",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "barman_about_agent"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What agent, Marked One? What are you, a child playing at James Bond or something? Did you fall on your head or did you wander too close to the scorcher? There's only one guy like that here who could get a message out, but he doesn't really like dealing with strangers unless you've got plenty of dough, I know that much. He's standing right over there by the counter. He's called the snitch. Go ask him.",
+      "JA_current": "What agent, Marked One? What are you, a child playing at James Bond or something? Did you fall on your head or did you wander too close to the scorcher? There's only one guy like that here who could get a message out, but he doesn't really like dealing with strangers unless you've got plenty of dough, I know that much. He's standing right over there by the counter. He's called the snitch. Go ask him.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:barman_about_agent_phrase_6#1"
+      ]
+    }
+  ]
+}

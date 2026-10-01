@@ -1,0 +1,360 @@
+{
+  "packet_id": "dialog_0146__bar_dolg_leader_join",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_dolg_leader_join",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_dolg_leader",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "bar_svoboda_rg6_start"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 8,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_join_0#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1304,
+      "string_id": "bar_dolg_leader_join_0",
+      "occurrence": 1,
+      "EN": "Barkeep told me that you have some assignment for me at the military warehouses...",
+      "JA_current": "バーキープから聞いた。軍事倉庫で俺にやらせたい仕事があるそうだな……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_join",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_join_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1307,
+      "string_id": "bar_dolg_leader_join_1",
+      "occurrence": 1,
+      "EN": "I want to ask you to do one thing for me, it's a personal favor, you understand? We're in the midst of territorial warfare with the Freedom faction and we need some weapons more powerful than what we have. Freedom has some excellent grenade launchers. If you could penetrate their territory and steal at least one such grenade launcher, I would generously reward you. Since you aren't in our faction, you can quickly gain the trust of Freedom and, if you're lucky, get a hold of the hardware.",
+      "JA_current": "頼みたいことがある。私個人の依頼だ、いいな？ 今、我々はフリーダムと縄張り争いの真っ最中だが、連中に対抗するためにより強力な火力を欲している。フリーダムは非常に優れたグレネードランチャーをいくつか保有しているのだ。奴らの本拠地に潜入し、そのグレネードランチャーを一丁でも盗み出してくれれば、惜しみない報酬を出そう。お前はまだ我が派閥の人間ではない。奴らを油断させて信用を得るのも容易だろうし、運が良ければブツを手に入れられるはずだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_join",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_join_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1310,
+      "string_id": "bar_dolg_leader_join_11",
+      "occurrence": 1,
+      "EN": "Go on.",
+      "JA_current": "続けてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_join",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_join_111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1313,
+      "string_id": "bar_dolg_leader_join_111",
+      "occurrence": 1,
+      "EN": "I'll upload the location of the Freedom base for you. You'll need to find the Chef. He's a member of Freedom. He knows where the goods are kept. And he likes his booze so bring a lot of vodka with you. So, what do you say?",
+      "JA_current": "フリーダム基地の座標をPDAに送っておく。向こうで「シェフ」という男を探せ。フリーダムの隊員で、武器の保管場所を握っている。奴は大の酒好きだ、ウォッカをたんまり持っていくといい。どうだ、引き受けてくれるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_join",
+          "phrase_id": "111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_join_1111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1316,
+      "string_id": "bar_dolg_leader_join_1111",
+      "occurrence": 1,
+      "EN": "OK, I'll try to steal a grenade launcher from Freedom.",
+      "JA_current": "分かった。フリーダムからグレネードランチャーをくすねてこよう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_join",
+          "phrase_id": "1111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_join_1112#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1322,
+      "string_id": "bar_dolg_leader_join_1112",
+      "occurrence": 1,
+      "EN": "I'm not ready for such exploits just yet.",
+      "JA_current": "そんな危険な芸当に首を突っ込む気はまだないな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_join",
+          "phrase_id": "1112",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_join_11111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1319,
+      "string_id": "bar_dolg_leader_join_11111",
+      "occurrence": 1,
+      "EN": "Oh, and one more thing. Colonel Skull and his boys disobeyed my order and decided to attack the Freedom base without authorization. Well, they can reap what they've sown... suicidal bastards. Don't get involved in their fight. Just try to get me the launcher - nothing else matters.",
+      "JA_current": "ああ、それともう一つ。スカル大佐とその部下どもが私の命令に背き、独断でフリーダム基地へ攻撃を仕掛けようとしている。まったく、自分で蒔いた種は自分で刈り取ってもらうしかない……死に急ぐ阿呆どもめ。奴らの戦闘には決して関わるな。グレネードランチャーを確実に私の元へ持ち帰るんだ――それ以外はどうでもいい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_join",
+          "phrase_id": "11111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_join_11121#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1325,
+      "string_id": "bar_dolg_leader_join_11121",
+      "occurrence": 1,
+      "EN": "Up to you.",
+      "JA_current": "お前が決めることだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_join",
+          "phrase_id": "11121",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bar_dolg_leader_join_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Barkeep told me that you have some assignment for me at the military warehouses...",
+      "JA_current": "Barkeep に聞いたんだが、Military warehouses で、俺に何か任務があるって…。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_join_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "bar_dolg_leader_join_1",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I want to ask you to do one thing for me, it's a personal favor, you understand? We're in the midst of territorial warfare with the Freedom faction and we need some weapons more powerful than what we have. Freedom has some excellent grenade launchers. If you could penetrate their territory and steal at least one such grenade launcher, I would generously reward you. Since you aren't in our faction, you can quickly gain the trust of Freedom and, if you're lucky, get a hold of the hardware.",
+      "JA_current": "1つ頼み事がある、個人的な、いいかな？ 俺たちは Freedom との戦争の真っ只中にあって、今よりもっと強力な武器をいくつか必要としている。Freedom は何やら素晴らしい Bulldog 6 グレネードランチャーを 所持しているようだ。ヤツらのテリトリーに潜入し、その手のグレネードランチャーを1つでも盗み出してくれれば、よろこんで報酬を払おう。お前は俺たちの派閥に属してないから、すぐに Freedom の信用が得られるし、運がよければ、Bulldog 6 も手に入る。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_join_1#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "bar_dolg_leader_join_11",
+      "next": [
+        "111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Go on.",
+      "JA_current": "続けてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_join_11#1"
+      ]
+    },
+    {
+      "phrase_id": "111",
+      "text_id": "bar_dolg_leader_join_111",
+      "next": [
+        "1111",
+        "1112"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'll upload the location of the Freedom base for you. You'll need to find the Chef. He's a member of Freedom. He knows where the goods are kept. And he likes his booze so bring a lot of vodka with you. So, what do you say?",
+      "JA_current": "お前宛てに Freedom の基地の位置をアップロードしよう。Chef を見つける必要がある。Freedom のメンバーだ。RG-6s がどこに保管されているか、ヤツが知っている。ヤツは酒に目がない、ウォッカを山ほど持って行け。それで、やってくれるのか？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_join_111#1"
+      ]
+    },
+    {
+      "phrase_id": "1111",
+      "text_id": "bar_dolg_leader_join_1111",
+      "next": [
+        "11111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "bar_svoboda_rg6_start"
+        },
+        {
+          "type": "give_info",
+          "value": "mil_freedom_rg6_task"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "OK, I'll try to steal a grenade launcher from Freedom.",
+      "JA_current": "わかった、Freedom から Bulldog 6 を盗んでみよう。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_join_1111#1"
+      ]
+    },
+    {
+      "phrase_id": "1112",
+      "text_id": "bar_dolg_leader_join_1112",
+      "next": [
+        "11121"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm not ready for such exploits just yet.",
+      "JA_current": "まだ、そんな英雄にはなれないよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_join_1112#1"
+      ]
+    },
+    {
+      "phrase_id": "11111",
+      "text_id": "bar_dolg_leader_join_11111",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh, and one more thing. Colonel Skull and his boys disobeyed my order and decided to attack the Freedom base without authorization. Well, they can reap what they've sown... suicidal bastards. Don't get involved in their fight. Just try to get me the launcher - nothing else matters.",
+      "JA_current": "おっと、それにもう1つ。Skull 大佐とその部下が、俺の命令に背いて許可なく、Freedom 基地の攻撃を決定した。いずれ、蒔いた種を自ら刈りとることになる… 自殺行為だ。あいつらの戦闘に巻き込まれるな。Bulldog 6 を俺に持って来ることだけを考えろ ― それが何より重要だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_join_11111#1"
+      ]
+    },
+    {
+      "phrase_id": "11121",
+      "text_id": "bar_dolg_leader_join_11121",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1112"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Up to you.",
+      "JA_current": "お前次第だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_join_11121#1"
+      ]
+    }
+  ]
+}

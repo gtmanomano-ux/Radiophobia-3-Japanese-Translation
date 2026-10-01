@@ -1,0 +1,1160 @@
+{
+  "packet_id": "dialog_0461__basta_privet",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "basta_privet",
+  "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml",
+  "graph_sha256": "131d3c64c00a1023af4aaa914f345f3cfff2e581dea421160993fad100675545",
+  "character_bindings": [
+    {
+      "profile_id": "basta_stalker",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "basta_privet"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "basta_otkaz"
+    }
+  ],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 27,
+  "entries": [
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_1#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 581,
+      "string_id": "basta_privet_phrase_1",
+      "occurrence": 1,
+      "EN": "There you are, stalker. I've been waiting for you.",
+      "JA_current": "There you are, stalker. I've been waiting for you.",
+      "JA_new": "待ってたぞ、ストーカー。あんたが来るのをな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_2#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 584,
+      "string_id": "basta_privet_phrase_2",
+      "occurrence": 1,
+      "EN": "I don't get it... How do you know me?",
+      "JA_current": "I don't get it... How do you know me?",
+      "JA_new": "分からないな……どうして俺を知ってる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_3#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 587,
+      "string_id": "basta_privet_phrase_3",
+      "occurrence": 1,
+      "EN": "I know a lot of things... By the way, some people really want me dead because of it. Like the man who sent you here for my soul.",
+      "JA_current": "I know a lot of things... By the way, some people really want me dead because of it. Like the man who sent you here for my soul.",
+      "JA_new": "いろいろ知ってるからな……そのせいで、俺を殺したがってる奴もいる。あんたを俺の命を奪いに寄越した、あの男みたいにな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_4#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 590,
+      "string_id": "basta_privet_phrase_4",
+      "occurrence": 1,
+      "EN": "I don't get it, are you psychic?",
+      "JA_current": "I don't get it, are you psychic?",
+      "JA_new": "サイ能力者なのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_5#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 593,
+      "string_id": "basta_privet_phrase_5",
+      "occurrence": 1,
+      "EN": "It's much simpler than that. I am someone who can help you in your search.",
+      "JA_current": "It's much simpler than that. I am someone who can help you in your search.",
+      "JA_new": "もっと単純な話さ。あんたの探し物を手伝える人間ってだけだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_6#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 596,
+      "string_id": "basta_privet_phrase_6",
+      "occurrence": 1,
+      "EN": "Well, well... That makes a difference. So how can you help me?",
+      "JA_current": "Well, well... That makes a difference. So how can you help me?",
+      "JA_new": "へえ……それは助かる。どうやって手伝ってくれる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_7#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 599,
+      "string_id": "basta_privet_phrase_7",
+      "occurrence": 1,
+      "EN": "I know the people you are looking for. I can give you important information about these people.",
+      "JA_current": "I know the people you are looking for. I can give you important information about these people.",
+      "JA_new": "あんたが探してる連中を知ってる。そいつらについて、重要な情報を教えられる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_8#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 602,
+      "string_id": "basta_privet_phrase_8",
+      "occurrence": 1,
+      "EN": "Do you know where to find Strelok?",
+      "JA_current": "Do you know where to find Strelok?",
+      "JA_new": "ストレロクの居場所を知ってるのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_9#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 605,
+      "string_id": "basta_privet_phrase_9",
+      "occurrence": 1,
+      "EN": "No, unfortunately I can't help you with Strelok. But I can help you with the men you've been tracking. They're looking for him too, aren't they?",
+      "JA_current": "No, unfortunately I can't help you with Strelok. But I can help you with the men you've been tracking. They're looking for him too, aren't they?",
+      "JA_new": "残念だが、ストレロクのことは分からない。だが、あんたが追ってる男たちなら話せる。そいつらもストレロクを探してるんだろ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_10#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 608,
+      "string_id": "basta_privet_phrase_10",
+      "occurrence": 1,
+      "EN": "Well, that's good. I'm ready to listen to you.",
+      "JA_current": "Well, that's good. I'm ready to listen to you.",
+      "JA_new": "それなら助かる。話を聞かせてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_11#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 611,
+      "string_id": "basta_privet_phrase_11",
+      "occurrence": 1,
+      "EN": "I don't believe you. Get ready to die.",
+      "JA_current": "I don't believe you. Get ready to die.",
+      "JA_new": "信じられないな。死ぬ覚悟をしろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_12#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 614,
+      "string_id": "basta_privet_phrase_12",
+      "occurrence": 1,
+      "EN": "I'll tell you a story that took place in the Zone about six months ago. I was an inexperienced novice stalker back then and made my living at the \"100 Rads\" bar doing various small errands and acting as a courier. My duties included delivering equipment to and from checkpoints, carrying messages between stalkers, going to various locations with packages. My job was dangerous, I got into a lot of scrapes, more than I can remember. It was the usual type of trouble; bandits trying to shake me down, anomalies shifting and appearing across a safe path, a pack of blind dogs tailing me... And those bastards are able to follow a scent for twenty-four hours if they smelled something worth catching.",
+      "JA_current": "I'll tell you a story that took place in the Zone about six months ago. I was an inexperienced novice stalker back then and made my living at the \"100 Rads\" bar doing various small errands and acting as a courier. My duties included delivering equipment to and from checkpoints, carrying messages between stalkers, going to various locations with packages. My job was dangerous, I got into a lot of scrapes, more than I can remember. It was the usual type of trouble; bandits trying to shake me down, anomalies shifting and appearing across a safe path, a pack of blind dogs tailing me... And those bastards are able to follow a scent for twenty-four hours if they smelled something worth catching.",
+      "JA_new": "半年前、ゾーンであった話をしよう。あの頃は駆け出しで、100レントゲンで雑用や配達をして食いつないでた。前哨基地へ装備を運んだり、ストーカー同士の伝言を届けたり、荷物を持ってあちこち行くのが仕事だった。危険な仕事で、何度もひどい目に遭ったよ。バンディットに金をせびられ、通れるはずの道にアノマリーが現れたり消えたりして、ブラインドドッグの群れに追われたり……あいつらは、獲物になりそうな匂いを嗅ぎつけると、24時間も追いかけてくるんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_13#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 617,
+      "string_id": "basta_privet_phrase_13",
+      "occurrence": 1,
+      "EN": "Wait, are you talking about bandits or dogs?",
+      "JA_current": "Wait, are you talking about bandits or dogs?",
+      "JA_new": "待て。バンディットの話か？ それとも犬の話か？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_14#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 620,
+      "string_id": "basta_privet_phrase_14",
+      "occurrence": 1,
+      "EN": "Heh, I suppose there's not much of a difference between the two! But that's not the point. To cut a long story short, one day a man came up to me at the bar, a stalker who looked weathered and experienced, obviously someone who has spent a long time in the Zone and lived to talk about it. He bought me a drink and said to me: \"Look, I've been watching you for a long time, and I see that your work is trashy, isn't it?\" \"Yeah,\" I agreed. He continued: \"I can see you're a smart kid, so I want to offer you a job with me. You'd have to do pretty much what you're doing now, but you'd have a lot less risk on your ass. Also, the pay would be several times what you're getting now, trust me. I can pay you in advance right now. All you gotta do is say yes!\" And with these words, he pulled out a small wad of money from his pocket and placed it on the table. The offer seemed too good to be true and even a bit shady, but my finances were very tight at the time and hunger clouded my judgment. The Barkeep paid little, and I could not go on a raid for artifacts because I had piss poor gear that fell apart in the rain.",
+      "JA_current": "Heh, I suppose there's not much of a difference between the two! But that's not the point. To cut a long story short, one day a man came up to me at the bar, a stalker who looked weathered and experienced, obviously someone who has spent a long time in the Zone and lived to talk about it. He bought me a drink and said to me: \"Look, I've been watching you for a long time, and I see that your work is trashy, isn't it?\" \"Yeah,\" I agreed. He continued: \"I can see you're a smart kid, so I want to offer you a job with me. You'd have to do pretty much what you're doing now, but you'd have a lot less risk on your ass. Also, the pay would be several times what you're getting now, trust me. I can pay you in advance right now. All you gotta do is say yes!\" And with these words, he pulled out a small wad of money from his pocket and placed it on the table. The offer seemed too good to be true and even a bit shady, but my finances were very tight at the time and hunger clouded my judgment. The Barkeep paid little, and I could not go on a raid for artifacts because I had piss poor gear that fell apart in the rain.",
+      "JA_new": "へへ、どっちも大して変わらないかもな！ ……いや、そこじゃない。手短に言うと、ある日バーで一人の男に声をかけられた。ひどく年季の入ったストーカーで、長いことゾーンにいて生き延びてきたって感じだった。そいつは酒をおごって、こう言ったんだ。「なあ、前からあんたを見てたが、今の仕事は割に合わないだろ？」「ああ」と答えると、こう続けた。「頭は切れるようだな。俺の下で働かないか？ 今と似たような仕事だが、危険はずっと減る。それに報酬も何倍も払う。前金だって、今すぐ渡せる。あんたが『やる』と言えばいいだけだ！」そう言って、ポケットから札束を取り出し、テーブルに置いた。うますぎる話で、どこか胡散臭くもあったが、当時は金に困っていたし、空腹で正常な判断もできなかった。バーキープは払いが悪い。雨に濡れただけで壊れそうな粗末な装備じゃ、アーティファクト探しにも出られなかったんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_15#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 623,
+      "string_id": "basta_privet_phrase_15",
+      "occurrence": 1,
+      "EN": "So you took the offer?",
+      "JA_current": "So you took the offer?",
+      "JA_new": "それで、その話に乗ったのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_16#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 626,
+      "string_id": "basta_privet_phrase_16",
+      "occurrence": 1,
+      "EN": "Yes, I started working for this man. His nickname was Vulture, but I found that out later. Everyone at the bar called him the Whistleblower. The job was really less dusty than the last one, and the pay was good. Besides, I started working in other places, on the road between the Bar and the Army Depot, and those parts are quieter than the road between the Garbage and the Agroprom. I was already saving up money for some decent equipment, when suddenly one unpleasant incident happened that put an end to my career.",
+      "JA_current": "Yes, I started working for this man. His nickname was Vulture, but I found that out later. Everyone at the bar called him the Whistleblower. The job was really less dusty than the last one, and the pay was good. Besides, I started working in other places, on the road between the Bar and the Army Depot, and those parts are quieter than the road between the Garbage and the Agroprom. I was already saving up money for some decent equipment, when suddenly one unpleasant incident happened that put an end to my career.",
+      "JA_new": "ああ、その男の下で働き始めた。あだ名がヴァルチャーだと知ったのは後のことだ。バーじゃみんな「密告屋」と呼んでた。前の仕事よりずっと楽で、報酬もよかった。それに、別の場所でも働くようになった。ロストクと軍事倉庫を結ぶ道だ。ガーベジからアフロプロムへ向かう道より、ずっと静かな場所でな。まともな装備を買う金も貯まり始めた頃、キャリアを終わらせる厄介な事件が起きた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_17#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 629,
+      "string_id": "basta_privet_phrase_17",
+      "occurrence": 1,
+      "EN": "What happened?",
+      "JA_current": "What happened?",
+      "JA_new": "何があった？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "16",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_18#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 632,
+      "string_id": "basta_privet_phrase_18",
+      "occurrence": 1,
+      "EN": "My job was to supply Vulture with information, which he would then trade. I received information from his agents in the form of notes, flash drives, and sometimes even in the form of containers with some objects. All of this I had to pass on to him with discretion and safety in mind. The main condition was that under no circumstances was I to see this information myself. As a last resort, the medium was to be destroyed. But it so happened that I still managed to screw that up. One day, when I was on my way to the Bar with another flash drive, curiosity got the better of me and I had a look through the data on my PDA. Devil only knows what persuaded me to do such a stupid thing...",
+      "JA_current": "My job was to supply Vulture with information, which he would then trade. I received information from his agents in the form of notes, flash drives, and sometimes even in the form of containers with some objects. All of this I had to pass on to him with discretion and safety in mind. The main condition was that under no circumstances was I to see this information myself. As a last resort, the medium was to be destroyed. But it so happened that I still managed to screw that up. One day, when I was on my way to the Bar with another flash drive, curiosity got the better of me and I had a look through the data on my PDA. Devil only knows what persuaded me to do such a stupid thing...",
+      "JA_new": "俺の仕事は、ヴァルチャーに情報を届けることだった。あいつはそれを売りさばいてたんだ。情報は連中の手先から、メモやフラッシュドライブ、時には何かの入ったコンテナで届く。俺は慎重に、見つからないようあいつへ渡す。条件は一つ、俺自身は絶対に中身を見るなってことだった。どうしても無理なら、情報媒体を壊せ、と。ところが俺は、やらかしちまった。ある日、フラッシュドライブを持ってロストクへ向かう途中、好奇心に負けてPDAでデータを覗いちまったんだ。あんな馬鹿をやった理由は、神様にも分からない……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "17",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_19#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 635,
+      "string_id": "basta_privet_phrase_19",
+      "occurrence": 1,
+      "EN": "Curiosity can sometimes play cruel tricks on you.",
+      "JA_current": "Curiosity can sometimes play cruel tricks on you.",
+      "JA_new": "好奇心が、時にはひどい目を招く。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "18",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_20#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 638,
+      "string_id": "basta_privet_phrase_20",
+      "occurrence": 1,
+      "EN": "Exactly. And I, because of my curiosity, became an unwitting participant in the events that would follow. The fact is that the Vulture arranged for very stringent security protocols for his data. Each file on his drives has a special feature: it logs the exact date and time of every single access attempt. At the time I did not know this and simply delivered the flash drive with the information as instructed, confident that my intrusion would remain undetected. But I was wrong: They came for me the next night. They jumped me out of nowhere, grabbed me, beat me up, sliced me with a knife on my arms, and dragged me somewhere. From what I can recollect, I think they took me to the outskirts of Rostok and threw me into a ditch where packs of dogs were known to roam nearby. This is why they cut me up with a knife, you see, they wanted the dogs to catch a whiff of blood and come prowling closer. I was tied up and left to be devoured, but I managed to cut the ropes with a shard of glass and got away. Since then, I've been living here; it's not safe for me to go back to the Bar, you know.",
+      "JA_current": "Exactly. And I, because of my curiosity, became an unwitting participant in the events that would follow. The fact is that the Vulture arranged for very stringent security protocols for his data. Each file on his drives has a special feature: it logs the exact date and time of every single access attempt. At the time I did not know this and simply delivered the flash drive with the information as instructed, confident that my intrusion would remain undetected. But I was wrong: They came for me the next night. They jumped me out of nowhere, grabbed me, beat me up, sliced me with a knife on my arms, and dragged me somewhere. From what I can recollect, I think they took me to the outskirts of Rostok and threw me into a ditch where packs of dogs were known to roam nearby. This is why they cut me up with a knife, you see, they wanted the dogs to catch a whiff of blood and come prowling closer. I was tied up and left to be devoured, but I managed to cut the ropes with a shard of glass and got away. Since then, I've been living here; it's not safe for me to go back to the Bar, you know.",
+      "JA_new": "そのとおりだ。好奇心のせいで、その後の事件に巻き込まれたんだ。ヴァルチャーは情報管理を厳重にしていて、ドライブ内のファイルにはアクセスを試みた日時が一つ残らず記録される仕掛けがあった。当時の俺はそれを知らず、見たことがばれるわけがないと思って、指示どおりフラッシュドライブを渡した。だが、間違いだった。翌晩、奴らが俺を襲った。いきなり捕まって殴られ、腕をナイフで切りつけられて、どこかへ連れていかれた。記憶が正しければ、ロストク郊外まで運ばれて、近くをブラインドドッグの群れがうろついている溝に放り込まれた。腕を切られたのは、犬に血の匂いを嗅ぎつけさせて、俺を狙わせるためだった。縛られたまま犬に食われるはずだったが、ガラス片で縄を切って逃げた。それ以来ここで暮らしてる。もうバーには戻れないからな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "19",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_21#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 641,
+      "string_id": "basta_privet_phrase_21",
+      "occurrence": 1,
+      "EN": "So that's how it is. Let's say I believe you. But what does that have to do with my case?",
+      "JA_current": "So that's how it is. Let's say I believe you. But what does that have to do with my case?",
+      "JA_new": "そういうことか。話は信じるとして、俺の件とどう関係する？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "20",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_22#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 644,
+      "string_id": "basta_privet_phrase_22",
+      "occurrence": 1,
+      "EN": "There was something on that flash drive that almost got me killed by the Vulture. It had little to do with Freedom and the other factions, but it was quite interesting information. There were several reports from various people at the Army Warehouses, the Agroprom, and the Garbage about the so-called \"Death Trucks\" and what was found in them. It mentioned something to do with some kind of \"Monolith\" and the legendary Wish Granter. Somehow these phenomena were summed up in a single theory there. In general, it appeared as if the data was compiled for someone outside the Zone who was very interested in these matters and this very dossier was intended just for him.",
+      "JA_current": "There was something on that flash drive that almost got me killed by the Vulture. It had little to do with Freedom and the other factions, but it was quite interesting information. There were several reports from various people at the Army Warehouses, the Agroprom, and the Garbage about the so-called \"Death Trucks\" and what was found in them. It mentioned something to do with some kind of \"Monolith\" and the legendary Wish Granter. Somehow these phenomena were summed up in a single theory there. In general, it appeared as if the data was compiled for someone outside the Zone who was very interested in these matters and this very dossier was intended just for him.",
+      "JA_new": "あのフラッシュドライブには、ヴァルチャーに殺されかけた理由が入ってた。フリーダムや他の勢力とはあまり関係ないが、かなり興味深い情報だ。軍事倉庫、アフロプロム、ガーベジで集められた報告がいくつかあって、「死のトラック」と、その中で見つかったものについて書かれていた。モノリスや伝説の願望機についても触れてたな。離れた現象を一つの仮説にまとめてあった。ゾーンの外でこういう話に関心を持つ誰かのために、資料をまとめたように見えたよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_23#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 647,
+      "string_id": "basta_privet_phrase_23",
+      "occurrence": 1,
+      "EN": "Has anyone made inquiries about the Wish Granter?",
+      "JA_current": "Has anyone made inquiries about the Wish Granter?",
+      "JA_new": "願望機について、誰か調べてたのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "22",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_24#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 650,
+      "string_id": "basta_privet_phrase_24",
+      "occurrence": 1,
+      "EN": "Yes, and not only about that. There was not much concrete data in it, mainly a description of the developed regions of the Zone, dangerous and relatively safe places, explored trails, factions and the relationship between them. It all looked like, so to speak, \"Introduction to the life of the Zone for newcomers\". A very curious detail was this: there was clearly some sort of suggested route on the map. For whom it might be intended, I dared not even think, until I heard that at Cordon a group of some unknowns had broken through the roadblock. There wasn't much talk about it, but I got some information, and I realized there might be a connection.",
+      "JA_current": "Yes, and not only about that. There was not much concrete data in it, mainly a description of the developed regions of the Zone, dangerous and relatively safe places, explored trails, factions and the relationship between them. It all looked like, so to speak, \"Introduction to the life of the Zone for newcomers\". A very curious detail was this: there was clearly some sort of suggested route on the map. For whom it might be intended, I dared not even think, until I heard that at Cordon a group of some unknowns had broken through the roadblock. There wasn't much talk about it, but I got some information, and I realized there might be a connection.",
+      "JA_new": "ああ、それだけじゃない。具体的な情報は少なく、大半はゾーンの既知の区域、危険地帯と比較的安全な場所、調査済みのルート、勢力とその関係についての説明だった。いわば「新入り向け、ゾーンでの暮らし方」って感じだ。特に気になったのは、地図に推奨ルートらしきものが記されていたことだ。それが誰向けなのか考えるのも恐ろしかったが、コルドンで正体不明の一団が検問を突破したと聞いて、ようやく思い当たった。大きな話題にはならなかったが、少し情報を集めたら、つながりが見えてきたんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "23",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_25#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 653,
+      "string_id": "basta_privet_phrase_25",
+      "occurrence": 1,
+      "EN": "How did you know about me and my goals?",
+      "JA_current": "How did you know about me and my goals?",
+      "JA_new": "どうして俺のことや、目的まで知ってる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "24",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_26#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 656,
+      "string_id": "basta_privet_phrase_26",
+      "occurrence": 1,
+      "EN": "I've been here at Yantar for a while now. Before the Vulture's men attacked me, I spoke in the bar with an acquaintance. He said that some stalker was interested in a group of unknowns from Cordon, asking all sorts of questions about them. I thought that if this stalker will look for information about the group in the bar, he'll be directed to the Vulture, and the latter, of course, will send him to eliminate me in exchange for this info. For the Vulture, although I do not really pose him any danger, I am considered a burden to his business, a loose end that needs to be tied up to teach others a lesson.",
+      "JA_current": "I've been here at Yantar for a while now. Before the Vulture's men attacked me, I spoke in the bar with an acquaintance. He said that some stalker was interested in a group of unknowns from Cordon, asking all sorts of questions about them. I thought that if this stalker will look for information about the group in the bar, he'll be directed to the Vulture, and the latter, of course, will send him to eliminate me in exchange for this info. For the Vulture, although I do not really pose him any danger, I am considered a burden to his business, a loose end that needs to be tied up to teach others a lesson.",
+      "JA_new": "しばらくヤンターにいるからな。ヴァルチャーの手下に襲われる前、バーで知り合いと話した。そいつによると、コルドンから来た正体不明の集団を探して、あれこれ聞き回ってるストーカーがいるらしい。そいつがバーで連中の情報を探せば、ヴァルチャーのところへ案内される。そうなれば、ヴァルチャーはその情報と引き換えに俺の始末を命じるに決まってると思ったんだ。俺は奴にとって脅威じゃないが、商売上の邪魔者だ。ほかの連中への見せしめも兼ねて、口を封じておきたい相手ってことさ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "25",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_privet_phrase_27#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 659,
+      "string_id": "basta_privet_phrase_27",
+      "occurrence": 1,
+      "EN": "Well, it all makes sense now.",
+      "JA_current": "Well, it all makes sense now.",
+      "JA_new": "なるほど、ようやく話がつながった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_privet",
+          "phrase_id": "26",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "basta_privet_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "There you are, stalker. I've been waiting for you.",
+      "JA_current": "There you are, stalker. I've been waiting for you.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "basta_privet_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I don't get it... How do you know me?",
+      "JA_current": "I don't get it... How do you know me?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "basta_privet_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I know a lot of things... By the way, some people really want me dead because of it. Like the man who sent you here for my soul.",
+      "JA_current": "I know a lot of things... By the way, some people really want me dead because of it. Like the man who sent you here for my soul.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "basta_privet_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I don't get it, are you psychic?",
+      "JA_current": "I don't get it, are you psychic?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "basta_privet_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It's much simpler than that. I am someone who can help you in your search.",
+      "JA_current": "It's much simpler than that. I am someone who can help you in your search.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "basta_privet_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, well... That makes a difference. So how can you help me?",
+      "JA_current": "Well, well... That makes a difference. So how can you help me?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "basta_privet_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I know the people you are looking for. I can give you important information about these people.",
+      "JA_current": "I know the people you are looking for. I can give you important information about these people.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "basta_privet_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Do you know where to find Strelok?",
+      "JA_current": "Do you know where to find Strelok?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "basta_privet_phrase_9",
+      "next": [
+        "9",
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, unfortunately I can't help you with Strelok. But I can help you with the men you've been tracking. They're looking for him too, aren't they?",
+      "JA_current": "No, unfortunately I can't help you with Strelok. But I can help you with the men you've been tracking. They're looking for him too, aren't they?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "basta_privet_phrase_10",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, that's good. I'm ready to listen to you.",
+      "JA_current": "Well, that's good. I'm ready to listen to you.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "basta_privet_phrase_11",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "basta_otkaz"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "action",
+          "value": "yantar_dialog.basta_set_enemy"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I don't believe you. Get ready to die.",
+      "JA_current": "I don't believe you. Get ready to die.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "basta_privet_phrase_12",
+      "next": [
+        "12"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'll tell you a story that took place in the Zone about six months ago. I was an inexperienced novice stalker back then and made my living at the \"100 Rads\" bar doing various small errands and acting as a courier. My duties included delivering equipment to and from checkpoints, carrying messages between stalkers, going to various locations with packages. My job was dangerous, I got into a lot of scrapes, more than I can remember. It was the usual type of trouble; bandits trying to shake me down, anomalies shifting and appearing across a safe path, a pack of blind dogs tailing me... And those bastards are able to follow a scent for twenty-four hours if they smelled something worth catching.",
+      "JA_current": "I'll tell you a story that took place in the Zone about six months ago. I was an inexperienced novice stalker back then and made my living at the \"100 Rads\" bar doing various small errands and acting as a courier. My duties included delivering equipment to and from checkpoints, carrying messages between stalkers, going to various locations with packages. My job was dangerous, I got into a lot of scrapes, more than I can remember. It was the usual type of trouble; bandits trying to shake me down, anomalies shifting and appearing across a safe path, a pack of blind dogs tailing me... And those bastards are able to follow a scent for twenty-four hours if they smelled something worth catching.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_12#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "basta_privet_phrase_13",
+      "next": [
+        "13"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Wait, are you talking about bandits or dogs?",
+      "JA_current": "Wait, are you talking about bandits or dogs?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_13#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "basta_privet_phrase_14",
+      "next": [
+        "14"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Heh, I suppose there's not much of a difference between the two! But that's not the point. To cut a long story short, one day a man came up to me at the bar, a stalker who looked weathered and experienced, obviously someone who has spent a long time in the Zone and lived to talk about it. He bought me a drink and said to me: \"Look, I've been watching you for a long time, and I see that your work is trashy, isn't it?\" \"Yeah,\" I agreed. He continued: \"I can see you're a smart kid, so I want to offer you a job with me. You'd have to do pretty much what you're doing now, but you'd have a lot less risk on your ass. Also, the pay would be several times what you're getting now, trust me. I can pay you in advance right now. All you gotta do is say yes!\" And with these words, he pulled out a small wad of money from his pocket and placed it on the table. The offer seemed too good to be true and even a bit shady, but my finances were very tight at the time and hunger clouded my judgment. The Barkeep paid little, and I could not go on a raid for artifacts because I had piss poor gear that fell apart in the rain.",
+      "JA_current": "Heh, I suppose there's not much of a difference between the two! But that's not the point. To cut a long story short, one day a man came up to me at the bar, a stalker who looked weathered and experienced, obviously someone who has spent a long time in the Zone and lived to talk about it. He bought me a drink and said to me: \"Look, I've been watching you for a long time, and I see that your work is trashy, isn't it?\" \"Yeah,\" I agreed. He continued: \"I can see you're a smart kid, so I want to offer you a job with me. You'd have to do pretty much what you're doing now, but you'd have a lot less risk on your ass. Also, the pay would be several times what you're getting now, trust me. I can pay you in advance right now. All you gotta do is say yes!\" And with these words, he pulled out a small wad of money from his pocket and placed it on the table. The offer seemed too good to be true and even a bit shady, but my finances were very tight at the time and hunger clouded my judgment. The Barkeep paid little, and I could not go on a raid for artifacts because I had piss poor gear that fell apart in the rain.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_14#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "basta_privet_phrase_15",
+      "next": [
+        "15"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So you took the offer?",
+      "JA_current": "So you took the offer?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_15#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "basta_privet_phrase_16",
+      "next": [
+        "16"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, I started working for this man. His nickname was Vulture, but I found that out later. Everyone at the bar called him the Whistleblower. The job was really less dusty than the last one, and the pay was good. Besides, I started working in other places, on the road between the Bar and the Army Depot, and those parts are quieter than the road between the Garbage and the Agroprom. I was already saving up money for some decent equipment, when suddenly one unpleasant incident happened that put an end to my career.",
+      "JA_current": "Yes, I started working for this man. His nickname was Vulture, but I found that out later. Everyone at the bar called him the Whistleblower. The job was really less dusty than the last one, and the pay was good. Besides, I started working in other places, on the road between the Bar and the Army Depot, and those parts are quieter than the road between the Garbage and the Agroprom. I was already saving up money for some decent equipment, when suddenly one unpleasant incident happened that put an end to my career.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_16#1"
+      ]
+    },
+    {
+      "phrase_id": "16",
+      "text_id": "basta_privet_phrase_17",
+      "next": [
+        "17"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "15"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What happened?",
+      "JA_current": "What happened?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_17#1"
+      ]
+    },
+    {
+      "phrase_id": "17",
+      "text_id": "basta_privet_phrase_18",
+      "next": [
+        "18"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "16"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "My job was to supply Vulture with information, which he would then trade. I received information from his agents in the form of notes, flash drives, and sometimes even in the form of containers with some objects. All of this I had to pass on to him with discretion and safety in mind. The main condition was that under no circumstances was I to see this information myself. As a last resort, the medium was to be destroyed. But it so happened that I still managed to screw that up. One day, when I was on my way to the Bar with another flash drive, curiosity got the better of me and I had a look through the data on my PDA. Devil only knows what persuaded me to do such a stupid thing...",
+      "JA_current": "My job was to supply Vulture with information, which he would then trade. I received information from his agents in the form of notes, flash drives, and sometimes even in the form of containers with some objects. All of this I had to pass on to him with discretion and safety in mind. The main condition was that under no circumstances was I to see this information myself. As a last resort, the medium was to be destroyed. But it so happened that I still managed to screw that up. One day, when I was on my way to the Bar with another flash drive, curiosity got the better of me and I had a look through the data on my PDA. Devil only knows what persuaded me to do such a stupid thing...",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_18#1"
+      ]
+    },
+    {
+      "phrase_id": "18",
+      "text_id": "basta_privet_phrase_19",
+      "next": [
+        "19"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "17"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Curiosity can sometimes play cruel tricks on you.",
+      "JA_current": "Curiosity can sometimes play cruel tricks on you.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_19#1"
+      ]
+    },
+    {
+      "phrase_id": "19",
+      "text_id": "basta_privet_phrase_20",
+      "next": [
+        "20"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "18"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Exactly. And I, because of my curiosity, became an unwitting participant in the events that would follow. The fact is that the Vulture arranged for very stringent security protocols for his data. Each file on his drives has a special feature: it logs the exact date and time of every single access attempt. At the time I did not know this and simply delivered the flash drive with the information as instructed, confident that my intrusion would remain undetected. But I was wrong: They came for me the next night. They jumped me out of nowhere, grabbed me, beat me up, sliced me with a knife on my arms, and dragged me somewhere. From what I can recollect, I think they took me to the outskirts of Rostok and threw me into a ditch where packs of dogs were known to roam nearby. This is why they cut me up with a knife, you see, they wanted the dogs to catch a whiff of blood and come prowling closer. I was tied up and left to be devoured, but I managed to cut the ropes with a shard of glass and got away. Since then, I've been living here; it's not safe for me to go back to the Bar, you know.",
+      "JA_current": "Exactly. And I, because of my curiosity, became an unwitting participant in the events that would follow. The fact is that the Vulture arranged for very stringent security protocols for his data. Each file on his drives has a special feature: it logs the exact date and time of every single access attempt. At the time I did not know this and simply delivered the flash drive with the information as instructed, confident that my intrusion would remain undetected. But I was wrong: They came for me the next night. They jumped me out of nowhere, grabbed me, beat me up, sliced me with a knife on my arms, and dragged me somewhere. From what I can recollect, I think they took me to the outskirts of Rostok and threw me into a ditch where packs of dogs were known to roam nearby. This is why they cut me up with a knife, you see, they wanted the dogs to catch a whiff of blood and come prowling closer. I was tied up and left to be devoured, but I managed to cut the ropes with a shard of glass and got away. Since then, I've been living here; it's not safe for me to go back to the Bar, you know.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_20#1"
+      ]
+    },
+    {
+      "phrase_id": "20",
+      "text_id": "basta_privet_phrase_21",
+      "next": [
+        "21"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "19"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So that's how it is. Let's say I believe you. But what does that have to do with my case?",
+      "JA_current": "So that's how it is. Let's say I believe you. But what does that have to do with my case?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_21#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "basta_privet_phrase_22",
+      "next": [
+        "22"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "20"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "There was something on that flash drive that almost got me killed by the Vulture. It had little to do with Freedom and the other factions, but it was quite interesting information. There were several reports from various people at the Army Warehouses, the Agroprom, and the Garbage about the so-called \"Death Trucks\" and what was found in them. It mentioned something to do with some kind of \"Monolith\" and the legendary Wish Granter. Somehow these phenomena were summed up in a single theory there. In general, it appeared as if the data was compiled for someone outside the Zone who was very interested in these matters and this very dossier was intended just for him.",
+      "JA_current": "There was something on that flash drive that almost got me killed by the Vulture. It had little to do with Freedom and the other factions, but it was quite interesting information. There were several reports from various people at the Army Warehouses, the Agroprom, and the Garbage about the so-called \"Death Trucks\" and what was found in them. It mentioned something to do with some kind of \"Monolith\" and the legendary Wish Granter. Somehow these phenomena were summed up in a single theory there. In general, it appeared as if the data was compiled for someone outside the Zone who was very interested in these matters and this very dossier was intended just for him.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_22#1"
+      ]
+    },
+    {
+      "phrase_id": "22",
+      "text_id": "basta_privet_phrase_23",
+      "next": [
+        "23"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Has anyone made inquiries about the Wish Granter?",
+      "JA_current": "Has anyone made inquiries about the Wish Granter?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_23#1"
+      ]
+    },
+    {
+      "phrase_id": "23",
+      "text_id": "basta_privet_phrase_24",
+      "next": [
+        "24"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "22"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, and not only about that. There was not much concrete data in it, mainly a description of the developed regions of the Zone, dangerous and relatively safe places, explored trails, factions and the relationship between them. It all looked like, so to speak, \"Introduction to the life of the Zone for newcomers\". A very curious detail was this: there was clearly some sort of suggested route on the map. For whom it might be intended, I dared not even think, until I heard that at Cordon a group of some unknowns had broken through the roadblock. There wasn't much talk about it, but I got some information, and I realized there might be a connection.",
+      "JA_current": "Yes, and not only about that. There was not much concrete data in it, mainly a description of the developed regions of the Zone, dangerous and relatively safe places, explored trails, factions and the relationship between them. It all looked like, so to speak, \"Introduction to the life of the Zone for newcomers\". A very curious detail was this: there was clearly some sort of suggested route on the map. For whom it might be intended, I dared not even think, until I heard that at Cordon a group of some unknowns had broken through the roadblock. There wasn't much talk about it, but I got some information, and I realized there might be a connection.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_24#1"
+      ]
+    },
+    {
+      "phrase_id": "24",
+      "text_id": "basta_privet_phrase_25",
+      "next": [
+        "25"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "23"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "How did you know about me and my goals?",
+      "JA_current": "How did you know about me and my goals?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_25#1"
+      ]
+    },
+    {
+      "phrase_id": "25",
+      "text_id": "basta_privet_phrase_26",
+      "next": [
+        "26"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "24"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I've been here at Yantar for a while now. Before the Vulture's men attacked me, I spoke in the bar with an acquaintance. He said that some stalker was interested in a group of unknowns from Cordon, asking all sorts of questions about them. I thought that if this stalker will look for information about the group in the bar, he'll be directed to the Vulture, and the latter, of course, will send him to eliminate me in exchange for this info. For the Vulture, although I do not really pose him any danger, I am considered a burden to his business, a loose end that needs to be tied up to teach others a lesson.",
+      "JA_current": "I've been here at Yantar for a while now. Before the Vulture's men attacked me, I spoke in the bar with an acquaintance. He said that some stalker was interested in a group of unknowns from Cordon, asking all sorts of questions about them. I thought that if this stalker will look for information about the group in the bar, he'll be directed to the Vulture, and the latter, of course, will send him to eliminate me in exchange for this info. For the Vulture, although I do not really pose him any danger, I am considered a burden to his business, a loose end that needs to be tied up to teach others a lesson.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_26#1"
+      ]
+    },
+    {
+      "phrase_id": "26",
+      "text_id": "basta_privet_phrase_27",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "basta_privet"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "25"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, it all makes sense now.",
+      "JA_current": "Well, it all makes sense now.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_privet_phrase_27#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "packet_id": "dialog_0120__bar_bar_osvedomitel_talk_about_freedom",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_bar_osvedomitel_talk_about_freedom",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "bar_volkodav_have_reward"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 5,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_talk_about_freedom_0#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 917,
+      "string_id": "bar_bar_osvedomitel_talk_about_freedom_0",
+      "occurrence": 1,
+      "EN": "Tell me about the Freedom faction.",
+      "JA_current": "Freedom 一味について教えてくれ。",
+      "JA_new": "フリーダムについて教えてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_talk_about_freedom",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_talk_about_freedom_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 920,
+      "string_id": "bar_bar_osvedomitel_talk_about_freedom_1",
+      "occurrence": 1,
+      "EN": "Sure, no problem! Freedom is one of the oldest groups in the Zone and the only one that openly opposes government troops and research teams. Its founders are dead - they were killed during a big bloodbath after the army dropped a large assault force in the Zone but the ability to control the Zone from outside was destroyed at the same time. There is some evidence to suggest that the first Zone was used as a secret army weapons' testing site. If that's true, they must have used some powerful shit. Anyway, what was I saying...? Oh yeah, Freedom is the only group that is trying to stop the government from gaining control over the testing site again. God knows what will happen if they start testing their shit again, so Freedom is trying to hold out at all costs.",
+      "JA_current": "いいよ、問題ない！ Freedom は、ゾーンで最も古いグループのうちの1つだ。そして政府軍および研究チームに公然と敵対する、ただ1つのグループだ。創設者たちは死んじまってる ― ゾーンに強大な攻撃力を持つ軍が投入された後に大規模な虐殺で死んだんだ、だが同時に、外部からゾーンを制御できる可能性も破壊された。第一、ゾーンが軍の秘密兵器の試験場として使われたことを示唆する、いくつかの証拠がある。それが真実ならば、ヤツラは強力なある糞ったれ兵器を使用したはずだ。あれ、何の話をしてたんだ…？ ああそうか、政府が試験場の支配を再び得るのを、阻止しようとしている唯一のグループが、Freedom というわけだ。糞兵器のテストを再開すれば、何が起こるかは神のみぞ知る、で、Freedom は何としても阻止しようととしているわけだ。",
+      "JA_new": "ああ、いいとも！ フリーダムはゾーンでも最古参の勢力の一つで、政府軍や研究チームに公然と反対している唯一の集団だ。創設者たちはもういない。軍が大部隊をゾーンに送り込んだ後の大虐殺で殺され、その時にゾーンを外から制御する手段も失われた。最初のゾーンは、軍が秘密裏に兵器を試験する場所だったという証拠もある。もし本当なら、相当な代物を使ってたんだろうな。……何の話だった？ そうだ。フリーダムは、政府が試験場を再び支配するのを阻止しようとしている。連中がまた兵器の試験を始めたら何が起きるか、誰にも分からない。だからフリーダムは、どんな犠牲を払っても持ちこたえようとしてるんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_talk_about_freedom",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_talk_about_freedom_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 923,
+      "string_id": "bar_bar_osvedomitel_talk_about_freedom_2",
+      "occurrence": 1,
+      "EN": "What about Duty?",
+      "JA_current": "Duty については？",
+      "JA_new": "デューティーはどうなんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_talk_about_freedom",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_talk_about_freedom_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 926,
+      "string_id": "bar_bar_osvedomitel_talk_about_freedom_3",
+      "occurrence": 1,
+      "EN": "Duty is basically controlled from the outside by the government. Their current objective is to clear the territory of mutants and destroy Freedom, which is what they are doing at the moment. When the time is right, they will drop a large assault force in the Zone and take control of the area.",
+      "JA_current": "Duty は基本的に、政府によって外側からコントロールされている。ヤツらの現在の目的は、ミュータントの支配地域を掃除すること、および Freedom を壊滅することだ。これを、現在実行しているところだ。ヤツらは適切な時に、強大な攻撃力をゾーンに投入し、地域を支配しようするだろうよ。",
+      "JA_new": "デューティーは、実質的に政府が外から動かしてる。今の任務は、ミュータントを一掃してフリーダムを壊滅させることだ。実際、今もそうしてる。時が来れば大部隊をゾーンに送り込み、この地域を支配するつもりだろう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_talk_about_freedom",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_bar_osvedomitel_talk_about_freedom_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 929,
+      "string_id": "bar_bar_osvedomitel_talk_about_freedom_4",
+      "occurrence": 1,
+      "EN": "Thanks for the information",
+      "JA_current": "情報に感謝するよ。",
+      "JA_new": "情報ありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_bar_osvedomitel_talk_about_freedom",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bar_bar_osvedomitel_talk_about_freedom_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Tell me about the Freedom faction.",
+      "JA_current": "Freedom 一味について教えてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_talk_about_freedom_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "bar_bar_osvedomitel_talk_about_freedom_1",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Sure, no problem! Freedom is one of the oldest groups in the Zone and the only one that openly opposes government troops and research teams. Its founders are dead - they were killed during a big bloodbath after the army dropped a large assault force in the Zone but the ability to control the Zone from outside was destroyed at the same time. There is some evidence to suggest that the first Zone was used as a secret army weapons' testing site. If that's true, they must have used some powerful shit. Anyway, what was I saying...? Oh yeah, Freedom is the only group that is trying to stop the government from gaining control over the testing site again. God knows what will happen if they start testing their shit again, so Freedom is trying to hold out at all costs.",
+      "JA_current": "いいよ、問題ない！ Freedom は、ゾーンで最も古いグループのうちの1つだ。そして政府軍および研究チームに公然と敵対する、ただ1つのグループだ。創設者たちは死んじまってる ― ゾーンに強大な攻撃力を持つ軍が投入された後に大規模な虐殺で死んだんだ、だが同時に、外部からゾーンを制御できる可能性も破壊された。第一、ゾーンが軍の秘密兵器の試験場として使われたことを示唆する、いくつかの証拠がある。それが真実ならば、ヤツラは強力なある糞ったれ兵器を使用したはずだ。あれ、何の話をしてたんだ…？ ああそうか、政府が試験場の支配を再び得るのを、阻止しようとしている唯一のグループが、Freedom というわけだ。糞兵器のテストを再開すれば、何が起こるかは神のみぞ知る、で、Freedom は何としても阻止しようととしているわけだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_talk_about_freedom_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "bar_bar_osvedomitel_talk_about_freedom_2",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "What about Duty?",
+      "JA_current": "Duty については？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_talk_about_freedom_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "bar_bar_osvedomitel_talk_about_freedom_3",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Duty is basically controlled from the outside by the government. Their current objective is to clear the territory of mutants and destroy Freedom, which is what they are doing at the moment. When the time is right, they will drop a large assault force in the Zone and take control of the area.",
+      "JA_current": "Duty は基本的に、政府によって外側からコントロールされている。ヤツらの現在の目的は、ミュータントの支配地域を掃除すること、および Freedom を壊滅することだ。これを、現在実行しているところだ。ヤツらは適切な時に、強大な攻撃力をゾーンに投入し、地域を支配しようするだろうよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_talk_about_freedom_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "bar_bar_osvedomitel_talk_about_freedom_4",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Thanks for the information",
+      "JA_current": "情報に感謝するよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_bar_osvedomitel_talk_about_freedom_4#1"
+      ]
+    }
+  ]
+}

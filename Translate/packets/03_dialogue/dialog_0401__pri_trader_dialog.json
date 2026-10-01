@@ -1,0 +1,246 @@
+{
+  "packet_id": "dialog_0401__pri_trader_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "pri_trader_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml",
+  "graph_sha256": "8bb9195290d87fda40f45e7ab7e4ed73c832c18ca04c708134554149eea56b2a",
+  "character_bindings": [
+    {
+      "profile_id": "pri_trader_profile",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_pripyat.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "pri_trader_first_talk"
+    }
+  ],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 5,
+  "entries": [
+    {
+      "key": "stable_dialogs_pripyat:zdorovo_strelok#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 22,
+      "string_id": "zdorovo_strelok",
+      "occurrence": 1,
+      "EN": "So... Hello, Strelok!",
+      "JA_current": "So... Hello, Strelok!",
+      "JA_new": "よう……ストレロク、こんにちは。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "pri_trader_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:otkuda_znaesh#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 25,
+      "string_id": "otkuda_znaesh",
+      "occurrence": 1,
+      "EN": "Who the hell are you?! How do you know I am Strelok?",
+      "JA_current": "Who the hell are you?! How do you know I am Strelok?",
+      "JA_new": "お前、何者だ？ どうして俺がストレロクだと知ってる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "pri_trader_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:my_zhe_sosedi#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 28,
+      "string_id": "my_zhe_sosedi",
+      "occurrence": 1,
+      "EN": "He-he... Call me the \"Dark Dealer\". I know all about everything. I used to dwell in the hotel, right by your room 26. And now I've got a separate flat, as you can see... With an amazing view of the city...",
+      "JA_current": "He-he... Call me the \"Dark Dealer\". I know all about everything. I used to dwell in the hotel, right by your room 26. And now I've got a separate flat, as you can see... With an amazing view of the city...",
+      "JA_new": "へへ……「ダーク・ディーラー」とでも呼んでくれ。何でも知ってる男さ。前はホテルに住んでいて、あんたの26号室のすぐ隣にいた。今は見てのとおり、別の部屋を構えてる。街を一望できる最高の眺め付きだ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "pri_trader_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:strannyi_tip#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 31,
+      "string_id": "strannyi_tip",
+      "occurrence": 1,
+      "EN": "An odd guy you are... You even know about room 26... But we may have met before... Before I ended up in the \"Death Truck\"...",
+      "JA_current": "An odd guy you are... You even know about room 26... But we may have met before... Before I ended up in the \"Death Truck\"...",
+      "JA_new": "妙な奴だな……26号室のことまで知ってるとは。でも、どこかで会った気もする……俺が「死のトラック」に乗せられる前に……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "pri_trader_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:da_ne_boisya#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 34,
+      "string_id": "da_ne_boisya",
+      "occurrence": 1,
+      "EN": "Well... Let's say... Mmm, yeah, let's say that we have met before. One way or another, had I been your enemy, I would have shot you dead long ago. Therefore, you don't need to worry. I've decided to establish a store here, in Pripyat. A trading post in the Center of the Zone will come in quite handy for stalkers now. I am also on the lookout for capable people to take care of a few jobs for me... Not for the faint of heart, this is the big leagues, none of the schoolboy shit like at the Cordon, He-he... So, lets cut out the chit-chat and get to business!",
+      "JA_current": "Well... Let's say... Mmm, yeah, let's say that we have met before. One way or another, had I been your enemy, I would have shot you dead long ago. Therefore, you don't need to worry. I've decided to establish a store here, in Pripyat. A trading post in the Center of the Zone will come in quite handy for stalkers now. I am also on the lookout for capable people to take care of a few jobs for me... Not for the faint of heart, this is the big leagues, none of the schoolboy shit like at the Cordon, He-he... So, lets cut out the chit-chat and get to business!",
+      "JA_new": "そうだな……まあ……会ったことがある、と言っておこう。いずれにせよ、敵ならとっくに撃ち殺してる。心配はいらないさ。プリピャチに店を構えることにしたんだ。ゾーンの中心に商店があれば、ストーカーには便利だろ。腕の立つ連中に頼みたい仕事もいくつかある……腰抜けには無理な、本物の大仕事さ。コルドンのガキ向けの仕事とは訳が違う。へへ……おしゃべりはここまで。そろそろ本題に入ろうか！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "pri_trader_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "zdorovo_strelok",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So... Hello, Strelok!",
+      "JA_current": "So... Hello, Strelok!",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:zdorovo_strelok#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "otkuda_znaesh",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Who the hell are you?! How do you know I am Strelok?",
+      "JA_current": "Who the hell are you?! How do you know I am Strelok?",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:otkuda_znaesh#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "my_zhe_sosedi",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "He-he... Call me the \"Dark Dealer\". I know all about everything. I used to dwell in the hotel, right by your room 26. And now I've got a separate flat, as you can see... With an amazing view of the city...",
+      "JA_current": "He-he... Call me the \"Dark Dealer\". I know all about everything. I used to dwell in the hotel, right by your room 26. And now I've got a separate flat, as you can see... With an amazing view of the city...",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:my_zhe_sosedi#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "strannyi_tip",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "An odd guy you are... You even know about room 26... But we may have met before... Before I ended up in the \"Death Truck\"...",
+      "JA_current": "An odd guy you are... You even know about room 26... But we may have met before... Before I ended up in the \"Death Truck\"...",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:strannyi_tip#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "da_ne_boisya",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "pri_trader_first_talk"
+        },
+        {
+          "type": "action",
+          "value": "ogsm_quests.remove_dealer_spot"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well... Let's say... Mmm, yeah, let's say that we have met before. One way or another, had I been your enemy, I would have shot you dead long ago. Therefore, you don't need to worry. I've decided to establish a store here, in Pripyat. A trading post in the Center of the Zone will come in quite handy for stalkers now. I am also on the lookout for capable people to take care of a few jobs for me... Not for the faint of heart, this is the big leagues, none of the schoolboy shit like at the Cordon, He-he... So, lets cut out the chit-chat and get to business!",
+      "JA_current": "Well... Let's say... Mmm, yeah, let's say that we have met before. One way or another, had I been your enemy, I would have shot you dead long ago. Therefore, you don't need to worry. I've decided to establish a store here, in Pripyat. A trading post in the Center of the Zone will come in quite handy for stalkers now. I am also on the lookout for capable people to take care of a few jobs for me... Not for the faint of heart, this is the big leagues, none of the schoolboy shit like at the Cordon, He-he... So, lets cut out the chit-chat and get to business!",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:da_ne_boisya#1"
+      ]
+    }
+  ]
+}

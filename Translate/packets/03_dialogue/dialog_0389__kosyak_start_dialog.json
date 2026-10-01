@@ -1,0 +1,643 @@
+{
+    "packet_id":  "dialog_0389__kosyak_start_dialog",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "kosyak_start_dialog",
+    "graph_source":  "gamedata/config/gameplay/dialogs_military.xml",
+    "graph_sha256":  "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+    "character_bindings":  [
+                               {
+                                   "profile_id":  "stalker_kosyak",
+                                   "binding_type":  "start_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_military.xml"
+                               }
+                           ],
+    "dialog_conditions":  [
+
+                          ],
+    "root_speaker_hint":  "npc",
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  12,
+    "entries":  [
+                    {
+                        "key":  "stable_dialogs_military:kosyak_start_dialog_phrase_1#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1967,
+                        "string_id":  "kosyak_start_dialog_phrase_1",
+                        "occurrence":  1,
+                        "EN":  "Damn! A client showed up...",
+                        "JA_current":  "Damn! A client showed up...",
+                        "JA_new":  "くそっ！ 客が来た……。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "kosyak_start_dialog",
+                                               "phrase_id":  "0",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:kosyak_start_dialog_phrase_2#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1970,
+                        "string_id":  "kosyak_start_dialog_phrase_2",
+                        "occurrence":  1,
+                        "EN":  "What are you selling and why are you sitting in this barn?",
+                        "JA_current":  "What are you selling and why are you sitting in this barn?",
+                        "JA_new":  "何を売ってる？ それに、なんでこんな納屋に座ってるんだ？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "kosyak_start_dialog",
+                                               "phrase_id":  "1",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:kosyak_start_dialog_phrase_3#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1973,
+                        "string_id":  "kosyak_start_dialog_phrase_3",
+                        "occurrence":  1,
+                        "EN":  "Quiet, man, don\u0027t yell... I\u0027m doing business. \"Business,\" you know?",
+                        "JA_current":  "Quiet, man, don\u0027t yell... I\u0027m doing business. \"Business,\" you know?",
+                        "JA_new":  "静かにしろよ、怒鳴るな……商売中なんだ。「商売」ってやつさ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "kosyak_start_dialog",
+                                               "phrase_id":  "2",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:kosyak_start_dialog_phrase_4#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1976,
+                        "string_id":  "kosyak_start_dialog_phrase_4",
+                        "occurrence":  1,
+                        "EN":  "With cannabis or something? I don\u0027t give a shit about that.",
+                        "JA_current":  "With cannabis or something? I don\u0027t give a shit about that.",
+                        "JA_new":  "大麻か何かか？ そんなのに興味はない。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "kosyak_start_dialog",
+                                               "phrase_id":  "3",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:kosyak_start_dialog_phrase_5#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1979,
+                        "string_id":  "kosyak_start_dialog_phrase_5",
+                        "occurrence":  1,
+                        "EN":  "Come on, what cannabis? Although I do also deal in cannabis, but that\u0027s just in my spare time... And you, I see, are a serious man, so for you I have exclusive goods.",
+                        "JA_current":  "Come on, what cannabis? Although I do also deal in cannabis, but that\u0027s just in my spare time... And you, I see, are a serious man, so for you I have exclusive goods.",
+                        "JA_new":  "大麻って、何の話だよ？ まあ、暇な時に売ってはいるけどな……。あんたは真面目そうだ。特別な品を用意してるぜ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "kosyak_start_dialog",
+                                               "phrase_id":  "4",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:kosyak_start_dialog_phrase_6#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1982,
+                        "string_id":  "kosyak_start_dialog_phrase_6",
+                        "occurrence":  1,
+                        "EN":  "What goods?",
+                        "JA_current":  "What goods?",
+                        "JA_new":  "何を売ってる？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "kosyak_start_dialog",
+                                               "phrase_id":  "5",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:kosyak_start_dialog_phrase_7#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1985,
+                        "string_id":  "kosyak_start_dialog_phrase_7",
+                        "occurrence":  1,
+                        "EN":  "Morphine. It\u0027s useful, especially here in the Zone. You take a few cc\u0027s and you can go on a bayonet charge against a regiment of enemies - they won\u0027t do shit to you. Plus you get to enjoy a nice relaxation and a good high, of course. It doesn\u0027t last long, but you can do a lot in that time. Take it, you won\u0027t regret it!",
+                        "JA_current":  "Morphine. It\u0027s useful, especially here in the Zone. You take a few cc\u0027s and you can go on a bayonet charge against a regiment of enemies - they won\u0027t do shit to you. Plus you get to enjoy a nice relaxation and a good high, of course. It doesn\u0027t last long, but you can do a lot in that time. Take it, you won\u0027t regret it!",
+                        "JA_new":  "モルヒネだ。特にゾーンじゃ役に立つ。少し注射すれば、敵の連隊に銃剣突撃を仕掛けても平気だ。奴らなんて相手にならない。気持ちよくリラックスできて、いい具合にハイにもなれる。長くは続かないが、その間にいろいろできるぞ。持っていけ、後悔はさせない！",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "kosyak_start_dialog",
+                                               "phrase_id":  "6",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:kosyak_start_dialog_phrase_8#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1988,
+                        "string_id":  "kosyak_start_dialog_phrase_8",
+                        "occurrence":  1,
+                        "EN":  "What do you want for it?",
+                        "JA_current":  "What do you want for it?",
+                        "JA_new":  "いくらだ？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "kosyak_start_dialog",
+                                               "phrase_id":  "7",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:kosyak_start_dialog_phrase_9#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1991,
+                        "string_id":  "kosyak_start_dialog_phrase_9",
+                        "occurrence":  1,
+                        "EN":  "One Goldfish artifact for a couple of cubes, basically for one dose. The price is more than symbolic for such an effect.",
+                        "JA_current":  "One Goldfish artifact for a couple of cubes, basically for one dose. The price is more than symbolic for such an effect.",
+                        "JA_new":  "数回分、つまり一服につき«ゴールドフィッシュ»のアーティファクトをひとつだ。この効き目を考えれば、ほとんどタダみたいなもんさ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "kosyak_start_dialog",
+                                               "phrase_id":  "8",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:kosyak_start_dialog_phrase_10#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1994,
+                        "string_id":  "kosyak_start_dialog_phrase_10",
+                        "occurrence":  1,
+                        "EN":  "Okay, here\u0027s the artifact.",
+                        "JA_current":  "Okay, here\u0027s the artifact.",
+                        "JA_new":  "分かった。ほら、アーティファクトだ。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "kosyak_start_dialog",
+                                               "phrase_id":  "9",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:kosyak_start_dialog_phrase_11#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1997,
+                        "string_id":  "kosyak_start_dialog_phrase_11",
+                        "occurrence":  1,
+                        "EN":  "Not right now.",
+                        "JA_current":  "Not right now.",
+                        "JA_new":  "今はやめておく。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "kosyak_start_dialog",
+                                               "phrase_id":  "10",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:kosyak_start_dialog_phrase_12#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  2000,
+                        "string_id":  "kosyak_start_dialog_phrase_12",
+                        "occurrence":  1,
+                        "EN":  "Here, take it, but remember: under no circumstances should you try to take several doses at once, or you\u0027ll OD in no time! Good luck, sportsman.",
+                        "JA_current":  "Here, take it, but remember: under no circumstances should you try to take several doses at once, or you\u0027ll OD in no time! Good luck, sportsman.",
+                        "JA_new":  "ほら、持っていけ。ただし、一度に何回分も使うなよ。すぐにオーバードーズするぞ！ 幸運を祈るぜ、アスリート。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "kosyak_start_dialog",
+                                               "phrase_id":  "11",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  "kosyak_start_dialog_phrase_1",
+                            "next":  [
+                                         "1"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "soundtrack.opanki"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Damn! A client showed up...",
+                            "JA_current":  "Damn! A client showed up...",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:kosyak_start_dialog_phrase_1#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "1",
+                            "text_id":  "kosyak_start_dialog_phrase_2",
+                            "next":  [
+                                         "2"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "What are you selling and why are you sitting in this barn?",
+                            "JA_current":  "What are you selling and why are you sitting in this barn?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:kosyak_start_dialog_phrase_2#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "2",
+                            "text_id":  "kosyak_start_dialog_phrase_3",
+                            "next":  [
+                                         "3"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Quiet, man, don\u0027t yell... I\u0027m doing business. \"Business,\" you know?",
+                            "JA_current":  "Quiet, man, don\u0027t yell... I\u0027m doing business. \"Business,\" you know?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:kosyak_start_dialog_phrase_3#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "3",
+                            "text_id":  "kosyak_start_dialog_phrase_4",
+                            "next":  [
+                                         "4"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "2"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "With cannabis or something? I don\u0027t give a shit about that.",
+                            "JA_current":  "With cannabis or something? I don\u0027t give a shit about that.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:kosyak_start_dialog_phrase_4#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "4",
+                            "text_id":  "kosyak_start_dialog_phrase_5",
+                            "next":  [
+                                         "5"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "3"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Come on, what cannabis? Although I do also deal in cannabis, but that\u0027s just in my spare time... And you, I see, are a serious man, so for you I have exclusive goods.",
+                            "JA_current":  "Come on, what cannabis? Although I do also deal in cannabis, but that\u0027s just in my spare time... And you, I see, are a serious man, so for you I have exclusive goods.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:kosyak_start_dialog_phrase_5#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "5",
+                            "text_id":  "kosyak_start_dialog_phrase_6",
+                            "next":  [
+                                         "6"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "4"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "What goods?",
+                            "JA_current":  "What goods?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:kosyak_start_dialog_phrase_6#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "6",
+                            "text_id":  "kosyak_start_dialog_phrase_7",
+                            "next":  [
+                                         "7"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "5"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Morphine. It\u0027s useful, especially here in the Zone. You take a few cc\u0027s and you can go on a bayonet charge against a regiment of enemies - they won\u0027t do shit to you. Plus you get to enjoy a nice relaxation and a good high, of course. It doesn\u0027t last long, but you can do a lot in that time. Take it, you won\u0027t regret it!",
+                            "JA_current":  "Morphine. It\u0027s useful, especially here in the Zone. You take a few cc\u0027s and you can go on a bayonet charge against a regiment of enemies - they won\u0027t do shit to you. Plus you get to enjoy a nice relaxation and a good high, of course. It doesn\u0027t last long, but you can do a lot in that time. Take it, you won\u0027t regret it!",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:kosyak_start_dialog_phrase_7#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "7",
+                            "text_id":  "kosyak_start_dialog_phrase_8",
+                            "next":  [
+                                         "8"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "6"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "What do you want for it?",
+                            "JA_current":  "What do you want for it?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:kosyak_start_dialog_phrase_8#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "8",
+                            "text_id":  "kosyak_start_dialog_phrase_9",
+                            "next":  [
+                                         "9",
+                                         "10"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "7"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "One Goldfish artifact for a couple of cubes, basically for one dose. The price is more than symbolic for such an effect.",
+                            "JA_current":  "One Goldfish artifact for a couple of cubes, basically for one dose. The price is more than symbolic for such an effect.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:kosyak_start_dialog_phrase_9#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "9",
+                            "text_id":  "kosyak_start_dialog_phrase_10",
+                            "next":  [
+                                         "11"
+                                     ],
+                            "conditions":  [
+                                               {
+                                                   "type":  "precondition",
+                                                   "value":  "addon_dialogs.have_ribka"
+                                               }
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "addon_dialogs.ribka_out"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "8"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Okay, here\u0027s the artifact.",
+                            "JA_current":  "Okay, here\u0027s the artifact.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:kosyak_start_dialog_phrase_10#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "10",
+                            "text_id":  "kosyak_start_dialog_phrase_11",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "dialogs.break_dialog"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "8"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Not right now.",
+                            "JA_current":  "Not right now.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:kosyak_start_dialog_phrase_11#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "11",
+                            "text_id":  "kosyak_start_dialog_phrase_12",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "addon_dialogs.poluchi_morfin"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "9"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Here, take it, but remember: under no circumstances should you try to take several doses at once, or you\u0027ll OD in no time! Good luck, sportsman.",
+                            "JA_current":  "Here, take it, but remember: under no circumstances should you try to take several doses at once, or you\u0027ll OD in no time! Good luck, sportsman.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:kosyak_start_dialog_phrase_12#1"
+                                                        ]
+                        }
+                    ]
+}

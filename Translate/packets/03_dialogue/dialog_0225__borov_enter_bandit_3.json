@@ -1,0 +1,343 @@
+{
+  "packet_id": "dialog_0225__borov_enter_bandit_3",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "borov_enter_bandit_3",
+  "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml",
+  "graph_sha256": "af90465ec3a6b7a324a6c5d72d8c5ed214013f3f66f7c85ea935c11f680b26c1",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "val_actor_has_borov_key"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "actor_set_zombied"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 7,
+  "entries": [
+    {
+      "key": "stable_dialogs_darkvalley:borov_meet_again_0#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 46,
+      "string_id": "borov_meet_again_0",
+      "occurrence": 1,
+      "EN": "It's ice cold around here! I like it...",
+      "JA_current": "It's ice cold around here! I like it...",
+      "JA_new": "ここは凍えるほど寒いな！気に入った……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_3",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_meet_again_1#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 49,
+      "string_id": "borov_meet_again_1",
+      "occurrence": 1,
+      "EN": "Ya wanna chit-chat about something?",
+      "JA_current": "Ya wanna chit-chat about something?",
+      "JA_new": "何か話したいのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_3",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_meet_again_2#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 52,
+      "string_id": "borov_meet_again_2",
+      "occurrence": 1,
+      "EN": "I'm fed up with the life of a loner. I wanna join the mob.",
+      "JA_current": "I'm fed up with the life of a loner. I wanna join the mob.",
+      "JA_new": "ローナー暮らしにはもううんざりだ。バンディットに加わりたい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_3",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_meet_again_4#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 58,
+      "string_id": "borov_meet_again_4",
+      "occurrence": 1,
+      "EN": "Nah, nothing. I was around here and just dropped by.",
+      "JA_current": "Nah, nothing. I was around here and just dropped by.",
+      "JA_new": "いや、何でもない。近くに来たから寄っただけだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_3",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_meet_again_3#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 55,
+      "string_id": "borov_meet_again_3",
+      "occurrence": 1,
+      "EN": "So be it. Pay 10 grand in tribute for the common fund and consider yourself one of the \"family\".",
+      "JA_current": "So be it. Pay 10 grand in tribute for the common fund and consider yourself one of the \"family\".",
+      "JA_new": "いいだろう。共通金庫に上納金を1万ルーブル納めろ。そうすれば「身内」の一員だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_3",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_meet_again_6#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 64,
+      "string_id": "borov_meet_again_6",
+      "occurrence": 1,
+      "EN": "Sure thing. Here, take the money.",
+      "JA_current": "Sure thing. Here, take the money.",
+      "JA_new": "分かった。ほら、金だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_3",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_meet_again_5#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 61,
+      "string_id": "borov_meet_again_5",
+      "occurrence": 1,
+      "EN": "I haven't got enough dough on me now. I'll drop in later.",
+      "JA_current": "I haven't got enough dough on me now. I'll drop in later.",
+      "JA_new": "今は金が足りない。また後で来る。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_3",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "borov_meet_again_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "It's ice cold around here! I like it...",
+      "JA_current": "It's ice cold around here! I like it...",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_meet_again_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "borov_meet_again_1",
+      "next": [
+        "2",
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Ya wanna chit-chat about something?",
+      "JA_current": "Ya wanna chit-chat about something?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_meet_again_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "borov_meet_again_2",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'm fed up with the life of a loner. I wanna join the mob.",
+      "JA_current": "I'm fed up with the life of a loner. I wanna join the mob.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_meet_again_2#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "borov_meet_again_4",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Nah, nothing. I was around here and just dropped by.",
+      "JA_current": "Nah, nothing. I was around here and just dropped by.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_meet_again_4#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "borov_meet_again_3",
+      "next": [
+        "6",
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "So be it. Pay 10 grand in tribute for the common fund and consider yourself one of the \"family\".",
+      "JA_current": "So be it. Pay 10 grand in tribute for the common fund and consider yourself one of the \"family\".",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_meet_again_3#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "borov_meet_again_6",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "community_relation.has_10000"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.actor_set_bandit"
+        },
+        {
+          "type": "action",
+          "value": "community_relation.relocate_10000"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Sure thing. Here, take the money.",
+      "JA_current": "Sure thing. Here, take the money.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_meet_again_6#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "borov_meet_again_5",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I haven't got enough dough on me now. I'll drop in later.",
+      "JA_current": "I haven't got enough dough on me now. I'll drop in later.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_meet_again_5#1"
+      ]
+    }
+  ]
+}

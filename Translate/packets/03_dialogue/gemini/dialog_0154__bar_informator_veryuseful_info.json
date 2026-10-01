@@ -1,0 +1,302 @@
+{
+  "packet_id": "dialog_0154__bar_informator_veryuseful_info",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_informator_veryuseful_info",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_bar_osvedomitel",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "agroprom_military_case_done"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "veryuseful_info"
+    },
+    {
+      "type": "precondition",
+      "value": "ogse_quests.v94_arenda_check_on"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 6,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:veryuseful_0#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1772,
+      "string_id": "veryuseful_0",
+      "occurrence": 1,
+      "EN": "Do you happen to have any special tips or info about the Zone?",
+      "JA_current": "ゾーンを生き抜くための、とっておきの情報や裏技はないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_informator_veryuseful_info",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:veryuseful_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1775,
+      "string_id": "veryuseful_1",
+      "occurrence": 1,
+      "EN": "I may have just the perfect thing for ya, \"hero\". You know what they say, \"True heroes always take the roundabout ways\", you heard that one? He-he. I'm sure THIS info will really suit you. But the price is really high, and there's absolutely no refunds. Ready to fork over 50 grand of cabbage?",
+      "JA_current": "お前さんみたいな『英雄』に、まさしくうってつけのネタがあるぜ。「まことの勇者はいつだって回り道を選ぶ」って言葉、聞いたことあるだろ？ ヒヒッ。この情報はお前さんのお眼鏡に叶うはずだ。だが値段は張るぜ、返金も一切ナシだ。キャベツの束――5万ルーブル払う覚悟はあるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_informator_veryuseful_info",
+          "phrase_id": "veryuseful_1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:veryuseful_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1778,
+      "string_id": "veryuseful_2",
+      "occurrence": 1,
+      "EN": "50 G's!? Fuck... Ok, here's the money. Better be worth it!",
+      "JA_current": "5万だと！？ くそっ……分かった、払おう。それだけの価値があるんだろうな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_informator_veryuseful_info",
+          "phrase_id": "veryuseful_2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:veryuseful_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1781,
+      "string_id": "veryuseful_3",
+      "occurrence": 1,
+      "EN": "Are you crazy?! What kind of info could possibly be worth this amount?! Go outside, I think you could do with a breath of fresh air!",
+      "JA_current": "正気か！？ そんな大金に見合う情報が本当にあるのかよ！ 外へ出て頭でも冷やしてこい！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_informator_veryuseful_info",
+          "phrase_id": "veryuseful_3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:veryuseful_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1784,
+      "string_id": "veryuseful_4",
+      "occurrence": 1,
+      "EN": "So, listen. The Barkeep often plays host for people who are not quite welcome on Duty's territory. So, there is actually a small, secret wormhole leading directly to the barns of the Bar. It was made by a stalker they called Physic or Psychic, whatever. How did he manage it? Don't ask me things I have no idea of - that guy was way smarter about the quirks of the Zone than all those eggheads taken together. You'll find the entrance to the wormhole in the backyard of the Bar, where nobody ever pokes his nose.",
+      "JA_current": "いいか、耳をかっぽじって聞けよ。バーキープはな、デューティーの縄張りじゃ歓迎されないような連中も、よくこの店に匿ってるんだ。実はな、バーの倉庫へ真っ直ぐ通じてる、秘密の小さなワームホールが存在するのさ。フィジックだかサイキックだか呼ばれてたストーカーが開けたらしい。どうやってそんな真似をしたかって？ 俺に分かるわけねえだろ――あいつは、そこらの学者ども全員束にしたって敵わないほど、ゾーンの気まぐれを熟知してた男だ。ワームホールの入り口はバーの裏庭にある。誰も鼻を突っ込まないような場所だぜ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_informator_veryuseful_info",
+          "phrase_id": "veryuseful_4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:veryuseful_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1787,
+      "string_id": "veryuseful_5",
+      "occurrence": 1,
+      "EN": "Thanks, I'll keep an eye for it. The info is really precious.",
+      "JA_current": "ありがとう、探してみるよ。実に貴重な情報だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_informator_veryuseful_info",
+          "phrase_id": "veryuseful_5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "veryuseful_0",
+      "next": [
+        "veryuseful_1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Do you happen to have any special tips or info about the Zone?",
+      "JA_current": "Do you happen to have any special tips or info about the Zone?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:veryuseful_0#1"
+      ]
+    },
+    {
+      "phrase_id": "veryuseful_1",
+      "text_id": "veryuseful_1",
+      "next": [
+        "veryuseful_2",
+        "veryuseful_3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I may have just the perfect thing for ya, \"hero\". You know what they say, \"True heroes always take the roundabout ways\", you heard that one? He-he. I'm sure THIS info will really suit you. But the price is really high, and there's absolutely no refunds. Ready to fork over 50 grand of cabbage?",
+      "JA_current": "I may have just the perfect thing for ya, \"hero\". You know what they say, \"True heroes always take the roundabout ways\", you heard that one? He-he. I'm sure THIS info will really suit you. But the price is really high, and there's absolutely no refunds. Ready to fork over 50 grand of cabbage?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:veryuseful_1#1"
+      ]
+    },
+    {
+      "phrase_id": "veryuseful_2",
+      "text_id": "veryuseful_2",
+      "next": [
+        "veryuseful_4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "veryuseful_1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "50 G's!? Fuck... Ok, here's the money. Better be worth it!",
+      "JA_current": "50 G's!? Fuck... Ok, here's the money. Better be worth it!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:veryuseful_2#1"
+      ]
+    },
+    {
+      "phrase_id": "veryuseful_3",
+      "text_id": "veryuseful_3",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "veryuseful_1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Are you crazy?! What kind of info could possibly be worth this amount?! Go outside, I think you could do with a breath of fresh air!",
+      "JA_current": "Are you crazy?! What kind of info could possibly be worth this amount?! Go outside, I think you could do with a breath of fresh air!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:veryuseful_3#1"
+      ]
+    },
+    {
+      "phrase_id": "veryuseful_4",
+      "text_id": "veryuseful_4",
+      "next": [
+        "veryuseful_5"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "ogse_quests.bar_back_room_pay"
+        },
+        {
+          "type": "action",
+          "value": "ogse_quests.bar_back_room"
+        },
+        {
+          "type": "give_info",
+          "value": "veryuseful_info"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "veryuseful_2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So, listen. The Barkeep often plays host for people who are not quite welcome on Duty's territory. So, there is actually a small, secret wormhole leading directly to the barns of the Bar. It was made by a stalker they called Physic or Psychic, whatever. How did he manage it? Don't ask me things I have no idea of - that guy was way smarter about the quirks of the Zone than all those eggheads taken together. You'll find the entrance to the wormhole in the backyard of the Bar, where nobody ever pokes his nose.",
+      "JA_current": "So, listen. The Barkeep often plays host for people who are not quite welcome on Duty's territory. So, there is actually a small, secret wormhole leading directly to the barns of the Bar. It was made by a stalker they called Physic or Psychic, whatever. How did he manage it? Don't ask me things I have no idea of - that guy was way smarter about the quirks of the Zone than all those eggheads taken together. You'll find the entrance to the wormhole in the backyard of the Bar, where nobody ever pokes his nose.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:veryuseful_4#1"
+      ]
+    },
+    {
+      "phrase_id": "veryuseful_5",
+      "text_id": "veryuseful_5",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "veryuseful_4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thanks, I'll keep an eye for it. The info is really precious.",
+      "JA_current": "Thanks, I'll keep an eye for it. The info is really precious.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:veryuseful_5#1"
+      ]
+    }
+  ]
+}

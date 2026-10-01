@@ -1,0 +1,790 @@
+{
+  "packet_id": "dialog_0238__otday_habar",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "otday_habar",
+  "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml",
+  "graph_sha256": "af90465ec3a6b7a324a6c5d72d8c5ed214013f3f66f7c85ea935c11f680b26c1",
+  "character_bindings": [
+    {
+      "profile_id": "val_stalker_vovan",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "otday_habar"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 18,
+  "entries": [
+    {
+      "key": "stable_dialogs_darkvalley:otday_habar_phrase_1#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 395,
+      "string_id": "otday_habar_phrase_1",
+      "occurrence": 1,
+      "EN": "Hello. I need those things Fedka gave you, it belongs to Sidorovich, the trader at the Cordon.",
+      "JA_current": "Hello. I need those things Fedka gave you, it belongs to Sidorovich, the trader at the Cordon.",
+      "JA_new": "どうも。フェドカがあんたに渡した品を返してもらいたい。コルドンの商人、シドロヴィッチの物だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otday_habar",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:otday_habar_phrase_2#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 398,
+      "string_id": "otday_habar_phrase_2",
+      "occurrence": 1,
+      "EN": "How did you... What are you talking about?",
+      "JA_current": "How did you... What are you talking about?",
+      "JA_new": "どうしてそれを……何の話だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otday_habar",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:otday_habar_phrase_3#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 401,
+      "string_id": "otday_habar_phrase_3",
+      "occurrence": 1,
+      "EN": "Don't deny it, I have proof. In his notebook, Fedka mentioned a deal with you.",
+      "JA_current": "Don't deny it, I have proof. In his notebook, Fedka mentioned a deal with you.",
+      "JA_new": "とぼけるな。証拠はある。フェドカの手帳に、あんたとの取引が書いてあった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otday_habar",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:otday_habar_phrase_4#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 403,
+      "string_id": "otday_habar_phrase_4",
+      "occurrence": 1,
+      "EN": "Who the hell are you? Get the fuck out of here, I don't know you and I don't know any Fedka! Get out of here and mind your own business!",
+      "JA_current": "Who the hell are you? Get the fuck out of here, I don't know you and I don't know any Fedka! Get out of here and mind your own business!",
+      "JA_new": "お前、何者だ？　とっとと失せろ！　お前もフェドカも知らねえ！　俺に構うな、さっさと消えろ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otday_habar",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:otday_habar_phrase_5#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 405,
+      "string_id": "otday_habar_phrase_5",
+      "occurrence": 1,
+      "EN": "There's no point in denying it. Give the stuff back if you don't want any trouble on your head.",
+      "JA_current": "There's no point in denying it. Give the stuff back if you don't want any trouble on your head.",
+      "JA_new": "ごまかしても無駄だ。面倒に巻き込まれたくなきゃ、品を返せ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otday_habar",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:otday_habar_phrase_6#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 407,
+      "string_id": "otday_habar_phrase_6",
+      "occurrence": 1,
+      "EN": "Get this through your head, bitch! If you don't clear out of here right now, I'll punch your fuckin' lights out! Fuck off!!",
+      "JA_current": "Get this through your head, bitch! If you don't clear out of here right now, I'll punch your fuckin' lights out! Fuck off!!",
+      "JA_new": "いいか、クソ野郎！　今すぐここから消えなきゃ、ぶっ飛ばすぞ！　失せろ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otday_habar",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:otday_habar_phrase_7#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 409,
+      "string_id": "otday_habar_phrase_7",
+      "occurrence": 1,
+      "EN": "Oh, no, I have a better idea. How about I take this shooter here, and rearrange your stupid face with some lead, like this?",
+      "JA_current": "Oh, no, I have a better idea. How about I take this shooter here, and rearrange your stupid face with some lead, like this?",
+      "JA_new": "いや、もっといい案がある。こいつで頭を鉛玉だらけにしてやろうか？　こんなふうにな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otday_habar",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:otday_habar_phrase_8#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 411,
+      "string_id": "otday_habar_phrase_8",
+      "occurrence": 1,
+      "EN": "Hey man, alright, don't shoot! I was just kidding, man, trying to get the measure of you, that's all! I get it, you're a serious guy and you don't piss around. What were you saying? About that stuff, you say it belongs to Sid? Fedka tried to set me up, that's all! He didn't tell me it was stolen goods!",
+      "JA_current": "Hey man, alright, don't shoot! I was just kidding, man, trying to get the measure of you, that's all! I get it, you're a serious guy and you don't piss around. What were you saying? About that stuff, you say it belongs to Sid? Fedka tried to set me up, that's all! He didn't tell me it was stolen goods!",
+      "JA_new": "おい、分かった、撃たないでくれ！　ちょっと試しただけだよ！　あんたが本気だって分かった。ふざけた真似はしない。で、何の話だっけ？　シドの品だって？　フェドカが俺をはめたんだ！　盗品だなんて聞いてない！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otday_habar",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:otday_habar_phrase_9#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 413,
+      "string_id": "otday_habar_phrase_9",
+      "occurrence": 1,
+      "EN": "Atta' boy, that's the way to go! And there you was, trying to convince me you don't know any Fedka. Where are the trader's things?!",
+      "JA_current": "Atta' boy, that's the way to go! And there you was, trying to convince me you don't know any Fedka. Where are the trader's things?!",
+      "JA_new": "そうそう、いい子だ。さっきはフェドカなんて知らないって言ってたくせに。商人の品はどこだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otday_habar",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:otday_habar_phrase_10#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 415,
+      "string_id": "otday_habar_phrase_10",
+      "occurrence": 1,
+      "EN": "I had them, I... I had them. I hid them in a secluded place, I just forgot which one - I know a lot of such places...",
+      "JA_current": "I had them, I... I had them. I hid them in a secluded place, I just forgot which one - I know a lot of such places...",
+      "JA_new": "持ってたんだ、たしかに……人目につかない場所に隠した。どこだったか忘れちまった。隠し場所ならいくらでも知ってるもんでな……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otday_habar",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:otday_habar_phrase_11#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 417,
+      "string_id": "otday_habar_phrase_11",
+      "occurrence": 1,
+      "EN": "I see you're trying to pull a fast one on me again, ain't ya?",
+      "JA_current": "I see you're trying to pull a fast one on me again, ain't ya?",
+      "JA_new": "また俺を丸め込もうってのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otday_habar",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:otday_habar_phrase_12#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 419,
+      "string_id": "otday_habar_phrase_12",
+      "occurrence": 1,
+      "EN": "What are you talking about!? I told you all that I know, you're way too jumpy. I'm not stupid enough to throw away loot. I honestly don't remember the exact place, but when I hid it, I marked it in my PDA.",
+      "JA_current": "What are you talking about!? I told you all that I know, you're way too jumpy. I'm not stupid enough to throw away loot. I honestly don't remember the exact place, but when I hid it, I marked it in my PDA.",
+      "JA_new": "何言ってるんだ！？　知ってることは全部話しただろ。疑り深いな。戦利品を捨てるほど馬鹿じゃない。隠した場所ははっきり覚えてないが、PDAに印をつけたんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otday_habar",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:otday_habar_phrase_13#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 421,
+      "string_id": "otday_habar_phrase_13",
+      "occurrence": 1,
+      "EN": "So send it over! What are you waiting for, need me to say \"please\"?",
+      "JA_current": "So send it over! What are you waiting for, need me to say \"please\"?",
+      "JA_new": "じゃあ送れよ。何を待ってる？　「お願いします」って言ってほしいのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otday_habar",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:otday_habar_phrase_14#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 423,
+      "string_id": "otday_habar_phrase_14",
+      "occurrence": 1,
+      "EN": "I can't... I-I lost my PDA a while ago. Along with all the information that was on it...",
+      "JA_current": "I can't... I-I lost my PDA a while ago. Along with all the information that was on it...",
+      "JA_new": "無理だ……少し前にPDAをなくした。中の情報も全部一緒に……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otday_habar",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:otday_habar_phrase_15#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 425,
+      "string_id": "otday_habar_phrase_15",
+      "occurrence": 1,
+      "EN": "Huh, that's awfully convenient. My gun here is telling me that you're bullshitting again!",
+      "JA_current": "Huh, that's awfully convenient. My gun here is telling me that you're bullshitting again!",
+      "JA_new": "そりゃ都合がいいな。こいつがまた嘘だって言ってるぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otday_habar",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:otday_habar_phrase_16#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 427,
+      "string_id": "otday_habar_phrase_16",
+      "occurrence": 1,
+      "EN": "Honestly, I'm not trying to deceive you man, I really lost the PDA, for crying out loud!! I can tell you where it happened. You can try to find it yourself, though it's unlikely you'll succeed, I've been looking for it myself for a long time...",
+      "JA_current": "Honestly, I'm not trying to deceive you man, I really lost the PDA, for crying out loud!! I can tell you where it happened. You can try to find it yourself, though it's unlikely you'll succeed, I've been looking for it myself for a long time...",
+      "JA_new": "本当だ、あんたを騙す気はない！　PDAを本当になくしたんだよ！　どこでなくしたかは教える。自分で探してみな。見つかるとは思えないがな。俺だってずっと探してる……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otday_habar",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:otday_habar_phrase_17#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 429,
+      "string_id": "otday_habar_phrase_17",
+      "occurrence": 1,
+      "EN": "Give me the coordinates of where you planted it. I'll take a look. If it's a trap, I'll burn you alive.",
+      "JA_current": "Give me the coordinates of where you planted it. I'll take a look. If it's a trap, I'll burn you alive.",
+      "JA_new": "隠した場所の座標を教えろ。見に行く。罠なら生きたまま焼き殺す。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otday_habar",
+          "phrase_id": "16",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:otday_habar_phrase_18#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 431,
+      "string_id": "otday_habar_phrase_18",
+      "occurrence": 1,
+      "EN": "Here you go.",
+      "JA_current": "Here you go.",
+      "JA_new": "ほらよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "otday_habar",
+          "phrase_id": "17",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "otday_habar_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hello. I need those things Fedka gave you, it belongs to Sidorovich, the trader at the Cordon.",
+      "JA_current": "Hello. I need those things Fedka gave you, it belongs to Sidorovich, the trader at the Cordon.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:otday_habar_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "otday_habar_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "How did you... What are you talking about?",
+      "JA_current": "How did you... What are you talking about?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:otday_habar_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "otday_habar_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Don't deny it, I have proof. In his notebook, Fedka mentioned a deal with you.",
+      "JA_current": "Don't deny it, I have proof. In his notebook, Fedka mentioned a deal with you.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:otday_habar_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "otday_habar_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.ne_lezz"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Who the hell are you? Get the fuck out of here, I don't know you and I don't know any Fedka! Get out of here and mind your own business!",
+      "JA_current": "Who the hell are you? Get the fuck out of here, I don't know you and I don't know any Fedka! Get out of here and mind your own business!",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:otday_habar_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "otday_habar_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "There's no point in denying it. Give the stuff back if you don't want any trouble on your head.",
+      "JA_current": "There's no point in denying it. Give the stuff back if you don't want any trouble on your head.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:otday_habar_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "otday_habar_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.anu_vali"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Get this through your head, bitch! If you don't clear out of here right now, I'll punch your fuckin' lights out! Fuck off!!",
+      "JA_current": "Get this through your head, bitch! If you don't clear out of here right now, I'll punch your fuckin' lights out! Fuck off!!",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:otday_habar_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "otday_habar_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.ne_ubivay"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh, no, I have a better idea. How about I take this shooter here, and rearrange your stupid face with some lead, like this?",
+      "JA_current": "Oh, no, I have a better idea. How about I take this shooter here, and rearrange your stupid face with some lead, like this?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:otday_habar_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "otday_habar_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey man, alright, don't shoot! I was just kidding, man, trying to get the measure of you, that's all! I get it, you're a serious guy and you don't piss around. What were you saying? About that stuff, you say it belongs to Sid? Fedka tried to set me up, that's all! He didn't tell me it was stolen goods!",
+      "JA_current": "Hey man, alright, don't shoot! I was just kidding, man, trying to get the measure of you, that's all! I get it, you're a serious guy and you don't piss around. What were you saying? About that stuff, you say it belongs to Sid? Fedka tried to set me up, that's all! He didn't tell me it was stolen goods!",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:otday_habar_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "otday_habar_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Atta' boy, that's the way to go! And there you was, trying to convince me you don't know any Fedka. Where are the trader's things?!",
+      "JA_current": "Atta' boy, that's the way to go! And there you was, trying to convince me you don't know any Fedka. Where are the trader's things?!",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:otday_habar_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "otday_habar_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I had them, I... I had them. I hid them in a secluded place, I just forgot which one - I know a lot of such places...",
+      "JA_current": "I had them, I... I had them. I hid them in a secluded place, I just forgot which one - I know a lot of such places...",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:otday_habar_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "otday_habar_phrase_11",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I see you're trying to pull a fast one on me again, ain't ya?",
+      "JA_current": "I see you're trying to pull a fast one on me again, ain't ya?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:otday_habar_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "otday_habar_phrase_12",
+      "next": [
+        "12"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What are you talking about!? I told you all that I know, you're way too jumpy. I'm not stupid enough to throw away loot. I honestly don't remember the exact place, but when I hid it, I marked it in my PDA.",
+      "JA_current": "What are you talking about!? I told you all that I know, you're way too jumpy. I'm not stupid enough to throw away loot. I honestly don't remember the exact place, but when I hid it, I marked it in my PDA.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:otday_habar_phrase_12#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "otday_habar_phrase_13",
+      "next": [
+        "13"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So send it over! What are you waiting for, need me to say \"please\"?",
+      "JA_current": "So send it over! What are you waiting for, need me to say \"please\"?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:otday_habar_phrase_13#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "otday_habar_phrase_14",
+      "next": [
+        "14"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I can't... I-I lost my PDA a while ago. Along with all the information that was on it...",
+      "JA_current": "I can't... I-I lost my PDA a while ago. Along with all the information that was on it...",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:otday_habar_phrase_14#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "otday_habar_phrase_15",
+      "next": [
+        "15"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Huh, that's awfully convenient. My gun here is telling me that you're bullshitting again!",
+      "JA_current": "Huh, that's awfully convenient. My gun here is telling me that you're bullshitting again!",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:otday_habar_phrase_15#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "otday_habar_phrase_16",
+      "next": [
+        "16"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Honestly, I'm not trying to deceive you man, I really lost the PDA, for crying out loud!! I can tell you where it happened. You can try to find it yourself, though it's unlikely you'll succeed, I've been looking for it myself for a long time...",
+      "JA_current": "Honestly, I'm not trying to deceive you man, I really lost the PDA, for crying out loud!! I can tell you where it happened. You can try to find it yourself, though it's unlikely you'll succeed, I've been looking for it myself for a long time...",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:otday_habar_phrase_16#1"
+      ]
+    },
+    {
+      "phrase_id": "16",
+      "text_id": "otday_habar_phrase_17",
+      "next": [
+        "17"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "15"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Give me the coordinates of where you planted it. I'll take a look. If it's a trap, I'll burn you alive.",
+      "JA_current": "Give me the coordinates of where you planted it. I'll take a look. If it's a trap, I'll burn you alive.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:otday_habar_phrase_17#1"
+      ]
+    },
+    {
+      "phrase_id": "17",
+      "text_id": "otday_habar_phrase_18",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs_darkvalley.spawn_vovan_pda_and_give_info"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "16"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here you go.",
+      "JA_current": "Here you go.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:otday_habar_phrase_18#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1106 @@
+{
+  "packet_id": "dialog_0284__escape_fox_hello_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "escape_fox_hello_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "esc_fox",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 17,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:escape_fox_hello_dialog_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 839,
+      "string_id": "escape_fox_hello_dialog_2",
+      "occurrence": 1,
+      "EN": "Sorry, brother, but could you go somewhere else? I'm not in a chatty mood right now...",
+      "JA_current": "すまんが兄弟、他を当たってくれないか？ 俺は人に会うために、ここにいる…。",
+      "JA_new": "悪いな、兄弟。今は話す気分じゃないんだ。よそへ行ってくれ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_fox_hello_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_fox_hello_dialog_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 857,
+      "string_id": "escape_fox_hello_dialog_3",
+      "occurrence": 1,
+      "EN": "Thanks. OK, now I'm listening very carefully.",
+      "JA_current": "ありがとう、助かったぜ。",
+      "JA_new": "助かった。よし、ちゃんと聞くよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_fox_hello_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_fox_hello_dialog_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 869,
+      "string_id": "escape_fox_hello_dialog_5",
+      "occurrence": 1,
+      "EN": "A medkit! Gimme a medkit!",
+      "JA_current": "Medkit を！ Medkit をくれ！",
+      "JA_new": "救急キットだ！ 早くよこしてくれ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_fox_hello_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_fox_hello_dialog_61#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 878,
+      "string_id": "escape_fox_hello_dialog_61",
+      "occurrence": 1,
+      "EN": "Hey, man, you saved me twice, and that's not something I forget. Take this... that's all I got!",
+      "JA_current": "へへ、お前には2度も助けられたな。おっと、礼を忘れていたな。少ないが受け取ってくれ。",
+      "JA_new": "二度も助けてもらった。忘れたりしないさ。これを受け取ってくれ……俺が出せるのはこれだけだ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_fox_hello_dialog",
+          "phrase_id": "61",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_fox_hello_dialog_21#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 842,
+      "string_id": "escape_fox_hello_dialog_21",
+      "occurrence": 1,
+      "EN": "I've got a couple of questions.",
+      "JA_current": "いくつか聞きたいことがある。",
+      "JA_new": "少し聞きたいことがある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_fox_hello_dialog",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_fox_hello_dialog_31#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 860,
+      "string_id": "escape_fox_hello_dialog_31",
+      "occurrence": 1,
+      "EN": "Trader told me you might know something about Strelok.",
+      "JA_current": "Trader から、あんたが Strelok について知っていると聞いたんだが。",
+      "JA_new": "商人から、ストレロクについて何か知ってるかもって聞いた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_fox_hello_dialog",
+          "phrase_id": "31",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_fox_hello_dialog_55#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 872,
+      "string_id": "escape_fox_hello_dialog_55",
+      "occurrence": 1,
+      "EN": "Here you are.",
+      "JA_current": "使え。",
+      "JA_new": "ほら、これだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_fox_hello_dialog",
+          "phrase_id": "55",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_fox_hello_dialog_56#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 875,
+      "string_id": "escape_fox_hello_dialog_56",
+      "occurrence": 1,
+      "EN": "Don't have one. Sorry.",
+      "JA_current": "持ってないんだ。すまない。",
+      "JA_new": "持ってないんだ。悪い。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_fox_hello_dialog",
+          "phrase_id": "56",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_fox_hello_dialog_611#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 881,
+      "string_id": "escape_fox_hello_dialog_611",
+      "occurrence": 1,
+      "EN": "Thank you.",
+      "JA_current": "ありがとよ。",
+      "JA_new": "ありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_fox_hello_dialog",
+          "phrase_id": "611",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_fox_hello_dialog_211#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 845,
+      "string_id": "escape_fox_hello_dialog_211",
+      "occurrence": 1,
+      "EN": "OK, ask away.",
+      "JA_current": "いいだろう、そのまま訊いてくれ。",
+      "JA_new": "いいよ、聞いてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_fox_hello_dialog",
+          "phrase_id": "211",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_fox_hello_dialog_311#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 863,
+      "string_id": "escape_fox_hello_dialog_311",
+      "occurrence": 1,
+      "EN": "Why is everyone taking such a keen interest in him lately? OK, I can't say I know him personally. We did \"communicate\" though: my guys took some shots at him once. No one got hurt - it was clear his party had been waiting for someone else, so we parted in peace. Cussed each other out across a ravine and went on our separate ways. Seriy, my brother, is now in the hangar at the Garbage - I'll dish you his coordinates so you two can have a chat. He knows more about Strelok. Be careful at the exit, a small gang has settled down in those parts. By the way, I got a few mutts chasing me and it doesn't look like they've given up yet. You mind helping me deal with them? It's a walk in the park really.",
+      "JA_current": "最近、皆そいつについて聞いてくるんだが。とは言っても、俺も直接会った訳ではないんだ。かつて、仲間と奴を追っていたんだが、誰1人として捕まえられた者はいなかった。今、弟の Serily が Gabage の格納庫にいる。Strelok についてなら、俺よりもコイツの方が詳しいんだ。話ができるよう弟に伝えておくよ。ところで、さっき片付けた化物の残りが、まだ近くにいるようなんだ。もしよければ、残りの奴らを始末するのを手伝ってくれないか？",
+      "JA_new": "最近、どうして皆あいつに興味津々なんだ？ 個人的に知ってるわけじゃないが、俺たちは一度「話し合った」ことがある。うちの連中があいつに何発か撃ち込んだんだ。誰も怪我はしなかった。あいつらは別の相手を待ち伏せしてたらしくて、そのまま穏便に別れたよ。谷越しに互いを罵り合って、それぞれ別の道へってな。弟のセリーなら、今ガーベジの格納庫にいる。座標を教えるから、会ってみろ。ストレロクについて、あいつのほうが詳しい。出口付近は気をつけろ。あの辺りに小さなギャングが居着いてる。それと、何匹かの犬に追い回されてて、まだ諦めてないらしい。片付けるのを手伝ってくれないか？ たいした仕事じゃないさ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_fox_hello_dialog",
+          "phrase_id": "311",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_fox_hello_dialog_2111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 848,
+      "string_id": "escape_fox_hello_dialog_2111",
+      "occurrence": 1,
+      "EN": "What can you tell me about the Zone?",
+      "JA_current": "ゾーンについて何か教えてくれないか？",
+      "JA_new": "ゾーンについて何か教えてくれないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_fox_hello_dialog",
+          "phrase_id": "2111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_fox_hello_dialog_2113#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 854,
+      "string_id": "escape_fox_hello_dialog_2113",
+      "occurrence": 1,
+      "EN": "I've changed my mind. Thanks.",
+      "JA_current": "気が変わった。ありがとよ。",
+      "JA_new": "気が変わった。ありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_fox_hello_dialog",
+          "phrase_id": "2113",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_fox_hello_dialog_3111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 866,
+      "string_id": "escape_fox_hello_dialog_3111",
+      "occurrence": 1,
+      "EN": "Thanks for the info, I appreciate it.",
+      "JA_current": "良いことを聞いた。感謝するよ。",
+      "JA_new": "情報ありがとう、助かった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_fox_hello_dialog",
+          "phrase_id": "3111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_fox_hello_dialog_21111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 851,
+      "string_id": "escape_fox_hello_dialog_21111",
+      "occurrence": 1,
+      "EN": "That's all you wanna know? Take a week off and then come back to see me. Look, my time ain't cheap and I'm kinda busy right now. Here are the basics and then you're on your own. About three kilometers North of here, you'll find the Garbage. That's the place where they used to dump all the radioactive waste from the station. High radiation levels, anomalies all over the place, so there are loads of artifacts to be found there... but not very valuable. Just beware of the gangs and don't cross the Duty patrols. West of the Garbage is the former Agroprom Research Institute. Little in terms of artifacts there so you can skip it. And to the East, there's the Dark Valley. Who knows... That's a pretty weird place. It seems quiet enough, apart from a bunch of gangsters roaming around. But I got a feeling there's more to it than meets the eye. Oh, and there's the Rostok factory right beyond the Garbage. That's Duty territory and a popular stalker hideout. You'll find lots of clued-up folks there, they'll tell you the rest.",
+      "JA_current": "それが知りたいだけか？ 1週間後に会いに戻って来てくれ。いいか、俺の時間は安くはない、それにちょっと今は忙しい。ここを基点に、アンタ一人で行くんだ。ここから3キロ北の辺りで、Garbage を見つけるだろう。そこはあらゆる放射性廃棄物を駅からどっさり捨てるのに使われた場所だ。放射能濃度が高く、いたる所にアノーマリーが存在し沢山のアーティファクトを見つけられる… だが、あまり貴重なものはない。ギャングに注意しろ、それに Duty のパトロールは横切るな。Garbage の西は、旧 Agroprom 研究所だ。アーティファクトはほとんど無いから、そこはスッ飛ばしてもかまわない。そして東側に、Dark Valley がある。よくは知らんがね… そこはかなり怪しい場所だ。辺りをうろついている多くのギャングは別として、ずいぶんと静かな場所に見える。だが目に映る多くのものがそこにある感じがするな。ああ、それに Rostok の工場が、Garbage を越えてすぐにある。そこはストーカーの支配地域だ。そこでもっと知っている連中を見つけられると思う、彼らが残りを話してくれるだろう。",
+      "JA_new": "それだけでいいのか？ 一週間休んでからまた来てくれ。悪いが俺の時間もタダじゃないし、今は手が離せない。基本だけ話すから、あとは自分で何とかしてくれ。ここから北へ3キロほど行くとガーベジだ。発電所から出る放射性廃棄物を捨ててた場所でな。放射線は強いし、アノマリーだらけだから、アーティファクトはたくさん見つかる……たいした値打ちはないがな。ギャングには気をつけろ。デューティーの巡回にも近づくな。ガーベジの西には、昔のアフロプロム研究所がある。アーティファクトはほとんどないから、行かなくていい。東にはダークバレーだ。さて、どうだかな……妙な場所だよ。ギャングがうろついてる以外は、静かそうに見える。だが、見た目以上に何かある気がする。それから、ガーベジのすぐ向こうにロストク工場がある。デューティーの縄張りで、ストーカーがよくたむろしてる。事情通が大勢いるから、残りはあいつらに聞くといい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_fox_hello_dialog",
+          "phrase_id": "21111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_88#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 267,
+      "string_id": "dialogs_escape_88",
+      "occurrence": 1,
+      "EN": "Wait... Do you hear that? Damn, it's the very pack that has been chasing me from the Garbage. Help me to finish them - I won't stint you of a reward.",
+      "JA_current": "Wait... Do you hear that? Damn, it's the very pack that has been chasing me from the Garbage. Help me to finish them - I won't stint you of a reward.",
+      "JA_new": "待て……今の聞こえたか？ くそ、ガーベジから俺を追ってきた群れだ！ 片付けるのを手伝ってくれ。礼は弾むぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_fox_hello_dialog",
+          "phrase_id": "31111000",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_escape_gameplay_text:dialogs_escape_89#1",
+      "source_table": "dialogs_escape_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_escape_gameplay_text.xml",
+      "source_xml_line": 270,
+      "string_id": "dialogs_escape_89",
+      "occurrence": 1,
+      "EN": "Deal. Yeah, they seem to be getting closer. Well, good luck to us!",
+      "JA_current": "Deal. Yeah, they seem to be getting closer. Well, good luck to us!",
+      "JA_new": "いいだろう。近づいてきてるな。じゃあ、うまくいくよう祈ろう！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_fox_hello_dialog",
+          "phrase_id": "31111001",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": null,
+      "next": [
+        "1",
+        "11",
+        "13",
+        "4",
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1",
+      "text_id": null,
+      "next": [
+        "2"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "escape_stalker_dog_die"
+        },
+        {
+          "type": "has_info",
+          "value": "escape_fox_heal"
+        },
+        {
+          "type": "has_info",
+          "value": "escape_stalker_done"
+        },
+        {
+          "type": "has_info",
+          "value": "esc_fox_thanks"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21111",
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "11",
+      "text_id": null,
+      "next": [
+        "3"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "escape_stalker_done"
+        },
+        {
+          "type": "has_info",
+          "value": "escape_fox_heal"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "13",
+      "text_id": null,
+      "next": [
+        "5"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "escape_fox_heal"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "4",
+      "text_id": null,
+      "next": [],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "escape_stalker_dog_die"
+        },
+        {
+          "type": "has_info",
+          "value": "escape_fox_heal"
+        },
+        {
+          "type": "has_info",
+          "value": "escape_stalker_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "6",
+      "text_id": null,
+      "next": [
+        "61"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "esc_fox_thanks"
+        },
+        {
+          "type": "has_info",
+          "value": "escape_stalker_dog_die"
+        },
+        {
+          "type": "has_info",
+          "value": "escape_stalker_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "escape_fox_hello_dialog_2",
+      "next": [
+        "21",
+        "3111004"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sorry, brother, but could you go somewhere else? I'm not in a chatty mood right now...",
+      "JA_current": "すまんが兄弟、他を当たってくれないか？ 俺は人に会うために、ここにいる…。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_fox_hello_dialog_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "escape_fox_hello_dialog_3",
+      "next": [
+        "31"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thanks. OK, now I'm listening very carefully.",
+      "JA_current": "ありがとう、助かったぜ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_fox_hello_dialog_3#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "escape_fox_hello_dialog_5",
+      "next": [
+        "55",
+        "56"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "A medkit! Gimme a medkit!",
+      "JA_current": "Medkit を！ Medkit をくれ！",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_fox_hello_dialog_5#1"
+      ]
+    },
+    {
+      "phrase_id": "61",
+      "text_id": "escape_fox_hello_dialog_61",
+      "next": [
+        "611"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "escape_dialog.fox_pay_money"
+        },
+        {
+          "type": "give_info",
+          "value": "esc_fox_thanks"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, man, you saved me twice, and that's not something I forget. Take this... that's all I got!",
+      "JA_current": "へへ、お前には2度も助けられたな。おっと、礼を忘れていたな。少ないが受け取ってくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_fox_hello_dialog_61#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "escape_fox_hello_dialog_21",
+      "next": [
+        "211"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I've got a couple of questions.",
+      "JA_current": "いくつか聞きたいことがある。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_fox_hello_dialog_21#1"
+      ]
+    },
+    {
+      "phrase_id": "3111004",
+      "text_id": "escape_fox_hello_dialog_3111004",
+      "next": [
+        "3111005"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "m_esc_main_fox_box"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "escape_fox_hello_dialog_31",
+      "next": [
+        "311"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Trader told me you might know something about Strelok.",
+      "JA_current": "Trader から、あんたが Strelok について知っていると聞いたんだが。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_fox_hello_dialog_31#1"
+      ]
+    },
+    {
+      "phrase_id": "55",
+      "text_id": "escape_fox_hello_dialog_55",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "dialogs.actor_have_medkit"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.transfer_medkit"
+        },
+        {
+          "type": "action",
+          "value": "escape_dialog.transfer_medikit_to_fox"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here you are.",
+      "JA_current": "使え。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_fox_hello_dialog_55#1"
+      ]
+    },
+    {
+      "phrase_id": "56",
+      "text_id": "escape_fox_hello_dialog_56",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Don't have one. Sorry.",
+      "JA_current": "持ってないんだ。すまない。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_fox_hello_dialog_56#1"
+      ]
+    },
+    {
+      "phrase_id": "611",
+      "text_id": "escape_fox_hello_dialog_611",
+      "next": [
+        "3111000"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "61"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you.",
+      "JA_current": "ありがとよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_fox_hello_dialog_611#1"
+      ]
+    },
+    {
+      "phrase_id": "211",
+      "text_id": "escape_fox_hello_dialog_211",
+      "next": [
+        "2111",
+        "2113"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "OK, ask away.",
+      "JA_current": "いいだろう、そのまま訊いてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_fox_hello_dialog_211#1"
+      ]
+    },
+    {
+      "phrase_id": "3111005",
+      "text_id": "escape_fox_hello_dialog_3111000",
+      "next": [
+        "3111001",
+        "3111002"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3111004"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "311",
+      "text_id": "escape_fox_hello_dialog_311",
+      "next": [
+        "3111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "escape_stalker_give"
+        },
+        {
+          "type": "give_info",
+          "value": "garbage_meetstalker_start"
+        },
+        {
+          "type": "give_info",
+          "value": "escape_stalker_done"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "31"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Why is everyone taking such a keen interest in him lately? OK, I can't say I know him personally. We did \"communicate\" though: my guys took some shots at him once. No one got hurt - it was clear his party had been waiting for someone else, so we parted in peace. Cussed each other out across a ravine and went on our separate ways. Seriy, my brother, is now in the hangar at the Garbage - I'll dish you his coordinates so you two can have a chat. He knows more about Strelok. Be careful at the exit, a small gang has settled down in those parts. By the way, I got a few mutts chasing me and it doesn't look like they've given up yet. You mind helping me deal with them? It's a walk in the park really.",
+      "JA_current": "最近、皆そいつについて聞いてくるんだが。とは言っても、俺も直接会った訳ではないんだ。かつて、仲間と奴を追っていたんだが、誰1人として捕まえられた者はいなかった。今、弟の Serily が Gabage の格納庫にいる。Strelok についてなら、俺よりもコイツの方が詳しいんだ。話ができるよう弟に伝えておくよ。ところで、さっき片付けた化物の残りが、まだ近くにいるようなんだ。もしよければ、残りの奴らを始末するのを手伝ってくれないか？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_fox_hello_dialog_311#1"
+      ]
+    },
+    {
+      "phrase_id": "3111000",
+      "text_id": "escape_fox_hello_dialog_3111000",
+      "next": [
+        "3111001",
+        "3111002"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "escape_fox_heal"
+        },
+        {
+          "type": "has_info",
+          "value": "escape_stalker_dog_die"
+        },
+        {
+          "type": "has_info",
+          "value": "escape_stalker_done"
+        },
+        {
+          "type": "has_info",
+          "value": "esc_fox_thanks"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "m_esc_main_fox_box"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3111",
+        "611"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "2111",
+      "text_id": "escape_fox_hello_dialog_2111",
+      "next": [
+        "21111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "211"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What can you tell me about the Zone?",
+      "JA_current": "ゾーンについて何か教えてくれないか？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_fox_hello_dialog_2111#1"
+      ]
+    },
+    {
+      "phrase_id": "2113",
+      "text_id": "escape_fox_hello_dialog_2113",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "211"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I've changed my mind. Thanks.",
+      "JA_current": "気が変わった。ありがとよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_fox_hello_dialog_2113#1"
+      ]
+    },
+    {
+      "phrase_id": "3111001",
+      "text_id": "escape_fox_hello_dialog_3111001",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "ogse_quests.quest_fox_case_begin"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3111005",
+        "3111000"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "3111002",
+      "text_id": "escape_fox_hello_dialog_3111002",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3111005",
+        "3111000"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "3111",
+      "text_id": "escape_fox_hello_dialog_3111",
+      "next": [
+        "3111000",
+        "31111000",
+        "31111999"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "311"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thanks for the info, I appreciate it.",
+      "JA_current": "良いことを聞いた。感謝するよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_fox_hello_dialog_3111#1"
+      ]
+    },
+    {
+      "phrase_id": "21111",
+      "text_id": "escape_fox_hello_dialog_21111",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "That's all you wanna know? Take a week off and then come back to see me. Look, my time ain't cheap and I'm kinda busy right now. Here are the basics and then you're on your own. About three kilometers North of here, you'll find the Garbage. That's the place where they used to dump all the radioactive waste from the station. High radiation levels, anomalies all over the place, so there are loads of artifacts to be found there... but not very valuable. Just beware of the gangs and don't cross the Duty patrols. West of the Garbage is the former Agroprom Research Institute. Little in terms of artifacts there so you can skip it. And to the East, there's the Dark Valley. Who knows... That's a pretty weird place. It seems quiet enough, apart from a bunch of gangsters roaming around. But I got a feeling there's more to it than meets the eye. Oh, and there's the Rostok factory right beyond the Garbage. That's Duty territory and a popular stalker hideout. You'll find lots of clued-up folks there, they'll tell you the rest.",
+      "JA_current": "それが知りたいだけか？ 1週間後に会いに戻って来てくれ。いいか、俺の時間は安くはない、それにちょっと今は忙しい。ここを基点に、アンタ一人で行くんだ。ここから3キロ北の辺りで、Garbage を見つけるだろう。そこはあらゆる放射性廃棄物を駅からどっさり捨てるのに使われた場所だ。放射能濃度が高く、いたる所にアノーマリーが存在し沢山のアーティファクトを見つけられる… だが、あまり貴重なものはない。ギャングに注意しろ、それに Duty のパトロールは横切るな。Garbage の西は、旧 Agroprom 研究所だ。アーティファクトはほとんど無いから、そこはスッ飛ばしてもかまわない。そして東側に、Dark Valley がある。よくは知らんがね… そこはかなり怪しい場所だ。辺りをうろついている多くのギャングは別として、ずいぶんと静かな場所に見える。だが目に映る多くのものがそこにある感じがするな。ああ、それに Rostok の工場が、Garbage を越えてすぐにある。そこはストーカーの支配地域だ。そこでもっと知っている連中を見つけられると思う、彼らが残りを話してくれるだろう。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_fox_hello_dialog_21111#1"
+      ]
+    },
+    {
+      "phrase_id": "31111000",
+      "text_id": "dialogs_escape_88",
+      "next": [
+        "31111001"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "escape_stalker_dog_die"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "esc_fox_thanks"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Wait... Do you hear that? Damn, it's the very pack that has been chasing me from the Garbage. Help me to finish them - I won't stint you of a reward.",
+      "JA_current": "Wait... Do you hear that? Damn, it's the very pack that has been chasing me from the Garbage. Help me to finish them - I won't stint you of a reward.",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_88#1"
+      ]
+    },
+    {
+      "phrase_id": "31111999",
+      "text_id": null,
+      "next": [],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "escape_stalker_dog_die"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "esc_fox_thanks"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "31111001",
+      "text_id": "dialogs_escape_89",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "31111000"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Deal. Yeah, they seem to be getting closer. Well, good luck to us!",
+      "JA_current": "Deal. Yeah, they seem to be getting closer. Well, good luck to us!",
+      "string_entry_candidates": [
+        "dialogs_escape_gameplay_text:dialogs_escape_89#1"
+      ]
+    }
+  ]
+}

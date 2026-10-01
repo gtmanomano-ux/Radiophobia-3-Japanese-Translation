@@ -1,0 +1,179 @@
+{
+  "packet_id": "dialog_0158__dolg_trader_pda_reward",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "dolg_trader_pda_reward",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_dolg_petrenko",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "bar_dialogs.actor_have_svoboda_pda"
+    },
+    {
+      "type": "has_info",
+      "value": "dolg_attach_community"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 3,
+  "entries": [
+    {
+      "key": "stable_dialogs_military:mil_trader_pda_reward_0#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 3,
+      "string_id": "mil_trader_pda_reward_0",
+      "occurrence": 1,
+      "EN": "Here's some more PDAs.",
+      "JA_current": "Here's some more PDAs.",
+      "JA_new": "PDAを追加で持ってきた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dolg_trader_pda_reward",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "mil_trader_pda_reward",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_trader_pda_reward_1#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 6,
+      "string_id": "mil_trader_pda_reward_1",
+      "occurrence": 1,
+      "EN": "You're a real killer, Marked One.",
+      "JA_current": "You're a real killer, Marked One.",
+      "JA_new": "相当な殺し屋だな、マークド・ワン。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dolg_trader_pda_reward",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "mil_trader_pda_reward",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_trader_pda_reward_11#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 9,
+      "string_id": "mil_trader_pda_reward_11",
+      "occurrence": 1,
+      "EN": "I suppose.",
+      "JA_current": "I suppose.",
+      "JA_new": "そうかもな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dolg_trader_pda_reward",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        },
+        {
+          "dialog_id": "mil_trader_pda_reward",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "mil_trader_pda_reward_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.give_svoboda_pda"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Here's some more PDAs.",
+      "JA_current": "Here's some more PDAs.",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_trader_pda_reward_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "mil_trader_pda_reward_1",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You're a real killer, Marked One.",
+      "JA_current": "You're a real killer, Marked One.",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_trader_pda_reward_1#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "mil_trader_pda_reward_11",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I suppose.",
+      "JA_current": "I suppose.",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_trader_pda_reward_11#1"
+      ]
+    }
+  ]
+}

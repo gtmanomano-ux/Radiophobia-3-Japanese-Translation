@@ -1,0 +1,272 @@
+{
+  "packet_id": "dialog_0208__new_krot_fleshki_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "new_krot_fleshki_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "new_krot",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.have_strannik_fleshki"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 6,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:new_krot_fleshki_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3143,
+      "string_id": "new_krot_fleshki_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Mole, I checked out your lead, found this flash drive inside... What do you think it's about?",
+      "JA_current": "モグラ、教えてくれた場所を調べたら、このUSBメモリが出てきた……何の情報だと思う？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "new_krot_fleshki_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:new_krot_fleshki_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3146,
+      "string_id": "new_krot_fleshki_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Oh, yeah? Well, let me see... Right. Marked One, you're in luck! This flash drive is one of the Wanderer's legendary caches, they contain clues on locating his main stash! What was on it?",
+      "JA_current": "ほう？ どれ、見せてみろ……ビンゴだ。マークド・ワン、ツキが回ってきたぞ！ このメモリは、伝説のストーカー「ワンダラー」の遺産の一つだ。本命の隠し場所へ至る手がかりが記録されているはずだ！ 中身は何だった？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "new_krot_fleshki_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:new_krot_fleshki_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3149,
+      "string_id": "new_krot_fleshki_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Nothing substantial, just a random combination of letters and numbers. Maybe the data on it is damaged or corrupted?",
+      "JA_current": "意味のある文章じゃない、適当な英数字の羅列だ。データが破損しているんじゃないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "new_krot_fleshki_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:new_krot_fleshki_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3152,
+      "string_id": "new_krot_fleshki_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "No, this is not an ordinary flash drive, it's been modified with write protection which means you can only write data to it once and it is entirely resistant to data corruption. This random sequence of characters is part of an encryption key which will actually self-assemble and auto-decrypt when plugged into a PDA. Collecting all of these keys and uploading them into your PDA along with the executables on each drive will eventually give you the location of the stash and the key to whatever riches are within, remember that, Marked One.",
+      "JA_current": "いや、これは普通のUSBメモリじゃない。書き込み防止の特殊改造が施されていて、一度しか書き込めない代わりにデータの劣化や破損が絶対に起きない構造だ。その文字列は暗号鍵の一部で、PDAに接続すれば自動で結合・復号される仕組みになっている。7本のメモリすべてから鍵と実行ファイルをPDAへ吸い上げれば、隠し場所の正確な座標と莫大な財宝を手に入れる解除キーが手に入る。覚えておけよ、マークド・ワン。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "new_krot_fleshki_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:new_krot_fleshki_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3155,
+      "string_id": "new_krot_fleshki_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Who is this Wanderer and how do you know all this?",
+      "JA_current": "その「ワンダラー」とは何者なんだ？ なぜあんたがそんなことまで知っている？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "new_krot_fleshki_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:new_krot_fleshki_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3158,
+      "string_id": "new_krot_fleshki_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "There's a popular tale doing rounds around here about a stalker who somehow managed to slip past the Scorcher, made it all the way to the Wish Granter and asked to become rich. The Granter made sure that he never ran out of money, but in return it took away his ability to enjoy this new wealth... After that, the poor guy didn't last long. Rumor has it that he wandered the Zone aimlessly for some time, all over the place, and before he died he hid an enormous amount of money somewhere and had the location encrypted and divided into seven parts, so that no one could ever hope to find it. Whoever manages to collect all the pieces, can find the treasure. I like clear, straightforward and instructive legends like this. Naturally, there's been no shortage of stalkers who believe it, and have kept their eyes peeled for anything of the sort, but nothing has come of it. You may just be the first to come across one of these keys.",
+      "JA_current": "この界隈で語り草になっている伝説があってね。ブレイン・スコーチャーを潜り抜けて願望機の元へ辿り着き、「大金持ちにしてくれ」と願ったストーカーがいたそうだ。願望機はその願いを叶え、彼に尽きることのない富を与えたが……引き換えに、富を享受する心を奪い去った。その後、哀れな男は長くは保たなかったよ。噂によれば、男はゾーン中をあてもなく彷徨い歩き、息絶える直前、どこかに莫大な財宝を隠したという。そして誰にも見つけ出せぬよう、場所の暗号を7つに分割したんだ。その断片をすべて集めた者だけが財宝に辿り着けるってわけさ。こういう筋が通っていて教訓めいた伝説は好きでね。当然、信じ込んだストーカーたちが血眼で捜し回ったが、誰一人手がかりすら掴めなかった。その鍵を最初に見つけ出したのは、あんたかもしれんぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "new_krot_fleshki_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "new_krot_fleshki_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Mole, I checked out your lead, found this flash drive inside... What do you think it's about?",
+      "JA_current": "Mole, I checked out your lead, found this flash drive inside... What do you think it's about?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:new_krot_fleshki_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "new_krot_fleshki_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh, yeah? Well, let me see... Right. Marked One, you're in luck! This flash drive is one of the Wanderer's legendary caches, they contain clues on locating his main stash! What was on it?",
+      "JA_current": "Oh, yeah? Well, let me see... Right. Marked One, you're in luck! This flash drive is one of the Wanderer's legendary caches, they contain clues on locating his main stash! What was on it?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:new_krot_fleshki_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "new_krot_fleshki_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Nothing substantial, just a random combination of letters and numbers. Maybe the data on it is damaged or corrupted?",
+      "JA_current": "Nothing substantial, just a random combination of letters and numbers. Maybe the data on it is damaged or corrupted?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:new_krot_fleshki_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "new_krot_fleshki_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, this is not an ordinary flash drive, it's been modified with write protection which means you can only write data to it once and it is entirely resistant to data corruption. This random sequence of characters is part of an encryption key which will actually self-assemble and auto-decrypt when plugged into a PDA. Collecting all of these keys and uploading them into your PDA along with the executables on each drive will eventually give you the location of the stash and the key to whatever riches are within, remember that, Marked One.",
+      "JA_current": "No, this is not an ordinary flash drive, it's been modified with write protection which means you can only write data to it once and it is entirely resistant to data corruption. This random sequence of characters is part of an encryption key which will actually self-assemble and auto-decrypt when plugged into a PDA. Collecting all of these keys and uploading them into your PDA along with the executables on each drive will eventually give you the location of the stash and the key to whatever riches are within, remember that, Marked One.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:new_krot_fleshki_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "new_krot_fleshki_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Who is this Wanderer and how do you know all this?",
+      "JA_current": "Who is this Wanderer and how do you know all this?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:new_krot_fleshki_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "new_krot_fleshki_dialog_phrase_6",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "There's a popular tale doing rounds around here about a stalker who somehow managed to slip past the Scorcher, made it all the way to the Wish Granter and asked to become rich. The Granter made sure that he never ran out of money, but in return it took away his ability to enjoy this new wealth... After that, the poor guy didn't last long. Rumor has it that he wandered the Zone aimlessly for some time, all over the place, and before he died he hid an enormous amount of money somewhere and had the location encrypted and divided into seven parts, so that no one could ever hope to find it. Whoever manages to collect all the pieces, can find the treasure. I like clear, straightforward and instructive legends like this. Naturally, there's been no shortage of stalkers who believe it, and have kept their eyes peeled for anything of the sort, but nothing has come of it. You may just be the first to come across one of these keys.",
+      "JA_current": "There's a popular tale doing rounds around here about a stalker who somehow managed to slip past the Scorcher, made it all the way to the Wish Granter and asked to become rich. The Granter made sure that he never ran out of money, but in return it took away his ability to enjoy this new wealth... After that, the poor guy didn't last long. Rumor has it that he wandered the Zone aimlessly for some time, all over the place, and before he died he hid an enormous amount of money somewhere and had the location encrypted and divided into seven parts, so that no one could ever hope to find it. Whoever manages to collect all the pieces, can find the treasure. I like clear, straightforward and instructive legends like this. Naturally, there's been no shortage of stalkers who believe it, and have kept their eyes peeled for anything of the sort, but nothing has come of it. You may just be the first to come across one of these keys.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:new_krot_fleshki_dialog_phrase_6#1"
+      ]
+    }
+  ]
+}

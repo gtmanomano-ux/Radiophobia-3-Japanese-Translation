@@ -1,0 +1,213 @@
+{
+  "packet_id": "dialog_0406__tm_pri_dialog_dolg",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "tm_pri_dialog_dolg",
+  "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml",
+  "graph_sha256": "8bb9195290d87fda40f45e7ab7e4ed73c832c18ca04c708134554149eea56b2a",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "ogsm_quests.kill_dolg_precondition"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 3,
+  "entries": [
+    {
+      "key": "stable_dialogs_pripyat:pri_3_est_delicatnoe_delo#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 64,
+      "string_id": "pri_3_est_delicatnoe_delo",
+      "occurrence": 1,
+      "EN": "Now the whole Zone knows that the anarchist leaders are dead. And that pleases me very much! You must probably think that I'm general Voronin in a disguise, don't you? Ha-ha... You are wrong! How general Voronin will try to disguise himself now - I don't know, but he is your next target. He and colonel Petrenko...",
+      "JA_current": "Now the whole Zone knows that the anarchist leaders are dead. And that pleases me very much! You must probably think that I'm general Voronin in a disguise, don't you? Ha-ha... You are wrong! How general Voronin will try to disguise himself now - I don't know, but he is your next target. He and colonel Petrenko...",
+      "JA_new": "今じゃゾーン中に、無政府主義者の指導者が死んだって知れ渡った。実に喜ばしい！ まさか俺を、変装したヴォロニン将軍だと思ってるんじゃないか？ はは……違うさ！ これから将軍がどう変装するかは知らんが、次の標的はそいつだ。ペトレンコ大佐もな……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "tm_pri_dialog_dolg",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:pri_3_znayu#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 67,
+      "string_id": "pri_3_znayu",
+      "occurrence": 1,
+      "EN": "Wow, the greatness of your tasks is worth admiration. So, what have the Duty leaders done to spite you?",
+      "JA_current": "Wow, the greatness of your tasks is worth admiration. So, what have the Duty leaders done to spite you?",
+      "JA_new": "すごい仕事ばかりだな。今度はデューティーの指導者に何の恨みがある？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "tm_pri_dialog_dolg",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:pri_3_bereshsya#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 70,
+      "string_id": "pri_3_bereshsya",
+      "occurrence": 1,
+      "EN": "You see, behind the apparent purity, bravery and righteousness behind Duty's mantra, the whole organization is corrupted with rot. In fact, Duty is nothing but an agent of the government, a deniable proxy who's only objective is the suppression and exploitation of the Zone at the expense of everyone else. And WE are a part of \"everyone else\". All stalkers, me and you. Don't ask where this information comes from. Believe me, it's true. Do you take the job?",
+      "JA_current": "You see, behind the apparent purity, bravery and righteousness behind Duty's mantra, the whole organization is corrupted with rot. In fact, Duty is nothing but an agent of the government, a deniable proxy who's only objective is the suppression and exploitation of the Zone at the expense of everyone else. And WE are a part of \"everyone else\". All stalkers, me and you. Don't ask where this information comes from. Believe me, it's true. Do you take the job?",
+      "JA_new": "デューティーは表向き、清廉で勇敢、正義を重んじると謳っているが、組織の中は腐りきってる。実態は政府の手先だ。政府が表立って関与せず、ゾーンを抑え込み、そこにいる連中を犠牲にして搾取するためのな。俺たちはその「連中」の一部だ。ストーカー全員、あんたも俺もな。この情報の出どころは聞くな。間違いないと信じてくれ。仕事を受けるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "tm_pri_dialog_dolg",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "tm_seek_new_job",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I need a job. Do you have something for me?",
+      "JA_current": "仕事が必要なんだ。何かないか？",
+      "string_entry_candidates": [
+        "stable_task_manager:tm_seek_new_job#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "pri_3_est_delicatnoe_delo",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Now the whole Zone knows that the anarchist leaders are dead. And that pleases me very much! You must probably think that I'm general Voronin in a disguise, don't you? Ha-ha... You are wrong! How general Voronin will try to disguise himself now - I don't know, but he is your next target. He and colonel Petrenko...",
+      "JA_current": "Now the whole Zone knows that the anarchist leaders are dead. And that pleases me very much! You must probably think that I'm general Voronin in a disguise, don't you? Ha-ha... You are wrong! How general Voronin will try to disguise himself now - I don't know, but he is your next target. He and colonel Petrenko...",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:pri_3_est_delicatnoe_delo#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "pri_3_znayu",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Wow, the greatness of your tasks is worth admiration. So, what have the Duty leaders done to spite you?",
+      "JA_current": "Wow, the greatness of your tasks is worth admiration. So, what have the Duty leaders done to spite you?",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:pri_3_znayu#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "pri_3_bereshsya",
+      "next": [
+        "4",
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "You see, behind the apparent purity, bravery and righteousness behind Duty's mantra, the whole organization is corrupted with rot. In fact, Duty is nothing but an agent of the government, a deniable proxy who's only objective is the suppression and exploitation of the Zone at the expense of everyone else. And WE are a part of \"everyone else\". All stalkers, me and you. Don't ask where this information comes from. Believe me, it's true. Do you take the job?",
+      "JA_current": "You see, behind the apparent purity, bravery and righteousness behind Duty's mantra, the whole organization is corrupted with rot. In fact, Duty is nothing but an agent of the government, a deniable proxy who's only objective is the suppression and exploitation of the Zone at the expense of everyone else. And WE are a part of \"everyone else\". All stalkers, me and you. Don't ask where this information comes from. Believe me, it's true. Do you take the job?",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:pri_3_bereshsya#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "tm_seek_job_yes",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "pri_trader_dolg_task"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'm up for it.",
+      "JA_current": "やってみよう。",
+      "string_entry_candidates": [
+        "stable_task_manager:tm_seek_job_yes#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "tm_seek_job_no",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Some other time.",
+      "JA_current": "いつか、な。",
+      "string_entry_candidates": [
+        "stable_task_manager:tm_seek_job_no#1"
+      ]
+    }
+  ]
+}

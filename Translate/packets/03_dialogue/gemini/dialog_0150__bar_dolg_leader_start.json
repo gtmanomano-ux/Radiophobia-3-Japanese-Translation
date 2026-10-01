@@ -1,0 +1,780 @@
+{
+  "packet_id": "dialog_0150__bar_dolg_leader_start",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_dolg_leader_start",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_dolg_leader",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 8,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_start_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1376,
+      "string_id": "bar_dolg_leader_start_11",
+      "occurrence": 1,
+      "EN": "I'm listening.",
+      "JA_current": "聞こう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_start",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_start_21#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1379,
+      "string_id": "bar_dolg_leader_start_21",
+      "occurrence": 1,
+      "EN": "What brings you here, brother?",
+      "JA_current": "どうした、同志？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_start",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_start_51#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1394,
+      "string_id": "bar_dolg_leader_start_51",
+      "occurrence": 1,
+      "EN": "The war with Freedom is coming to an end, Marked One. You played your part in fighting for the cause and now I want to finish this war. I want you to kill the Freedom leader.",
+      "JA_current": "フリーダムとの抗争もいよいよ大詰めだ、マークド・ワン。お前は大義のために立派に戦ってくれた。この戦争に終止符を打ちたい。フリーダムのリーダーを始末してくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_start",
+          "phrase_id": "51",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_start_81#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1397,
+      "string_id": "bar_dolg_leader_start_81",
+      "occurrence": 1,
+      "EN": "What brings you here, brother? You killed the leader of those Freedom anarchists and their group has crumbled. The war is not over but its outcome is certain. Your achievements are great and they will not be forgotten.",
+      "JA_current": "どうした、同志？ フリーダムのアナーキストどものリーダーを討ち取ったおかげで、連中の組織は瓦解した。まだ完全に戦争が終わったわけではないが、勝敗はすでに決したも同然だ。お前の功績は極めて大きい。決して忘れはせん。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_start",
+          "phrase_id": "81",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_start_31#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1382,
+      "string_id": "bar_dolg_leader_start_31",
+      "occurrence": 1,
+      "EN": "You brought the grenade launcher?",
+      "JA_current": "グレネードランチャーは手に入ったか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_start",
+          "phrase_id": "31",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_start_41#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1391,
+      "string_id": "bar_dolg_leader_start_41",
+      "occurrence": 1,
+      "EN": "What brought you to me, brother?",
+      "JA_current": "私に何か用か、同志？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_start",
+          "phrase_id": "41",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_start_311#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1385,
+      "string_id": "bar_dolg_leader_start_311",
+      "occurrence": 1,
+      "EN": "Yes, here it is.",
+      "JA_current": "ああ、これだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_start",
+          "phrase_id": "311",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_dolg_leader_start_3111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1388,
+      "string_id": "bar_dolg_leader_start_3111",
+      "occurrence": 1,
+      "EN": "Good work, stalker! This is exactly what we need. Well, Marked One, you carried out my request to the letter, and in return you can take this suit as a small sample of our appreciation. I think you'll like it. This is just the tip of the iceberg, our Duty boys always carry the best kit, all paid for by us. This privilege could also extend to you. You've proven yourself to be a capable operator, and we need men like you to do us proud. Therefore, I would like to make you the offer of joining our ranks officially. You'll never want for food, shelter, equipment and good company again, not when you're wearing Duty colors. \\n \\nWhat do you say, stalker? Ready to take the oath? ",
+      "JA_current": "見事だ、ストーカー！ まさに求めていたものだ。マークド・ワン、私の個人的な頼みを完璧に果たしてくれたな。感謝の印にこのスーツを受け取ってくれ。気に入るはずだ。だがこれはほんの氷山の一角にすぎん。我がデューティーの隊員たちには、常に最高の装備をすべて組織持ちで支給している。お前が望めば、その特権を手にすることもできるのだ。お前が極めて有能な戦士であることは証明された。我々にはお前のような誇り高き男が必要だ。どうだ、正式にデューティーに加わらないか？ デューティーの軍服を纏えば、二度と食料や寝床、装備や仲間に困ることはないぞ。\\n \\nどうだ、ストーカー？ 誓いを立てる気はあるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_dolg_leader_start",
+          "phrase_id": "3111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": null,
+      "next": [
+        "1",
+        "2",
+        "5",
+        "8",
+        "3",
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "1",
+      "text_id": null,
+      "next": [
+        "11"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.dont_have_rg6"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "bar_dolg_community_leader_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "2",
+      "text_id": null,
+      "next": [
+        "21"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "bar_dolg_community_leader_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "5",
+      "text_id": null,
+      "next": [
+        "51"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_kill_svoboda_leader_done"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_kill_svoboda_leader_start"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "8",
+      "text_id": null,
+      "next": [
+        "81"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "bar_kill_svoboda_leader_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "3",
+      "text_id": null,
+      "next": [
+        "31"
+      ],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "bar_dialogs.have_rg6"
+        },
+        {
+          "type": "dont_has_info",
+          "value": "bar_svoboda_rg6_done"
+        },
+        {
+          "type": "has_info",
+          "value": "mil_svoboda_rg6_gain"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "4",
+      "text_id": null,
+      "next": [
+        "41"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "bar_dolg_community_leader_done"
+        },
+        {
+          "type": "has_info",
+          "value": "bar_svoboda_rg6_done"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "bar_dolg_leader_start_11",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm listening.",
+      "JA_current": "聞いてるよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_start_11#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "bar_dolg_leader_start_21",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What brings you here, brother?",
+      "JA_current": "ここに何を持ってきたんだ、兄弟？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_start_21#1"
+      ]
+    },
+    {
+      "phrase_id": "51",
+      "text_id": "bar_dolg_leader_start_51",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The war with Freedom is coming to an end, Marked One. You played your part in fighting for the cause and now I want to finish this war. I want you to kill the Freedom leader.",
+      "JA_current": "Freedom との戦争は終結しつつある、Marked One よ。大義のための戦いで、お前は本分を尽くした。だが今、私はこの戦いを終えたい。 Freedom のリーダーを殺してくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_start_51#1"
+      ]
+    },
+    {
+      "phrase_id": "81",
+      "text_id": "bar_dolg_leader_start_81",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What brings you here, brother? You killed the leader of those Freedom anarchists and their group has crumbled. The war is not over but its outcome is certain. Your achievements are great and they will not be forgotten.",
+      "JA_current": "何の用だ、兄弟？ お前はあの Freedom のアナーキストどものリーダーを殺した。ヤツらのグループはボロボロだ。戦争は終わってないが、結末は明らかだ。お前の業績はすばらしいよ、忘れられないものになった。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_start_81#1"
+      ]
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "bar_dolg_leader_start_31",
+      "next": [
+        "311"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You brought the grenade launcher?",
+      "JA_current": "Bulldog 6 を持って来たのか？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_start_31#1"
+      ]
+    },
+    {
+      "phrase_id": "41",
+      "text_id": "bar_dolg_leader_start_41",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What brought you to me, brother?",
+      "JA_current": "何を持って来てくれたのかな、兄弟？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_start_41#1"
+      ]
+    },
+    {
+      "phrase_id": "311",
+      "text_id": "bar_dolg_leader_start_311",
+      "next": [
+        "3111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.give_rg6"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_svoboda_rg6_done"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "31"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, here it is.",
+      "JA_current": "ああ、ここに Bulldog 6 がある。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_start_311#1"
+      ]
+    },
+    {
+      "phrase_id": "3111",
+      "text_id": "bar_dolg_leader_start_3111",
+      "next": [
+        "31111",
+        "31112"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "bar_dialogs.enter_to_dolg"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "311"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Good work, stalker! This is exactly what we need. Well, Marked One, you carried out my request to the letter, and in return you can take this suit as a small sample of our appreciation. I think you'll like it. This is just the tip of the iceberg, our Duty boys always carry the best kit, all paid for by us. This privilege could also extend to you. You've proven yourself to be a capable operator, and we need men like you to do us proud. Therefore, I would like to make you the offer of joining our ranks officially. You'll never want for food, shelter, equipment and good company again, not when you're wearing Duty colors. \\n \\nWhat do you say, stalker? Ready to take the oath? ",
+      "JA_current": "Good work, stalker! This is exactly what we need. Well, Marked One, you carried out my request to the letter, and in return you can take this suit as a small sample of our appreciation. I think you'll like it. This is just the tip of the iceberg, our Duty boys always carry the best kit, all paid for by us. This privilege could also extend to you. You've proven yourself to be a capable operator, and we need men like you to do us proud. Therefore, I would like to make you the offer of joining our ranks officially. You'll never want for food, shelter, equipment and good company again, not when you're wearing Duty colors. \\n \\nWhat do you say, stalker? Ready to take the oath? ",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_start_3111#1"
+      ]
+    },
+    {
+      "phrase_id": "31111",
+      "text_id": "bar_dolg_leader_prisyaga_0",
+      "next": [
+        "31113"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I am ready to swear the oath.",
+      "JA_current": "誓いを宣誓する準備はできてるぜ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_0#1"
+      ]
+    },
+    {
+      "phrase_id": "31112",
+      "text_id": "bar_dolg_leader_prisyaga_01",
+      "next": [
+        "311112"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, I'm not ready to enter the Duty.",
+      "JA_current": "No, I'm not ready to enter the Duty.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_01#1"
+      ]
+    },
+    {
+      "phrase_id": "31113",
+      "text_id": "bar_dolg_leader_prisyaga_1",
+      "next": [
+        "31114"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Good man! Repeat after me: \"I, a stalker known as Marked One, swear to defend the goals and ideals of Duty.\"",
+      "JA_current": "よろしい！ 復唱しろ： 「私、Marked One と名乗るストーカーは、Duty の目標と理念を守ると誓う」。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_1#1"
+      ]
+    },
+    {
+      "phrase_id": "311112",
+      "text_id": "bar_dolg_leader_prisyaga_00",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31112"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So, Marked One. We'll never forget what you have done for us. And I'll be ready and willing to accept you as our member whenever you make up your mind about it.",
+      "JA_current": "So, Marked One. We'll never forget what you have done for us. And I'll be ready and willing to accept you as our member whenever you make up your mind about it.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_00#1"
+      ]
+    },
+    {
+      "phrase_id": "31114",
+      "text_id": "bar_dolg_leader_prisyaga_2",
+      "next": [
+        "31115"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31113"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I, a stalker known as Marked One, swear to defend the goals and ideals of Duty.",
+      "JA_current": "私、Marked One と名乗るストーカーは、Duty の目標と理念を守ると誓います。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_2#1"
+      ]
+    },
+    {
+      "phrase_id": "31115",
+      "text_id": "bar_dolg_leader_prisyaga_3",
+      "next": [
+        "31116"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31114"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "To protect the Earth from the dangers of the Zone, to seek out and destroy anything it spawns within and beyond its borders.",
+      "JA_current": "ゾーンの危険からこの大地を守り、境界の内外に大量に生み出される何ものをも捜し出し、破壊することを誓う。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_3#1"
+      ]
+    },
+    {
+      "phrase_id": "31116",
+      "text_id": "bar_dolg_leader_prisyaga_4",
+      "next": [
+        "31117"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31115"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "To protect the Earth from the dangers of the Zone, to seek out and destroy anything it spawns within and beyond its borders.",
+      "JA_current": "ゾーンの危険からこの大地を守り、境界の内外に大量に生み出される何ものをも捜し出し、破壊することを誓います。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_4#1"
+      ]
+    },
+    {
+      "phrase_id": "31117",
+      "text_id": "bar_dolg_leader_prisyaga_5",
+      "next": [
+        "31118"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31116"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "To fight any nonconformists, be they individual stalkers or groups.",
+      "JA_current": "体制に従わない者すべて、個々のストーカー、あるいは集団、いずれとも戦うことを誓う。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_5#1"
+      ]
+    },
+    {
+      "phrase_id": "31118",
+      "text_id": "bar_dolg_leader_prisyaga_6",
+      "next": [
+        "31119"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31117"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "To fight any nonconformists, be they individual stalkers or groups.",
+      "JA_current": "体制に従わない者すべて、個々のストーカー、あるいは集団、いずれとも戦うことを誓います。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_6#1"
+      ]
+    },
+    {
+      "phrase_id": "31119",
+      "text_id": "bar_dolg_leader_prisyaga_7",
+      "next": [
+        "311110"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31118"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "And to give my life in the name of justice and order on Earth!",
+      "JA_current": "そして、この大地に、正義と秩序の名において、我が命を捧げることを誓う！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_7#1"
+      ]
+    },
+    {
+      "phrase_id": "311110",
+      "text_id": "bar_dolg_leader_prisyaga_8",
+      "next": [
+        "311111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.actor_set_dolg"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_dolg_community_leader_done"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "31119"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "And to give my life in the name of justice and order on Earth!",
+      "JA_current": "そして、この大地に、正義と秩序の名において、我が命を捧げることを誓います！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_8#1"
+      ]
+    },
+    {
+      "phrase_id": "311111",
+      "text_id": "bar_dolg_leader_prisyaga_9",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "311110"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Congratulations! You are now a full member of Duty.",
+      "JA_current": "よくやったぞ！ これでお前もりっぱな Duty の一員だな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_9#1"
+      ]
+    }
+  ]
+}

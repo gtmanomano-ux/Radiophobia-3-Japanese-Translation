@@ -1,0 +1,363 @@
+{
+  "packet_id": "dialog_0066__agr_stalker_talk_level",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "agr_stalker_talk_level",
+  "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml",
+  "graph_sha256": "0065cb49021f3d779d92b62bc9453bcaa767fa47933b73f8ecdd37c8a246e1ab",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "dialogs.level_agroprom"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 7,
+  "entries": [
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_talk_level_0#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 192,
+      "string_id": "agr_stalker_talk_level_0",
+      "occurrence": 1,
+      "EN": "Tell me about this place.",
+      "JA_current": "この辺のことを教えてくれ。",
+      "JA_new": "この場所について教えてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_talk_level",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_talk_level_1#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 195,
+      "string_id": "agr_stalker_talk_level_1",
+      "occurrence": 1,
+      "EN": "This is the area around the Agroprom Research Institute. The Institute itself is to the Southwest. The factory, which served as the Institute's technical production facility, is to the North. The buildings have been abandoned for a long time and there's nothing to be found there, but the army has been searching there very actively recently.",
+      "JA_current": "ここいらは Agroprom Research Institute の周辺区域だ。研究所そのものは、南東にある。工場は北、こいつは研究所のための生産施設だった。建物はどれも大昔にもぬけの空で、めぼしい物は何も残っちゃいない。だが最近、軍の連中が、この一帯を妙に熱心に嗅ぎまわってやがる。",
+      "JA_new": "ここはアフロプロム研究所の周辺だ。研究所は南西、研究所の技術生産施設だった工場は北にある。建物は長いこと放置されていて、もう何も残ってないが、最近は軍が熱心に捜索してる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_talk_level",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_talk_level_2#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 198,
+      "string_id": "agr_stalker_talk_level_2",
+      "occurrence": 1,
+      "EN": "Tell me more about the Institute.",
+      "JA_current": "研究所についてもっと教えてくれ。",
+      "JA_new": "研究所について、もっと聞かせてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_talk_level",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_talk_level_3#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 204,
+      "string_id": "agr_stalker_talk_level_3",
+      "occurrence": 1,
+      "EN": "Tell me more about the factory.",
+      "JA_current": "工場についてもっと教えてくれ。",
+      "JA_new": "工場について、もっと聞かせてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_talk_level",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_talk_level_4#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 210,
+      "string_id": "agr_stalker_talk_level_4",
+      "occurrence": 1,
+      "EN": "Thank you.",
+      "JA_current": "ありがとう。",
+      "JA_new": "ありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_talk_level",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_talk_level_21#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 201,
+      "string_id": "agr_stalker_talk_level_21",
+      "occurrence": 1,
+      "EN": "There are loads of legends about the Institute. Before the accident in 1986 the only thing here was the Institute of Crop Selection and Genetics. The area where the factory is now was used for experimental crop fields. After the accident, they closed the Institute and buried the fields as part of the liquidation efforts. Later on they apparently found a new use for this place, they whitewashed the building, put up a fence around it and built some barracks. I don't know what they did at the Institute during that time but they didn't have any shortage of funding, that's for sure.",
+      "JA_current": "この研究所に関しては、うわさ話が腐るほどある。1986年の事故以前、ここにあったのは、単なる穀物の品種改良やら遺伝子改良を行う研究所だった。今工場がある場所は、穀物の実験農場だったのさ。例の事故の後、連中は研究所を閉鎖し、畑を焼き払った。だがここの事を、忘れたわけじゃなかった。その後ヤツらは施設を補修し、フェンスを張り巡らして、兵舎をいくつか建設した。それでここで何をやっていたのか、それは謎だ。だが確かなのは、ヤツらの資金は無尽蔵だったことだ。",
+      "JA_new": "研究所にはいろんな噂がある。1986年の事故が起きる前、ここにあったのは作物選抜・遺伝研究所だけだった。今、工場が建っている場所は実験用の農地だったんだ。事故のあと、除染作業の一環で研究所は閉鎖され、農地も埋め立てられた。その後、ここが再利用されたらしい。建物は白く塗り直され、周囲をフェンスで囲んで兵舎が建てられた。その間に研究所で何が行われていたかは知らないが、資金に困っていた様子はなかったな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_talk_level",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_talk_level_31#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 207,
+      "string_id": "agr_stalker_talk_level_31",
+      "occurrence": 1,
+      "EN": "The factory was built at the end of the 80s. They said it was going to be used to build and test machines that could treat soil affected by radiation. As far as I know, nobody ever saw a single machine come out of that plant. It's totally empty now, which makes it a favorite spot for stalkers. I hear the place is pretty safe as long as you avoid the dark corners.",
+      "JA_current": "工場は80年代の終わりに建てられた。連中の話では、放射能に汚染された土壌を扱うための機械を、製作したりテストするための工場だったそうだ。だが俺の知る限り、誰も、あそこから機械とやらが出てきたのを見たことがない。今では完全な廃墟で、ストーカー連中のいい隠れ家になってる。とても安全な場所だと聞いたよ。暗がりを避けている限りな。",
+      "JA_new": "工場が建ったのは80年代の終わりだ。放射能汚染された土壌を処理する機械を製造・試験するためだと聞いた。俺の知る限り、工場から機械が出てきたのを見た奴はいない。今はすっかり空っぽで、ストーカーには格好の場所だ。暗がりに近づかなければ、かなり安全らしい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_talk_level",
+          "phrase_id": "31",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "agr_stalker_talk_level_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Tell me about this place.",
+      "JA_current": "この辺のことを教えてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_talk_level_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "agr_stalker_talk_level_1",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "This is the area around the Agroprom Research Institute. The Institute itself is to the Southwest. The factory, which served as the Institute's technical production facility, is to the North. The buildings have been abandoned for a long time and there's nothing to be found there, but the army has been searching there very actively recently.",
+      "JA_current": "ここいらは Agroprom Research Institute の周辺区域だ。研究所そのものは、南東にある。工場は北、こいつは研究所のための生産施設だった。建物はどれも大昔にもぬけの空で、めぼしい物は何も残っちゃいない。だが最近、軍の連中が、この一帯を妙に熱心に嗅ぎまわってやがる。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_talk_level_1#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": null,
+      "next": [
+        "111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21",
+        "31",
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "111",
+      "text_id": null,
+      "next": [
+        "2",
+        "3",
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "agr_stalker_talk_level_2",
+      "next": [
+        "21"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "agr_nii_location"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Tell me more about the Institute.",
+      "JA_current": "研究所についてもっと教えてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_talk_level_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "agr_stalker_talk_level_3",
+      "next": [
+        "31"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "agr_factory_location"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Tell me more about the factory.",
+      "JA_current": "工場についてもっと教えてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_talk_level_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "agr_stalker_talk_level_4",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "111"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Thank you.",
+      "JA_current": "ありがとう。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_talk_level_4#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "agr_stalker_talk_level_21",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "There are loads of legends about the Institute. Before the accident in 1986 the only thing here was the Institute of Crop Selection and Genetics. The area where the factory is now was used for experimental crop fields. After the accident, they closed the Institute and buried the fields as part of the liquidation efforts. Later on they apparently found a new use for this place, they whitewashed the building, put up a fence around it and built some barracks. I don't know what they did at the Institute during that time but they didn't have any shortage of funding, that's for sure.",
+      "JA_current": "この研究所に関しては、うわさ話が腐るほどある。1986年の事故以前、ここにあったのは、単なる穀物の品種改良やら遺伝子改良を行う研究所だった。今工場がある場所は、穀物の実験農場だったのさ。例の事故の後、連中は研究所を閉鎖し、畑を焼き払った。だがここの事を、忘れたわけじゃなかった。その後ヤツらは施設を補修し、フェンスを張り巡らして、兵舎をいくつか建設した。それでここで何をやっていたのか、それは謎だ。だが確かなのは、ヤツらの資金は無尽蔵だったことだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_talk_level_21#1"
+      ]
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "agr_stalker_talk_level_31",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "The factory was built at the end of the 80s. They said it was going to be used to build and test machines that could treat soil affected by radiation. As far as I know, nobody ever saw a single machine come out of that plant. It's totally empty now, which makes it a favorite spot for stalkers. I hear the place is pretty safe as long as you avoid the dark corners.",
+      "JA_current": "工場は80年代の終わりに建てられた。連中の話では、放射能に汚染された土壌を扱うための機械を、製作したりテストするための工場だったそうだ。だが俺の知る限り、誰も、あそこから機械とやらが出てきたのを見たことがない。今では完全な廃墟で、ストーカー連中のいい隠れ家になってる。とても安全な場所だと聞いたよ。暗がりを避けている限りな。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_talk_level_31#1"
+      ]
+    }
+  ]
+}

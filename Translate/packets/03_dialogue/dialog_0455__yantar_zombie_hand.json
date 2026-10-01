@@ -1,0 +1,494 @@
+{
+    "packet_id":  "dialog_0455__yantar_zombie_hand",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "yantar_zombie_hand",
+    "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml",
+    "graph_sha256":  "131d3c64c00a1023af4aaa914f345f3cfff2e581dea421160993fad100675545",
+    "character_bindings":  [
+                               {
+                                   "profile_id":  "yan_general_ecolog",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_yantar.xml"
+                               }
+                           ],
+    "dialog_conditions":  [
+                              {
+                                  "type":  "dont_has_info",
+                                  "value":  "actor_set_zombied"
+                              },
+                              {
+                                  "type":  "precondition",
+                                  "value":  "ogsm_quests.has_zombie_hand"
+                              }
+                          ],
+    "root_speaker_hint":  "player",
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  9,
+    "entries":  [
+                    {
+                        "key":  "stable_dialogs_yantar:nashel_vesh#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  150,
+                        "string_id":  "nashel_vesh",
+                        "occurrence":  1,
+                        "EN":  "I have discovered something unusual...",
+                        "JA_current":  "I have discovered something unusual...",
+                        "JA_new":  "変わったものを見つけたんだ……。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_zombie_hand",
+                                               "phrase_id":  "0",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:4to_imenno#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  154,
+                        "string_id":  "4to_imenno",
+                        "occurrence":  1,
+                        "EN":  "May you, please, be more specific?",
+                        "JA_current":  "May you, please, be more specific?",
+                        "JA_new":  "もう少し詳しく聞かせてもらえますか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_zombie_hand",
+                                               "phrase_id":  "1",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:raspravilsa_s_zombi#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  158,
+                        "string_id":  "raspravilsa_s_zombi",
+                        "occurrence":  1,
+                        "EN":  "I have \"calmed down\" a band of exploding zombies and there was a hand among their remains. It is warm, glowing and it seems to protect against radiation...",
+                        "JA_current":  "I have \"calmed down\" a band of exploding zombies and there was a hand among their remains. It is warm, glowing and it seems to protect against radiation...",
+                        "JA_new":  "爆発するゾンビの一団を「鎮めた」んだが、その残骸から手が出てきた。温かくて光ってる。放射線も防いでくれるみたいだ……。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_zombie_hand",
+                                               "phrase_id":  "2",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:neuzheli_ruka#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  162,
+                        "string_id":  "neuzheli_ruka",
+                        "occurrence":  1,
+                        "EN":  "Marked One! Have you really happened to find a hand of the legendary zombie-kamikaze?! If so, than it is going to advance our research work greatly! We haven\u0027t ever experienced any material evidence of zombie-kamikaze\u0027s existence! Only Ghost told me about how he had met them, but I thought he was spinning a yarn... You are to give this artifact to me for research!.. Do not worry about the payment! If my investigation proves that it is really the specimen you claim it to be - the reward is going to be remarkable!",
+                        "JA_current":  "Marked One! Have you really happened to find a hand of the legendary zombie-kamikaze?! If so, than it is going to advance our research work greatly! We haven\u0027t ever experienced any material evidence of zombie-kamikaze\u0027s existence! Only Ghost told me about how he had met them, but I thought he was spinning a yarn... You are to give this artifact to me for research!.. Do not worry about the payment! If my investigation proves that it is really the specimen you claim it to be - the reward is going to be remarkable!",
+                        "JA_new":  "マークドワン！ 伝説の自爆ゾンビの手を本当に見つけたのですか！？ だとしたら、研究が大きく前進します！ 自爆ゾンビが実在したという物証は、一度も確認できていません。ゴーストから遭遇した話を聞いたことはありますが、作り話だと思っていました……。そのアーティファクトを研究用に譲ってください！ 報酬のことは心配しないでください。私の見立てが正しければ、相応の報酬をお渡しします！",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_zombie_hand",
+                                               "phrase_id":  "3",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:horosho#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  166,
+                        "string_id":  "horosho",
+                        "occurrence":  1,
+                        "EN":  "Glad to hear that! You may have the hand.",
+                        "JA_current":  "Glad to hear that! You may have the hand.",
+                        "JA_new":  "それはよかった！ 手を渡そう。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_zombie_hand",
+                                               "phrase_id":  "31",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:priberegu#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  170,
+                        "string_id":  "priberegu",
+                        "occurrence":  1,
+                        "EN":  "Excuse me, Professor, but I\u0027d prefer to keep it for myself.",
+                        "JA_current":  "Excuse me, Professor, but I\u0027d prefer to keep it for myself.",
+                        "JA_new":  "すみません、教授。でも自分で持っておきたい。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_zombie_hand",
+                                               "phrase_id":  "32",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:provedu_issledovanie#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  174,
+                        "string_id":  "provedu_issledovanie",
+                        "occurrence":  1,
+                        "EN":  "That is awesome, Marked One!.. Take a walk now - I need some time to perform some initial tests.",
+                        "JA_current":  "That is awesome, Marked One!.. Take a walk now - I need some time to perform some initial tests.",
+                        "JA_new":  "すばらしい、マークドワン！ ……少し出ていてください。予備検査に時間が必要です。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_zombie_hand",
+                                               "phrase_id":  "311",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:podumai_horoshenko#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  182,
+                        "string_id":  "podumai_horoshenko",
+                        "occurrence":  1,
+                        "EN":  "Maybe you reconsider your decision. My offer is alluring indeed! I will be looking forward to your making the right decision to help the science.",
+                        "JA_current":  "Maybe you reconsider your decision. My offer is alluring indeed! I will be looking forward to your making the right decision to help the science.",
+                        "JA_new":  "考え直してもいいんですよ。魅力的な条件でしょう？ 科学のために力を貸す決断をしてくれると期待しています。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_zombie_hand",
+                                               "phrase_id":  "312",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_yantar:okay#1",
+                        "source_table":  "stable_dialogs_yantar",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+                        "source_xml_line":  178,
+                        "string_id":  "okay",
+                        "occurrence":  1,
+                        "EN":  "Ok.",
+                        "JA_current":  "Ok.",
+                        "JA_new":  "分かった。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "yantar_zombie_hand",
+                                               "phrase_id":  "4",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_yantar.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  "nashel_vesh",
+                            "next":  [
+                                         "1"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I have discovered something unusual...",
+                            "JA_current":  "I have discovered something unusual...",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:nashel_vesh#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "1",
+                            "text_id":  "4to_imenno",
+                            "next":  [
+                                         "2"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "May you, please, be more specific?",
+                            "JA_current":  "May you, please, be more specific?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:4to_imenno#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "2",
+                            "text_id":  "raspravilsa_s_zombi",
+                            "next":  [
+                                         "3"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I have \"calmed down\" a band of exploding zombies and there was a hand among their remains. It is warm, glowing and it seems to protect against radiation...",
+                            "JA_current":  "I have \"calmed down\" a band of exploding zombies and there was a hand among their remains. It is warm, glowing and it seems to protect against radiation...",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:raspravilsa_s_zombi#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "3",
+                            "text_id":  "neuzheli_ruka",
+                            "next":  [
+                                         "31",
+                                         "32"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "2"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Marked One! Have you really happened to find a hand of the legendary zombie-kamikaze?! If so, than it is going to advance our research work greatly! We haven\u0027t ever experienced any material evidence of zombie-kamikaze\u0027s existence! Only Ghost told me about how he had met them, but I thought he was spinning a yarn... You are to give this artifact to me for research!.. Do not worry about the payment! If my investigation proves that it is really the specimen you claim it to be - the reward is going to be remarkable!",
+                            "JA_current":  "Marked One! Have you really happened to find a hand of the legendary zombie-kamikaze?! If so, than it is going to advance our research work greatly! We haven\u0027t ever experienced any material evidence of zombie-kamikaze\u0027s existence! Only Ghost told me about how he had met them, but I thought he was spinning a yarn... You are to give this artifact to me for research!.. Do not worry about the payment! If my investigation proves that it is really the specimen you claim it to be - the reward is going to be remarkable!",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:neuzheli_ruka#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "31",
+                            "text_id":  "horosho",
+                            "next":  [
+                                         "311"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "ogsm_quests.sell_zombie_hand"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "3"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Glad to hear that! You may have the hand.",
+                            "JA_current":  "Glad to hear that! You may have the hand.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:horosho#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "32",
+                            "text_id":  "priberegu",
+                            "next":  [
+                                         "312"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "3"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Excuse me, Professor, but I\u0027d prefer to keep it for myself.",
+                            "JA_current":  "Excuse me, Professor, but I\u0027d prefer to keep it for myself.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:priberegu#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "311",
+                            "text_id":  "provedu_issledovanie",
+                            "next":  [
+                                         "4"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "31"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "That is awesome, Marked One!.. Take a walk now - I need some time to perform some initial tests.",
+                            "JA_current":  "That is awesome, Marked One!.. Take a walk now - I need some time to perform some initial tests.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:provedu_issledovanie#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "312",
+                            "text_id":  "podumai_horoshenko",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "32"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Maybe you reconsider your decision. My offer is alluring indeed! I will be looking forward to your making the right decision to help the science.",
+                            "JA_current":  "Maybe you reconsider your decision. My offer is alluring indeed! I will be looking forward to your making the right decision to help the science.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:podumai_horoshenko#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "4",
+                            "text_id":  "okay",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "dialogs.break_dialog"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "311"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Ok.",
+                            "JA_current":  "Ok.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_yantar:okay#1"
+                                                        ]
+                        }
+                    ]
+}

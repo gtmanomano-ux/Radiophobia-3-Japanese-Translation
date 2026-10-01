@@ -1,0 +1,331 @@
+{
+  "packet_id": "dialog_0315__nastav_quest_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "nastav_quest_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "nastavnik",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "nastav_tutor_have"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "muzikant_quest_start"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 7,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:nastav_quest_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2341,
+      "string_id": "nastav_quest_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Tell me where I could find at least some gear to get started.",
+      "JA_current": "Tell me where I could find at least some gear to get started.",
+      "JA_new": "ここで暮らすための装備を、どこで手に入れられる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_quest_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_quest_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2344,
+      "string_id": "nastav_quest_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "I may have something. But first, I'm wondering if you could help me out a little bit? So, not long ago, I found out that my old friend, a stalker nicknamed Musician, died somewhere around here, peace be upon him... He was not much of a fighter, but the man could play the guitar and sing beautifully. That's why the local people loved him. Sometimes stalkers would gather around the fire in the evening after a hard hike and the Musician would play them a hearty song about war or even love - he knew a lot of them. Believe it or not, I've seen many times how even the most grizzled and hardcore stalkers, completely warped and burned by the Zone, had bright eyes when they listened to his music... That's the effect he had on others. He could lift you up from the deepest pit of despair.",
+      "JA_current": "I may have something. But first, I'm wondering if you could help me out a little bit? So, not long ago, I found out that my old friend, a stalker nicknamed Musician, died somewhere around here, peace be upon him... He was not much of a fighter, but the man could play the guitar and sing beautifully. That's why the local people loved him. Sometimes stalkers would gather around the fire in the evening after a hard hike and the Musician would play them a hearty song about war or even love - he knew a lot of them. Believe it or not, I've seen many times how even the most grizzled and hardcore stalkers, completely warped and burned by the Zone, had bright eyes when they listened to his music... That's the effect he had on others. He could lift you up from the deepest pit of despair.",
+      "JA_new": "用意できるかもしれない。だが先に、少し俺を手伝ってくれないか？ 少し前、昔なじみのストーカーがこの辺りで死んだと分かった。通り名はミュージシャン……安らかに眠ってくれ。戦いは得意じゃなかったが、ギターを弾いて歌わせたら見事だった。だから皆に好かれてたんだ。長い遠征から戻った夜、ストーカーたちは焚き火を囲んで、ミュージシャンの歌を聴いた。戦争や恋の歌をな。あいつは何曲も知ってた。信じないかもしれないが、ゾーンに焼かれて、すっかり荒んだベテランたちでさえ、あいつの歌を聴くと目を輝かせてた……それほど人の心を動かす男だった。どん底にいる奴を、立ち直らせる力があったんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_quest_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_quest_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2347,
+      "string_id": "nastav_quest_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "How did he die?",
+      "JA_current": "How did he die?",
+      "JA_new": "どうして死んだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_quest_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_quest_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2350,
+      "string_id": "nastav_quest_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "They say he was killed by a gangster. That was most likely the case: the Musician had always been penniless, living mostly on tips he received by playing his music. At one stage he played for money in the bar, and then went on a journey - he liked to travel, he could not sit in one place for more than a week, which is what brought him into the Zone in the first place... Alas, he ran into bandits, who operate on a code: if they have nothing to take from you, then they'll just put a bullet in your head and go about their business. I remember when they used to just beat you up and let you go, but now they're getting really blood-thirsty. So please, try and find the Musician's resting place. I don't expect you to salvage his body, but at the very least bring me his guitar. There are legends about it among the stalkers, and we will be able to cherish it in his memory. I'll repay you.",
+      "JA_current": "They say he was killed by a gangster. That was most likely the case: the Musician had always been penniless, living mostly on tips he received by playing his music. At one stage he played for money in the bar, and then went on a journey - he liked to travel, he could not sit in one place for more than a week, which is what brought him into the Zone in the first place... Alas, he ran into bandits, who operate on a code: if they have nothing to take from you, then they'll just put a bullet in your head and go about their business. I remember when they used to just beat you up and let you go, but now they're getting really blood-thirsty. So please, try and find the Musician's resting place. I don't expect you to salvage his body, but at the very least bring me his guitar. There are legends about it among the stalkers, and we will be able to cherish it in his memory. I'll repay you.",
+      "JA_new": "バンディットに殺されたらしい。たぶん本当だろう。ミュージシャンはいつも一文無しで、演奏の投げ銭で暮らしてた。バーで金をもらって演奏してた時期もあったが、その後、旅に出た。旅が好きで、一か所に一週間もいられない性分だった。そんな性格が、あいつをゾーンに連れてきたんだ……だが、バンディットに出くわした。あいつらの掟はこうだ。奪うものがなければ、頭に弾を一発撃ち込んで、そのまま立ち去る。昔は殴るだけで見逃してたのに、最近はずいぶん血に飢えてる。頼む、ミュージシャンの墓を探してくれ。遺体を回収しろとは言わない。せめてギターを持ち帰ってほしい。ストーカーたちの間で伝説になってる品だ。あいつの形見として大事にしたい。礼はする。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_quest_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_quest_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2353,
+      "string_id": "nastav_quest_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "I'll look for it. And where might I find his remains, approximately?",
+      "JA_current": "I'll look for it. And where might I find his remains, approximately?",
+      "JA_new": "探してみる。遺体があるとしたら、だいたいどの辺りだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_quest_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_quest_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2356,
+      "string_id": "nastav_quest_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "No, I can't right now.",
+      "JA_current": "No, I can't right now.",
+      "JA_new": "今は無理だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_quest_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_quest_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2359,
+      "string_id": "nastav_quest_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "I don't know where exactly, but most likely here at the Cordon somewhere. Just keep your eyes peeled for anything while you explore.",
+      "JA_current": "I don't know where exactly, but most likely here at the Cordon somewhere. Just keep your eyes peeled for anything while you explore.",
+      "JA_new": "正確な場所は分からないが、コルドンのどこかだろう。探索する時は、何か見落とさないように気をつけてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_quest_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "nastav_quest_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Tell me where I could find at least some gear to get started.",
+      "JA_current": "Tell me where I could find at least some gear to get started.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_quest_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "nastav_quest_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I may have something. But first, I'm wondering if you could help me out a little bit? So, not long ago, I found out that my old friend, a stalker nicknamed Musician, died somewhere around here, peace be upon him... He was not much of a fighter, but the man could play the guitar and sing beautifully. That's why the local people loved him. Sometimes stalkers would gather around the fire in the evening after a hard hike and the Musician would play them a hearty song about war or even love - he knew a lot of them. Believe it or not, I've seen many times how even the most grizzled and hardcore stalkers, completely warped and burned by the Zone, had bright eyes when they listened to his music... That's the effect he had on others. He could lift you up from the deepest pit of despair.",
+      "JA_current": "I may have something. But first, I'm wondering if you could help me out a little bit? So, not long ago, I found out that my old friend, a stalker nicknamed Musician, died somewhere around here, peace be upon him... He was not much of a fighter, but the man could play the guitar and sing beautifully. That's why the local people loved him. Sometimes stalkers would gather around the fire in the evening after a hard hike and the Musician would play them a hearty song about war or even love - he knew a lot of them. Believe it or not, I've seen many times how even the most grizzled and hardcore stalkers, completely warped and burned by the Zone, had bright eyes when they listened to his music... That's the effect he had on others. He could lift you up from the deepest pit of despair.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_quest_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "nastav_quest_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "How did he die?",
+      "JA_current": "How did he die?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_quest_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "nastav_quest_dialog_phrase_4",
+      "next": [
+        "4",
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "They say he was killed by a gangster. That was most likely the case: the Musician had always been penniless, living mostly on tips he received by playing his music. At one stage he played for money in the bar, and then went on a journey - he liked to travel, he could not sit in one place for more than a week, which is what brought him into the Zone in the first place... Alas, he ran into bandits, who operate on a code: if they have nothing to take from you, then they'll just put a bullet in your head and go about their business. I remember when they used to just beat you up and let you go, but now they're getting really blood-thirsty. So please, try and find the Musician's resting place. I don't expect you to salvage his body, but at the very least bring me his guitar. There are legends about it among the stalkers, and we will be able to cherish it in his memory. I'll repay you.",
+      "JA_current": "They say he was killed by a gangster. That was most likely the case: the Musician had always been penniless, living mostly on tips he received by playing his music. At one stage he played for money in the bar, and then went on a journey - he liked to travel, he could not sit in one place for more than a week, which is what brought him into the Zone in the first place... Alas, he ran into bandits, who operate on a code: if they have nothing to take from you, then they'll just put a bullet in your head and go about their business. I remember when they used to just beat you up and let you go, but now they're getting really blood-thirsty. So please, try and find the Musician's resting place. I don't expect you to salvage his body, but at the very least bring me his guitar. There are legends about it among the stalkers, and we will be able to cherish it in his memory. I'll repay you.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_quest_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "nastav_quest_dialog_phrase_5",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "muzikant_quest_start"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.spawn_guitar"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'll look for it. And where might I find his remains, approximately?",
+      "JA_current": "I'll look for it. And where might I find his remains, approximately?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_quest_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "nastav_quest_dialog_phrase_6",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, I can't right now.",
+      "JA_current": "No, I can't right now.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_quest_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "nastav_quest_dialog_phrase_7",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I don't know where exactly, but most likely here at the Cordon somewhere. Just keep your eyes peeled for anything while you explore.",
+      "JA_current": "I don't know where exactly, but most likely here at the Cordon somewhere. Just keep your eyes peeled for anything while you explore.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_quest_dialog_phrase_7#1"
+      ]
+    }
+  ]
+}

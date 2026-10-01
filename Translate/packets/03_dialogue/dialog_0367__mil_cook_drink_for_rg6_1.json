@@ -1,0 +1,360 @@
+{
+  "packet_id": "dialog_0367__mil_cook_drink_for_rg6_1",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "mil_cook_drink_for_rg6_1",
+  "graph_source": "gamedata/config/gameplay/dialogs_military.xml",
+  "graph_sha256": "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+  "character_bindings": [
+    {
+      "profile_id": "mil_Svoboda_cook",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_military.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "dialogs_military.have_a_vodka"
+    },
+    {
+      "type": "has_info",
+      "value": "mil_cook_dialog5"
+    },
+    {
+      "type": "has_info",
+      "value": "mil_cook_dialog1"
+    },
+    {
+      "type": "has_info",
+      "value": "mil_cook_dialog2"
+    },
+    {
+      "type": "has_info",
+      "value": "mil_cook_dialog3"
+    },
+    {
+      "type": "has_info",
+      "value": "mil_cook_dialog4"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "mil_freedom_cook_drink_1"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "bar_svoboda_rg6_done"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 7,
+  "entries": [
+    {
+      "key": "stable_dialogs_military:mil_cook_drink_for_rg6_1_0#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 263,
+      "string_id": "mil_cook_drink_for_rg6_1_0",
+      "occurrence": 1,
+      "EN": "Let's have a drink, why don't we?",
+      "JA_current": "一杯やろうって言うのかい？",
+      "JA_new": "一杯やらないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_drink_for_rg6_1",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_drink_for_rg6_1_1#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 266,
+      "string_id": "mil_cook_drink_for_rg6_1_1",
+      "occurrence": 1,
+      "EN": "Sure thing, bro! Pour it!",
+      "JA_current": "そうさ！ 兄弟！ 注いでくれ！",
+      "JA_new": "いいとも、兄弟！注いでくれ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_drink_for_rg6_1",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_drink_for_rg6_1_2#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 269,
+      "string_id": "mil_cook_drink_for_rg6_1_2",
+      "occurrence": 1,
+      "EN": "Well, well... Cheers!",
+      "JA_current": "よし、よ～し… 乾杯！",
+      "JA_new": "さあ、乾杯！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_drink_for_rg6_1",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_drink_for_rg6_1_3#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 272,
+      "string_id": "mil_cook_drink_for_rg6_1_3",
+      "occurrence": 1,
+      "EN": "Yes, that was a good one! Hold the bottle... there's some more left.",
+      "JA_current": "おっ！こりゃ良い酒だ！ ついでくれ… もうちょい左だ。",
+      "JA_new": "ああ、いい酒だ！瓶を持っててくれ……まだ残ってる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_drink_for_rg6_1",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_drink_for_rg6_1_4#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 275,
+      "string_id": "mil_cook_drink_for_rg6_1_4",
+      "occurrence": 1,
+      "EN": "So, how about one more?",
+      "JA_current": "もう一杯どうだい？",
+      "JA_new": "もう一杯どうだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_drink_for_rg6_1",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_drink_for_rg6_1_5#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 278,
+      "string_id": "mil_cook_drink_for_rg6_1_5",
+      "occurrence": 1,
+      "EN": "Ahhhh... awesome! Too bad the bottle's been taken care off already. Got some more?",
+      "JA_current": "あうう… すげえ！ くそ、くれたボトルがもう空だ。もっと持ってないのか？",
+      "JA_new": "ああ……最高だ！でも瓶、もう空になっちまったな。ほかにもあるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_drink_for_rg6_1",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_drink_for_rg6_1_6#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 281,
+      "string_id": "mil_cook_drink_for_rg6_1_6",
+      "occurrence": 1,
+      "EN": "Let me see.",
+      "JA_current": "えーと。",
+      "JA_new": "見せてみろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_drink_for_rg6_1",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "mil_cook_drink_for_rg6_1_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Let's have a drink, why don't we?",
+      "JA_current": "一杯やろうって言うのかい？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_drink_for_rg6_1_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "mil_cook_drink_for_rg6_1_1",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sure thing, bro! Pour it!",
+      "JA_current": "そうさ！ 兄弟！ 注いでくれ！",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_drink_for_rg6_1_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "mil_cook_drink_for_rg6_1_2",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, well... Cheers!",
+      "JA_current": "よし、よ～し… 乾杯！",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_drink_for_rg6_1_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "mil_cook_drink_for_rg6_1_3",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, that was a good one! Hold the bottle... there's some more left.",
+      "JA_current": "おっ！こりゃ良い酒だ！ ついでくれ… もうちょい左だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_drink_for_rg6_1_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "mil_cook_drink_for_rg6_1_4",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So, how about one more?",
+      "JA_current": "もう一杯どうだい？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_drink_for_rg6_1_4#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "mil_cook_drink_for_rg6_1_5",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Ahhhh... awesome! Too bad the bottle's been taken care off already. Got some more?",
+      "JA_current": "あうう… すげえ！ くそ、くれたボトルがもう空だ。もっと持ってないのか？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_drink_for_rg6_1_5#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "mil_cook_drink_for_rg6_1_6",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs_military.transfer_vodka"
+        },
+        {
+          "type": "give_info",
+          "value": "mil_freedom_cook_drink_1"
+        },
+        {
+          "type": "give_info",
+          "value": "mil_cook_dialog1"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Let me see.",
+      "JA_current": "えーと。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_drink_for_rg6_1_6#1"
+      ]
+    }
+  ]
+}

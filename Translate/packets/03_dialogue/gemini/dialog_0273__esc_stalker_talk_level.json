@@ -1,0 +1,274 @@
+{
+  "packet_id": "dialog_0273__esc_stalker_talk_level",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "esc_stalker_talk_level",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "no_kill_actor"
+    },
+    {
+      "type": "precondition",
+      "value": "dialogs.is_escape"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 6,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:esc_stalker_talk_level_0#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 791,
+      "string_id": "esc_stalker_talk_level_0",
+      "occurrence": 1,
+      "EN": "Could you tell me more about this place?",
+      "JA_current": "この辺りのことを、もう少し教えてくれないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "esc_stalker_talk_level",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:esc_stalker_talk_level_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 794,
+      "string_id": "esc_stalker_talk_level_1",
+      "occurrence": 1,
+      "EN": "This is the road to the Zone. If I were you, I wouldn't get too close to the army outpost or let those soldiers see you - they've got orders to shoot on sight. Further up North there's a broken bridge, but they've set up an outpost there too. Open areas are crawling with wild dogs, so it's not a safe place for rookies. Oh, and a pack of bandits shows up every now and then.",
+      "JA_current": "ここはゾーンへ続く街道だ。俺なら軍の前哨基地には近づかねえし、兵士どもに見つからねえようにするな――あいつらは見つけ次第射殺の命令を受けてるからな。もっと北へ行くと壊れた高架橋があるが、そこにも陣地が張られてる。開けた場所には野犬がうろついてるから、新米には危険な場所だ。ああ、それとバンディットの群れもちょくちょく顔を出すぜ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "esc_stalker_talk_level",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:esc_stalker_talk_level_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 803,
+      "string_id": "esc_stalker_talk_level_2",
+      "occurrence": 1,
+      "EN": "What's further up North beyond the army outpost?",
+      "JA_current": "軍の前哨基地のさらに北には何があるんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "esc_stalker_talk_level",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:esc_stalker_talk_level_10#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 797,
+      "string_id": "esc_stalker_talk_level_10",
+      "occurrence": 1,
+      "EN": "What about the soldiers at the bridge? I've got to get past them somehow.",
+      "JA_current": "橋にいる兵士はどうすればいい？ 何とか突破したいんだが。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "esc_stalker_talk_level",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:esc_stalker_talk_level_21#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 806,
+      "string_id": "esc_stalker_talk_level_21",
+      "occurrence": 1,
+      "EN": "The Garbage, that’s what. Now there's a depressing place. So much contaminated shit in some spots that swimming would be easier than walking. I really wouldn't recommend wading through it, unless you want your piss to start glowing brighter than your flashlight.",
+      "JA_current": "ガーベジだよ。あそこは気の滅入る場所だぜ。歩くより泳いだ方がマシなくらい、汚染ゴミが山積みになってる場所もある。懐中電灯より小便をピカピカ光らせたい奴でもなけりゃ、あんなゴミ溜まりに踏み込むのは絶対にお勧めしねえな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "esc_stalker_talk_level",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:esc_stalker_talk_level_11#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 800,
+      "string_id": "esc_stalker_talk_level_11",
+      "occurrence": 1,
+      "EN": "Alright, you've got two options. If Kuznetsov is on duty, keep in mind that he is quite fond of money. Good chance he'll let you through for a bribe. But if you're low on cash or if it's someone else's shift, there is a different way. Go to the left side of the bridge, along the railway. Just make sure they don't see you! You'll come across a small tunnel that goes through the embankment. It's dangerous though, there's some type of an electrical anomaly down there that'll fry you in an instant if you get caught in it. And another thing: you might also land a date with some zombies down there.",
+      "JA_current": "いいか、手は二つある。クズネツォフが当直なら、奴は大の金好きだってことを覚えておけ。賄賂を握らせれば通してくれる可能性が高い。だが金がないか、別の兵士の当番なら、別の道を行くんだ。橋の左手、線路沿いを進め。兵士に見つかるんじゃねえぞ！ 土手をくぐる小さなトンネルがあるはずだ。ただ危険だぞ。中には電気のアノマリーがあって、引っかかれば一瞬で丸焦げだ。それともう一つ、運が悪けりゃゾンビどもとお熱いデートをする羽目になるぜ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "esc_stalker_talk_level",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "esc_stalker_talk_level_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Could you tell me more about this place?",
+      "JA_current": "この場所についてもっと教えてくれないか？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_stalker_talk_level_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "esc_stalker_talk_level_1",
+      "next": [
+        "2",
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "This is the road to the Zone. If I were you, I wouldn't get too close to the army outpost or let those soldiers see you - they've got orders to shoot on sight. Further up North there's a broken bridge, but they've set up an outpost there too. Open areas are crawling with wild dogs, so it's not a safe place for rookies. Oh, and a pack of bandits shows up every now and then.",
+      "JA_current": "これはゾーンへと続く道だ。俺なら軍の前哨に近付き過ぎないようにするし、兵士に見つからないようようにする ― ヤツらはすぐに撃ってくるからな。もっと北へ向かうと、壊れた橋があるが、ヤツらはそこに前哨を設けてる。開けた場所は野生の犬がうじゃうじゃいるから、新米には安全な場所とは言えん。ああ、それにミュータントの群れも時々現れるぞ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_stalker_talk_level_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "esc_stalker_talk_level_2",
+      "next": [
+        "21"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "What's further up North beyond the army outpost?",
+      "JA_current": "軍の前哨を越えた北側については、何か知らないか？",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_stalker_talk_level_2#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "esc_stalker_talk_level_10",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "esc_bridge_soldiers"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "What about the soldiers at the bridge? I've got to get past them somehow.",
+      "JA_current": "橋にいる兵士について何か知らないか？ なんとかヤツらをやり過ごさなければ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_stalker_talk_level_10#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "esc_stalker_talk_level_21",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "The Garbage, that’s what. Now there's a depressing place. So much contaminated shit in some spots that swimming would be easier than walking. I really wouldn't recommend wading through it, unless you want your piss to start glowing brighter than your flashlight.",
+      "JA_current": "そこが Garbage だ。考えるだけで気の滅入る場所だね。泳いだほうが歩くよりマシなほど、ひどく汚染された場所があったりするよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_stalker_talk_level_21#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "esc_stalker_talk_level_11",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Alright, you've got two options. If Kuznetsov is on duty, keep in mind that he is quite fond of money. Good chance he'll let you through for a bribe. But if you're low on cash or if it's someone else's shift, there is a different way. Go to the left side of the bridge, along the railway. Just make sure they don't see you! You'll come across a small tunnel that goes through the embankment. It's dangerous though, there's some type of an electrical anomaly down there that'll fry you in an instant if you get caught in it. And another thing: you might also land a date with some zombies down there.",
+      "JA_current": "よし、2つ方法がある。Kuznetsov が勤務中なら、ヤツが大の金好きってことを覚えておけ。賄賂でお前を通す可能性が十分にある。だが、持ち合わせの金が少ないか、他の誰かのシフトなら、別の方法がある。線路に沿って橋の左側に行け。ヤツらに見つからないよう注意しろ！ 築堤を通り抜ける小さなトンネルに出くわすはずだ。あともう一つ： その中でお前は、ゾンビの仲間入りすることになるかもしれんがな。",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:esc_stalker_talk_level_11#1"
+      ]
+    }
+  ]
+}

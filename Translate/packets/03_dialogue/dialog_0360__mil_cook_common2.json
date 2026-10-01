@@ -1,0 +1,287 @@
+{
+  "packet_id": "dialog_0360__mil_cook_common2",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "mil_cook_common2",
+  "graph_source": "gamedata/config/gameplay/dialogs_military.xml",
+  "graph_sha256": "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+  "character_bindings": [
+    {
+      "profile_id": "mil_Svoboda_cook",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_military.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "dialogs.dialog_allowed"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "mil_cook_dialog2"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 6,
+  "entries": [
+    {
+      "key": "stable_dialogs_military:mil_cook_common2_0#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 146,
+      "string_id": "mil_cook_common2_0",
+      "occurrence": 1,
+      "EN": "What is this place, anyway?",
+      "JA_current": "一体ここは何なんだ？",
+      "JA_new": "ここは何なんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common2",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common2_201#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 149,
+      "string_id": "mil_cook_common2_201",
+      "occurrence": 1,
+      "EN": "This place... a nice little place... It's just a normal place, you know... just some people making a living, hehe...",
+      "JA_current": "ここは小さな良い場所さ… 知っての通り、ただ単に人が暮らしてる何の変哲もない場所だぜ。へへへ…。",
+      "JA_new": "ここか……いい所だよ……普通の場所さ。人が暮らしてるだけ……へへ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common2",
+          "phrase_id": "201",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common2_202#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 152,
+      "string_id": "mil_cook_common2_202",
+      "occurrence": 1,
+      "EN": "So what?",
+      "JA_current": "それでここは？",
+      "JA_new": "それで？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common2",
+          "phrase_id": "202",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common2_203#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 155,
+      "string_id": "mil_cook_common2_203",
+      "occurrence": 1,
+      "EN": "Pfft... You're asking some tough questions, Mr. Stranger!",
+      "JA_current": "ププッ… すげぇことを聞いてくれるよな、よそ者さんよ！",
+      "JA_new": "はあ……妙に鋭い質問をするな、あんた！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common2",
+          "phrase_id": "203",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common2_204#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 158,
+      "string_id": "mil_cook_common2_204",
+      "occurrence": 1,
+      "EN": "And what if you cut to the chase?",
+      "JA_current": "話を戻すと、ここは？",
+      "JA_new": "要点だけ言ってくれないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common2",
+          "phrase_id": "204",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common2_205#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 161,
+      "string_id": "mil_cook_common2_205",
+      "occurrence": 1,
+      "EN": "Hey, relax! Hold on... well... it's just a normal place! A quiet one. All good all around. Yeah...you relax, alright? Don't get all worked up...",
+      "JA_current": "へい、リラックスしろ！ 待て… いいか… ここはおかしな場所じゃない！ ただ秘密の場所だ。どこも問題ない。そう… リラックスして、大丈夫か？ あんまり興奮するな…。",
+      "JA_new": "おい、落ち着け！待て……つまり……普通の場所さ！静かで、何も問題ない。ああ……落ち着け、な？そんなにカッカするな……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common2",
+          "phrase_id": "205",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "mil_cook_common2_0",
+      "next": [
+        "201"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What is this place, anyway?",
+      "JA_current": "一体ここは何なんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common2_0#1"
+      ]
+    },
+    {
+      "phrase_id": "201",
+      "text_id": "mil_cook_common2_201",
+      "next": [
+        "202"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "This place... a nice little place... It's just a normal place, you know... just some people making a living, hehe...",
+      "JA_current": "ここは小さな良い場所さ… 知っての通り、ただ単に人が暮らしてる何の変哲もない場所だぜ。へへへ…。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common2_201#1"
+      ]
+    },
+    {
+      "phrase_id": "202",
+      "text_id": "mil_cook_common2_202",
+      "next": [
+        "203"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "201"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So what?",
+      "JA_current": "それでここは？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common2_202#1"
+      ]
+    },
+    {
+      "phrase_id": "203",
+      "text_id": "mil_cook_common2_203",
+      "next": [
+        "204"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "202"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Pfft... You're asking some tough questions, Mr. Stranger!",
+      "JA_current": "ププッ… すげぇことを聞いてくれるよな、よそ者さんよ！",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common2_203#1"
+      ]
+    },
+    {
+      "phrase_id": "204",
+      "text_id": "mil_cook_common2_204",
+      "next": [
+        "205"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "mil_cook_dialog2"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "203"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "And what if you cut to the chase?",
+      "JA_current": "話を戻すと、ここは？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common2_204#1"
+      ]
+    },
+    {
+      "phrase_id": "205",
+      "text_id": "mil_cook_common2_205",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "204"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, relax! Hold on... well... it's just a normal place! A quiet one. All good all around. Yeah...you relax, alright? Don't get all worked up...",
+      "JA_current": "へい、リラックスしろ！ 待て… いいか… ここはおかしな場所じゃない！ ただ秘密の場所だ。どこも問題ない。そう… リラックスして、大丈夫か？ あんまり興奮するな…。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common2_205#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "packet_id": "dialog_0318__nastav_magnetto_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "nastav_magnetto_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "nastavnik",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "addon_dialogs.have_magnetto"
+    },
+    {
+      "type": "has_info",
+      "value": "nastav_tutor_have"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "nastavn_about_magnetto"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 11,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:nastav_magnetto_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2411,
+      "string_id": "nastav_magnetto_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Mentor, help me out. I'm in trouble.",
+      "JA_current": "Mentor, help me out. I'm in trouble.",
+      "JA_new": "メンター、助けてくれ。困ったことになった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_magnetto_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_magnetto_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2414,
+      "string_id": "nastav_magnetto_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Tell me, I'm listening.",
+      "JA_current": "Tell me, I'm listening.",
+      "JA_new": "話してみろ。聞いてるよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_magnetto_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_magnetto_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2417,
+      "string_id": "nastav_magnetto_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Some crap I picked up out there, I don't know where it came from! It looks like a piece of resin, I grabbed it and put it in my backpack, now it has stuck to me and won't come off. I can feel my strength and energy draining. What do I do, tell me!",
+      "JA_current": "Some crap I picked up out there, I don't know where it came from! It looks like a piece of resin, I grabbed it and put it in my backpack, now it has stuck to me and won't come off. I can feel my strength and energy draining. What do I do, tell me!",
+      "JA_new": "外で拾ったガラクタなんだが、どこから来たのかも分からない！ 樹脂みたいな欠片で、拾ってリュックに入れたら、今度は体にくっついて離れない。力も体力も吸い取られてる。どうすればいい？ 教えてくれ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_magnetto_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_magnetto_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2420,
+      "string_id": "nastav_magnetto_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Open your backpack wide, let me take a peek... I see, this is about worst thing that could have happened to you! Tell it to me straight: were you looting?",
+      "JA_current": "Open your backpack wide, let me take a peek... I see, this is about worst thing that could have happened to you! Tell it to me straight: were you looting?",
+      "JA_new": "リュックを開けて、ちょっと見せてくれ……なるほど。最悪のものを拾ったな！ はっきり言ってくれ。死体を漁ってたのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_magnetto_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_magnetto_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2423,
+      "string_id": "nastav_magnetto_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Well, sort of, yes. How else am I supposed to get supplies? What's that got to do with it?",
+      "JA_current": "Well, sort of, yes. How else am I supposed to get supplies? What's that got to do with it?",
+      "JA_new": "まあ、多少はな。物資をどうやって手に入れろってんだ？ それが何だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_magnetto_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_magnetto_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2426,
+      "string_id": "nastav_magnetto_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Well, Marked One, this is one of the ways in which the Zone punishes the wicked. The thing in your backpack is called the \"Black Magnet\" or the \"Marauder's Tovar\". According to legend, the Zone throws it in the backpacks of dead stalkers under the guise of ordinary artifacts as a punishment for those who too often steal from the dead. This \"Black Magnet\" absorbs the owner's vitality and energy, and is virtually impossible to remove. I guess you could call it a corrupted artifact with only negative properties.",
+      "JA_current": "Well, Marked One, this is one of the ways in which the Zone punishes the wicked. The thing in your backpack is called the \"Black Magnet\" or the \"Marauder's Tovar\". According to legend, the Zone throws it in the backpacks of dead stalkers under the guise of ordinary artifacts as a punishment for those who too often steal from the dead. This \"Black Magnet\" absorbs the owner's vitality and energy, and is virtually impossible to remove. I guess you could call it a corrupted artifact with only negative properties.",
+      "JA_new": "印付き、これは悪人に対するゾーンの罰の一つだ。リュックに入ってたのは「ブラックマグネット」、別名「マローダーのトヴァール」だ。言い伝えによると、死者の持ち物を何度も盗む奴への罰として、ゾーンは普通のアーティファクトを装い、死んだストーカーのリュックにこれを忍ばせるらしい。「ブラックマグネット」は持ち主の活力と力を吸い取る。取り外すのもほぼ不可能だ。悪い性質しかない、変質したアーティファクトってところかな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_magnetto_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_magnetto_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2429,
+      "string_id": "nastav_magnetto_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Man, what am I supposed to do, walk around half-dead for the rest of my life? Should I go to a scientist?",
+      "JA_current": "Man, what am I supposed to do, walk around half-dead for the rest of my life? Should I go to a scientist?",
+      "JA_new": "なあ、このまま一生、半死人みたいに歩き回れってのか？ 科学者に相談するべきか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_magnetto_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_magnetto_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2432,
+      "string_id": "nastav_magnetto_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "I don't think they can help you. Listen to me: there have long been legends among stalkers about the \"Black Magnet\". According to one of them, to get rid of it, you need someone to take it from you voluntarily, realizing the danger of it. If you find such a person, you're saved. In the meantime, I can only sympathize with you.",
+      "JA_current": "I don't think they can help you. Listen to me: there have long been legends among stalkers about the \"Black Magnet\". According to one of them, to get rid of it, you need someone to take it from you voluntarily, realizing the danger of it. If you find such a person, you're saved. In the meantime, I can only sympathize with you.",
+      "JA_new": "科学者にもどうにもできないだろう。聞いてくれ。「ブラックマグネット」の言い伝えは、ずっと前からストーカーたちの間にある。その一つによると、危険を承知で、誰かに自分から受け取ってもらうしかない。そんな人を見つければ助かる。今の俺にできるのは、気の毒に思うことだけだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_magnetto_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_magnetto_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2435,
+      "string_id": "nastav_magnetto_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "Where am I going to find such a jerk? What a mess...",
+      "JA_current": "Where am I going to find such a jerk? What a mess...",
+      "JA_new": "そんなお人よし、どこで見つけろっていうんだ？ 参ったな……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_magnetto_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_magnetto_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2438,
+      "string_id": "nastav_magnetto_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "Don't worry, the Zone is an unusual place, and there are a lot of unusual people here, too. Besides, a veteran once told me a story over a glass of vodka that the Fractures seem to be very fond of these gizmos and even collect them... Of course, these could have been merely drunken ravings, but as they say, you won't know unless you try... Anyway, good luck to you, Marked One.",
+      "JA_current": "Don't worry, the Zone is an unusual place, and there are a lot of unusual people here, too. Besides, a veteran once told me a story over a glass of vodka that the Fractures seem to be very fond of these gizmos and even collect them... Of course, these could have been merely drunken ravings, but as they say, you won't know unless you try... Anyway, good luck to you, Marked One.",
+      "JA_new": "心配するな。ゾーンは変わった場所だし、変わり者も大勢いる。そういえば昔、ベテランからウォッカを飲みながら聞いた話だが、イズロムはこういう珍品が大好きで、集めてるらしい……酔っ払いの戯言かもしれないが、試してみなきゃ分からん。とにかく、幸運を祈るぞ、印付き。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_magnetto_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:nastav_magnetto_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2441,
+      "string_id": "nastav_magnetto_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "Thank you...",
+      "JA_current": "Thank you...",
+      "JA_new": "ありがとう……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "nastav_magnetto_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "nastav_magnetto_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Mentor, help me out. I'm in trouble.",
+      "JA_current": "Mentor, help me out. I'm in trouble.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_magnetto_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "nastav_magnetto_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Tell me, I'm listening.",
+      "JA_current": "Tell me, I'm listening.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_magnetto_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "nastav_magnetto_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Some crap I picked up out there, I don't know where it came from! It looks like a piece of resin, I grabbed it and put it in my backpack, now it has stuck to me and won't come off. I can feel my strength and energy draining. What do I do, tell me!",
+      "JA_current": "Some crap I picked up out there, I don't know where it came from! It looks like a piece of resin, I grabbed it and put it in my backpack, now it has stuck to me and won't come off. I can feel my strength and energy draining. What do I do, tell me!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_magnetto_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "nastav_magnetto_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Open your backpack wide, let me take a peek... I see, this is about worst thing that could have happened to you! Tell it to me straight: were you looting?",
+      "JA_current": "Open your backpack wide, let me take a peek... I see, this is about worst thing that could have happened to you! Tell it to me straight: were you looting?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_magnetto_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "nastav_magnetto_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, sort of, yes. How else am I supposed to get supplies? What's that got to do with it?",
+      "JA_current": "Well, sort of, yes. How else am I supposed to get supplies? What's that got to do with it?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_magnetto_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "nastav_magnetto_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, Marked One, this is one of the ways in which the Zone punishes the wicked. The thing in your backpack is called the \"Black Magnet\" or the \"Marauder's Tovar\". According to legend, the Zone throws it in the backpacks of dead stalkers under the guise of ordinary artifacts as a punishment for those who too often steal from the dead. This \"Black Magnet\" absorbs the owner's vitality and energy, and is virtually impossible to remove. I guess you could call it a corrupted artifact with only negative properties.",
+      "JA_current": "Well, Marked One, this is one of the ways in which the Zone punishes the wicked. The thing in your backpack is called the \"Black Magnet\" or the \"Marauder's Tovar\". According to legend, the Zone throws it in the backpacks of dead stalkers under the guise of ordinary artifacts as a punishment for those who too often steal from the dead. This \"Black Magnet\" absorbs the owner's vitality and energy, and is virtually impossible to remove. I guess you could call it a corrupted artifact with only negative properties.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_magnetto_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "nastav_magnetto_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Man, what am I supposed to do, walk around half-dead for the rest of my life? Should I go to a scientist?",
+      "JA_current": "Man, what am I supposed to do, walk around half-dead for the rest of my life? Should I go to a scientist?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_magnetto_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "nastav_magnetto_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I don't think they can help you. Listen to me: there have long been legends among stalkers about the \"Black Magnet\". According to one of them, to get rid of it, you need someone to take it from you voluntarily, realizing the danger of it. If you find such a person, you're saved. In the meantime, I can only sympathize with you.",
+      "JA_current": "I don't think they can help you. Listen to me: there have long been legends among stalkers about the \"Black Magnet\". According to one of them, to get rid of it, you need someone to take it from you voluntarily, realizing the danger of it. If you find such a person, you're saved. In the meantime, I can only sympathize with you.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_magnetto_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "nastav_magnetto_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Where am I going to find such a jerk? What a mess...",
+      "JA_current": "Where am I going to find such a jerk? What a mess...",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_magnetto_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "nastav_magnetto_dialog_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Don't worry, the Zone is an unusual place, and there are a lot of unusual people here, too. Besides, a veteran once told me a story over a glass of vodka that the Fractures seem to be very fond of these gizmos and even collect them... Of course, these could have been merely drunken ravings, but as they say, you won't know unless you try... Anyway, good luck to you, Marked One.",
+      "JA_current": "Don't worry, the Zone is an unusual place, and there are a lot of unusual people here, too. Besides, a veteran once told me a story over a glass of vodka that the Fractures seem to be very fond of these gizmos and even collect them... Of course, these could have been merely drunken ravings, but as they say, you won't know unless you try... Anyway, good luck to you, Marked One.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_magnetto_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "nastav_magnetto_dialog_phrase_11",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "nastavn_about_magnetto"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you...",
+      "JA_current": "Thank you...",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:nastav_magnetto_dialog_phrase_11#1"
+      ]
+    }
+  ]
+}

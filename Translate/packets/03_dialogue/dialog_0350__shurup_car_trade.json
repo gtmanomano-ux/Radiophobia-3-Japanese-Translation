@@ -1,0 +1,149 @@
+{
+  "packet_id": "dialog_0350__shurup_car_trade",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "shurup_car_trade",
+  "graph_source": "gamedata/config/gameplay/dialogs_military.xml",
+  "graph_sha256": "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+  "character_bindings": [],
+  "dialog_conditions": [],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 3,
+  "entries": [
+    {
+      "key": "stable_dialogs_military:shurup_car_trade_0#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1586,
+      "string_id": "shurup_car_trade_0",
+      "occurrence": 1,
+      "EN": "Rumors say, you're a real handy man, able to fix up any kind of scrap heap. Have you got some wheels for me? I'd be happy to walk less, you know how it is.",
+      "JA_current": "Rumors say, you're a real handy man, able to fix up any kind of scrap heap. Have you got some wheels for me? I'd be happy to walk less, you know how it is.",
+      "JA_new": "車を売ってくれないか？どんなガラクタでも直せる腕利きだって聞いた。車があれば歩かずに済む。分かるだろ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "shurup_car_trade",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:shurup_car_trade_1#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 1589,
+      "string_id": "shurup_car_trade_1",
+      "occurrence": 1,
+      "EN": "We aren't like Duty - we don't drive around the zone, hunting for pseudodog tails on some deep raids out in mutant territory. We've got the Barrier by our side for that. But I do fix some old shitty cars from time to time to do ammunition runs, saves our guys from breaking their backs carrying supplies back and forth. I know that loners are fond of buying wheels for themselves on occasion, at least the rich and the lazy ones do. Had somebody shut down that Brain Scorcher, I'd start my car business here... I can offer you some wheels, sure. But you'll have to pay in advance.",
+      "JA_current": "We aren't like Duty - we don't drive around the zone, hunting for pseudodog tails on some deep raids out in mutant territory. We've got the Barrier by our side for that. But I do fix some old shitty cars from time to time to do ammunition runs, saves our guys from breaking their backs carrying supplies back and forth. I know that loners are fond of buying wheels for themselves on occasion, at least the rich and the lazy ones do. Had somebody shut down that Brain Scorcher, I'd start my car business here... I can offer you some wheels, sure. But you'll have to pay in advance.",
+      "JA_new": "俺たちはデューティーとは違う。ゾーンの奥まで出て、ミュータントの縄張りでシュードドッグの尾を狩ったりはしない。そういうのはバリアがやってくれる。だが俺も、弾薬を運ぶ時に使う古いボロ車を時々直してる。仲間が物資を背負って何度も往復しなくて済むからな。ローナーだって時々車を買う。よほど金持ちか、歩くのが嫌な奴だけどな。あのブレイン・スコーチャーが止まれば、ここで車屋を始めるんだが……車なら売ってやれる。ただし前払いだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "shurup_car_trade",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_military_gameplay_text:dialogs_military_0#1",
+      "source_table": "dialogs_military_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_military_gameplay_text.xml",
+      "source_xml_line": 3,
+      "string_id": "dialogs_military_0",
+      "occurrence": 1,
+      "EN": "Just a moment, let me think a while. Show me what you've got.",
+      "JA_current": "Just a moment, let me think a while. Show me what you've got.",
+      "JA_new": "ちょっと待ってくれ。考えさせてくれ。売り物を見せてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "shurup_car_trade",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "shurup_car_trade_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Rumors say, you're a real handy man, able to fix up any kind of scrap heap. Have you got some wheels for me? I'd be happy to walk less, you know how it is.",
+      "JA_current": "Rumors say, you're a real handy man, able to fix up any kind of scrap heap. Have you got some wheels for me? I'd be happy to walk less, you know how it is.",
+      "string_entry_candidates": [
+        "stable_dialogs_military:shurup_car_trade_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "shurup_car_trade_1",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "We aren't like Duty - we don't drive around the zone, hunting for pseudodog tails on some deep raids out in mutant territory. We've got the Barrier by our side for that. But I do fix some old shitty cars from time to time to do ammunition runs, saves our guys from breaking their backs carrying supplies back and forth. I know that loners are fond of buying wheels for themselves on occasion, at least the rich and the lazy ones do. Had somebody shut down that Brain Scorcher, I'd start my car business here... I can offer you some wheels, sure. But you'll have to pay in advance.",
+      "JA_current": "We aren't like Duty - we don't drive around the zone, hunting for pseudodog tails on some deep raids out in mutant territory. We've got the Barrier by our side for that. But I do fix some old shitty cars from time to time to do ammunition runs, saves our guys from breaking their backs carrying supplies back and forth. I know that loners are fond of buying wheels for themselves on occasion, at least the rich and the lazy ones do. Had somebody shut down that Brain Scorcher, I'd start my car business here... I can offer you some wheels, sure. But you'll have to pay in advance.",
+      "string_entry_candidates": [
+        "stable_dialogs_military:shurup_car_trade_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "dialogs_military_0",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "car_trade.open_car_trade_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Just a moment, let me think a while. Show me what you've got.",
+      "JA_current": "Just a moment, let me think a while. Show me what you've got.",
+      "string_entry_candidates": [
+        "dialogs_military_gameplay_text:dialogs_military_0#1"
+      ]
+    }
+  ]
+}

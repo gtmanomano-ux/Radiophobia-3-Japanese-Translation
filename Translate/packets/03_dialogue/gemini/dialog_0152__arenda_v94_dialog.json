@@ -1,0 +1,452 @@
+{
+  "packet_id": "dialog_0152__arenda_v94_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "arenda_v94_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "bar_x16_documents_done"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "arenda_v94_start"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "arenda_v94_finish"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 10,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:arenda_v94_start_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1719,
+      "string_id": "arenda_v94_start_1",
+      "occurrence": 1,
+      "EN": "The rumor is you have some type of special rifle...",
+      "JA_current": "あんたが特別なライフルを持ってるって噂を耳にしたんだが……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arenda_v94_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arenda_v94_start_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1722,
+      "string_id": "arenda_v94_start_2",
+      "occurrence": 1,
+      "EN": "I do. The Barrett M95 sniper rifle, 50. caliber.",
+      "JA_current": "持ってるぜ。バレットM95狙撃銃、.50口径だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arenda_v94_dialog",
+          "phrase_id": "981",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arenda_v94_start_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1725,
+      "string_id": "arenda_v94_start_3",
+      "occurrence": 1,
+      "EN": "Whoa! Where from, I wonder?",
+      "JA_current": "ほう！ 一体どこから仕入れたんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arenda_v94_dialog",
+          "phrase_id": "982",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arenda_v94_start_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1728,
+      "string_id": "arenda_v94_start_4",
+      "occurrence": 1,
+      "EN": "There was this self-proclaimed \"hunter\" prancing around here some time ago, some rich green kid from the outside, and this rifle is all that was left of him. No regular stalker needs such weapon, so they sold it to me and now I rent it out from time to time.",
+      "JA_current": "少し前、自称「ハンター」の金持ちで世間知らずな若造が外からやって来て、この辺りをうろついてたのさ。そいつの持ち物で残ったのはこの銃だけだった。並のストーカーにゃこんな化け物ライフルは扱えねえから、俺に売り払われてな。今はこうして時々レンタルに出してるってわけだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arenda_v94_dialog",
+          "phrase_id": "983",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arenda_v94_start_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1731,
+      "string_id": "arenda_v94_start_5",
+      "occurrence": 1,
+      "EN": "It would be interesting to know who \"helped\" that \"hunter\" to part ways with his fancy rifle... Ok, how much do you charge for it?",
+      "JA_current": "その「ハンター」が高級ライフルを手放すのを誰が「手助け」したのか気になるところだな……で、貸し出し料はいくらだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arenda_v94_dialog",
+          "phrase_id": "984",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arenda_v94_start_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1734,
+      "string_id": "arenda_v94_start_6",
+      "occurrence": 1,
+      "EN": "Fifty grand for the rifle, and I add a handful of rounds to begin with as part of the deal.",
+      "JA_current": "本体のレンタル料は5万ルーブルだ。サービスとして、最初に撃つ分の弾もひと握り付けてやる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arenda_v94_dialog",
+          "phrase_id": "985",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arenda_v94_start_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1737,
+      "string_id": "arenda_v94_start_7",
+      "occurrence": 1,
+      "EN": "Are you nuts?! Why so damn much?",
+      "JA_current": "正気か！？ なんでそんなにバカ高いんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arenda_v94_dialog",
+          "phrase_id": "986",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arenda_v94_start_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1740,
+      "string_id": "arenda_v94_start_8",
+      "occurrence": 1,
+      "EN": "The gun is rare, probably the only such piece in the Zone, and one round is enough to put down pretty much anything you encounter out there, that's for sure. They hunt tanks with this piece, for fuck's sake, what more persuasion do you need, ha-ha-ha! Besides, this is just a loan out, and if you die out there with this piece in your possession, I'm gonna have to hire a squad to go retrieve the weapon, wherever it ends up, so consider it insurance! So, you in?",
+      "JA_current": "この銃は超レア物だ、ゾーン全土を探してもこれ一丁しかねえかもしれん。それに一発ぶち込めば、外で出くわすモンはほぼ確実にミンチにできる。戦車狩りにも使われる銃だぞ、これ以上口説く言葉が要るかよ、ハハハ！ それにこれはあくまでレンタルだ。もしお前がこいつを持ったまま野垂れ死にでもしたら、俺は回収のためにスクワッドを雇わなきゃならねえ。保険料込みだと思えば安いもんだろ！ で、借りるのかい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arenda_v94_dialog",
+          "phrase_id": "987",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arenda_v94_start_9#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1743,
+      "string_id": "arenda_v94_start_9",
+      "occurrence": 1,
+      "EN": "No, I'm not. The price is too high and, besides, the thing is too damn heavy.",
+      "JA_current": "いや、やめておく。高すぎるし、第一重すぎて話にならん。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arenda_v94_dialog",
+          "phrase_id": "988",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:arenda_v94_start_10#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1746,
+      "string_id": "arenda_v94_start_10",
+      "occurrence": 1,
+      "EN": "What's for sure is that you are a greedy bastard. Ehh, So be it, I'm feeling generous today.",
+      "JA_current": "お前がケチな野郎なのはよーく分かった。ええい、分かったよ！ 今日の俺は気前がいいからな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "arenda_v94_dialog",
+          "phrase_id": "989",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "arenda_v94_start_1",
+      "next": [
+        "981"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "The rumor is you have some type of special rifle...",
+      "JA_current": "The rumor is you have some type of special rifle...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arenda_v94_start_1#1"
+      ]
+    },
+    {
+      "phrase_id": "981",
+      "text_id": "arenda_v94_start_2",
+      "next": [
+        "982"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I do. The Barrett M95 sniper rifle, 50. caliber.",
+      "JA_current": "I do. The Barrett M95 sniper rifle, 50. caliber.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arenda_v94_start_2#1"
+      ]
+    },
+    {
+      "phrase_id": "982",
+      "text_id": "arenda_v94_start_3",
+      "next": [
+        "983"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "981"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Whoa! Where from, I wonder?",
+      "JA_current": "Whoa! Where from, I wonder?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arenda_v94_start_3#1"
+      ]
+    },
+    {
+      "phrase_id": "983",
+      "text_id": "arenda_v94_start_4",
+      "next": [
+        "984"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "982"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "There was this self-proclaimed \"hunter\" prancing around here some time ago, some rich green kid from the outside, and this rifle is all that was left of him. No regular stalker needs such weapon, so they sold it to me and now I rent it out from time to time.",
+      "JA_current": "There was this self-proclaimed \"hunter\" prancing around here some time ago, some rich green kid from the outside, and this rifle is all that was left of him. No regular stalker needs such weapon, so they sold it to me and now I rent it out from time to time.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arenda_v94_start_4#1"
+      ]
+    },
+    {
+      "phrase_id": "984",
+      "text_id": "arenda_v94_start_5",
+      "next": [
+        "985"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "983"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "It would be interesting to know who \"helped\" that \"hunter\" to part ways with his fancy rifle... Ok, how much do you charge for it?",
+      "JA_current": "It would be interesting to know who \"helped\" that \"hunter\" to part ways with his fancy rifle... Ok, how much do you charge for it?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arenda_v94_start_5#1"
+      ]
+    },
+    {
+      "phrase_id": "985",
+      "text_id": "arenda_v94_start_6",
+      "next": [
+        "986"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "984"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Fifty grand for the rifle, and I add a handful of rounds to begin with as part of the deal.",
+      "JA_current": "Fifty grand for the rifle, and I add a handful of rounds to begin with as part of the deal.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arenda_v94_start_6#1"
+      ]
+    },
+    {
+      "phrase_id": "986",
+      "text_id": "arenda_v94_start_7",
+      "next": [
+        "987"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "985"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Are you nuts?! Why so damn much?",
+      "JA_current": "Are you nuts?! Why so damn much?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arenda_v94_start_7#1"
+      ]
+    },
+    {
+      "phrase_id": "987",
+      "text_id": "arenda_v94_start_8",
+      "next": [
+        "988",
+        "989"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "986"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "The gun is rare, probably the only such piece in the Zone, and one round is enough to put down pretty much anything you encounter out there, that's for sure. They hunt tanks with this piece, for fuck's sake, what more persuasion do you need, ha-ha-ha! Besides, this is just a loan out, and if you die out there with this piece in your possession, I'm gonna have to hire a squad to go retrieve the weapon, wherever it ends up, so consider it insurance! So, you in?",
+      "JA_current": "The gun is rare, probably the only such piece in the Zone, and one round is enough to put down pretty much anything you encounter out there, that's for sure. They hunt tanks with this piece, for fuck's sake, what more persuasion do you need, ha-ha-ha! Besides, this is just a loan out, and if you die out there with this piece in your possession, I'm gonna have to hire a squad to go retrieve the weapon, wherever it ends up, so consider it insurance! So, you in?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arenda_v94_start_8#1"
+      ]
+    },
+    {
+      "phrase_id": "988",
+      "text_id": "arenda_v94_start_9",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "987"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I'm not. The price is too high and, besides, the thing is too damn heavy.",
+      "JA_current": "No, I'm not. The price is too high and, besides, the thing is too damn heavy.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arenda_v94_start_9#1"
+      ]
+    },
+    {
+      "phrase_id": "989",
+      "text_id": "arenda_v94_start_10",
+      "next": [],
+      "conditions": [
+        {
+          "type": "precondition",
+          "value": "ogse_quests.v94_arenda_check_on"
+        }
+      ],
+      "effects": [
+        {
+          "type": "action",
+          "value": "ogse_quests.v94_arenda_on"
+        },
+        {
+          "type": "give_info",
+          "value": "arenda_v94_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "987"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "What's for sure is that you are a greedy bastard. Ehh, So be it, I'm feeling generous today.",
+      "JA_current": "What's for sure is that you are a greedy bastard. Ehh, So be it, I'm feeling generous today.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:arenda_v94_start_10#1"
+      ]
+    }
+  ]
+}

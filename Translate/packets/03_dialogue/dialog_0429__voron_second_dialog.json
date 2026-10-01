@@ -1,0 +1,357 @@
+{
+  "packet_id": "dialog_0429__voron_second_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "voron_second_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_radar.xml",
+  "graph_sha256": "7436a3a8c823be5716e127228e116bf493cdec1d97644f3c78b6dee00a554864",
+  "character_bindings": [
+    {
+      "profile_id": "voron",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "paladin_sila_4_die"
+    },
+    {
+      "type": "has_info",
+      "value": "paladin_sila_3_die"
+    },
+    {
+      "type": "has_info",
+      "value": "paladin_sila_2_die"
+    },
+    {
+      "type": "has_info",
+      "value": "paladin_sila_1_die"
+    },
+    {
+      "type": "has_info",
+      "value": "ahill_die"
+    },
+    {
+      "type": "has_info",
+      "value": "razved_sila_2_die"
+    },
+    {
+      "type": "has_info",
+      "value": "razved_sila_1_die"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "voron_reward"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 7,
+  "entries": [
+    {
+      "key": "stable_dialogs_radar:voron_second_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 289,
+      "string_id": "voron_second_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "That's it, you're free now. You can go wherever you want, but you'd better stay out of my way, or I swear I will destroy you.",
+      "JA_current": "That's it, you're free now. You can go wherever you want, but you'd better stay out of my way, or I swear I will destroy you.",
+      "JA_new": "これで自由だ。行きたいところへ行け。ただし、俺の邪魔をするな。次は容赦しないぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_second_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_second_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 292,
+      "string_id": "voron_second_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Thank you, you're a kind man... Turns out I was not destined to own the Golden Sphere, so it's better to let you have it, I think that you are worthy of it. Listen to me carefully: I know where the valuable loot is. It's in the cache of the leader of the Monolithians, for whom I was a prisoner. I overheard the paladins talking about some kind of \"Artifact Collection\" that their commander has, so hurry before his comrades steal it away. Here are the coordinates.",
+      "JA_current": "Thank you, you're a kind man... Turns out I was not destined to own the Golden Sphere, so it's better to let you have it, I think that you are worthy of it. Listen to me carefully: I know where the valuable loot is. It's in the cache of the leader of the Monolithians, for whom I was a prisoner. I overheard the paladins talking about some kind of \"Artifact Collection\" that their commander has, so hurry before his comrades steal it away. Here are the coordinates.",
+      "JA_new": "ありがとう、あんたはいい人だ……どうやら黄金の球は俺のものになる運命じゃなかったらしい。なら、あんたに託すよ。持つに値すると思う。よく聞いてくれ。お宝のありかを知ってる。俺が捕虜になっていたモノリスの指導者の隠し場所だ。パラディンたちが、指揮官の持つ「アーティファクト・コレクション」の話をしてた。仲間に持ち去られる前に急げ。これが座標だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_second_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_second_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 295,
+      "string_id": "voron_second_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Well, where is the third part of \"The Sphere\" located?",
+      "JA_current": "Well, where is the third part of \"The Sphere\" located?",
+      "JA_new": "それで、「黄金の球」の三つ目の欠片はどこにある？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_second_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_second_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 298,
+      "string_id": "voron_second_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "I won't answer that question, because I don't know. I got here to the Scorcher precisely to get the second and third segments, but they stopped me. I knew for sure that Achilles had the second one, but I had no plan to get the third. But if I thought about it logically, the following conclusion was inescapable: since Achilles was the Keeper of the Monolithians and had one of the Orbs, then if the fanatics had the third segment, it could only be in his possession. And most likely he kept it exactly in his collection. Good luck and thank you again!",
+      "JA_current": "I won't answer that question, because I don't know. I got here to the Scorcher precisely to get the second and third segments, but they stopped me. I knew for sure that Achilles had the second one, but I had no plan to get the third. But if I thought about it logically, the following conclusion was inescapable: since Achilles was the Keeper of the Monolithians and had one of the Orbs, then if the fanatics had the third segment, it could only be in his possession. And most likely he kept it exactly in his collection. Good luck and thank you again!",
+      "JA_new": "それは答えられない。知らないんだ。俺は二つ目と三つ目の欠片を手に入れるためにブレイン・スコーチャーまで来たが、阻まれた。アキレスが二つ目を持っているのは確かだった。でも三つ目を手に入れる当てはなかった。だが筋道立てて考えれば、結論は一つだった。アキレスはモノリスの守護者で、球の欠片を一つ持っている。狂信者どもが三つ目を持っているなら、アキレスの手元にあるはずだ。おそらく、あのコレクションにしまってある。じゃあな。改めて礼を言う！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_second_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_second_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 301,
+      "string_id": "voron_second_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Where will you go now?",
+      "JA_current": "Where will you go now?",
+      "JA_new": "これからどこへ行く？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_second_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_second_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 304,
+      "string_id": "voron_second_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "I don't know, I'll probably go somewhere closer to the perimeter and live out my remaining days there, away from all my enemies... I have stage four cancer, Marked One, and the doctors say I'll live another year at most, which is why I went to get the damn balloon... That's the way it is.",
+      "JA_current": "I don't know, I'll probably go somewhere closer to the perimeter and live out my remaining days there, away from all my enemies... I have stage four cancer, Marked One, and the doctors say I'll live another year at most, which is why I went to get the damn balloon... That's the way it is.",
+      "JA_new": "さあな。たぶん外周に近い場所へ行って、残りの日々を過ごすよ。敵から離れてな……俺はステージ4のがんなんだ、マークド・ワン。医者には、もってあと一年だと言われた。だから、あの忌々しい球を取りに行った……そういうことさ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_second_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:voron_second_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 307,
+      "string_id": "voron_second_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Goodbye.",
+      "JA_current": "Goodbye.",
+      "JA_new": "じゃあな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "voron_second_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "voron_second_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "That's it, you're free now. You can go wherever you want, but you'd better stay out of my way, or I swear I will destroy you.",
+      "JA_current": "That's it, you're free now. You can go wherever you want, but you'd better stay out of my way, or I swear I will destroy you.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_second_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "voron_second_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you, you're a kind man... Turns out I was not destined to own the Golden Sphere, so it's better to let you have it, I think that you are worthy of it. Listen to me carefully: I know where the valuable loot is. It's in the cache of the leader of the Monolithians, for whom I was a prisoner. I overheard the paladins talking about some kind of \"Artifact Collection\" that their commander has, so hurry before his comrades steal it away. Here are the coordinates.",
+      "JA_current": "Thank you, you're a kind man... Turns out I was not destined to own the Golden Sphere, so it's better to let you have it, I think that you are worthy of it. Listen to me carefully: I know where the valuable loot is. It's in the cache of the leader of the Monolithians, for whom I was a prisoner. I overheard the paladins talking about some kind of \"Artifact Collection\" that their commander has, so hurry before his comrades steal it away. Here are the coordinates.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_second_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "voron_second_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "ahill_shron"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, where is the third part of \"The Sphere\" located?",
+      "JA_current": "Well, where is the third part of \"The Sphere\" located?",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_second_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "voron_second_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I won't answer that question, because I don't know. I got here to the Scorcher precisely to get the second and third segments, but they stopped me. I knew for sure that Achilles had the second one, but I had no plan to get the third. But if I thought about it logically, the following conclusion was inescapable: since Achilles was the Keeper of the Monolithians and had one of the Orbs, then if the fanatics had the third segment, it could only be in his possession. And most likely he kept it exactly in his collection. Good luck and thank you again!",
+      "JA_current": "I won't answer that question, because I don't know. I got here to the Scorcher precisely to get the second and third segments, but they stopped me. I knew for sure that Achilles had the second one, but I had no plan to get the third. But if I thought about it logically, the following conclusion was inescapable: since Achilles was the Keeper of the Monolithians and had one of the Orbs, then if the fanatics had the third segment, it could only be in his possession. And most likely he kept it exactly in his collection. Good luck and thank you again!",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_second_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "voron_second_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Where will you go now?",
+      "JA_current": "Where will you go now?",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_second_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "voron_second_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I don't know, I'll probably go somewhere closer to the perimeter and live out my remaining days there, away from all my enemies... I have stage four cancer, Marked One, and the doctors say I'll live another year at most, which is why I went to get the damn balloon... That's the way it is.",
+      "JA_current": "I don't know, I'll probably go somewhere closer to the perimeter and live out my remaining days there, away from all my enemies... I have stage four cancer, Marked One, and the doctors say I'll live another year at most, which is why I went to get the damn balloon... That's the way it is.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_second_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "voron_second_dialog_phrase_7",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "voron_reward"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Goodbye.",
+      "JA_current": "Goodbye.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:voron_second_dialog_phrase_7#1"
+      ]
+    }
+  ]
+}

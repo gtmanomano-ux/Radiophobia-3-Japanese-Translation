@@ -1,0 +1,168 @@
+{
+  "packet_id": "dialog_0470__bacha_second_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bacha_second_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml",
+  "graph_sha256": "131d3c64c00a1023af4aaa914f345f3cfff2e581dea421160993fad100675545",
+  "character_bindings": [
+    {
+      "profile_id": "bacha",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "labx16_kontroller_svita"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "bacha_goto_start_point"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 3,
+  "entries": [
+    {
+      "key": "stable_dialogs_yantar:bacha_second_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 844,
+      "string_id": "bacha_second_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Major, your fighters turned out to be zombified. What's going on? The radiation is gone.",
+      "JA_current": "Major, your fighters turned out to be zombified. What's going on? The radiation is gone.",
+      "JA_new": "少佐、部下がゾンビ化してた。どういうことだ？ サイ放射は止まってるのに。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bacha_second_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:bacha_second_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 847,
+      "string_id": "bacha_second_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "The only thing that comes to mind is... Fuck! \\nOkay, listen to me carefully, civilian: we need to go back to the scientists, NOW! I've got a funny feeling that a controller is involved. They are cunning creatures, I think we may have been lured down here so that he could eat our specky friends while no one was guarding them. Let's move out, back to the science team, I'll watch our backs!",
+      "JA_current": "The only thing that comes to mind is... Fuck! \\nOkay, listen to me carefully, civilian: we need to go back to the scientists, NOW! I've got a funny feeling that a controller is involved. They are cunning creatures, I think we may have been lured down here so that he could eat our specky friends while no one was guarding them. Let's move out, back to the science team, I'll watch our backs!",
+      "JA_new": "思いつくのは……くそっ！ \\nいいか、よく聞け、民間人。科学者たちのところへ、今すぐ戻るぞ！ コントローラーが絡んでる気がする。あいつらは狡猾だ。護衛がいない隙に、俺たちをここへおびき寄せて、眼鏡連中を食わせる気だったんだろう。行くぞ、科学班のところへ戻る。後ろは俺が見る！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bacha_second_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:bacha_second_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 850,
+      "string_id": "bacha_second_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Shit, let's move!",
+      "JA_current": "Shit, let's move!",
+      "JA_new": "くそっ、急ごう！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bacha_second_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bacha_second_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Major, your fighters turned out to be zombified. What's going on? The radiation is gone.",
+      "JA_current": "Major, your fighters turned out to be zombified. What's going on? The radiation is gone.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:bacha_second_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "bacha_second_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The only thing that comes to mind is... Fuck! \\nOkay, listen to me carefully, civilian: we need to go back to the scientists, NOW! I've got a funny feeling that a controller is involved. They are cunning creatures, I think we may have been lured down here so that he could eat our specky friends while no one was guarding them. Let's move out, back to the science team, I'll watch our backs!",
+      "JA_current": "The only thing that comes to mind is... Fuck! \\nOkay, listen to me carefully, civilian: we need to go back to the scientists, NOW! I've got a funny feeling that a controller is involved. They are cunning creatures, I think we may have been lured down here so that he could eat our specky friends while no one was guarding them. Let's move out, back to the science team, I'll watch our backs!",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:bacha_second_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "bacha_second_dialog_phrase_3",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "soldiers_done"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.petrov_sos"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Shit, let's move!",
+      "JA_current": "Shit, let's move!",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:bacha_second_dialog_phrase_3#1"
+      ]
+    }
+  ]
+}

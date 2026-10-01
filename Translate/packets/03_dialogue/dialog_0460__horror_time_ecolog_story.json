@@ -1,0 +1,326 @@
+{
+  "packet_id": "dialog_0460__horror_time_ecolog_story",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "horror_time_ecolog_story",
+  "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml",
+  "graph_sha256": "131d3c64c00a1023af4aaa914f345f3cfff2e581dea421160993fad100675545",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "actor_set_zombied"
+    },
+    {
+      "type": "has_info",
+      "value": "horror_time_has_story"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "horror_time_has_ecolog_story"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 7,
+  "entries": [
+    {
+      "key": "stable_dialogs_yantar:horror_time_ecolog_story_0#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 560,
+      "string_id": "horror_time_ecolog_story_0",
+      "occurrence": 1,
+      "EN": "Look, Professor! I've got a question, if you don't mind...",
+      "JA_current": "Look, Professor! I've got a question, if you don't mind...",
+      "JA_new": "教授、ちょっと聞きたいことがあるんですが……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_ecolog_story",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:horror_time_ecolog_story_1#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 563,
+      "string_id": "horror_time_ecolog_story_1",
+      "occurrence": 1,
+      "EN": "Not at all, I'm glad to hear that! I've my hands full with scientific research lately, but it would be a real pleasure for me to talk to a living person. Very few of the kind have dropped by us recently...",
+      "JA_current": "Not at all, I'm glad to hear that! I've my hands full with scientific research lately, but it would be a real pleasure for me to talk to a living person. Very few of the kind have dropped by us recently...",
+      "JA_new": "もちろんだとも。そう言ってもらえてうれしいよ。近頃は研究で手いっぱいだが、生きた人間と話せるのは実に楽しい。最近は、そういう人がほとんど訪ねてこなくてね……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_ecolog_story",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:horror_time_ecolog_story_2#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 566,
+      "string_id": "horror_time_ecolog_story_2",
+      "occurrence": 1,
+      "EN": "Could you, Professor, please clarify one... hmm... thing to me?",
+      "JA_current": "Could you, Professor, please clarify one... hmm... thing to me?",
+      "JA_new": "教授、ひとつ……ええと……教えてほしいことがあるんです。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_ecolog_story",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:horror_time_ecolog_story_3#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 569,
+      "string_id": "horror_time_ecolog_story_3",
+      "occurrence": 1,
+      "EN": "Well, young man, what exactly interests you? My colleagues here and me are very interested in various mysterious effects and phenomena... We do our best to understand and research their nature on a scientific basis. It's quite possible that I may be of help to you.",
+      "JA_current": "Well, young man, what exactly interests you? My colleagues here and me are very interested in various mysterious effects and phenomena... We do our best to understand and research their nature on a scientific basis. It's quite possible that I may be of help to you.",
+      "JA_new": "さて、若いの。何が気になる？ 私も同僚たちも、さまざまな不思議な効果や現象に関心を持っていてね。科学の力で、その性質を解明しようと日々研究している。君の疑問にも答えられるかもしれないよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_ecolog_story",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:horror_time_ecolog_story_4#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 572,
+      "string_id": "horror_time_ecolog_story_4",
+      "occurrence": 1,
+      "EN": "Tell me, have you got any information on the \"Horror Time\" phenomenon?",
+      "JA_current": "Tell me, have you got any information on the \"Horror Time\" phenomenon?",
+      "JA_new": "「ホラータイム」という現象について、何か知ってますか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_ecolog_story",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:horror_time_ecolog_story_5#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 575,
+      "string_id": "horror_time_ecolog_story_5",
+      "occurrence": 1,
+      "EN": "Oh... Marked One, you're speaking about one of the most interesting and difficult subjects I've faced in my research here in the Zone! Let me try to explain. \\n\"Horror Time\", as stalkers call it, is an effect of psionic character. You see, from time to time - and we haven't managed to define the rhythmicity yet - the so-called \"ordinary\" surges are followed by powerful emissions of psionic energy, causing people to suffer hallucinations and delirium. These emissions are different from those we have been researching here, at the Yantar lake. They are not that intense, but they express the ability to spread out across great distances with minor attenuation. Unfortunately, the pattern of activity does not allow us to ascertain the emitter's exact location. The only fact we know for sure is that it is rather far from here. \\nWell, actually, that is all I know about the issue.",
+      "JA_current": "Oh... Marked One, you're speaking about one of the most interesting and difficult subjects I've faced in my research here in the Zone! Let me try to explain. \\n\"Horror Time\", as stalkers call it, is an effect of psionic character. You see, from time to time - and we haven't managed to define the rhythmicity yet - the so-called \"ordinary\" surges are followed by powerful emissions of psionic energy, causing people to suffer hallucinations and delirium. These emissions are different from those we have been researching here, at the Yantar lake. They are not that intense, but they express the ability to spread out across great distances with minor attenuation. Unfortunately, the pattern of activity does not allow us to ascertain the emitter's exact location. The only fact we know for sure is that it is rather far from here. \\nWell, actually, that is all I know about the issue.",
+      "JA_new": "ああ……マークド・ワン、私がゾーンで研究してきた中でも、特に興味深く難解なテーマの一つだ！ 説明してみよう。 \\nストーカーたちが「ホラータイム」と呼ぶのは、サイ能力による現象だ。時折、いわゆる「通常の」光熱放射のあとに、強力なサイ放射が起こる。周期はまだ解明できていない。この放射にさらされた人々は、幻覚や妄想に襲われる。ヤンター湖畔で私たちが研究している放射とは違うものだ。強さはそれほどでもないが、ほとんど弱まらずに遠くまで広がる。残念ながら、その活動パターンから放出源の正確な位置は突き止められない。分かっているのは、ここからかなり遠いということだけだ。 \\nまあ、私が知っているのはそれだけだよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_ecolog_story",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:horror_time_ecolog_story_6#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 578,
+      "string_id": "horror_time_ecolog_story_6",
+      "occurrence": 1,
+      "EN": "Thank you ever so much!",
+      "JA_current": "Thank you ever so much!",
+      "JA_new": "どうも、ありがとうございます！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "horror_time_ecolog_story",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "horror_time_ecolog_story_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Look, Professor! I've got a question, if you don't mind...",
+      "JA_current": "Look, Professor! I've got a question, if you don't mind...",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:horror_time_ecolog_story_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "horror_time_ecolog_story_1",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Not at all, I'm glad to hear that! I've my hands full with scientific research lately, but it would be a real pleasure for me to talk to a living person. Very few of the kind have dropped by us recently...",
+      "JA_current": "Not at all, I'm glad to hear that! I've my hands full with scientific research lately, but it would be a real pleasure for me to talk to a living person. Very few of the kind have dropped by us recently...",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:horror_time_ecolog_story_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "horror_time_ecolog_story_2",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Could you, Professor, please clarify one... hmm... thing to me?",
+      "JA_current": "Could you, Professor, please clarify one... hmm... thing to me?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:horror_time_ecolog_story_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "horror_time_ecolog_story_3",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Well, young man, what exactly interests you? My colleagues here and me are very interested in various mysterious effects and phenomena... We do our best to understand and research their nature on a scientific basis. It's quite possible that I may be of help to you.",
+      "JA_current": "Well, young man, what exactly interests you? My colleagues here and me are very interested in various mysterious effects and phenomena... We do our best to understand and research their nature on a scientific basis. It's quite possible that I may be of help to you.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:horror_time_ecolog_story_3#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "horror_time_ecolog_story_4",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Tell me, have you got any information on the \"Horror Time\" phenomenon?",
+      "JA_current": "Tell me, have you got any information on the \"Horror Time\" phenomenon?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:horror_time_ecolog_story_4#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "horror_time_ecolog_story_5",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Oh... Marked One, you're speaking about one of the most interesting and difficult subjects I've faced in my research here in the Zone! Let me try to explain. \\n\"Horror Time\", as stalkers call it, is an effect of psionic character. You see, from time to time - and we haven't managed to define the rhythmicity yet - the so-called \"ordinary\" surges are followed by powerful emissions of psionic energy, causing people to suffer hallucinations and delirium. These emissions are different from those we have been researching here, at the Yantar lake. They are not that intense, but they express the ability to spread out across great distances with minor attenuation. Unfortunately, the pattern of activity does not allow us to ascertain the emitter's exact location. The only fact we know for sure is that it is rather far from here. \\nWell, actually, that is all I know about the issue.",
+      "JA_current": "Oh... Marked One, you're speaking about one of the most interesting and difficult subjects I've faced in my research here in the Zone! Let me try to explain. \\n\"Horror Time\", as stalkers call it, is an effect of psionic character. You see, from time to time - and we haven't managed to define the rhythmicity yet - the so-called \"ordinary\" surges are followed by powerful emissions of psionic energy, causing people to suffer hallucinations and delirium. These emissions are different from those we have been researching here, at the Yantar lake. They are not that intense, but they express the ability to spread out across great distances with minor attenuation. Unfortunately, the pattern of activity does not allow us to ascertain the emitter's exact location. The only fact we know for sure is that it is rather far from here. \\nWell, actually, that is all I know about the issue.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:horror_time_ecolog_story_5#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "horror_time_ecolog_story_6",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "horror_time_has_ecolog_story"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Thank you ever so much!",
+      "JA_current": "Thank you ever so much!",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:horror_time_ecolog_story_6#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "packet_id": "dialog_0202__barman_teror_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "barman_teror_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_barman",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "ivancov_infa"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "barman_teror"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "terakt_da"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "terakt_net"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 7,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:barman_teror_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3026,
+      "string_id": "barman_teror_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "I've been sent to speak to you about that threatening note.",
+      "JA_current": "あの脅迫状の件で話を聞きに来た。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_teror_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:barman_teror_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3029,
+      "string_id": "barman_teror_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Oh, that's... It's all bullshit, that's what it is.",
+      "JA_current": "ああ、あれか……あんなの全部デタラメのガセネタさ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_teror_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:barman_teror_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3032,
+      "string_id": "barman_teror_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Why do you think so?",
+      "JA_current": "なぜそう言い切れる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_teror_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:barman_teror_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3035,
+      "string_id": "barman_teror_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Aren't there enough crazies wandering around the Zone? Especially with the scorcher so close by.",
+      "JA_current": "ゾーンにゃイカれた変人なんざ腐るほど転がってるだろ。特にブレイン・スコーチャーがあんな目と鼻の先にあるんだからな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_teror_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:barman_teror_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3038,
+      "string_id": "barman_teror_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Can you remember any loners at the bar recently that kept to themselves, were anti-social, maybe had a set of unusual skills or knowledge?",
+      "JA_current": "最近この店に来たローナーで、周囲と距離を置いていた非社交的な奴に心当たりはないか？ 何か特殊な技能や知識を持っていそうな奴だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_teror_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:barman_teror_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3041,
+      "string_id": "barman_teror_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Heh, you just described the vast majority of stalkers that come to this bar. I get maybe fifty anti social bastards like that each day, and they all have a unique set of skills, how else are you going to survive out here?? Ask Snitch, maybe he knows something.",
+      "JA_current": "おいおい、今言った特徴はうちの店に来るストーカーの9割に当てはまるぜ。毎日そんな愛想のない偏屈野郎が50人はやって来るし、ここらで生き残るためなら誰だって一芸くらい持ってるもんだ。スニッチに聞いてみな、あいつなら何か知ってるかもしれん。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_teror_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:barman_teror_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 3044,
+      "string_id": "barman_teror_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Fine, thanks.",
+      "JA_current": "分かった、行ってみる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "barman_teror_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "barman_teror_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I've been sent to speak to you about that threatening note.",
+      "JA_current": "I've been sent to speak to you about that threatening note.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:barman_teror_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "barman_teror_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh, that's... It's all bullshit, that's what it is.",
+      "JA_current": "Oh, that's... It's all bullshit, that's what it is.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:barman_teror_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "barman_teror_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Why do you think so?",
+      "JA_current": "Why do you think so?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:barman_teror_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "barman_teror_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Aren't there enough crazies wandering around the Zone? Especially with the scorcher so close by.",
+      "JA_current": "Aren't there enough crazies wandering around the Zone? Especially with the scorcher so close by.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:barman_teror_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "barman_teror_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Can you remember any loners at the bar recently that kept to themselves, were anti-social, maybe had a set of unusual skills or knowledge?",
+      "JA_current": "Can you remember any loners at the bar recently that kept to themselves, were anti-social, maybe had a set of unusual skills or knowledge?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:barman_teror_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "barman_teror_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Heh, you just described the vast majority of stalkers that come to this bar. I get maybe fifty anti social bastards like that each day, and they all have a unique set of skills, how else are you going to survive out here?? Ask Snitch, maybe he knows something.",
+      "JA_current": "Heh, you just described the vast majority of stalkers that come to this bar. I get maybe fifty anti social bastards like that each day, and they all have a unique set of skills, how else are you going to survive out here?? Ask Snitch, maybe he knows something.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:barman_teror_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "barman_teror_dialog_phrase_7",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "barman_teror"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Fine, thanks.",
+      "JA_current": "Fine, thanks.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:barman_teror_dialog_phrase_7#1"
+      ]
+    }
+  ]
+}

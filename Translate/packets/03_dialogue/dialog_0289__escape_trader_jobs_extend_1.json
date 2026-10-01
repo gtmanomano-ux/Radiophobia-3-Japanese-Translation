@@ -1,0 +1,491 @@
+{
+  "packet_id": "dialog_0289__escape_trader_jobs_extend_1",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "escape_trader_jobs_extend_1",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "escape_trader",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "escape_blockpost_case_done"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "escape_trader_artnabor_start"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 11,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_7#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1575,
+      "string_id": "escape_trader_jobs_7",
+      "occurrence": 1,
+      "EN": "Have you got anything more interesting, maybe?",
+      "JA_current": "Have you got anything more interesting, maybe?",
+      "JA_new": "もっと面白い仕事はないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs_extend_1",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_71#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1578,
+      "string_id": "escape_trader_jobs_71",
+      "occurrence": 1,
+      "EN": "More interesting? Hmm... Ok, Marked One, listen. An order has been placed recently. From the outer side of the Perimeter. The customer longs for artifacts. Stop making a wry face! Listen to the whole story first! I'm not talking about ordinary artifacts, but about those called \"dummies\". Have you heard of them? \\nSo, a full set is wanted. I'll supply you with the list. To tell you frankly, some of these I've never even seen for myself... They are indeed quite the rarities. The few stalkers with the skill to find them would much rather prefer to keep them rather than to sell them, and that's despite the high reward offered for them. \\nSo, what do you think? Are you up for the job?",
+      "JA_current": "More interesting? Hmm... Ok, Marked One, listen. An order has been placed recently. From the outer side of the Perimeter. The customer longs for artifacts. Stop making a wry face! Listen to the whole story first! I'm not talking about ordinary artifacts, but about those called \"dummies\". Have you heard of them? \\nSo, a full set is wanted. I'll supply you with the list. To tell you frankly, some of these I've never even seen for myself... They are indeed quite the rarities. The few stalkers with the skill to find them would much rather prefer to keep them rather than to sell them, and that's despite the high reward offered for them. \\nSo, what do you think? Are you up for the job?",
+      "JA_new": "もっと面白い？ ふむ……よし、印付き、聞いてくれ。つい最近、境界線の外から依頼が来た。依頼人はアーティファクトを欲しがってる。そんな顔をするな、まずは最後まで聞け！ 普通のアーティファクトじゃない。「ダミー」と呼ばれるものだ。聞いたことはあるか？ \\nそれで、全種類そろえてほしいそうだ。リストは渡す。正直なところ、俺も実物を見たことがないものがある……本当に珍しい品だ。見つける腕のあるストーカーは、報酬が高くても売るより手元に置きたがる。 \\nどうだ？ この仕事、受けてみるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs_extend_1",
+          "phrase_id": "71",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_711#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1581,
+      "string_id": "escape_trader_jobs_711",
+      "occurrence": 1,
+      "EN": "Sidorovich! Have you got the slightest idea of what god-forsaken holes I will have to delve into for them?!",
+      "JA_current": "Sidorovich! Have you got the slightest idea of what god-forsaken holes I will have to delve into for them?!",
+      "JA_new": "シドロヴィッチ！ そんな代物を探すために、どんな地獄みたいな場所を這い回れっていうんだ！？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs_extend_1",
+          "phrase_id": "711",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_7111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1584,
+      "string_id": "escape_trader_jobs_7111",
+      "occurrence": 1,
+      "EN": "I do have the idea. And that is, in fact, the reason for my asking YOU to do the job. 'Cause I know you are going to go into those holes and, what's even more important to me, you are going to get OUT of them alive with the items in question! Ok, ok... No need to negotiate a higher reward. You know me - I won't make you regret the risk. I have something remarkably special for you on the line.",
+      "JA_current": "I do have the idea. And that is, in fact, the reason for my asking YOU to do the job. 'Cause I know you are going to go into those holes and, what's even more important to me, you are going to get OUT of them alive with the items in question! Ok, ok... No need to negotiate a higher reward. You know me - I won't make you regret the risk. I have something remarkably special for you on the line.",
+      "JA_new": "分かってる。だからこそ、お前に頼んでるんだ。そんな穴倉にも飛び込んで、生きて品を持ち帰ってくると俺は知ってるからな！ 分かった分かった……報酬を吊り上げようとするな。お前も俺を知ってるだろ。危険を冒したことを後悔させたりしない。とびきりの品を用意してるんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs_extend_1",
+          "phrase_id": "7111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_71111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1587,
+      "string_id": "escape_trader_jobs_71111",
+      "occurrence": 1,
+      "EN": "Come on, tell me! What's up your sleeve?",
+      "JA_current": "Come on, tell me! What's up your sleeve?",
+      "JA_new": "焦らすなよ！ 何を企んでる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs_extend_1",
+          "phrase_id": "71111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_711111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1590,
+      "string_id": "escape_trader_jobs_711111",
+      "occurrence": 1,
+      "EN": "Well... Listen... \\nAbout three months ago a stalker dropped by my place... You may have seen some of his kind - scorched through by the Zone, all the fight beaten out of him... So, he asked me to assist him in getting out of the Zone and he gave me all his stuff as payment!",
+      "JA_current": "Well... Listen... \\nAbout three months ago a stalker dropped by my place... You may have seen some of his kind - scorched through by the Zone, all the fight beaten out of him... So, he asked me to assist him in getting out of the Zone and he gave me all his stuff as payment!",
+      "JA_new": "まあ、聞いてくれ…… \\n三か月ほど前、ストーカーが俺のところに来た……似たようなのを見たことあるかもな。ゾーンに焼かれて、戦う気力までなくしたような奴だ……そいつはゾーンから出る手助けを頼み、代金に持ち物を全部置いていった！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs_extend_1",
+          "phrase_id": "711111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_7111111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1593,
+      "string_id": "escape_trader_jobs_7111111",
+      "occurrence": 1,
+      "EN": "Stop beating about the bush! Spit it out!",
+      "JA_current": "Stop beating about the bush! Spit it out!",
+      "JA_new": "回りくどい！ 早く言え！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs_extend_1",
+          "phrase_id": "7111111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_71111111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1596,
+      "string_id": "escape_trader_jobs_71111111",
+      "occurrence": 1,
+      "EN": "So impatient, aren't you! \\nMost of his stuff was quickly sold out - the stuff was remarkable indeed. But I have one item still remaining - its price is too high for any of the locals. It is the outfit. A really interesting one, I've never seen anything like that before. What I know is that it has obviously undergone a few experimental upgrades. Rare components, not commonly accessible, you know? I'm not willing to let this suit go for cheap due to its value, but I am willing to let you earn it as reward for risking your neck for me!",
+      "JA_current": "So impatient, aren't you! \\nMost of his stuff was quickly sold out - the stuff was remarkable indeed. But I have one item still remaining - its price is too high for any of the locals. It is the outfit. A really interesting one, I've never seen anything like that before. What I know is that it has obviously undergone a few experimental upgrades. Rare components, not commonly accessible, you know? I'm not willing to let this suit go for cheap due to its value, but I am willing to let you earn it as reward for risking your neck for me!",
+      "JA_new": "せっかちだな！ \\n持ち物のほとんどはすぐ売れた。どれも確かにすごい品だったよ。だが、ひとつだけ残ってる。地元の連中には高すぎる品だ。防護服だ。実に興味深い、あんなものは見たことがない。実験的な改修を何度か受けてるのは間違いない。珍しい部品が使われてて、普通には手に入らない。分かるだろ？ 価値があるから安売りはしないが、俺のために命を懸ける仕事を受けるなら、報酬としてやってもいい！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs_extend_1",
+          "phrase_id": "71111111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_711111111#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1599,
+      "string_id": "escape_trader_jobs_711111111",
+      "occurrence": 1,
+      "EN": "Alright, I'll try to get the artifacts.",
+      "JA_current": "Alright, I'll try to get the artifacts.",
+      "JA_new": "分かった。アーティファクトを集めてみる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs_extend_1",
+          "phrase_id": "711111111",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_72#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1602,
+      "string_id": "escape_trader_jobs_72",
+      "occurrence": 1,
+      "EN": "No way, Sidorovich. I'm not willing to stick my head in the noose even for some miracle outfit. No offense.",
+      "JA_current": "No way, Sidorovich. I'm not willing to stick my head in the noose even for some miracle outfit. No offense.",
+      "JA_new": "いやだね、シドロヴィッチ。奇跡の防護服のために首を差し出す気はない。悪く思うな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs_extend_1",
+          "phrase_id": "72",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:escape_trader_jobs_721#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 1605,
+      "string_id": "escape_trader_jobs_721",
+      "occurrence": 1,
+      "EN": "As you wish. It's your choice, at the end of the day.",
+      "JA_current": "As you wish. It's your choice, at the end of the day.",
+      "JA_new": "好きにしろ。最終的に決めるのはお前だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "escape_trader_jobs_extend_1",
+          "phrase_id": "721",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "escape_trader_jobs_7",
+      "next": [
+        "71"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Have you got anything more interesting, maybe?",
+      "JA_current": "Have you got anything more interesting, maybe?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_7#1"
+      ]
+    },
+    {
+      "phrase_id": "71",
+      "text_id": "escape_trader_jobs_71",
+      "next": [
+        "711"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "More interesting? Hmm... Ok, Marked One, listen. An order has been placed recently. From the outer side of the Perimeter. The customer longs for artifacts. Stop making a wry face! Listen to the whole story first! I'm not talking about ordinary artifacts, but about those called \"dummies\". Have you heard of them? \\nSo, a full set is wanted. I'll supply you with the list. To tell you frankly, some of these I've never even seen for myself... They are indeed quite the rarities. The few stalkers with the skill to find them would much rather prefer to keep them rather than to sell them, and that's despite the high reward offered for them. \\nSo, what do you think? Are you up for the job?",
+      "JA_current": "More interesting? Hmm... Ok, Marked One, listen. An order has been placed recently. From the outer side of the Perimeter. The customer longs for artifacts. Stop making a wry face! Listen to the whole story first! I'm not talking about ordinary artifacts, but about those called \"dummies\". Have you heard of them? \\nSo, a full set is wanted. I'll supply you with the list. To tell you frankly, some of these I've never even seen for myself... They are indeed quite the rarities. The few stalkers with the skill to find them would much rather prefer to keep them rather than to sell them, and that's despite the high reward offered for them. \\nSo, what do you think? Are you up for the job?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_71#1"
+      ]
+    },
+    {
+      "phrase_id": "711",
+      "text_id": "escape_trader_jobs_711",
+      "next": [
+        "7111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "71"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sidorovich! Have you got the slightest idea of what god-forsaken holes I will have to delve into for them?!",
+      "JA_current": "Sidorovich! Have you got the slightest idea of what god-forsaken holes I will have to delve into for them?!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_711#1"
+      ]
+    },
+    {
+      "phrase_id": "7111",
+      "text_id": "escape_trader_jobs_7111",
+      "next": [
+        "71111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "711"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I do have the idea. And that is, in fact, the reason for my asking YOU to do the job. 'Cause I know you are going to go into those holes and, what's even more important to me, you are going to get OUT of them alive with the items in question! Ok, ok... No need to negotiate a higher reward. You know me - I won't make you regret the risk. I have something remarkably special for you on the line.",
+      "JA_current": "I do have the idea. And that is, in fact, the reason for my asking YOU to do the job. 'Cause I know you are going to go into those holes and, what's even more important to me, you are going to get OUT of them alive with the items in question! Ok, ok... No need to negotiate a higher reward. You know me - I won't make you regret the risk. I have something remarkably special for you on the line.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_7111#1"
+      ]
+    },
+    {
+      "phrase_id": "71111",
+      "text_id": "escape_trader_jobs_71111",
+      "next": [
+        "711111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Come on, tell me! What's up your sleeve?",
+      "JA_current": "Come on, tell me! What's up your sleeve?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_71111#1"
+      ]
+    },
+    {
+      "phrase_id": "711111",
+      "text_id": "escape_trader_jobs_711111",
+      "next": [
+        "7111111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "71111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well... Listen... \\nAbout three months ago a stalker dropped by my place... You may have seen some of his kind - scorched through by the Zone, all the fight beaten out of him... So, he asked me to assist him in getting out of the Zone and he gave me all his stuff as payment!",
+      "JA_current": "Well... Listen... \\nAbout three months ago a stalker dropped by my place... You may have seen some of his kind - scorched through by the Zone, all the fight beaten out of him... So, he asked me to assist him in getting out of the Zone and he gave me all his stuff as payment!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_711111#1"
+      ]
+    },
+    {
+      "phrase_id": "7111111",
+      "text_id": "escape_trader_jobs_7111111",
+      "next": [
+        "71111111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "711111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Stop beating about the bush! Spit it out!",
+      "JA_current": "Stop beating about the bush! Spit it out!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_7111111#1"
+      ]
+    },
+    {
+      "phrase_id": "71111111",
+      "text_id": "escape_trader_jobs_71111111",
+      "next": [
+        "711111111",
+        "72"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7111111"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So impatient, aren't you! \\nMost of his stuff was quickly sold out - the stuff was remarkable indeed. But I have one item still remaining - its price is too high for any of the locals. It is the outfit. A really interesting one, I've never seen anything like that before. What I know is that it has obviously undergone a few experimental upgrades. Rare components, not commonly accessible, you know? I'm not willing to let this suit go for cheap due to its value, but I am willing to let you earn it as reward for risking your neck for me!",
+      "JA_current": "So impatient, aren't you! \\nMost of his stuff was quickly sold out - the stuff was remarkable indeed. But I have one item still remaining - its price is too high for any of the locals. It is the outfit. A really interesting one, I've never seen anything like that before. What I know is that it has obviously undergone a few experimental upgrades. Rare components, not commonly accessible, you know? I'm not willing to let this suit go for cheap due to its value, but I am willing to let you earn it as reward for risking your neck for me!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_71111111#1"
+      ]
+    },
+    {
+      "phrase_id": "711111111",
+      "text_id": "escape_trader_jobs_711111111",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "escape_trader_artnabor_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "71111111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Alright, I'll try to get the artifacts.",
+      "JA_current": "Alright, I'll try to get the artifacts.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_711111111#1"
+      ]
+    },
+    {
+      "phrase_id": "72",
+      "text_id": "escape_trader_jobs_72",
+      "next": [
+        "721"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "71111111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No way, Sidorovich. I'm not willing to stick my head in the noose even for some miracle outfit. No offense.",
+      "JA_current": "No way, Sidorovich. I'm not willing to stick my head in the noose even for some miracle outfit. No offense.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_72#1"
+      ]
+    },
+    {
+      "phrase_id": "721",
+      "text_id": "escape_trader_jobs_721",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "72"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "As you wish. It's your choice, at the end of the day.",
+      "JA_current": "As you wish. It's your choice, at the end of the day.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:escape_trader_jobs_721#1"
+      ]
+    }
+  ]
+}

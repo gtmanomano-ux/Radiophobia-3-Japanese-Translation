@@ -1,0 +1,240 @@
+{
+  "packet_id": "dialog_0408__pri_trader_final",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "pri_trader_final",
+  "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml",
+  "graph_sha256": "8bb9195290d87fda40f45e7ab7e4ed73c832c18ca04c708134554149eea56b2a",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "ogsm_quests.final_precondition"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 5,
+  "entries": [
+    {
+      "key": "stable_dialogs_pripyat:pri_4_k_4emu_eto_vse#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 77,
+      "string_id": "pri_4_k_4emu_eto_vse",
+      "occurrence": 1,
+      "EN": "Look, what is the purpose for all that? What's the ultimate aim?",
+      "JA_current": "Look, what is the purpose for all that? What's the ultimate aim?",
+      "JA_new": "なあ、結局あれは何のためだった？ 最終的な狙いは何だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "pri_trader_final",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:pri_4_a_ty_ne_ponyal#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 80,
+      "string_id": "pri_4_a_ty_ne_ponyal",
+      "occurrence": 1,
+      "EN": "Haven't you guessed, Strelok? The head injury has affected you more than I expected. Now that the leading factions are destabilized and without leadership - the old power balance is sure to sink into oblivion, allowing a new major player to seize control of territory and organize a new regime. My time has come! Not without your help, I must admit. He-he...",
+      "JA_current": "Haven't you guessed, Strelok? The head injury has affected you more than I expected. Now that the leading factions are destabilized and without leadership - the old power balance is sure to sink into oblivion, allowing a new major player to seize control of territory and organize a new regime. My time has come! Not without your help, I must admit. He-he...",
+      "JA_new": "見当もつかないのか、ストレロク？ 思った以上に頭をやられてたようだな。主要勢力は弱体化し、指導者もいなくなった。これで古い勢力図は崩れ、新たな大物が縄張りを支配して、新体制を築ける。俺の出番ってわけだ！ あんたの手も借りたがな。へへ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "pri_trader_final",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:pri_4_raz_tak#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 83,
+      "string_id": "pri_4_raz_tak",
+      "occurrence": 1,
+      "EN": "You have been using me as a pawn in your world domination game?! That's funny... What will you do if I don't let you begin your \"new regime\"?",
+      "JA_current": "You have been using me as a pawn in your world domination game?! That's funny... What will you do if I don't let you begin your \"new regime\"?",
+      "JA_new": "世界征服の駒として利用したってことか？ 笑えるな……俺が「新体制」を始めさせなかったら、どうする？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "pri_trader_final",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:pri_4_proshai#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 86,
+      "string_id": "pri_4_proshai",
+      "occurrence": 1,
+      "EN": "You won't let me?! YOU will not let ME?! It was YOU who accepted the tasks, you who has EXECUTED them and you who has taken the REWARDS, Strelok! You had a simple choice: either you walk away and disagree to shed blood, or... You do the job and get paid for it, which leads us to the here and now, you standing there with your arms blood-stained up to your elbows... The choice you have made is obvious indeed, isn't it? And the consequences of that choice are obvious, too. It was YOU who has already created this new regime, how exactly can you stop it now? Especially now, with that reputation of yours, you won't last long enough to accomplish much of anything, ha-ha... It's only fitting that I take charge of the new balance of power, to fix the mess you have created and stabilize all the factions you've plunged into chaos... If you think you can clear your name, let's be honest, do you think anyone is going to listen to your fairy-tales about some \"Dark Dealer\"? Ha-ha-ha...",
+      "JA_current": "You won't let me?! YOU will not let ME?! It was YOU who accepted the tasks, you who has EXECUTED them and you who has taken the REWARDS, Strelok! You had a simple choice: either you walk away and disagree to shed blood, or... You do the job and get paid for it, which leads us to the here and now, you standing there with your arms blood-stained up to your elbows... The choice you have made is obvious indeed, isn't it? And the consequences of that choice are obvious, too. It was YOU who has already created this new regime, how exactly can you stop it now? Especially now, with that reputation of yours, you won't last long enough to accomplish much of anything, ha-ha... It's only fitting that I take charge of the new balance of power, to fix the mess you have created and stabilize all the factions you've plunged into chaos... If you think you can clear your name, let's be honest, do you think anyone is going to listen to your fairy-tales about some \"Dark Dealer\"? Ha-ha-ha...",
+      "JA_new": "お前が止めるだと？！ この俺を止める？！ 仕事を引き受けたのも、実行したのも、報酬を受け取ったのも、お前だ、ストレロク！ 選択肢は単純だった。血を流すのを拒んで立ち去るか……仕事をこなして金を受け取るか。今ここにいるお前は、両腕を肘まで血に染めたまま立ってる。選んだ道は明らかだろう？ その結果もな。新体制を作ったのはお前だ。今さら止められると思うか？ その評判じゃ、何かを成し遂げる前に消されるだろうな、はは……お前が混乱に陥れた勢力を立て直し、力の均衡を安定させるには俺が指揮を執るしかない。潔白を証明する？ いいか、「ダーク・ディーラー」なんて奴がいるっていうおとぎ話を、誰が信じると思う？ ははは……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "pri_trader_final",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_pripyat:pri_4_ne_ponyal#1",
+      "source_table": "stable_dialogs_pripyat",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_pripyat.xml",
+      "source_xml_line": 89,
+      "string_id": "pri_4_ne_ponyal",
+      "occurrence": 1,
+      "EN": "What do you mean: \"fairy-tales\"?..",
+      "JA_current": "What do you mean: \"fairy-tales\"?..",
+      "JA_new": "おとぎ話って、どういう意味だ……？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "pri_trader_final",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_pripyat.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "pri_4_k_4emu_eto_vse",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Look, what is the purpose for all that? What's the ultimate aim?",
+      "JA_current": "Look, what is the purpose for all that? What's the ultimate aim?",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:pri_4_k_4emu_eto_vse#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "pri_4_a_ty_ne_ponyal",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Haven't you guessed, Strelok? The head injury has affected you more than I expected. Now that the leading factions are destabilized and without leadership - the old power balance is sure to sink into oblivion, allowing a new major player to seize control of territory and organize a new regime. My time has come! Not without your help, I must admit. He-he...",
+      "JA_current": "Haven't you guessed, Strelok? The head injury has affected you more than I expected. Now that the leading factions are destabilized and without leadership - the old power balance is sure to sink into oblivion, allowing a new major player to seize control of territory and organize a new regime. My time has come! Not without your help, I must admit. He-he...",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:pri_4_a_ty_ne_ponyal#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "pri_4_raz_tak",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "You have been using me as a pawn in your world domination game?! That's funny... What will you do if I don't let you begin your \"new regime\"?",
+      "JA_current": "You have been using me as a pawn in your world domination game?! That's funny... What will you do if I don't let you begin your \"new regime\"?",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:pri_4_raz_tak#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "pri_4_proshai",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "You won't let me?! YOU will not let ME?! It was YOU who accepted the tasks, you who has EXECUTED them and you who has taken the REWARDS, Strelok! You had a simple choice: either you walk away and disagree to shed blood, or... You do the job and get paid for it, which leads us to the here and now, you standing there with your arms blood-stained up to your elbows... The choice you have made is obvious indeed, isn't it? And the consequences of that choice are obvious, too. It was YOU who has already created this new regime, how exactly can you stop it now? Especially now, with that reputation of yours, you won't last long enough to accomplish much of anything, ha-ha... It's only fitting that I take charge of the new balance of power, to fix the mess you have created and stabilize all the factions you've plunged into chaos... If you think you can clear your name, let's be honest, do you think anyone is going to listen to your fairy-tales about some \"Dark Dealer\"? Ha-ha-ha...",
+      "JA_current": "You won't let me?! YOU will not let ME?! It was YOU who accepted the tasks, you who has EXECUTED them and you who has taken the REWARDS, Strelok! You had a simple choice: either you walk away and disagree to shed blood, or... You do the job and get paid for it, which leads us to the here and now, you standing there with your arms blood-stained up to your elbows... The choice you have made is obvious indeed, isn't it? And the consequences of that choice are obvious, too. It was YOU who has already created this new regime, how exactly can you stop it now? Especially now, with that reputation of yours, you won't last long enough to accomplish much of anything, ha-ha... It's only fitting that I take charge of the new balance of power, to fix the mess you have created and stabilize all the factions you've plunged into chaos... If you think you can clear your name, let's be honest, do you think anyone is going to listen to your fairy-tales about some \"Dark Dealer\"? Ha-ha-ha...",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:pri_4_proshai#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "pri_4_ne_ponyal",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "action",
+          "value": "ogsm_quests.release_dark_dealer"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "What do you mean: \"fairy-tales\"?..",
+      "JA_current": "What do you mean: \"fairy-tales\"?..",
+      "string_entry_candidates": [
+        "stable_dialogs_pripyat:pri_4_ne_ponyal#1"
+      ]
+    }
+  ]
+}

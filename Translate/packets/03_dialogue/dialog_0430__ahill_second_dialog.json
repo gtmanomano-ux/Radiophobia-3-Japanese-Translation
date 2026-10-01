@@ -1,0 +1,800 @@
+{
+  "packet_id": "dialog_0430__ahill_second_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "ahill_second_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_radar.xml",
+  "graph_sha256": "7436a3a8c823be5716e127228e116bf493cdec1d97644f3c78b6dee00a554864",
+  "character_bindings": [
+    {
+      "profile_id": "rad_sila_ahill",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "voron_die"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "sila_enemy"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "ahill_zadanie_arsenal"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 18,
+  "entries": [
+    {
+      "key": "stable_dialogs_radar:ahill_second_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 311,
+      "string_id": "ahill_second_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "The prisoner of war was executed.",
+      "JA_current": "The prisoner of war was executed.",
+      "JA_new": "捕虜を始末した。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahill_second_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:ahill_second_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 314,
+      "string_id": "ahill_second_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "That's great! Now you have earned the right to ask me questions. I am listening to you, warrior.",
+      "JA_current": "That's great! Now you have earned the right to ask me questions. I am listening to you, warrior.",
+      "JA_new": "よくやった！ これで質問する資格を得たな。話せ、戦士よ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahill_second_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:ahill_second_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 317,
+      "string_id": "ahill_second_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Who are you and what are you doing here?",
+      "JA_current": "Who are you and what are you doing here?",
+      "JA_new": "あんたは何者で、ここで何をしてる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahill_second_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:ahill_second_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 320,
+      "string_id": "ahill_second_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "We are the advance party of the Monolith faction called \"The Power of the Great Monolith\". I am the guardian of the elements of the sacred Sphere of the Sun, the right hand of Charon himself. We bring death to the infidels and extend the power of the Monolith to the south, standing guard over the tranquility of the Eternal City of Pripyat. Here we carry out the last will of Charon, destroying the infidels.",
+      "JA_current": "We are the advance party of the Monolith faction called \"The Power of the Great Monolith\". I am the guardian of the elements of the sacred Sphere of the Sun, the right hand of Charon himself. We bring death to the infidels and extend the power of the Monolith to the south, standing guard over the tranquility of the Eternal City of Pripyat. Here we carry out the last will of Charon, destroying the infidels.",
+      "JA_new": "我らはモノリス勢力の先遣隊、「偉大なるモノリスの力」だ。俺は聖なる太陽の球の欠片を守る者、カロンの右腕だ。異教徒どもに死をもたらし、モノリスの力を南へ広げる。永遠の都プリピャチの安寧を守り、ここでカロンの最後の遺志を果たす。異教徒どもを滅ぼすためにな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahill_second_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:ahill_second_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 323,
+      "string_id": "ahill_second_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "What is the Golden Sphere?",
+      "JA_current": "What is the Golden Sphere?",
+      "JA_new": "黄金の球とは何だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahill_second_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:ahill_second_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 326,
+      "string_id": "ahill_second_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "It is a great creation of the Zone, a creation that gives eternal life to its owner. Once upon a time, the Sphere was born by the Great Monolith. Soon after it appeared, it was broken into three pieces by Theseus and scattered across the Zone so as not to fall to the barbarians. Since then we, the keepers of the Sphere, have been unsuccessfully searching for one of its missing parts. When we have all three pieces, the Sphere will be restored, our race will gain immortality, and the barbarians will be destroyed.",
+      "JA_current": "It is a great creation of the Zone, a creation that gives eternal life to its owner. Once upon a time, the Sphere was born by the Great Monolith. Soon after it appeared, it was broken into three pieces by Theseus and scattered across the Zone so as not to fall to the barbarians. Since then we, the keepers of the Sphere, have been unsuccessfully searching for one of its missing parts. When we have all three pieces, the Sphere will be restored, our race will gain immortality, and the barbarians will be destroyed.",
+      "JA_new": "ゾーンが生み出した偉大な創造物で、持つ者に永遠の命をもたらす。かつて、球は大いなるモノリスから生まれた。現れてすぐ、蛮族の手に渡らぬよう、テセウスが三つに砕いてゾーン各地に散らした。それ以来、球の守り手である我らは失われた欠片の一つを探し続けてきたが、まだ見つかっていない。三つの欠片が揃えば球は元に戻り、我らの民は不死となる。そして蛮族どもは滅びるのだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahill_second_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:ahill_second_dialog_phrase_13#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 347,
+      "string_id": "ahill_second_dialog_phrase_13",
+      "occurrence": 1,
+      "EN": "It's all clear now. I would like to help the Monolith, how can I do that?",
+      "JA_current": "It's all clear now. I would like to help the Monolith, how can I do that?",
+      "JA_new": "話は分かった。モノリスに協力したい。何をすればいい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahill_second_dialog",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:ahill_second_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 329,
+      "string_id": "ahill_second_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "What if I know where the missing part of the Golden Sphere is?",
+      "JA_current": "What if I know where the missing part of the Golden Sphere is?",
+      "JA_new": "欠けた黄金の球のありかを知っているとしたら？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahill_second_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:ahill_second_dialog_phrase_14#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 350,
+      "string_id": "ahill_second_dialog_phrase_14",
+      "occurrence": 1,
+      "EN": "Oh, I see that you are getting on the path of Truth! This is good. Listen to me carefully, warrior: we have long lost contact with Charon and his paladins. We are low on ammunition and the barbarians will attack any day now, so I have a mission for you. You will have to go to the Eternal City of Pripyat, go to our base, take five Sacred Weapons with ammunition from our arsenal and bring them to us. Do you understand me?",
+      "JA_current": "Oh, I see that you are getting on the path of Truth! This is good. Listen to me carefully, warrior: we have long lost contact with Charon and his paladins. We are low on ammunition and the barbarians will attack any day now, so I have a mission for you. You will have to go to the Eternal City of Pripyat, go to our base, take five Sacred Weapons with ammunition from our arsenal and bring them to us. Do you understand me?",
+      "JA_new": "ああ、真理の道を歩み始めたか！ それは喜ばしい。よく聞け、戦士よ。我らは長い間、カロンとパラディンたちとの連絡が途絶えている。弾薬は残り少なく、蛮族どもはいつ襲ってきてもおかしくない。そこで任務を頼みたい。永遠の都プリピャチへ向かい、我らの拠点に行け。武器庫から弾薬つきの聖なる武器を五丁持ち出し、ここへ届けろ。分かったか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahill_second_dialog",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:ahill_second_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 332,
+      "string_id": "ahill_second_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "And where is it?",
+      "JA_current": "And where is it?",
+      "JA_new": "それはどこにある？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahill_second_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:ahill_second_dialog_phrase_15#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 353,
+      "string_id": "ahill_second_dialog_phrase_15",
+      "occurrence": 1,
+      "EN": "Well, where exactly in Pripyat is your arsenal?",
+      "JA_current": "Well, where exactly in Pripyat is your arsenal?",
+      "JA_new": "プリピャチのどこに武器庫がある？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahill_second_dialog",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:ahill_second_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 335,
+      "string_id": "ahill_second_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "I have it.",
+      "JA_current": "I have it.",
+      "JA_new": "持ってる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahill_second_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:ahill_second_dialog_phrase_16#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 356,
+      "string_id": "ahill_second_dialog_phrase_16",
+      "occurrence": 1,
+      "EN": "It's at our base.",
+      "JA_current": "It's at our base.",
+      "JA_new": "我らの拠点にある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahill_second_dialog",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:ahill_second_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 338,
+      "string_id": "ahill_second_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "O warrior, don't be a fool! Give her to me now! Or you will anger the Monolith!",
+      "JA_current": "O warrior, don't be a fool! Give her to me now! Or you will anger the Monolith!",
+      "JA_new": "戦士よ、愚かな真似はやめろ！ 今すぐそれを渡せ！ さもないとモノリスの怒りを買うぞ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahill_second_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:ahill_second_dialog_phrase_17#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 359,
+      "string_id": "ahill_second_dialog_phrase_17",
+      "occurrence": 1,
+      "EN": "I'm going there.",
+      "JA_current": "I'm going there.",
+      "JA_new": "行ってくる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahill_second_dialog",
+          "phrase_id": "16",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:ahill_second_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 341,
+      "string_id": "ahill_second_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "No way, uncle. First you will give me the two missing pieces.",
+      "JA_current": "No way, uncle. First you will give me the two missing pieces.",
+      "JA_new": "無理だな、おっさん。まずは残り二つの欠片を渡してもらおう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahill_second_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:ahill_second_dialog_phrase_18#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 362,
+      "string_id": "ahill_second_dialog_phrase_18",
+      "occurrence": 1,
+      "EN": "May the Monolith keep you safe!",
+      "JA_current": "May the Monolith keep you safe!",
+      "JA_new": "モノリスの加護があらんことを！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahill_second_dialog",
+          "phrase_id": "17",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:ahill_second_dialog_phrase_12#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 344,
+      "string_id": "ahill_second_dialog_phrase_12",
+      "occurrence": 1,
+      "EN": "Die, sinner!!!",
+      "JA_current": "Die, sinner!!!",
+      "JA_new": "罪人め、死ね！！！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "ahill_second_dialog",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "ahill_second_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "ahill_reward"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The prisoner of war was executed.",
+      "JA_current": "The prisoner of war was executed.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:ahill_second_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "ahill_second_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "That's great! Now you have earned the right to ask me questions. I am listening to you, warrior.",
+      "JA_current": "That's great! Now you have earned the right to ask me questions. I am listening to you, warrior.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:ahill_second_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "ahill_second_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Who are you and what are you doing here?",
+      "JA_current": "Who are you and what are you doing here?",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:ahill_second_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "ahill_second_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "We are the advance party of the Monolith faction called \"The Power of the Great Monolith\". I am the guardian of the elements of the sacred Sphere of the Sun, the right hand of Charon himself. We bring death to the infidels and extend the power of the Monolith to the south, standing guard over the tranquility of the Eternal City of Pripyat. Here we carry out the last will of Charon, destroying the infidels.",
+      "JA_current": "We are the advance party of the Monolith faction called \"The Power of the Great Monolith\". I am the guardian of the elements of the sacred Sphere of the Sun, the right hand of Charon himself. We bring death to the infidels and extend the power of the Monolith to the south, standing guard over the tranquility of the Eternal City of Pripyat. Here we carry out the last will of Charon, destroying the infidels.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:ahill_second_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "ahill_second_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What is the Golden Sphere?",
+      "JA_current": "What is the Golden Sphere?",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:ahill_second_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "ahill_second_dialog_phrase_6",
+      "next": [
+        "12",
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It is a great creation of the Zone, a creation that gives eternal life to its owner. Once upon a time, the Sphere was born by the Great Monolith. Soon after it appeared, it was broken into three pieces by Theseus and scattered across the Zone so as not to fall to the barbarians. Since then we, the keepers of the Sphere, have been unsuccessfully searching for one of its missing parts. When we have all three pieces, the Sphere will be restored, our race will gain immortality, and the barbarians will be destroyed.",
+      "JA_current": "It is a great creation of the Zone, a creation that gives eternal life to its owner. Once upon a time, the Sphere was born by the Great Monolith. Soon after it appeared, it was broken into three pieces by Theseus and scattered across the Zone so as not to fall to the barbarians. Since then we, the keepers of the Sphere, have been unsuccessfully searching for one of its missing parts. When we have all three pieces, the Sphere will be restored, our race will gain immortality, and the barbarians will be destroyed.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:ahill_second_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "ahill_second_dialog_phrase_13",
+      "next": [
+        "13"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It's all clear now. I would like to help the Monolith, how can I do that?",
+      "JA_current": "It's all clear now. I would like to help the Monolith, how can I do that?",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:ahill_second_dialog_phrase_13#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "ahill_second_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What if I know where the missing part of the Golden Sphere is?",
+      "JA_current": "What if I know where the missing part of the Golden Sphere is?",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:ahill_second_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "ahill_second_dialog_phrase_14",
+      "next": [
+        "14"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh, I see that you are getting on the path of Truth! This is good. Listen to me carefully, warrior: we have long lost contact with Charon and his paladins. We are low on ammunition and the barbarians will attack any day now, so I have a mission for you. You will have to go to the Eternal City of Pripyat, go to our base, take five Sacred Weapons with ammunition from our arsenal and bring them to us. Do you understand me?",
+      "JA_current": "Oh, I see that you are getting on the path of Truth! This is good. Listen to me carefully, warrior: we have long lost contact with Charon and his paladins. We are low on ammunition and the barbarians will attack any day now, so I have a mission for you. You will have to go to the Eternal City of Pripyat, go to our base, take five Sacred Weapons with ammunition from our arsenal and bring them to us. Do you understand me?",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:ahill_second_dialog_phrase_14#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "ahill_second_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "And where is it?",
+      "JA_current": "And where is it?",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:ahill_second_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "ahill_second_dialog_phrase_15",
+      "next": [
+        "15"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "ahill_zadanie_arsenal"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.spawn_monolit_arsenal"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, where exactly in Pripyat is your arsenal?",
+      "JA_current": "Well, where exactly in Pripyat is your arsenal?",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:ahill_second_dialog_phrase_15#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "ahill_second_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I have it.",
+      "JA_current": "I have it.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:ahill_second_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "ahill_second_dialog_phrase_16",
+      "next": [
+        "16"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It's at our base.",
+      "JA_current": "It's at our base.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:ahill_second_dialog_phrase_16#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "ahill_second_dialog_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "O warrior, don't be a fool! Give her to me now! Or you will anger the Monolith!",
+      "JA_current": "O warrior, don't be a fool! Give her to me now! Or you will anger the Monolith!",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:ahill_second_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "16",
+      "text_id": "ahill_second_dialog_phrase_17",
+      "next": [
+        "17"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "15"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm going there.",
+      "JA_current": "I'm going there.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:ahill_second_dialog_phrase_17#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "ahill_second_dialog_phrase_11",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.sila_enemy"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No way, uncle. First you will give me the two missing pieces.",
+      "JA_current": "No way, uncle. First you will give me the two missing pieces.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:ahill_second_dialog_phrase_11#1"
+      ]
+    },
+    {
+      "phrase_id": "17",
+      "text_id": "ahill_second_dialog_phrase_18",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "16"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "May the Monolith keep you safe!",
+      "JA_current": "May the Monolith keep you safe!",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:ahill_second_dialog_phrase_18#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "ahill_second_dialog_phrase_12",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Die, sinner!!!",
+      "JA_current": "Die, sinner!!!",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:ahill_second_dialog_phrase_12#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "packet_id": "dialog_0064__agr_stalker_esc",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "agr_stalker_esc",
+  "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml",
+  "graph_sha256": "0065cb49021f3d779d92b62bc9453bcaa767fa47933b73f8ecdd37c8a246e1ab",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "dialogs.dialog_allowed"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "agr_warning_recieved"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 4,
+  "entries": [
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_esc_0#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 99,
+      "string_id": "agr_stalker_esc_0",
+      "occurrence": 1,
+      "EN": "What are you doing?",
+      "JA_current": "何やってんだ？",
+      "JA_new": "何をしてる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_esc",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_esc_20#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 102,
+      "string_id": "agr_stalker_esc_20",
+      "occurrence": 1,
+      "EN": "I'm coming back from the factory which is a bit further down the road. I don't know how but the army found out about our group. I didn't wait for them to show up and took off as quickly as I could. I hope our boys got out of there 'cause otherwise they won't be alive for much longer - you saw the choppers yourself.",
+      "JA_current": "この道の先の工場から、今逃げてきたところだ。どうやってかは知らんが、軍の連中が俺たちの居場所を嗅ぎつけた。俺は奴らがやってくる前に、大急ぎで脱出してきたんだ。仲間もうまく逃げてくれてたらいいが。さもなきゃみんな死ぬ。あんたも奴らのヘリを見たろう？",
+      "JA_new": "少し先にある工場から戻るところだ。どういうわけか軍に俺たちの集団が見つかった。連中が来る前に急いで逃げたよ。仲間も無事に逃げてるといいが……さもないと、もう長くはない。あんたもヘリを見ただろ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_esc",
+          "phrase_id": "20",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_esc_400#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 108,
+      "string_id": "agr_stalker_esc_400",
+      "occurrence": 1,
+      "EN": "I see, thanks.",
+      "JA_current": "わかった、ありがとう。",
+      "JA_new": "分かった、ありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_esc",
+          "phrase_id": "400",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_agroprom:agr_stalker_esc_300#1",
+      "source_table": "stable_dialogs_agroprom",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_agroprom.xml",
+      "source_xml_line": 105,
+      "string_id": "agr_stalker_esc_300",
+      "occurrence": 1,
+      "EN": "I see, thanks.",
+      "JA_current": "わかった、ありがとう。",
+      "JA_new": "分かった、ありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "agr_stalker_esc",
+          "phrase_id": "300",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "agr_stalker_esc_0",
+      "next": [
+        "20"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "agr_warning_recieved"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "What are you doing?",
+      "JA_current": "何やってんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_esc_0#1"
+      ]
+    },
+    {
+      "phrase_id": "20",
+      "text_id": "agr_stalker_esc_20",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'm coming back from the factory which is a bit further down the road. I don't know how but the army found out about our group. I didn't wait for them to show up and took off as quickly as I could. I hope our boys got out of there 'cause otherwise they won't be alive for much longer - you saw the choppers yourself.",
+      "JA_current": "この道の先の工場から、今逃げてきたところだ。どうやってかは知らんが、軍の連中が俺たちの居場所を嗅ぎつけた。俺は奴らがやってくる前に、大急ぎで脱出してきたんだ。仲間もうまく逃げてくれてたらいいが。さもなきゃみんな死ぬ。あんたも奴らのヘリを見たろう？",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_esc_20#1"
+      ]
+    },
+    {
+      "phrase_id": "400",
+      "text_id": "agr_stalker_esc_400",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I see, thanks.",
+      "JA_current": "わかった、ありがとう。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_esc_400#1"
+      ]
+    },
+    {
+      "phrase_id": "40",
+      "text_id": null,
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "300",
+      "text_id": "agr_stalker_esc_300",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I see, thanks.",
+      "JA_current": "わかった、ありがとう。",
+      "string_entry_candidates": [
+        "stable_dialogs_agroprom:agr_stalker_esc_300#1"
+      ]
+    }
+  ]
+}

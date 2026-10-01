@@ -1,0 +1,840 @@
+{
+    "packet_id":  "dialog_0386__alan_hello_dialog",
+    "category":  "dialogue",
+    "packet_type":  "dialogue_graph",
+    "directive":  "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+    "translation_policy":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+    "reference_archive":  "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+    "current_packed_graph_verified":  false,
+    "dialog_id":  "alan_hello_dialog",
+    "graph_source":  "gamedata/config/gameplay/dialogs_military.xml",
+    "graph_sha256":  "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+    "character_bindings":  [
+                               {
+                                   "profile_id":  "alan",
+                                   "binding_type":  "actor_dialog",
+                                   "profile_source":  "gamedata/config/gameplay/character_desc_military.xml"
+                               }
+                           ],
+    "dialog_conditions":  [
+                              {
+                                  "type":  "dont_has_info",
+                                  "value":  "bun_antenna_off"
+                              },
+                              {
+                                  "type":  "dont_has_info",
+                                  "value":  "alan_hello"
+                              }
+                          ],
+    "root_speaker_hint":  "player",
+    "graph_issues":  {
+                         "duplicate_phrase_ids":  [
+
+                                                  ],
+                         "broken_links":  [
+
+                                          ],
+                         "speaker_parity_conflicts":  [
+
+                                                      ]
+                     },
+    "entry_count":  16,
+    "entries":  [
+                    {
+                        "key":  "stable_dialogs_military:alan_hello_dialog_phrase_1#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1725,
+                        "string_id":  "alan_hello_dialog_phrase_1",
+                        "occurrence":  1,
+                        "EN":  "Hello, are you Alan?",
+                        "JA_current":  "Hello, are you Alan?",
+                        "JA_new":  "あんたがアランか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_hello_dialog",
+                                               "phrase_id":  "0",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_hello_dialog_phrase_2#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1728,
+                        "string_id":  "alan_hello_dialog_phrase_2",
+                        "occurrence":  1,
+                        "EN":  "In person. I know who you are, you\u0027re the Marked One, and you came here in search of a group of unknowns under the command of Waterman. If you have any questions, ask them now, for we don\u0027t have much time.",
+                        "JA_current":  "In person. I know who you are, you\u0027re the Marked One, and you came here in search of a group of unknowns under the command of Waterman. If you have any questions, ask them now, for we don\u0027t have much time.",
+                        "JA_new":  "そうだ。あんたが誰かは分かってる。マークドワンだろう。ウォーターマンという男に率いられた正体不明の一団を捜しに来た。聞きたいことがあるなら今のうちに聞いてくれ。時間がない。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_hello_dialog",
+                                               "phrase_id":  "1",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_hello_dialog_phrase_3#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1731,
+                        "string_id":  "alan_hello_dialog_phrase_3",
+                        "occurrence":  1,
+                        "EN":  "Who is this Waterman and why does he need Strelok?",
+                        "JA_current":  "Who is this Waterman and why does he need Strelok?",
+                        "JA_new":  "ウォーターマンって何者だ？ それに、なぜストレロクを狙ってる？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_hello_dialog",
+                                               "phrase_id":  "2",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_hello_dialog_phrase_4#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1734,
+                        "string_id":  "alan_hello_dialog_phrase_4",
+                        "occurrence":  1,
+                        "EN":  "Waterman is an assassin, a hit-man. Apparently, someone needed to eliminate this Strelok and hired a real professional to do it. I don\u0027t know who might have arranged it but they must be loaded with money.",
+                        "JA_current":  "Waterman is an assassin, a hit-man. Apparently, someone needed to eliminate this Strelok and hired a real professional to do it. I don\u0027t know who might have arranged it but they must be loaded with money.",
+                        "JA_new":  "ウォーターマンは暗殺者だ。ストレロクを消すために、本物のプロが雇われたらしい。誰が依頼したかは知らないが、相当な金持ちだろうな。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_hello_dialog",
+                                               "phrase_id":  "3",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_hello_dialog_phrase_5#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1737,
+                        "string_id":  "alan_hello_dialog_phrase_5",
+                        "occurrence":  1,
+                        "EN":  "What do you know about Strelok?",
+                        "JA_current":  "What do you know about Strelok?",
+                        "JA_new":  "ストレロクについて何を知ってる？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_hello_dialog",
+                                               "phrase_id":  "4",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_hello_dialog_phrase_6#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1740,
+                        "string_id":  "alan_hello_dialog_phrase_6",
+                        "occurrence":  1,
+                        "EN":  "He was an experienced stalker, working around the north of the Zone. He was in contact with very few people, mostly preferred to stick with members of his own small group. I personally did not know him and never saw him. But one of the stalkers in his group, nicknamed \"Fang\", was a close friend of mine, and asked me to help Strelok if something happened to him. Recently I got the news that Fang was dead, and that some unknown stalkers are following Strelok\u0027s trail. So I decided to intervene.",
+                        "JA_current":  "He was an experienced stalker, working around the north of the Zone. He was in contact with very few people, mostly preferred to stick with members of his own small group. I personally did not know him and never saw him. But one of the stalkers in his group, nicknamed \"Fang\", was a close friend of mine, and asked me to help Strelok if something happened to him. Recently I got the news that Fang was dead, and that some unknown stalkers are following Strelok\u0027s trail. So I decided to intervene.",
+                        "JA_new":  "ゾーン北部で活動していた、経験豊富なストーカーだ。付き合いのある相手は少なく、ほとんどは少人数の仲間と行動していた。俺自身は会ったことも見たこともない。ただ、仲間の一人で「ファング」と呼ばれる男が親友でな。何かあったらストレロクを助けてくれと頼まれてた。最近、ファングが死んだと聞いた。それから、正体不明のストーカーたちがストレロクの足取りを追っているともな。だから俺も動くことにした。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_hello_dialog",
+                                               "phrase_id":  "5",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_hello_dialog_phrase_7#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1743,
+                        "string_id":  "alan_hello_dialog_phrase_7",
+                        "occurrence":  1,
+                        "EN":  "You don\u0027t know where Strelok is either?",
+                        "JA_current":  "You don\u0027t know where Strelok is either?",
+                        "JA_new":  "あんたも、ストレロクの居場所は知らないのか？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_hello_dialog",
+                                               "phrase_id":  "6",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_hello_dialog_phrase_8#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1746,
+                        "string_id":  "alan_hello_dialog_phrase_8",
+                        "occurrence":  1,
+                        "EN":  "I only have a rough idea, but about that later. Right now my goal is to catch up with Waterman and stop him from killing Strelok. I need your help, which is why I\u0027ve been waiting for you here. Let\u0027s stop the assassin together. I\u0027m well-equipped, and I\u0027m a good shot, but Waterman is a real professional so we\u0027d stand a better chance together. Join me and we\u0027ll take him down easy!",
+                        "JA_current":  "I only have a rough idea, but about that later. Right now my goal is to catch up with Waterman and stop him from killing Strelok. I need your help, which is why I\u0027ve been waiting for you here. Let\u0027s stop the assassin together. I\u0027m well-equipped, and I\u0027m a good shot, but Waterman is a real professional so we\u0027d stand a better chance together. Join me and we\u0027ll take him down easy!",
+                        "JA_new":  "大まかな見当はついてるが、それは後だ。今はウォーターマンに追いついて、ストレロクを殺すのを止める。それにはあんたの力が要る。だからここで待っていたんだ。一緒に暗殺者を止めよう。俺は装備も整ってるし、射撃の腕にも自信がある。だがウォーターマンは本物のプロだ。二人で動いたほうが勝ち目はある。手を貸してくれ。あいつを簡単に仕留められる！",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_hello_dialog",
+                                               "phrase_id":  "7",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_hello_dialog_phrase_9#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1749,
+                        "string_id":  "alan_hello_dialog_phrase_9",
+                        "occurrence":  1,
+                        "EN":  "I agree. Where is the killer now?",
+                        "JA_current":  "I agree. Where is the killer now?",
+                        "JA_new":  "分かった。そいつは今どこにいる？",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_hello_dialog",
+                                               "phrase_id":  "8",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_hello_dialog_phrase_10#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1752,
+                        "string_id":  "alan_hello_dialog_phrase_10",
+                        "occurrence":  1,
+                        "EN":  "No, I\u0027m not ready yet.",
+                        "JA_current":  "No, I\u0027m not ready yet.",
+                        "JA_new":  "いや、まだ準備ができてない。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_hello_dialog",
+                                               "phrase_id":  "9",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_hello_dialog_phrase_11#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1755,
+                        "string_id":  "alan_hello_dialog_phrase_11",
+                        "occurrence":  1,
+                        "EN":  "Great! As they say, two heads are always better than one. So the situation is as follows: Waterman somehow found out that the Strelok has a cache in Pripyat, and by all appearances, it\u0027s likely that Strelok himself should be there now. I was told by an acquaintance who works for the scientists that someone recently bought a copy of an experimental protective device for a lot of money from Professor Sakharov at Yantar, which apparently helps the wearer withstand the effect of the Brain Scorcher. I\u0027m pretty convinced that this mystery buyer was in fact Waterman, intent on breaching into Pripyat. Until recently, him and one of his buddies were camping around near the Army Warehouses, he was seen by some Freedom scouts. Then, all of a sudden, he disappeared, most likely after acquiring the protective device and heading towards the barrier. I don\u0027t know how he\u0027s going to punch through the Monolith forces solo, but there\u0027s a possibility he may just succeed. We can not wait a minute longer, it\u0027s possible that Waterman is already en-route to Pripyat.",
+                        "JA_current":  "Great! As they say, two heads are always better than one. So the situation is as follows: Waterman somehow found out that the Strelok has a cache in Pripyat, and by all appearances, it\u0027s likely that Strelok himself should be there now. I was told by an acquaintance who works for the scientists that someone recently bought a copy of an experimental protective device for a lot of money from Professor Sakharov at Yantar, which apparently helps the wearer withstand the effect of the Brain Scorcher. I\u0027m pretty convinced that this mystery buyer was in fact Waterman, intent on breaching into Pripyat. Until recently, him and one of his buddies were camping around near the Army Warehouses, he was seen by some Freedom scouts. Then, all of a sudden, he disappeared, most likely after acquiring the protective device and heading towards the barrier. I don\u0027t know how he\u0027s going to punch through the Monolith forces solo, but there\u0027s a possibility he may just succeed. We can not wait a minute longer, it\u0027s possible that Waterman is already en-route to Pripyat.",
+                        "JA_new":  "よし！ 二人なら知恵も倍って言うからな。状況を説明する。ウォーターマンは、ストレロクがプリピャチに隠れ家を持っていると突き止めた。どうやらストレロク本人も今そこにいるらしい。ヤンターのサハロフ教授から、実験用の防護装置を大金で買った奴がいると、科学者の知り合いから聞いた。ブレイン・スコーチャーの影響に耐えるための装置だそうだ。買ったのは、プリピャチへ向かうウォーターマンだと俺は確信してる。少し前まで、あいつと仲間の一人は軍事倉庫の近くに野営していた。フリーダムの斥候が目撃してる。ところが突然姿を消した。防護装置を手に入れて、バリアへ向かったんだろう。モノリス相手に一人で突破できるとは思えないが、可能性はある。もう一分も無駄にできない。ウォーターマンはすでにプリピャチへ向かっているかもしれない。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_hello_dialog",
+                                               "phrase_id":  "10",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_hello_dialog_phrase_12#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1758,
+                        "string_id":  "alan_hello_dialog_phrase_12",
+                        "occurrence":  1,
+                        "EN":  "How are we going to catch up with him? I have a protective prototype, and you don\u0027t...",
+                        "JA_current":  "How are we going to catch up with him? I have a protective prototype, and you don\u0027t...",
+                        "JA_new":  "どうやって追いつく？ 俺は防護試作品を持ってるが、あんたは持ってない……。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_hello_dialog",
+                                               "phrase_id":  "11",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_hello_dialog_phrase_13#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1761,
+                        "string_id":  "alan_hello_dialog_phrase_13",
+                        "occurrence":  1,
+                        "EN":  "I have one, too. I\u0027m in it to avenge Fang so you\u0027re not getting rid of me that easy. You see, I believe that Fang was killed by Waterman and his cronies, they probably tried to get Strelok\u0027s whereabouts out of him. So this is why I invested in my own copy of this helmet. It\u0027s the same one you have. Now, unless you have any other objections, let\u0027s move out.",
+                        "JA_current":  "I have one, too. I\u0027m in it to avenge Fang so you\u0027re not getting rid of me that easy. You see, I believe that Fang was killed by Waterman and his cronies, they probably tried to get Strelok\u0027s whereabouts out of him. So this is why I invested in my own copy of this helmet. It\u0027s the same one you have. Now, unless you have any other objections, let\u0027s move out.",
+                        "JA_new":  "俺も持ってる。ファングの仇を取るつもりだ。簡単には置いていかせないぞ。ファングはウォーターマンとその仲間に殺されたんだと思う。ストレロクの居場所を吐かせようとしたんだろう。だから俺も同じヘルメットを手に入れた。あんたのと同じものだ。ほかに異論がなければ、行こう。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_hello_dialog",
+                                               "phrase_id":  "12",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_hello_dialog_phrase_14#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1764,
+                        "string_id":  "alan_hello_dialog_phrase_14",
+                        "occurrence":  1,
+                        "EN":  "Come on, let\u0027s go!",
+                        "JA_current":  "Come on, let\u0027s go!",
+                        "JA_new":  "さあ、行こう！",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_hello_dialog",
+                                               "phrase_id":  "13",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_hello_dialog_phrase_15#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1767,
+                        "string_id":  "alan_hello_dialog_phrase_15",
+                        "occurrence":  1,
+                        "EN":  "Wait, I didn\u0027t tell you the main thing: although these helmets are designed to give protection against the effects of the Scorcher, I\u0027ve heard tales that it doesn\u0027t work with absolute certainty. The deeper you go, the stronger the field becomes, and closer to Pripyat I\u0027m told the Scorcher is just too strong for the helmet to deflect anything. I\u0027m not sure how or if Waterman made it through, but if we want to get to Pripyat, we may have to do something about the Scorcher itself.",
+                        "JA_current":  "Wait, I didn\u0027t tell you the main thing: although these helmets are designed to give protection against the effects of the Scorcher, I\u0027ve heard tales that it doesn\u0027t work with absolute certainty. The deeper you go, the stronger the field becomes, and closer to Pripyat I\u0027m told the Scorcher is just too strong for the helmet to deflect anything. I\u0027m not sure how or if Waterman made it through, but if we want to get to Pripyat, we may have to do something about the Scorcher itself.",
+                        "JA_new":  "待て、肝心なことを言い忘れてた。ヘルメットはスコーチャーの影響を防ぐためのものだが、完全に確実じゃないという話も聞いた。奥へ進むほどフィールドは強くなる。プリピャチに近づけば、ヘルメットでも防ぎきれないほどの力になるらしい。ウォーターマンがどうやって通り抜けたかは分からないが、プリピャチへ行くにはスコーチャー自体を何とかしないといけないかもしれない。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_hello_dialog",
+                                               "phrase_id":  "14",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    },
+                    {
+                        "key":  "stable_dialogs_military:alan_hello_dialog_phrase_16#1",
+                        "source_table":  "stable_dialogs_military",
+                        "source_file":  "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+                        "source_xml_line":  1770,
+                        "string_id":  "alan_hello_dialog_phrase_16",
+                        "occurrence":  1,
+                        "EN":  "I see.",
+                        "JA_current":  "I see.",
+                        "JA_new":  "なるほど。",
+                        "review_notes":  null,
+                        "english_reference_status":  "same_table_and_id_occurrence",
+                        "review_flags":  [
+
+                                         ],
+                        "graph_uses":  [
+                                           {
+                                               "dialog_id":  "alan_hello_dialog",
+                                               "phrase_id":  "15",
+                                               "graph_source":  "gamedata/config/gameplay/dialogs_military.xml"
+                                           }
+                                       ]
+                    }
+                ],
+    "graph_nodes":  [
+                        {
+                            "phrase_id":  "0",
+                            "text_id":  "alan_hello_dialog_phrase_1",
+                            "next":  [
+                                         "1"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Hello, are you Alan?",
+                            "JA_current":  "Hello, are you Alan?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_hello_dialog_phrase_1#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "1",
+                            "text_id":  "alan_hello_dialog_phrase_2",
+                            "next":  [
+                                         "2"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "0"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "In person. I know who you are, you\u0027re the Marked One, and you came here in search of a group of unknowns under the command of Waterman. If you have any questions, ask them now, for we don\u0027t have much time.",
+                            "JA_current":  "In person. I know who you are, you\u0027re the Marked One, and you came here in search of a group of unknowns under the command of Waterman. If you have any questions, ask them now, for we don\u0027t have much time.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_hello_dialog_phrase_2#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "2",
+                            "text_id":  "alan_hello_dialog_phrase_3",
+                            "next":  [
+                                         "3"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "1"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Who is this Waterman and why does he need Strelok?",
+                            "JA_current":  "Who is this Waterman and why does he need Strelok?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_hello_dialog_phrase_3#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "3",
+                            "text_id":  "alan_hello_dialog_phrase_4",
+                            "next":  [
+                                         "4"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "2"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Waterman is an assassin, a hit-man. Apparently, someone needed to eliminate this Strelok and hired a real professional to do it. I don\u0027t know who might have arranged it but they must be loaded with money.",
+                            "JA_current":  "Waterman is an assassin, a hit-man. Apparently, someone needed to eliminate this Strelok and hired a real professional to do it. I don\u0027t know who might have arranged it but they must be loaded with money.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_hello_dialog_phrase_4#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "4",
+                            "text_id":  "alan_hello_dialog_phrase_5",
+                            "next":  [
+                                         "5"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "3"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "What do you know about Strelok?",
+                            "JA_current":  "What do you know about Strelok?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_hello_dialog_phrase_5#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "5",
+                            "text_id":  "alan_hello_dialog_phrase_6",
+                            "next":  [
+                                         "6"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "4"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "He was an experienced stalker, working around the north of the Zone. He was in contact with very few people, mostly preferred to stick with members of his own small group. I personally did not know him and never saw him. But one of the stalkers in his group, nicknamed \"Fang\", was a close friend of mine, and asked me to help Strelok if something happened to him. Recently I got the news that Fang was dead, and that some unknown stalkers are following Strelok\u0027s trail. So I decided to intervene.",
+                            "JA_current":  "He was an experienced stalker, working around the north of the Zone. He was in contact with very few people, mostly preferred to stick with members of his own small group. I personally did not know him and never saw him. But one of the stalkers in his group, nicknamed \"Fang\", was a close friend of mine, and asked me to help Strelok if something happened to him. Recently I got the news that Fang was dead, and that some unknown stalkers are following Strelok\u0027s trail. So I decided to intervene.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_hello_dialog_phrase_6#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "6",
+                            "text_id":  "alan_hello_dialog_phrase_7",
+                            "next":  [
+                                         "7"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "5"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "You don\u0027t know where Strelok is either?",
+                            "JA_current":  "You don\u0027t know where Strelok is either?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_hello_dialog_phrase_7#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "7",
+                            "text_id":  "alan_hello_dialog_phrase_8",
+                            "next":  [
+                                         "8",
+                                         "9"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "6"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I only have a rough idea, but about that later. Right now my goal is to catch up with Waterman and stop him from killing Strelok. I need your help, which is why I\u0027ve been waiting for you here. Let\u0027s stop the assassin together. I\u0027m well-equipped, and I\u0027m a good shot, but Waterman is a real professional so we\u0027d stand a better chance together. Join me and we\u0027ll take him down easy!",
+                            "JA_current":  "I only have a rough idea, but about that later. Right now my goal is to catch up with Waterman and stop him from killing Strelok. I need your help, which is why I\u0027ve been waiting for you here. Let\u0027s stop the assassin together. I\u0027m well-equipped, and I\u0027m a good shot, but Waterman is a real professional so we\u0027d stand a better chance together. Join me and we\u0027ll take him down easy!",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_hello_dialog_phrase_8#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "8",
+                            "text_id":  "alan_hello_dialog_phrase_9",
+                            "next":  [
+                                         "10"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "7"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I agree. Where is the killer now?",
+                            "JA_current":  "I agree. Where is the killer now?",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_hello_dialog_phrase_9#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "9",
+                            "text_id":  "alan_hello_dialog_phrase_10",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "dialogs.break_dialog"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "7"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "No, I\u0027m not ready yet.",
+                            "JA_current":  "No, I\u0027m not ready yet.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_hello_dialog_phrase_10#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "10",
+                            "text_id":  "alan_hello_dialog_phrase_11",
+                            "next":  [
+                                         "11"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "8"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Great! As they say, two heads are always better than one. So the situation is as follows: Waterman somehow found out that the Strelok has a cache in Pripyat, and by all appearances, it\u0027s likely that Strelok himself should be there now. I was told by an acquaintance who works for the scientists that someone recently bought a copy of an experimental protective device for a lot of money from Professor Sakharov at Yantar, which apparently helps the wearer withstand the effect of the Brain Scorcher. I\u0027m pretty convinced that this mystery buyer was in fact Waterman, intent on breaching into Pripyat. Until recently, him and one of his buddies were camping around near the Army Warehouses, he was seen by some Freedom scouts. Then, all of a sudden, he disappeared, most likely after acquiring the protective device and heading towards the barrier. I don\u0027t know how he\u0027s going to punch through the Monolith forces solo, but there\u0027s a possibility he may just succeed. We can not wait a minute longer, it\u0027s possible that Waterman is already en-route to Pripyat.",
+                            "JA_current":  "Great! As they say, two heads are always better than one. So the situation is as follows: Waterman somehow found out that the Strelok has a cache in Pripyat, and by all appearances, it\u0027s likely that Strelok himself should be there now. I was told by an acquaintance who works for the scientists that someone recently bought a copy of an experimental protective device for a lot of money from Professor Sakharov at Yantar, which apparently helps the wearer withstand the effect of the Brain Scorcher. I\u0027m pretty convinced that this mystery buyer was in fact Waterman, intent on breaching into Pripyat. Until recently, him and one of his buddies were camping around near the Army Warehouses, he was seen by some Freedom scouts. Then, all of a sudden, he disappeared, most likely after acquiring the protective device and heading towards the barrier. I don\u0027t know how he\u0027s going to punch through the Monolith forces solo, but there\u0027s a possibility he may just succeed. We can not wait a minute longer, it\u0027s possible that Waterman is already en-route to Pripyat.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_hello_dialog_phrase_11#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "11",
+                            "text_id":  "alan_hello_dialog_phrase_12",
+                            "next":  [
+                                         "12"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "10"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "How are we going to catch up with him? I have a protective prototype, and you don\u0027t...",
+                            "JA_current":  "How are we going to catch up with him? I have a protective prototype, and you don\u0027t...",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_hello_dialog_phrase_12#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "12",
+                            "text_id":  "alan_hello_dialog_phrase_13",
+                            "next":  [
+                                         "13"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "11"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I have one, too. I\u0027m in it to avenge Fang so you\u0027re not getting rid of me that easy. You see, I believe that Fang was killed by Waterman and his cronies, they probably tried to get Strelok\u0027s whereabouts out of him. So this is why I invested in my own copy of this helmet. It\u0027s the same one you have. Now, unless you have any other objections, let\u0027s move out.",
+                            "JA_current":  "I have one, too. I\u0027m in it to avenge Fang so you\u0027re not getting rid of me that easy. You see, I believe that Fang was killed by Waterman and his cronies, they probably tried to get Strelok\u0027s whereabouts out of him. So this is why I invested in my own copy of this helmet. It\u0027s the same one you have. Now, unless you have any other objections, let\u0027s move out.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_hello_dialog_phrase_13#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "13",
+                            "text_id":  "alan_hello_dialog_phrase_14",
+                            "next":  [
+                                         "14"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "12"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Come on, let\u0027s go!",
+                            "JA_current":  "Come on, let\u0027s go!",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_hello_dialog_phrase_14#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "14",
+                            "text_id":  "alan_hello_dialog_phrase_15",
+                            "next":  [
+                                         "15"
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "action",
+                                                "value":  "dialogs.companion_start_following"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "13"
+                                         ],
+                            "speaker_hint":  "npc",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "Wait, I didn\u0027t tell you the main thing: although these helmets are designed to give protection against the effects of the Scorcher, I\u0027ve heard tales that it doesn\u0027t work with absolute certainty. The deeper you go, the stronger the field becomes, and closer to Pripyat I\u0027m told the Scorcher is just too strong for the helmet to deflect anything. I\u0027m not sure how or if Waterman made it through, but if we want to get to Pripyat, we may have to do something about the Scorcher itself.",
+                            "JA_current":  "Wait, I didn\u0027t tell you the main thing: although these helmets are designed to give protection against the effects of the Scorcher, I\u0027ve heard tales that it doesn\u0027t work with absolute certainty. The deeper you go, the stronger the field becomes, and closer to Pripyat I\u0027m told the Scorcher is just too strong for the helmet to deflect anything. I\u0027m not sure how or if Waterman made it through, but if we want to get to Pripyat, we may have to do something about the Scorcher itself.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_hello_dialog_phrase_15#1"
+                                                        ]
+                        },
+                        {
+                            "phrase_id":  "15",
+                            "text_id":  "alan_hello_dialog_phrase_16",
+                            "next":  [
+
+                                     ],
+                            "conditions":  [
+
+                                           ],
+                            "effects":  [
+                                            {
+                                                "type":  "give_info",
+                                                "value":  "alan_hello"
+                                            }
+                                        ],
+                            "other_control":  [
+
+                                              ],
+                            "incoming":  [
+                                             "14"
+                                         ],
+                            "speaker_hint":  "player",
+                            "speaker_hint_basis":  "character_binding_and_link_parity",
+                            "EN":  "I see.",
+                            "JA_current":  "I see.",
+                            "string_entry_candidates":  [
+                                                            "stable_dialogs_military:alan_hello_dialog_phrase_16#1"
+                                                        ]
+                        }
+                    ]
+}

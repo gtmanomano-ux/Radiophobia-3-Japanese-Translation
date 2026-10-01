@@ -1,0 +1,533 @@
+{
+  "packet_id": "dialog_0359__mil_cook_common1",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "mil_cook_common1",
+  "graph_source": "gamedata/config/gameplay/dialogs_military.xml",
+  "graph_sha256": "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+  "character_bindings": [
+    {
+      "profile_id": "mil_Svoboda_cook",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_military.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "dialogs.dialog_allowed"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "mil_cook_dialog1"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 12,
+  "entries": [
+    {
+      "key": "stable_dialogs_military:mil_cook_common1_0#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 110,
+      "string_id": "mil_cook_common1_0",
+      "occurrence": 1,
+      "EN": "Good afternoon.",
+      "JA_current": "こんにちは。",
+      "JA_new": "こんにちは。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common1",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common1_101#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 113,
+      "string_id": "mil_cook_common1_101",
+      "occurrence": 1,
+      "EN": "Uh-huh!",
+      "JA_current": "うほい！",
+      "JA_new": "ああ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common1",
+          "phrase_id": "101",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common1_102#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 116,
+      "string_id": "mil_cook_common1_102",
+      "occurrence": 1,
+      "EN": "Meaning?",
+      "JA_current": "どうかしたか？",
+      "JA_new": "どういう意味だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common1",
+          "phrase_id": "102",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common1_103#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 119,
+      "string_id": "mil_cook_common1_103",
+      "occurrence": 1,
+      "EN": "Sure thing.",
+      "JA_current": "そりゃ確かに。",
+      "JA_new": "もちろん。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common1",
+          "phrase_id": "103",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common1_104#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 122,
+      "string_id": "mil_cook_common1_104",
+      "occurrence": 1,
+      "EN": "What's so funny?",
+      "JA_current": "何がそんなにおかしい？",
+      "JA_new": "何がおかしいんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common1",
+          "phrase_id": "104",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common1_105#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 125,
+      "string_id": "mil_cook_common1_105",
+      "occurrence": 1,
+      "EN": "Hey, man! Good to see ya!",
+      "JA_current": "やあ！ 会えてうれしいよ。",
+      "JA_new": "やあ、会えて嬉しいよ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common1",
+          "phrase_id": "105",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common1_106#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 128,
+      "string_id": "mil_cook_common1_106",
+      "occurrence": 1,
+      "EN": "Hello.",
+      "JA_current": "もしもし。",
+      "JA_new": "こんにちは。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common1",
+          "phrase_id": "106",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common1_107#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 131,
+      "string_id": "mil_cook_common1_107",
+      "occurrence": 1,
+      "EN": "Long time no see!",
+      "JA_current": "お久しぶりです！",
+      "JA_new": "久しぶりだな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common1",
+          "phrase_id": "107",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common1_108#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 134,
+      "string_id": "mil_cook_common1_108",
+      "occurrence": 1,
+      "EN": "Have we met before?",
+      "JA_current": "以前にあったか？",
+      "JA_new": "前に会ったか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common1",
+          "phrase_id": "108",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common1_109#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 137,
+      "string_id": "mil_cook_common1_109",
+      "occurrence": 1,
+      "EN": "Errrr.... Yeah! Hehe...",
+      "JA_current": "いああ… そうだよ！ へへ…。",
+      "JA_new": "ええと……そうだよ！へへ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common1",
+          "phrase_id": "109",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common1_110#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 140,
+      "string_id": "mil_cook_common1_110",
+      "occurrence": 1,
+      "EN": "To be honest, I can't seem to recall who you are.",
+      "JA_current": "正直あんたが誰だったか思い出せんのだ。",
+      "JA_new": "正直、誰だったか思い出せない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common1",
+          "phrase_id": "110",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common1_111#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 143,
+      "string_id": "mil_cook_common1_111",
+      "occurrence": 1,
+      "EN": "Hrm... Yeah, it's fine, no problem.",
+      "JA_current": "うん、いいよ、問題ない。",
+      "JA_new": "うーん……ああ、いいよ。気にするな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common1",
+          "phrase_id": "111",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "mil_cook_common1_0",
+      "next": [
+        "101"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Good afternoon.",
+      "JA_current": "こんにちは。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common1_0#1"
+      ]
+    },
+    {
+      "phrase_id": "101",
+      "text_id": "mil_cook_common1_101",
+      "next": [
+        "102"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Uh-huh!",
+      "JA_current": "うほい！",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common1_101#1"
+      ]
+    },
+    {
+      "phrase_id": "102",
+      "text_id": "mil_cook_common1_102",
+      "next": [
+        "103"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "101"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Meaning?",
+      "JA_current": "どうかしたか？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common1_102#1"
+      ]
+    },
+    {
+      "phrase_id": "103",
+      "text_id": "mil_cook_common1_103",
+      "next": [
+        "104"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "102"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sure thing.",
+      "JA_current": "そりゃ確かに。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common1_103#1"
+      ]
+    },
+    {
+      "phrase_id": "104",
+      "text_id": "mil_cook_common1_104",
+      "next": [
+        "105"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "103"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What's so funny?",
+      "JA_current": "何がそんなにおかしい？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common1_104#1"
+      ]
+    },
+    {
+      "phrase_id": "105",
+      "text_id": "mil_cook_common1_105",
+      "next": [
+        "106"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "104"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, man! Good to see ya!",
+      "JA_current": "やあ！ 会えてうれしいよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common1_105#1"
+      ]
+    },
+    {
+      "phrase_id": "106",
+      "text_id": "mil_cook_common1_106",
+      "next": [
+        "107"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "105"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hello.",
+      "JA_current": "もしもし。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common1_106#1"
+      ]
+    },
+    {
+      "phrase_id": "107",
+      "text_id": "mil_cook_common1_107",
+      "next": [
+        "108"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "106"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Long time no see!",
+      "JA_current": "お久しぶりです！",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common1_107#1"
+      ]
+    },
+    {
+      "phrase_id": "108",
+      "text_id": "mil_cook_common1_108",
+      "next": [
+        "109"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "107"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Have we met before?",
+      "JA_current": "以前にあったか？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common1_108#1"
+      ]
+    },
+    {
+      "phrase_id": "109",
+      "text_id": "mil_cook_common1_109",
+      "next": [
+        "110"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "108"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Errrr.... Yeah! Hehe...",
+      "JA_current": "いああ… そうだよ！ へへ…。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common1_109#1"
+      ]
+    },
+    {
+      "phrase_id": "110",
+      "text_id": "mil_cook_common1_110",
+      "next": [
+        "111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "mil_cook_dialog1"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "109"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "To be honest, I can't seem to recall who you are.",
+      "JA_current": "正直あんたが誰だったか思い出せんのだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common1_110#1"
+      ]
+    },
+    {
+      "phrase_id": "111",
+      "text_id": "mil_cook_common1_111",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "110"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hrm... Yeah, it's fine, no problem.",
+      "JA_current": "うん、いいよ、問題ない。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common1_111#1"
+      ]
+    }
+  ]
+}

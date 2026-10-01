@@ -1,0 +1,497 @@
+{
+  "packet_id": "dialog_0255__cit_doctor_main_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "cit_doctor_main_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml",
+  "graph_sha256": "dd2e868a0418eeb66a0c1b47f7b24e267acb6d08ed5de71a1335884a50a88cb9",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "cit_jail_doctor_pryp_task"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 11,
+  "entries": [
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_main_dialog_0#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 69,
+      "string_id": "cit_doctor_main_dialog_0",
+      "occurrence": 1,
+      "EN": "Strelok???",
+      "JA_current": "Strelok だと？？",
+      "JA_new": "ストレロクか！？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_main_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_main_dialog_1#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 72,
+      "string_id": "cit_doctor_main_dialog_1",
+      "occurrence": 1,
+      "EN": "Yeah, you're Strelok! Who else would you be? I'm Doc, don't you recognize me? What happened to you, friend? You don't look well. We went into the Zone together for 2 years. You really don't remember me?",
+      "JA_current": "ああ！ 君が Strelok だろう！ 他の何者でもないだろう？ 私は Doc だ、私が分からないのか？ 友よ、君に何があったのだね？ 一体どうしてしまったんだね？ 2年前ゾーンに一緒に行ったじゃないか、本当に私を覚えていないのか？",
+      "JA_new": "そう、お前はストレロクだ！　ほかに誰がいる？　俺だよ、ドクター。分からないのか？　どうしたんだ、友よ？　ひどい顔をしてるぞ。俺たちは二年間、一緒にゾーンに入ってたんだ。本当に覚えてないのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_main_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_main_dialog_11#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 75,
+      "string_id": "cit_doctor_main_dialog_11",
+      "occurrence": 1,
+      "EN": "No, I don't.",
+      "JA_current": "ああ、覚えていない。",
+      "JA_new": "いや、覚えてない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_main_dialog",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_main_dialog_2#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 78,
+      "string_id": "cit_doctor_main_dialog_2",
+      "occurrence": 1,
+      "EN": "You don't??? Strelok, what the...? You're not joking around, are you? Man... What about the guys, our guys? Fang, Ghost? You remember them, don't you?",
+      "JA_current": "本当に覚えていないと？？？ Strelok、一体…？ 冗談を言っている訳じゃないね？ やれやれ… 彼らはどうした、親愛なる彼ら、Fang や Ghost は？ 彼らのことは覚えている、だろう？",
+      "JA_new": "覚えてないだと？　ストレロク、いったい何が……冗談じゃないんだな？　なんてこった……仲間たちは？　ファングやゴーストはどうした？　覚えてるだろ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_main_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_main_dialog_21#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 81,
+      "string_id": "cit_doctor_main_dialog_21",
+      "occurrence": 1,
+      "EN": "I don't remember Fang, and Ghost is dead - I found his body in Yantar.",
+      "JA_current": "Fang の事は覚えていない。そして Ghost は死んでいた、彼の遺体を Yantar で発見した。",
+      "JA_new": "ファングは覚えてない。ゴーストは死んだ。ヤンターで遺体を見つけた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_main_dialog",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_main_dialog_3#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 84,
+      "string_id": "cit_doctor_main_dialog_3",
+      "occurrence": 1,
+      "EN": "Ghost!!?!?! Dead??!!! Dammit, how could that happen?! They... they were the best. What happened to you?",
+      "JA_current": "Ghost が！！？！？ 死んだ？？！！！ なんてことだ、何故そんなことに？！ 彼ら… 彼らは最高だった。一体君に何が起こったんだ？",
+      "JA_new": "ゴーストが！？　死んだだと！？　くそっ、いったい何があったんだ？　あいつらは……最高の仲間だった。お前に何があった？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_main_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_main_dialog_31#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 87,
+      "string_id": "cit_doctor_main_dialog_31",
+      "occurrence": 1,
+      "EN": "I don't know what happened, I don't remember.",
+      "JA_current": "何が起こったのかわからない、思い出せないんだ。",
+      "JA_new": "何があったか分からない。覚えてないんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_main_dialog",
+          "phrase_id": "31",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_main_dialog_4#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 90,
+      "string_id": "cit_doctor_main_dialog_4",
+      "occurrence": 1,
+      "EN": "Wait, I need to calm down. That's some shitty news man. I think it's all linked with your last trip into the Zone. When we saw each other the last time, you left me the key for the stash in Pripyat and the map of how to find it. I've managed to keep it - hid it from the Mercs. Here, take it, hide it well. Perhaps you'll find something there. You were saying that there's some trick with the Monolith. But I don't understand what it was about, and you didn't either.",
+      "JA_current": "よし、落ち着こう。まったく予想外のことではあるが。これは君が最後にゾーンへと旅立ったことと関連があると思う。最後に私達が集まった際、君は Pripyat の隠し場所の鍵と、隠し場所への地図を私に預けたんだ。Merc の連中に見付からないよう、私はなんとか隠し続けた。ここだ、うまい具合に隠されているが、そこにある。そこで君は恐らく何かを見つけるだろう。君は Monolith に関わるある策略があったんだと言っていた。しかし私には理解が出来なかったし、君もまたそうだった。",
+      "JA_new": "待て、少し落ち着かせてくれ。ひどい話だな。最後にゾーンへ行ったときのことが関係してるんだと思う。前に会ったとき、お前はプリピャチにある隠し場所の鍵と、そこへの地図を俺に預けた。マーセナリーズに見つからないよう、ずっと隠しておいた。ほら、持っていけ。大事に隠すんだ。何か見つかるかもしれない。モノリスには仕掛けがあると言ってたな。でも、それが何なのか俺には分からなかった。お前も分かってなかったが。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_main_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_main_dialog_41#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 93,
+      "string_id": "cit_doctor_main_dialog_41",
+      "occurrence": 1,
+      "EN": "I see. Where are we? I don't remember how I got here.",
+      "JA_current": "了解。俺たちはどこにいるんだ？ どうやってここに来たのか思い出せないな。",
+      "JA_new": "分かった。それで、ここはどこだ？　どうやって来たのか覚えてない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_main_dialog",
+          "phrase_id": "41",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_main_dialog_5#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 96,
+      "string_id": "cit_doctor_main_dialog_5",
+      "occurrence": 1,
+      "EN": "We're in Dead City! In the Merc camp.",
+      "JA_current": "私たちは Dead City の Merc のキャンプにいるんだ！",
+      "JA_new": "デッドシティだ！　マーセナリーズのキャンプの中だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_main_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_deadcity:cit_doctor_main_dialog_6#1",
+      "source_table": "stable_dialogs_deadcity",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_deadcity.xml",
+      "source_xml_line": 99,
+      "string_id": "cit_doctor_main_dialog_6",
+      "occurrence": 1,
+      "EN": "We're in Dead City!.. In the Merc camp...",
+      "JA_current": "私たちは Dead City の… Merc のキャンプにいるんだ…。",
+      "JA_new": "デッドシティだ……マーセナリーズのキャンプの中……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "cit_doctor_main_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_deadcity.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "cit_doctor_main_dialog_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Strelok???",
+      "JA_current": "Strelok だと？？",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_main_dialog_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "cit_doctor_main_dialog_1",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "cit_fail_first_task"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Yeah, you're Strelok! Who else would you be? I'm Doc, don't you recognize me? What happened to you, friend? You don't look well. We went into the Zone together for 2 years. You really don't remember me?",
+      "JA_current": "ああ！ 君が Strelok だろう！ 他の何者でもないだろう？ 私は Doc だ、私が分からないのか？ 友よ、君に何があったのだね？ 一体どうしてしまったんだね？ 2年前ゾーンに一緒に行ったじゃないか、本当に私を覚えていないのか？",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_main_dialog_1#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "cit_doctor_main_dialog_11",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "No, I don't.",
+      "JA_current": "ああ、覚えていない。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_main_dialog_11#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "cit_doctor_main_dialog_2",
+      "next": [
+        "21"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "You don't??? Strelok, what the...? You're not joking around, are you? Man... What about the guys, our guys? Fang, Ghost? You remember them, don't you?",
+      "JA_current": "本当に覚えていないと？？？ Strelok、一体…？ 冗談を言っている訳じゃないね？ やれやれ… 彼らはどうした、親愛なる彼ら、Fang や Ghost は？ 彼らのことは覚えている、だろう？",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_main_dialog_2#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "cit_doctor_main_dialog_21",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I don't remember Fang, and Ghost is dead - I found his body in Yantar.",
+      "JA_current": "Fang の事は覚えていない。そして Ghost は死んでいた、彼の遺体を Yantar で発見した。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_main_dialog_21#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "cit_doctor_main_dialog_3",
+      "next": [
+        "31"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Ghost!!?!?! Dead??!!! Dammit, how could that happen?! They... they were the best. What happened to you?",
+      "JA_current": "Ghost が！！？！？ 死んだ？？！！！ なんてことだ、何故そんなことに？！ 彼ら… 彼らは最高だった。一体君に何が起こったんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_main_dialog_3#1"
+      ]
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "cit_doctor_main_dialog_31",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I don't know what happened, I don't remember.",
+      "JA_current": "何が起こったのかわからない、思い出せないんだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_main_dialog_31#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "cit_doctor_main_dialog_4",
+      "next": [
+        "41"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "deadcity_dialog.take_key"
+        },
+        {
+          "type": "give_info",
+          "value": "cit_jail_doctor_pryp_task"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "31"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Wait, I need to calm down. That's some shitty news man. I think it's all linked with your last trip into the Zone. When we saw each other the last time, you left me the key for the stash in Pripyat and the map of how to find it. I've managed to keep it - hid it from the Mercs. Here, take it, hide it well. Perhaps you'll find something there. You were saying that there's some trick with the Monolith. But I don't understand what it was about, and you didn't either.",
+      "JA_current": "よし、落ち着こう。まったく予想外のことではあるが。これは君が最後にゾーンへと旅立ったことと関連があると思う。最後に私達が集まった際、君は Pripyat の隠し場所の鍵と、隠し場所への地図を私に預けたんだ。Merc の連中に見付からないよう、私はなんとか隠し続けた。ここだ、うまい具合に隠されているが、そこにある。そこで君は恐らく何かを見つけるだろう。君は Monolith に関わるある策略があったんだと言っていた。しかし私には理解が出来なかったし、君もまたそうだった。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_main_dialog_4#1"
+      ]
+    },
+    {
+      "phrase_id": "41",
+      "text_id": "cit_doctor_main_dialog_41",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I see. Where are we? I don't remember how I got here.",
+      "JA_current": "了解。俺たちはどこにいるんだ？ どうやってここに来たのか思い出せないな。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_main_dialog_41#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "cit_doctor_main_dialog_5",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "cit_doctor_meet_conclusion_info"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "41"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "We're in Dead City! In the Merc camp.",
+      "JA_current": "私たちは Dead City の Merc のキャンプにいるんだ！",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_main_dialog_5#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "cit_doctor_main_dialog_6",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "cit_doctor_meet_conclusion_info"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "We're in Dead City!.. In the Merc camp...",
+      "JA_current": "私たちは Dead City の… Merc のキャンプにいるんだ…。",
+      "string_entry_candidates": [
+        "stable_dialogs_deadcity:cit_doctor_main_dialog_6#1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,654 @@
+{
+  "packet_id": "dialog_0235__val_escort_captive_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "val_escort_captive_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml",
+  "graph_sha256": "af90465ec3a6b7a324a6c5d72d8c5ed214013f3f66f7c85ea935c11f680b26c1",
+  "character_bindings": [],
+  "dialog_conditions": [],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 10,
+  "entries": [
+    {
+      "key": "stable_dialogs_darkvalley:val_escort_captive_dialog_61#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 239,
+      "string_id": "val_escort_captive_dialog_61",
+      "occurrence": 1,
+      "EN": "You don't give a damn about people. What's there to discuss between you and me?",
+      "JA_current": "あんたがそいつらを気にしないんじゃ、俺とあんたで話し合う余地があるか？",
+      "JA_new": "人のことなんてどうでもいいんだろ。あんたと話すことは何もない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "val_escort_captive_dialog",
+          "phrase_id": "61",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:val_escort_captive_dialog_2#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 215,
+      "string_id": "val_escort_captive_dialog_2",
+      "occurrence": 1,
+      "EN": "Do you know what they've got there at the factory?",
+      "JA_current": "連中がその工場で何を得たのか知ってるか？",
+      "JA_new": "工場に何があるか知ってるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "val_escort_captive_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:val_escort_captive_dialog_3#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 224,
+      "string_id": "val_escort_captive_dialog_3",
+      "occurrence": 1,
+      "EN": "I'll try to help your man.",
+      "JA_current": "その男の救出、やってみるよ。",
+      "JA_new": "仲間を助けてみるよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "val_escort_captive_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:val_escort_captive_dialog_511#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 236,
+      "string_id": "val_escort_captive_dialog_511",
+      "occurrence": 1,
+      "EN": "Bye.",
+      "JA_current": "じゃあな。",
+      "JA_new": "じゃあな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "val_escort_captive_dialog",
+          "phrase_id": "511",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:val_escort_captive_dialog_11#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 212,
+      "string_id": "val_escort_captive_dialog_11",
+      "occurrence": 1,
+      "EN": "Bandits! Those sons of bitches were taking me to the old factory. I don't know what they were planning to do with me there. I saw them take another guy in there before and I never saw him after that. They've got another one of ours, Serega. They keep him in the basement... in that big unfinished building there. Help him, would ya? Otherwise they'll... you know...",
+      "JA_current": "Bandits! あいつらロクデナシどもは、俺を古い工場に連れて行く途中だった。連中、俺に何をしようと計画してたのかは判らねぇが。俺は以前、連中が他の奴を連れて行くのを見たことがあるが、その後そいつを一切見かけねぇ。俺たち仲間の1人、Seregaを 連中は連れて行ったが、連中はあいつを地下室に監禁してる… そこの大きな建築途中のビルだ。あいつを助けてくれ。やってくれるか？ さもなくば連中は… どうするか分かるだろ…。",
+      "JA_new": "バンディットだ！あのクソ野郎どもに旧工場へ連れていかれるところだった。そこで何をするつもりだったかは知らない。前にも別の奴が連れていかれるのを見たが、それきり姿を見てないんだ。仲間のセレガも捕まってる。地下に……あそこにある大きな未完成の建物だ。助けてやってくれ。そうしないと奴ら……分かるだろ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "val_escort_captive_dialog",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:val_escort_captive_dialog_41#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 227,
+      "string_id": "val_escort_captive_dialog_41",
+      "occurrence": 1,
+      "EN": "It's a shame about my partner... He was a great guy. But still, I owe you.",
+      "JA_current": "これは相棒には恥ずかしいが… あいつはたいした奴だった、だがそれでも、あんたに任すよ。",
+      "JA_new": "相棒のことは残念だ……いい奴だったのに。でも、あんたには借りができた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "val_escort_captive_dialog",
+          "phrase_id": "41",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:val_escort_captive_dialog_21#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 218,
+      "string_id": "val_escort_captive_dialog_21",
+      "occurrence": 1,
+      "EN": "I haven't heard much. All I know is that their boss Borov has some type of key around his neck that fits to the underground door there. Supposed to lead into some type of lab, or something... I did hear that Borov has been eager to get inside, but can't without the second half of the key. Now, if you're thinking of trying to get inside that compound, think twice before you do. It's full of thugs.",
+      "JA_current": "多くは聞いてねぇ。俺が知ってるのは、連中の親玉 Borov が、ここの地下への鍵の一部を持ってることだけだ。研究室だか何かがあってその… 俺は Borov が中に入りたがってるとは聞いたが、鍵の後半が無くては叶わないらしい。ううむ、もしあんたが中に入ろうと考えてるんなら、2度考え直せ。中は暴漢でいっぱいだ。",
+      "JA_new": "詳しくは知らない。ボロフって頭が、地下扉に合うらしい鍵を首から下げてる。それは研究所か何かにつながってるそうだ……ボロフは中に入りたがってるらしいが、鍵のもう半分がないと開けられない。もし基地に入ろうと思ってるなら、よく考えた方がいい。チンピラだらけだからな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "val_escort_captive_dialog",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:val_escort_captive_dialog_51#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 233,
+      "string_id": "val_escort_captive_dialog_51",
+      "occurrence": 1,
+      "EN": "Thanks for your help!",
+      "JA_current": "助力に感謝する！",
+      "JA_new": "助けてくれてありがとう！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "val_escort_captive_dialog",
+          "phrase_id": "51",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:val_escort_captive_dialog_411#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 230,
+      "string_id": "val_escort_captive_dialog_411",
+      "occurrence": 1,
+      "EN": "These things happen.",
+      "JA_current": "それらが起こった。",
+      "JA_new": "そういうこともある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "val_escort_captive_dialog",
+          "phrase_id": "411",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:val_escort_captive_dialog_211#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 221,
+      "string_id": "val_escort_captive_dialog_211",
+      "occurrence": 1,
+      "EN": "Gotcha. Thanks, I'll keep it in mind.",
+      "JA_current": "了解。感謝する。心に止めておくよ。",
+      "JA_new": "分かった。ありがとう、覚えておくよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "val_escort_captive_dialog",
+          "phrase_id": "211",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": null,
+      "next": [
+        "7",
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "7",
+      "text_id": null,
+      "next": [
+        "8",
+        "71"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "val_escort_actor_helped"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11",
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "6",
+      "text_id": null,
+      "next": [
+        "61"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "val_escort_actor_helped"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "8",
+      "text_id": null,
+      "next": [
+        "1",
+        "4"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "val_escort_captive_give_main_info"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "71",
+      "text_id": null,
+      "next": [
+        "2",
+        "3",
+        "5"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "val_escort_captive_give_main_info"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "211",
+        "3",
+        "7"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "61",
+      "text_id": "val_escort_captive_dialog_61",
+      "next": [
+        "511"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "You don't give a damn about people. What's there to discuss between you and me?",
+      "JA_current": "あんたがそいつらを気にしないんじゃ、俺とあんたで話し合う余地があるか？",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:val_escort_captive_dialog_61#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": null,
+      "next": [
+        "11"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "val_escort_nap1_dead"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "4",
+      "text_id": null,
+      "next": [
+        "41"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "val_escort_nap1_dead"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "val_escort_captive_dialog_2",
+      "next": [
+        "21"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "val_escort_captive_give_info"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "71"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Do you know what they've got there at the factory?",
+      "JA_current": "連中がその工場で何を得たのか知ってるか？",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:val_escort_captive_dialog_2#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "val_escort_captive_dialog_3",
+      "next": [
+        "71"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "val_escort_help_prisoner_task"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "val_escort_help_prisoner_task"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "71"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I'll try to help your man.",
+      "JA_current": "その男の救出、やってみるよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:val_escort_captive_dialog_3#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": null,
+      "next": [
+        "51"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "val_escort_captive_give_info"
+        },
+        {
+          "type": "has_info",
+          "value": "val_escort_help_prisoner_task"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "71"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": null,
+      "JA_current": null,
+      "string_entry_candidates": []
+    },
+    {
+      "phrase_id": "511",
+      "text_id": "val_escort_captive_dialog_511",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "61",
+        "51"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Bye.",
+      "JA_current": "じゃあな。",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:val_escort_captive_dialog_511#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "val_escort_captive_dialog_11",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "val_escort_captive_give_main_info"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1",
+        "411"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Bandits! Those sons of bitches were taking me to the old factory. I don't know what they were planning to do with me there. I saw them take another guy in there before and I never saw him after that. They've got another one of ours, Serega. They keep him in the basement... in that big unfinished building there. Help him, would ya? Otherwise they'll... you know...",
+      "JA_current": "Bandits! あいつらロクデナシどもは、俺を古い工場に連れて行く途中だった。連中、俺に何をしようと計画してたのかは判らねぇが。俺は以前、連中が他の奴を連れて行くのを見たことがあるが、その後そいつを一切見かけねぇ。俺たち仲間の1人、Seregaを 連中は連れて行ったが、連中はあいつを地下室に監禁してる… そこの大きな建築途中のビルだ。あいつを助けてくれ。やってくれるか？ さもなくば連中は… どうするか分かるだろ…。",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:val_escort_captive_dialog_11#1"
+      ]
+    },
+    {
+      "phrase_id": "41",
+      "text_id": "val_escort_captive_dialog_41",
+      "next": [
+        "411"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "It's a shame about my partner... He was a great guy. But still, I owe you.",
+      "JA_current": "これは相棒には恥ずかしいが… あいつはたいした奴だった、だがそれでも、あんたに任すよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:val_escort_captive_dialog_41#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "val_escort_captive_dialog_21",
+      "next": [
+        "211"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "val_escort_captive_give_info"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I haven't heard much. All I know is that their boss Borov has some type of key around his neck that fits to the underground door there. Supposed to lead into some type of lab, or something... I did hear that Borov has been eager to get inside, but can't without the second half of the key. Now, if you're thinking of trying to get inside that compound, think twice before you do. It's full of thugs.",
+      "JA_current": "多くは聞いてねぇ。俺が知ってるのは、連中の親玉 Borov が、ここの地下への鍵の一部を持ってることだけだ。研究室だか何かがあってその… 俺は Borov が中に入りたがってるとは聞いたが、鍵の後半が無くては叶わないらしい。ううむ、もしあんたが中に入ろうと考えてるんなら、2度考え直せ。中は暴漢でいっぱいだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:val_escort_captive_dialog_21#1"
+      ]
+    },
+    {
+      "phrase_id": "51",
+      "text_id": "val_escort_captive_dialog_51",
+      "next": [
+        "511"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Thanks for your help!",
+      "JA_current": "助力に感謝する！",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:val_escort_captive_dialog_51#1"
+      ]
+    },
+    {
+      "phrase_id": "411",
+      "text_id": "val_escort_captive_dialog_411",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "41"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "These things happen.",
+      "JA_current": "それらが起こった。",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:val_escort_captive_dialog_411#1"
+      ]
+    },
+    {
+      "phrase_id": "211",
+      "text_id": "val_escort_captive_dialog_211",
+      "next": [
+        "71"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "21"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Gotcha. Thanks, I'll keep it in mind.",
+      "JA_current": "了解。感謝する。心に止めておくよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:val_escort_captive_dialog_211#1"
+      ]
+    }
+  ]
+}

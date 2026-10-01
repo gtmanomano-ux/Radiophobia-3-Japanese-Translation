@@ -1,0 +1,123 @@
+{
+  "packet_id": "dialog_0424__monolit_trader_lc_info",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "monolit_trader_lc_info",
+  "graph_source": "gamedata/config/gameplay/dialogs_radar.xml",
+  "graph_sha256": "7436a3a8c823be5716e127228e116bf493cdec1d97644f3c78b6dee00a554864",
+  "character_bindings": [
+    {
+      "profile_id": "monolit_trader",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_trader.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "monolit_trader_lc_info"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 2,
+  "entries": [
+    {
+      "key": "stable_dialogs_new_traders:monlit_trader_lc_info_0#1",
+      "source_table": "stable_dialogs_new_traders",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_new_traders.xml",
+      "source_xml_line": 40,
+      "string_id": "monlit_trader_lc_info_0",
+      "occurrence": 1,
+      "EN": "Hey, so you've been around these parts for a while, right? I bet you know the area real well! Can you suggest any shortcuts from the Radar to the southern parts of the Zone? I'm tired of pushing through the Army Warehouses all the time, as you know it's not the pleasant walk in the park it used to be...",
+      "JA_current": "Hey, so you've been around these parts for a while, right? I bet you know the area real well! Can you suggest any shortcuts from the Radar to the southern parts of the Zone? I'm tired of pushing through the Army Warehouses all the time, as you know it's not the pleasant walk in the park it used to be...",
+      "JA_new": "なあ、この辺りには長くいるんだろ？ 地理にも詳しいはずだ。レーダーからゾーン南部へ抜ける近道を教えてくれないか？ いつも軍事倉庫を突っ切るのはもううんざりだ。昔みたいに楽に通れる場所じゃないのは知ってるだろ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "monolit_trader_lc_info",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_new_traders:monlit_trader_lc_info_1#1",
+      "source_table": "stable_dialogs_new_traders",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_new_traders.xml",
+      "source_xml_line": 43,
+      "string_id": "monlit_trader_lc_info_1",
+      "occurrence": 1,
+      "EN": "Sure, I can give you a pointer, it's in my best interest to keep prospective customers alive and happy, heh, heh! The Western path leads to Yantar - dangerous place there, so stay sharp!",
+      "JA_current": "Sure, I can give you a pointer, it's in my best interest to keep prospective customers alive and happy, heh, heh! The Western path leads to Yantar - dangerous place there, so stay sharp!",
+      "JA_new": "いいとも。これから客になりそうな奴には、生きて機嫌よくいてもらった方が俺にも得だからな。へへっ！ 西の道を進めばヤンターに出る。あそこは危険だ、気を抜くなよ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "monolit_trader_lc_info",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "monlit_trader_lc_info_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, so you've been around these parts for a while, right? I bet you know the area real well! Can you suggest any shortcuts from the Radar to the southern parts of the Zone? I'm tired of pushing through the Army Warehouses all the time, as you know it's not the pleasant walk in the park it used to be...",
+      "JA_current": "Hey, so you've been around these parts for a while, right? I bet you know the area real well! Can you suggest any shortcuts from the Radar to the southern parts of the Zone? I'm tired of pushing through the Army Warehouses all the time, as you know it's not the pleasant walk in the park it used to be...",
+      "string_entry_candidates": [
+        "stable_dialogs_new_traders:monlit_trader_lc_info_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "monlit_trader_lc_info_1",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "ogsm_freeplay.set_lc6_rad_xy"
+        },
+        {
+          "type": "give_info",
+          "value": "monolit_trader_lc_info"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sure, I can give you a pointer, it's in my best interest to keep prospective customers alive and happy, heh, heh! The Western path leads to Yantar - dangerous place there, so stay sharp!",
+      "JA_current": "Sure, I can give you a pointer, it's in my best interest to keep prospective customers alive and happy, heh, heh! The Western path leads to Yantar - dangerous place there, so stay sharp!",
+      "string_entry_candidates": [
+        "stable_dialogs_new_traders:monlit_trader_lc_info_1#1"
+      ]
+    }
+  ]
+}

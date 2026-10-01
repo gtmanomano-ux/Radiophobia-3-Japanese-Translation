@@ -1,0 +1,1008 @@
+{
+  "packet_id": "dialog_0230__borov_enter_bandit_1",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "borov_enter_bandit_1",
+  "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml",
+  "graph_sha256": "af90465ec3a6b7a324a6c5d72d8c5ed214013f3f66f7c85ea935c11f680b26c1",
+  "character_bindings": [
+    {
+      "profile_id": "new_mamay",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    },
+    {
+      "profile_id": "val_bandit_borov",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_darkvalley.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "barman_document_start"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "val_actor_has_borov_key"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 21,
+  "entries": [
+    {
+      "key": "stable_dialogs_darkvalley:borov_enter_bandit_0#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 145,
+      "string_id": "borov_enter_bandit_0",
+      "occurrence": 1,
+      "EN": "Be good, man.",
+      "JA_current": "Be good, man.",
+      "JA_new": "よう、元気か？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_enter_bandit_1#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 148,
+      "string_id": "borov_enter_bandit_1",
+      "occurrence": 1,
+      "EN": "Wow! It's THE Marked One himself! Have heard a lot about you! Mostly horrible things, by the way. The rumor is you arrived in on one of those Death Trucks, and actually survived! And what a cool nickname you've got: The \"Marked One\". Makes mine sounds stupid in comparison, \"Borov\", gimme a break...",
+      "JA_current": "Wow! It's THE Marked One himself! Have heard a lot about you! Mostly horrible things, by the way. The rumor is you arrived in on one of those Death Trucks, and actually survived! And what a cool nickname you've got: The \"Marked One\". Makes mine sounds stupid in comparison, \"Borov\", gimme a break...",
+      "JA_new": "おお！あのマークド・ワン本人か！噂はよく聞いてるよ。まあ、大体ろくでもない話だがな。死のトラックで運ばれてきて、生き延びたって？大したもんだ！しかも「マークド・ワン」なんて、ずいぶんイカしたあだ名じゃないか。俺の「ボロフ」が間抜けに聞こえるぜ。まったく……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_enter_bandit_2#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 151,
+      "string_id": "borov_enter_bandit_2",
+      "occurrence": 1,
+      "EN": "Snitch has sent me.",
+      "JA_current": "Snitch has sent me.",
+      "JA_new": "スニッチに紹介された。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_enter_bandit_14#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 187,
+      "string_id": "borov_enter_bandit_14",
+      "occurrence": 1,
+      "EN": "I came here after a tip-off from one of your guys.",
+      "JA_current": "I came here after a tip-off from one of your guys.",
+      "JA_new": "あんたの部下から話を聞いて来た。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_enter_bandit_3#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 154,
+      "string_id": "borov_enter_bandit_3",
+      "occurrence": 1,
+      "EN": "Snitch, you say? Hmm... Ok, what are you here for?",
+      "JA_current": "Snitch, you say? Hmm... Ok, what are you here for?",
+      "JA_new": "スニッチだと？そうか……それで、何の用だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_enter_bandit_15#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 190,
+      "string_id": "borov_enter_bandit_15",
+      "occurrence": 1,
+      "EN": "I know. You've helped him. That's why nobody touched you. I'm listening.",
+      "JA_current": "I know. You've helped him. That's why nobody touched you. I'm listening.",
+      "JA_new": "分かった。スニッチの力になったんだな。だから部下もあんたに手を出さなかった。話を聞こう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_enter_bandit_17#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 196,
+      "string_id": "borov_enter_bandit_17",
+      "occurrence": 1,
+      "EN": "I know. You've helped him. More than that - you've had a hand in Bullet's death. All that makes you welcome here. Would you like to join us? We need more heavy hitters like you...",
+      "JA_current": "I know. You've helped him. More than that - you've had a hand in Bullet's death. All that makes you welcome here. Would you like to join us? We need more heavy hitters like you...",
+      "JA_new": "知ってるよ。スニッチを助けたうえ、ブレットの死にも一枚噛んだんだろ。そこまでしてくれたなら歓迎だ。俺たちの仲間にならないか？あんたみたいな腕利きが、もっと必要なんだ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "17",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_darkvalley_gameplay_text:dialogs_darkvalley_2#1",
+      "source_table": "dialogs_darkvalley_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_darkvalley_gameplay_text.xml",
+      "source_xml_line": 9,
+      "string_id": "dialogs_darkvalley_2",
+      "occurrence": 1,
+      "EN": "I know. Ya've said ya had helped him and Bullet - to die, I mean, heh. Ya one of us, lad.",
+      "JA_current": "I know. Ya've said ya had helped him and Bullet - to die, I mean, heh. Ya one of us, lad.",
+      "JA_new": "知ってるさ。あいつを助けたことも、ブレットを始末したこともな。へへ、あんたはもう仲間だよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "22",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_enter_bandit_4#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 157,
+      "string_id": "borov_enter_bandit_4",
+      "occurrence": 1,
+      "EN": "I've got a business opportunity...",
+      "JA_current": "I've got a business opportunity...",
+      "JA_new": "ちょっとした取引がしたい……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_enter_bandit_5#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 160,
+      "string_id": "borov_enter_bandit_5",
+      "occurrence": 1,
+      "EN": "What kind of business? C'mon, get on with it,  start talkin'!",
+      "JA_current": "What kind of business? C'mon, get on with it,  start talkin'!",
+      "JA_new": "どんな取引だ？さっさと言えよ、話を進めようぜ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_darkvalley_gameplay_text:dialogs_darkvalley_1#1",
+      "source_table": "dialogs_darkvalley_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_darkvalley_gameplay_text.xml",
+      "source_xml_line": 6,
+      "string_id": "dialogs_darkvalley_1",
+      "occurrence": 1,
+      "EN": "Well. You helped us, so we ain't break ya neck now. But better ya don't us again. Ever.",
+      "JA_current": "Well. You helped us, so we ain't break ya neck now. But better ya don't us again. Ever.",
+      "JA_new": "助けてくれたから、今は首をへし折らずにおいてやる。だが、二度と顔を出すな。いいな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_enter_bandit_6#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 163,
+      "string_id": "borov_enter_bandit_6",
+      "occurrence": 1,
+      "EN": "I need a key that you carry, the one that allegedly fits to an underground blast door around here...",
+      "JA_current": "I need a key that you carry, the one that allegedly fits to an underground blast door around here...",
+      "JA_new": "あんたが持ってる鍵が欲しい。この辺りの地下にある防爆扉に合うらしいんだが……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_enter_bandit_7#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 166,
+      "string_id": "borov_enter_bandit_7",
+      "occurrence": 1,
+      "EN": "What makes you think I'm interested in handing it over?",
+      "JA_current": "What makes you think I'm interested in handing it over?",
+      "JA_new": "俺が鍵を渡すと思う根拠は何だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_enter_bandit_8#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 169,
+      "string_id": "borov_enter_bandit_8",
+      "occurrence": 1,
+      "EN": "I can pay.",
+      "JA_current": "I can pay.",
+      "JA_new": "金なら払う。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_enter_bandit_9#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 172,
+      "string_id": "borov_enter_bandit_9",
+      "occurrence": 1,
+      "EN": "Oh, you carry a lot of cash? Maybe I should ask my lads here to check your pockets... Heh, relax, just breakin' your balls a little bit! You're lucky that Snitch vouched for you, we like having someone who can pull strings for us at the Bar, so we're not about to rough up one of his clients... We try to keep up an honest reputation here! Alright, look, you're here, you want something, it just so happens I want something too. I need a small job taken care of by someone capable, an outsider, you in?",
+      "JA_current": "Oh, you carry a lot of cash? Maybe I should ask my lads here to check your pockets... Heh, relax, just breakin' your balls a little bit! You're lucky that Snitch vouched for you, we like having someone who can pull strings for us at the Bar, so we're not about to rough up one of his clients... We try to keep up an honest reputation here! Alright, look, you're here, you want something, it just so happens I want something too. I need a small job taken care of by someone capable, an outsider, you in?",
+      "JA_new": "へえ、金はたっぷり持ってるのか？部下に懐を探らせようか……はは、冗談だ。スニッチが口添えしてくれたからな。ロストクで顔が利く人間がいると助かるし、あいつの客に手を出す気はない。こっちは筋を通す連中で売ってるんでね！さて、あんたは用があって来た。俺にも頼みがある。腕の立つよそ者に片づけてもらいたい仕事があるんだ。やるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_enter_bandit_16#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 193,
+      "string_id": "borov_enter_bandit_16",
+      "occurrence": 1,
+      "EN": "Oh, you carry a lot of cash? Maybe I should ask my lads here to check your pockets... Heh, relax, just breakin' your balls a little bit! See, the thing is, I know exactly why you're interested in this key, and on who's behalf that is, he-heh... We've got our people over at the Bar, we hear things! For this reason, I'm gonna throw you a bone and offer you a job that I think is within your abilities to take care of, the key will be your payment.",
+      "JA_current": "Oh, you carry a lot of cash? Maybe I should ask my lads here to check your pockets... Heh, relax, just breakin' your balls a little bit! See, the thing is, I know exactly why you're interested in this key, and on who's behalf that is, he-heh... We've got our people over at the Bar, we hear things! For this reason, I'm gonna throw you a bone and offer you a job that I think is within your abilities to take care of, the key will be your payment.",
+      "JA_new": "へえ、金はたっぷり持ってるのか？部下に懐を探らせようか……はは、冗談だ。あんたがこの鍵を欲しがる理由も、誰のためかも分かってるよ。へへ……ロストクにも手の者がいて、いろんな話が入ってくる。だから一つ仕事を回してやる。あんたならできるはずだ。報酬はこの鍵だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "16",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_enter_bandit_10#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 175,
+      "string_id": "borov_enter_bandit_10",
+      "occurrence": 1,
+      "EN": "What kind of small job? To kill somebody, I suppose?",
+      "JA_current": "What kind of small job? To kill somebody, I suppose?",
+      "JA_new": "その仕事って誰かを殺すのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_enter_bandit_11#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 178,
+      "string_id": "borov_enter_bandit_11",
+      "occurrence": 1,
+      "EN": "Why does everybody assume that all we're after is killing and slaughter?? We are businessmen, first and foremost, we like to make money and sometimes murder makes that difficult. Like in this case, all I need is for you to discreetly retrieve some documents from the Barkeep, so that no one can isolate it to me or to my guys over there. He keeps the docs in his room, watched by his guards. If you succeed, the key is yours. Hell, I'll even give you an opportunity to join our organization. How about it, Marked One? We got a deal?",
+      "JA_current": "Why does everybody assume that all we're after is killing and slaughter?? We are businessmen, first and foremost, we like to make money and sometimes murder makes that difficult. Like in this case, all I need is for you to discreetly retrieve some documents from the Barkeep, so that no one can isolate it to me or to my guys over there. He keeps the docs in his room, watched by his guards. If you succeed, the key is yours. Hell, I'll even give you an opportunity to join our organization. How about it, Marked One? We got a deal?",
+      "JA_new": "どうしてみんな、俺たちが殺しと虐殺しか考えてないと思うんだ？俺たちはまず商売人だ。金を稼ぎたい。時には殺しがその邪魔になることもある。今回頼みたいのは、バーキープから書類をこっそり盗み出すことだ。俺や向こうの部下に疑いがかからないようにな。書類は警備のいる部屋に置いてある。成功すれば鍵はあんたのものだ。ついでに組織に入る機会もやろう。どうだ、マークド・ワン。取引成立か？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_enter_bandit_12#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 181,
+      "string_id": "borov_enter_bandit_12",
+      "occurrence": 1,
+      "EN": "Sounds doable. I'm in.",
+      "JA_current": "Sounds doable. I'm in.",
+      "JA_new": "できそうだ。引き受けるよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_darkvalley:borov_enter_bandit_13#1",
+      "source_table": "stable_dialogs_darkvalley",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_darkvalley.xml",
+      "source_xml_line": 184,
+      "string_id": "borov_enter_bandit_13",
+      "occurrence": 1,
+      "EN": "I'm not ready yet.",
+      "JA_current": "I'm not ready yet.",
+      "JA_new": "まだその気にはなれない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    },
+    {
+      "key": "dialogs_darkvalley_gameplay_text:dialogs_darkvalley_0#1",
+      "source_table": "dialogs_darkvalley_gameplay_text",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\dialogs_darkvalley_gameplay_text.xml",
+      "source_xml_line": 3,
+      "string_id": "dialogs_darkvalley_0",
+      "occurrence": 1,
+      "EN": "Consider yourself one of us, lad. Welcome to the thieve's reality.",
+      "JA_current": "Consider yourself one of us, lad. Welcome to the thieve's reality.",
+      "JA_new": "これであんたも仲間だ。盗賊稼業へようこそ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "borov_enter_bandit_1",
+          "phrase_id": "20",
+          "graph_source": "gamedata/config/gameplay/dialogs_darkvalley.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "borov_enter_bandit_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Be good, man.",
+      "JA_current": "Be good, man.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_enter_bandit_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "borov_enter_bandit_1",
+      "next": [
+        "2",
+        "14"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Wow! It's THE Marked One himself! Have heard a lot about you! Mostly horrible things, by the way. The rumor is you arrived in on one of those Death Trucks, and actually survived! And what a cool nickname you've got: The \"Marked One\". Makes mine sounds stupid in comparison, \"Borov\", gimme a break...",
+      "JA_current": "Wow! It's THE Marked One himself! Have heard a lot about you! Mostly horrible things, by the way. The rumor is you arrived in on one of those Death Trucks, and actually survived! And what a cool nickname you've got: The \"Marked One\". Makes mine sounds stupid in comparison, \"Borov\", gimme a break...",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_enter_bandit_1#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "borov_enter_bandit_2",
+      "next": [
+        "3"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "osvedomitel_actor_prebandit"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Snitch has sent me.",
+      "JA_current": "Snitch has sent me.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_enter_bandit_2#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "borov_enter_bandit_14",
+      "next": [
+        "15",
+        "17",
+        "22"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "osvedomitel_actor_prebandit"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I came here after a tip-off from one of your guys.",
+      "JA_current": "I came here after a tip-off from one of your guys.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_enter_bandit_14#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "borov_enter_bandit_3",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Snitch, you say? Hmm... Ok, what are you here for?",
+      "JA_current": "Snitch, you say? Hmm... Ok, what are you here for?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_enter_bandit_3#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "borov_enter_bandit_15",
+      "next": [
+        "4"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "kill_pula_complete"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I know. You've helped him. That's why nobody touched you. I'm listening.",
+      "JA_current": "I know. You've helped him. That's why nobody touched you. I'm listening.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_enter_bandit_15#1"
+      ]
+    },
+    {
+      "phrase_id": "17",
+      "text_id": "borov_enter_bandit_17",
+      "next": [
+        "19"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "actor_set_bandit"
+        },
+        {
+          "type": "has_info",
+          "value": "kill_pula_complete"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I know. You've helped him. More than that - you've had a hand in Bullet's death. All that makes you welcome here. Would you like to join us? We need more heavy hitters like you...",
+      "JA_current": "I know. You've helped him. More than that - you've had a hand in Bullet's death. All that makes you welcome here. Would you like to join us? We need more heavy hitters like you...",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_enter_bandit_17#1"
+      ]
+    },
+    {
+      "phrase_id": "22",
+      "text_id": "dialogs_darkvalley_2",
+      "next": [
+        "4"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "kill_pula_complete"
+        },
+        {
+          "type": "has_info",
+          "value": "actor_set_bandit"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I know. Ya've said ya had helped him and Bullet - to die, I mean, heh. Ya one of us, lad.",
+      "JA_current": "I know. Ya've said ya had helped him and Bullet - to die, I mean, heh. Ya one of us, lad.",
+      "string_entry_candidates": [
+        "dialogs_darkvalley_gameplay_text:dialogs_darkvalley_2#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "borov_enter_bandit_4",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3",
+        "15",
+        "20",
+        "21",
+        "22"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I've got a business opportunity...",
+      "JA_current": "I've got a business opportunity...",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_enter_bandit_4#1"
+      ]
+    },
+    {
+      "phrase_id": "19",
+      "text_id": "borov_ask_document_8",
+      "next": [
+        "21"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "17"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thanks for the proposal, but I'll pass, got things to take care of.",
+      "JA_current": "Thanks for the proposal, but I'll pass, got things to take care of.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_ask_document_8#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "borov_enter_bandit_5",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What kind of business? C'mon, get on with it,  start talkin'!",
+      "JA_current": "What kind of business? C'mon, get on with it,  start talkin'!",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_enter_bandit_5#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "dialogs_darkvalley_1",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "19"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well. You helped us, so we ain't break ya neck now. But better ya don't us again. Ever.",
+      "JA_current": "Well. You helped us, so we ain't break ya neck now. But better ya don't us again. Ever.",
+      "string_entry_candidates": [
+        "dialogs_darkvalley_gameplay_text:dialogs_darkvalley_1#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "borov_enter_bandit_6",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I need a key that you carry, the one that allegedly fits to an underground blast door around here...",
+      "JA_current": "I need a key that you carry, the one that allegedly fits to an underground blast door around here...",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_enter_bandit_6#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "borov_enter_bandit_7",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What makes you think I'm interested in handing it over?",
+      "JA_current": "What makes you think I'm interested in handing it over?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_enter_bandit_7#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "borov_enter_bandit_8",
+      "next": [
+        "9",
+        "16"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I can pay.",
+      "JA_current": "I can pay.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_enter_bandit_8#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "borov_enter_bandit_9",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh, you carry a lot of cash? Maybe I should ask my lads here to check your pockets... Heh, relax, just breakin' your balls a little bit! You're lucky that Snitch vouched for you, we like having someone who can pull strings for us at the Bar, so we're not about to rough up one of his clients... We try to keep up an honest reputation here! Alright, look, you're here, you want something, it just so happens I want something too. I need a small job taken care of by someone capable, an outsider, you in?",
+      "JA_current": "Oh, you carry a lot of cash? Maybe I should ask my lads here to check your pockets... Heh, relax, just breakin' your balls a little bit! You're lucky that Snitch vouched for you, we like having someone who can pull strings for us at the Bar, so we're not about to rough up one of his clients... We try to keep up an honest reputation here! Alright, look, you're here, you want something, it just so happens I want something too. I need a small job taken care of by someone capable, an outsider, you in?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_enter_bandit_9#1"
+      ]
+    },
+    {
+      "phrase_id": "16",
+      "text_id": "borov_enter_bandit_16",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh, you carry a lot of cash? Maybe I should ask my lads here to check your pockets... Heh, relax, just breakin' your balls a little bit! See, the thing is, I know exactly why you're interested in this key, and on who's behalf that is, he-heh... We've got our people over at the Bar, we hear things! For this reason, I'm gonna throw you a bone and offer you a job that I think is within your abilities to take care of, the key will be your payment.",
+      "JA_current": "Oh, you carry a lot of cash? Maybe I should ask my lads here to check your pockets... Heh, relax, just breakin' your balls a little bit! See, the thing is, I know exactly why you're interested in this key, and on who's behalf that is, he-heh... We've got our people over at the Bar, we hear things! For this reason, I'm gonna throw you a bone and offer you a job that I think is within your abilities to take care of, the key will be your payment.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_enter_bandit_16#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "borov_enter_bandit_10",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9",
+        "16"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What kind of small job? To kill somebody, I suppose?",
+      "JA_current": "What kind of small job? To kill somebody, I suppose?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_enter_bandit_10#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "borov_enter_bandit_11",
+      "next": [
+        "12",
+        "13"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Why does everybody assume that all we're after is killing and slaughter?? We are businessmen, first and foremost, we like to make money and sometimes murder makes that difficult. Like in this case, all I need is for you to discreetly retrieve some documents from the Barkeep, so that no one can isolate it to me or to my guys over there. He keeps the docs in his room, watched by his guards. If you succeed, the key is yours. Hell, I'll even give you an opportunity to join our organization. How about it, Marked One? We got a deal?",
+      "JA_current": "Why does everybody assume that all we're after is killing and slaughter?? We are businessmen, first and foremost, we like to make money and sometimes murder makes that difficult. Like in this case, all I need is for you to discreetly retrieve some documents from the Barkeep, so that no one can isolate it to me or to my guys over there. He keeps the docs in his room, watched by his guards. If you succeed, the key is yours. Hell, I'll even give you an opportunity to join our organization. How about it, Marked One? We got a deal?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_enter_bandit_11#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "borov_enter_bandit_12",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs_darkvalley.barman_document_have"
+        },
+        {
+          "type": "action",
+          "value": "bar_spawn.spawn_barman_document"
+        },
+        {
+          "type": "give_info",
+          "value": "barman_document_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Sounds doable. I'm in.",
+      "JA_current": "Sounds doable. I'm in.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_enter_bandit_12#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "borov_enter_bandit_13",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        },
+        {
+          "type": "action",
+          "value": "dialogs.actor_clear_community"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm not ready yet.",
+      "JA_current": "I'm not ready yet.",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_enter_bandit_13#1"
+      ]
+    },
+    {
+      "phrase_id": "18",
+      "text_id": "borov_ask_document_7",
+      "next": [
+        "20"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.actor_set_bandit"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Hell, yeah! Why not?",
+      "JA_current": "Hell, yeah! Why not?",
+      "string_entry_candidates": [
+        "stable_dialogs_darkvalley:borov_ask_document_7#1"
+      ]
+    },
+    {
+      "phrase_id": "20",
+      "text_id": "dialogs_darkvalley_0",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "18"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Consider yourself one of us, lad. Welcome to the thieve's reality.",
+      "JA_current": "Consider yourself one of us, lad. Welcome to the thieve's reality.",
+      "string_entry_candidates": [
+        "dialogs_darkvalley_gameplay_text:dialogs_darkvalley_0#1"
+      ]
+    }
+  ]
+}

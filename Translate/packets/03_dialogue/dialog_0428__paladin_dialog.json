@@ -1,0 +1,455 @@
+{
+  "packet_id": "dialog_0428__paladin_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "paladin_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_radar.xml",
+  "graph_sha256": "7436a3a8c823be5716e127228e116bf493cdec1d97644f3c78b6dee00a554864",
+  "character_bindings": [
+    {
+      "profile_id": "rad_sila_paladin_1",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_radar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "paladin_goto_final_point"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 10,
+  "entries": [
+    {
+      "key": "stable_dialogs_radar:paladin_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 257,
+      "string_id": "paladin_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Hello... What's your name? Abbot? Pilgrim? I don't know much about your ranks.",
+      "JA_current": "Hello... What's your name? Abbot? Pilgrim? I don't know much about your ranks.",
+      "JA_new": "こんにちは……あんたのこと、何と呼べばいい？ 修道院長？ 巡礼者？ そっちの階級には疎くてさ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "paladin_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:paladin_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 260,
+      "string_id": "paladin_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "If it weren't for that shard of the sacred Solar Sphere, I'd blow your stupid savage brains out with one blow! Celebrate your second birth, O infidel...",
+      "JA_current": "If it weren't for that shard of the sacred Solar Sphere, I'd blow your stupid savage brains out with one blow! Celebrate your second birth, O infidel...",
+      "JA_new": "あの聖なる太陽の球の欠片がなければ、貴様の野蛮な頭など一撃で吹き飛ばしてやる！ 二度目の生を祝うがいい、異教徒……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "paladin_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:paladin_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 263,
+      "string_id": "paladin_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Well, take it easy, or Monolith will be offended. I need to pass, make way.",
+      "JA_current": "Well, take it easy, or Monolith will be offended. I need to pass, make way.",
+      "JA_new": "まあ落ち着けよ。モノリスが怒るぞ。通りたいんだ、道を開けてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "paladin_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:paladin_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 266,
+      "string_id": "paladin_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "I hate you, dog... Give me the password or get out!",
+      "JA_current": "I hate you, dog... Give me the password or get out!",
+      "JA_new": "犬め、貴様が憎い……合言葉を言え。さもなくば失せろ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "paladin_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:paladin_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 269,
+      "string_id": "paladin_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "\"Monolith\"",
+      "JA_current": "\"Monolith\"",
+      "JA_new": "\"モノリス\"",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "paladin_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:paladin_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 272,
+      "string_id": "paladin_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "\"Shining\"",
+      "JA_current": "\"Shining\"",
+      "JA_new": "\"輝き\"",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "paladin_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:paladin_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 275,
+      "string_id": "paladin_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "\"Eternity\"",
+      "JA_current": "\"Eternity\"",
+      "JA_new": "\"永遠\"",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "paladin_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:paladin_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 278,
+      "string_id": "paladin_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "\"Strength Conquers\"",
+      "JA_current": "\"Strength Conquers\"",
+      "JA_new": "\"力が勝つ\"",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "paladin_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:paladin_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 281,
+      "string_id": "paladin_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "Ha, you're as dumb as piece of plankton! Get out of here, you blind fool.",
+      "JA_current": "Ha, you're as dumb as piece of plankton! Get out of here, you blind fool.",
+      "JA_new": "はっ、プランクトン並みに頭が悪いな！ 失せろ、この節穴め！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "paladin_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:paladin_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 284,
+      "string_id": "paladin_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "Come in...",
+      "JA_current": "Come in...",
+      "JA_new": "入れ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "paladin_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "paladin_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hello... What's your name? Abbot? Pilgrim? I don't know much about your ranks.",
+      "JA_current": "Hello... What's your name? Abbot? Pilgrim? I don't know much about your ranks.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:paladin_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "paladin_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "If it weren't for that shard of the sacred Solar Sphere, I'd blow your stupid savage brains out with one blow! Celebrate your second birth, O infidel...",
+      "JA_current": "If it weren't for that shard of the sacred Solar Sphere, I'd blow your stupid savage brains out with one blow! Celebrate your second birth, O infidel...",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:paladin_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "paladin_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, take it easy, or Monolith will be offended. I need to pass, make way.",
+      "JA_current": "Well, take it easy, or Monolith will be offended. I need to pass, make way.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:paladin_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "paladin_dialog_phrase_4",
+      "next": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I hate you, dog... Give me the password or get out!",
+      "JA_current": "I hate you, dog... Give me the password or get out!",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:paladin_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "paladin_dialog_phrase_5",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Monolith\"",
+      "JA_current": "\"Monolith\"",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:paladin_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "paladin_dialog_phrase_6",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Shining\"",
+      "JA_current": "\"Shining\"",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:paladin_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "paladin_dialog_phrase_7",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Eternity\"",
+      "JA_current": "\"Eternity\"",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:paladin_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "paladin_dialog_phrase_8",
+      "next": [
+        "9"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "razver_sila_nayden"
+        }
+      ],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "paladin_goto_final_point"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "\"Strength Conquers\"",
+      "JA_current": "\"Strength Conquers\"",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:paladin_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "paladin_dialog_phrase_9",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4",
+        "5",
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Ha, you're as dumb as piece of plankton! Get out of here, you blind fool.",
+      "JA_current": "Ha, you're as dumb as piece of plankton! Get out of here, you blind fool.",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:paladin_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "paladin_dialog_phrase_10",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Come in...",
+      "JA_current": "Come in...",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:paladin_dialog_phrase_10#1"
+      ]
+    }
+  ]
+}

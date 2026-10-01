@@ -1,0 +1,451 @@
+{
+  "packet_id": "dialog_0361__mil_cook_common3",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "mil_cook_common3",
+  "graph_source": "gamedata/config/gameplay/dialogs_military.xml",
+  "graph_sha256": "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+  "character_bindings": [
+    {
+      "profile_id": "mil_Svoboda_cook",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_military.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "dialogs.dialog_allowed"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "mil_cook_dialog3"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 10,
+  "entries": [
+    {
+      "key": "stable_dialogs_military:mil_cook_common3_0#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 164,
+      "string_id": "mil_cook_common3_0",
+      "occurrence": 1,
+      "EN": "And who might you be?",
+      "JA_current": "で、あんたは誰なんだ？",
+      "JA_new": "あんた、何者だ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common3",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common3_301#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 167,
+      "string_id": "mil_cook_common3_301",
+      "occurrence": 1,
+      "EN": "Me?",
+      "JA_current": "俺か？",
+      "JA_new": "俺？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common3",
+          "phrase_id": "301",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common3_302#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 170,
+      "string_id": "mil_cook_common3_302",
+      "occurrence": 1,
+      "EN": "Exactly. You. Not me.",
+      "JA_current": "もちろんだとも。あんただ。俺じゃあない。",
+      "JA_new": "そう、お前だ。俺じゃない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common3",
+          "phrase_id": "302",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common3_303#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 173,
+      "string_id": "mil_cook_common3_303",
+      "occurrence": 1,
+      "EN": "Haha, that's a good one! Me... What about me? I'm fine... Well, I... I make food... So, there. I'm a chef! The master of slices and spices! You know - parsley, dill, herbs, stuff like that... Bread, too... Right?",
+      "JA_current": "はは、そりゃいい！ 俺は… 俺か？ 俺は、元気だよ… そう、俺… 俺は飯を作る… そう、ここで。シェフだ！ スライス＆スパイスのマスターだ！ そうさねえ ― パセリ、ディル、ハーブ、などなど… パンも… お分かり？",
+      "JA_new": "はは、いい質問だな！俺か……俺がどうした？元気だよ……ええと……飯を作ってる。そうさ、料理人だ！切り分けと香辛料の達人！パセリにディル、ハーブとか……パンもあるぞ……な？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common3",
+          "phrase_id": "303",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common3_304#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 176,
+      "string_id": "mil_cook_common3_304",
+      "occurrence": 1,
+      "EN": "Got it.",
+      "JA_current": "分かった。",
+      "JA_new": "分かった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common3",
+          "phrase_id": "304",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common3_305#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 179,
+      "string_id": "mil_cook_common3_305",
+      "occurrence": 1,
+      "EN": "Also, tinned foods... condensed milk with sugar... ham in a can... roast beef with tomato dressing... yeah...",
+      "JA_current": "それに、缶詰め食品… 砂糖入りコンデンスミルク… ハムの缶詰… トマトドレッシングを添えたローストビーフ… いえい…。",
+      "JA_new": "それに缶詰もある……練乳に、缶詰のハム、トマトソースのローストビーフ……そうそう……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common3",
+          "phrase_id": "305",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common3_306#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 182,
+      "string_id": "mil_cook_common3_306",
+      "occurrence": 1,
+      "EN": "I got it.",
+      "JA_current": "分かったって。",
+      "JA_new": "分かったよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common3",
+          "phrase_id": "306",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common3_307#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 185,
+      "string_id": "mil_cook_common3_307",
+      "occurrence": 1,
+      "EN": "French bread... ketchup... eggs... brown bread... cheese, what have you. Wieners, too! And sausages! Fowl... cold, not flying.",
+      "JA_current": "フランスパン… ケチャップ… 卵… 黒パン… チーズとか。ウインナーも！ それに、ソーセージ！ 鳥肉… 冷製だよ、フライじゃないよ。",
+      "JA_new": "フランスパンに、ケチャップに、卵に、黒パンに、チーズ。いろいろあるぞ。ウインナーも！ソーセージも！鶏肉も……冷やしてある。空は飛ばないぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common3",
+          "phrase_id": "307",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common3_308#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 188,
+      "string_id": "mil_cook_common3_308",
+      "occurrence": 1,
+      "EN": "OK, fine, I understand! Tell me your name at least.",
+      "JA_current": "もういいよ、よく分かった！ せめて名前を教えてくれ。",
+      "JA_new": "分かった分かった。名前だけでも教えてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common3",
+          "phrase_id": "308",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common3_309#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 191,
+      "string_id": "mil_cook_common3_309",
+      "occurrence": 1,
+      "EN": "Huh?.. Oh! Slavik is my name... that's just a label... No! It's an apron! I've got this white apron... Hey, look... Sit down, don't be a target... 'Cause, that sniper, you know... pick you off! .. They're, you know... They're like that...",
+      "JA_current": "んん？… おお！ Slavik が俺の名… これは、単にラベルだ… 違った！ これは、エプロンだ！ 俺はこの白いエプロンを身に着けている… まあ、聞けよ… 座って、的になるなよ… あのスナイパーが、ええと… アンタを狙い撃ちにする！… そんなような、あの… ヤツらだ…。",
+      "JA_new": "えっ？ああ！俺はスラヴィク……それはただのラベルだ……いや、エプロンだ！白いエプロンをしてる……ほら、見てくれ……座れよ、狙われるな……あのスナイパーが……撃ち抜くぞ！あいつら、ほら……そういう連中だからさ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common3",
+          "phrase_id": "309",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "mil_cook_common3_0",
+      "next": [
+        "301"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "And who might you be?",
+      "JA_current": "で、あんたは誰なんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common3_0#1"
+      ]
+    },
+    {
+      "phrase_id": "301",
+      "text_id": "mil_cook_common3_301",
+      "next": [
+        "302"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Me?",
+      "JA_current": "俺か？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common3_301#1"
+      ]
+    },
+    {
+      "phrase_id": "302",
+      "text_id": "mil_cook_common3_302",
+      "next": [
+        "303"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "301"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Exactly. You. Not me.",
+      "JA_current": "もちろんだとも。あんただ。俺じゃあない。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common3_302#1"
+      ]
+    },
+    {
+      "phrase_id": "303",
+      "text_id": "mil_cook_common3_303",
+      "next": [
+        "304"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "302"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Haha, that's a good one! Me... What about me? I'm fine... Well, I... I make food... So, there. I'm a chef! The master of slices and spices! You know - parsley, dill, herbs, stuff like that... Bread, too... Right?",
+      "JA_current": "はは、そりゃいい！ 俺は… 俺か？ 俺は、元気だよ… そう、俺… 俺は飯を作る… そう、ここで。シェフだ！ スライス＆スパイスのマスターだ！ そうさねえ ― パセリ、ディル、ハーブ、などなど… パンも… お分かり？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common3_303#1"
+      ]
+    },
+    {
+      "phrase_id": "304",
+      "text_id": "mil_cook_common3_304",
+      "next": [
+        "305"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "303"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Got it.",
+      "JA_current": "分かった。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common3_304#1"
+      ]
+    },
+    {
+      "phrase_id": "305",
+      "text_id": "mil_cook_common3_305",
+      "next": [
+        "306"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "304"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Also, tinned foods... condensed milk with sugar... ham in a can... roast beef with tomato dressing... yeah...",
+      "JA_current": "それに、缶詰め食品… 砂糖入りコンデンスミルク… ハムの缶詰… トマトドレッシングを添えたローストビーフ… いえい…。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common3_305#1"
+      ]
+    },
+    {
+      "phrase_id": "306",
+      "text_id": "mil_cook_common3_306",
+      "next": [
+        "307"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "305"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I got it.",
+      "JA_current": "分かったって。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common3_306#1"
+      ]
+    },
+    {
+      "phrase_id": "307",
+      "text_id": "mil_cook_common3_307",
+      "next": [
+        "308"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "306"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "French bread... ketchup... eggs... brown bread... cheese, what have you. Wieners, too! And sausages! Fowl... cold, not flying.",
+      "JA_current": "フランスパン… ケチャップ… 卵… 黒パン… チーズとか。ウインナーも！ それに、ソーセージ！ 鳥肉… 冷製だよ、フライじゃないよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common3_307#1"
+      ]
+    },
+    {
+      "phrase_id": "308",
+      "text_id": "mil_cook_common3_308",
+      "next": [
+        "309"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "mil_cook_dialog3"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "307"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "OK, fine, I understand! Tell me your name at least.",
+      "JA_current": "もういいよ、よく分かった！ せめて名前を教えてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common3_308#1"
+      ]
+    },
+    {
+      "phrase_id": "309",
+      "text_id": "mil_cook_common3_309",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "308"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Huh?.. Oh! Slavik is my name... that's just a label... No! It's an apron! I've got this white apron... Hey, look... Sit down, don't be a target... 'Cause, that sniper, you know... pick you off! .. They're, you know... They're like that...",
+      "JA_current": "んん？… おお！ Slavik が俺の名… これは、単にラベルだ… 違った！ これは、エプロンだ！ 俺はこの白いエプロンを身に着けている… まあ、聞けよ… 座って、的になるなよ… あのスナイパーが、ええと… アンタを狙い撃ちにする！… そんなような、あの… ヤツらだ…。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common3_309#1"
+      ]
+    }
+  ]
+}

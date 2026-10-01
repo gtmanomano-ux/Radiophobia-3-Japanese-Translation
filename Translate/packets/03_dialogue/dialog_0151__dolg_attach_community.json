@@ -1,0 +1,266 @@
+{
+  "packet_id": "dialog_0151__dolg_attach_community",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "dolg_attach_community",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_dolg_leader",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "bar_svoboda_rg6_done"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "bar_dolg_community_leader_done"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 1,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:hochu_vstupit#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1340,
+      "string_id": "hochu_vstupit",
+      "occurrence": 1,
+      "EN": "I've made up my mind to enter the Duty and I'm ready to swear the oath!",
+      "JA_current": "I've made up my mind to enter the Duty and I'm ready to swear the oath!",
+      "JA_new": "デューティーに入ると決めた。誓いを立てる準備はできている！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dolg_attach_community",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "hochu_vstupit",
+      "next": [
+        "31113"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I've made up my mind to enter the Duty and I'm ready to swear the oath!",
+      "JA_current": "I've made up my mind to enter the Duty and I'm ready to swear the oath!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:hochu_vstupit#1"
+      ]
+    },
+    {
+      "phrase_id": "31113",
+      "text_id": "bar_dolg_leader_prisyaga_1",
+      "next": [
+        "31114"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Good man! Repeat after me: \"I, a stalker known as Marked One, swear to defend the goals and ideals of Duty.\"",
+      "JA_current": "よろしい！ 復唱しろ： 「私、Marked One と名乗るストーカーは、Duty の目標と理念を守ると誓う」。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_1#1"
+      ]
+    },
+    {
+      "phrase_id": "31114",
+      "text_id": "bar_dolg_leader_prisyaga_2",
+      "next": [
+        "31115"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31113"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I, a stalker known as Marked One, swear to defend the goals and ideals of Duty.",
+      "JA_current": "私、Marked One と名乗るストーカーは、Duty の目標と理念を守ると誓います。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_2#1"
+      ]
+    },
+    {
+      "phrase_id": "31115",
+      "text_id": "bar_dolg_leader_prisyaga_3",
+      "next": [
+        "31116"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31114"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "To protect the Earth from the dangers of the Zone, to seek out and destroy anything it spawns within and beyond its borders.",
+      "JA_current": "ゾーンの危険からこの大地を守り、境界の内外に大量に生み出される何ものをも捜し出し、破壊することを誓う。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_3#1"
+      ]
+    },
+    {
+      "phrase_id": "31116",
+      "text_id": "bar_dolg_leader_prisyaga_4",
+      "next": [
+        "31117"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31115"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "To protect the Earth from the dangers of the Zone, to seek out and destroy anything it spawns within and beyond its borders.",
+      "JA_current": "ゾーンの危険からこの大地を守り、境界の内外に大量に生み出される何ものをも捜し出し、破壊することを誓います。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_4#1"
+      ]
+    },
+    {
+      "phrase_id": "31117",
+      "text_id": "bar_dolg_leader_prisyaga_5",
+      "next": [
+        "31118"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31116"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "To fight any nonconformists, be they individual stalkers or groups.",
+      "JA_current": "体制に従わない者すべて、個々のストーカー、あるいは集団、いずれとも戦うことを誓う。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_5#1"
+      ]
+    },
+    {
+      "phrase_id": "31118",
+      "text_id": "bar_dolg_leader_prisyaga_6",
+      "next": [
+        "31119"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31117"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "To fight any nonconformists, be they individual stalkers or groups.",
+      "JA_current": "体制に従わない者すべて、個々のストーカー、あるいは集団、いずれとも戦うことを誓います。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_6#1"
+      ]
+    },
+    {
+      "phrase_id": "31119",
+      "text_id": "bar_dolg_leader_prisyaga_7",
+      "next": [
+        "311110"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "31118"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "And to give my life in the name of justice and order on Earth!",
+      "JA_current": "そして、この大地に、正義と秩序の名において、我が命を捧げることを誓う！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_7#1"
+      ]
+    },
+    {
+      "phrase_id": "311110",
+      "text_id": "bar_dolg_leader_prisyaga_8",
+      "next": [
+        "311111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.actor_set_dolg"
+        },
+        {
+          "type": "give_info",
+          "value": "bar_dolg_community_leader_done"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "31119"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "And to give my life in the name of justice and order on Earth!",
+      "JA_current": "そして、この大地に、正義と秩序の名において、我が命を捧げることを誓います！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_8#1"
+      ]
+    },
+    {
+      "phrase_id": "311111",
+      "text_id": "bar_dolg_leader_prisyaga_9",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "311110"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Congratulations! You are now a full member of Duty.",
+      "JA_current": "よくやったぞ！ これでお前もりっぱな Duty の一員だな。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_dolg_leader_prisyaga_9#1"
+      ]
+    }
+  ]
+}

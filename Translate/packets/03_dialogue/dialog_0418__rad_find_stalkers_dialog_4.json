@@ -1,0 +1,447 @@
+{
+  "packet_id": "dialog_0418__rad_find_stalkers_dialog_4",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "rad_find_stalkers_dialog_4",
+  "graph_source": "gamedata/config/gameplay/dialogs_radar.xml",
+  "graph_sha256": "7436a3a8c823be5716e127228e116bf493cdec1d97644f3c78b6dee00a554864",
+  "character_bindings": [],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "rad_find_stalkers_reward_start"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "rad_find_stalkers_free_start"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "rad_find_stalkers_done"
+    }
+  ],
+  "root_speaker_hint": null,
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 10,
+  "entries": [
+    {
+      "key": "stable_dialogs_radar:rad_find_stalkers_dialog_4_0#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 66,
+      "string_id": "rad_find_stalkers_dialog_4_0",
+      "occurrence": 1,
+      "EN": "Maybe you've got a mission for me?",
+      "JA_current": "何か仕事は無いか？",
+      "JA_new": "何か仕事はないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_find_stalkers_dialog_4",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_find_stalkers_dialog_4_10#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 69,
+      "string_id": "rad_find_stalkers_dialog_4_10",
+      "occurrence": 1,
+      "EN": "Well, I have one but it's not easy...will you do it?",
+      "JA_current": "そうだな… ひとつあるが楽じゃないぜ？ それでもやってみるかい？",
+      "JA_new": "あるにはあるが、楽な仕事じゃない……やるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_find_stalkers_dialog_4",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_find_stalkers_dialog_4_100#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 72,
+      "string_id": "rad_find_stalkers_dialog_4_100",
+      "occurrence": 1,
+      "EN": "Saying it's not easy doesn't scare me!",
+      "JA_current": "楽じゃないだって？ それっぽっちじゃ俺はビビりゃしねえよ！",
+      "JA_new": "楽じゃないって？ そんなの怖くもないさ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_find_stalkers_dialog_4",
+          "phrase_id": "100",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_find_stalkers_dialog_4_101#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 75,
+      "string_id": "rad_find_stalkers_dialog_4_101",
+      "occurrence": 1,
+      "EN": "Nah, no way. I don't have the time!",
+      "JA_current": "あー、うー、そうだ！ 用事を思い出した！",
+      "JA_new": "いや、やめとく。今は時間がない！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_find_stalkers_dialog_4",
+          "phrase_id": "101",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_find_stalkers_dialog_4_20#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 81,
+      "string_id": "rad_find_stalkers_dialog_4_20",
+      "occurrence": 1,
+      "EN": "Good! The job is to find my scouts, Crowbar and Log! They went to Pripyat since I decided not to rush in and sent my best guys instead! Find them alive and bring them here. If they're dead bring me their weapons! Do this for me and you'll get 2'000!!!",
+      "JA_current": "そうこなくっちゃな！ 仕事は俺の手下の Crowbar と Log を見つけてくる事だ。俺は自分が行かないかない代わりに手練の奴らを Pripyat に送りこんだんだ。奴らを生かしたままここに連れ帰ってくれ。もし奴らが死んでたら 奴らの武器を持って帰って欲しい。もしコイツをやり遂げたら2000出そう！！",
+      "JA_new": "よし！ 仕事は斥候のクロウバーとログを探し出すことだ！ 俺が自分で乗り込むのはやめて、腕利きの二人をプリピャチへ送った。二人を生きて連れ戻せ。死んでたら武器を持って帰ってこい！ やってくれたら2,000出す！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_find_stalkers_dialog_4",
+          "phrase_id": "20",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_find_stalkers_dialog_4_11#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 78,
+      "string_id": "rad_find_stalkers_dialog_4_11",
+      "occurrence": 1,
+      "EN": "I understand. I'm afraid myself... would prefer to spend some money instead of sending my guys or going myself.",
+      "JA_current": "わかるよ。俺も怖い。だから金を払って誰かに俺の代わりに行ってもらうんだ。",
+      "JA_new": "わかるよ。俺だって怖い……だから、俺が行ったり部下を送ったりする代わりに、金を払うことにしたんだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_find_stalkers_dialog_4",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_find_stalkers_dialog_4_200#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 84,
+      "string_id": "rad_find_stalkers_dialog_4_200",
+      "occurrence": 1,
+      "EN": "OK, deal!",
+      "JA_current": "オーケー、取引成立だ！",
+      "JA_new": "よし、引き受けた！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_find_stalkers_dialog_4",
+          "phrase_id": "200",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_find_stalkers_dialog_4_201#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 87,
+      "string_id": "rad_find_stalkers_dialog_4_201",
+      "occurrence": 1,
+      "EN": "Not enough. How about 4'000 and we have a deal?",
+      "JA_current": "足らねえなあ… 4000なら乗ろう",
+      "JA_new": "安すぎる。4,000なら引き受ける。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_find_stalkers_dialog_4",
+          "phrase_id": "201",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_find_stalkers_dialog_4_30#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 93,
+      "string_id": "rad_find_stalkers_dialog_4_30",
+      "occurrence": 1,
+      "EN": "OK, I'll wait for you here!",
+      "JA_current": "OK、ここで待ってるよ。",
+      "JA_new": "わかった。ここで待ってる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_find_stalkers_dialog_4",
+          "phrase_id": "30",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_radar:rad_find_stalkers_dialog_4_21#1",
+      "source_table": "stable_dialogs_radar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_radar.xml",
+      "source_xml_line": 90,
+      "string_id": "rad_find_stalkers_dialog_4_21",
+      "occurrence": 1,
+      "EN": "That's all I can offer you for this job!",
+      "JA_current": "フっかけ過ぎだろ！ これ以上は出せねえよ！",
+      "JA_new": "これ以上は出せねえ。今回の依頼で出せるのはこれだけだ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "rad_find_stalkers_dialog_4",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_radar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "rad_find_stalkers_dialog_4_0",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Maybe you've got a mission for me?",
+      "JA_current": "何か仕事は無いか？",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_find_stalkers_dialog_4_0#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "rad_find_stalkers_dialog_4_10",
+      "next": [
+        "100",
+        "101"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Well, I have one but it's not easy...will you do it?",
+      "JA_current": "そうだな… ひとつあるが楽じゃないぜ？ それでもやってみるかい？",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_find_stalkers_dialog_4_10#1"
+      ]
+    },
+    {
+      "phrase_id": "100",
+      "text_id": "rad_find_stalkers_dialog_4_100",
+      "next": [
+        "20"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Saying it's not easy doesn't scare me!",
+      "JA_current": "楽じゃないだって？ それっぽっちじゃ俺はビビりゃしねえよ！",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_find_stalkers_dialog_4_100#1"
+      ]
+    },
+    {
+      "phrase_id": "101",
+      "text_id": "rad_find_stalkers_dialog_4_101",
+      "next": [
+        "11"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "10"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Nah, no way. I don't have the time!",
+      "JA_current": "あー、うー、そうだ！ 用事を思い出した！",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_find_stalkers_dialog_4_101#1"
+      ]
+    },
+    {
+      "phrase_id": "20",
+      "text_id": "rad_find_stalkers_dialog_4_20",
+      "next": [
+        "200",
+        "201"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "100"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Good! The job is to find my scouts, Crowbar and Log! They went to Pripyat since I decided not to rush in and sent my best guys instead! Find them alive and bring them here. If they're dead bring me their weapons! Do this for me and you'll get 2'000!!!",
+      "JA_current": "そうこなくっちゃな！ 仕事は俺の手下の Crowbar と Log を見つけてくる事だ。俺は自分が行かないかない代わりに手練の奴らを Pripyat に送りこんだんだ。奴らを生かしたままここに連れ帰ってくれ。もし奴らが死んでたら 奴らの武器を持って帰って欲しい。もしコイツをやり遂げたら2000出そう！！",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_find_stalkers_dialog_4_20#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "rad_find_stalkers_dialog_4_11",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "101"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "I understand. I'm afraid myself... would prefer to spend some money instead of sending my guys or going myself.",
+      "JA_current": "わかるよ。俺も怖い。だから金を払って誰かに俺の代わりに行ってもらうんだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_find_stalkers_dialog_4_11#1"
+      ]
+    },
+    {
+      "phrase_id": "200",
+      "text_id": "rad_find_stalkers_dialog_4_200",
+      "next": [
+        "30"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "rad_find_stalkers_reward_start"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "20"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "OK, deal!",
+      "JA_current": "オーケー、取引成立だ！",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_find_stalkers_dialog_4_200#1"
+      ]
+    },
+    {
+      "phrase_id": "201",
+      "text_id": "rad_find_stalkers_dialog_4_201",
+      "next": [
+        "21"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "20"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "Not enough. How about 4'000 and we have a deal?",
+      "JA_current": "足らねえなあ… 4000なら乗ろう",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_find_stalkers_dialog_4_201#1"
+      ]
+    },
+    {
+      "phrase_id": "30",
+      "text_id": "rad_find_stalkers_dialog_4_30",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "200"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "OK, I'll wait for you here!",
+      "JA_current": "OK、ここで待ってるよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_find_stalkers_dialog_4_30#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "rad_find_stalkers_dialog_4_21",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "201"
+      ],
+      "speaker_hint": null,
+      "speaker_hint_basis": "unresolved",
+      "EN": "That's all I can offer you for this job!",
+      "JA_current": "フっかけ過ぎだろ！ これ以上は出せねえよ！",
+      "string_entry_candidates": [
+        "stable_dialogs_radar:rad_find_stalkers_dialog_4_21#1"
+      ]
+    }
+  ]
+}

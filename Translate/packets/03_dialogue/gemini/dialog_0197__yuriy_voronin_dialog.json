@@ -1,0 +1,161 @@
+{
+  "packet_id": "dialog_0197__yuriy_voronin_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "yuriy_voronin_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "yuriy",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "kapitan_map"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "yuriy_goto_voronin"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 3,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:yuriy_voronin_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2899,
+      "string_id": "yuriy_voronin_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "What's next for the Seekers then?",
+      "JA_current": "シーカーズはこれからどうするんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_voronin_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_voronin_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2902,
+      "string_id": "yuriy_voronin_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "I have no idea, to be honest. Let me tell you... These are crazy times - human life has no value at all. And now I have to think about what to do with the group: to recruit new people or just hire some loners. By the way, I just remembered! I was just talking to General Voronin, that's the head of Duty, giving him an update on the state of the expedition and what you found. Duty helped fund us in the past as they are also eager to get into the center of the Zone, you see... Well, he sympathized, of course, and offered up a solution, to hire an independent professional... As we're talking about who to hire, he mentions you: word has gone around at the bar about your detective work, how you found our fallen and how you follow leads like a bloodhound. The general mentioned a situation that came up recently and had been meaning to hire you for it, but I assume he hasn't reached out to you yet? Well, how about you pay him a visit and see what he wants? Duty pays well!",
+      "JA_current": "正直なところ、途方に暮れているよ。まったく……狂った時代だ。人の命が羽毛よりも軽い。これから組織をどう立て直すべきか考えねばならない。新たな人員を募るか、ローナーを雇うか……。そうだ、いいことを思い出した！ さっきデューティーの最高司令官、ヴォロニン将軍と話していたんだ。調査隊の状況と、君が見つけてくれた事実を報告してね。彼らもゾーンの中心部を目指している手前、以前から私たちに資金援助をしてくれていたんだよ……将軍はもちろん深く同情してくれて、外部の腕利きを雇うという解決策を提案してくれた。そこで誰を雇うかという話になった時、君の名が挙がったのさ。バーでは君の優れた捜査ぶりが噂になっている。仲間の遺体を見つけ出し、猟犬のように手がかりを追う凄腕だとな。将軍は最近生じたある厄介な問題で、君を雇いたいと考えていたらしいが、まだ連絡は来ていないだろう？ どうだい、一度彼を訪ねて話を聞いてみては？ デューティーは気前がいいぞ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_voronin_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_voronin_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2905,
+      "string_id": "yuriy_voronin_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "All right, I'll go see him.",
+      "JA_current": "分かった、将軍に会ってみよう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_voronin_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "yuriy_voronin_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What's next for the Seekers then?",
+      "JA_current": "What's next for the Seekers then?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_voronin_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "yuriy_voronin_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I have no idea, to be honest. Let me tell you... These are crazy times - human life has no value at all. And now I have to think about what to do with the group: to recruit new people or just hire some loners. By the way, I just remembered! I was just talking to General Voronin, that's the head of Duty, giving him an update on the state of the expedition and what you found. Duty helped fund us in the past as they are also eager to get into the center of the Zone, you see... Well, he sympathized, of course, and offered up a solution, to hire an independent professional... As we're talking about who to hire, he mentions you: word has gone around at the bar about your detective work, how you found our fallen and how you follow leads like a bloodhound. The general mentioned a situation that came up recently and had been meaning to hire you for it, but I assume he hasn't reached out to you yet? Well, how about you pay him a visit and see what he wants? Duty pays well!",
+      "JA_current": "I have no idea, to be honest. Let me tell you... These are crazy times - human life has no value at all. And now I have to think about what to do with the group: to recruit new people or just hire some loners. By the way, I just remembered! I was just talking to General Voronin, that's the head of Duty, giving him an update on the state of the expedition and what you found. Duty helped fund us in the past as they are also eager to get into the center of the Zone, you see... Well, he sympathized, of course, and offered up a solution, to hire an independent professional... As we're talking about who to hire, he mentions you: word has gone around at the bar about your detective work, how you found our fallen and how you follow leads like a bloodhound. The general mentioned a situation that came up recently and had been meaning to hire you for it, but I assume he hasn't reached out to you yet? Well, how about you pay him a visit and see what he wants? Duty pays well!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_voronin_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "yuriy_voronin_dialog_phrase_3",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "yuriy_goto_voronin"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "All right, I'll go see him.",
+      "JA_current": "All right, I'll go see him.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_voronin_dialog_phrase_3#1"
+      ]
+    }
+  ]
+}

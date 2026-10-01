@@ -1,0 +1,455 @@
+{
+  "packet_id": "dialog_0187__yuriy_map_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "yuriy_map_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "yuriy",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "voron_notebook_info"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "kapitan_map"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 10,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:yuriy_map_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2391,
+      "string_id": "yuriy_map_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Hello, Yuri. I was able to get the data from Raven's laptop.",
+      "JA_current": "Hello, Yuri. I was able to get the data from Raven's laptop.",
+      "JA_new": "こんにちは、ユーリ。レイヴンのノートパソコンからデータを取り出せた。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_map_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_map_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2394,
+      "string_id": "yuriy_map_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "What was in it?",
+      "JA_current": "What was in it?",
+      "JA_new": "何が入ってた？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_map_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_map_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2397,
+      "string_id": "yuriy_map_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Only thing of note was a description of some type of \"Golden Sphere\" and a legend about it. There was also an email. Here, take a look.",
+      "JA_current": "Only thing of note was a description of some type of \"Golden Sphere\" and a legend about it. There was also an email. Here, take a look.",
+      "JA_new": "目についたのは、「黄金の球体」についての説明と伝説だけだ。それからメールもあった。ほら、見てくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_map_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_map_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2400,
+      "string_id": "yuriy_map_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "The \"Golden Sphere\"? I heard a legend about it, once upon a time. But how does it apply to us? No, wait a minute... I think I remembered something. It was the Captain who told me this legend in the first place!",
+      "JA_current": "The \"Golden Sphere\"? I heard a legend about it, once upon a time. But how does it apply to us? No, wait a minute... I think I remembered something. It was the Captain who told me this legend in the first place!",
+      "JA_new": "「黄金の球体」か……昔、その伝説を聞いたことがある。だが、俺たちに何の関係が？ いや、待てよ……思い出した。あの伝説を最初に話したのはキャプテンだ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_map_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_map_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2403,
+      "string_id": "yuriy_map_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "What did he tell you about it, did he try to find it?",
+      "JA_current": "What did he tell you about it, did he try to find it?",
+      "JA_new": "何を聞いたんだ？ 探そうとしてたのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_map_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_map_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2406,
+      "string_id": "yuriy_map_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "In principle, nothing specific, apparently he knew no more about it than whatever was described in the legend that the stalkers spoke about at the campfires. And he certainly did not plan to search for it: he thought about it, sure, but he never put it into motion - his main objective had always been to locate a safe route into Pripyat. The Captain did collect information about that legend though, even acquired a hand drawn map from some Zone hermit which supposedly showed the real location of that mysterious thing.",
+      "JA_current": "In principle, nothing specific, apparently he knew no more about it than whatever was described in the legend that the stalkers spoke about at the campfires. And he certainly did not plan to search for it: he thought about it, sure, but he never put it into motion - his main objective had always been to locate a safe route into Pripyat. The Captain did collect information about that legend though, even acquired a hand drawn map from some Zone hermit which supposedly showed the real location of that mysterious thing.",
+      "JA_new": "具体的な話はなかった。ストーカーたちが焚き火のそばで語る伝説以上のことは知らなかったらしい。探す計画もなかった。考えはしたが、実行には移さなかった。キャプテンの第一目標は、プリピャチへ安全に入るルートを見つけることだったからな。ただ、あの伝説については情報を集めていて、ゾーンの隠者から手描きの地図まで手に入れていた。謎の物が実際にある場所を示しているらしい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_map_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_map_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2409,
+      "string_id": "yuriy_map_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Think you could jog your memory and recreate the map? At the very least, the location that was marked?",
+      "JA_current": "Think you could jog your memory and recreate the map? At the very least, the location that was marked?",
+      "JA_new": "思い出して、地図を描き直せないか？ 少なくとも、印の場所だけでも。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_map_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_map_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2412,
+      "string_id": "yuriy_map_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "Why bother jogging my memory, I still have a digital copy of the damn thing on my PDA. Hold on, I'll send it to you. I just don't understand how it could have anything to do with the death of the Captain and the expedition. They weren't looking for that thing, this was just some side project that Raven and the Captain were apparently interested in.",
+      "JA_current": "Why bother jogging my memory, I still have a digital copy of the damn thing on my PDA. Hold on, I'll send it to you. I just don't understand how it could have anything to do with the death of the Captain and the expedition. They weren't looking for that thing, this was just some side project that Raven and the Captain were apparently interested in.",
+      "JA_new": "思い出す必要はない。あの地図のデジタルコピーがPDAに残ってる。待ってろ、送るよ。だが、あれがキャプテンや遠征隊の死とどう関係するのか分からない。あいつらは黄金の球体を探してたわけじゃない。レイヴンとキャプテンが興味を持っていた、ただの別件だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_map_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_map_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2415,
+      "string_id": "yuriy_map_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "We don't really have any other option, perhaps by following this lead we may find Raven.",
+      "JA_current": "We don't really have any other option, perhaps by following this lead we may find Raven.",
+      "JA_new": "ほかに手がかりはない。これを追えば、レイヴンが見つかるかもしれない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_map_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:yuriy_map_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2418,
+      "string_id": "yuriy_map_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "Well, good luck anyway. Here, for the road:",
+      "JA_current": "Well, good luck anyway. Here, for the road:",
+      "JA_new": "何にせよ、幸運を祈る。ほら、道中に持っていけ：",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "yuriy_map_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "yuriy_map_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hello, Yuri. I was able to get the data from Raven's laptop.",
+      "JA_current": "Hello, Yuri. I was able to get the data from Raven's laptop.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_map_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "yuriy_map_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What was in it?",
+      "JA_current": "What was in it?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_map_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "yuriy_map_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Only thing of note was a description of some type of \"Golden Sphere\" and a legend about it. There was also an email. Here, take a look.",
+      "JA_current": "Only thing of note was a description of some type of \"Golden Sphere\" and a legend about it. There was also an email. Here, take a look.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_map_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "yuriy_map_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The \"Golden Sphere\"? I heard a legend about it, once upon a time. But how does it apply to us? No, wait a minute... I think I remembered something. It was the Captain who told me this legend in the first place!",
+      "JA_current": "The \"Golden Sphere\"? I heard a legend about it, once upon a time. But how does it apply to us? No, wait a minute... I think I remembered something. It was the Captain who told me this legend in the first place!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_map_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "yuriy_map_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What did he tell you about it, did he try to find it?",
+      "JA_current": "What did he tell you about it, did he try to find it?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_map_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "yuriy_map_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "In principle, nothing specific, apparently he knew no more about it than whatever was described in the legend that the stalkers spoke about at the campfires. And he certainly did not plan to search for it: he thought about it, sure, but he never put it into motion - his main objective had always been to locate a safe route into Pripyat. The Captain did collect information about that legend though, even acquired a hand drawn map from some Zone hermit which supposedly showed the real location of that mysterious thing.",
+      "JA_current": "In principle, nothing specific, apparently he knew no more about it than whatever was described in the legend that the stalkers spoke about at the campfires. And he certainly did not plan to search for it: he thought about it, sure, but he never put it into motion - his main objective had always been to locate a safe route into Pripyat. The Captain did collect information about that legend though, even acquired a hand drawn map from some Zone hermit which supposedly showed the real location of that mysterious thing.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_map_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "yuriy_map_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Think you could jog your memory and recreate the map? At the very least, the location that was marked?",
+      "JA_current": "Think you could jog your memory and recreate the map? At the very least, the location that was marked?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_map_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "yuriy_map_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Why bother jogging my memory, I still have a digital copy of the damn thing on my PDA. Hold on, I'll send it to you. I just don't understand how it could have anything to do with the death of the Captain and the expedition. They weren't looking for that thing, this was just some side project that Raven and the Captain were apparently interested in.",
+      "JA_current": "Why bother jogging my memory, I still have a digital copy of the damn thing on my PDA. Hold on, I'll send it to you. I just don't understand how it could have anything to do with the death of the Captain and the expedition. They weren't looking for that thing, this was just some side project that Raven and the Captain were apparently interested in.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_map_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "yuriy_map_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "We don't really have any other option, perhaps by following this lead we may find Raven.",
+      "JA_current": "We don't really have any other option, perhaps by following this lead we may find Raven.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_map_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "yuriy_map_dialog_phrase_10",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "kapitan_map"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.yuriy_nagrada_3"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, good luck anyway. Here, for the road:",
+      "JA_current": "Well, good luck anyway. Here, for the road:",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:yuriy_map_dialog_phrase_10#1"
+      ]
+    }
+  ]
+}

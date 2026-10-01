@@ -1,0 +1,160 @@
+{
+  "packet_id": "dialog_0077__military_trader",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "military_trader",
+  "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml",
+  "graph_sha256": "0065cb49021f3d779d92b62bc9453bcaa767fa47933b73f8ecdd37c8a246e1ab",
+  "character_bindings": [
+    {
+      "profile_id": "military_trader",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_trader.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "agr_military_trader_intro"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 3,
+  "entries": [
+    {
+      "key": "stable_dialogs_new_traders:military_trader_who#1",
+      "source_table": "stable_dialogs_new_traders",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_new_traders.xml",
+      "source_xml_line": 4,
+      "string_id": "military_trader_who",
+      "occurrence": 1,
+      "EN": "Oh, look at this, army boy! What are you doing around here, who are you?? Well, answer me when I'm talking to you!",
+      "JA_current": "Oh, look at this, army boy! What are you doing around here, who are you?? Well, answer me when I'm talking to you!",
+      "JA_new": "おい、軍人さんよ！ こんなところで何してる？ 何者だ？ こっちが話してるんだ、答えろ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "military_trader",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_new_traders:military_trader_about#1",
+      "source_table": "stable_dialogs_new_traders",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_new_traders.xml",
+      "source_xml_line": 7,
+      "string_id": "military_trader_about",
+      "occurrence": 1,
+      "EN": "Curb your enthusiasm, stalker, you are addressing yourself to the quartermaster of... Ah, to hell with it! Look, I don't give a shit about your relationship with the Army or any other groups around here. A man's got to make a living and my salary ain't worth crap, so I'm more than willing to sell you surplus stock and ammo, military grade issue... You're also free to hand me any goods you find and I'll throw some rubles your way, but don't expect a miracle, I'm not made of money. What are you so surprised about, never seen a man in uniform take a side job from time to time? Everyone's in on it, even my higher-ups tolerate me because I kick up a percentage of the profits their way, and the local troops look after me because for them it's good business to offload excess frags and spare mags for some booze money! Well, what are you staring at, are we gonna to do business or what?",
+      "JA_current": "Curb your enthusiasm, stalker, you are addressing yourself to the quartermaster of... Ah, to hell with it! Look, I don't give a shit about your relationship with the Army or any other groups around here. A man's got to make a living and my salary ain't worth crap, so I'm more than willing to sell you surplus stock and ammo, military grade issue... You're also free to hand me any goods you find and I'll throw some rubles your way, but don't expect a miracle, I'm not made of money. What are you so surprised about, never seen a man in uniform take a side job from time to time? Everyone's in on it, even my higher-ups tolerate me because I kick up a percentage of the profits their way, and the local troops look after me because for them it's good business to offload excess frags and spare mags for some booze money! Well, what are you staring at, are we gonna to do business or what?",
+      "JA_new": "落ち着けよ、ストーカー。あんたが話してるのは……補給係だ。ああ、もういい！ 軍やこの辺のほかの勢力とどういう関係だろうが、俺は気にしない。食っていかなきゃならないが、給料じゃ大した足しにもならん。だから余った軍用品や弾薬を売ってやる。見つけた品を持ち込めば、ルーブルも払うよ。ただし、大金は期待するな。こっちは金持ちじゃないんでね。制服を着た奴が時々副業したくらいで、そんなに驚くことか？ みんな承知の上さ。上の連中だって利益の一部を回してやれば見逃してくれるし、現地の兵隊も余った手榴弾や予備マガジンを酒代に換えるのは悪くないと思ってる。で、何を見てる？ 取引するのか、しないのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "military_trader",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_new_traders:military_trader_buy#1",
+      "source_table": "stable_dialogs_new_traders",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_new_traders.xml",
+      "source_xml_line": 10,
+      "string_id": "military_trader_buy",
+      "occurrence": 1,
+      "EN": "Alright, let's get down to business.",
+      "JA_current": "Alright, let's get down to business.",
+      "JA_new": "よし、商談といこう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "military_trader",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_agroprom.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "military_trader_who",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh, look at this, army boy! What are you doing around here, who are you?? Well, answer me when I'm talking to you!",
+      "JA_current": "Oh, look at this, army boy! What are you doing around here, who are you?? Well, answer me when I'm talking to you!",
+      "string_entry_candidates": [
+        "stable_dialogs_new_traders:military_trader_who#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "military_trader_about",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "agr_military_trader_intro"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Curb your enthusiasm, stalker, you are addressing yourself to the quartermaster of... Ah, to hell with it! Look, I don't give a shit about your relationship with the Army or any other groups around here. A man's got to make a living and my salary ain't worth crap, so I'm more than willing to sell you surplus stock and ammo, military grade issue... You're also free to hand me any goods you find and I'll throw some rubles your way, but don't expect a miracle, I'm not made of money. What are you so surprised about, never seen a man in uniform take a side job from time to time? Everyone's in on it, even my higher-ups tolerate me because I kick up a percentage of the profits their way, and the local troops look after me because for them it's good business to offload excess frags and spare mags for some booze money! Well, what are you staring at, are we gonna to do business or what?",
+      "JA_current": "Curb your enthusiasm, stalker, you are addressing yourself to the quartermaster of... Ah, to hell with it! Look, I don't give a shit about your relationship with the Army or any other groups around here. A man's got to make a living and my salary ain't worth crap, so I'm more than willing to sell you surplus stock and ammo, military grade issue... You're also free to hand me any goods you find and I'll throw some rubles your way, but don't expect a miracle, I'm not made of money. What are you so surprised about, never seen a man in uniform take a side job from time to time? Everyone's in on it, even my higher-ups tolerate me because I kick up a percentage of the profits their way, and the local troops look after me because for them it's good business to offload excess frags and spare mags for some booze money! Well, what are you staring at, are we gonna to do business or what?",
+      "string_entry_candidates": [
+        "stable_dialogs_new_traders:military_trader_about#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "military_trader_buy",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Alright, let's get down to business.",
+      "JA_current": "Alright, let's get down to business.",
+      "string_entry_candidates": [
+        "stable_dialogs_new_traders:military_trader_buy#1"
+      ]
+    }
+  ]
+}

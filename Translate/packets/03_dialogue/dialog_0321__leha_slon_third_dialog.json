@@ -1,0 +1,313 @@
+{
+  "packet_id": "dialog_0321__leha_slon_third_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "leha_slon_third_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "leha_slon",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "stas_goto_start_point"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "stas_chujoi_free"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "stas_chujoi_dead"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 6,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:leha_slon_third_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2576,
+      "string_id": "leha_slon_third_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "I rescued your brother from captivity. He is free.",
+      "JA_current": "I rescued your brother from captivity. He is free.",
+      "JA_new": "弟を助け出した。もう自由だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_third_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_third_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2579,
+      "string_id": "leha_slon_third_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Holy shit, man... Now I owe you my life! Here you go, your artifact, like on a silver platter. Managed to get it back for you. Give it to the scientists and tell them not to hold it against me.",
+      "JA_current": "Holy shit, man... Now I owe you my life! Here you go, your artifact, like on a silver platter. Managed to get it back for you. Give it to the scientists and tell them not to hold it against me.",
+      "JA_new": "なんてこった……これで一生、あんたに借りができたな！ ほら、アーティファクトだ。約束どおり、ちゃんと取り戻してきた。科学者に渡して、俺を責めないでくれって伝えてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_third_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_third_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2582,
+      "string_id": "leha_slon_third_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "I'll be sure to do so.",
+      "JA_current": "I'll be sure to do so.",
+      "JA_new": "分かった。そうするよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_third_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_third_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2585,
+      "string_id": "leha_slon_third_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Wait, here's something else from me personally:",
+      "JA_current": "Wait, here's something else from me personally:",
+      "JA_new": "待ってくれ。もう一つ、個人的に渡したいものがある。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_third_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_third_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2588,
+      "string_id": "leha_slon_third_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Thank you.",
+      "JA_current": "Thank you.",
+      "JA_new": "ありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_third_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:leha_slon_third_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2591,
+      "string_id": "leha_slon_third_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "No, thank YOU!.",
+      "JA_current": "No, thank YOU!.",
+      "JA_new": "いや、礼を言うのは俺のほうだ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "leha_slon_third_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "leha_slon_third_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I rescued your brother from captivity. He is free.",
+      "JA_current": "I rescued your brother from captivity. He is free.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_third_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "leha_slon_third_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.prigun_in"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.mayak_out"
+        },
+        {
+          "type": "action",
+          "value": "addon_dialogs.set_army_enemy"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Holy shit, man... Now I owe you my life! Here you go, your artifact, like on a silver platter. Managed to get it back for you. Give it to the scientists and tell them not to hold it against me.",
+      "JA_current": "Holy shit, man... Now I owe you my life! Here you go, your artifact, like on a silver platter. Managed to get it back for you. Give it to the scientists and tell them not to hold it against me.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_third_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "leha_slon_third_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'll be sure to do so.",
+      "JA_current": "I'll be sure to do so.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_third_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "leha_slon_third_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "addon_dialogs.leha_slon_reward"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Wait, here's something else from me personally:",
+      "JA_current": "Wait, here's something else from me personally:",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_third_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "leha_slon_third_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you.",
+      "JA_current": "Thank you.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_third_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "leha_slon_third_dialog_phrase_6",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "turrets_shoot_on"
+        },
+        {
+          "type": "give_info",
+          "value": "stas_chujoi_free"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, thank YOU!.",
+      "JA_current": "No, thank YOU!.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:leha_slon_third_dialog_phrase_6#1"
+      ]
+    }
+  ]
+}

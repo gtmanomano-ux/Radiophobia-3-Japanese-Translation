@@ -1,0 +1,518 @@
+{
+  "packet_id": "dialog_0336__gar_dramm_novice_start",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "gar_dramm_novice_start",
+  "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml",
+  "graph_sha256": "a2f5a0932a2d77c3600e24d5b337f12ef7ed4b48e06af7ae7ab65d1d649f0ac4",
+  "character_bindings": [
+    {
+      "profile_id": "gar_dram_novice",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_garbage.xml"
+    }
+  ],
+  "dialog_conditions": [],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 11,
+  "entries": [
+    {
+      "key": "stable_dialogs_garbage:gar_dramm_novice_start_0#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 81,
+      "string_id": "gar_dramm_novice_start_0",
+      "occurrence": 1,
+      "EN": "Thanks man- you really helped me out. I won't forget it.",
+      "JA_current": "ありがとう。本当に助かったよ。このことは忘れない。",
+      "JA_new": "助かったよ。本当にありがとう。恩は忘れない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_dramm_novice_start",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_dramm_novice_start_1#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 84,
+      "string_id": "gar_dramm_novice_start_1",
+      "occurrence": 1,
+      "EN": "What's going on here?",
+      "JA_current": "何が起きてるんだ？",
+      "JA_new": "ここで何があった？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_dramm_novice_start",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_dramm_novice_start_11#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 87,
+      "string_id": "gar_dramm_novice_start_11",
+      "occurrence": 1,
+      "EN": "OK.",
+      "JA_current": "オーケー。",
+      "JA_new": "分かった。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_dramm_novice_start",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_dramm_novice_start_3#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 96,
+      "string_id": "gar_dramm_novice_start_3",
+      "occurrence": 1,
+      "EN": "Can you tell me anything about the Garbage?",
+      "JA_current": "Garbage についてなら何でも話してくれないか？",
+      "JA_new": "このガーベジについて何か教えてくれないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_dramm_novice_start",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_dramm_novice_start_2#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 90,
+      "string_id": "gar_dramm_novice_start_2",
+      "occurrence": 1,
+      "EN": "We're trying to clear the Garbage of bandits. My friends are going to ambush a bandit squad nearby. If we don't stop them, they'll take control of the Garbage and nobody will be able to go deeper into the Zone. Talk to our commander. He and his men are near here, at the machinery scrapyard. I'm going there myself - we can go together if you want.",
+      "JA_current": "俺たちは Garbage から Bandits を一掃しようとしているんだ。俺の友達がこの近くで Bandit の小グループを待ち伏せしようとしている。もし俺たちがコイツらを阻止できなかったら Garbage の主導権は奴らの手に落ち、誰もここから先へは進めなくなるだろう。俺たちの隊長と話してくれ。隊長たちはこの近くのスクラップ置き場 に居る。俺はそこに行くが、もし案内が要るなら一緒に行こう。",
+      "JA_new": "俺たちはガーベジからバンディットを一掃しようとしてる。仲間が近くでバンディットの部隊を待ち伏せするところだ。止めなきゃ、奴らにガーベジを支配されて、ゾーンの奥へ進めなくなる。指揮官に話してくれ。機械のスクラップ置き場のそばにいる。俺も向かうところだ。一緒に行くか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_dramm_novice_start",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_dramm_novice_start_31#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 99,
+      "string_id": "gar_dramm_novice_start_31",
+      "occurrence": 1,
+      "EN": "There ain't much to tell, man. The Garbage is... a dump. Duty fighters guard the northern road to the Bar. You might want to avoid them - Duty is full of real nasty types. To the right are the paths into the Dark Valley but the radiation levels are very high there. A little closer is the Grimpen Mire - terrible marshes full of anomalies. They say it's easy to find some decent artifacts there but even easier to find a lot of trouble. Oh well, at least there ain't no Hound of the Baskervilles in the Mire!",
+      "JA_current": "話せる事はそう多くないよ。Garbage は… 簡単に言うとゴミ捨て場だな。Duty の兵士が Bar へ続く道の北端を警護している。アンタは彼らを避けたいと思うかもしれない。Duty は本当に厄介だからな。右に行くと Dark Valley へ通じる小道があるが、放射能汚染が酷い。その手前にある Grimpen 沼 ― アノーマリーで一杯の恐ろしい沼地 ― では簡単に上等なアーティファクトを見つけられるけど、もっと容易く各種のトラブルに巻き込まれるだろう。まあ流石に「魔犬」は居ないけどな！",
+      "JA_new": "大した話はないさ。ガーベジは……まあ、ゴミ捨て場だ。北のロストクへ続く道はデューティーの兵士が見張ってる。近寄らない方がいい。デューティーには厄介な連中が多いからな。右手にはダークバレーへ続く道があるが、放射線がかなり強い。もう少し近くにグリンペン湿地って恐ろしい沼地がある。アノマリーだらけだ。いいアーティファクトが見つかるって話だが、面倒に巻き込まれる方がもっと簡単さ。まあ、少なくとも沼地にバスカヴィル家の犬はいないけどな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_dramm_novice_start",
+          "phrase_id": "31",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_dramm_novice_start_21#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 93,
+      "string_id": "gar_dramm_novice_start_21",
+      "occurrence": 1,
+      "EN": "Let's go.",
+      "JA_current": "行こうか。",
+      "JA_new": "行こう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_dramm_novice_start",
+          "phrase_id": "21",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_dramm_novice_start_311#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 102,
+      "string_id": "gar_dramm_novice_start_311",
+      "occurrence": 1,
+      "EN": "Go on.",
+      "JA_current": "それから？",
+      "JA_new": "それで？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_dramm_novice_start",
+          "phrase_id": "311",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_dramm_novice_start_312#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 111,
+      "string_id": "gar_dramm_novice_start_312",
+      "occurrence": 1,
+      "EN": "That's interesting, thanks.",
+      "JA_current": "そりゃおもしろい。ありがとよ。",
+      "JA_new": "面白い話だな。ありがとう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_dramm_novice_start",
+          "phrase_id": "312",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_dramm_novice_start_3111#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 105,
+      "string_id": "gar_dramm_novice_start_3111",
+      "occurrence": 1,
+      "EN": "To the right, by the marshes, there's a secret hiding place. You'll see a metallic construction overhanging a puddle. My stash is right below it...I put it there a while ago but you saved my life and you probably need it more than I do anyway. So feel free to use it.",
+      "JA_current": "沼地の右手に秘密の隠し場所がある。俺の隠し場所は沼に突き出た鉄骨の右下だ。…結構長く隠してたんだが、アンタは命の恩人だし俺が使うより有益だろうから中身は勝手に持っていっていいよ。",
+      "JA_new": "沼地の右手に、秘密の隠し場所がある。水たまりにせり出した金属の構造物が見えるはずだ。その真下に俺の隠し物がある……前から置いてたが、あんたは命を救ってくれたし、俺より必要だろう。遠慮なく使ってくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_dramm_novice_start",
+          "phrase_id": "3111",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_garbage:gar_dramm_novice_start_31111#1",
+      "source_table": "stable_dialogs_garbage",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_garbage.xml",
+      "source_xml_line": 108,
+      "string_id": "gar_dramm_novice_start_31111",
+      "occurrence": 1,
+      "EN": "Thanks man, that's useful info.",
+      "JA_current": "ありがとよ。有用な情報だ。",
+      "JA_new": "ありがとう。助かる情報だ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "gar_dramm_novice_start",
+          "phrase_id": "31111",
+          "graph_source": "gamedata/config/gameplay/dialogs_garbage.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "gar_dramm_novice_start_0",
+      "next": [
+        "1",
+        "11",
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thanks man- you really helped me out. I won't forget it.",
+      "JA_current": "ありがとう。本当に助かったよ。このことは忘れない。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_dramm_novice_start_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "gar_dramm_novice_start_1",
+      "next": [
+        "2"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "gar_dm_novice_change_st"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What's going on here?",
+      "JA_current": "何が起きてるんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_dramm_novice_start_1#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "gar_dramm_novice_start_11",
+      "next": [],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "gar_dm_novice_change_st"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "OK.",
+      "JA_current": "オーケー。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_dramm_novice_start_11#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "gar_dramm_novice_start_3",
+      "next": [
+        "31"
+      ],
+      "conditions": [
+        {
+          "type": "dont_has_info",
+          "value": "gar_add_fake_spot3"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Can you tell me anything about the Garbage?",
+      "JA_current": "Garbage についてなら何でも話してくれないか？",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_dramm_novice_start_3#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "gar_dramm_novice_start_2",
+      "next": [
+        "21"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "We're trying to clear the Garbage of bandits. My friends are going to ambush a bandit squad nearby. If we don't stop them, they'll take control of the Garbage and nobody will be able to go deeper into the Zone. Talk to our commander. He and his men are near here, at the machinery scrapyard. I'm going there myself - we can go together if you want.",
+      "JA_current": "俺たちは Garbage から Bandits を一掃しようとしているんだ。俺の友達がこの近くで Bandit の小グループを待ち伏せしようとしている。もし俺たちがコイツらを阻止できなかったら Garbage の主導権は奴らの手に落ち、誰もここから先へは進めなくなるだろう。俺たちの隊長と話してくれ。隊長たちはこの近くのスクラップ置き場 に居る。俺はそこに行くが、もし案内が要るなら一緒に行こう。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_dramm_novice_start_2#1"
+      ]
+    },
+    {
+      "phrase_id": "31",
+      "text_id": "gar_dramm_novice_start_31",
+      "next": [
+        "311",
+        "312"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "There ain't much to tell, man. The Garbage is... a dump. Duty fighters guard the northern road to the Bar. You might want to avoid them - Duty is full of real nasty types. To the right are the paths into the Dark Valley but the radiation levels are very high there. A little closer is the Grimpen Mire - terrible marshes full of anomalies. They say it's easy to find some decent artifacts there but even easier to find a lot of trouble. Oh well, at least there ain't no Hound of the Baskervilles in the Mire!",
+      "JA_current": "話せる事はそう多くないよ。Garbage は… 簡単に言うとゴミ捨て場だな。Duty の兵士が Bar へ続く道の北端を警護している。アンタは彼らを避けたいと思うかもしれない。Duty は本当に厄介だからな。右に行くと Dark Valley へ通じる小道があるが、放射能汚染が酷い。その手前にある Grimpen 沼 ― アノーマリーで一杯の恐ろしい沼地 ― では簡単に上等なアーティファクトを見つけられるけど、もっと容易く各種のトラブルに巻き込まれるだろう。まあ流石に「魔犬」は居ないけどな！",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_dramm_novice_start_31#1"
+      ]
+    },
+    {
+      "phrase_id": "21",
+      "text_id": "gar_dramm_novice_start_21",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "gar_add_fake_spot3"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Let's go.",
+      "JA_current": "行こうか。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_dramm_novice_start_21#1"
+      ]
+    },
+    {
+      "phrase_id": "311",
+      "text_id": "gar_dramm_novice_start_311",
+      "next": [
+        "3111"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "gar_add_fake_spot1"
+        },
+        {
+          "type": "give_info",
+          "value": "gar_add_fake_spot4"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "31"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Go on.",
+      "JA_current": "それから？",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_dramm_novice_start_311#1"
+      ]
+    },
+    {
+      "phrase_id": "312",
+      "text_id": "gar_dramm_novice_start_312",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "gar_add_fake_spot1"
+        },
+        {
+          "type": "give_info",
+          "value": "gar_add_fake_spot4"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "31"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "That's interesting, thanks.",
+      "JA_current": "そりゃおもしろい。ありがとよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_dramm_novice_start_312#1"
+      ]
+    },
+    {
+      "phrase_id": "3111",
+      "text_id": "gar_dramm_novice_start_3111",
+      "next": [
+        "31111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "311"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "To the right, by the marshes, there's a secret hiding place. You'll see a metallic construction overhanging a puddle. My stash is right below it...I put it there a while ago but you saved my life and you probably need it more than I do anyway. So feel free to use it.",
+      "JA_current": "沼地の右手に秘密の隠し場所がある。俺の隠し場所は沼に突き出た鉄骨の右下だ。…結構長く隠してたんだが、アンタは命の恩人だし俺が使うより有益だろうから中身は勝手に持っていっていいよ。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_dramm_novice_start_3111#1"
+      ]
+    },
+    {
+      "phrase_id": "31111",
+      "text_id": "gar_dramm_novice_start_31111",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "gar_add_fake_spot2"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "3111"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thanks man, that's useful info.",
+      "JA_current": "ありがとよ。有用な情報だ。",
+      "string_entry_candidates": [
+        "stable_dialogs_garbage:gar_dramm_novice_start_31111#1"
+      ]
+    }
+  ]
+}

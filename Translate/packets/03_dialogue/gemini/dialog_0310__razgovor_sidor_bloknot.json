@@ -1,0 +1,454 @@
+{
+  "packet_id": "dialog_0310__razgovor_sidor_bloknot",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "razgovor_sidor_bloknot",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "escape_trader",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "volk_pogovorit_sidor"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "zadanie_habar"
+    },
+    {
+      "type": "precondition",
+      "value": "escape_dialog.have_a_bloknot"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 10,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:razgovor_sidor_bloknot_phrase_1#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2180,
+      "string_id": "razgovor_sidor_bloknot_phrase_1",
+      "occurrence": 1,
+      "EN": "Hey, Sidorovich, I brought you something.",
+      "JA_current": "よお、シドロヴィッチ、いい物を持ってきたぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "razgovor_sidor_bloknot",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:razgovor_sidor_bloknot_phrase_2#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2183,
+      "string_id": "razgovor_sidor_bloknot_phrase_2",
+      "occurrence": 1,
+      "EN": "What have you got there? Better not be a waste of time!",
+      "JA_current": "何を持ってきた？ 時間の無駄じゃなきゃいいがな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "razgovor_sidor_bloknot",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:razgovor_sidor_bloknot_phrase_3#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2186,
+      "string_id": "razgovor_sidor_bloknot_phrase_3",
+      "occurrence": 1,
+      "EN": "You know that robbery you suffered some time ago? Well, I think I know who was truly responsible. Take a look at this notebook. It belonged to a rookie named Fedka who organized the whole thing. That outcast outside the camp had nothing to do with it, he was also a victim and took the blame. Wolf can confirm that.",
+      "JA_current": "少し前に盗難被害に遭っただろ？ 実は真犯人が分かったと思うんだ。この手帳を見てくれ。全部仕組んだのはフェドカっていうルーキーだ。キャンプの外にいる追放者は何も関わっちゃいない、あいつも被害者で罪を着せられただけだ。ウルフも証言してくれる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "razgovor_sidor_bloknot",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:razgovor_sidor_bloknot_phrase_4#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2189,
+      "string_id": "razgovor_sidor_bloknot_phrase_4",
+      "occurrence": 1,
+      "EN": "Holy shit! So you found the bastard?! Who would've thought... Where is he now!? I'm fixing to have a long chat with that Fedka bastard!",
+      "JA_current": "なんだって！？ あの野郎を見つけ出したのか！？ まさか……そいつは今どこにいる！？ フェドカの野郎とじっくり「お話し」してやらなきゃならんな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "razgovor_sidor_bloknot",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:razgovor_sidor_bloknot_phrase_5#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2192,
+      "string_id": "razgovor_sidor_bloknot_phrase_5",
+      "occurrence": 1,
+      "EN": "It seems a bloodsucker has already had a chat with him about it.",
+      "JA_current": "どうやらブラッドサッカーが、一足先にそいつとじっくり「お話し」を済ませちまったようだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "razgovor_sidor_bloknot",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:razgovor_sidor_bloknot_phrase_6#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2195,
+      "string_id": "razgovor_sidor_bloknot_phrase_6",
+      "occurrence": 1,
+      "EN": "Oh, yeah? Well, good riddance to him, that thief!... Wait, here he writes that he wanted to sell my stuff to some Vovan. Do you know who this guy is?",
+      "JA_current": "ほう、そうかい？ まあ、あの泥棒野郎がくたばったんなら清々したぜ！ ……おい待て、ここには俺から盗んだブツをヴォヴァンとかいう奴に売りつけようとしてたって書いてあるぞ。その男に心当たりはあるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "razgovor_sidor_bloknot",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:razgovor_sidor_bloknot_phrase_7#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2198,
+      "string_id": "razgovor_sidor_bloknot_phrase_7",
+      "occurrence": 1,
+      "EN": "No, it's the first time I've heard of him.",
+      "JA_current": "いや、聞いたこともないな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "razgovor_sidor_bloknot",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:razgovor_sidor_bloknot_phrase_8#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2201,
+      "string_id": "razgovor_sidor_bloknot_phrase_8",
+      "occurrence": 1,
+      "EN": "Well, you've got amnesia anyway... Okay, let me check my address book. I keep a record of some of my clients, maybe there's something about him... Yeah, there's a \"Vovan from the dark valley\" who came to see me once... Marked One, please, check it out when you can and see if my loot is there! They took away my hard-earned stuff, the bastards, I'm virtually penniless here! Help an old trader out! Find that Vovan, take my stuff from him if it's there and bring it back to me. I'll pay you back properly!",
+      "JA_current": "まあ、お前さんは記憶喪失だからな……よし、顧客名簿を調べてみるか。客の記録は何人か付けてあるから、何か載ってるかもしれん……ああ、「ダークバレーのヴォヴァン」って奴が一度俺のところに来たことがあるな……マークド・ワン、頼む、手の空いたときに探りを入れて、俺の盗品がないか見てきてくれないか！ 汗水垂らして仕入れた大事なブツを奪われたんだ、あのクソ野郎どもめ、俺はすっからかんだよ！ 老いぼれ商人を助けると思ってくれ！ そのヴォヴァンを探し出して、もし俺の品があったら取り戻して持ってきてくれ。相応の礼はきっちり弾むから！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "razgovor_sidor_bloknot",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:razgovor_sidor_bloknot_phrase_9#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2204,
+      "string_id": "razgovor_sidor_bloknot_phrase_9",
+      "occurrence": 1,
+      "EN": "Why not, I'll try to find it.",
+      "JA_current": "いいだろう、探してみる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "razgovor_sidor_bloknot",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:razgovor_sidor_bloknot_phrase_10#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 2207,
+      "string_id": "razgovor_sidor_bloknot_phrase_10",
+      "occurrence": 1,
+      "EN": "Glad to hear! But hurry up, or that bastard will sell out all my stuff. What are you standing around for? Go look for Vovan. I'm losing money every second because of you. And hurry up! That's my money he's taking in his pocket!",
+      "JA_current": "そうこなくっちゃな！ だが急げよ、ぐずぐずしてたらあの野郎に全部売り払われちまう。何をつっ立ってるんだ？ 早くヴォヴァンを探しに行け。お前さんがここで油を売ってる間にも、俺の金が毎秒消えていってるんだぞ。急げって！ あいつが懐に入れてるのは俺の金なんだからな！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "razgovor_sidor_bloknot",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "razgovor_sidor_bloknot_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Hey, Sidorovich, I brought you something.",
+      "JA_current": "Hey, Sidorovich, I brought you something.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:razgovor_sidor_bloknot_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "razgovor_sidor_bloknot_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What have you got there? Better not be a waste of time!",
+      "JA_current": "What have you got there? Better not be a waste of time!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:razgovor_sidor_bloknot_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "razgovor_sidor_bloknot_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "escape_dialog.otday_bloknot"
+        },
+        {
+          "type": "give_info",
+          "value": "bloknot_otdan"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You know that robbery you suffered some time ago? Well, I think I know who was truly responsible. Take a look at this notebook. It belonged to a rookie named Fedka who organized the whole thing. That outcast outside the camp had nothing to do with it, he was also a victim and took the blame. Wolf can confirm that.",
+      "JA_current": "You know that robbery you suffered some time ago? Well, I think I know who was truly responsible. Take a look at this notebook. It belonged to a rookie named Fedka who organized the whole thing. That outcast outside the camp had nothing to do with it, he was also a victim and took the blame. Wolf can confirm that.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:razgovor_sidor_bloknot_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "razgovor_sidor_bloknot_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Holy shit! So you found the bastard?! Who would've thought... Where is he now!? I'm fixing to have a long chat with that Fedka bastard!",
+      "JA_current": "Holy shit! So you found the bastard?! Who would've thought... Where is he now!? I'm fixing to have a long chat with that Fedka bastard!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:razgovor_sidor_bloknot_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "razgovor_sidor_bloknot_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It seems a bloodsucker has already had a chat with him about it.",
+      "JA_current": "It seems a bloodsucker has already had a chat with him about it.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:razgovor_sidor_bloknot_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "razgovor_sidor_bloknot_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Oh, yeah? Well, good riddance to him, that thief!... Wait, here he writes that he wanted to sell my stuff to some Vovan. Do you know who this guy is?",
+      "JA_current": "Oh, yeah? Well, good riddance to him, that thief!... Wait, here he writes that he wanted to sell my stuff to some Vovan. Do you know who this guy is?",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:razgovor_sidor_bloknot_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "razgovor_sidor_bloknot_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "No, it's the first time I've heard of him.",
+      "JA_current": "No, it's the first time I've heard of him.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:razgovor_sidor_bloknot_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "razgovor_sidor_bloknot_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, you've got amnesia anyway... Okay, let me check my address book. I keep a record of some of my clients, maybe there's something about him... Yeah, there's a \"Vovan from the dark valley\" who came to see me once... Marked One, please, check it out when you can and see if my loot is there! They took away my hard-earned stuff, the bastards, I'm virtually penniless here! Help an old trader out! Find that Vovan, take my stuff from him if it's there and bring it back to me. I'll pay you back properly!",
+      "JA_current": "Well, you've got amnesia anyway... Okay, let me check my address book. I keep a record of some of my clients, maybe there's something about him... Yeah, there's a \"Vovan from the dark valley\" who came to see me once... Marked One, please, check it out when you can and see if my loot is there! They took away my hard-earned stuff, the bastards, I'm virtually penniless here! Help an old trader out! Find that Vovan, take my stuff from him if it's there and bring it back to me. I'll pay you back properly!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:razgovor_sidor_bloknot_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "razgovor_sidor_bloknot_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Why not, I'll try to find it.",
+      "JA_current": "Why not, I'll try to find it.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:razgovor_sidor_bloknot_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "razgovor_sidor_bloknot_phrase_10",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "escape_dialog.spawn_vovan_and_give_quest"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Glad to hear! But hurry up, or that bastard will sell out all my stuff. What are you standing around for? Go look for Vovan. I'm losing money every second because of you. And hurry up! That's my money he's taking in his pocket!",
+      "JA_current": "Glad to hear! But hurry up, or that bastard will sell out all my stuff. What are you standing around for? Go look for Vovan. I'm losing money every second because of you. And hurry up! That's my money he's taking in his pocket!",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:razgovor_sidor_bloknot_phrase_10#1"
+      ]
+    }
+  ]
+}

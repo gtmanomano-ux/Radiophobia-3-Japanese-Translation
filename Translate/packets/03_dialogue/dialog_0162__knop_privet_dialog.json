@@ -1,0 +1,506 @@
+{
+  "packet_id": "dialog_0162__knop_privet_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "knop_privet_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "knop_stalker",
+      "binding_type": "start_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "knop_o_gruppe"
+    }
+  ],
+  "root_speaker_hint": "npc",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 11,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:knop_privet_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1838,
+      "string_id": "knop_privet_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "Thank you so much, man! If it wasn't for you, those thugs would have shot me...",
+      "JA_current": "Thank you so much, man! If it wasn't for you, those thugs would have shot me...",
+      "JA_new": "本当にありがとう！ あんたが来てくれなかったら、あのチンピラに撃たれてたよ……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "knop_privet_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:knop_privet_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1841,
+      "string_id": "knop_privet_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "I'm glad I got here in time. Are you okay?",
+      "JA_current": "I'm glad I got here in time. Are you okay?",
+      "JA_new": "間に合ってよかった。大丈夫か？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "knop_privet_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:knop_privet_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1844,
+      "string_id": "knop_privet_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "I'm.. I'm fine, think I took one to the vest but.. it will heal before the wedding, as they say. How can I thank you?",
+      "JA_current": "I'm.. I'm fine, think I took one to the vest but.. it will heal before the wedding, as they say. How can I thank you?",
+      "JA_new": "だ、大丈夫だ。ベストに一発食らった気がするが……そのうち治るさ。結婚式までには治る、ってな。どう礼を言えばいい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "knop_privet_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:knop_privet_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1847,
+      "string_id": "knop_privet_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "I don't want anything from you, except some information. To begin with, I know who you really are, but that's not the point. All I want to know is this: where is the group now?",
+      "JA_current": "I don't want anything from you, except some information. To begin with, I know who you really are, but that's not the point. All I want to know is this: where is the group now?",
+      "JA_new": "礼はいらない。情報を教えてくれればいい。まず、あんたの正体は知ってる。だが今はそこじゃない。知りたいのは、あの一団が今どこにいるかだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "knop_privet_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:knop_privet_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1850,
+      "string_id": "knop_privet_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Ah, so it IS you... It turns out that Waterman's plans will be ruined after all.",
+      "JA_current": "Ah, so it IS you... It turns out that Waterman's plans will be ruined after all.",
+      "JA_new": "ああ、やっぱりあんたか……どうやらウォーターマンの計画は潰れるらしいな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "knop_privet_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:knop_privet_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1853,
+      "string_id": "knop_privet_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "What are you talking about? Be more specific. Who's Waterman? The leader?",
+      "JA_current": "What are you talking about? Be more specific. Who's Waterman? The leader?",
+      "JA_new": "何の話だ？ もっと具体的に言ってくれ。ウォーターマンって誰だ？ リーダーか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "knop_privet_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:knop_privet_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1856,
+      "string_id": "knop_privet_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Yes, he's in charge.",
+      "JA_current": "Yes, he's in charge.",
+      "JA_new": "そうだ。あいつが指揮を執ってる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "knop_privet_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:knop_privet_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1859,
+      "string_id": "knop_privet_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "Let's start at the beginning. Why do they call you an agent? Tell me everything in order.",
+      "JA_current": "Let's start at the beginning. Why do they call you an agent? Tell me everything in order.",
+      "JA_new": "最初から話してくれ。なぜあんたをエージェントと呼ぶ？ 知ってることを順に全部話せ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "knop_privet_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:knop_privet_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1862,
+      "string_id": "knop_privet_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "With pleasure! What.. Are you surprised that I'm willing to tell you everything so easily? The thing is, I'm not really with Waterman and his group, I was just hired by them to run errands, carry messages and gather info, stuff like that. I didn't know who they were at the beginning, all I knew was that they paid well. Really well! I thought they were just some merc outfit, they're the only ones with money around here. But then, things started to get weird with some of the instructions I was given, it was all very fishy.. So, I decided to take a peek inside one of their stashes, hooked up a USB to my PDA.. Yeah, bad idea, I know.. Must've been protected somehow, because as I started reading the shit on it, my PDA send some type of data packet across the network and died all of a sudden, like from a virus or something! One thing was for sure, they'd definitely know what I had done and there was no going back. I was certain they'd ice me after what I'd seen on there, and boy was I right. How much you wanna bet that Waterman paid for these mercs? Anyway, let's get to the point.. Did you know the information on that USB was about you??",
+      "JA_current": "With pleasure! What.. Are you surprised that I'm willing to tell you everything so easily? The thing is, I'm not really with Waterman and his group, I was just hired by them to run errands, carry messages and gather info, stuff like that. I didn't know who they were at the beginning, all I knew was that they paid well. Really well! I thought they were just some merc outfit, they're the only ones with money around here. But then, things started to get weird with some of the instructions I was given, it was all very fishy.. So, I decided to take a peek inside one of their stashes, hooked up a USB to my PDA.. Yeah, bad idea, I know.. Must've been protected somehow, because as I started reading the shit on it, my PDA send some type of data packet across the network and died all of a sudden, like from a virus or something! One thing was for sure, they'd definitely know what I had done and there was no going back. I was certain they'd ice me after what I'd seen on there, and boy was I right. How much you wanna bet that Waterman paid for these mercs? Anyway, let's get to the point.. Did you know the information on that USB was about you??",
+      "JA_new": "喜んで話すよ！ こんなに簡単に話すのが意外か？ 実は、俺はウォーターマンたちの仲間じゃない。使い走りをしたり、伝言を運んだり、情報を集めたりする仕事を雇われてやってただけだ。最初は相手が誰なのか知らなかった。ただ、報酬がよかったんだ。本当にな！ 金を持ってるのはマーセナリーズくらいだから、傭兵の一団だと思ってた。でも、妙な指示が増えてきた。どうにもきな臭くてな……それで、隠し場所の一つをのぞいて、USBメモリをPDAにつないだ。ああ、やるんじゃなかった……何かで保護されてたんだろう。中身を読み始めた途端、PDAがネットワークに何かのデータパケットを送って、ウイルスにやられたみたいに突然壊れた！ 一つだけ確かなのは、連中に何をしたか知られたってことだ。もう後戻りできなかった。見た物のせいで殺されると思ったよ。実際、その通りだった。あのマーセナリーズを雇ったのも、ウォーターマンじゃないか？ とにかく本題に戻ろう……USBの情報がお前についてのものだったって、知ってたか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "knop_privet_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:knop_privet_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1865,
+      "string_id": "knop_privet_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "Tell me, I'm listening carefully.",
+      "JA_current": "Tell me, I'm listening carefully.",
+      "JA_new": "話してくれ。ちゃんと聞いてる。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "knop_privet_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:knop_privet_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1868,
+      "string_id": "knop_privet_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "Well, you're not gonna believe this, but- ...",
+      "JA_current": "Well, you're not gonna believe this, but- ...",
+      "JA_new": "実は、信じられないかもしれないが――……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "knop_privet_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "knop_privet_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "knop_privet"
+        }
+      ],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thank you so much, man! If it wasn't for you, those thugs would have shot me...",
+      "JA_current": "Thank you so much, man! If it wasn't for you, those thugs would have shot me...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:knop_privet_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "knop_privet_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm glad I got here in time. Are you okay?",
+      "JA_current": "I'm glad I got here in time. Are you okay?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:knop_privet_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "knop_privet_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm.. I'm fine, think I took one to the vest but.. it will heal before the wedding, as they say. How can I thank you?",
+      "JA_current": "I'm.. I'm fine, think I took one to the vest but.. it will heal before the wedding, as they say. How can I thank you?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:knop_privet_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "knop_privet_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I don't want anything from you, except some information. To begin with, I know who you really are, but that's not the point. All I want to know is this: where is the group now?",
+      "JA_current": "I don't want anything from you, except some information. To begin with, I know who you really are, but that's not the point. All I want to know is this: where is the group now?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:knop_privet_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "knop_privet_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Ah, so it IS you... It turns out that Waterman's plans will be ruined after all.",
+      "JA_current": "Ah, so it IS you... It turns out that Waterman's plans will be ruined after all.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:knop_privet_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "knop_privet_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What are you talking about? Be more specific. Who's Waterman? The leader?",
+      "JA_current": "What are you talking about? Be more specific. Who's Waterman? The leader?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:knop_privet_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "knop_privet_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yes, he's in charge.",
+      "JA_current": "Yes, he's in charge.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:knop_privet_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "knop_privet_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Let's start at the beginning. Why do they call you an agent? Tell me everything in order.",
+      "JA_current": "Let's start at the beginning. Why do they call you an agent? Tell me everything in order.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:knop_privet_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "knop_privet_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "With pleasure! What.. Are you surprised that I'm willing to tell you everything so easily? The thing is, I'm not really with Waterman and his group, I was just hired by them to run errands, carry messages and gather info, stuff like that. I didn't know who they were at the beginning, all I knew was that they paid well. Really well! I thought they were just some merc outfit, they're the only ones with money around here. But then, things started to get weird with some of the instructions I was given, it was all very fishy.. So, I decided to take a peek inside one of their stashes, hooked up a USB to my PDA.. Yeah, bad idea, I know.. Must've been protected somehow, because as I started reading the shit on it, my PDA send some type of data packet across the network and died all of a sudden, like from a virus or something! One thing was for sure, they'd definitely know what I had done and there was no going back. I was certain they'd ice me after what I'd seen on there, and boy was I right. How much you wanna bet that Waterman paid for these mercs? Anyway, let's get to the point.. Did you know the information on that USB was about you??",
+      "JA_current": "With pleasure! What.. Are you surprised that I'm willing to tell you everything so easily? The thing is, I'm not really with Waterman and his group, I was just hired by them to run errands, carry messages and gather info, stuff like that. I didn't know who they were at the beginning, all I knew was that they paid well. Really well! I thought they were just some merc outfit, they're the only ones with money around here. But then, things started to get weird with some of the instructions I was given, it was all very fishy.. So, I decided to take a peek inside one of their stashes, hooked up a USB to my PDA.. Yeah, bad idea, I know.. Must've been protected somehow, because as I started reading the shit on it, my PDA send some type of data packet across the network and died all of a sudden, like from a virus or something! One thing was for sure, they'd definitely know what I had done and there was no going back. I was certain they'd ice me after what I'd seen on there, and boy was I right. How much you wanna bet that Waterman paid for these mercs? Anyway, let's get to the point.. Did you know the information on that USB was about you??",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:knop_privet_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "knop_privet_dialog_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "knop_o_gruppe"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Tell me, I'm listening carefully.",
+      "JA_current": "Tell me, I'm listening carefully.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:knop_privet_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "knop_privet_dialog_phrase_11",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.vistrel_killera"
+        },
+        {
+          "type": "action",
+          "value": "amk.make_suicide"
+        },
+        {
+          "type": "action",
+          "value": "bar_spawn.spawn_sniper"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, you're not gonna believe this, but- ...",
+      "JA_current": "Well, you're not gonna believe this, but- ...",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:knop_privet_dialog_phrase_11#1"
+      ]
+    }
+  ]
+}

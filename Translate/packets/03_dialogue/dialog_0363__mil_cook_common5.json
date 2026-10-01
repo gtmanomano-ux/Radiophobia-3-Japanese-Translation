@@ -1,0 +1,287 @@
+{
+  "packet_id": "dialog_0363__mil_cook_common5",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "mil_cook_common5",
+  "graph_source": "gamedata/config/gameplay/dialogs_military.xml",
+  "graph_sha256": "7565e133fbc18c6a23f3b9b1619c9ab6ae5730590094ad796e9fb3c007469906",
+  "character_bindings": [
+    {
+      "profile_id": "mil_Svoboda_cook",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_military.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "precondition",
+      "value": "dialogs.dialog_allowed"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "mil_cook_dialog5"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 6,
+  "entries": [
+    {
+      "key": "stable_dialogs_military:mil_cook_common5_0#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 230,
+      "string_id": "mil_cook_common5_0",
+      "occurrence": 1,
+      "EN": "Listen, would you know where I can get some equipment?",
+      "JA_current": "聞きな。どこで装備を手に入れられるか知ってるかい？",
+      "JA_new": "装備を手に入れたいんだが、どこに行けばいい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common5",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common5_501#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 233,
+      "string_id": "mil_cook_common5_501",
+      "occurrence": 1,
+      "EN": "Equipment? That's some code-speak to me, bro!",
+      "JA_current": "装備だと？ 何かの暗号かい？ 兄弟！",
+      "JA_new": "装備？俺には暗号みたいに聞こえるな、兄弟！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common5",
+          "phrase_id": "501",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common5_502#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 236,
+      "string_id": "mil_cook_common5_502",
+      "occurrence": 1,
+      "EN": "Equipment. Weapons. Artifacts.",
+      "JA_current": "装備だよ。武器やアーティファクトだ。",
+      "JA_new": "装備だよ。武器とか、アーティファクトとか。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common5",
+          "phrase_id": "502",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common5_503#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 239,
+      "string_id": "mil_cook_common5_503",
+      "occurrence": 1,
+      "EN": "Weapons... no... my knife... Want my knife? No? Yeah... Artifacts. What the hell for? Take it easy. C'mon, sit. Light one up with me. Let's talk... about artifacts...",
+      "JA_current": "武器か… ナイフ… 俺のナイフが欲しいのか？ 何だ違うのか？ あぁ… アーティファクトか。一体何のためにだ？ まぁ気楽に行こうぜ。座りなよ。アーティファクトについて話そうじゃないか。",
+      "JA_new": "武器か……いや、俺のナイフなら……欲しいのか？違う？そうか……アーティファクトね。何のために？まあ、落ち着け。座って一服しようぜ。アーティファクトの話でもしよう……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common5",
+          "phrase_id": "503",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common5_504#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 242,
+      "string_id": "mil_cook_common5_504",
+      "occurrence": 1,
+      "EN": "Where can I find artifacts in this area?",
+      "JA_current": "このエリアのどこでアーティファクトは入手できるんだ？",
+      "JA_new": "この辺りでアーティファクトを見つけるには、どこへ行けばいい？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common5",
+          "phrase_id": "504",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_military:mil_cook_common5_505#1",
+      "source_table": "stable_dialogs_military",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_military.xml",
+      "source_xml_line": 245,
+      "string_id": "mil_cook_common5_505",
+      "occurrence": 1,
+      "EN": "That's easy! Artifacts... We got artifacts up to our ears! You know the radioactive swamp? No? Doesn’t matter. It's there. I mean, the artifacts. Are there. You just stop flapping about. Take it easy. Eh? Artifacts... he-he-he... artifacts-shmartifacts...",
+      "JA_current": "簡単さ！ アーティファクト… 俺たちゃ夢中になってアーティファクトを採った！ 放射能を帯びた、あの沼地を知ってるか？ 知らない？ どっちでもいい。そこにある。つまり、アーティファクトがさ。そこに、ある。お前は無駄話を、止める。無理すんな。あ？ アーティファクト… へ、へ、へ… アーティファクト、来る日も来る日アーティファクト…。",
+      "JA_new": "簡単さ！アーティファクトなら……ここには山ほどある！放射能の沼地を知ってるか？知らない？まあいい。そこにあるんだ。アーティファクトがな。そこにある。そんなにうろうろするなよ。落ち着け。な？アーティファクト……へへ……アーティファクト、アーティファクト……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "mil_cook_common5",
+          "phrase_id": "505",
+          "graph_source": "gamedata/config/gameplay/dialogs_military.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "mil_cook_common5_0",
+      "next": [
+        "501"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Listen, would you know where I can get some equipment?",
+      "JA_current": "聞きな。どこで装備を手に入れられるか知ってるかい？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common5_0#1"
+      ]
+    },
+    {
+      "phrase_id": "501",
+      "text_id": "mil_cook_common5_501",
+      "next": [
+        "502"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Equipment? That's some code-speak to me, bro!",
+      "JA_current": "装備だと？ 何かの暗号かい？ 兄弟！",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common5_501#1"
+      ]
+    },
+    {
+      "phrase_id": "502",
+      "text_id": "mil_cook_common5_502",
+      "next": [
+        "503"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "501"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Equipment. Weapons. Artifacts.",
+      "JA_current": "装備だよ。武器やアーティファクトだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common5_502#1"
+      ]
+    },
+    {
+      "phrase_id": "503",
+      "text_id": "mil_cook_common5_503",
+      "next": [
+        "504"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "502"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Weapons... no... my knife... Want my knife? No? Yeah... Artifacts. What the hell for? Take it easy. C'mon, sit. Light one up with me. Let's talk... about artifacts...",
+      "JA_current": "武器か… ナイフ… 俺のナイフが欲しいのか？ 何だ違うのか？ あぁ… アーティファクトか。一体何のためにだ？ まぁ気楽に行こうぜ。座りなよ。アーティファクトについて話そうじゃないか。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common5_503#1"
+      ]
+    },
+    {
+      "phrase_id": "504",
+      "text_id": "mil_cook_common5_504",
+      "next": [
+        "505"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "mil_cook_dialog5"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "503"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Where can I find artifacts in this area?",
+      "JA_current": "このエリアのどこでアーティファクトは入手できるんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common5_504#1"
+      ]
+    },
+    {
+      "phrase_id": "505",
+      "text_id": "mil_cook_common5_505",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "504"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "That's easy! Artifacts... We got artifacts up to our ears! You know the radioactive swamp? No? Doesn’t matter. It's there. I mean, the artifacts. Are there. You just stop flapping about. Take it easy. Eh? Artifacts... he-he-he... artifacts-shmartifacts...",
+      "JA_current": "簡単さ！ アーティファクト… 俺たちゃ夢中になってアーティファクトを採った！ 放射能を帯びた、あの沼地を知ってるか？ 知らない？ どっちでもいい。そこにある。つまり、アーティファクトがさ。そこに、ある。お前は無駄話を、止める。無理すんな。あ？ アーティファクト… へ、へ、へ… アーティファクト、来る日も来る日アーティファクト…。",
+      "string_entry_candidates": [
+        "stable_dialogs_military:mil_cook_common5_505#1"
+      ]
+    }
+  ]
+}

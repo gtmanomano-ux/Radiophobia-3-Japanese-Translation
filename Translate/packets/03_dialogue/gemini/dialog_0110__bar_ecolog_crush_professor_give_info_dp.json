@@ -1,0 +1,642 @@
+{
+  "packet_id": "dialog_0110__bar_ecolog_crush_professor_give_info_dp",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "bar_ecolog_crush_professor_give_info_dp",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "bar_ecolog_professor",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "bar_rescue_research_done"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 15,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_0#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1529,
+      "string_id": "bar_ecolog_crush_professor_give_info_dp_0",
+      "occurrence": 1,
+      "EN": "I'd like to know something.",
+      "JA_current": "少し聞きたいことがあります。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_ecolog_crush_professor_give_info_dp",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1532,
+      "string_id": "bar_ecolog_crush_professor_give_info_dp_1",
+      "occurrence": 1,
+      "EN": "What do you want to know?",
+      "JA_current": "何を知りたいのですか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_ecolog_crush_professor_give_info_dp",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1535,
+      "string_id": "bar_ecolog_crush_professor_give_info_dp_11",
+      "occurrence": 1,
+      "EN": "Who are you and how did you end up here?",
+      "JA_current": "あなたは何者で、どうしてここに？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_ecolog_crush_professor_give_info_dp",
+          "phrase_id": "11",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_12#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1541,
+      "string_id": "bar_ecolog_crush_professor_give_info_dp_12",
+      "occurrence": 1,
+      "EN": "Tell me about the Zone.",
+      "JA_current": "ゾーンについて教えてくれ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_ecolog_crush_professor_give_info_dp",
+          "phrase_id": "12",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_13#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1559,
+      "string_id": "bar_ecolog_crush_professor_give_info_dp_13",
+      "occurrence": 1,
+      "EN": "Why are Mercs looking for this information?",
+      "JA_current": "マーセナリーズは、どうしてこの情報を狙ってる？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_ecolog_crush_professor_give_info_dp",
+          "phrase_id": "13",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_14#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1565,
+      "string_id": "bar_ecolog_crush_professor_give_info_dp_14",
+      "occurrence": 1,
+      "EN": "I am looking for Lab X-16. Could you tell me where it is?",
+      "JA_current": "ラボX16を探している。場所を知らないか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_ecolog_crush_professor_give_info_dp",
+          "phrase_id": "14",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_15#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1571,
+      "string_id": "bar_ecolog_crush_professor_give_info_dp_15",
+      "occurrence": 1,
+      "EN": "Unfortunately I have to go. Good luck.",
+      "JA_current": "残念ですが、そろそろ行かないと。どうかご無事で。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_ecolog_crush_professor_give_info_dp",
+          "phrase_id": "15",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1538,
+      "string_id": "bar_ecolog_crush_professor_give_info_dp_111",
+      "occurrence": 1,
+      "EN": "My name is Kruglov. I am a professor of biology, I study the Zone. Yesterday, for example, I studied a life form of particular interest - Anthropomorphous Dendromutantus Vulgaris. I mostly study and document new species of mutant animals, looking in particular at their unique traits and distinctive features. The information is then thoroughly peer-reviewed and transferred to the outside world. Some of it, of course, goes to the Barkeep. My discoveries have helped to save the lives of many stalkers. I was just transporting the results of my latest research to the laboratory near Lake Yantar when the helicopter came under fire.",
+      "JA_current": "クルグロフです。生物学の教授で、ゾーンを研究しています。昨日は、特に興味深い生命体――Anthropomorphous Dendromutantus Vulgarisを調べていました。主に新種のミュータント動物を研究し、その固有の性質や特徴を記録しています。情報は専門家による査読を経て、外の世界へ送られるのです。もちろん、一部はバーキープにも渡しています。私の研究が多くのストーカーの命を救ってきました。昨日、最新の調査結果をヤンター湖近くの研究所へ運んでいたところ、ヘリが撃墜されてしまったのです。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_ecolog_crush_professor_give_info_dp",
+          "phrase_id": "111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_121#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1544,
+      "string_id": "bar_ecolog_crush_professor_give_info_dp_121",
+      "occurrence": 1,
+      "EN": "The Zone is a wonderful gift to humanity. Of course normal existence here is not possible due to the high radiation levels, anomalies and aggressive mutants. All of these things are obviously extremely dangerous but they are also things of great scientific value. The Zone is almost a natural experiment, a treasure for scientists! The extent to which humanity's knowledge could be increased through the study of the Zone is unfathomable. Technology, medicine, new plants- medical and edible, biotechnology, cures for incurable diseases...anything! Perhaps we can solve the food problem for the entire planet. If people didn't interfere, science could lead humanity into a new Golden Era!",
+      "JA_current": "ゾーンは人類にとって素晴らしい贈り物です。もちろん、高い放射線やアノマリー、凶暴なミュータントがいるため、普通の生活はできません。どれも非常に危険ですが、科学的には大きな価値があります。ゾーンは自然が生み出した実験場であり、科学者にとっての宝庫なのです。ここを研究すれば、人類の知識がどれほど広がるか、想像もつきません。技術、医学、薬用や食用の新植物、バイオテクノロジー、難病の治療法……何だってあり得る。地球全体の食糧問題まで解決できるかもしれません。人間が邪魔さえしなければ、科学が人類を新たな黄金時代へ導いてくれるでしょう！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_ecolog_crush_professor_give_info_dp",
+          "phrase_id": "121",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_131#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1562,
+      "string_id": "bar_ecolog_crush_professor_give_info_dp_131",
+      "occurrence": 1,
+      "EN": "I hope this doesn't offend you, but many stalkers are like children. They are seriously affected by things they find out. Just think of all these legends about a Monolith that grants wishes. What a joke! The problem is that these children play their games with real weapons and cause death. Childish people are often annoyed about the fact that someone doesn't share everything with them, including information that is not meant for them. There are no limits in the use of force. They shoot without thinking and kill those who study the Zone. They believe that this information will allow them to open the way to the center of the Zone. They're fools, dangerous and naive fools!",
+      "JA_current": "気を悪くしないでほしいのですが、多くのストーカーは子供のようです。知ったことに振り回されてしまう。願いを叶えるモノリスの伝説を考えてみてください。あんなもの、笑い話でしょう！ 問題は、子供じみた連中が本物の武器で遊び、人を死なせていることです。自分たちに関係のない情報まで何もかも共有しろと、誰かに言われると腹を立てる。力を使うことにためらいがない。何も考えずに撃ち、ゾーンを研究する者たちを殺すのです。その情報さえあればゾーンの中心への道が開けると信じている。愚かで、危険で、世間知らずな連中です！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_ecolog_crush_professor_give_info_dp",
+          "phrase_id": "131",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_141#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1568,
+      "string_id": "bar_ecolog_crush_professor_give_info_dp_141",
+      "occurrence": 1,
+      "EN": "Lab X-16? Hmm... Sakharov mentioned something of the sort in passing but I do not recall exactly what he said. Perhaps it's best to ask him yourself... He's currently in the mobile lab by Lake Yantar.",
+      "JA_current": "ラボX16ですか？ うーん……サハロフがそのような場所について話していた気もしますが、詳しくは覚えていません。本人に聞くのが一番でしょう。今はヤンター湖の移動研究所にいるはずです。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_ecolog_crush_professor_give_info_dp",
+          "phrase_id": "141",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_1211#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1547,
+      "string_id": "bar_ecolog_crush_professor_give_info_dp_1211",
+      "occurrence": 1,
+      "EN": "Duty thinks otherwise and even Freedom doesn't seem to want to help you.",
+      "JA_current": "デューティーはそう思ってないし、フリーダムも協力する気はなさそうだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_ecolog_crush_professor_give_info_dp",
+          "phrase_id": "1211",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_1212#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1553,
+      "string_id": "bar_ecolog_crush_professor_give_info_dp_1212",
+      "occurrence": 1,
+      "EN": "Maybe there is some use in studying the Zone.",
+      "JA_current": "ゾーンを研究すれば、何か役に立つかもしれない。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_ecolog_crush_professor_give_info_dp",
+          "phrase_id": "1212",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_12111#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1550,
+      "string_id": "bar_ecolog_crush_professor_give_info_dp_12111",
+      "occurrence": 1,
+      "EN": "You're simply incapable of grasping the whole picture. Your \"here and now\" problems are far more important to you than the future of humanity!",
+      "JA_current": "あなたには全体像がまるで見えていません。「今ここ」の問題を、人類の未来より重く見ている！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_ecolog_crush_professor_give_info_dp",
+          "phrase_id": "12111",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_12121#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 1556,
+      "string_id": "bar_ecolog_crush_professor_give_info_dp_12121",
+      "occurrence": 1,
+      "EN": "So you understand that too? It's wonderful to discover that there are those among you who are not narrow-minded practical people. I've always said it's important to look at the whole set of issues from a broader perspective, to distance ourselves from the simple human measures. Even if the Zone has done harm to humanity, it can still be of great use to us!",
+      "JA_current": "あなたも分かってくれるのですね？ 目先の実利しか見ない人ばかりではないと分かり、嬉しいです。物事は全体を広く見渡し、単純な人間の尺度から距離を置いて考えるべきだと、私はいつも言っています。ゾーンが人類に害をもたらしたとしても、私たちの役に立つ可能性はあるのです！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "bar_ecolog_crush_professor_give_info_dp",
+          "phrase_id": "12121",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "bar_ecolog_crush_professor_give_info_dp_0",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'd like to know something.",
+      "JA_current": "いくつか知りたいことがあるんだが。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_0#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "bar_ecolog_crush_professor_give_info_dp_1",
+      "next": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What do you want to know?",
+      "JA_current": "何が知りたい？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_1#1"
+      ]
+    },
+    {
+      "phrase_id": "11",
+      "text_id": "bar_ecolog_crush_professor_give_info_dp_11",
+      "next": [
+        "111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Who are you and how did you end up here?",
+      "JA_current": "アンタは誰で、どうやってここにたどり着いた？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_11#1"
+      ]
+    },
+    {
+      "phrase_id": "12",
+      "text_id": "bar_ecolog_crush_professor_give_info_dp_12",
+      "next": [
+        "121"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Tell me about the Zone.",
+      "JA_current": "ゾーンについて教えてくれ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_12#1"
+      ]
+    },
+    {
+      "phrase_id": "13",
+      "text_id": "bar_ecolog_crush_professor_give_info_dp_13",
+      "next": [
+        "131"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "bar_get_research_gain"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Why are Mercs looking for this information?",
+      "JA_current": "Mercs は何故この情報を探しているんだ？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_13#1"
+      ]
+    },
+    {
+      "phrase_id": "14",
+      "text_id": "bar_ecolog_crush_professor_give_info_dp_14",
+      "next": [
+        "141"
+      ],
+      "conditions": [
+        {
+          "type": "has_info",
+          "value": "bar_x16_documents_start"
+        }
+      ],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I am looking for Lab X-16. Could you tell me where it is?",
+      "JA_current": "Lab X16 を探しているんだが、どこにあるか教えてくれないか？",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_14#1"
+      ]
+    },
+    {
+      "phrase_id": "15",
+      "text_id": "bar_ecolog_crush_professor_give_info_dp_15",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Unfortunately I have to go. Good luck.",
+      "JA_current": "残念だが俺は行かなきゃならん。幸運を。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_15#1"
+      ]
+    },
+    {
+      "phrase_id": "111",
+      "text_id": "bar_ecolog_crush_professor_give_info_dp_111",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "11"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "My name is Kruglov. I am a professor of biology, I study the Zone. Yesterday, for example, I studied a life form of particular interest - Anthropomorphous Dendromutantus Vulgaris. I mostly study and document new species of mutant animals, looking in particular at their unique traits and distinctive features. The information is then thoroughly peer-reviewed and transferred to the outside world. Some of it, of course, goes to the Barkeep. My discoveries have helped to save the lives of many stalkers. I was just transporting the results of my latest research to the laboratory near Lake Yantar when the helicopter came under fire.",
+      "JA_current": "私の名は Kruglov。生物学の教授で、ゾーンを研究している。例えば昨日、特に興味深い1匹の動物を発見したところだ ― Antropomorphus Dendromutantus Vulgaris だよ。私は主に変異体動物、それが持つ行動特質、および特有の造作の新種を見つけ出し、論文にまとめている。この情報はさらに詳しく研究された後、外界へ発表される。もちろんいくつかは、Barkeep のところにも行くんだがね。私の発見は、多くのストーカーの命を救うのに役立っているよ。ちょうど Yantar 湖のほとりのラボに、最新の調査結果を運び込もうとしたところ、ヘリが攻撃を受けてしまったんだ。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_111#1"
+      ]
+    },
+    {
+      "phrase_id": "121",
+      "text_id": "bar_ecolog_crush_professor_give_info_dp_121",
+      "next": [
+        "1211",
+        "1212"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "12"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "The Zone is a wonderful gift to humanity. Of course normal existence here is not possible due to the high radiation levels, anomalies and aggressive mutants. All of these things are obviously extremely dangerous but they are also things of great scientific value. The Zone is almost a natural experiment, a treasure for scientists! The extent to which humanity's knowledge could be increased through the study of the Zone is unfathomable. Technology, medicine, new plants- medical and edible, biotechnology, cures for incurable diseases...anything! Perhaps we can solve the food problem for the entire planet. If people didn't interfere, science could lead humanity into a new Golden Era!",
+      "JA_current": "ゾーンは人類へのすばらしい贈り物だ。もちろんここでは、高い放射線濃度と攻撃的なミュータントのため、通常の生活は不可能だ。これらすべてが、非常に危険なことは明らかだが、科学的価値は大きい。ゾーンは、ほとんど自然のままの実験室であり、科学者の宝だ！ ゾーンを研究することを通して増やされうる、人類の知識の量は測りしれない。テクノロジー、医療、医療用と食用の新種の植物、バイオテクノロジー、不治の病に対する治療法… いろんなものにな！ 多分、この惑星全体の食料問題も解決出来る。じゃまする人間がいなければ、科学は人類を、新しい黄金時代へと導くことだろう！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_121#1"
+      ]
+    },
+    {
+      "phrase_id": "131",
+      "text_id": "bar_ecolog_crush_professor_give_info_dp_131",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "13"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I hope this doesn't offend you, but many stalkers are like children. They are seriously affected by things they find out. Just think of all these legends about a Monolith that grants wishes. What a joke! The problem is that these children play their games with real weapons and cause death. Childish people are often annoyed about the fact that someone doesn't share everything with them, including information that is not meant for them. There are no limits in the use of force. They shoot without thinking and kill those who study the Zone. They believe that this information will allow them to open the way to the center of the Zone. They're fools, dangerous and naive fools!",
+      "JA_current": "君を怒らせなければいいが、多くのストーカーは子供みたいなもんだ。自分たちが見つけ出したものに、ひどく影響される。ちょっと考えてみてくれ、望みを叶えるというモノリスについての伝説の数々を。何たるジョーク！ 問題はこれらの子供が、現実の武器でゲームに興じ、死んでしまうことだ。子供じみた連中はしばしば、誰かが一部の情報をひとり占めしているという事実にイラつくんだ、彼らにとって意味のない情報も含まれてるのにだ。この情報が、ゾーン中心部への道を開くものだと信じ込んでいる。馬鹿だよ、危険で未熟な馬鹿野郎だ！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_131#1"
+      ]
+    },
+    {
+      "phrase_id": "141",
+      "text_id": "bar_ecolog_crush_professor_give_info_dp_141",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "14"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Lab X-16? Hmm... Sakharov mentioned something of the sort in passing but I do not recall exactly what he said. Perhaps it's best to ask him yourself... He's currently in the mobile lab by Lake Yantar.",
+      "JA_current": "Lab X16 だと？ そういえば Sakharov が前にそんな類のことをほのめかしてたが、何と言ってたかはっきり思い出せないな。彼自身に聞くのが一番いい… 彼なら今は Yantar 湖の側の移動研究所にいる。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_141#1"
+      ]
+    },
+    {
+      "phrase_id": "1211",
+      "text_id": "bar_ecolog_crush_professor_give_info_dp_1211",
+      "next": [
+        "12111"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "121"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Duty thinks otherwise and even Freedom doesn't seem to want to help you.",
+      "JA_current": "Duty は別の考えだ、Freedom でさえ、アンタを手助けしたくないように見えるがね。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_1211#1"
+      ]
+    },
+    {
+      "phrase_id": "1212",
+      "text_id": "bar_ecolog_crush_professor_give_info_dp_1212",
+      "next": [
+        "12121"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "121"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Maybe there is some use in studying the Zone.",
+      "JA_current": "多分、ゾーンの研究の使い道が何かあると思う。",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_1212#1"
+      ]
+    },
+    {
+      "phrase_id": "12111",
+      "text_id": "bar_ecolog_crush_professor_give_info_dp_12111",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1211"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "You're simply incapable of grasping the whole picture. Your \"here and now\" problems are far more important to you than the future of humanity!",
+      "JA_current": "簡単には全貌をつかむことは出来ない。「今ここで」の問題は君にとって、人類の将来よりはるかに重要だろうしな！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_12111#1"
+      ]
+    },
+    {
+      "phrase_id": "12121",
+      "text_id": "bar_ecolog_crush_professor_give_info_dp_12121",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1212"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "So you understand that too? It's wonderful to discover that there are those among you who are not narrow-minded practical people. I've always said it's important to look at the whole set of issues from a broader perspective, to distance ourselves from the simple human measures. Even if the Zone has done harm to humanity, it can still be of great use to us!",
+      "JA_current": "そう、君も理解してくれるか？ 理解を得られたなら素晴らしい。君は心のせまい現実主義者ではないな。私は常々、広い視野から問題の全体像を見ることが重要だと言っている。単細胞な人間の物差しから距離をおいてな。ゾーンが人類に危害を加えようとも、非常に役に立つことがあるんだよ！",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:bar_ecolog_crush_professor_give_info_dp_12121#1"
+      ]
+    }
+  ]
+}

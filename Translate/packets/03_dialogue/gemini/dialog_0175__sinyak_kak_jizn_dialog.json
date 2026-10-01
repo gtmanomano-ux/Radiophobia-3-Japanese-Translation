@@ -1,0 +1,496 @@
+{
+  "packet_id": "dialog_0175__sinyak_kak_jizn_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "sinyak_kak_jizn_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_bar.xml",
+  "graph_sha256": "6723e32893f99c03c8eaebdfbdba7dcbfbbd349df825bab2a4cee0b9a0c04457",
+  "character_bindings": [
+    {
+      "profile_id": "stalker_sinyak",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_bar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "has_info",
+      "value": "sinyak_quest_done"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "sinyak_navodka"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 11,
+  "entries": [
+    {
+      "key": "stable_dialogs_bar:sinyak_kak_jizn_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2447,
+      "string_id": "sinyak_kak_jizn_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "What's up, stalker? Are you still wasted?",
+      "JA_current": "よう、ストーカー。まだ呑んだくれてるのか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_kak_jizn_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sinyak_kak_jizn_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2450,
+      "string_id": "sinyak_kak_jizn_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "Yeah, I, uh... How about a drink?",
+      "JA_current": "へへ、まあな……どうだ、一杯やらねえか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_kak_jizn_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sinyak_kak_jizn_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2453,
+      "string_id": "sinyak_kak_jizn_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "Not now, I'm busy.",
+      "JA_current": "今はパスだ、忙しい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_kak_jizn_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sinyak_kak_jizn_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2456,
+      "string_id": "sinyak_kak_jizn_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "Do you respect me?",
+      "JA_current": "おい……お前、俺のこと見下してねえよな？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_kak_jizn_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sinyak_kak_jizn_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2459,
+      "string_id": "sinyak_kak_jizn_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Well, come on.",
+      "JA_current": "付き合ってやるよ、ほら。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_kak_jizn_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sinyak_kak_jizn_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2462,
+      "string_id": "sinyak_kak_jizn_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "Wait a minute, I've got a little something on me... Well, shudder!",
+      "JA_current": "待て待て、懐にいいもんが入ってるんだ……さあ、グッとあおろうぜ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_kak_jizn_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sinyak_kak_jizn_dialog_phrase_7#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2465,
+      "string_id": "sinyak_kak_jizn_dialog_phrase_7",
+      "occurrence": 1,
+      "EN": "Shuddered.",
+      "JA_current": "（一気に呷る）",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_kak_jizn_dialog",
+          "phrase_id": "6",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sinyak_kak_jizn_dialog_phrase_8#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2468,
+      "string_id": "sinyak_kak_jizn_dialog_phrase_8",
+      "occurrence": 1,
+      "EN": "Man, you're a good man, Marked One! Do you want me to tell you where the loot is?",
+      "JA_current": "お前、話のわかるいい奴だな、マークド・ワン！ なあ、いい獲物のありかを教えてやろうか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_kak_jizn_dialog",
+          "phrase_id": "7",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sinyak_kak_jizn_dialog_phrase_9#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2471,
+      "string_id": "sinyak_kak_jizn_dialog_phrase_9",
+      "occurrence": 1,
+      "EN": "Yeah, where is it?",
+      "JA_current": "ほう、どこにあるんだ？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_kak_jizn_dialog",
+          "phrase_id": "8",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sinyak_kak_jizn_dialog_phrase_10#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2474,
+      "string_id": "sinyak_kak_jizn_dialog_phrase_10",
+      "occurrence": 1,
+      "EN": "When you get past the southern roadblock, immediately turn left around the corner. There's a hobo there that's been dead for a long time and is still lying there behind the pipes, no one can see him. I had stashed some trinkets in the hiding place out there before, so I went to get it and ran into him. I didn't have time to search him - I was on a real bender. So check it out, maybe you'll get something.",
+      "JA_current": "南の検問所を抜けたら、角をすぐ左に曲がるんだ。パイプの裏に、昔くたばった奴の死体が転がってる。誰も気づかない死角だ。前にあそこの隠し場所に小物を隠しててな、取りに戻った時に出くわしたのさ。俺はベロベロに酔っ払ってたから、遺体を漁る余裕がなくてね。見に行ってみな、何かいいものが見つかるかもしれんぞ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_kak_jizn_dialog",
+          "phrase_id": "9",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_bar:sinyak_kak_jizn_dialog_phrase_11#1",
+      "source_table": "stable_dialogs_bar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_bar.xml",
+      "source_xml_line": 2477,
+      "string_id": "sinyak_kak_jizn_dialog_phrase_11",
+      "occurrence": 1,
+      "EN": "We'll see.",
+      "JA_current": "気が向いたらな。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "sinyak_kak_jizn_dialog",
+          "phrase_id": "10",
+          "graph_source": "gamedata/config/gameplay/dialogs_bar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "sinyak_kak_jizn_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What's up, stalker? Are you still wasted?",
+      "JA_current": "What's up, stalker? Are you still wasted?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_kak_jizn_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "sinyak_kak_jizn_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.da_ya_ot"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, I, uh... How about a drink?",
+      "JA_current": "Yeah, I, uh... How about a drink?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_kak_jizn_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "sinyak_kak_jizn_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Not now, I'm busy.",
+      "JA_current": "Not now, I'm busy.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_kak_jizn_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "sinyak_kak_jizn_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.ti_menya"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Do you respect me?",
+      "JA_current": "Do you respect me?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_kak_jizn_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "sinyak_kak_jizn_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Well, come on.",
+      "JA_current": "Well, come on.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_kak_jizn_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "sinyak_kak_jizn_dialog_phrase_6",
+      "next": [
+        "6"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Wait a minute, I've got a little something on me... Well, shudder!",
+      "JA_current": "Wait a minute, I've got a little something on me... Well, shudder!",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_kak_jizn_dialog_phrase_6#1"
+      ]
+    },
+    {
+      "phrase_id": "6",
+      "text_id": "sinyak_kak_jizn_dialog_phrase_7",
+      "next": [
+        "7"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "soundtrack.drink_vodka"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "5"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Shuddered.",
+      "JA_current": "Shuddered.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_kak_jizn_dialog_phrase_7#1"
+      ]
+    },
+    {
+      "phrase_id": "7",
+      "text_id": "sinyak_kak_jizn_dialog_phrase_8",
+      "next": [
+        "8"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "6"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Man, you're a good man, Marked One! Do you want me to tell you where the loot is?",
+      "JA_current": "Man, you're a good man, Marked One! Do you want me to tell you where the loot is?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_kak_jizn_dialog_phrase_8#1"
+      ]
+    },
+    {
+      "phrase_id": "8",
+      "text_id": "sinyak_kak_jizn_dialog_phrase_9",
+      "next": [
+        "9"
+      ],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "sinyak_navodka"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "7"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Yeah, where is it?",
+      "JA_current": "Yeah, where is it?",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_kak_jizn_dialog_phrase_9#1"
+      ]
+    },
+    {
+      "phrase_id": "9",
+      "text_id": "sinyak_kak_jizn_dialog_phrase_10",
+      "next": [
+        "10"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "8"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "When you get past the southern roadblock, immediately turn left around the corner. There's a hobo there that's been dead for a long time and is still lying there behind the pipes, no one can see him. I had stashed some trinkets in the hiding place out there before, so I went to get it and ran into him. I didn't have time to search him - I was on a real bender. So check it out, maybe you'll get something.",
+      "JA_current": "When you get past the southern roadblock, immediately turn left around the corner. There's a hobo there that's been dead for a long time and is still lying there behind the pipes, no one can see him. I had stashed some trinkets in the hiding place out there before, so I went to get it and ran into him. I didn't have time to search him - I was on a real bender. So check it out, maybe you'll get something.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_kak_jizn_dialog_phrase_10#1"
+      ]
+    },
+    {
+      "phrase_id": "10",
+      "text_id": "sinyak_kak_jizn_dialog_phrase_11",
+      "next": [],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "9"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "We'll see.",
+      "JA_current": "We'll see.",
+      "string_entry_candidates": [
+        "stable_dialogs_bar:sinyak_kak_jizn_dialog_phrase_11#1"
+      ]
+    }
+  ]
+}

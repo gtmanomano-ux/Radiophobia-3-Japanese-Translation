@@ -1,0 +1,295 @@
+{
+  "packet_id": "dialog_0462__basta_quest_dialog",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "basta_quest_dialog",
+  "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml",
+  "graph_sha256": "131d3c64c00a1023af4aaa914f345f3cfff2e581dea421160993fad100675545",
+  "character_bindings": [
+    {
+      "profile_id": "basta_stalker",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_yantar.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "basta_quest_start"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "basta_otkaz"
+    },
+    {
+      "type": "has_info",
+      "value": "basta_privet"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 6,
+  "entries": [
+    {
+      "key": "stable_dialogs_yantar:basta_quest_dialog_phrase_1#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 662,
+      "string_id": "basta_quest_dialog_phrase_1",
+      "occurrence": 1,
+      "EN": "What else can you tell me about the men I'm looking for?",
+      "JA_current": "What else can you tell me about the men I'm looking for?",
+      "JA_new": "俺が探してる連中について、ほかに何か分かるか？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_quest_dialog",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_quest_dialog_phrase_2#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 665,
+      "string_id": "basta_quest_dialog_phrase_2",
+      "occurrence": 1,
+      "EN": "I have information about where they should be at the moment. But before I give it to you, I would like to ask you for one favor.",
+      "JA_current": "I have information about where they should be at the moment. But before I give it to you, I would like to ask you for one favor.",
+      "JA_new": "今どこにいるかなら分かる。だが、その前に一つ頼みを聞いてほしい。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_quest_dialog",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_quest_dialog_phrase_3#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 668,
+      "string_id": "basta_quest_dialog_phrase_3",
+      "occurrence": 1,
+      "EN": "I'm listening.",
+      "JA_current": "I'm listening.",
+      "JA_new": "聞こう。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_quest_dialog",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_quest_dialog_phrase_4#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 671,
+      "string_id": "basta_quest_dialog_phrase_4",
+      "occurrence": 1,
+      "EN": "My current situation is such that in order to save my own skin I have to leave the Zone. In fact, that's why I came here, to the scientists. I wanted to arrange with them a ride out of the Zone, on their helicopter, which brings them food and supplies, and could pick me up and take me to the outside. I would not be able to get away from Vulture's people any other way, certainly not on foot across the wilderness. I have already talked to the right people here and they told me that this case, though difficult, is quite feasible. Except that they want as payment this one rare artifact called \"Fisheye\" - for their research. I would risk getting it myself, but after my injuries I am still very weak, and my weapon is shitty. Help me, please, find this artifact!",
+      "JA_current": "My current situation is such that in order to save my own skin I have to leave the Zone. In fact, that's why I came here, to the scientists. I wanted to arrange with them a ride out of the Zone, on their helicopter, which brings them food and supplies, and could pick me up and take me to the outside. I would not be able to get away from Vulture's people any other way, certainly not on foot across the wilderness. I have already talked to the right people here and they told me that this case, though difficult, is quite feasible. Except that they want as payment this one rare artifact called \"Fisheye\" - for their research. I would risk getting it myself, but after my injuries I am still very weak, and my weapon is shitty. Help me, please, find this artifact!",
+      "JA_new": "今の俺は、生き延びるためにゾーンを出なきゃならない。ここに来たのもそのためで、科学者たちに頼んで、外へ出る足を用意してもらおうと思ったんだ。食料や物資を届けているヘリに拾ってもらって、ゾーンの外へ連れていってもらう。ヴァルチャーの手下から逃げるには、それしかない。歩いて荒野を抜けるなんて無理だ。ここの担当者とはもう話がついていて、難しいが実現できると言われた。ただし、見返りに希少なアーティファクト「フィッシュアイ」を研究用に渡せと言われてる。俺が自分で探しに行きたいが、怪我がまだ治ってなくて体が弱いし、武器もボロだ。頼む、フィッシュアイを見つけてくれ！",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_quest_dialog",
+          "phrase_id": "3",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_quest_dialog_phrase_5#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 674,
+      "string_id": "basta_quest_dialog_phrase_5",
+      "occurrence": 1,
+      "EN": "Okay. Where can I find it?",
+      "JA_current": "Okay. Where can I find it?",
+      "JA_new": "分かった。どこにある？",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_quest_dialog",
+          "phrase_id": "4",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_yantar:basta_quest_dialog_phrase_6#1",
+      "source_table": "stable_dialogs_yantar",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_yantar.xml",
+      "source_xml_line": 677,
+      "string_id": "basta_quest_dialog_phrase_6",
+      "occurrence": 1,
+      "EN": "It must be somewhere at the Yantar factory, the last expedition of scientists observed it in the area. But they could not get the artifact for some unknown reason. Be careful, stalker! Good luck to you.",
+      "JA_current": "It must be somewhere at the Yantar factory, the last expedition of scientists observed it in the area. But they could not get the artifact for some unknown reason. Be careful, stalker! Good luck to you.",
+      "JA_new": "ヤンター工場のどこかだ。前回の調査隊が、その辺りで見つけている。ただ、どういうわけか回収できなかった。気をつけろよ、ストーカー！ 幸運を。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "basta_quest_dialog",
+          "phrase_id": "5",
+          "graph_source": "gamedata/config/gameplay/dialogs_yantar.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "basta_quest_dialog_phrase_1",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "What else can you tell me about the men I'm looking for?",
+      "JA_current": "What else can you tell me about the men I'm looking for?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_quest_dialog_phrase_1#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "basta_quest_dialog_phrase_2",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I have information about where they should be at the moment. But before I give it to you, I would like to ask you for one favor.",
+      "JA_current": "I have information about where they should be at the moment. But before I give it to you, I would like to ask you for one favor.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_quest_dialog_phrase_2#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "basta_quest_dialog_phrase_3",
+      "next": [
+        "3"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "I'm listening.",
+      "JA_current": "I'm listening.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_quest_dialog_phrase_3#1"
+      ]
+    },
+    {
+      "phrase_id": "3",
+      "text_id": "basta_quest_dialog_phrase_4",
+      "next": [
+        "4"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "2"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "My current situation is such that in order to save my own skin I have to leave the Zone. In fact, that's why I came here, to the scientists. I wanted to arrange with them a ride out of the Zone, on their helicopter, which brings them food and supplies, and could pick me up and take me to the outside. I would not be able to get away from Vulture's people any other way, certainly not on foot across the wilderness. I have already talked to the right people here and they told me that this case, though difficult, is quite feasible. Except that they want as payment this one rare artifact called \"Fisheye\" - for their research. I would risk getting it myself, but after my injuries I am still very weak, and my weapon is shitty. Help me, please, find this artifact!",
+      "JA_current": "My current situation is such that in order to save my own skin I have to leave the Zone. In fact, that's why I came here, to the scientists. I wanted to arrange with them a ride out of the Zone, on their helicopter, which brings them food and supplies, and could pick me up and take me to the outside. I would not be able to get away from Vulture's people any other way, certainly not on foot across the wilderness. I have already talked to the right people here and they told me that this case, though difficult, is quite feasible. Except that they want as payment this one rare artifact called \"Fisheye\" - for their research. I would risk getting it myself, but after my injuries I am still very weak, and my weapon is shitty. Help me, please, find this artifact!",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_quest_dialog_phrase_4#1"
+      ]
+    },
+    {
+      "phrase_id": "4",
+      "text_id": "basta_quest_dialog_phrase_5",
+      "next": [
+        "5"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "3"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Okay. Where can I find it?",
+      "JA_current": "Okay. Where can I find it?",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_quest_dialog_phrase_5#1"
+      ]
+    },
+    {
+      "phrase_id": "5",
+      "text_id": "basta_quest_dialog_phrase_6",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "give_info",
+          "value": "basta_quest_start"
+        },
+        {
+          "type": "action",
+          "value": "ogse_spawns.spawn_fisheye"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "4"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "It must be somewhere at the Yantar factory, the last expedition of scientists observed it in the area. But they could not get the artifact for some unknown reason. Be careful, stalker! Good luck to you.",
+      "JA_current": "It must be somewhere at the Yantar factory, the last expedition of scientists observed it in the area. But they could not get the artifact for some unknown reason. Be careful, stalker! Good luck to you.",
+      "string_entry_candidates": [
+        "stable_dialogs_yantar:basta_quest_dialog_phrase_6#1"
+      ]
+    }
+  ]
+}

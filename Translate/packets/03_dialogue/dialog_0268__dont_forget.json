@@ -1,0 +1,178 @@
+{
+  "packet_id": "dialog_0268__dont_forget",
+  "category": "dialogue",
+  "packet_type": "dialogue_graph",
+  "directive": "会話グラフ、分岐条件、前後の返答を読んで、日本語版ゲームの自然な台詞として執筆する。",
+  "translation_policy": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia 3 会話グラフ翻訳方針.md",
+  "reference_archive": "F:\\Games\\Radiophobia 3\\Translate\\Radiophobia3.14Chinese.zip",
+  "current_packed_graph_verified": false,
+  "dialog_id": "dont_forget",
+  "graph_source": "gamedata/config/gameplay/dialogs_escape.xml",
+  "graph_sha256": "d394efa86a85c01d070806d2fe6d67557875e956b8838e4465b97e6420a86dc7",
+  "character_bindings": [
+    {
+      "profile_id": "esc_tutorial_wounded",
+      "binding_type": "actor_dialog",
+      "profile_source": "gamedata/config/gameplay/character_desc_escape.xml"
+    }
+  ],
+  "dialog_conditions": [
+    {
+      "type": "dont_has_info",
+      "value": "rad_start_svoboda_vs_dolg"
+    },
+    {
+      "type": "has_info",
+      "value": "find_tolik_vodka"
+    },
+    {
+      "type": "dont_has_info",
+      "value": "bar_ecolog_crush_heli_start"
+    }
+  ],
+  "root_speaker_hint": "player",
+  "graph_issues": {
+    "duplicate_phrase_ids": [],
+    "broken_links": [],
+    "speaker_parity_conflicts": []
+  },
+  "entry_count": 3,
+  "entries": [
+    {
+      "key": "stable_dialogs_escape:what_ask#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 688,
+      "string_id": "what_ask",
+      "occurrence": 1,
+      "EN": "About that bottle of vodka...",
+      "JA_current": "About that bottle of vodka...",
+      "JA_new": "ウォッカのことだけど……",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dont_forget",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        },
+        {
+          "dialog_id": "nu_chto",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        },
+        {
+          "dialog_id": "find_vodka",
+          "phrase_id": "0",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:don_forget#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 680,
+      "string_id": "don_forget",
+      "occurrence": 1,
+      "EN": "Don't forget about the stashed weapon. The assault rifle is hidden in the Wild Territory. The place is near a bush.",
+      "JA_current": "Don't forget about the stashed weapon. The assault rifle is hidden in the Wild Territory. The place is near a bush.",
+      "JA_new": "隠してある武器のことも忘れるなよ。アサルトライフルは荒廃領域に隠してある。茂みの近くだ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dont_forget",
+          "phrase_id": "1",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    },
+    {
+      "key": "stable_dialogs_escape:ne_zabudu#1",
+      "source_table": "stable_dialogs_escape",
+      "source_file": "F:\\Games\\Radiophobia 3\\gamedata\\config\\text\\jpn\\stable_dialogs_escape.xml",
+      "source_xml_line": 684,
+      "string_id": "ne_zabudu",
+      "occurrence": 1,
+      "EN": "Thanks, I'll keep that in mind.",
+      "JA_current": "Thanks, I'll keep that in mind.",
+      "JA_new": "ありがとう。覚えておくよ。",
+      "review_notes": null,
+      "english_reference_status": "same_table_and_id_occurrence",
+      "review_flags": [],
+      "graph_uses": [
+        {
+          "dialog_id": "dont_forget",
+          "phrase_id": "2",
+          "graph_source": "gamedata/config/gameplay/dialogs_escape.xml"
+        }
+      ]
+    }
+  ],
+  "graph_nodes": [
+    {
+      "phrase_id": "0",
+      "text_id": "what_ask",
+      "next": [
+        "1"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "About that bottle of vodka...",
+      "JA_current": "About that bottle of vodka...",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:what_ask#1"
+      ]
+    },
+    {
+      "phrase_id": "1",
+      "text_id": "don_forget",
+      "next": [
+        "2"
+      ],
+      "conditions": [],
+      "effects": [],
+      "other_control": [],
+      "incoming": [
+        "0"
+      ],
+      "speaker_hint": "npc",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Don't forget about the stashed weapon. The assault rifle is hidden in the Wild Territory. The place is near a bush.",
+      "JA_current": "Don't forget about the stashed weapon. The assault rifle is hidden in the Wild Territory. The place is near a bush.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:don_forget#1"
+      ]
+    },
+    {
+      "phrase_id": "2",
+      "text_id": "ne_zabudu",
+      "next": [],
+      "conditions": [],
+      "effects": [
+        {
+          "type": "action",
+          "value": "dialogs.break_dialog"
+        }
+      ],
+      "other_control": [],
+      "incoming": [
+        "1"
+      ],
+      "speaker_hint": "player",
+      "speaker_hint_basis": "character_binding_and_link_parity",
+      "EN": "Thanks, I'll keep that in mind.",
+      "JA_current": "Thanks, I'll keep that in mind.",
+      "string_entry_candidates": [
+        "stable_dialogs_escape:ne_zabudu#1"
+      ]
+    }
+  ]
+}
